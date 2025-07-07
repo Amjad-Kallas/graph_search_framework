@@ -1,6 +1,6 @@
-# **Experiments for ISWC 2024**
+# **Experiments for the SWJ (2024)**
 
-This README describes and details the experiments that were run for the ISWC 2024 submission.
+This README describes and details the experiments that were run for the SWJ submission.
 
 ### 5.1 Relevant Event Retrieval
 For the search experiments, we created a main folder with the data in the root directory: `data-test`, with two sub-folders: `dbpedia` and `wikidata`. Each sub-folder had three folders: `config`, `gs_events` and `referents`.

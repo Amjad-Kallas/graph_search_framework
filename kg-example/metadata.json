@@ -1,0 +1,13 @@
+{
+    "start": "2023-03-02 20:02:52.329800",
+    "best_f1": 0.8921438082556591,
+    "best_corresponding_precision": 0.8885941644562334,
+    "best_corresponding_recall": 0.8957219251336899,
+    "best_f1_it_nb": 16,
+    "last_f1": 0.8600770218228498,
+    "last_precision": 0.8271604938271605,
+    "last_recall": 0.8957219251336899,
+    "last_it": 200,
+    "nb_expanded": 385,
+    "end": "2023-03-02 20:03:42.952009"
+}

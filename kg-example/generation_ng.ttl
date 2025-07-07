@@ -1,0 +1,3543 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:13_Vend%C3%A9miaire a sem:Event ;
+    sem:hasActor dbr:Napoleon,
+        dbr:Paul_Barras,
+        dbr:Richer_de_S%C3%A9vigny ;
+    sem:hasBeginTimeStamp "1795-10-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-05"^^xsd:date ;
+    sem:subEventOf dbr:The_French_Revolution .
+
+dbr:Abolition_of_feudalism_in_France a sem:Event .
+
+dbr:Action_at_Mannheim_%281795%29 a sem:Event ;
+    sem:hasActor dbr:Anne_Charles_Basset_Montaigu,
+        dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Jean-Charles_Pichegru ;
+    sem:hasBeginTimeStamp "1795-10-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-18"^^xsd:date ;
+    sem:hasPlace dbr:Electoral_Palatinate,
+        dbr:Germany,
+        dbr:Mannheim ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Action_of_10_April_1795 a sem:Event ;
+    sem:hasActor dbr:John_Colpoys ;
+    sem:hasBeginTimeStamp "1795-04-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-04-11"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Western_Approaches .
+
+dbr:Action_of_12_May_1796 a sem:Event ;
+    sem:hasActor dbr:Lawrence_Halsted ;
+    sem:hasBeginTimeStamp "1796-05-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-05-12"^^xsd:date ;
+    sem:hasPlace dbr:North_Sea,
+        dbr:Texel .
+
+dbr:Action_of_13_January_1797 a sem:Event ;
+    sem:hasActor dbr:Edward_Pellew%2C_1st_Viscount_Exmouth,
+        dbr:Jean-Baptiste_Raymond_de_Lacrosse,
+        dbr:Robert_Carthew_Reynolds ;
+    sem:hasBeginTimeStamp "1797-01-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-01-14"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Bay_of_Biscay .
+
+dbr:Action_of_13_October_1796 a sem:Event ;
+    sem:hasActor dbr:Richard_Bowen_%28Royal_Navy_officer%29,
+        dbr:Tom%C3%A1s_de_Ayalde ;
+    sem:hasBeginTimeStamp "1796-10-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-10-13"^^xsd:date ;
+    sem:hasPlace dbr:Cabo_de_Gata,
+        dbr:Mediterranean_Sea .
+
+dbr:Action_of_14_December_1798 a sem:Event ;
+    sem:hasBeginTimeStamp "1798-12-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-12-14"^^xsd:date ;
+    sem:hasPlace dbr:Bay_of_Biscay,
+        dbr:Gironde .
+
+dbr:Action_of_14_February_1795 a sem:Event .
+
+dbr:Action_of_15_July_1798 a sem:Event ;
+    sem:hasActor dbr:Felix_O%27Neil,
+        dbr:Manley_Dixon ;
+    sem:hasBeginTimeStamp "1798-07-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-07-15"^^xsd:date ;
+    sem:hasPlace dbr:Cartagena%2C_Spain,
+        dbr:Mediterranean_Sea .
+
+dbr:Action_of_18_August_1798 a sem:Event ;
+    sem:hasActor dbr:Louis-Jean-Nicolas_Lejoille,
+        dbr:Sir_Thomas_Thompson%2C_1st_Baronet ;
+    sem:hasBeginTimeStamp "1798-08-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-08-18"^^xsd:date ;
+    sem:hasPlace dbr:Aegean_Sea,
+        dbr:Crete .
+
+dbr:Action_of_18_June_1793 a sem:Event ;
+    sem:hasActor dbr:Edward_Pellew%2C_1st_Viscount_Exmouth ;
+    sem:hasBeginTimeStamp "1793-06-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-18"^^xsd:date ;
+    sem:hasPlace dbr:English_Channel,
+        dbr:Start_Point%2C_Devon .
+
+dbr:Action_of_18_June_1799 a sem:Event ;
+    sem:hasActor dbr:George_Elphinstone%2C_1st_Viscount_Keith,
+        dbr:Jean-Baptiste_Perr%C3%A9e,
+        dbr:John_Markham_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1799-06-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-06-18"^^xsd:date ;
+    sem:hasPlace dbr:Toulon .
+
+dbr:Action_of_19_December_1796 a sem:Event ;
+    sem:hasActor dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Jacobo_Stuart ;
+    sem:hasBeginTimeStamp "1796-12-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-12-20"^^xsd:date ;
+    sem:hasPlace dbr:Cartagena%2C_Spain,
+        dbr:Region_of_Murcia,
+        dbr:Spain .
+
+dbr:Action_of_19_January_1799 a sem:Event ;
+    sem:hasActor dbr:Francisco_Antonio_Mourelle ;
+    sem:hasBeginTimeStamp "1799-01-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-01-19"^^xsd:date ;
+    sem:hasPlace dbr:Europa_Point,
+        dbr:Strait_of_Gibraltar .
+
+dbr:Action_of_20_October_1793 a sem:Event ;
+    sem:hasActor dbr:James_Saumarez%2C_1st_Baron_de_Saumarez ;
+    sem:hasBeginTimeStamp "1793-10-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-20"^^xsd:date ;
+    sem:hasPlace dbr:English_Channel .
+
+dbr:Action_of_21_October_1794 a sem:Event ;
+    sem:hasActor dbr:Antoine_Ren%C3%A9_Th%C3%A9venard,
+        dbr:Edward_Pellew%2C_1st_Viscount_Exmouth ;
+    sem:hasBeginTimeStamp "1794-10-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-10-21"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Ushant .
+
+dbr:Action_of_22_August_1795 a sem:Event ;
+    sem:hasBeginTimeStamp "1795-08-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-08-22"^^xsd:date ;
+    sem:hasPlace dbr:Eiger%C3%B8ya,
+        dbr:North_Sea .
+
+dbr:Action_of_22_October_1793 a sem:Event ;
+    sem:hasActor dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Jean-Baptiste_Perr%C3%A9e ;
+    sem:hasBeginTimeStamp "1793-10-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-22"^^xsd:date ;
+    sem:hasPlace dbr:Mediterranean_Sea,
+        dbr:Sardinia .
+
+dbr:Action_of_23_April_1794 a sem:Event ;
+    sem:hasActor dbr:John_Borlase_Warren ;
+    sem:hasBeginTimeStamp "1794-04-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-04-23"^^xsd:date ;
+    sem:hasPlace dbr:Guernsey .
+
+dbr:Action_of_24_June_1795 a sem:Event ;
+    sem:hasActor dbr:George_Henry_Towry,
+        dbr:Jean-Baptiste_Perr%C3%A9e ;
+    sem:hasBeginTimeStamp "1795-06-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-06-24"^^xsd:date ;
+    sem:hasPlace dbr:Mediterranean_Sea,
+        dbr:Toulon .
+
+dbr:Action_of_24_October_1793 a sem:Event ;
+    sem:hasActor dbr:Jean-Fran%C3%A7ois_Tartu,
+        dbr:Zacharie_Allemand ;
+    sem:hasBeginTimeStamp "1793-10-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-24"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Bay_of_Biscay .
+
+dbr:Action_of_24_October_1798 a sem:Event ;
+    sem:hasActor dbr:Sir_Richard_King%2C_2nd_Baronet ;
+    sem:hasPlace dbr:North_Sea,
+        dbr:Texel .
+
+dbr:Action_of_25_January_1797 a sem:Event ;
+    sem:hasActor dbr:Alonso_de_Torres_y_Guerra,
+        dbr:George_Stewart%2C_8th_Earl_of_Galloway ;
+    sem:hasBeginTimeStamp "1797-01-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-01-25"^^xsd:date ;
+    sem:hasPlace dbr:C%C3%A1diz,
+        dbr:Spain .
+
+dbr:Action_of_26_April_1797 a sem:Event ;
+    sem:hasActor dbr:George_Martin_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1797-04-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-04-26"^^xsd:date ;
+    sem:hasPlace dbr:Conil_de_la_Frontera .
+
+dbr:Action_of_27_June_1798 a sem:Event ;
+    sem:hasActor dbr:Edward_Foote ;
+    sem:hasBeginTimeStamp "1798-06-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-27"^^xsd:date ;
+    sem:hasPlace dbr:Mediterranean_Sea,
+        dbr:Strait_of_Sicily .
+
+dbr:Action_of_28_February_1799 a sem:Event ;
+    sem:hasActor dbr:Edward_Cooke_%28Royal_Navy_officer%29,
+        dbr:Hubert_Le_Loup_de_Beaulieu ;
+    sem:hasBeginTimeStamp "1799-02-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-02-28"^^xsd:date ;
+    sem:hasPlace dbr:Bay_of_Bengal,
+        dbr:Hooghly_River .
+
+dbr:Action_of_30_June_1798 a sem:Event ;
+    sem:hasActor dbr:Charles_Stirling ;
+    sem:hasBeginTimeStamp "1798-06-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-30"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Bay_of_Biscay .
+
+dbr:Action_of_30_May_1798 a sem:Event ;
+    sem:hasActor dbr:Etienne_P%C3%A9vrieu,
+        dbr:Francis_Laforey ;
+    sem:hasBeginTimeStamp "1798-05-31"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-31"^^xsd:date ;
+    sem:hasPlace dbr:Dives_%28river%29,
+        dbr:France,
+        dbr:Normandy .
+
+dbr:Action_of_31_July_1793 a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste-Fran%C3%A7ois_Bompart ;
+    sem:hasBeginTimeStamp "1793-07-31"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-31"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:East_Coast_of_the_United_States,
+        dbr:New_Jersey .
+
+dbr:Action_of_31_May_1796 a sem:Event ;
+    sem:hasActor dbr:Horatio_Nelson%2C_1st_Viscount_Nelson ;
+    sem:hasBeginTimeStamp "1796-05-31"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-05-31"^^xsd:date ;
+    sem:hasPlace dbr:Bussana,
+        dbr:Taggia .
+
+dbr:Action_of_5_May_1794 a sem:Event ;
+    sem:hasActor dbr:Henry_Newcome_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1794-05-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-05"^^xsd:date ;
+    sem:hasPlace dbr:Indian_Ocean,
+        dbr:Mauritius .
+
+dbr:Action_of_6_February_1799 a sem:Event ;
+    sem:hasActor dbr:James_Bowen_%28Royal_Navy_officer%29,
+        dbr:Pablo_Perez_%28Spanish_Navy%29 ;
+    sem:hasBeginTimeStamp "1799-02-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-02-06"^^xsd:date ;
+    sem:hasPlace dbr:Mallorca .
+
+dbr:Action_of_6_November_1794 a sem:Event ;
+    sem:hasActor dbr:Charles_Powell_Hamilton,
+        dbr:Joseph-Marie_Nielly,
+        dbr:Richard_Rodney_Bligh ;
+    sem:hasBeginTimeStamp "1794-11-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-11-06"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Celtic_Sea .
+
+dbr:Action_of_7_May_1794 a sem:Event ;
+    sem:hasActor dbr:Charles-Alexandre_L%C3%A9on_Durand_Linois,
+        dbr:Charles_Boyles ;
+    sem:hasBeginTimeStamp "1794-05-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-05"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Western_Approaches .
+
+dbr:Action_of_8_June_1794 a sem:Event .
+
+dbr:Action_of_8_March_1795 a sem:Event ;
+    sem:hasActor dbr:Louis-Jean-Nicolas_Lejoille ;
+    sem:hasBeginTimeStamp "1795-03-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-03-08"^^xsd:date ;
+    sem:hasPlace dbr:Cap_Corse,
+        dbr:Ligurian_Sea .
+
+dbr:Action_of_9_February_1799_%28South_Africa%29 a sem:Event ;
+    sem:hasActor dbr:Henry_Lidgbird_Ball ;
+    sem:hasBeginTimeStamp "1799-02-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-02-09"^^xsd:date ;
+    sem:hasPlace dbr:Southern_Africa .
+
+dbr:Action_of_9_September_1796 a sem:Event ;
+    sem:hasActor dbr:Contre-amiral,
+        dbr:Counter_admiral,
+        dbr:Pierre_C%C3%A9sar_Charles_de_Sercey ;
+    sem:hasBeginTimeStamp "1796-09-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-09"^^xsd:date ;
+    sem:hasPlace dbr:Banda_Aceh,
+        dbr:Sumatra .
+
+dbr:Anglo-Spanish_War_%281796%E2%80%931808%29 a sem:Event ;
+    sem:hasActor dbr:Arthur_Wellesley,
+        dbr:Charles_IV_of_Spain,
+        dbr:Cuthbert_Collingwood%2C_1st_Baron_Collingwood,
+        dbr:Federico_Gravina,
+        dbr:George_III,
+        dbr:Honor%C3%A9_Joseph_Antoine_Ganteaume,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:John_Jervis%2C_1st_Earl_of_St_Vincent,
+        dbr:Jos%C3%A9_de_C%C3%B3rdoba_y_Ramos,
+        dbr:Jose_de_Mazarredo_y_Salazar,
+        dbr:Manuel_Godoy,
+        dbr:Napoleon,
+        dbr:Paul_Barras,
+        dbr:Pierre-Charles_Villeneuve,
+        dbr:Robert_Calder,
+        dbr:Santiago_de_Liniers%2C_1st_Count_of_Buenos_Aires ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Balearic_Islands,
+        dbr:Caribbean_Sea,
+        dbr:English_Channel,
+        dbr:Menorca,
+        dbr:Strait_of_Gibraltar,
+        dbr:Straits_of_Gibraltar,
+        dbr:Trinidad,
+        dbr:Viceroyalty_of_the_R%C3%ADo_de_la_Plata .
+
+dbr:Atlantic_campaign_of_May_1794 a sem:Event ;
+    sem:hasActor dbr:George_Montagu_%28Royal_Navy_officer%29,
+        dbr:Joseph-Marie_Nielly,
+        dbr:Louis_Thomas_Villaret_de_Joyeuse,
+        dbr:Richard_Howe%2C_1st_Earl_Howe ;
+    sem:hasBeginTimeStamp "1794-05-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-02"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean .
+
+dbr:Atlantic_raid_of_June_1796 a sem:Event ;
+    sem:hasActor dbr:Jean_Moulston,
+        dbr:Thomas_Williams_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1796-06-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-22"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Western_Approaches .
+
+dbr:Bali_Strait_Incident a sem:Event ;
+    sem:hasActor dbr:Contre-amiral,
+        dbr:Counter_admiral,
+        dbr:Pierre_C%C3%A9sar_Charles_de_Sercey ;
+    sem:hasBeginTimeStamp "1797-01-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-01-28"^^xsd:date ;
+    sem:hasPlace dbr:Bali_Strait,
+        dbr:Dutch_East_Indies .
+
+dbr:Battle_of_%C3%8Ele_Ronde a sem:Event ;
+    sem:hasActor dbr:Jean-Marie_Renaud ;
+    sem:hasBeginTimeStamp "1794-10-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-10-22"^^xsd:date ;
+    sem:hasPlace dbr:Indian_Ocean,
+        dbr:Isle_de_France_%28Mauritius%29 .
+
+dbr:Battle_of_Abukir_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Ibrahim_Bey,
+        dbr:Joachim_Murat,
+        dbr:Louis-Nicolas_Davout,
+        dbr:Murad_Bey,
+        dbr:Mustafa_Pasha_%28Egypt%29,
+        dbr:Napoleon,
+        dbr:Napoleon_I_of_France ;
+    sem:hasBeginTimeStamp "1799-07-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-07-25"^^xsd:date ;
+    sem:hasPlace dbr:Abu_Qir,
+        dbr:Egypt .
+
+dbr:Battle_of_Aldenhoven_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Henri_Christian_Michel_de_Stengel,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1793-03-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-03-01"^^xsd:date ;
+    sem:hasPlace dbr:Aldenhoven,
+        dbr:Germany .
+
+dbr:Battle_of_Aldenhoven_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jean-Baptiste_Jourdan ;
+    sem:hasBeginTimeStamp "1794-10-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-10-02"^^xsd:date ;
+    sem:hasPlace dbr:Aldenhoven,
+        dbr:Germany ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Alkmaar_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Guillaume_Brune,
+        dbr:Herman_Willem_Daendels,
+        dbr:Magnus_Gustav_von_Essen,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany ;
+    sem:hasBeginTimeStamp "1799-10-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-10-02"^^xsd:date ;
+    sem:hasPlace dbr:Alkmaar ;
+    sem:subEventOf dbr:Anglo-Russian_invasion_of_Holland .
+
+dbr:Battle_of_Altenkirchen a sem:Event ;
+    sem:hasActor dbr:Duke_Ferdinand_Frederick_Augustus_of_W%C3%BCrttemberg,
+        dbr:Jean-Baptiste_Kl%C3%A9ber ;
+    sem:hasBeginTimeStamp "1796-06-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-04"^^xsd:date ;
+    sem:hasPlace dbr:Altenkirchen,
+        dbr:Germany ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Amberg a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Wilhelm_von_Wartensleben ;
+    sem:hasBeginTimeStamp "1796-08-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-08-24"^^xsd:date ;
+    sem:hasPlace dbr:Amberg .
+
+dbr:Battle_of_Antrim a sem:Event ;
+    sem:hasActor dbr:Henry_Joy_McCracken,
+        dbr:William_Lumley ;
+    sem:hasBeginTimeStamp "1798-06-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-07"^^xsd:date ;
+    sem:hasPlace dbr:Antrim%2C_County_Antrim .
+
+dbr:Battle_of_Arcole a sem:Event ;
+    sem:hasActor dbr:J%C3%B3zsef_Alvinczi,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-11-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-11-17"^^xsd:date ;
+    sem:hasPlace dbr:Arcole,
+        dbr:Republic_of_Venice .
+
+dbr:Battle_of_Arklow a sem:Event ;
+    sem:hasActor dbr:Anthony_Perry,
+        dbr:Francis_Needham%2C_1st_Earl_of_Kilmorey,
+        dbr:Michael_Murphy_%28priest%29 ;
+    sem:hasBeginTimeStamp "1798-06-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-09"^^xsd:date ;
+    sem:hasPlace dbr:Arklow,
+        dbr:County_Wicklow .
+
+dbr:Battle_of_Arlon_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Amable_Henri_Delaage,
+        dbr:Gottfried_von_Schr%C3%B6der,
+        dbr:Jean_Nicolas_Houchard ;
+    sem:hasBeginTimeStamp "1793-06-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-09"^^xsd:date ;
+    sem:hasPlace dbr:Arlon,
+        dbr:Austrian_Netherlands,
+        dbr:Belgium .
+
+dbr:Battle_of_Arlon_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Jourdan,
+        dbr:Johann_Peter_Beaulieu,
+        dbr:Johann_von_Beaulieu ;
+    sem:hasPlace dbr:Arlon .
+
+dbr:Battle_of_Avesnes-le-Sec a sem:Event ;
+    sem:hasActor dbr:Friedrich_Wilhelm%2C_F%C3%BCrst_zu_Hohenlohe-Kirchberg,
+        dbr:Johann_I_Joseph,
+        dbr:Nicolas_Declaye ;
+    sem:hasBeginTimeStamp "1793-09-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-12"^^xsd:date ;
+    sem:hasPlace dbr:Avesnes-le-Sec,
+        dbr:France,
+        dbr:Nord-Pas-de-Calais ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Battle_of_Ballinamuck a sem:Event ;
+    sem:hasActor dbr:Bartholomew_Teeling,
+        dbr:Charles_Cornwallis%2C_1st_Marquess_Cornwallis,
+        dbr:Gerard_Lake%2C_1st_Viscount_Lake,
+        dbr:Jean_Joseph_Amable_Humbert ;
+    sem:hasBeginTimeStamp "1798-09-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-09-08"^^xsd:date ;
+    sem:hasPlace dbr:Ballinamuck,
+        dbr:County_Longford .
+
+dbr:Battle_of_Ballyellis a sem:Event ;
+    sem:hasActor dbr:Joseph_Holt_%28rebel%29 ;
+    sem:hasBeginTimeStamp "1798-06-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-30"^^xsd:date ;
+    sem:hasPlace dbr:Carnew,
+        dbr:County_Wicklow .
+
+dbr:Battle_of_Ballymore-Eustace a sem:Event ;
+    sem:hasBeginTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasPlace dbr:Ballymore_Eustace,
+        dbr:County_Kildare .
+
+dbr:Battle_of_Ballynahinch a sem:Event ;
+    sem:hasActor dbr:Henry_Munro_%28United_Irishman%29,
+        dbr:Robert_Stewart%2C_2nd_Marquess_of_Londonderry,
+        dbr:Robert_Stewart%2C_Viscount_Castlereagh,
+        dbr:Sir_George_Nugent%2C_1st_Baronet ;
+    sem:hasBeginTimeStamp "1798-06-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-13"^^xsd:date ;
+    sem:hasPlace dbr:Ballynahinch%2C_County_Down,
+        dbr:County_Down .
+
+dbr:Battle_of_Bascara_%281795%29 a sem:Event ;
+    sem:hasActor dbr:Barth%C3%A9lemy_Louis_Joseph_Sch%C3%A9rer,
+        dbr:John_Forbes_%28Portuguese_general%29,
+        dbr:Jos%C3%A9_de_Urrutia_y_de_las_Casas ;
+    sem:hasBeginTimeStamp "1795-06-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-06-14"^^xsd:date ;
+    sem:hasPlace dbr:B%C3%A0scara,
+        dbr:Catalonia,
+        dbr:Spain ;
+    sem:subEventOf dbr:War_of_the_Pyrenees .
+
+dbr:Battle_of_Bassano a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Jean_Lannes,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-09-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-08"^^xsd:date ;
+    sem:hasPlace dbr:Bassano_del_Grappa,
+        dbr:Italy,
+        dbr:Veneto .
+
+dbr:Battle_of_Beaumont_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Ren%C3%A9-Bernard_Chapuy ;
+    sem:hasBeginTimeStamp "1794-04-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-04-26"^^xsd:date ;
+    sem:hasPlace dbr:Beaumont-en-Cambr%C3%A9sis,
+        dbr:Nord_%28French_department%29 .
+
+dbr:Battle_of_Bergen_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Guillaume_Brune,
+        dbr:Herman_Willem_Daendels,
+        dbr:Johann_Hermann_von_Fersen,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany ;
+    sem:hasBeginTimeStamp "1799-09-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-09-19"^^xsd:date ;
+    sem:hasPlace dbr:Batavian_Republic,
+        dbr:Bergen%2C_North_Holland ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Battle_of_Biberach_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Jean_Victor_Marie_Moreau,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasBeginTimeStamp "1796-10-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-10-02"^^xsd:date ;
+    sem:hasPlace dbr:Biberach_an_der_Riss,
+        dbr:Germany .
+
+dbr:Battle_of_Biesingen a sem:Event ;
+    sem:hasActor dbr:Friedrich_Adolf%2C_Count_von_Kalckreuth,
+        dbr:Friedrich_Adolf_von_Kalckreuth,
+        dbr:Lazare_Hoche,
+        dbr:Louis-Lazare_Hoche ;
+    sem:hasBeginTimeStamp "1793-11-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-11-17"^^xsd:date .
+
+dbr:Battle_of_Borghetto a sem:Event ;
+    sem:hasActor dbr:Johann_Peter_Beaulieu,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-05-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-05-30"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Valeggio_sul_Mincio ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Battle_of_Boxtel a sem:Event ;
+    sem:hasActor dbr:Antoine_Guillaume_Delmas,
+        dbr:Georg_von_D%C3%BCring,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Ralph_Abercromby ;
+    sem:hasBeginTimeStamp "1794-09-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-09-15"^^xsd:date ;
+    sem:hasPlace dbr:Boxtel,
+        dbr:Netherlands .
+
+dbr:Battle_of_Bunclody a sem:Event ;
+    sem:hasActor dbr:Mogue_Kearns ;
+    sem:hasBeginTimeStamp "1798-06-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-01"^^xsd:date ;
+    sem:hasPlace dbr:Bunclody,
+        dbr:County_Wexford .
+
+dbr:Battle_of_Caesar%27s_Camp a sem:Event ;
+    sem:hasActor dbr:Charles_Edward_Jennings,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:Wenzel_Joseph_von_Colloredo ;
+    sem:hasBeginTimeStamp "1793-08-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-08-08"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Marquion .
+
+dbr:Battle_of_Caldiero_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Giovanni_Marchese_di_Provera,
+        dbr:J%C3%B3zsef_Alvinczi,
+        dbr:Napoleon,
+        dbr:Pierre_Augereau,
+        dbr:Prince_Friedrich_Franz_Xaver_of_Hohenzollern-Hechingen ;
+    sem:hasBeginTimeStamp "1796-11-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-11-12"^^xsd:date ;
+    sem:hasPlace dbr:Caldiero,
+        dbr:Italy ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Battle_of_Callantsoog a sem:Event ;
+    sem:hasActor dbr:Herman_Willem_Daendels,
+        dbr:Ralph_Abercromby ;
+    sem:hasBeginTimeStamp "1799-08-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-08-27"^^xsd:date ;
+    sem:hasPlace dbr:Callantsoog ;
+    sem:subEventOf dbr:Anglo-Russian_invasion_of_Holland .
+
+dbr:Battle_of_Calliano a sem:Event ;
+    sem:hasActor dbr:Claude-Henri_Belgrand_de_Vaubois,
+        dbr:Paul_Davidovich ;
+    sem:hasBeginTimeStamp "1796-11-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-11-07"^^xsd:date ;
+    sem:hasPlace dbr:Calliano%2C_Trentino ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Battle_of_Camperdown a sem:Event ;
+    sem:hasActor dbr:Adam_Duncan%2C_1st_Viscount_Duncan,
+        dbr:Jan_Willem_de_Winter ;
+    sem:hasBeginTimeStamp "1797-10-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-10-11"^^xsd:date ;
+    sem:hasPlace dbr:Camperduin,
+        dbr:North_Sea .
+
+dbr:Battle_of_Cap-Fran%C3%A7ais_%281793%29 a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89tienne_Polverel>,
+        dbr:C%C3%A9sar_Galbaud_du_Fort,
+        dbr:Fran%C3%A7ois-Thomas_Galbaud_du_Fort,
+        dbr:Jean-Baptiste_Belley,
+        dbr:L%C3%A9ger-F%C3%A9licit%C3%A9_Sonthonax ;
+    sem:hasBeginTimeStamp "1793-06-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-22"^^xsd:date ;
+    sem:hasPlace dbr:Cap-Ha%C3%AFtien,
+        dbr:Haiti .
+
+dbr:Battle_of_Cape_St_Vincent_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Claude_Fran%C3%A7ois_Renard_de_Fuchsemberg%2C_Conde_de_Amblimont,
+        dbr:Francisco_Javier_Morales_de_los_R%C3%ADos,
+        dbr:Francisco_Javier_Winthuysen_y_Pineda,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:John_Jervis%2C_1st_Earl_of_St_Vincent,
+        dbr:Jos%C3%A9_de_C%C3%B3rdoba_y_Ramos,
+        dbr:Juan_Joaqu%C3%ADn_Moreno_de_Mondrag%C3%B3n_y_D%27Hontlier,
+        dbr:Sir_Charles_Thompson%2C_1st_Baronet,
+        dbr:Sir_William_Parker%2C_1st_Baronet%2C_of_Harburn,
+        dbr:William_Waldegrave%2C_1st_Baron_Radstock ;
+    sem:hasBeginTimeStamp "1797-02-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-02-14"^^xsd:date ;
+    sem:hasPlace dbr:Cape_St._Vincent .
+
+dbr:Battle_of_Carlow a sem:Event ;
+    sem:hasActor dbr:Thomas_Mahon%2C_2nd_Baron_Hartland ;
+    sem:hasBeginTimeStamp "1798-05-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-25"^^xsd:date ;
+    sem:hasPlace dbr:Carlow,
+        dbr:County_Carlow .
+
+dbr:Battle_of_Cassano_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Alexander_Suvorov,
+        dbr:Jean_Victor_Marie_Moreau ;
+    sem:hasBeginTimeStamp "1799-04-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-04-27"^^xsd:date ;
+    sem:hasPlace dbr:Cassano_d%27Adda,
+        dbr:Cisalpine_Republic,
+        dbr:Lombardy .
+
+dbr:Battle_of_Castiglione a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Napoleon,
+        dbr:Napoleon_I,
+        dbr:Pierre_Augereau ;
+    sem:hasBeginTimeStamp "1796-08-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-08-05"^^xsd:date ;
+    sem:hasPlace dbr:Castiglione_delle_Stiviere .
+
+dbr:Battle_of_Castlebar a sem:Event ;
+    sem:hasActor dbr:Gerard_Lake%2C_1st_Viscount_Lake,
+        dbr:Jean_Joseph_Amable_Humbert ;
+    sem:hasBeginTimeStamp "1798-08-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-08-27"^^xsd:date ;
+    sem:hasPlace dbr:Castlebar,
+        dbr:County_Mayo .
+
+dbr:Battle_of_Castricum a sem:Event ;
+    sem:hasActor dbr:Guillaume_Brune,
+        dbr:Herman_Willem_Daendels,
+        dbr:Magnus_Gustav_von_Essen,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Ralph_Abercromby,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1799-10-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-10-06"^^xsd:date ;
+    sem:hasPlace dbr:Batavian_Republic,
+        dbr:Castricum .
+
+dbr:Battle_of_Ceva a sem:Event ;
+    sem:hasActor dbr:Michelangelo_Alessandro_Colli-Marchi,
+        dbr:Napoleon,
+        dbr:Napoleon_Bonaparte,
+        dbr:Pierre_Augereau ;
+    sem:hasBeginTimeStamp "1796-04-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-16"^^xsd:date ;
+    sem:hasPlace dbr:Ceva,
+        dbr:Italy,
+        dbr:Piedmont .
+
+dbr:Battle_of_Chantonnay a sem:Event ;
+    sem:hasActor dbr:Charles_de_Bonchamps,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Maurice_d%27Elb%C3%A9e,
+        dbr:Ren%C3%A9_Fran%C3%A7ois_Lecomte ;
+    sem:hasBeginTimeStamp "1793-09-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-05"^^xsd:date ;
+    sem:hasPlace dbr:Chantonnay,
+        dbr:France,
+        dbr:Vend%C3%A9e .
+
+dbr:Battle_of_Collioure a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Eustache_Charles_d%27Aoust,
+        dbr:Fran%C3%A7ois_Am%C3%A9d%C3%A9e_Doppet,
+        dbr:Gregorio_Garc%C3%ADa_de_la_Cuesta ;
+    sem:hasBeginTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasPlace dbr:Collioure,
+        dbr:France,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales,
+        dbr:Pyr%C3%A9n%C3%A9es_Orientales .
+
+dbr:Battle_of_Collooney a sem:Event ;
+    sem:hasActor dbr:Charles_Vereker%2C_2nd_Viscount_Gort,
+        dbr:Gerard_Lake%2C_1st_Viscount_Lake,
+        dbr:Jean_Joseph_Amable_Humbert ;
+    sem:hasBeginTimeStamp "1798-09-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-09-05"^^xsd:date ;
+    sem:hasPlace dbr:Collooney,
+        dbr:County_Sligo .
+
+dbr:Battle_of_Coron_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Antoine_Joseph_Santerre,
+        dbr:Jean_Antoine_Rossignol,
+        dbr:Louis_Marie_de_Lescure ;
+    sem:hasBeginTimeStamp "1793-09-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-18"^^xsd:date ;
+    sem:hasPlace dbr:Coron%2C_Maine-et-Loire,
+        dbr:France .
+
+dbr:Battle_of_Courtrai_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Johann_Peter_Beaulieu,
+        dbr:Pierre_Dumesny ;
+    sem:hasBeginTimeStamp "1793-09-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-15"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Kortrijk .
+
+dbr:Battle_of_Courtrai_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany ;
+    sem:hasBeginTimeStamp "1794-05-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-12"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Kortrijk .
+
+dbr:Battle_of_Croix-des-Bouquets a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Rigaud ;
+    sem:hasBeginTimeStamp "1792-03-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-03-22"^^xsd:date ;
+    sem:hasPlace dbr:Croix-des-Bouquets,
+        dbr:Haiti .
+
+dbr:Battle_of_Diersheim_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Anton_Szt%C3%A1ray,
+        dbr:Jean_Victor_Marie_Moreau ;
+    sem:hasBeginTimeStamp "1797-04-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-04-21"^^xsd:date ;
+    sem:hasPlace dbr:Baden,
+        dbr:Germany,
+        dbr:Rheinau_%28Baden%29 ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Dol a sem:Event .
+
+dbr:Battle_of_Emmendingen a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Michel_de_Beaupuy,
+        dbr:Wilhelm_von_Wartensleben ;
+    sem:hasBeginTimeStamp "1796-10-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-10-19"^^xsd:date ;
+    sem:hasPlace dbr:Emmendingen .
+
+dbr:Battle_of_Enniscorthy a sem:Event ;
+    sem:hasActor dbr:John_Murphy_%28priest%29 ;
+    sem:hasBeginTimeStamp "1798-05-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-28"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford,
+        dbr:Enniscorthy .
+
+dbr:Battle_of_Entrames a sem:Event ;
+    sem:hasActor dbr:Charles_Aim%C3%A9_de_Royrand,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean_L%C3%A9chelle ;
+    sem:hasBeginTimeStamp "1793-10-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-27"^^xsd:date ;
+    sem:hasPlace dbr:Entrammes,
+        dbr:Mayenne .
+
+dbr:Battle_of_Epierre a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Christophe_de_Kellermann,
+        dbr:Prince_Maurizio%2C_Duke_of_Montferrat ;
+    sem:hasBeginTimeStamp "1793-09-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-15"^^xsd:date ;
+    sem:hasPlace <http://dbpedia.org/resource/%C3%89pierre>,
+        dbr:France,
+        dbr:Savoie .
+
+dbr:Battle_of_Erquelinnes a sem:Event ;
+    sem:hasActor dbr:Franz_Wenzel%2C_Graf_von_Kaunitz-Rietberg,
+        dbr:Jacques_Desjardin,
+        dbr:Louis_Charbonnier ;
+    sem:hasBeginTimeStamp "1794-05-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-24"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Erquelinnes ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Ettlingen a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean_Victor_Marie_Moreau ;
+    sem:hasBeginTimeStamp "1796-07-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-07-09"^^xsd:date ;
+    sem:hasPlace dbr:Baden-W%C3%BCrttemberg,
+        dbr:Ettlingen,
+        dbr:Germany .
+
+dbr:Battle_of_Faenza a sem:Event ;
+    sem:hasActor dbr:Claude_Victor-Perrin%2C_Duc_de_Belluno,
+        dbr:Michelangelo_Alessandro_Colli-Marchi ;
+    sem:hasBeginTimeStamp "1797-02-03"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-02-03"^^xsd:date ;
+    sem:hasPlace dbr:Castel_Bolognese,
+        dbr:Faenza,
+        dbr:Papal_States .
+
+dbr:Battle_of_Famars a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Joseph_Drouot_de_Lamarche,
+        dbr:Joseph_de_Ferraris,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1793-05-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-05-23"^^xsd:date ;
+    sem:hasPlace dbr:Famars,
+        dbr:France,
+        dbr:Nord_%28French_department%29 .
+
+dbr:Battle_of_Feldkirch a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Franjo_Jela%C4%8Di%C4%87 ;
+    sem:hasBeginTimeStamp "1799-03-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-03-23"^^xsd:date ;
+    sem:hasPlace dbr:Austria,
+        dbr:Feldkirch%2C_Vorarlberg ;
+    sem:subEventOf dbr:War_of_the_Second_Coalition .
+
+dbr:Battle_of_Fishguard a sem:Event ;
+    sem:hasActor dbr:John_Campbell%2C_1st_Baron_Cawdor,
+        dbr:William_Tate_%28soldier%29 ;
+    sem:hasBeginTimeStamp "1797-02-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-02-24"^^xsd:date ;
+    sem:hasPlace dbr:Fishguard,
+        dbr:Wales .
+
+dbr:Battle_of_Fleurus_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Louis_Antoine_de_Saint-Just,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1794-06-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-26"^^xsd:date ;
+    sem:hasPlace dbr:Austrian_Netherlands,
+        dbr:Fleurus .
+
+dbr:Battle_of_Fombio a sem:Event ;
+    sem:hasActor dbr:Am%C3%A9d%C3%A9e_Emmanuel_Fran%C3%A7ois_Laharpe,
+        dbr:Anton_Lipthay_de_Kisfalud,
+        dbr:Anton_Sch%C3%BCbirz_von_Chobinin,
+        dbr:Claude_Dallemagne,
+        dbr:Johann_Peter_Beaulieu,
+        dbr:Napoleon,
+        dbr:Napoleon_Bonaparte ;
+    sem:hasBeginTimeStamp "1796-05-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-05-09"^^xsd:date ;
+    sem:hasPlace dbr:Fombio,
+        dbr:Lombardy .
+
+dbr:Battle_of_Fontenay-le-Comte a sem:Event ;
+    sem:hasActor dbr:Alexis_Chalbos,
+        dbr:Charles_de_Bonchamps,
+        dbr:French_First_Republic,
+        dbr:Louis_Marie_de_Lescure ;
+    sem:hasBeginTimeStamp "1793-05-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-05-17"^^xsd:date ;
+    sem:hasPlace dbr:Fontenay-le-Comte,
+        dbr:Vend%C3%A9e .
+
+dbr:Battle_of_Foug%C3%A8res a sem:Event ;
+    sem:hasActor dbr:Henri_de_La_Rochejaquelein,
+        dbr:Henri_de_la_Rochejaquelein ;
+    sem:hasBeginTimeStamp "1793-11-03"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-11-03"^^xsd:date ;
+    sem:hasPlace dbr:Foug%C3%A8res .
+
+dbr:Battle_of_Foulksmills a sem:Event ;
+    sem:hasActor dbr:John_Moore_%28British_Army_officer%29,
+        dbr:Philip_Roche ;
+    sem:hasBeginTimeStamp "1798-06-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-20"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford,
+        dbr:Foulkesmill .
+
+dbr:Battle_of_Friedberg_%28Bavaria%29 a sem:Event ;
+    sem:hasActor dbr:Jean_Victor_Marie_Moreau,
+        dbr:Louis_Joseph%2C_Prince_of_Cond%C3%A9,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasBeginTimeStamp "1796-08-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-08-24"^^xsd:date ;
+    sem:hasPlace dbr:Friedberg%2C_Bavaria,
+        dbr:Germany .
+
+dbr:Battle_of_Friedberg_%28Hessen%29 a sem:Event ;
+    sem:hasActor dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Jean_Nicolas_Houchard ;
+    sem:hasBeginTimeStamp "1793-11-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-11-10"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Limburg_an_der_Lahn ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Froeschwiller_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Lazare_Hoche ;
+    sem:hasBeginTimeStamp "1793-12-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-22"^^xsd:date ;
+    sem:hasPlace dbr:Fr%C5%93schwiller,
+        dbr:France,
+        dbr:Froeschwiller ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Genoa_%281795%29 a sem:Event ;
+    sem:hasActor dbr:Pierre_Martin_%28French_Navy_officer%29,
+        dbr:William_Hotham%2C_1st_Baron_Hotham ;
+    sem:hasBeginTimeStamp "1795-03-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-03-14"^^xsd:date ;
+    sem:hasPlace dbr:Gulf_of_Genoa,
+        dbr:Ligurian_Sea .
+
+dbr:Battle_of_Genola a sem:Event ;
+    sem:hasActor dbr:Jean-%C3%89tienne_Championnet,
+        dbr:Michael_von_Melas ;
+    sem:hasBeginTimeStamp "1799-11-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-11-04"^^xsd:date ;
+    sem:hasPlace dbr:Genola%2C_Piedmont,
+        dbr:Italy ;
+    sem:subEventOf dbr:War_of_the_Second_Coalition .
+
+dbr:Battle_of_Gona%C3%AFves a sem:Event ;
+    sem:hasActor dbr:Toussaint_Louverture ;
+    sem:hasBeginTimeStamp "1794-05-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-05"^^xsd:date ;
+    sem:hasPlace dbr:Gona%C3%AFves,
+        dbr:Haiti .
+
+dbr:Battle_of_Gosselies a sem:Event ;
+    sem:hasActor dbr:Jacques_Desjardin,
+        dbr:Louis_Charbonnier,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1794-06-03"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-03"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Gosselies ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Gotthard_Pass a sem:Event ;
+    sem:hasActor dbr:Alexander_Suvorov,
+        dbr:Andrei_Rosenberg,
+        dbr:Charles-%C3%89tienne_Gudin_de_La_Sablonni%C3%A8re,
+        dbr:Claude_Lecourbe,
+        dbr:Franz_Xaver_von_Auffenberg,
+        dbr:Louis_Henri_Loison ;
+    sem:hasBeginTimeStamp "1799-09-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-09-26"^^xsd:date ;
+    sem:hasPlace dbr:Gotthard_Pass,
+        dbr:Switzerland .
+
+dbr:Battle_of_Grandreng a sem:Event ;
+    sem:hasActor dbr:Franz_Wenzel%2C_Graf_von_Kaunitz-Rietberg,
+        dbr:Jacques_Desjardin,
+        dbr:Louis_Charbonnier ;
+    sem:hasBeginTimeStamp "1794-05-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-13"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Grand-Reng .
+
+dbr:Battle_of_Granville a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Pacifique_Peyre,
+        dbr:Fran%C3%A7ois_Vachot,
+        dbr:Henri_de_La_Rochejaquelein,
+        dbr:Henri_de_la_Rochejaquelein ;
+    sem:hasBeginTimeStamp "1793-11-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-11-14"^^xsd:date ;
+    sem:hasPlace dbr:Granville%2C_Manche .
+
+dbr:Battle_of_Grauholz a sem:Event ;
+    sem:hasActor dbr:Balthazar_Alexis_Henri_Schauenburg ;
+    sem:hasBeginTimeStamp "1798-03-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-03-05"^^xsd:date ;
+    sem:hasPlace dbr:Moosseedorf,
+        dbr:Urtenen-Sch%C3%B6nb%C3%BChl .
+
+dbr:Battle_of_Groix a sem:Event ;
+    sem:hasActor dbr:Alexander_Hood%2C_1st_Viscount_Bridport,
+        dbr:Louis_Thomas_Villaret_de_Joyeuse ;
+    sem:hasBeginTimeStamp "1795-06-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-06-23"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Bay_of_Biscay,
+        dbr:Groix .
+
+dbr:Battle_of_H%C3%B6chst_%281795%29 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Joseph_Lefebvre,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Friedrich_Joseph%2C_Count_of_Nauendorf,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Karl_Joseph_Hadik_von_Futak,
+        dbr:Louis_Klein ;
+    sem:hasBeginTimeStamp "1795-10-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-12"^^xsd:date ;
+    sem:hasPlace dbr:H%C3%B6chst_%28Frankfurt_am_Main%29 ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Haguenau_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Louis_Joseph%2C_Prince_of_Cond%C3%A9 ;
+    sem:hasBeginTimeStamp "1793-12-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-22"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Haguenau ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Handschuhsheim a sem:Event ;
+    sem:hasActor dbr:Georges_Joseph_Dufour,
+        dbr:Peter_Vitus_von_Quosdanovich ;
+    sem:hasBeginTimeStamp "1795-09-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-09-24"^^xsd:date ;
+    sem:hasPlace dbr:Electoral_Palatinate,
+        dbr:Germany,
+        dbr:Heidelberg .
+
+dbr:Battle_of_Hondschoote a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean_Nicolas_Houchard,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Wilhelm_von_Freytag ;
+    sem:hasBeginTimeStamp "1793-09-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-08"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Hondschoote .
+
+dbr:Battle_of_Jean-Rabel a sem:Event ;
+    sem:hasActor dbr:Hugh_Pigot_%28Royal_Navy_captain%29,
+        dbr:Hugh_Pigot_%28Royal_Navy_officer%2C_born_1769%29,
+        dbr:Simon_Billiette,
+        dbr:William_Ogilvy ;
+    sem:hasBeginTimeStamp "1797-04-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-04-21"^^xsd:date ;
+    sem:hasPlace dbr:Jean-Rabel,
+        dbr:Saint-Domingue .
+
+dbr:Battle_of_Jemappes a sem:Event ;
+    sem:hasActor dbr:Albert_Casimir%2C_Duke_of_Teschen,
+        dbr:Charles_Fran%C3%A7ois_Dumouriez,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt ;
+    sem:hasBeginTimeStamp "1792-11-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-11-06"^^xsd:date ;
+    sem:hasPlace dbr:Austrian_Netherlands,
+        dbr:Jemappes .
+
+dbr:Battle_of_Kaiserslautern a sem:Event ;
+    sem:hasActor dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Lazare_Hoche ;
+    sem:hasBeginTimeStamp "1793-11-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-11-30"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Kaiserslautern .
+
+dbr:Battle_of_Kaiserslautern_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Claude_Ignace_Fran%C3%A7ois_Michaud,
+        dbr:Frederick_Louis%2C_Prince_of_Hohenlohe-Ingelfingen,
+        dbr:Friedrich_Wilhelm%2C_F%C3%BCrst_zu_Hohenlohe-Kirchberg,
+        dbr:Jean-Jacques_Ambert,
+        dbr:Jean_Ren%C3%A9_Moreaux,
+        dbr:Wichard_Joachim_Heinrich_von_M%C3%B6llendorf ;
+    sem:hasBeginTimeStamp "1794-05-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-23"^^xsd:date ;
+    sem:hasPlace dbr:Electoral_Palatinate,
+        dbr:Germany,
+        dbr:Kaiserslautern ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Kehl_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean_Charles_Abbatucci,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasBeginTimeStamp "1796-06-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-24"^^xsd:date ;
+    sem:hasPlace dbr:Kehl,
+        dbr:Margraviate_of_Baden .
+
+dbr:Battle_of_Kilcullen a sem:Event ;
+    sem:hasActor dbr:Ralph_Dundas ;
+    sem:hasBeginTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasPlace dbr:County_Kildare,
+        dbr:Kilcullen .
+
+dbr:Battle_of_Killala a sem:Event ;
+    sem:hasBeginTimeStamp "1798-09-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-09-23"^^xsd:date ;
+    sem:hasPlace dbr:County_Mayo,
+        dbr:Killala .
+
+dbr:Battle_of_Kircheib a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Paul_Kray ;
+    sem:hasBeginTimeStamp "1796-06-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-19"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Rhineland-Palatinate,
+        dbr:Westerwald ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Krabbendam a sem:Event ;
+    sem:hasActor dbr:Guillaume_Brune,
+        dbr:Herman_Willem_Daendels,
+        dbr:Ralph_Abercromby ;
+    sem:hasBeginTimeStamp "1799-09-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-09-10"^^xsd:date ;
+    sem:hasPlace dbr:Krabbendam ;
+    sem:subEventOf dbr:Anglo-Russian_invasion_of_Holland .
+
+dbr:Battle_of_La_Tremblaye a sem:Event ;
+    sem:hasActor dbr:Antoine_Marie_Bard,
+        dbr:Charles_de_Bonchamps,
+        dbr:Charles_de_Royrand,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean_L%C3%A9chelle,
+        dbr:Louis_Marie_de_Lescure,
+        dbr:Maurice_d%27Elb%C3%A9e,
+        dbr:Michel_de_Beaupuy ;
+    sem:hasBeginTimeStamp "1793-10-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-15"^^xsd:date ;
+    sem:hasPlace dbr:Cholet .
+
+dbr:Battle_of_Lambusart a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Jourdan,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1794-06-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-16"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Fleurus ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Laval a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois-Joseph_Alexandre_Letourneur,
+        dbr:Henri_de_La_Rochejacquelein,
+        dbr:Henri_de_la_Rochejaquelein ;
+    sem:hasBeginTimeStamp "1793-10-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-22"^^xsd:date ;
+    sem:hasPlace dbr:Laval%2C_Mayenne .
+
+dbr:Battle_of_Le_Cateau_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Antoine_Balland,
+        dbr:Jacques_Fromentin,
+        dbr:Jacques_Gilles_Henri_Goguet,
+        dbr:Paul_Kray ;
+    sem:hasBeginTimeStamp "1794-03-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-03-29"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Le_Cateau-Cambr%C3%A9sis .
+
+dbr:Battle_of_Le_Mans_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Charles_Marie_de_Beaumont_d%27Autichamp,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean-Fran%C3%A7ois-Auguste_Moulin,
+        dbr:Jean-Nicolas_Stofflet ;
+    sem:hasBeginTimeStamp "1793-12-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-13"^^xsd:date ;
+    sem:hasPlace dbr:Le_Mans ;
+    sem:subEventOf dbr:War_in_the_Vend%C3%A9e .
+
+dbr:Battle_of_Limburg_%281792%29 a sem:Event ;
+    sem:hasActor dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Jean_Nicolas_Houchard ;
+    sem:hasBeginTimeStamp "1792-11-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-11-09"^^xsd:date ;
+    sem:hasPlace dbr:Limburg_an_der_Lahn .
+
+dbr:Battle_of_Limburg_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Jourdan ;
+    sem:hasBeginTimeStamp "1796-09-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-19"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Limburg_an_der_Lahn .
+
+dbr:Battle_of_Lincelles a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Jourdan,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1793-08-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-08-17"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Lincelles,
+        dbr:Linselles,
+        dbr:Nord_%28French_department%29 .
+
+dbr:Battle_of_Loano a sem:Event ;
+    sem:hasActor dbr:Barth%C3%A9lemy_Louis_Joseph_Sch%C3%A9rer,
+        dbr:Olivier%2C_Count_of_Wallis,
+        dbr:Pierre_Augereau,
+        dbr:Prince_Benedetto%2C_Duke_of_Chablais ;
+    sem:hasBeginTimeStamp "1795-11-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-11-23"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Liguria,
+        dbr:Loano .
+
+dbr:Battle_of_Lodi a sem:Event ;
+    sem:hasActor dbr:Johann_Peter_Beaulieu,
+        dbr:Karl_Philipp_Sebottendorf,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-05-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-05-10"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Lodi%2C_Lombardy .
+
+dbr:Battle_of_Lonato a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigismund%2C_Count_von_Wurmser,
+        dbr:Napoleon,
+        dbr:Napoleon_Bonaparte,
+        dbr:Peter_Quasdanovich,
+        dbr:Peter_Vitus_von_Quosdanovich ;
+    sem:hasBeginTimeStamp "1796-08-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-08-04"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Lonato_del_Garda .
+
+dbr:Battle_of_Lu%C3%A7on a sem:Event ;
+    sem:hasActor dbr:Augustin_Tuncq,
+        dbr:French_First_Republic,
+        dbr:House_of_Bourbon,
+        dbr:Maurice_d%27Elb%C3%A9e ;
+    sem:hasBeginTimeStamp "1793-08-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-08-14"^^xsd:date ;
+    sem:hasPlace dbr:Vend%C3%A9e .
+
+dbr:Battle_of_M%C3%A9ribel a sem:Event ;
+    sem:hasBeginTimeStamp "1793-09-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-13"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Haute-Savoie,
+        dbr:M%C3%A9ribel .
+
+dbr:Battle_of_Magnano a sem:Event ;
+    sem:hasActor dbr:Barth%C3%A9lemy_Louis_Joseph_Sch%C3%A9rer,
+        dbr:P%C3%A1l_Kray,
+        dbr:Paul_Kray ;
+    sem:hasBeginTimeStamp "1799-04-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-04-05"^^xsd:date ;
+    sem:hasPlace dbr:Buttapietra,
+        dbr:Italy .
+
+dbr:Battle_of_Mainz a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Ignace_Schaal,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt ;
+    sem:hasBeginTimeStamp "1795-10-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-29"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Mainz .
+
+dbr:Battle_of_Mannheim_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jacques_L%C3%A9onard_Muller,
+        dbr:Michel_Ney ;
+    sem:hasBeginTimeStamp "1799-09-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-09-18"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Mannheim ;
+    sem:subEventOf dbr:War_of_the_Second_Coalition .
+
+dbr:Battle_of_Marquain a sem:Event ;
+    sem:hasActor dbr:Louis-Fran%C3%A7ois_de_Civalart,
+        dbr:Th%C3%A9obald_Dillon ;
+    sem:hasBeginTimeStamp "1792-04-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-04-29"^^xsd:date ;
+    sem:hasPlace dbr:Marquain .
+
+dbr:Battle_of_Martinique_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Charles_Grey%2C_1st_Earl_Grey,
+        dbr:Donatien-Marie-Joseph_de_Vimeur%2C_vicomte_de_Rochambeau,
+        dbr:John_Jervis%2C_1st_Earl_of_St_Vincent ;
+    sem:hasBeginTimeStamp "1794-03-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-03-24"^^xsd:date ;
+    sem:hasPlace dbr:Martinique .
+
+dbr:Battle_of_Mas_Deu a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Louis-Charles_de_Flers ;
+    sem:hasBeginTimeStamp "1793-05-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-05-19"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales,
+        dbr:Trouillas .
+
+dbr:Battle_of_Maudach a sem:Event ;
+    sem:hasActor dbr:Franz_Petrasch,
+        dbr:Louis_Desaix ;
+    sem:hasBeginTimeStamp "1796-06-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-15"^^xsd:date ;
+    sem:hasPlace dbr:Ludwigshafen ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Menin_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Jean_Nicolas_Houchard,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1793-09-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-13"^^xsd:date ;
+    sem:hasPlace dbr:Flanders,
+        dbr:Menen,
+        dbr:Wervik .
+
+dbr:Battle_of_Millesimo a sem:Event ;
+    sem:hasActor dbr:Giovanni_Marchese_di_Provera,
+        dbr:Napoleon,
+        dbr:Pierre_Augereau ;
+    sem:hasBeginTimeStamp "1796-04-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-14"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Millesimo .
+
+dbr:Battle_of_Modena_%281799%29 a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89tienne_Macdonald>,
+        dbr:Prince_Friedrich_Franz_Xaver_of_Hohenzollern-Hechingen ;
+    sem:hasBeginTimeStamp "1799-06-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-06-12"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Modena ;
+    sem:subEventOf dbr:War_of_the_Second_Coalition .
+
+dbr:Battle_of_Mondov%C3%AC a sem:Event ;
+    sem:hasActor dbr:Michelangelo_Alessandro_Colli-Marchi,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-04-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-22"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Mondov%C3%AC,
+        dbr:Piedmont .
+
+dbr:Battle_of_Montaigu a sem:Event .
+
+dbr:Battle_of_Montenotte a sem:Event ;
+    sem:hasActor dbr:Am%C3%A9d%C3%A9e_Emmanuel_Fran%C3%A7ois_Laharpe,
+        dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Antoine-Guillaume_Rampon,
+        dbr:Eug%C3%A8ne-Guillaume_Argenteau,
+        dbr:Mathias_Rukavina_von_Boynograd,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-04-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-12"^^xsd:date ;
+    sem:hasPlace dbr:Cairo_Montenotte,
+        dbr:Italy .
+
+dbr:Battle_of_Mount_Tabor_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Abdullah_Pasha_al-Azm,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1799-04-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-04-16"^^xsd:date ;
+    sem:hasPlace dbr:Merhavia_%28kibbutz%29,
+        dbr:Mount_Tabor,
+        dbr:Ottoman_Empire,
+        dbr:Sidon_Eyalet .
+
+dbr:Battle_of_Mouscron a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Joseph_Souham ;
+    sem:hasBeginTimeStamp "1794-04-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-04-30"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Mouscron .
+
+dbr:Battle_of_Mykonos a sem:Event ;
+    sem:hasActor dbr:William_Paget_%28Royal_Navy_officer%2C_born_1769%29 ;
+    sem:hasBeginTimeStamp "1794-06-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-17"^^xsd:date ;
+    sem:hasPlace dbr:Aegean_Sea,
+        dbr:Mykonos .
+
+dbr:Battle_of_Naas a sem:Event ;
+    sem:hasActor dbr:Michael_Reynolds_%28United_Irishmen%29 ;
+    sem:hasBeginTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasPlace dbr:County_Kildare,
+        dbr:Naas .
+
+dbr:Battle_of_Nantes a sem:Event ;
+    sem:hasActor dbr:Charles_Melchior_Artus_de_Bonchamps,
+        dbr:Charles_de_Bonchamps,
+        dbr:Fran%C3%A7ois-Athanase_Charette_de_La_Contrie,
+        dbr:Fran%C3%A7ois_de_Charette,
+        dbr:Fran%C3%A7ois_de_Lyrot,
+        dbr:Jacques_Cathelineau,
+        dbr:Jean-Michel_Beysser,
+        dbr:Jean-Nicolas_Stofflet,
+        dbr:Jean_Baptiste_Camille_Canclaux,
+        dbr:Maurice__d%27Elb%C3%A9e,
+        dbr:Ren%C3%A9-Gaston_Baco_de_la_Chapelle,
+        dbr:Ren%C3%A9_Gaston_Baco_de_la_Chapelle ;
+    sem:hasBeginTimeStamp "1793-06-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-29"^^xsd:date ;
+    sem:hasPlace dbr:Nantes .
+
+dbr:Battle_of_Neerwinden_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Charles_Fran%C3%A7ois_Dumouriez,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1793-03-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-03-18"^^xsd:date ;
+    sem:hasPlace dbr:Austrian_Netherlands,
+        dbr:Neerwinden ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Neresheim a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Laurent_de_Gouvion_Saint-Cyr,
+        dbr:Louis_Desaix,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasBeginTimeStamp "1796-08-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-08-11"^^xsd:date ;
+    sem:hasPlace dbr:Duchy_of_W%C3%BCrttemberg,
+        dbr:Neresheim .
+
+dbr:Battle_of_Neuwied_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Franz_von_Werneck,
+        dbr:Lazare_Hoche ;
+    sem:hasBeginTimeStamp "1797-04-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-04-18"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Neuwied .
+
+dbr:Battle_of_New_Ross_%281798%29 a sem:Event ;
+    sem:hasActor dbr:Bagenal_Harvey,
+        dbr:John_Kelly_of_Killanne,
+        dbr:Luke_Gardiner%2C_1st_Viscount_Mountjoy,
+        dbr:Philip_Roche,
+        dbr:Sir_Henry_Johnson%2C_1st_Baronet ;
+    sem:hasBeginTimeStamp "1798-06-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-05"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford,
+        dbr:New_Ross .
+
+dbr:Battle_of_Newtownmountkennedy a sem:Event ;
+    sem:hasBeginTimeStamp "1798-05-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-30"^^xsd:date ;
+    sem:hasPlace dbr:County_Wicklow,
+        dbr:Newtownmountkennedy .
+
+dbr:Battle_of_Novi_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Alexander_Suvorov,
+        dbr:Barth%C3%A9lemy_Catherine_Joubert,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Michael_von_Melas ;
+    sem:hasBeginTimeStamp "1799-08-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-08-15"^^xsd:date ;
+    sem:hasPlace dbr:History_of_Italy_%281559%E2%80%931814%29,
+        dbr:Novi_Ligure,
+        dbr:Piedmont .
+
+dbr:Battle_of_Oberwald a sem:Event ;
+    sem:hasActor dbr:Jean_Victor_Tharreau ;
+    sem:hasBeginTimeStamp "1799-08-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-08-14"^^xsd:date ;
+    sem:hasPlace dbr:Oberwald .
+
+dbr:Battle_of_Orbaizeta a sem:Event ;
+    sem:hasActor dbr:Bon-Adrien_Jeannot_de_Moncey,
+        dbr:Pedro_T%C3%A9llez-Gir%C3%B3n%2C_9th_Duke_of_Osuna ;
+    sem:hasBeginTimeStamp "1794-10-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-10-17"^^xsd:date ;
+    sem:hasPlace dbr:Navarre,
+        dbr:Orbaizeta,
+        dbr:Spain .
+
+dbr:Battle_of_Ostrach a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Jourdan ;
+    sem:hasBeginTimeStamp "1799-03-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-03-21"^^xsd:date ;
+    sem:hasPlace dbr:Ostrach,
+        dbr:Salem_Abbey .
+
+dbr:Battle_of_Oulart_Hill a sem:Event ;
+    sem:hasActor dbr:John_Murphy_%28priest%29 ;
+    sem:hasBeginTimeStamp "1798-05-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-27"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford,
+        dbr:Oulart .
+
+dbr:Battle_of_Ovidstown a sem:Event ;
+    sem:hasActor dbr:William_Aylmer ;
+    sem:hasBeginTimeStamp "1798-06-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-19"^^xsd:date ;
+    sem:hasPlace dbr:County_Kildare,
+        dbr:Kilcock .
+
+dbr:Battle_of_Perpignan a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Louis-Charles_de_Flers ;
+    sem:hasBeginTimeStamp "1793-07-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-17"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Perpignan,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales,
+        dbr:Pyr%C3%A9n%C3%A9es_Orientales .
+
+dbr:Battle_of_Peyrestortes a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Eustache_Charles_d%27Aoust,
+        dbr:Jacques_Gilles_Henri_Goguet,
+        dbr:Jer%C3%B3nimo_Gir%C3%B3n-Moctezuma%2C_Marquis_de_las_Amarillas,
+        dbr:Juan_de_Courten_%28elder%29 ;
+    sem:hasBeginTimeStamp "1793-09-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-17"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Peyrestortes,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales .
+
+dbr:Battle_of_Pfeddersheim_%281795%29 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jean-Charles_Pichegru ;
+    sem:hasBeginTimeStamp "1795-11-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-11-10"^^xsd:date ;
+    sem:hasPlace dbr:Pfeddersheim ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Pirmasens a sem:Event ;
+    sem:hasActor dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Jean_Ren%C3%A9_Moreaux ;
+    sem:hasBeginTimeStamp "1793-09-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-14"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Landgraviate_of_Hesse-Darmstadt,
+        dbr:Pirmasens ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Pont-Barr%C3%A9 a sem:Event ;
+    sem:hasActor dbr:Charles_Fran%C3%A7ois_Duhoux,
+        dbr:Jean_Antoine_Rossignol ;
+    sem:hasBeginTimeStamp "1793-09-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-20"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Saint-Lambert-du-Lattay .
+
+dbr:Battle_of_Port-R%C3%A9publicain a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89tienne_Polverel>,
+        dbr:Hugues_Brisset_de_Montbrun_de_Pomar%C3%A8de,
+        dbr:L%C3%A9ger-F%C3%A9licit%C3%A9_Sonthonax,
+        dbr:Martial_Besse ;
+    sem:hasBeginTimeStamp "1794-06-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-05"^^xsd:date ;
+    sem:hasPlace dbr:Haiti,
+        dbr:Port-au-Prince .
+
+dbr:Battle_of_Port_Louis a sem:Event ;
+    sem:hasActor dbr:Jean-Marthe-Adrien_l%27Hermite ;
+    sem:hasBeginTimeStamp "1799-12-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-12-11"^^xsd:date ;
+    sem:hasPlace dbr:Pacific_Ocean,
+        dbr:Port_Louis .
+
+dbr:Battle_of_Prosperous a sem:Event ;
+    sem:hasActor dbr:Andrew_Farrell_%28United_Irishman%29,
+        dbr:John_Esmonde_%28United_Irishman%29 ;
+    sem:hasBeginTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-24"^^xsd:date ;
+    sem:hasPlace dbr:Prosperous%2C_County_Kildare .
+
+dbr:Battle_of_Puiflijk a sem:Event ;
+    sem:hasActor dbr:Charles-Alain-Gabriel_de_Rohan,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany ;
+    sem:hasBeginTimeStamp "1794-10-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-10-19"^^xsd:date ;
+    sem:hasPlace dbr:Dutch_Republic,
+        dbr:Guelders,
+        dbr:Puiflijk ;
+    sem:subEventOf dbr:Flanders_campaign .
+
+dbr:Battle_of_Qui%C3%A9vrain_%281792%29 a sem:Event ;
+    sem:hasActor dbr:Armand_Louis_de_Gontaut,
+        dbr:Johann_Peter_Beaulieu ;
+    sem:hasBeginTimeStamp "1792-04-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-04-30"^^xsd:date ;
+    sem:hasPlace dbr:Qui%C3%A9vrain .
+
+dbr:Battle_of_Raismes_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Alexander_von_Knobelsdorff,
+        dbr:Auguste_Marie_Henri_Picot_de_Dampierre,
+        dbr:Fran%C3%A7ois_Joseph_Drouot_de_Lamarche,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1793-05-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-05-09"^^xsd:date ;
+    sem:hasPlace dbr:Austrian_Netherlands,
+        dbr:Raismes .
+
+dbr:Battle_of_Rastatt_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Jean_Victor_Marie_Moreau,
+        dbr:Louis_Desaix,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasBeginTimeStamp "1796-07-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-07-05"^^xsd:date ;
+    sem:hasPlace dbr:Baden-W%C3%BCrttemberg,
+        dbr:Germany,
+        dbr:Rastatt ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Battle_of_Rathangan a sem:Event ;
+    sem:hasActor dbr:Stephen_Mahon ;
+    sem:hasBeginTimeStamp "1798-05-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-28"^^xsd:date ;
+    sem:hasPlace dbr:Rathangan%2C_County_Kildare .
+
+dbr:Battle_of_Rivoli a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Barth%C3%A9lemy_Catherine_Joubert,
+        dbr:J%C3%B3zsef_Alvinczi,
+        dbr:Josef_Philipp_Vukassovich,
+        dbr:Napoleon,
+        dbr:Peter_Vitus_von_Quosdanovich ;
+    sem:hasBeginTimeStamp "1797-01-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-01-15"^^xsd:date ;
+    sem:hasPlace dbr:Republic_of_Venice,
+        dbr:Rivoli_Veronese .
+
+dbr:Battle_of_Rovereto a sem:Event ;
+    sem:hasActor dbr:Napoleon,
+        dbr:Napoleon_Bonaparte,
+        dbr:Paul_Davidovich ;
+    sem:hasBeginTimeStamp "1796-09-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-04"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Rovereto .
+
+dbr:Battle_of_Saint-Aubin-du-Cormier_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Auguste_Hay_de_Bonteville ;
+    sem:hasPlace dbr:France,
+        dbr:Saint-Aubin-du-Cormier .
+
+dbr:Battle_of_Saint-Fulgent a sem:Event ;
+    sem:hasActor dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jean_Antoine_Rossignol ;
+    sem:hasBeginTimeStamp "1793-09-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-22"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Saint-Fulgent,
+        dbr:Vend%C3%A9e .
+
+dbr:Battle_of_Saint-Rapha%C3%ABl a sem:Event ;
+    sem:hasActor dbr:Jean-Fran%C3%A7ois_Papillon,
+        dbr:Toussaint_Louverture ;
+    sem:hasBeginTimeStamp "1794-03-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-03-21"^^xsd:date ;
+    sem:hasPlace dbr:Haiti,
+        dbr:Saint-Rapha%C3%ABl%2C_Haiti .
+
+dbr:Battle_of_Saintfield a sem:Event ;
+    sem:hasBeginTimeStamp "1798-06-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-09"^^xsd:date ;
+    sem:hasPlace dbr:County_Down,
+        dbr:Saintfield .
+
+dbr:Battle_of_San_Juan_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Henry_Harvey,
+        dbr:Jos%C3%A9_and_Francisco_D%C3%ADaz,
+        dbr:Ralph_Abercromby,
+        dbr:Ram%C3%B3n_de_Castro ;
+    sem:hasBeginTimeStamp "1797-05-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-05-02"^^xsd:date ;
+    sem:hasPlace dbr:San_Juan%2C_Puerto_Rico .
+
+dbr:Battle_of_Sans_Culottes_Camp a sem:Event ;
+    sem:hasActor dbr:Augustin_de_Lespinasse,
+        dbr:Jos%C3%A9_de_Urrutia_y_de_las_Casas ;
+    sem:hasBeginTimeStamp "1794-02-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-02-05"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Urrugne ;
+    sem:subEventOf dbr:War_of_the_Pyrenees .
+
+dbr:Battle_of_Sant_Lloren%C3%A7_de_la_Muga a sem:Event ;
+    sem:hasActor dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:John_Forbes_%28Portuguese_general%29,
+        dbr:Luis_Firm%C3%ADn_de_Carvajal%2C_Conde_de_la_Uni%C3%B3n,
+        dbr:Pierre_Augereau ;
+    sem:hasBeginTimeStamp "1794-08-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-08-13"^^xsd:date ;
+    sem:hasPlace dbr:Catalonia,
+        dbr:History_of_Spain_%281700%E2%80%931810%29,
+        dbr:Sant_Lloren%C3%A7_de_la_Muga .
+
+dbr:Battle_of_Santa_Cruz_de_Tenerife_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Antonio_Guti%C3%A9rrez_de_Otero_y_Santayana,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson ;
+    sem:hasBeginTimeStamp "1797-07-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-07-25"^^xsd:date ;
+    sem:hasPlace dbr:Canary_Islands,
+        dbr:Santa_Cruz_de_Tenerife,
+        dbr:Spain .
+
+dbr:Battle_of_Saorgio a sem:Event .
+
+dbr:Battle_of_Saorgio_%281793%29 a sem:Event .
+
+dbr:Battle_of_Saumur_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Jacques-Fran%C3%A7ois_Menou,
+        dbr:Jacques-Francois_Menou,
+        dbr:Jacques_Cathelineau ;
+    sem:hasBeginTimeStamp "1793-06-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-11"^^xsd:date ;
+    sem:hasPlace dbr:Saumur .
+
+dbr:Battle_of_Savenay a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Fran%C3%A7ois_Muller,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Gaspard_de_Bernard_de_Marigny,
+        dbr:Georges_Cadoudal,
+        dbr:Jacques_Louis_Fran%C3%A7ois_Delaistre_de_Tilly,
+        dbr:Jacques_Nicolas_Fleuriot_de_La_Fleuriais,
+        dbr:Jean-Baptiste_Carrier,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Lyrot_de_la_Patouill%C3%A8re,
+        dbr:Marc_Amand_%C3%89lis%C3%A9e_Scherb,
+        dbr:Michel_de_Beaupuy,
+        dbr:Pierre_Bourbotte,
+        dbr:Pierre_Fran%C3%A7ois_Verger-Dubareau,
+        dbr:Pierre_Louis_Prieur,
+        dbr:Simon_Canuel ;
+    sem:hasBeginTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasPlace dbr:Savenay .
+
+dbr:Battle_of_Schliengen a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean_Victor_Marie_Moreau ;
+    sem:hasBeginTimeStamp "1796-10-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-10-24"^^xsd:date ;
+    sem:hasPlace dbr:L%C3%B6rrach_%28district%29,
+        dbr:Margraviate_of_Baden,
+        dbr:Schliengen .
+
+dbr:Battle_of_Schwyz a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Franjo_Jela%C4%8Di%C4%87 ;
+    sem:hasBeginTimeStamp "1799-08-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-08-15"^^xsd:date ;
+    sem:hasPlace dbr:Schwyz .
+
+dbr:Battle_of_Shubra_Khit a sem:Event ;
+    sem:hasActor dbr:Ibrahim_Bey_%28Mamluk%29,
+        dbr:Jean-Baptiste_Perr%C3%A9e,
+        dbr:Murad_Bey,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1798-07-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-07-13"^^xsd:date ;
+    sem:hasPlace dbr:Egypt_Eyalet,
+        dbr:Ottoman_Empire,
+        dbr:Shubra_Khit .
+
+dbr:Battle_of_Siegburg a sem:Event ;
+    sem:hasActor dbr:Duke_Ferdinand_Frederick_Augustus_of_W%C3%BCrttemberg,
+        dbr:Jean-Baptiste_Kl%C3%A9ber ;
+    sem:hasBeginTimeStamp "1796-06-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-01"^^xsd:date ;
+    sem:hasPlace dbr:Siegburg ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Sprimont a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasBeginTimeStamp "1794-09-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-09-18"^^xsd:date ;
+    sem:hasPlace dbr:Li%C3%A8ge,
+        dbr:Sprimont .
+
+dbr:Battle_of_St._George%27s_Caye a sem:Event ;
+    sem:hasActor dbr:Arturo_O%27Neill ;
+    sem:hasBeginTimeStamp "1798-09-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-09-10"^^xsd:date ;
+    sem:hasPlace dbr:Belize,
+        dbr:St._George%27s_Caye .
+
+dbr:Battle_of_Stockach_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Dominique_Vandamme,
+        dbr:Duke_Louis_of_W%C3%BCrttemberg,
+        dbr:Fran%C3%A7ois_Joseph_Lefebvre,
+        dbr:Friedrich_Joseph%2C_Count_of_Nauendorf,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean-Joseph_Ange_d%27Hautpoul,
+        dbr:Joseph_Souham,
+        dbr:Karl_Aloys_zu_F%C3%BCrstenberg,
+        dbr:Laurent_de_Gouvion_Saint-Cyr,
+        dbr:Louis_of_W%C3%BCrttemberg,
+        dbr:Nikolaus%2C_Count_of_Colloredo-Mels_and_Wallsee,
+        dbr:Olivier%2C_Count_of_Wallis,
+        dbr:Pierre_Marie_Barth%C3%A9lemy_Ferino,
+        dbr:Prince_Wilhelm_von_Anhalt-Bernburg-Schaumburg-Hoym ;
+    sem:hasBeginTimeStamp "1799-03-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-03-25"^^xsd:date ;
+    sem:hasPlace dbr:Baden-W%C3%BCrttemberg,
+        dbr:Stockach ;
+    sem:subEventOf dbr:War_of_the_Second_Coalition .
+
+dbr:Battle_of_Tara_Hill a sem:Event ;
+    sem:hasBeginTimeStamp "1798-05-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-26"^^xsd:date ;
+    sem:hasPlace dbr:County_Meath,
+        dbr:Hill_of_Tara .
+
+dbr:Battle_of_Tarvis_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Adam_Bajalics_von_Bajahaza,
+        dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean_Joseph_Guieu,
+        dbr:Joseph_Ocskay_von_Ocsko,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1797-03-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-03-23"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Tarvisio .
+
+dbr:Battle_of_Thouars a sem:Event ;
+    sem:hasActor dbr:Charles_de_Bonchamps,
+        dbr:Henri_de_la_Rochejaquelein,
+        dbr:Louis_Marie_de_Lescure,
+        dbr:Pierre_Qu%C3%A9tineau ;
+    sem:hasBeginTimeStamp "1793-05-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-05-05"^^xsd:date ;
+    sem:hasPlace dbr:Deux-S%C3%A8vres,
+        dbr:France,
+        dbr:Thouars .
+
+dbr:Battle_of_Three_Rocks a sem:Event ;
+    sem:hasActor dbr:John_Kelly_of_Killanne,
+        dbr:Thomas_Cloney ;
+    sem:hasBeginTimeStamp "1798-05-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-30"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford,
+        dbr:Forth_Mountain .
+
+dbr:Battle_of_Tiffauges a sem:Event ;
+    sem:hasActor dbr:Charles_de_Bonchamps,
+        dbr:Fran%C3%A7ois_de_Charette,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean_Baptiste_Camille_Canclaux,
+        dbr:Louis_Marie_de_Lescure,
+        dbr:Maurice_d%27Elb%C3%A9e ;
+    sem:hasBeginTimeStamp "1793-09-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-19"^^xsd:date ;
+    sem:hasPlace dbr:Tiffauges,
+        dbr:Torfou%2C_Maine-et-Loire .
+
+dbr:Battle_of_Tory_Island a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste-Fran%C3%A7ois_Bompart,
+        dbr:John_Borlase_Warren ;
+    sem:hasBeginTimeStamp "1798-10-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-10-12"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Tory_Island .
+
+dbr:Battle_of_Tourcoing a sem:Event ;
+    sem:hasActor dbr:Jean_Victor_Marie_Moreau,
+        dbr:Joseph_Souham,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1794-05-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-18"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Nord_%28French_department%29,
+        dbr:Tourcoing ;
+    sem:subEventOf dbr:Flanders_campaign .
+
+dbr:Battle_of_Tournay_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Jean-Charles_Pichegru,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1794-05-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-22"^^xsd:date ;
+    sem:hasPlace dbr:Belgians .
+
+dbr:Battle_of_Trebbia_%281799%29 a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89tienne_Macdonald>,
+        dbr:Alexander_Suvorov,
+        dbr:Jan_Henryk_D%C4%85browski,
+        dbr:Michael_von_Melas ;
+    sem:hasBeginTimeStamp "1799-06-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-06-20"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Piedmontese_Republic,
+        dbr:Trebbia .
+
+dbr:Battle_of_Trippstadt a sem:Event ;
+    sem:hasActor dbr:Alexandre_Camille_Taponier,
+        dbr:Claude_Ignace_Fran%C3%A7ois_Michaud,
+        dbr:Frederick_Louis%2C_Prince_of_Hohenlohe-Ingelfingen,
+        dbr:Friedrich_Wilhelm%2C_F%C3%BCrst_zu_Hohenlohe-Kirchberg,
+        dbr:Jean_Ren%C3%A9_Moreaux,
+        dbr:Laurent_de_Gouvion_Saint-Cyr,
+        dbr:Wichard_Joachim_Heinrich_von_M%C3%B6llendorf ;
+    sem:hasBeginTimeStamp "1794-07-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-07-17"^^xsd:date ;
+    sem:hasPlace dbr:Trippstadt,
+        dbr:Vosges .
+
+dbr:Battle_of_Truillas a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Luc_Sim%C3%A9on_Auguste_Dagobert ;
+    sem:hasBeginTimeStamp "1793-09-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-22"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales,
+        dbr:Pyr%C3%A9n%C3%A9es_Orientales,
+        dbr:Trouillas .
+
+dbr:Battle_of_Tubberneering a sem:Event ;
+    sem:hasBeginTimeStamp "1798-06-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-04"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford .
+
+dbr:Battle_of_Valmy a sem:Event ;
+    sem:hasActor dbr:Charles_Fran%C3%A7ois_Dumouriez,
+        dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Fran%C3%A7ois_Christophe_de_Kellermann,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Friedrich_Wilhelm%2C_F%C3%BCrst_zu_Hohenlohe-Kirchberg ;
+    sem:hasBeginTimeStamp "1792-09-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-20"^^xsd:date ;
+    sem:hasPlace dbr:Sainte-Menehould,
+        dbr:Valmy .
+
+dbr:Battle_of_Valvasone_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Charles_XIV_John,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1797-03-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-03-16"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Valvasone,
+        dbr:Valvasone_Arzene .
+
+dbr:Battle_of_Verdun_%281792%29 a sem:Event ;
+    sem:hasActor dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Nicolas-Joseph_Beaurepaire ;
+    sem:hasBeginTimeStamp "1792-09-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-02"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Verdun .
+
+dbr:Battle_of_Verona_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Barth%C3%A9lemy_Louis_Joseph_Sch%C3%A9rer,
+        dbr:Paul_Kray ;
+    sem:hasBeginTimeStamp "1799-03-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-03-26"^^xsd:date ;
+    sem:hasPlace dbr:Verona .
+
+dbr:Battle_of_Vihiers a sem:Event ;
+    sem:hasActor dbr:Jacques-Fran%C3%A7ois_Menou,
+        dbr:Louis-Alexandre_Berthier,
+        dbr:Louis-Nicolas_Davout ;
+    sem:hasBeginTimeStamp "1793-07-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-18"^^xsd:date ;
+    sem:hasPlace dbr:Maine-et-Loire,
+        dbr:Vihiers .
+
+dbr:Battle_of_Villers-en-Cauchies a sem:Event ;
+    sem:hasActor dbr:Ren%C3%A9-Bernard_Chapuy,
+        dbr:Rudolf_Ritter_von_Otto ;
+    sem:hasBeginTimeStamp "1794-04-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-04-24"^^xsd:date ;
+    sem:hasPlace dbr:Nord_%28French_department%29,
+        dbr:Villers-en-Cauchies .
+
+dbr:Battle_of_Vinegar_Hill a sem:Event ;
+    sem:hasActor dbr:Anthony_Perry,
+        dbr:David_Dundas_%28British_Army_officer%29,
+        dbr:Francis_Needham%2C_1st_Earl_of_Kilmorey,
+        dbr:General_William_Loftus_%28MP%29,
+        dbr:Gerard_Lake%2C_1st_Viscount_Lake,
+        dbr:John_Murphy_%28priest%29,
+        dbr:Mogue_Kearns,
+        dbr:Myles_Byrne,
+        dbr:William_Loftus_%28British_Army_officer%29 ;
+    sem:hasBeginTimeStamp "1798-06-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-21"^^xsd:date ;
+    sem:hasPlace dbr:County_Wexford,
+        dbr:Enniscorthy .
+
+dbr:Battle_of_Voltri a sem:Event ;
+    sem:hasActor dbr:Jean-Baptiste_Cervoni,
+        dbr:Johann_Peter_Beaulieu,
+        dbr:Karl_Philipp_Sebottendorf,
+        dbr:Philipp_Pittoni_von_Dannenfeld ;
+    sem:hasBeginTimeStamp "1796-04-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-10"^^xsd:date ;
+    sem:hasPlace dbr:Genoa,
+        dbr:Italy .
+
+dbr:Battle_of_W%C3%BCrzburg a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Jourdan ;
+    sem:hasBeginTimeStamp "1796-09-03"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-03"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:W%C3%BCrzburg .
+
+dbr:Battle_of_W%C5%93rth_%281793%29 a sem:Event .
+
+dbr:Battle_of_Wattignies a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jacques_Ferrand_%28general%29,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Lazare_Carnot,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1793-10-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-16"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Maubeuge,
+        dbr:Wattignies-la-Victoire .
+
+dbr:Battle_of_Wetzlar_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Jourdan ;
+    sem:hasBeginTimeStamp "1796-06-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-06-15"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Wetzlar ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Battle_of_Wiesloch_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Anton_Count_Szt%C3%A1ray_de_Nagy-Mihaly,
+        dbr:Anton_Szt%C3%A1ray,
+        dbr:Claude_Lecourbe ;
+    sem:hasBeginTimeStamp "1799-12-03"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-12-03"^^xsd:date ;
+    sem:hasPlace dbr:Wiesloch ;
+    sem:subEventOf dbr:War_of_the_Second_Coalition .
+
+dbr:Battle_of_Winterthur a sem:Event ;
+    sem:hasActor dbr:Friedrich_Freiherr_von_Hotze,
+        dbr:Friedrich_Joseph%2C_Count_of_Nauendorf,
+        dbr:Michel_Ney ;
+    sem:hasBeginTimeStamp "1799-05-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-05-27"^^xsd:date ;
+    sem:hasPlace dbr:Canton_of_Z%C3%BCrich,
+        dbr:Helvetic_Republic,
+        dbr:Winterthur .
+
+dbr:Battle_of_the_%C3%8Eles_Saint-Marcouf a sem:Event ;
+    sem:hasBeginTimeStamp "1798-05-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-07"^^xsd:date ;
+    sem:hasPlace <http://dbpedia.org/resource/%C3%8Eles_Saint-Marcouf> .
+
+dbr:Battle_of_the_Acul a sem:Event ;
+    sem:hasActor dbr:John_Whitelocke ;
+    sem:hasBeginTimeStamp "1794-02-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-02-19"^^xsd:date ;
+    sem:hasPlace dbr:Haiti,
+        dbr:L%C3%A9og%C3%A2ne .
+
+dbr:Battle_of_the_Baztan_Valley a sem:Event ;
+    sem:hasActor dbr:Bon-Adrien_Jeannot_de_Moncey,
+        dbr:Don_Ventura_Caro,
+        dbr:Gabriel_de_Mendiz%C3%A1bal_Iraeta,
+        dbr:Jacques_L%C3%A9onard_Muller,
+        dbr:Marquis_Saint-Simon ;
+    sem:hasBeginTimeStamp "1794-08-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-08-01"^^xsd:date ;
+    sem:hasPlace dbr:Baztan_%28comarca%29,
+        dbr:Spain .
+
+dbr:Battle_of_the_Black_Mountain a sem:Event ;
+    sem:hasActor dbr:Catherine-Dominique_de_P%C3%A9rignon,
+        dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:Jer%C3%B3nimo_Gir%C3%B3n-Moctezuma%2C_Marquis_de_las_Amarillas,
+        dbr:John_Forbes_%28Portuguese_general%29,
+        dbr:Luis_Firm%C3%ADn_de_Carvajal%2C_Conde_de_la_Uni%C3%B3n ;
+    sem:hasBeginTimeStamp "1794-11-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-11-20"^^xsd:date ;
+    sem:hasPlace dbr:Capmany,
+        dbr:Catalonia,
+        dbr:Enlightenment_in_Spain .
+
+dbr:Battle_of_the_Hy%C3%A8res_Islands a sem:Event ;
+    sem:hasActor dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Pierre_Martin_%28French_Navy_officer%29,
+        dbr:William_Hotham%2C_1st_Baron_Hotham ;
+    sem:hasBeginTimeStamp "1795-07-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-07-13"^^xsd:date ;
+    sem:hasPlace <http://dbpedia.org/resource/%C3%8Eles_d%27Hy%C3%A8res>,
+        dbr:Mediterranean_Sea .
+
+dbr:Battle_of_the_Levant_Convoy a sem:Event ;
+    sem:hasActor dbr:Joseph_de_Richery,
+        dbr:Thomas_Taylor_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1795-10-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-07"^^xsd:date ;
+    sem:hasPlace dbr:Cape_St._Vincent,
+        dbr:Portugal .
+
+dbr:Battle_of_the_Nile a sem:Event ;
+    sem:hasActor dbr:Armand_Simon_Marie_Blanquet_du_Chayla,
+        dbr:Fran%C3%A7ois-Paul_Brueys_d%27Aigalliers,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Pierre-Charles_Villeneuve ;
+    sem:hasBeginTimeStamp "1798-08-03"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-08-03"^^xsd:date ;
+    sem:hasPlace dbr:Abu_Qir_Bay,
+        dbr:Egypt_Eyalet,
+        dbr:Ottoman_Empire .
+
+dbr:Battle_of_the_Pyramids a sem:Event ;
+    sem:hasActor dbr:Ibrahim_Bey_%28Mamluk%29,
+        dbr:Jacques-Fran%C3%A7ois_Menou,
+        dbr:Jean_Reynier,
+        dbr:Louis_Andr%C3%A9_Bon,
+        dbr:Louis_Desaix,
+        dbr:Murad_Bey,
+        dbr:Napoleon,
+        dbr:Thomas-Alexandre_Dumas ;
+    sem:hasBeginTimeStamp "1798-07-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-07-21"^^xsd:date ;
+    sem:hasPlace dbr:Egypt_Eyalet,
+        dbr:Imbaba,
+        dbr:Ottoman_Empire .
+
+dbr:Battle_of_the_Raz_de_Sein a sem:Event ;
+    sem:hasActor dbr:Alexander_Hood_%28Royal_Navy_officer%2C_born_1758%29,
+        dbr:Louis_Lh%C3%A9ritier ;
+    sem:hasBeginTimeStamp "1798-04-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-04-21"^^xsd:date ;
+    sem:hasPlace dbr:Bay_of_Biscay,
+        dbr:Raz_de_Sein .
+
+dbr:Bois_Ca%C3%AFman a sem:Event .
+
+dbr:Campaigns_of_1794_in_the_French_Revolutionary_Wars a sem:Event .
+
+dbr:Campaigns_of_1796_in_the_French_Revolutionary_Wars a sem:Event .
+
+dbr:Capitulation_of_Saldanha_Bay a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/Engelbertus_Lucas_Sr.>,
+        dbr:George_Elphinstone%2C_1st_Viscount_Keith ;
+    sem:hasBeginTimeStamp "1796-08-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-08-17"^^xsd:date ;
+    sem:hasPlace dbr:Dutch_Cape_Colony,
+        dbr:Saldanha_Bay .
+
+dbr:Capture_of_Fort-Dauphin_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Jean-Fran%C3%A7ois_Papillon ;
+    sem:hasBeginTimeStamp "1794-01-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-01-29"^^xsd:date ;
+    sem:hasPlace dbr:Fort-Libert%C3%A9,
+        dbr:Saint-Domingue .
+
+dbr:Capture_of_La_Croyable a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/Stephen_Decatur_Sr.> ;
+    sem:hasBeginTimeStamp "1798-07-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-07-07"^^xsd:date ;
+    sem:hasPlace dbr:Great_Egg_Harbor_Bay,
+        dbr:New_Jersey,
+        dbr:United_States .
+
+dbr:Capture_of_Minorca_%281798%29 a sem:Event ;
+    sem:hasActor dbr:Charles_Stuart_%28British_Army_officer%2C_born_1753%29,
+        dbr:Juan_Nepomuceno_de_Quesada,
+        dbr:Sir_John_Duckworth%2C_1st_Baronet ;
+    sem:hasBeginTimeStamp "1798-11-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-11-15"^^xsd:date ;
+    sem:hasPlace dbr:Enlightenment_in_Spain,
+        dbr:Menorca .
+
+dbr:Capture_of_Porrentruy a sem:Event ;
+    sem:hasActor dbr:Adam_Philippe%2C_Comte_de_Custine,
+        dbr:Charles_Grangier_de_la_Ferri%C3%A8re,
+        dbr:Franz_Joseph_Sigismund_von_Roggenbach ;
+    sem:hasBeginTimeStamp "1792-04-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-04-28"^^xsd:date ;
+    sem:hasPlace dbr:Porrentruy .
+
+dbr:Capture_of_the_Dutch_fleet_at_Den_Helder a sem:Event ;
+    sem:hasBeginTimeStamp "1795-01-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-01-23"^^xsd:date ;
+    sem:hasPlace dbr:Den_Helder,
+        dbr:Dutch_Republic,
+        dbr:Texel .
+
+dbr:Champ_de_Mars_massacre a sem:Event .
+
+dbr:Chouannerie a sem:Event ;
+    sem:hasActor dbr:Aim%C3%A9_Picquet_du_Boisguy,
+        dbr:Aim%C3%A9_du_Boisguy,
+        dbr:Charles_Armand_Tuffin%2C_marquis_de_la_Rou%C3%ABrie,
+        dbr:Chevalier_de_Boishardy,
+        dbr:Claude_Ursule_Gency,
+        dbr:Gabriel%2C_comte_d%27H%C3%A9douville,
+        dbr:Gabriel_Marie_Joseph%2C_comte_d%27H%C3%A9douville,
+        dbr:Georges_Cadoudal,
+        dbr:Guillaume_Brune,
+        dbr:Guillaume_Le_M%C3%A9tayer_dit_Rochambeau,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean-Louis_Treton,
+        dbr:Jean-Michel_Beysser,
+        dbr:Jean_Antoine_Rossignol,
+        dbr:Jean_Baptiste_Camille_Canclaux,
+        dbr:Jean_Baptiste_Kl%C3%A9ber,
+        dbr:Jean_Chouan,
+        dbr:Jean_Joseph_Amable_Humbert,
+        dbr:Joseph-Genevi%C3%A8ve_de_Puisaye,
+        dbr:Joseph_de_Puisaye,
+        dbr:Lazare_Hoche,
+        dbr:Louis-Auguste-Victor%2C_Count_de_Ghaisnes_de_Bourmont,
+        dbr:Louis-Marie-Antoine-Auguste-Fortun%C3%A9_d%27Andign%C3%A9,
+        dbr:Louis_de_Frott%C3%A9,
+        dbr:Marie_Paul_de_Sc%C3%A9peaux_de_Bois-Guignot,
+        dbr:Pierre-Mathurin_Mercier_la_Vend%C3%A9e,
+        dbr:Pierre_Guillemot,
+        dbr:Pierre_Quantin ;
+    sem:hasBeginTimeStamp "1794-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-01-01"^^xsd:date ;
+    sem:hasPlace dbr:Brittany,
+        dbr:Maine_%28province%29,
+        dbr:Normandy .
+
+dbr:Cornwallis%27s_Retreat a sem:Event ;
+    sem:hasActor dbr:Louis_Thomas_Villaret_de_Joyeuse,
+        dbr:William_Cornwallis ;
+    sem:hasBeginTimeStamp "1795-06-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-06-17"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Brittany .
+
+dbr:Coup_of_18_Brumaire a sem:Event ;
+    sem:hasBeginTimeStamp "1799-11-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-11-09"^^xsd:date .
+
+dbr:Coup_of_18_Fructidor a sem:Event ;
+    sem:hasActor dbr:Charles_Pichegru,
+        dbr:Council_of_Ancients,
+        dbr:Council_of_Five_Hundred,
+        dbr:Fran%C3%A7ois-Marie%2C_marquis_de_Barth%C3%A9lemy,
+        dbr:Fran%C3%A7ois_Antoine_de_Boissy_d%27Anglas,
+        dbr:Fran%C3%A7ois_Barb%C3%A9-Marbois,
+        dbr:French_Directory,
+        dbr:Jean-Fran%C3%A7ois_Reubell,
+        dbr:Jean-Fran%C3%A7ois_Rewbell,
+        dbr:Lazare_Carnot,
+        dbr:Lazare_Hoche,
+        dbr:Louis_Marie_de_La_R%C3%A9velli%C3%A8re-L%C3%A9peaux,
+        dbr:Pierre_Augereau ;
+    sem:hasBeginTimeStamp "1797-09-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-09-04"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:French_First_Republic,
+        dbr:Paris .
+
+dbr:Coup_of_30_Prairial_VII a sem:Event .
+
+dbr:Croisi%C3%A8re_du_Grand_Hiver a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Joseph_Bouvet,
+        dbr:Joseph-Marie_Nielly,
+        dbr:Louis_Thomas_Villaret_de_Joyeuse,
+        dbr:Pierre_Jean_Van_Stabel,
+        dbr:Sidney_Smith_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1794-12-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-12-24"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean .
+
+dbr:Cutting_out_of_the_Hermione a sem:Event ;
+    sem:hasActor dbr:Ram%C3%B3n_de_Chalas,
+        dbr:Sir_Edward_Hamilton%2C_1st_Baronet ;
+    sem:hasBeginTimeStamp "1799-10-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-10-25"^^xsd:date ;
+    sem:hasPlace dbr:Captaincy_General_of_Venezuela,
+        dbr:Puerto_Cabello .
+
+dbr:Day_of_Daggers a sem:Event ;
+    sem:hasActor dbr:Antoine_Joseph_Santerre,
+        dbr:Gilbert_du_Motier%2C_Marquis_de_Lafayette,
+        dbr:Marquis_de_Lafayette,
+        dbr:National_Guard_%28France%29 ;
+    sem:hasBeginTimeStamp "1791-02-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1791-02-28"^^xsd:date ;
+    sem:hasPlace dbr:Tuileries_Palace,
+        dbr:Vincennes ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Demonstration_of_20_June_1792 a sem:Event ;
+    sem:hasBeginTimeStamp "1792-06-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-06-20"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Paris .
+
+dbr:East_Indies_theatre_of_the_French_Revolutionary_Wars a sem:Event ;
+    sem:hasActor dbr:Ignacio_Mar%C3%ADa_de_%C3%81lava,
+        dbr:Peter_Rainier,
+        dbr:Pierre_C%C3%A9sar_Charles_de_Sercey ;
+    sem:hasBeginTimeStamp "1793-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-01-01"^^xsd:date ;
+    sem:hasPlace dbr:East_Indies,
+        dbr:Indian_Ocean,
+        dbr:South_China_Sea .
+
+dbr:F%C3%AAte_de_la_F%C3%A9d%C3%A9ration a sem:Event .
+
+dbr:Fall_of_Maximilien_Robespierre a sem:Event ;
+    sem:hasActor dbr:Augustin_Robespierre,
+        dbr:Charles-Andr%C3%A9_Merda,
+        dbr:Fran%C3%A7ois_Hanriot,
+        dbr:Georges_Couthon,
+        dbr:Jean-Lambert_Tallien,
+        dbr:Joseph_Fouch%C3%A9,
+        dbr:Louis_Antoine_de_Saint-Just,
+        dbr:Maximilien_Robespierre,
+        dbr:Paul_Barras,
+        dbr:Pierre-Louis_Bentabole,
+        dbr:Thermidorians ;
+    sem:hasBeginTimeStamp "1794-07-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-07-27"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:H%C3%B4tel_de_Ville%2C_Paris,
+        dbr:Paris .
+
+dbr:First_Battle_of_Ch%C3%A2tillon a sem:Event ;
+    sem:hasActor dbr:Charles_de_Bonchamps,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Gaspard_de_Bernard_de_Marigny,
+        dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jean-Nicolas_Stofflet,
+        dbr:Louis_Marie_de_Lescure ;
+    sem:hasBeginTimeStamp "1793-07-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-05"^^xsd:date ;
+    sem:hasPlace dbr:Maul%C3%A9on%2C_Deux-S%C3%A8vres .
+
+dbr:First_Battle_of_Cholet a sem:Event ;
+    sem:hasActor dbr:Jacques_Cathelineau,
+        dbr:Jean-Nicolas_Stofflet,
+        dbr:Vincent_Beauvau-Tigny ;
+    sem:hasBeginTimeStamp "1793-03-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-03-15"^^xsd:date ;
+    sem:hasPlace dbr:Cholet,
+        dbr:France .
+
+dbr:First_Battle_of_Dego a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Olivier%2C_Count_of_Wallis ;
+    sem:hasBeginTimeStamp "1794-09-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-09-21"^^xsd:date ;
+    sem:hasPlace dbr:Dego%2C_Liguria,
+        dbr:Italy .
+
+dbr:First_Battle_of_Noirmoutier a sem:Event ;
+    sem:hasActor dbr:Conrad_Wieland,
+        dbr:Fran%C3%A7ois_de_Charette ;
+    sem:hasBeginTimeStamp "1793-10-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-12"^^xsd:date ;
+    sem:hasPlace <http://dbpedia.org/resource/%C3%8Ele_de_Noirmoutier>,
+        dbr:Noirmoutier .
+
+dbr:First_Battle_of_Wissembourg_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigmund_von_Wurmser ;
+    sem:hasBeginTimeStamp "1793-10-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-13"^^xsd:date ;
+    sem:hasPlace dbr:Bas-Rhin,
+        dbr:France,
+        dbr:Wissembourg ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:First_Battle_of_Zurich a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Archduke_Charles_of_Austria,
+        dbr:Friedrich_Freiherr_von_Hotze ;
+    sem:hasBeginTimeStamp "1799-06-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-06-07"^^xsd:date ;
+    sem:hasPlace dbr:Switzerland,
+        dbr:Z%C3%BCrich .
+
+dbr:First_Massacre_of_Machecoul a sem:Event ;
+    sem:hasActor dbr:Louis-Charles-C%C3%A9sar_Maupassant ;
+    sem:hasBeginTimeStamp "1793-03-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-03-11"^^xsd:date ;
+    sem:hasPlace dbr:Loire-Atlantique,
+        dbr:Machecoul .
+
+dbr:Flight_to_Varennes a sem:Event .
+
+dbr:French_campaign_in_Egypt_and_Syria a sem:Event ;
+    sem:hasActor dbr:Anne_Jean_Marie_Ren%C3%A9_Savary,
+        dbr:Antoine_Le_Picard_de_Ph%C3%A9lippeaux,
+        dbr:Charles_Dugua,
+        dbr:Dominique_Martin_Dupuy,
+        dbr:Elz%C3%A9ar_Auguste_Cousin_de_Dommartin,
+        dbr:Fran%C3%A7ois-Paul_Brueys_d%27Aigalliers,
+        dbr:Horace_Fran%C3%A7ois_Bastien_S%C3%A9bastiani_de_La_Porta,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Ibrahim_Bey_%28Mamluk%29,
+        dbr:Jacques-Fran%C3%A7ois_Menou,
+        dbr:Jazzar_Pasha,
+        dbr:Jean-Antoine_Verdier,
+        dbr:Jean-Baptiste_Bessi%C3%A8res,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean-Baptiste_Perr%C3%A9e,
+        dbr:Jean_Lannes,
+        dbr:Jean_Rapp,
+        dbr:Jean_Reynier,
+        dbr:Joachim_Murat,
+        dbr:Joseph_Sulkowski,
+        dbr:K%C3%B6r_Yusuf_Ziya%C3%BCddin_Pasha,
+        dbr:Louis-Marie-Joseph_Maximilian_Caffarelli_du_Falga,
+        dbr:Louis-Nicolas_Davout,
+        dbr:Louis_Andr%C3%A9_Bon,
+        dbr:Louis_Desaix,
+        dbr:Murad_Bey,
+        dbr:Mustafa_Pasha_%28Egypt%29,
+        dbr:Napoleon,
+        dbr:Pierre-Charles_Villeneuve,
+        dbr:Ralph_Abercromby,
+        dbr:Selim_III,
+        dbr:Sidney_Smith_%28Royal_Navy_officer%29,
+        dbr:Thomas-Alexandre_Dumas ;
+    sem:hasBeginTimeStamp "1798-07-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-07-01"^^xsd:date ;
+    sem:hasPlace dbr:Ottoman_Empire .
+
+dbr:French_expedition_to_Ireland_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Edward_Pellew%2C_1st_Viscount_Exmouth,
+        dbr:Justin_Bonaventure_Morard_de_Galles,
+        dbr:Lazare_Hoche,
+        dbr:Sir_Robert_Kingsmill%2C_1st_Baronet ;
+    sem:hasPlace dbr:Bantry_Bay,
+        dbr:Kingdom_of_Ireland .
+
+dbr:French_expedition_to_Sardinia a sem:Event ;
+    sem:hasActor dbr:Domenico_Millelire,
+        dbr:Juan_de_L%C3%A1ngara,
+        dbr:Laurent_Jean_Fran%C3%A7ois_Truguet ;
+    sem:hasBeginTimeStamp "1792-12-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-12-21"^^xsd:date ;
+    sem:hasPlace dbr:Mediterranean_Sea,
+        dbr:Sardinia .
+
+dbr:French_invasion_of_Malta a sem:Event ;
+    sem:hasActor dbr:Claude-Henri_Belgrand_de_Vaubois,
+        dbr:Ferdinand_von_Hompesch_zu_Bolheim,
+        dbr:Jean-Andoche_Junot%2C_1st_Duke_of_Abrantes,
+        dbr:Jean_Reynier,
+        dbr:Louis_Baraguey_d%27Hilliers,
+        dbr:Louis_Desaix,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1798-06-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-06-12"^^xsd:date ;
+    sem:hasPlace dbr:French_occupation_of_Malta,
+        dbr:Gozo,
+        dbr:Malta_%28island%29 .
+
+dbr:French_invasion_of_Switzerland a sem:Event ;
+    sem:hasActor dbr:Guillaume_Brune ;
+    sem:hasBeginTimeStamp "1798-05-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-05-17"^^xsd:date ;
+    sem:hasPlace dbr:Old_Swiss_Confederacy .
+
+dbr:Frigate_action_of_29_May_1794 a sem:Event ;
+    sem:hasActor dbr:Francis_Laforey ;
+    sem:hasBeginTimeStamp "1794-05-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-29"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Cape_Finisterre .
+
+dbr:Glorious_First_of_June a sem:Event ;
+    sem:hasActor dbr:Cuthbert_Collingwood%2C_1st_Baron_Collingwood,
+        dbr:Louis_Thomas_Villaret_de_Joyeuse,
+        dbr:Richard_Howe%2C_1st_Earl_Howe ;
+    sem:hasBeginTimeStamp "1794-06-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-01"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Ushant .
+
+dbr:Great_Fear a sem:Event .
+
+dbr:Haitian_Revolution a sem:Event ;
+    sem:hasActor dbr:Alexandre_P%C3%A9tion,
+        dbr:Andr%C3%A9_Rigaud,
+        dbr:Charles_Leclerc_%28general%2C_born_1772%29,
+        dbr:Donatien-Marie-Joseph_de_Vimeur%2C_vicomte_de_Rochambeau,
+        dbr:Dutty_Boukman,
+        dbr:Federico_Gravina,
+        dbr:Fran%C3%A7ois_Capois,
+        dbr:Georges_Biassou,
+        dbr:Henri_Christophe,
+        dbr:Jean-Jacques_Dessalines,
+        dbr:Joaqu%C3%ADn_Garc%C3%ADa_y_Moreno,
+        dbr:John_Loring_%28Royal_Navy_officer%2C_died_1808%29,
+        dbr:L%C3%A9ger-F%C3%A9licit%C3%A9_Sonthonax,
+        dbr:Louis_Thomas_Villaret_de_Joyeuse,
+        dbr:Napoleon,
+        dbr:Paul-Louis_Dubuc,
+        dbr:Philibert_Fran%C3%A7ois_Rouxel_de_Blanchelande,
+        dbr:Sir_John_Duckworth%2C_1st_Baronet,
+        dbr:Thomas_Maitland_%28British_Army_officer%29,
+        dbr:Toussaint_Louverture,
+        dbr:Vincent_Og%C3%A9 ;
+    sem:hasBeginTimeStamp "1791-08-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1791-08-21"^^xsd:date ;
+    sem:hasPlace dbr:First_Empire_of_Haiti,
+        dbr:Saint-Domingue .
+
+dbr:Infernal_columns a sem:Event .
+
+dbr:Insurrection_of_10_August_1792 a sem:Event ;
+    sem:hasActor dbr:Antoine_Joseph_Santerre,
+        dbr:Augustin-Joseph_de_Mailly,
+        dbr:Claude_Fournier_%28revolutionary%29,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Karl_Josef_von_Bachmann,
+        dbr:Louis_XVI ;
+    sem:hasBeginTimeStamp "1792-08-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-08-10"^^xsd:date ;
+    sem:hasPlace <http://dbpedia.org/resource/%C3%8Ele-de-France>,
+        dbr:Kingdom_of_France,
+        dbr:Paris .
+
+dbr:Insurrection_of_31_May_%E2%80%93_2_June_1793 a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89tienne_Clavi%C3%A8re>,
+        dbr:Bertrand_Bar%C3%A8re,
+        dbr:Claude_Fauchet_%28revolutionist%29,
+        dbr:Fran%C3%A7ois_Hanriot,
+        dbr:Girondins,
+        dbr:Henri_Gr%C3%A9goire,
+        dbr:Jacques-Nicolas_Billaud-Varenne,
+        dbr:Jacques_H%C3%A9bert,
+        dbr:Jean-Denis_Lanjuinais,
+        dbr:Jean-Fran%C3%A7ois_Varlet,
+        dbr:Jean-Paul_Marat,
+        dbr:Marguerite-%C3%89lie_Guadet,
+        dbr:Maximilien_Robespierre,
+        dbr:Maximin_Isnard,
+        dbr:National_Convention,
+        dbr:Pierre_Henri_H%C3%A9l%C3%A8ne_Marie_Lebrun-Tondu ;
+    sem:hasBeginTimeStamp "1793-06-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-02"^^xsd:date .
+
+dbr:Invasion_of_Ceylon_%281795%29 a sem:Event .
+
+dbr:Invasion_of_Corsica_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Charles_Stuart_%28British_Army_officer%2C_born_1753%29,
+        dbr:David_Dundas_%28British_Army_officer%29,
+        dbr:Jean-Pierre_Lacombe-Saint-Michel,
+        dbr:Pasquale_Paoli,
+        dbr:Rapha%C3%ABl%2C_Comte_de_Casabianca,
+        dbr:Samuel_Hood%2C_1st_Viscount_Hood ;
+    sem:hasBeginTimeStamp "1794-08-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-08-10"^^xsd:date ;
+    sem:hasPlace dbr:Corsica .
+
+dbr:Invasion_of_France_%281795%29 a sem:Event ;
+    sem:hasActor dbr:Alexander_Hood%2C_1st_Viscount_Bridport,
+        dbr:Charles_Eug%C3%A8ne_Gabriel_de_Sombreuil,
+        dbr:Emmanuel_de_Grouchy%2C_marquis_de_Grouchy,
+        dbr:Georges_Cadoudal,
+        dbr:Jean-Lambert_Tallien,
+        dbr:Jean_Baptiste_Camille_Canclaux,
+        dbr:Jean_Joseph_Amable_Humbert,
+        dbr:John_Borlase_Warren,
+        dbr:Joseph-Genevi%C3%A8ve_de_Puisaye,
+        dbr:Lazare_Hoche,
+        dbr:Louis_Charles_d%27Hervilly,
+        dbr:Vincent_de_Tint%C3%A9niac ;
+    sem:hasBeginTimeStamp "1795-07-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-07-21"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Quiberon ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Invasion_of_Trinidad_%281797%29 a sem:Event ;
+    sem:hasActor dbr:Henry_Harvey,
+        dbr:Jos%C3%A9_Mar%C3%ADa_Chac%C3%B3n,
+        dbr:Ralph_Abercromby ;
+    sem:hasBeginTimeStamp "1797-02-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-02-21"^^xsd:date ;
+    sem:hasPlace dbr:Trinidad .
+
+dbr:Invasion_of_the_Cape_Colony a sem:Event ;
+    sem:hasActor dbr:Abraham_Josias_Sluysken,
+        dbr:George_Elphinstone%2C_1st_Viscount_Keith,
+        dbr:James_Henry_Craig ;
+    sem:hasBeginTimeStamp "1795-09-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-09-15"^^xsd:date ;
+    sem:hasPlace dbr:Dutch_Cape_Colony,
+        dbr:Southern_Africa .
+
+dbr:Irish_Rebellion_of_1798 a sem:Event ;
+    sem:hasActor dbr:Commodore_%28Royal_Navy%29,
+        dbr:Robert_Stewart%2C_Viscount_Castlereagh ;
+    sem:hasBeginTimeStamp "1798-10-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-10-12"^^xsd:date ;
+    sem:hasPlace dbr:Ireland .
+
+dbr:Italian_Campaign_of_Suvorov a sem:Event .
+
+dbr:Macau_Incident_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Ignacio_Mar%C3%ADa_de_%C3%81lava,
+        dbr:William_Hargood ;
+    sem:hasBeginTimeStamp "1799-01-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-01-27"^^xsd:date ;
+    sem:hasPlace dbr:South_China_Sea,
+        dbr:Wanshan_Archipelago .
+
+dbr:Martin%27s_cruise_of_1794 a sem:Event ;
+    sem:hasActor dbr:Counter_admiral ;
+    sem:hasBeginTimeStamp "1794-06-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-08"^^xsd:date ;
+    sem:hasPlace dbr:Fr%C3%A9jus .
+
+dbr:Massacres_of_La_Glaci%C3%A8re a sem:Event .
+
+dbr:Mediterranean_campaign_of_1793%E2%80%931796 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois-Paul_Brueys_d%27Aigalliers,
+        dbr:John_Jervis%2C_1st_Earl_of_St_Vincent,
+        dbr:Juan_de_L%C3%A1ngara,
+        dbr:Pierre_Martin_%28French_Navy_officer%29,
+        dbr:Samuel_Hood%2C_1st_Viscount_Hood,
+        dbr:William_Hotham%2C_1st_Baron_Hotham ;
+    sem:hasBeginTimeStamp "1793-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-01-01"^^xsd:date ;
+    sem:hasPlace dbr:Mediterranean_Sea .
+
+dbr:Mediterranean_campaign_of_1798 a sem:Event ;
+    sem:hasActor dbr:Count_of_Vidigueira,
+        dbr:Ferdinand_von_Hompesch_zu_Bolheim,
+        dbr:Fran%C3%A7ois-Paul_Brueys_d%27Aigalliers,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Napoleon,
+        dbr:Thomas-Alexandre_Dumas ;
+    sem:hasPlace dbr:Mediterranean_Sea .
+
+dbr:Montenotte_campaign a sem:Event ;
+    sem:hasActor dbr:Johann_Peter_Beaulieu,
+        dbr:Michelangelo_Alessandro_Colli-Marchi,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-04-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-28"^^xsd:date ;
+    sem:hasPlace dbr:Italy,
+        dbr:Kingdom_of_Sardinia,
+        dbr:Liguria,
+        dbr:Piedmont,
+        dbr:Republic_of_Genoa ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Nancy_affair a sem:Event .
+
+dbr:Newfoundland_expedition a sem:Event ;
+    sem:hasActor dbr:James_Wallace_%28Royal_Navy_officer%29,
+        dbr:Jos%C3%A9_Solano_y_Bote,
+        dbr:Joseph_de_Richery ;
+    sem:hasBeginTimeStamp "1796-09-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-05"^^xsd:date ;
+    sem:hasPlace dbr:Labrador,
+        dbr:Newfoundland_%28island%29,
+        dbr:Saint_Pierre_and_Miquelon .
+
+dbr:Order_of_battle_at_the_Battle_of_Stockach_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Jourdan ;
+    sem:hasBeginTimeStamp "1799-03-25"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-03-25"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Stockach ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Peasants%27_War_%281798%29 a sem:Event ;
+    sem:hasActor dbr:Claude-Sylvestre_Colaud,
+        dbr:Pieter_Corbeels ;
+    sem:hasBeginTimeStamp "1798-10-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-10-12"^^xsd:date ;
+    sem:hasPlace dbr:Southern_Netherlands .
+
+dbr:Proclamation_of_the_abolition_of_the_monarchy a sem:Event .
+
+dbr:Quasi-War a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Rigaud,
+        dbr:Benjamin_Stoddert,
+        dbr:Edme_%C3%89tienne_Borne_Desfourneaux,
+        dbr:John_Adams,
+        dbr:Napoleon,
+        dbr:Paul_Barras,
+        dbr:Silas_Talbot,
+        dbr:Stephen_Decatur,
+        dbr:Thomas_Truxtun,
+        dbr:Victor_Hugues,
+        dbr:William_Bainbridge ;
+    sem:hasBeginTimeStamp "1798-07-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-07-07"^^xsd:date .
+
+dbr:R%C3%A9veillon_riots a sem:Event .
+
+dbr:Raid_on_Genoa a sem:Event ;
+    sem:hasActor dbr:John_Gell_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1793-10-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-05"^^xsd:date ;
+    sem:hasPlace dbr:Genoa,
+        dbr:Republic_of_Genoa .
+
+dbr:Raid_on_Manila_%281798%29 a sem:Event .
+
+dbr:Revolt_of_1_Prairial_Year_III a sem:Event ;
+    sem:hasBeginTimeStamp "1795-05-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-05-20"^^xsd:date ;
+    sem:hasPlace dbr:Paris .
+
+dbr:Revolt_of_Cairo a sem:Event ;
+    sem:hasActor dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1798-10-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-10-22"^^xsd:date ;
+    sem:hasPlace dbr:Cairo,
+        dbr:Egypt_Eyalet,
+        dbr:Ottoman_Empire .
+
+dbr:Revolt_of_Lyon_against_the_National_Convention a sem:Event .
+
+dbr:Rhine_campaign_of_1795 a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean-Charles_Pichegru ;
+    sem:hasPlace dbr:Germany ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Rhine_campaign_of_1796 a sem:Event ;
+    sem:hasActor dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Franz_von_Werneck,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour,
+        dbr:Wilhelm_von_Wartensleben ;
+    sem:hasPlace dbr:Southern_Germany .
+
+dbr:Second_Battle_of_Bassano a sem:Event ;
+    sem:hasActor dbr:J%C3%B3zsef_Alvinczi,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1796-11-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-11-06"^^xsd:date ;
+    sem:hasPlace dbr:Bassano_del_Grappa,
+        dbr:Italy ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Second_Battle_of_Boulou a sem:Event ;
+    sem:hasActor dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:John_Forbes_%28Portuguese_general%29,
+        dbr:Luis_Firm%C3%ADn_de_Carvajal%2C_Conde_de_la_Uni%C3%B3n,
+        dbr:Pierre_Augereau ;
+    sem:hasBeginTimeStamp "1794-05-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-01"^^xsd:date ;
+    sem:hasPlace dbr:Le_Boulou,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales .
+
+dbr:Second_Battle_of_Ch%C3%A2tillon a sem:Event ;
+    sem:hasActor dbr:Alexis_Chalbos,
+        dbr:Charles_de_Bonchamps,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Fran%C3%A7ois_Muller,
+        dbr:Louis_Marie_de_Lescure,
+        dbr:Ren%C3%A9_Fran%C3%A7ois_Lecomte ;
+    sem:hasBeginTimeStamp "1793-10-11"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-11"^^xsd:date ;
+    sem:hasPlace dbr:Ch%C3%A2tillon-sur-S%C3%A8vre,
+        dbr:France,
+        dbr:Maul%C3%A9on%2C_Deux-S%C3%A8vres .
+
+dbr:Second_Battle_of_Cholet a sem:Event ;
+    sem:hasActor dbr:Alexis_Chalbos,
+        dbr:Antoine_Marie_Bard,
+        dbr:Charles_de_Bonchamps,
+        dbr:Charles_de_Royrand,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Fran%C3%A7ois_Muller,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Fran%C3%A7ois_de_Lyrot,
+        dbr:Gaspard_de_Bernard_de_Marigny,
+        dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean-Nicolas_Stofflet,
+        dbr:Jean_L%C3%A9chelle,
+        dbr:Louis_Antoine_Vimeux,
+        dbr:Marc-Armand-Elis%C3%A9e_Scherb,
+        dbr:Maurice_d%27Elb%C3%A9e,
+        dbr:Michel_de_Beaupuy,
+        dbr:Nicolas_Haxo ;
+    sem:hasBeginTimeStamp "1793-10-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-17"^^xsd:date ;
+    sem:hasPlace dbr:Maine-et-Loire .
+
+dbr:Second_Battle_of_Dego a sem:Event ;
+    sem:hasActor dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Eug%C3%A8ne-Guillaume_Argenteau,
+        dbr:Jean_Lannes,
+        dbr:Josef_Philipp_Vukassovich,
+        dbr:Napoleon,
+        dbr:Napoleon_I_of_France ;
+    sem:hasBeginTimeStamp "1796-04-15"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-04-15"^^xsd:date ;
+    sem:hasPlace dbr:Dego%2C_Liguria,
+        dbr:Italy .
+
+dbr:Second_Battle_of_Kehl_%281796%29 a sem:Event ;
+    sem:hasActor dbr:Balthazar_Alexis_Henri_Schauenburg,
+        dbr:Franz_Petrasch ;
+    sem:hasBeginTimeStamp "1796-09-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1796-09-18"^^xsd:date ;
+    sem:hasPlace dbr:Kehl,
+        dbr:Margraviate_of_Baden ;
+    sem:subEventOf dbr:French_Revolutionary_War .
+
+dbr:Second_Battle_of_Wissembourg_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Ernst_von_R%C3%BCchel,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Lazare_Hoche ;
+    sem:hasBeginTimeStamp "1793-12-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-29"^^xsd:date ;
+    sem:hasPlace dbr:Bas-Rhin,
+        dbr:France,
+        dbr:Wissembourg ;
+    sem:subEventOf dbr:French_Revolutionary_Wars .
+
+dbr:Second_Battle_of_Zurich a sem:Event ;
+    sem:hasActor dbr:Alexander_Korsakov,
+        dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Friedrich_Freiherr_von_Hotze ;
+    sem:hasBeginTimeStamp "1799-09-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-09-26"^^xsd:date ;
+    sem:hasPlace dbr:Helvetic_Republic,
+        dbr:Z%C3%BCrich .
+
+dbr:September_Massacres a sem:Event .
+
+dbr:Siege_of_Acre_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Antoine_Le_Picard_de_Ph%C3%A9lippeaux,
+        dbr:Haim_Farhi,
+        dbr:Jazzar_Pasha,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Napoleon,
+        dbr:Sidney_Smith_%28Royal_Navy_officer%29 ;
+    sem:hasBeginTimeStamp "1799-05-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-05-21"^^xsd:date ;
+    sem:hasPlace dbr:Acre%2C_Israel,
+        dbr:Ottoman_Empire,
+        dbr:Sidon_Eyalet .
+
+dbr:Siege_of_Angers a sem:Event ;
+    sem:hasActor dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jean-Nicolas_Stofflet,
+        dbr:Jean-Pierre_Boucret,
+        dbr:Jean_Bouin_de_Marigny,
+        dbr:Louis_Michel_Auguste_Th%C3%A9venet,
+        dbr:Michel_de_Beaupuy ;
+    sem:hasBeginTimeStamp "1793-12-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-04"^^xsd:date ;
+    sem:hasPlace dbr:Angers .
+
+dbr:Siege_of_Bastia a sem:Event ;
+    sem:hasActor dbr:Jean-Pierre_Lacombe-Saint-Michel,
+        dbr:Pasquale_Paoli,
+        dbr:Samuel_Hood%2C_1st_Viscount_Hood ;
+    sem:hasBeginTimeStamp "1794-05-22"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-22"^^xsd:date ;
+    sem:hasPlace dbr:Bastia,
+        dbr:Corsica .
+
+dbr:Siege_of_Bellegarde_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Colonel ;
+    sem:hasBeginTimeStamp "1793-06-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-24"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Le_Perthus,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales .
+
+dbr:Siege_of_Breda_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Bylandt,
+        dbr:Fran%C3%A7ois_Joseph_Westermann ;
+    sem:hasBeginTimeStamp "1793-02-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-02-27"^^xsd:date ;
+    sem:hasPlace dbr:Breda,
+        dbr:Dutch_Republic .
+
+dbr:Siege_of_Calvi a sem:Event ;
+    sem:hasActor dbr:Charles_Stuart_%28British_Army_officer%2C_born_1753%29,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:John_Moore_%28British_Army_officer%29,
+        dbr:Pasquale_Paoli,
+        dbr:Rapha%C3%ABl%2C_Comte_de_Casabianca,
+        dbr:Samuel_Hood%2C_1st_Viscount_Hood ;
+    sem:hasBeginTimeStamp "1794-08-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-08-10"^^xsd:date ;
+    sem:hasPlace dbr:Calvi%2C_Haute-Corse,
+        dbr:Corsica .
+
+dbr:Siege_of_Collioure_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:Luis_Firm%C3%ADn_de_Carvajal%2C_Conde_de_la_Uni%C3%B3n,
+        dbr:Pierre_Fran%C3%A7ois_Sauret ;
+    sem:hasBeginTimeStamp "1794-05-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-05-29"^^xsd:date ;
+    sem:hasPlace dbr:Collioure,
+        dbr:France,
+        dbr:Pyr%C3%A9n%C3%A9es-Orientales,
+        dbr:Pyr%C3%A9n%C3%A9es_Orientales .
+
+dbr:Siege_of_Cond%C3%A9_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Duke_Ferdinand_Frederick_Augustus_of_W%C3%BCrttemberg ;
+    sem:hasBeginTimeStamp "1793-07-12"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-12"^^xsd:date ;
+    sem:hasPlace dbr:Cond%C3%A9-sur-l%27Escaut,
+        dbr:France .
+
+dbr:Siege_of_Corfu_%281798%E2%80%9399%29 a sem:Event ;
+    sem:hasActor dbr:Fyodor_Ushakov,
+        dbr:Louis_Fran%C3%A7ois_Jean_Chabot ;
+    sem:hasPlace dbr:Corcyre,
+        dbr:Corfu_%28city%29,
+        dbr:French_rule_in_the_Ionian_Islands_%281797%E2%80%931799%29 .
+
+dbr:Siege_of_Dunkirk_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Joseph_Souham,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany ;
+    sem:hasBeginTimeStamp "1793-09-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-08"^^xsd:date ;
+    sem:hasPlace dbr:Dunkirk,
+        dbr:French_First_Republic,
+        dbr:Nord_%28French_department%29 .
+
+dbr:Siege_of_El_Arish a sem:Event ;
+    sem:hasActor dbr:Mustafa_Pasha_%28Egypt%29,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1799-02-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-02-20"^^xsd:date ;
+    sem:hasPlace dbr:Arish,
+        dbr:Egypt_Eyalet,
+        dbr:El_Arish,
+        dbr:Ottoman_Empire .
+
+dbr:Siege_of_Fort-Louis_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Franz_von_Lauer ;
+    sem:hasBeginTimeStamp "1793-11-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-11-14"^^xsd:date ;
+    sem:hasPlace dbr:Bas-Rhin,
+        dbr:Fort-Louis,
+        dbr:France ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Siege_of_H%C3%BCningen_%281796%E2%80%9397%29 a sem:Event ;
+    sem:hasActor dbr:Georges_Joseph_Dufour,
+        dbr:Jean_Charles_Abbatucci,
+        dbr:Karl_Aloys_zu_F%C3%BCrstenberg ;
+    sem:hasPlace dbr:Alsace,
+        dbr:France,
+        dbr:Huningue .
+
+dbr:Siege_of_Jaffa a sem:Event ;
+    sem:hasActor dbr:Jazzar_Pasha,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Napoleon ;
+    sem:hasBeginTimeStamp "1799-03-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-03-07"^^xsd:date ;
+    sem:hasPlace dbr:Jaffa,
+        dbr:Ottoman_Empire,
+        dbr:Sidon_Eyalet .
+
+dbr:Siege_of_Kehl_%281796%E2%80%9397%29 a sem:Event ;
+    sem:hasActor dbr:Laurent_de_Gouvion_Saint-Cyr,
+        dbr:Louis_Desaix,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour ;
+    sem:hasPlace dbr:Kehl,
+        dbr:Margraviate_of_Baden .
+
+dbr:Siege_of_Landau_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Frederick_Louis%2C_Prince_of_Hohenlohe-Ingelfingen,
+        dbr:Joseph_Laubad%C3%A8re ;
+    sem:hasBeginTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Landau,
+        dbr:Rhineland-Palatinate ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Siege_of_Landrecies_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Henri_Victor_Roulland,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1794-04-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-04-30"^^xsd:date ;
+    sem:hasPlace dbr:Landrecies .
+
+dbr:Siege_of_Le_Quesnoy_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois_Goullus,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt ;
+    sem:hasBeginTimeStamp "1793-09-13"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-09-13"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Le_Quesnoy ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Siege_of_Lille_%281792%29 a sem:Event ;
+    sem:hasActor dbr:Albert_Casimir%2C_Duke_of_Teschen,
+        dbr:Jean-Baptiste_Andr%C3%A9_Ruault_de_La_Bonnerie ;
+    sem:hasBeginTimeStamp "1792-10-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-10-08"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Lille,
+        dbr:Nord_%28French_department%29 .
+
+dbr:Siege_of_Luxembourg_%281794%E2%80%9395%29 a sem:Event ;
+    sem:hasActor dbr:Blasius_Columban%2C_Baron_von_Bender,
+        dbr:Jacques_Maurice_Hatry,
+        dbr:Jean-Jacques_Ambert,
+        dbr:Jean_Ren%C3%A9_Moreaux ;
+    sem:hasPlace dbr:Luxembourg_City,
+        dbr:Southern_Netherlands .
+
+dbr:Siege_of_Lyon a sem:Event ;
+    sem:hasActor dbr:Edmond_Louis_Alexis_Dubois-Cranc%C3%A9,
+        dbr:Louis_Fran%C3%A7ois_Perrin_de_Pr%C3%A9cy ;
+    sem:hasBeginTimeStamp "1793-08-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-08-08"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Lyon .
+
+dbr:Siege_of_Maastricht_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Francisco_de_Miranda,
+        dbr:Prince_Frederick_of_Hesse-Kassel,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld ;
+    sem:hasBeginTimeStamp "1793-03-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-03-02"^^xsd:date ;
+    sem:hasPlace dbr:Limburg_%28Netherlands%29,
+        dbr:Maastricht,
+        dbr:Netherlands .
+
+dbr:Siege_of_Mainz_%281792%29 a sem:Event ;
+    sem:hasActor dbr:Adam_Philippe%2C_Comte_de_Custine,
+        dbr:Franz_von_Albini ;
+    sem:hasBeginTimeStamp "1792-10-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-10-21"^^xsd:date ;
+    sem:hasPlace dbr:Electorate_of_Mainz,
+        dbr:Mainz .
+
+dbr:Siege_of_Mainz_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Alexandre_de_Beauharnais,
+        dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Fran%C3%A7ois-Ignace_Ervoil_d%27Oyr%C3%A9,
+        dbr:Friedrich_Adolf%2C_Count_von_Kalckreuth ;
+    sem:hasBeginTimeStamp "1793-07-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-23"^^xsd:date ;
+    sem:hasPlace dbr:Mainz,
+        dbr:Republic_of_Mainz .
+
+dbr:Siege_of_Malta_%281798%E2%80%931800%29 a sem:Event ;
+    sem:hasActor dbr:Alexander_Ball,
+        dbr:Claude-Henri_Belgrand_de_Vaubois,
+        dbr:Emmanuele_Vitale,
+        dbr:Francesco_Saverio_Caruana,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:Jean-Baptiste_Perr%C3%A9e,
+        dbr:Vincenzo_Borg ;
+    sem:hasBeginTimeStamp "1798-09-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-09-02"^^xsd:date ;
+    sem:hasPlace dbr:French_occupation_of_Malta,
+        dbr:Three_Cities,
+        dbr:Valletta .
+
+dbr:Siege_of_Mantua_%281796%E2%80%9397%29 a sem:Event ;
+    sem:hasActor dbr:Charles_Edward_Jennings,
+        dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Jean-Mathieu-Philibert_S%C3%A9rurier,
+        dbr:Napoleon ;
+    sem:hasPlace dbr:History_of_Italy_%281559%E2%80%931814%29,
+        dbr:Mantua .
+
+dbr:Siege_of_Mantua_%281799%29 a sem:Event ;
+    sem:hasActor dbr:Fran%C3%A7ois-Philippe_de_Foissac-Latour,
+        dbr:P%C3%A1l_Kray,
+        dbr:Paul_Kray ;
+    sem:hasPlace dbr:Italy,
+        dbr:Mantua .
+
+dbr:Siege_of_Maubeuge_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Jacques_Desjardin,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:William_V%2C_Prince_of_Orange ;
+    sem:hasBeginTimeStamp "1793-10-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-16"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Maubeuge .
+
+dbr:Siege_of_Nijmegen_%281794%29 a sem:Event ;
+    sem:hasActor dbr:Herman_Willem_Daendels,
+        dbr:Jan_Willem_de_Winter,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Ludwig_von_Wallmoden-Gimborn,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:William_I_of_the_Netherlands,
+        dbr:William_V%2C_Prince_of_Orange ;
+    sem:hasBeginTimeStamp "1794-11-08"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-11-08"^^xsd:date ;
+    sem:hasPlace dbr:Dutch_Republic,
+        dbr:Guelders,
+        dbr:Nijmegen ;
+    sem:subEventOf dbr:Flanders_campaign .
+
+dbr:Siege_of_Pondicherry_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Sir_John_Braithwaite%2C_1st_Baronet,
+        dbr:William_Cornwallis ;
+    sem:hasBeginTimeStamp "1793-08-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-08-23"^^xsd:date ;
+    sem:hasPlace dbr:French_India,
+        dbr:Pondicherry .
+
+dbr:Siege_of_Port-au-Prince_%281793%29 a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89tienne_Polverel>,
+        dbr:L%C3%A9ger-F%C3%A9licit%C3%A9_Sonthonax,
+        dbr:Louis_Jacques_Beauvais ;
+    sem:hasBeginTimeStamp "1793-04-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-04-14"^^xsd:date ;
+    sem:hasPlace dbr:Haiti,
+        dbr:Port-au-Prince .
+
+dbr:Siege_of_Roses_%281794%E2%80%9395%29 a sem:Event ;
+    sem:hasActor dbr:Catherine-Dominique_de_P%C3%A9rignon,
+        dbr:Pierre_Fran%C3%A7ois_Sauret ;
+    sem:hasPlace dbr:Catalonia,
+        dbr:History_of_Spain_%281700%E2%80%931810%29,
+        dbr:Roses%2C_Girona .
+
+dbr:Siege_of_San_Fiorenzo a sem:Event ;
+    sem:hasActor dbr:David_Dundas_%28British_Army_officer%29,
+        dbr:Pasquale_Paoli,
+        dbr:Robert_Linzee ;
+    sem:hasBeginTimeStamp "1794-02-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-02-20"^^xsd:date ;
+    sem:hasPlace dbr:Corsica,
+        dbr:French_First_Republic,
+        dbr:Saint-Florent%2C_Haute-Corse .
+
+dbr:Siege_of_Thionville_%281792%29 a sem:Event ;
+    sem:hasActor dbr:Arm%C3%A9e_des_%C3%89migr%C3%A9s,
+        <http://dbpedia.org/resource/File:Flag_of_Royalist_France.svg>,
+        dbr:Frederick_Louis%2C_Prince_of_Hohenlohe-Ingelfingen,
+        dbr:Georges_F%C3%A9lix_de_Wimpffen ;
+    sem:hasBeginTimeStamp "1792-10-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-10-16"^^xsd:date ;
+    sem:hasPlace dbr:Thionville .
+
+dbr:Siege_of_Toulon a sem:Event ;
+    sem:hasActor dbr:Charles_O%27Hara,
+        dbr:Federico_Gravina,
+        dbr:Hughes_Charlot,
+        dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:Jean_Fran%C3%A7ois_Carteaux,
+        dbr:Jean_Fran%C3%A7ois_Cornu_de_La_Poype,
+        dbr:Juan_de_L%C3%A1ngara,
+        dbr:Louis-Gabriel_Suchet,
+        dbr:Marquess_of_Normanby,
+        dbr:Napoleon,
+        dbr:Samuel_Hood%2C_1st_Viscount_Hood,
+        dbr:Sidney_Smith_%28Royal_Navy_officer%29,
+        dbr:Xavier_Lebret_d%27Imbert ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Toulon .
+
+dbr:Siege_of_Valenciennes_%281793%29 a sem:Event ;
+    sem:hasActor dbr:Jean_Henri_Becays_Ferrand,
+        dbr:Joseph_de_Ferraris,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany ;
+    sem:hasBeginTimeStamp "1793-07-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-07-27"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Valenciennes .
+
+dbr:Siege_of_Ypres_%281794%29 a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/%C3%89loi_Laurent_Despeaux>,
+        <http://dbpedia.org/resource/%C3%89tienne_Macdonald>,
+        dbr:Anton_Szt%C3%A1ray,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Jan_Willem_de_Winter,
+        dbr:Jean-Baptiste_Salme,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Joseph_Souham,
+        dbr:Wilhelm_Lothar_Maria_von_Kerpen ;
+    sem:hasBeginTimeStamp "1794-06-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-06-18"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Ypres ;
+    sem:subEventOf dbr:War_of_the_First_Coalition .
+
+dbr:Storming_of_the_Bastille a sem:Event ;
+    sem:hasActor dbr:Bernard-Ren%C3%A9_Jourdan_de_Launay,
+        dbr:French_Revolution,
+        dbr:Pierre-Augustin_Hulin,
+        dbr:Stanislas-Marie_Maillard ;
+    sem:hasBeginTimeStamp "1789-07-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-07-14"^^xsd:date ;
+    sem:hasPlace <http://dbpedia.org/resource/%C3%8Ele-de-France>,
+        dbr:Kingdom_of_France,
+        dbr:Paris .
+
+dbr:Sunda_Strait_campaign_of_January_1794 a sem:Event ;
+    sem:hasActor dbr:Jean-Marie_Renaud ;
+    sem:hasBeginTimeStamp "1794-02-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-02-09"^^xsd:date ;
+    sem:hasPlace dbr:Dutch_East_Indies,
+        dbr:Sunda_Strait .
+
+dbr:Tennis_Court_Oath a sem:Event .
+
+dbr:USS_Constellation_vs_L%27Insurgente a sem:Event ;
+    sem:hasActor dbr:Michel-Pierre_Barreaut,
+        dbr:Thomas_Truxtun ;
+    sem:hasBeginTimeStamp "1799-02-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-02-09"^^xsd:date ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Caribbean_Sea,
+        dbr:Nevis .
+
+dbr:Veronese_Easter a sem:Event ;
+    sem:hasActor dbr:Antoine_Balland,
+        dbr:Francesco_Battaia ;
+    sem:hasBeginTimeStamp "1797-04-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-04-17"^^xsd:date ;
+    sem:hasPlace dbr:Republic_of_Venice,
+        dbr:Veneto,
+        dbr:Verona .
+
+dbr:Vir%C3%A9e_de_Galerne a sem:Event ;
+    sem:hasActor dbr:Charles_Augustin_de_Royrand,
+        dbr:Gaspard_de_Bernard_de_Marigny,
+        dbr:Henri_du_Vergier_de_La_Rochejacquelein,
+        dbr:Jacques_Nicolas_Fleuriot_de_La_Fleuriais,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean_Antoine_Rossignol,
+        dbr:Louis_Marie_de_Lescure,
+        dbr:Louis_Michel_Auguste_Th%C3%A9venet,
+        dbr:Lyrot_de_la_Patouill%C3%A8re,
+        dbr:Prince_de_Talmont,
+        dbr:Simon_Canuel,
+        dbr:Stofflet ;
+    sem:hasBeginTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasPlace dbr:Brittany,
+        dbr:Maine_%28province%29,
+        dbr:Normandy .
+
+dbr:Vlieter_incident a sem:Event ;
+    sem:hasActor dbr:Andrew_Mitchell_%28Royal_Navy_officer%29,
+        dbr:Samuel_Story ;
+    sem:hasBeginTimeStamp "1799-08-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-08-30"^^xsd:date ;
+    sem:hasPlace dbr:Wieringen .
+
+dbr:War_of_Knives a sem:Event ;
+    sem:hasActor dbr:Alexandre_P%C3%A9tion,
+        dbr:Andr%C3%A9_Rigaud,
+        dbr:Henri_Christophe,
+        dbr:Jean-Jacques_Dessalines,
+        dbr:Toussaint_Louverture ;
+    sem:hasPlace dbr:Jacmel,
+        dbr:Saint-Domingue .
+
+dbr:Women%27s_March_on_Versailles a sem:Event .
+
+dbr:War_in_the_Vend%C3%A9e a sem:Event ;
+    sem:hasActor dbr:Armand_Louis_de_Gontaut,
+        dbr:Catholic_and_Royal_Army,
+        dbr:Charles_Aim%C3%A9_de_Royrand,
+        dbr:Charles_Marie_de_Beaumont_d%27Autichamp,
+        dbr:Charles_de_Bonchamps,
+        <http://dbpedia.org/resource/File:Drapeau_arm%C3%A9e_vend%C3%A9enne_2.jpg>,
+        dbr:Fran%C3%A7ois_Joseph_Westermann,
+        dbr:Fran%C3%A7ois_S%C3%A9verin_Marceau,
+        dbr:Fran%C3%A7ois_de_Charette,
+        dbr:Georges_Cadoudal,
+        dbr:Henri_de_la_Rochejaquelein,
+        dbr:Jacques_Cathelineau,
+        dbr:Jean-Baptiste_Carrier,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean-Nicolas_Stofflet,
+        dbr:Jean_Antoine_Rossignol,
+        dbr:Jean_Baptiste_Camille_Canclaux,
+        dbr:Jean_L%C3%A9chelle,
+        dbr:Lazare_Hoche,
+        dbr:Louis_Marie_Turreau,
+        dbr:Louis_Marie_de_Lescure,
+        dbr:Maurice_d%27Elb%C3%A9e,
+        dbr:Pierre_Augereau,
+        dbr:Ren%C3%A9_Fran%C3%A7ois_Lecomte,
+        dbr:Thomas-Alexandre_Dumas ;
+    sem:hasPlace dbr:Brittany,
+        dbr:Loire-Atlantique,
+        dbr:Maine-et-Loire,
+        dbr:Provinces_of_France,
+        dbr:Vend%C3%A9e .
+
+dbr:French_Revolution a sem:Event ;
+    sem:hasPlace dbr:Kingdom_of_France .
+
+dbr:War_of_the_Pyrenees a sem:Event ;
+    sem:hasActor dbr:Antonio_Ricardos,
+        dbr:Barth%C3%A9lemy_Louis_Joseph_Sch%C3%A9rer,
+        dbr:Bon-Adrien_Jeannot_de_Moncey,
+        dbr:Catherine-Dominique_de_P%C3%A9rignon,
+        dbr:Claude_Victor-Perrin%2C_Duc_de_Belluno,
+        dbr:Eustache_Charles_d%27Aoust,
+        dbr:Federico_Gravina,
+        dbr:Gomes_Freire_de_Andrade,
+        dbr:Gregorio_Garc%C3%ADa_de_la_Cuesta,
+        dbr:Henri_Fran%C3%A7ois_Delaborde,
+        dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:Jer%C3%B3nimo_Gir%C3%B3n-Moctezuma%2C_Marquis_de_las_Amarillas,
+        dbr:John_Forbes_%28Portuguese_general%29,
+        dbr:Jos%C3%A9_de_Urrutia_y_de_las_Casas,
+        dbr:Juan_de_L%C3%A1ngara,
+        dbr:Louis-Charles_de_Flers,
+        dbr:Louis_Marie_Turreau,
+        dbr:Luc_Sim%C3%A9on_Auguste_Dagobert,
+        dbr:Luis_Firm%C3%ADn_de_Carvajal%2C_Conde_de_la_Uni%C3%B3n,
+        dbr:Manuel_In%C3%A1cio_Martins_Pamplona_Corte_Real%2C_1st_Count_of_Subserra,
+        dbr:Miguel_Pereira_Forjaz%2C_Count_of_Feira,
+        dbr:Pedro_T%C3%A9llez-Gir%C3%B3n%2C_9th_Duke_of_Osuna,
+        dbr:Pierre_Augereau,
+        dbr:Pierre_Fran%C3%A7ois_Sauret ;
+    sem:hasBeginTimeStamp "1793-03-07"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-03-07"^^xsd:date ;
+    sem:hasPlace dbr:Captaincy_General_of_Santo_Domingo,
+        dbr:Gipuzkoa,
+        dbr:Pyrenees .
+
+dbr:Anglo-Russian_invasion_of_Holland a sem:Event ;
+    sem:hasActor dbr:Guillaume_Brune,
+        dbr:Herman_Willem_Daendels,
+        dbr:Johann_Hermann_von_Fersen,
+        dbr:John_Moore_%28British_Army_officer%29,
+        dbr:Magnus_Gustav_von_Essen,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Samuel_Graham ;
+    sem:hasBeginTimeStamp "1799-11-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-11-19"^^xsd:date ;
+    sem:hasPlace dbr:Batavian_Republic,
+        dbr:North_Holland .
+
+dbr:Flanders_campaign a sem:Event ;
+    sem:hasActor dbr:Adam_Philippe%2C_Comte_de_Custine,
+        dbr:Alexander_von_Knobelsdorff,
+        dbr:Auguste_Marie_Henri_Picot_de_Dampierre,
+        dbr:Charles_Edward_Jennings,
+        dbr:Charles_Fran%C3%A7ois_Dumouriez,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Franz_Wenzel%2C_Graf_von_Kaunitz-Rietberg,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Jean_Nicolas_Houchard,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:Johann_Ludwig%2C_Reichsgraf_von_Wallmoden-Gimborn,
+        dbr:Johann_Peter_Beaulieu,
+        dbr:Joseph_Souham,
+        dbr:Karl_Mack_von_Leiberich,
+        dbr:Ludwig_von_Wurmb,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:Sir_William_Erskine%2C_1st_Baronet,
+        dbr:Wilhelm_von_Freytag,
+        dbr:William_Harcourt%2C_3rd_Earl_Harcourt,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1792-11-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-11-06"^^xsd:date ;
+    sem:hasPlace dbr:Belgium,
+        dbr:Hauts-de-France,
+        dbr:Netherlands,
+        dbr:Rhineland .
+
+dbr:War_of_the_Second_Coalition a sem:Event ;
+    sem:hasActor dbr:Charles_IV_of_Spain,
+        dbr:Christian_VII_of_Denmark,
+        dbr:Ferdinand_III%2C_Grand_Duke_of_Tuscany,
+        dbr:Ferdinand_I_of_the_Two_Sicilies,
+        dbr:Ferdinand_von_Hompesch_zu_Bolheim,
+        dbr:Francis_II%2C_Holy_Roman_Emperor,
+        dbr:Henry_Addington,
+        dbr:John_Adams,
+        dbr:Maria_I_of_Portugal,
+        dbr:Napoleon,
+        dbr:Paul_Barras,
+        dbr:Paul_I_of_Russia,
+        dbr:Polish_Legions_%28Napoleonic_period%29,
+        dbr:Selim_III,
+        dbr:William_Pitt_the_Younger ;
+    sem:hasBeginTimeStamp "1798-11-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1798-11-29"^^xsd:date .
+
+dbr:French_Revolutionary_Wars a sem:Event ;
+    sem:hasActor dbr:Adam_Philippe%2C_Comte_de_Custine,
+        dbr:Alexander_Suvorov,
+        dbr:Andr%C3%A9_Mass%C3%A9na,
+        dbr:Archduke_Charles%2C_Duke_of_Teschen,
+        dbr:Charles_Fran%C3%A7ois_Dumouriez,
+        dbr:Charles_IV_of_Spain,
+        dbr:Charles_O%27Hara,
+        dbr:Charles_William_Ferdinand%2C_Duke_of_Brunswick,
+        dbr:Dagobert_Sigmund_von_Wurmser,
+        dbr:Ferdinand_I_of_the_Two_Sicilies,
+        dbr:Ferdinand_von_Hompesch_zu_Bolheim,
+        dbr:Fran%C3%A7ois-Paul_Brueys_d%27Aigalliers,
+        dbr:Fran%C3%A7ois_Christophe_de_Kellermann,
+        dbr:Fran%C3%A7ois_S%C3%A9bastien_Charles_Joseph_de_Croix%2C_Count_of_Clerfayt,
+        dbr:Francis_II%2C_Holy_Roman_Emperor,
+        dbr:Frederick_Louis%2C_Prince_of_Hohenlohe-Ingelfingen,
+        dbr:Frederick_VI_of_Denmark,
+        dbr:Frederick_William_II_of_Prussia,
+        dbr:Henry_Addington,
+        dbr:Horatio_Nelson%2C_1st_Viscount_Nelson,
+        dbr:J%C3%B3zsef_Alvinczi,
+        dbr:Jacques_Fran%C3%A7ois_Dugommier,
+        dbr:Jacques_Pierre_Brissot,
+        dbr:James_Wallace_%28Royal_Navy_officer%29,
+        dbr:Jan_Henryk_D%C4%85browski,
+        dbr:Jazzar_Pasha,
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Jean-Baptiste_Kl%C3%A9ber,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Jean_Victor_Marie_Moreau,
+        dbr:John_Adams,
+        dbr:Laurens_Pieter_van_de_Spiegel,
+        dbr:Lazare_Hoche,
+        dbr:Louis_Desaix,
+        dbr:Louis_Joseph%2C_Prince_of_Cond%C3%A9,
+        dbr:Louis_XVI,
+        dbr:Manuel_Godoy,
+        dbr:Maria_I_of_Portugal,
+        dbr:Maximilian_Anton_Karl%2C_Count_Baillet_de_Latour,
+        dbr:Maximilien_Robespierre,
+        dbr:Michael_von_Melas,
+        dbr:Murad_Bey,
+        dbr:Napoleon,
+        dbr:Olfert_Fischer,
+        dbr:Paul_Barras,
+        dbr:Paul_I_of_Russia,
+        dbr:Paul_Kray,
+        dbr:Pieter_Corbeels,
+        dbr:Prince_Frederick%2C_Duke_of_York_and_Albany,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:Ralph_Abercromby,
+        dbr:Samuel_Hood%2C_1st_Viscount_Hood,
+        dbr:Selim_III,
+        dbr:Steen_Andersen_Bille_%281751%E2%80%931833%29,
+        dbr:Tipu_Sultan,
+        dbr:Toussaint_Louverture,
+        dbr:Victor_Amadeus_III_of_Sardinia,
+        dbr:William_Pitt_the_Younger,
+        dbr:Wolfe_Tone ;
+    sem:hasPlace dbr:Atlantic_Ocean,
+        dbr:Batavian_Republic,
+        dbr:Caribbean,
+        dbr:Constitutional_Cabinet_of_Louis_XVI,
+        dbr:Dalmatia,
+        dbr:Egypt_Eyalet,
+        dbr:Europe,
+        dbr:French_First_Republic,
+        dbr:Helvetic_Republic,
+        dbr:Indian_Ocean,
+        dbr:Indian_Subcontinent,
+        dbr:Indian_subcontinent,
+        dbr:Italian_Republic_%28Napoleonic%29,
+        dbr:Kingdom_of_Etruria,
+        dbr:Ligurian_Republic,
+        dbr:Louisiana_%28New_France%29,
+        dbr:Menorca,
+        dbr:Middle_East,
+        dbr:Piedmont,
+        dbr:Republic_of_Venice,
+        dbr:Rhine,
+        dbr:Sri_Lanka,
+        dbr:Trinidad .
+
+dbr:War_of_the_First_Coalition a sem:Event ;
+    sem:hasActor dbr:Alexandre_Fran%C3%A7ois_Marie%2C_Viscount_of_Beauharnais,
+        dbr:Charles_IV_of_Spain,
+        dbr:Ferdinand_I_of_the_Two_Sicilies,
+        dbr:Francis_II%2C_Holy_Roman_Emperor,
+        dbr:Frederick_William_II_of_Prussia,
+        dbr:Jacques_Pierre_Brissot,
+        dbr:Jean-Charles_Pichegru,
+        dbr:John_VI_of_Portugal,
+        dbr:Laurens_Pieter_van_de_Spiegel,
+        dbr:List_of_historic_states_of_Italy,
+        dbr:Maximilien_Robespierre,
+        dbr:Paul_Barras,
+        dbr:Victor_Amadeus_III_of_Sardinia,
+        dbr:William_Pitt_the_Younger ;
+    sem:hasBeginTimeStamp "1792-04-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-04-20"^^xsd:date ;
+    sem:hasPlace dbr:Austrian_Netherlands,
+        dbr:Belgium,
+        dbr:Left_Bank_of_the_Rhine,
+        dbr:Sister_republic,
+        dbr:Spanish_Empire,
+        dbr:West_Indies .
+

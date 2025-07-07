@@ -1,0 +1,3 @@
+Generation + GS took:	0:00:06.086131
+Search output took:	0:00:06.309092
+EventKG took:	0:09:25.023660

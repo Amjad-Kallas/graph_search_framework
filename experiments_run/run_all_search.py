@@ -390,7 +390,7 @@ if __name__ == '__main__':
     #     print(elt["name_exp"])
     print(len(args_grid))
 
-    # f = open(f"experiments_iswc/missing-21_{args_main['type_system']}.txt", "w+")
+    # f = open(f"experiments_swj/missing-21_{args_main['type_system']}.txt", "w+")
     # for i, v in enumerate(args_grid):
     #     f.write(f"{v['name_exp']}_{params[i]}\n")
     # f.close()

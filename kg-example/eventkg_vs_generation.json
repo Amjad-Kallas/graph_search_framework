@@ -1,0 +1,60 @@
+{
+    "numbers": {
+        "all": {
+            "triples_common": 1366,
+            "triples_search_only": 1371,
+            "triples_gs_only": 81
+        },
+        "sem:hasEndTimeStamp": {
+            "triples_common": 204,
+            "triples_search_only": 122,
+            "triples_gs_only": 7
+        },
+        "sem:hasActor": {
+            "triples_common": 583,
+            "triples_search_only": 755,
+            "triples_gs_only": 63
+        },
+        "sem:hasPlace": {
+            "triples_common": 375,
+            "triples_search_only": 372,
+            "triples_gs_only": 4
+        },
+        "sem:hasBeginTimeStamp": {
+            "triples_common": 204,
+            "triples_search_only": 122,
+            "triples_gs_only": 7
+        }
+    },
+    "metrics": {
+        "all": {
+            "precision": 94.40221147201106,
+            "recall": 49.90865911582024,
+            "f1": 65.29636711281071
+        },
+        "sem:hasEndTimeStamp": {
+            "precision": 96.6824644549763,
+            "recall": 62.576687116564415,
+            "f1": 75.97765363128491
+        },
+        "sem:hasActor": {
+            "precision": 90.24767801857585,
+            "recall": 43.57249626307922,
+            "f1": 58.770161290322584
+        },
+        "sem:hasPlace": {
+            "precision": 98.94459102902374,
+            "recall": 50.200803212851405,
+            "f1": 66.60746003552397
+        },
+        "sem:hasBeginTimeStamp": {
+            "precision": 96.6824644549763,
+            "recall": 62.576687116564415,
+            "f1": 75.97765363128491
+        }
+    },
+    "triples": {
+        "len_c": 3165,
+        "len_gs": 1682
+    }
+}
