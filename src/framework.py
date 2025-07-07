@@ -669,7 +669,7 @@ class GraphSearchFramework:
             os.makedirs(folder_path)
 
         save_folder = os.path.join(folder_path,
-                                 f"{date}-{self.folder_name_suffix}")
+                                 f"{date}-{self.folder_name_suffix}").replace(":", "_")
         if os.path.exists(save_folder):
             raise ValueError("Folder to save data already exists, re creating one")
         os.makedirs(save_folder)
