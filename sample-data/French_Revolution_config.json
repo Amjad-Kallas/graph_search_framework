@@ -24,9 +24,10 @@
     "start": "http://dbpedia.org/resource/French_Revolution",
     "start_date": "1789-05-05",
     "end_date": "1799-12-31",
-    "iterations": 3,
+    "iterations": 2,
     "type_ranking": "pred_object_freq",
-    "type_interface": "hdt",
+    "type_interface": "sparql_endpoint",
+    "sparql_endpoint": "https://dbpedia.org/sparql",
     "gold_standard": "./sample-data/French_Revolution_gs_events.csv",
     "referents": "./sample-data/French_Revolution_referents.json",
     "type_metrics": ["precision", "recall", "f1"],
@@ -40,6 +41,5 @@
         "who": 1
     },
     "name_exp": "french_revolution",
-    "dataset_type": "dbpedia",
-    "dataset_path": "dbpedia-snapshot-2021-09"
+    "dataset_type": "dbpedia"
 }

@@ -83,8 +83,11 @@ class SPARQLInterface(Interface):
         # self.sparql.setMethod(POST)
         try:
             results = self.sparql.query().convert()
-            return [(str(triple[0]), str(triple[1]), str(triple[2])) \
-                for triple in list(set(results))]
+            return [
+                (str(triple[0]), str(triple[1]), str(triple[2]))
+                for triple in list(set(results))
+                if str(triple[2]).startswith("http")
+            ]
         except:
             return []
 

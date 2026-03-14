@@ -5,8 +5,13 @@ Interface to query a KG - format compressed HDT
 import os
 import fnmatch
 import yaml
+import rdflib
 
-from hdt import HDTDocument
+
+try:
+    from hdt import HDTDocument
+except ImportError:
+    HDTDocument = None
 
 from src.interface import Interface
 from settings import FOLDER_PATH
@@ -44,18 +49,17 @@ class HDTInterface(Interface):
         Interface.__init__(self, dataset_config=dataset_config, dates=dates,
                            default_pred=default_pred, filter_kb=filter_kb)
 
-        if nested_dataset:
-            dirs = [os.path.join(folder_hdt, file) for file in os.listdir(folder_hdt)]
-            dirs = [elt for elt in dirs if not elt.split('/')[-1].startswith(".")]
-            dirs = [os.path.join(old_dir, new_dir, "hdt") \
-                for old_dir in dirs for new_dir in os.listdir(old_dir)]
-            dirs = [elt for elt in dirs if not elt.split('/')[-2].startswith(".")]
-            dirs = [elt for elt in dirs if os.path.exists(elt)]
-            self.docs = [HDTDocument(file) for file in dirs]
-        else:
-            files = [os.path.join(folder_hdt, file) for file in os.listdir(folder_hdt) \
-                        if fnmatch.fnmatch(file, "*.hdt")]
-            self.docs = [HDTDocument(file) for file in files]
+        self.graph = rdflib.Graph()
+
+        ttl_files = [
+            os.path.join(folder_hdt, f)
+            for f in os.listdir(folder_hdt)
+            if f.endswith(".ttl")
+        ]
+
+        for f in ttl_files:
+            self.graph.parse(f, format="turtle")
+
 
     def get_triples(self, **params: dict) -> list[(str, str, str)]:
         """ Querying HDT dataset """
@@ -64,11 +68,18 @@ class HDTInterface(Interface):
         object_t = params["object"] if "object" in params else ""
 
         triples = []
-        for doc in self.docs:
-            curr_triples, _ = doc.search_triples(subject_t, predicate_t, object_t)
-            triples += list(curr_triples)
+
+        for s, p, o in self.graph:
+            if subject_t and str(s) != subject_t:
+                continue
+            if predicate_t and str(p) != predicate_t:
+                continue
+            if object_t and str(o) != object_t:
+                continue
+            triples.append((str(s), str(p), str(o)))
 
         return triples
+
 
 
 
