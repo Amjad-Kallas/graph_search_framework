@@ -2,6 +2,7 @@ import pandas as pd
 from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, XSD
 from SPARQLWrapper import SPARQLWrapper, JSON
+from urllib.parse import quote
 
 
 SEM = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
@@ -38,6 +39,30 @@ def get_event_info(event_uri):
 
 from urllib.parse import quote
 
+import requests
+
+def get_wikipedia_intro(event_uri, max_words=10):
+    try:
+        title = quote(event_uri.split("/")[-1])
+        url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{title}"
+
+        headers = {
+            "User-Agent": "KG-Narrative-Project/1.0 (email@example.com)"
+        }
+
+        response = requests.get(url, headers=headers, timeout=5)
+        data = response.json()
+
+        if "extract" in data:
+            text = data["extract"]
+            words = text.split()
+            return " ".join(words[:max_words])
+    except Exception as e:
+        print(e)
+        return None
+
+    return None
+
 def encode(uri):
     uri = uri.strip()
     if uri.startswith("http://dbpedia.org/resource/"):
@@ -60,6 +85,7 @@ def build_ng(input_file, output_file):
     g.bind("dbr", DBR)
 
     event_cache = {}
+    wiki_cache = {}
 
     for _, row in df.iterrows():
         s = encode(row["subject"])
@@ -93,6 +119,16 @@ def build_ng(input_file, output_file):
                 Literal(d[:10], datatype=XSD.date)))
             g.add((s, SEM.hasEndTimeStamp,
                 Literal(d[:10], datatype=XSD.date)))
+
+        # ---- WIKIPEDIA ENRICHMENT ----
+        if event_uri not in wiki_cache:
+            wiki_cache[event_uri] = get_wikipedia_intro(event_uri, max_words=100)
+
+        desc = wiki_cache[event_uri]
+
+        if desc:
+            from rdflib.namespace import RDFS
+            g.add((s, RDFS.comment, Literal(desc)))
 
         # ---- FALLBACK TIME ----
         if len(row) >= 7:
