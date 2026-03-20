@@ -1,0 +1,12 @@
+,subject,predicate,object,type_df,iteration,regex_helper
+0,http://dbpedia.org/resource/Battle_of_Kaiserslautern,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789
+1,http://dbpedia.org/resource/Battle_of_Wattignies,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789
+2,http://dbpedia.org/resource/Day_of_Daggers,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789
+3,http://dbpedia.org/resource/Demonstration_of_20_June_1792,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1792
+4,http://dbpedia.org/resource/Insurrection_of_10_August_1792,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1792
+5,http://dbpedia.org/resource/Insurrection_of_31_May_–_2_June_1793,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1793
+6,http://dbpedia.org/resource/Revolt_of_1_Prairial_Year_III,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789
+7,http://dbpedia.org/resource/Siege_of_Maubeuge_(1793),http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1793
+8,http://dbpedia.org/resource/Storming_of_the_Bastille,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789
+9,http://dbpedia.org/resource/13_Vendémiaire,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789
+10,http://dbpedia.org/resource/Coup_of_18_Fructidor,http://dbpedia.org/ontology/isPartOfMilitaryConflict,http://dbpedia.org/resource/French_Revolution,ingoing,1,1789

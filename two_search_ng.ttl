@@ -1,0 +1,156 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:13_Vendémiaire a sem:Event ;
+    sem:hasActor dbr:Jean-Thomas-Élisabeth_Richer_de_Sérizy,
+        dbr:Napoleon,
+        dbr:Paul_Barras ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1795-10-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1795-10-05"^^xsd:date ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Battle_of_Kaiserslautern a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/Charles_William_Ferdinand,_Duke_of_Brunswick>,
+        dbr:Lazare_Hoche ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1793-11-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1793-11-30"^^xsd:date ;
+    sem:hasPlace dbr:Germany,
+        dbr:Kaiserslautern ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Battle_of_Wattignies a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/François_Sébastien_Charles_Joseph_de_Croix,_Count_of_Clerfayt>,
+        dbr:Jacques_Ferrand_\(general\),
+        dbr:Jean-Baptiste_Jourdan,
+        dbr:Lazare_Carnot,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        dbr:William_I_of_the_Netherlands ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1793-10-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1793-10-16"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Maubeuge,
+        dbr:Wattignies-la-Victoire ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Coup_of_18_Fructidor a sem:Event ;
+    sem:hasActor dbr:Charles-Pierre_Augereau,
+        <http://dbpedia.org/resource/François-Marie,_marquis_de_Barthélemy>,
+        dbr:François_Barbé-Marbois,
+        dbr:Jean-Charles_Pichegru,
+        dbr:Jean-François_Rewbell,
+        dbr:Lazare_Hoche,
+        dbr:Louis_Marie_de_La_Révellière-Lépeaux,
+        dbr:Paul_Barras ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1797-09-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1797-09-04"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Paris ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Day_of_Daggers a sem:Event ;
+    sem:hasActor dbr:Antoine_Joseph_Santerre,
+        <http://dbpedia.org/resource/Gilbert_du_Motier,_Marquis_de_Lafayette> ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1791-02-28"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1791-02-28"^^xsd:date ;
+    sem:hasPlace dbr:Paris,
+        dbr:Tuileries_Palace,
+        dbr:Vincennes ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Demonstration_of_20_June_1792 a sem:Event ;
+    sem:hasBeginTimeStamp "1792-01-01"^^xsd:date,
+        "1792-06-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-01-01"^^xsd:date,
+        "1792-06-20"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Paris ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Insurrection_of_10_August_1792 a sem:Event ;
+    sem:hasActor dbr:Antoine_Joseph_Santerre,
+        dbr:Augustin-Joseph_de_Mailly,
+        dbr:Claude_Fournier_\(revolutionary\),
+        dbr:François_Joseph_Westermann,
+        dbr:Karl_Josef_von_Bachmann,
+        dbr:Louis_XVI ;
+    sem:hasBeginTimeStamp "1792-01-01"^^xsd:date,
+        "1792-08-10"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-01-01"^^xsd:date,
+        "1792-08-10"^^xsd:date ;
+    sem:hasPlace dbr:Paris ;
+    sem:subEventOf dbr:French_Revolution .
+
+<http://dbpedia.org/resource/Insurrection_of_31_May_–_2_June_1793> a sem:Event ;
+    sem:hasActor dbr:Armand_Gensonné,
+        dbr:Bertrand_Barère,
+        dbr:Charles_Jean_Marie_Barbaroux,
+        dbr:Claude_Fauchet_\(revolutionist\),
+        dbr:François_Buzot,
+        dbr:François_Hanriot,
+        dbr:Jacques-Nicolas_Billaud-Varenne,
+        dbr:Jacques_Hébert,
+        dbr:Jacques_Pierre_Brissot,
+        dbr:Jacques_Roux,
+        dbr:Jean-François_Varlet,
+        dbr:Jean-Paul_Marat,
+        dbr:Marguerite-Élie_Guadet,
+        dbr:Maximilien_Robespierre,
+        dbr:Maximin_Isnard,
+        dbr:Pierre_Victurnien_Vergniaud ;
+    sem:hasBeginTimeStamp "1793-01-01"^^xsd:date,
+        "1793-06-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-01-01"^^xsd:date,
+        "1793-06-02"^^xsd:date ;
+    sem:hasPlace dbr:French_First_Republic,
+        dbr:Paris ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Revolt_of_1_Prairial_Year_III a sem:Event ;
+    sem:hasActor <http://dbpedia.org/resource/François_Antoine_de_Boissy_d'Anglas>,
+        dbr:Gilbert_Romme,
+        dbr:Jacques-François_Menou,
+        dbr:Jean-Marie_Claude_Alexandre_Goujon ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1795-05-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1795-05-23"^^xsd:date ;
+    sem:hasPlace dbr:Paris ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Siege_of_Maubeuge_\(1793\) a sem:Event ;
+    sem:hasActor dbr:Jacques_Desjardin,
+        dbr:Prince_Josias_of_Saxe-Coburg-Saalfeld,
+        <http://dbpedia.org/resource/William_V,_Prince_of_Orange> ;
+    sem:hasBeginTimeStamp "1793-01-01"^^xsd:date,
+        "1793-10-16"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-01-01"^^xsd:date,
+        "1793-10-16"^^xsd:date ;
+    sem:hasPlace dbr:France,
+        dbr:Maubeuge ;
+    sem:subEventOf dbr:French_Revolution .
+
+dbr:Storming_of_the_Bastille a sem:Event ;
+    sem:hasActor dbr:Bernard-René_Jourdan_de_Launay,
+        dbr:Jacob_Job_Élie,
+        dbr:Pierre-Augustin_Hulin,
+        dbr:Stanislas-Marie_Maillard ;
+    sem:hasBeginTimeStamp "1789-01-01"^^xsd:date,
+        "1789-07-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-01-01"^^xsd:date,
+        "1789-07-14"^^xsd:date ;
+    sem:hasPlace dbr:Kingdom_of_France,
+        dbr:Paris,
+        dbr:Île-de-France ;
+    sem:subEventOf dbr:French_Revolution .
+
