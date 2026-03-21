@@ -1,6 +1,5 @@
 import json
-import argparse
-from compute_story_score import compute_story_score
+from src.amjad.compute_story_score import compute_story_score
 
 
 def load_text(path):
@@ -8,39 +7,16 @@ def load_text(path):
         return f.read().strip()
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Compute StoryScore from a generated story and a reference text."
-    )
-
-    parser.add_argument(
-        "--story_file",
-        required=True,
-        help="Path to the generated story text file (LLM output)."
-    )
-
-    parser.add_argument(
-        "--reference_file",
-        required=True,
-        help="Path to the reference text file (ground truth / paper / KG as text)."
-    )
-
-    parser.add_argument(
-        "--output_file",
-        default=None,
-        help="Optional: path to save the score JSON."
-    )
-
-    args = parser.parse_args()
+def evaluate_story(generated_story, reference_story, output_path=None):
 
     # --- Load inputs ---
-    story_text = load_text(args.story_file)
-    reference_text = load_text(args.reference_file)
+    story_text = load_text(generated_story)
+    reference_text = load_text(reference_story)
 
     # --- Build payload ---
     payload = {
         "outline": [{"title": "Story"}],
-        "sections": [story_text],
+        "sections": [{"title": "Story", "narrative": story_text}],
         "persona": "",
         "paper_title": "",
         "paper_markdown": reference_text
@@ -50,13 +26,11 @@ def main():
     result = compute_story_score(payload)
 
     # --- Output ---
-    if args.output_file:
-        with open(args.output_file, "w", encoding="utf-8") as f:
+    if output_path:
+        with open(output_path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2)
-        print(f"Score saved to: {args.output_file}")
+        print(f"Score saved to: {output_path}")
     else:
         print(json.dumps(result, indent=2))
 
-
-if __name__ == "__main__":
-    main()
+    # noteamjad: title is still not provided ... deal with it later

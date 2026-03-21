@@ -47,13 +47,20 @@ def parse_rdf(input_ttl, output_txt, max_events=20):
         if places:
             line += f" — {places}"
 
-        #if desc:
-            #line += f" — {desc.split('.')[0]}."
+        if desc:
+            line += f" — {desc.split('.')[0]}."
 
         timeline.append((date, line))
 
     timeline.sort(key=lambda x: x[0] if x[0] != "Unknown" else "9999-12-31")
-    timeline_lines = [line for _, line in timeline[:max_events]]
+    if len(timeline) <= max_events:
+        selected = timeline
+    else:
+        step = (len(timeline) - 1) / (max_events - 1)
+        indices = [round(i * step) for i in range(max_events)]
+        selected = [timeline[i] for i in indices]
+
+    timeline_lines = [line for _, line in selected]
 
     with open(output_txt, "w", encoding="utf-8") as f:
         for line in timeline_lines:

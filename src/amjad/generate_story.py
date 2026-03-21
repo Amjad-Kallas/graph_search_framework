@@ -1,5 +1,6 @@
 from openai import OpenAI
 from src.amjad.config import VLLM_URL, MODEL_NAME
+import os
 
 def generate_story(timeline_file, target_words=200):
 
@@ -16,8 +17,9 @@ def generate_story(timeline_file, target_words=200):
 
         INSTRUCTIONS:
         1. Summarize the events so the entire story is strictly under {target_words} words.
-        2. Ensure the narrative has a proper, definitive conclusion. Do not leave the story hanging.
-        3. OUTPUT ONLY THE STORY. Do not include any introductory greetings, titles, or concluding remarks. Start immediately with the first sentence of the narrative and stop immediately after the final punctuation mark.
+        2. Use ONLY the information provided in the events. Do not add any facts, context, or knowledge not explicitly present.
+        3. Ensure the narrative has a proper, definitive conclusion. Do not leave the story hanging.
+        4. OUTPUT ONLY THE STORY. Do not include any introductory greetings, titles, or concluding remarks. Start immediately with the first sentence of the narrative and stop immediately after the final punctuation mark.
 
         Events:
         {context}
@@ -42,11 +44,14 @@ def generate_story(timeline_file, target_words=200):
 
     story = response.choices[0].message.content
 
-    with open("generated_story.txt", "w") as file:
+    folder = os.path.dirname(timeline_file)
+    story_file = f"{folder}/generated_story.txt"
+
+    with open(story_file, "w") as file:
         file.write(story)
 
     print("====\nStory generated successfully and saved to generated_story.txt")
 
-    return story
-'''# Pass your desired word count here
-'''
+    return story, story_file
+
+    # noteamjad: title missing

@@ -7,7 +7,7 @@ from src.framework import GraphSearchFramework
 from src.build_ng.custom_generic_kb_to_ng import build_ng
 from src.amjad.parse_rdf import parse_rdf
 from src.amjad.generate_story import generate_story
-
+from src.amjad.evaluate_story import evaluate_story
 
 def run_framework():
     ap = argparse.ArgumentParser()
@@ -21,8 +21,13 @@ def run_framework():
                     help="node to look for in search (only if mode == 'search_specific_node'")
     ap.add_argument("-w", "--walk", default="informed",
                     help="type of walk in the graph: `random` or `informed`")
-    
+    ap.add_argument("--compute_score", action="store_true",
+                    help="Evaluate story if flag is present")    
     args_main = vars(ap.parse_args())
+
+    compute_score = False
+    if args_main["compute_score"]:
+        compute_score = True
 
     with open(args_main["json"], "r", encoding="utf-8") as openfile_main:
         config_loaded = json.load(openfile_main)
@@ -49,7 +54,7 @@ def run_framework():
 
     target_file = os.path.join(target_folder, f"{num_iterations}-subgraph.csv")
 
-    return target_folder, target_file
+    return target_folder, target_file, compute_score
 
 
 
@@ -57,9 +62,10 @@ def run_framework():
 
 def run_pipeline():
 
+    temp_ground_truh = "/home/kallas/project/graph_search_framework/src/amjad/paper.txt"
     
     print("\n1. Running ChronoGrapher...")
-    target_folder, subgraph_file = run_framework()
+    target_folder, subgraph_file, compute_score = run_framework()
 
     output_ng = target_folder + f"/output_ng.ttl"
     timeline_file = target_folder + f"/event_timeline.txt"
@@ -68,13 +74,24 @@ def run_pipeline():
     build_ng(subgraph_file, output_ng)
 
     print("\n3. Parsing RDF...")
+
+    #output_ng = "/home/kallas/project/graph_search_framework/experiments/2026-03-21-20_12_42-informed_dbpedia_french_revolution_1_pred_object_freq_domain_range_what_where_when_who_wikilink_without_category_uri_iter__max_inf/output_ng.ttl"
+    #timeline_file = "/home/kallas/project/graph_search_framework/experiments/2026-03-21-20_12_42-informed_dbpedia_french_revolution_1_pred_object_freq_domain_range_what_where_when_who_wikilink_without_category_uri_iter__max_inf/event_timeline.txt"
+
     parse_rdf(output_ng, timeline_file)
 
     print("\n4. Generating story...")
-    story = generate_story(timeline_file)
+    story, story_file = generate_story(timeline_file)
 
     print("\n--- STORY ---")
     print(story)
+
+    # delete me
+    compute_score = True
+    if compute_score:
+        print("\n5. Computing story score...")
+        evaluate_story(story_file, temp_ground_truh)
+    
 
 if __name__ == "__main__":
     run_pipeline()
