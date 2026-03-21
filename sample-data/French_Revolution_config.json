@@ -24,7 +24,7 @@
     "start": "http://dbpedia.org/resource/French_Revolution",
     "start_date": "1789-05-05",
     "end_date": "1799-12-31",
-    "iterations": 3,
+    "iterations": 1,
     "type_ranking": "pred_object_freq",
     "type_interface": "sparql_endpoint",
     "sparql_endpoint": "https://dbpedia.org/sparql",

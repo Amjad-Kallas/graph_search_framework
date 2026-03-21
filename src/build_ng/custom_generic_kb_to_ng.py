@@ -3,11 +3,16 @@ from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, XSD
 from SPARQLWrapper import SPARQLWrapper, JSON
 from urllib.parse import quote
-
+from tqdm import tqdm
+import argparse
+import requests
 
 SEM = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 DBR = Namespace("http://dbpedia.org/resource/")
 
+def load_text(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read().strip()
 
 def get_event_info(event_uri):
     sparql = SPARQLWrapper("https://dbpedia.org/sparql")
@@ -37,9 +42,27 @@ def get_event_info(event_uri):
 
     return actors, places, dates
 
-from urllib.parse import quote
 
-import requests
+def select_best_date(dates):
+    best = None
+    best_score = -1
+
+    for d in dates:
+        try:
+            d = d[:10]
+            year, month, day = d.split("-")
+
+            score = 0
+            if month != "01": score += 1
+            if day != "01": score += 1
+
+            if score > best_score:
+                best_score = score
+                best = d
+        except:
+            continue
+
+    return best
 
 def get_wikipedia_intro(event_uri, max_words=10):
     try:
@@ -87,7 +110,9 @@ def build_ng(input_file, output_file):
     event_cache = {}
     wiki_cache = {}
 
-    for _, row in df.iterrows():
+
+
+    for _, row in tqdm(df.iterrows(), total=len(df)):
         s = encode(row["subject"])
         o = URIRef(encode(row["object"]))
         pred = row["predicate"]
@@ -109,16 +134,15 @@ def build_ng(input_file, output_file):
         actors, places, dates = event_cache[event_uri]
 
         for a in actors:
-            g.add((s, SEM.hasActor, URIRef(a)))
+            g.add((s, SEM.hasActor, encode(a)))
 
         for p in places:
-            g.add((s, SEM.hasPlace, URIRef(p)))
+            g.add((s, SEM.hasPlace, encode(p)))
 
-        for d in dates:
-            g.add((s, SEM.hasBeginTimeStamp,
-                Literal(d[:10], datatype=XSD.date)))
-            g.add((s, SEM.hasEndTimeStamp,
-                Literal(d[:10], datatype=XSD.date)))
+        best_date = select_best_date(dates)
+
+        if best_date:
+            g.set((s, SEM.hasTimeStamp, Literal(best_date, datatype=XSD.date)))
 
         # ---- WIKIPEDIA ENRICHMENT ----
         if event_uri not in wiki_cache:
@@ -131,19 +155,40 @@ def build_ng(input_file, output_file):
             g.add((s, RDFS.comment, Literal(desc)))
 
         # ---- FALLBACK TIME ----
-        if len(row) >= 7:
+        if not best_date and len(row) >= 7:
             year = str(row.iloc[-1])
             if year.isdigit():
                 date = f"{year}-01-01"
-                g.add((s, SEM.hasBeginTimeStamp,
-                    Literal(date, datatype=XSD.date)))
-                g.add((s, SEM.hasEndTimeStamp,
+                g.set((s, SEM.hasTimeStamp,
                     Literal(date, datatype=XSD.date)))
 
 
     g.serialize(output_file, format="ttl")
-    print(f"Saved to {output_file}")
+    #print(f"Saved to {output_file}")
+    print(f"====\nNarrative graph built successfully!")
 
 
 if __name__ == "__main__":
-    build_ng("kg-example/dummy_output_search.csv", "search_ng.ttl")
+    parser = argparse.ArgumentParser(
+        description="Convert Generated Subgraph into NG with enrichment."
+    )
+
+    parser.add_argument(
+        "--input_subgraph",
+        required=True,
+        help="Path to the input subgraph."
+    )
+
+
+    parser.add_argument(
+        "--output_ng",
+        required=True,
+        help="output narrative graph."
+    )
+
+    args = parser.parse_args()
+
+    # --- Load inputs ---
+    input_subgraph = load_text(args.input_subgraph)
+
+    build_ng(args.input_subgraph, args.output_ng)

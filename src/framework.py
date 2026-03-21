@@ -856,6 +856,8 @@ class GraphSearchFramework:
         with open(f"{self.save_folder}/metadata.json", "w", encoding="utf-8") as openfile:
             json.dump(metadata, openfile, indent=4)
 
+        return self.save_folder
+
 
 
 if __name__ == '__main__':
@@ -886,3 +888,7 @@ if __name__ == '__main__':
     framework(end_node=args_main["end_node"])
     END = datetime.now()
     print(f"Process ended at {END}, took {END-START}")
+
+    # save the path (to be used in another script)
+    with open("latest_run_path.txt", "w", encoding="utf-8") as f:
+        f.write(framework.save_folder)
