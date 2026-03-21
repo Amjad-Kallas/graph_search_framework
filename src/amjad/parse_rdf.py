@@ -47,8 +47,8 @@ def parse_rdf(input_ttl, output_txt, max_events=20):
         if places:
             line += f" — {places}"
 
-        if desc:
-            line += f" — {desc.split('.')[0]}."
+        #if desc:
+            #line += f" — {desc.split('.')[0]}."
 
         timeline.append((date, line))
 

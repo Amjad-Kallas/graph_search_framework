@@ -40,14 +40,13 @@ def generate_story(timeline_file, target_words=200):
         max_tokens=safe_max_tokens 
     )
 
-    story = generate_story("event_timeline.txt", target_words=200)
+    story = response.choices[0].message.content
 
     with open("generated_story.txt", "w") as file:
         file.write(story)
 
     print("====\nStory generated successfully and saved to generated_story.txt")
 
-    return response.choices[0].message.content
-
+    return story
 '''# Pass your desired word count here
 '''
