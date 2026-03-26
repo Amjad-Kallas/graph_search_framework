@@ -9,6 +9,7 @@ build/
 .vscode/
 wandb/
 .DS_Store
+__pycache__
 
 # Experiments/Diverse
 miscellaneous/
@@ -48,3 +49,6 @@ data_ng_building/
 
 kglab/
 experiments_run/usage_ng/narrative_generation_all
+
+
+dbpedia_dataset

@@ -111,11 +111,30 @@ class NodeExpansion:
             to_keep = list(type_date_df[(~type_date_df.subject.isin(to_discard)) & \
                 (type_date_df.object.isin(filtered))].subject.unique())
 
-        return triple_ingoing[triple_ingoing.subject.isin(to_keep)], \
-            triple_ingoing[~triple_ingoing.subject.isin(to_discard)], \
-            triple_outgoing[triple_outgoing.object.isin(to_keep)], \
-            triple_outgoing[~triple_outgoing.object.isin(to_discard)], \
-            to_discard
+        # Apply filtering first
+        subgraph_ingoing = triple_ingoing[triple_ingoing.subject.isin(to_keep)]
+        subgraph_ingoing = subgraph_ingoing.drop_duplicates("subject")
+        path_ingoing = triple_ingoing[~triple_ingoing.subject.isin(to_discard)]
+
+        subgraph_outgoing = triple_outgoing[triple_outgoing.object.isin(to_keep)]
+        subgraph_outgoing = subgraph_outgoing.drop_duplicates("subject")
+        path_outgoing = triple_outgoing[~triple_outgoing.object.isin(to_discard)]
+
+        # PRUNING AFTER FILTERING
+        """
+        noteAmjad: for now I still prune randomly, I guess we need to find another way.
+        - pruning based on ranks (kind of already there, because we have ranking in the pipeline, but check how to apply it here)
+        - I'm also thinking of LLM based relevance filtering to guide graph expansion, so we completely run the first step without this pruning, then we feed only the events to the LLM (even if hundreds it is okay because we feed ONLY events), then the LLM tries to get the most important ones related to the story, then we enrich that. (Maybe also this better be done during this stage so that we avoid expansions on events that are not relevant, but for now I'm still using iteration=1 only so it doesn't apply unless we have more iterations)
+        """
+        MAX_NODES = 50
+
+        if subgraph_ingoing.shape[0] > MAX_NODES:
+            subgraph_ingoing = subgraph_ingoing.sample(n=MAX_NODES, random_state=42)
+
+        if subgraph_outgoing.shape[0] > MAX_NODES:
+            subgraph_outgoing = subgraph_outgoing.sample(n=MAX_NODES, random_state=42)
+
+        return subgraph_ingoing, path_ingoing, subgraph_outgoing, path_outgoing, to_discard
 
     def __call__(self, args: dict, dates: list[str, str]) \
         -> (DataFrame, DataFrame, DataFrame, DataFrame, list[str]):

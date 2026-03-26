@@ -15,10 +15,10 @@ def evaluate_story(generated_story, reference_story, output_path=None):
 
     # --- Build payload ---
     payload = {
-        "outline": [{"title": "Story"}],
-        "sections": [{"title": "Story", "narrative": story_text}],
-        "persona": "",
-        "paper_title": "",
+        "outline": [],
+        "sections": [{"narrative": story_text}],
+        "persona": "evaluator",
+        "paper_title": "Reference Doc",
         "paper_markdown": reference_text
     }
 
@@ -34,3 +34,9 @@ def evaluate_story(generated_story, reference_story, output_path=None):
         print(json.dumps(result, indent=2))
 
     # noteamjad: title is still not provided ... deal with it later
+
+
+if __name__ == "__main__":
+    story_file = "/home/kallas/project/graph_search_framework/src/amjad/generated_story.txt"
+    reference_file = "/home/kallas/project/graph_search_framework/src/amjad/reference_story.txt"
+    evaluate_story(story_file, reference_file)

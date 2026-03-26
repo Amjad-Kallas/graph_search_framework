@@ -110,6 +110,7 @@ def title_outline_similarity(outline: List[Any], sections: List[Any]) -> float:
 def compute_bertscore(story_text: str, paper_text: str) -> float:
     story_text = (story_text or "").strip()
     paper_text = (paper_text or "").strip()
+    
     if not story_text or not paper_text:
         return 0.0
 
@@ -241,6 +242,7 @@ def compute_story_score(payload: Dict[str, Any]) -> Dict[str, float]:
     story_text_raw = "\n".join(sections_text_raw)
     paper_text_raw = paper_md_raw
     paper_text_norm = normalize_text(paper_md_raw)
+
 
     # --- metrics ---
     bert = compute_bertscore(story_text_raw, paper_text_raw)

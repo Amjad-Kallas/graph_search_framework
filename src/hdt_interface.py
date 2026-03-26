@@ -8,16 +8,15 @@ import yaml
 import rdflib
 
 
-try:
-    from hdt import HDTDocument
-except ImportError:
-    HDTDocument = None
+
+from hdt import HDTDocument
+
 
 from src.interface import Interface
 from settings import FOLDER_PATH
 
 HDT_DBPEDIA = \
-    os.path.join(FOLDER_PATH, "dbpedia-snapshot-2021-09")
+    os.path.join(FOLDER_PATH, "dbpedia_dataset")
 
 DEFAULT_PRED = \
     ["http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -49,37 +48,67 @@ class HDTInterface(Interface):
         Interface.__init__(self, dataset_config=dataset_config, dates=dates,
                            default_pred=default_pred, filter_kb=filter_kb)
 
-        self.graph = rdflib.Graph()
+        # 1. Find the actual .hdt file instead of .ttl files
+        hdt_files = [f for f in os.listdir(folder_hdt) if f.endswith(".hdt")]
+        
+        if not hdt_files:
+            raise FileNotFoundError(f"No .hdt file found in {folder_hdt}. Make sure your dataset is actually converted to HDT format.")
+            
+        hdt_file_path = os.path.join(folder_hdt, hdt_files[0])
+        print(f"Loading HDT Document: {hdt_file_path}")
 
-        ttl_files = [
-            os.path.join(folder_hdt, f)
-            for f in os.listdir(folder_hdt)
-            if f.endswith(".ttl")
-        ]
-
-        for f in ttl_files:
-            self.graph.parse(f, format="turtle")
+        # 2. Load the HDT file using the C++ wrapper
+        self.document = HDTDocument(hdt_file_path)
 
 
-    def get_triples(self, **params: dict) -> list[(str, str, str)]:
-        """ Querying HDT dataset """
-        subject_t = params["subject"] if "subject" in params else ""
-        predicate_t = params["predicate"] if "predicate" in params else ""
-        object_t = params["object"] if "object" in params else ""
+    def get_triples(self, **params: dict) -> list:
+        subject_t = params.get("subject", "")
+        predicate_t = params.get("predicate", "")
+        object_t = params.get("object", "")
 
-        triples = []
+        results = []
 
-        for s, p, o in self.graph:
-            if subject_t and str(s) != subject_t:
-                continue
-            if predicate_t and str(p) != predicate_t:
-                continue
-            if object_t and str(o) != object_t:
-                continue
-            triples.append((str(s), str(p), str(o)))
+        # handle list of predicates
+        if isinstance(predicate_t, list):
+            for p in predicate_t:
+                triples_iterator, _ = self.document.search_triples(subject_t, p, object_t)
+                results.extend(list(triples_iterator))
+        else:
+            triples_iterator, _ = self.document.search_triples(subject_t, predicate_t, object_t)
+            results = list(triples_iterator)
 
-        return triples
+        return results
 
+    @staticmethod
+    def clean_hdt_object(obj_str: str) -> str:
+        """Strips datatypes from HDT literals to mimic SPARQL JSON output."""
+        if obj_str.startswith('"'):
+            return obj_str.split('"')[1]
+        return obj_str
+
+    def get_event_info(self, event_uri: str) -> tuple:
+        """Fast binary search for actors, places, and dates."""
+        actors, places, dates = [], [], []
+
+        # 1. Get Commanders
+        cmd_it, _ = self.document.search_triples(event_uri, "http://dbpedia.org/ontology/commander", "")
+        for _, _, o in cmd_it:
+            actors.append(self.clean_hdt_object(o))
+            if len(actors) >= 20: break
+
+        # 2. Get Places
+        place_it, _ = self.document.search_triples(event_uri, "http://dbpedia.org/ontology/place", "")
+        for _, _, o in place_it:
+            places.append(self.clean_hdt_object(o))
+            if len(places) >= 20: break
+
+        # 3. Get Dates
+        date_it, _ = self.document.search_triples(event_uri, "http://dbpedia.org/ontology/date", "")
+        for _, _, o in date_it:
+            dates.append(self.clean_hdt_object(o))
+            if len(dates) >= 20: break
+
+        return actors, places, dates
 
 
 

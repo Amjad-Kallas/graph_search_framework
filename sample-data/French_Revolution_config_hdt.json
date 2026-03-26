@@ -22,12 +22,13 @@
                          "http://www.w3.org/2000/01/rdf-schema#comment",
                          "http://www.w3.org/2000/01/rdf-schema#label"],
     "start": "http://dbpedia.org/resource/World_War_I",
+    "start_date1": "1789-05-05",
+    "end_date1": "1799-12-31",
     "start_date": "1914-01-01",
-    "end_date": "1918-01-01",
-    "iterations": 1,
+    "end_date": "1918-12-31",
+    "iterations": 5,
     "type_ranking": "pred_object_freq",
-    "type_interface": "sparql_endpoint",
-    "sparql_endpoint": "https://dbpedia.org/sparql",
+    "type_interface": "hdt",
     "gold_standard": "./sample-data/French_Revolution_gs_events.csv",
     "referents": "./sample-data/French_Revolution_referents.json",
     "type_metrics": ["precision", "recall", "f1"],
@@ -41,5 +42,6 @@
         "who": 1
     },
     "name_exp": "french_revolution",
-    "dataset_type": "dbpedia"
+    "dataset_type": "dbpedia",
+    "dataset_path": "dbpedia_dataset"
 }

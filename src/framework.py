@@ -531,6 +531,13 @@ class GraphSearchFramework:
         nodes_to_expand, path = self._select_nodes_to_expand(iteration)
         self._update_nodes_expanded(iteration=iteration, nodes=nodes_to_expand)
 
+
+        '''MAX_NODES_PER_ITER = 50
+
+        if len(nodes_to_expand) > MAX_NODES_PER_ITER:
+            random.seed(42)
+            nodes_to_expand = random.sample(nodes_to_expand, MAX_NODES_PER_ITER)'''
+
         if self.type_interface == '':
             pool = Pool(self.nb_cpu)
             output = pool.map(self._expand_one_node,
