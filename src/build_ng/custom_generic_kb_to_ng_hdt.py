@@ -3,8 +3,8 @@ from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, XSD
 from urllib.parse import quote
 from tqdm import tqdm
-import argparse
 import requests
+from src.hdt_interface import HDTInterface
 
 
 SEM = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
@@ -13,35 +13,6 @@ DBR = Namespace("http://dbpedia.org/resource/")
 def load_text(path):
     with open(path, "r", encoding="utf-8") as f:
         return f.read().strip()
-
-def get_event_info(event_uri):
-    sparql = SPARQLWrapper("https://dbpedia.org/sparql")
-
-    query = f"""
-    SELECT ?actor ?place ?date WHERE {{
-      OPTIONAL {{ <{event_uri}> dbo:commander ?actor . }}
-      OPTIONAL {{ <{event_uri}> dbo:place ?place . }}
-      OPTIONAL {{ <{event_uri}> dbo:date ?date . }}
-    }}
-    LIMIT 20
-    """
-
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-
-    actors, places, dates = [], [], []
-
-    for r in results["results"]["bindings"]:
-        if "actor" in r:
-            actors.append(r["actor"]["value"])
-        if "place" in r:
-            places.append(r["place"]["value"])
-        if "date" in r:
-            dates.append(r["date"]["value"])
-
-    return actors, places, dates
-
 
 def select_best_date(dates):
     best = None
@@ -106,91 +77,62 @@ def build_ng(input_file, output_file, hdt_interface):
     g = Graph()
     g.bind("sem", SEM)
     g.bind("dbr", DBR)
+    from rdflib.namespace import RDFS
 
-    event_cache = {}
-    wiki_cache = {}
+    # Step 1: Map predicates and gather ALL unique event URIs
+    all_event_uris = set()
+    
+    for _, row in df.iterrows():
+        s_uri = row["subject"]
+        o_uri = row["object"]
+        pred  = row["predicate"]
 
+        all_event_uris.add(s_uri)
+        all_event_uris.add(o_uri)
 
+        s = encode(s_uri)
+        o = encode(o_uri)
 
-    for _, row in tqdm(df.iterrows(), total=len(df)):
-        s = encode(row["subject"])
-        o = URIRef(encode(row["object"]))
-        pred = row["predicate"]
-
-        # Add event type
-        g.add((s, RDF.type, SEM.Event))
-
-        # Map predicate
         mapped = map_predicate(pred)
         if mapped:
             g.add((s, mapped, o))
 
-        # ---- ENRICHMENT (cached) ----
-        event_uri = row["subject"]
+    # Step 2: Enrich every unique event (no caches needed anymore!)
+    print(f"Enriching {len(all_event_uris)} unique events...")
+    
+    for uri in tqdm(all_event_uris):
+        node = encode(uri)
+        g.add((node, RDF.type, SEM.Event))
 
-        if event_uri not in event_cache:
-            event_cache[event_uri] = hdt_interface.get_event_info(event_uri)
-
-        actors, places, dates = event_cache[event_uri]
+        # ---- HDT ENRICHMENT ----
+        actors, places, dates = hdt_interface.get_event_info(uri)
 
         for a in actors:
-            g.add((s, SEM.hasActor, encode(a)))
+            g.add((node, SEM.hasActor, encode(a)))
 
         for p in places:
-            g.add((s, SEM.hasPlace, encode(p)))
+            g.add((node, SEM.hasPlace, encode(p)))
 
         best_date = select_best_date(dates)
 
         if best_date:
-            g.set((s, SEM.hasTimeStamp, Literal(best_date, datatype=XSD.date)))
+            g.set((node, SEM.hasTimeStamp, Literal(best_date, datatype=XSD.date)))
+        else:
+            g.set((node, SEM.hasTimeStamp, Literal("no_date")))
 
         # ---- WIKIPEDIA ENRICHMENT ----
-        if event_uri not in wiki_cache:
-            wiki_cache[event_uri] = get_wikipedia_intro(event_uri, max_words=100)
-
-        desc = wiki_cache[event_uri]
-
+        # (Make sure to uncomment your Wikipedia logic if you want the descriptions)
+        desc = get_wikipedia_intro(uri, max_words=200)
         if desc:
-            from rdflib.namespace import RDFS
-            g.add((s, RDFS.comment, Literal(desc)))
-
-        # ---- FALLBACK TIME ----
-        if not best_date and len(row) >= 7:
-            year = str(row.iloc[-1])
-            if year.isdigit():
-                date = f"{year}-01-01"
-                g.set((s, SEM.hasTimeStamp,
-                    Literal(date, datatype=XSD.date)))
-
+            g.add((node, RDFS.comment, Literal(desc)))
 
     g.serialize(output_file, format="ttl")
-    #print(f"Saved to {output_file}")
-    print(f"====\nNarrative graph built successfully!")
-
+    print("====\nNarrative graph built successfully!")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Convert Generated Subgraph into NG with enrichment."
-    )
-
-    parser.add_argument(
-        "--input_subgraph",
-        required=True,
-        help="Path to the input subgraph."
-    )
-
-
-    parser.add_argument(
-        "--output_ng",
-        required=True,
-        help="output narrative graph."
-    )
-
-    args = parser.parse_args()
+    input_subgraph = "/home/kallas/project/graph_search_framework/french_revolution_triples.csv"
+    output_ng = "/home/kallas/project/graph_search_framework/sample-data/prune.ttl"
 
     interface = HDTInterface()
 
-    # --- Load inputs ---
-    input_subgraph = load_text(args.input_subgraph)
-
-    build_ng(args.input_subgraph, args.output_ng, interface)
+    build_ng(input_subgraph, output_ng, interface)

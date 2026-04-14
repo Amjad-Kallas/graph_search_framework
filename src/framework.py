@@ -552,12 +552,13 @@ class GraphSearchFramework:
 
         else:  # type_interface == 'hdt'
             output = []
+            #noteamjad: removed logging each processed node
             for i, args in enumerate([{"node": node,
                                     "path": path,
                                     "predicate": self.predicate_filter,
                                     "iteration": iteration,
                                     } for node in nodes_to_expand]):
-                print(f"Processing node {i+1}/{len(nodes_to_expand)}\t{nodes_to_expand[i]}")
+                #print(f"Processing node {i+1}/{len(nodes_to_expand)}\t{nodes_to_expand[i]}")
                 self.nodes_expanded.append(args["node"])
                 output.append(self._expand_one_node(args))
 
@@ -729,10 +730,11 @@ class GraphSearchFramework:
         best_fone = 0
         found_node = False  # only if looking for a specific node
 
-        for i in range(1, self.iterations+1):
+        #noteamjad: added tqdm, and removed some logs
+        for i in tqdm(range(1, self.iterations+1)):
             self.last_iteration = i
-            print(i, self.iterations)
-            print(f"Iteration {i} started at {datetime.now()}")
+            #print(i, self.iterations)
+            #print(f"Iteration {i} started at {datetime.now()}")
             output, nodes_to_expand, path = self.run_one_iteration(iteration=i)
             self.info = self.merge_outputs(output=output, iteration=i, info=self.info)
 
@@ -809,7 +811,7 @@ class GraphSearchFramework:
 
             with open(f"{self.save_folder}/metadata.json", "w", encoding="utf-8") as openfile:
                 json.dump(metadata, openfile, indent=4)
-            print(f"Iteration {i} finished at {datetime.now()}\n=====")
+            #print(f"Iteration {i} finished at {datetime.now()}\n=====")
 
             if found_node:
                 print(f"Node {end_node} was found, stopping search. " + \

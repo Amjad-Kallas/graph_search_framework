@@ -9,6 +9,7 @@ from src.build_ng.custom_generic_kb_to_ng import build_ng as build_ng_sparql
 from src.amjad.parse_rdf import parse_rdf
 from src.amjad.generate_story import generate_story
 from src.amjad.evaluate_story import evaluate_story
+from src.amjad.pruning import StoryCentralityPruner
 
 def run_framework(args_main, config_loaded):
     
@@ -55,8 +56,8 @@ def run_pipeline():
                     help="type of walk in the graph: `random` or `informed`")
     ap.add_argument("--compute_score", action="store_true",
                     help="Evaluate story if flag is present")    
-    ap.add_argument("-i", "--interface", choices=["hdt", "sparql"], default=None,
-                    help="Override type_interface from config (choices: hdt, sparql)")
+    ap.add_argument("-i", "--interface", choices=["hdt", "sparql_endpoint"], default=None,
+                    help="Override type_interface from config (choices: hdt, sparql_endpoint)")
 
     args_main = vars(ap.parse_args())
     compute_score = args_main["compute_score"]
@@ -64,7 +65,7 @@ def run_pipeline():
     with open(args_main["json"], "r", encoding="utf-8") as openfile_main:
         config_loaded = json.load(openfile_main)
     
-    config_interface = config_loaded.get("type_interface", "sparql").lower()
+    config_interface = config_loaded.get("type_interface", "sparql_endpoint").lower()
     
     final_interface = args_main["interface"] if args_main["interface"] else config_interface
     
@@ -83,33 +84,39 @@ def run_pipeline():
     print("\n1. Running ChronoGrapher...")
     target_folder, subgraph_file = run_framework(args_main, config_loaded)
 
+
+    # Pruning
+    seed_topic = config_loaded["start"]
+    pruner = StoryCentralityPruner()
+    pruned_subgraph_file = pruner.run_pruning(subgraph_file, seed_topic=seed_topic)
+
+
+
     output_ng = target_folder + f"/output_ng.ttl"
     timeline_file = target_folder + f"/event_timeline.txt"
         
+
+    
     print("\n2. Building narrative graph...")
     if use_hdt:
         from src.hdt_interface import HDTInterface
 
         interface = HDTInterface()
-        build_ng_hdt(subgraph_file, output_ng, interface)
+        build_ng_hdt(pruned_subgraph_file, output_ng, interface)
 
     else: # use SPARQL
-        build_ng_sparql(subgraph_file, output_ng)
+        build_ng_sparql(pruned_subgraph_file, output_ng)
 
 
-    
     print("\n3. Parsing RDF...")
 
 
     parse_rdf(output_ng, timeline_file)
 
-
     print("\n4. Generating story...")
     story, story_file = generate_story(timeline_file)
 
-    print("\n--- STORY ---")
-    print(story)
-
+    exit()
     # compute story score if needed
     if compute_score:
         print("\n5. Computing story score...")

@@ -114,7 +114,7 @@ class Filtering:
         """
         Extracting list of nodes to discard from search space
         """
-        date_df = type_date[type_date.predicate.isin(self.time["temporal"])]
+        date_df = type_date[type_date.predicate.isin(self.time["temporal"])].copy()
         date_df.object = date_df.object.astype(str)
 
         to_discard = []

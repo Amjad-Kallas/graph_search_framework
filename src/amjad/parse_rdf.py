@@ -1,7 +1,7 @@
 # Parse ChronoGrapher TTL file → clean chronological event summaries for LLM
 
 
-def parse_rdf(input_ttl, output_txt, max_events=20):
+def parse_rdf(input_ttl, output_txt, max_events=30):
     from rdflib import Graph
     from collections import defaultdict
     from urllib.parse import unquote

@@ -148,13 +148,26 @@ class Interface:
         """ Returning specific outgoing nodes, e.g. rdf:type and dates """
         temp_res = []
 
-        for i in tqdm(range(len(ingoing))):
+        '''for i in tqdm(range(len(ingoing))):
             subject = ingoing[i][0]
             temp_res += self.run_request(params=dict(subject=str(subject)),
                                              filter_pred=self.pred,
                                              filter_keep=True)
 
         for i in tqdm(range(len(outgoing))):
+            object_t = outgoing[i][2]
+            temp_res += self.run_request(params=dict(subject=str(object_t)),
+                                                         filter_pred=self.pred,
+                                                         filter_keep=True)'''
+
+        #noteamjad: just removed tqdm                                                
+        for i in range(len(ingoing)):
+            subject = ingoing[i][0]
+            temp_res += self.run_request(params=dict(subject=str(subject)),
+                                             filter_pred=self.pred,
+                                             filter_keep=True)
+
+        for i in range(len(outgoing)):
             object_t = outgoing[i][2]
             temp_res += self.run_request(params=dict(subject=str(object_t)),
                                                          filter_pred=self.pred,

@@ -2,7 +2,7 @@ from openai import OpenAI
 from src.amjad.config import VLLM_URL, MODEL_NAME
 import os
 
-def generate_story(timeline_file, target_words=200):
+def generate_story(timeline_file, target_words=400):
 
     # Load timeline text
     with open(timeline_file, "r", encoding="utf-8") as f:
@@ -10,16 +10,22 @@ def generate_story(timeline_file, target_words=200):
 
     # Update the prompt with strict length and conclusion instructions
     prompt = f"""
-        You are given a set of historical events extracted from a knowledge graph.
+        You are given a list of events related to a main historical event.
 
-        Write a coherent historical narrative describing the sequence of events.
-        Explain the main developments and present them chronologically.
+        Using ONLY these events as a base, write a coherent historical narrative.
 
-        INSTRUCTIONS:
-        1. Summarize the events so the entire story is strictly under {target_words} words.
-        2. Use ONLY the information provided in the events. Do not add any facts, context, or knowledge not explicitly present.
-        3. Ensure the narrative has a proper, definitive conclusion. Do not leave the story hanging.
-        4. OUTPUT ONLY THE STORY. Do not include any introductory greetings, titles, or concluding remarks. Start immediately with the first sentence of the narrative and stop immediately after the final punctuation mark.
+        Requirements:
+        - Write a coherent historical narrative of NO LONGER THAN {target_words} words.
+        - Explain how the main event started (you may add missing key causes if needed)
+        - Organize the events into major phases
+        - Focus on the most important events (do not list everything)
+        - Explain how the event evolved and ended (you may add missing ending events)
+        - Maintain chronological order
+
+        Rules:
+        - You may add a few well-known events if they are missing (e.g. causes or ending)
+        - Do NOT invent obscure or unknown events
+        - Prefer a clear, high-level story over listing details
 
         Events:
         {context}
