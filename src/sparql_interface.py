@@ -6,9 +6,11 @@ import urllib.request
 from urllib.parse import quote_plus
 import yaml
 from pandas.core.frame import DataFrame
-from SPARQLWrapper import SPARQLWrapper, RDFXML
+from SPARQLWrapper import SPARQLWrapper, RDFXML, JSON
 from settings import AGENT, FOLDER_PATH
 from src.interface import Interface
+import time
+
 
 DEFAULT_PRED = \
     ["http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -30,6 +32,7 @@ class SPARQLQuery:
         self.query_template = self._set_query_template()
 
     def _set_query_template(self) -> str:
+        '''
         query = """
         CONSTRUCT {
             ?s ?p ?o .
@@ -40,6 +43,18 @@ class SPARQLQuery:
         <VALUES-unique-object>
         ?s ?p ?o .
             }
+        """
+        '''
+
+        query = """
+            SELECT ?s ?p ?o WHERE {
+            <VALUES-unique-subject>
+            <VALUES-unique-predicate>
+            <VALUES-unique-object>
+            ?s ?p ?o .
+            FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
+            }
+            LIMIT 1000
         """
         return query
 
@@ -66,7 +81,12 @@ class SPARQLInterface(Interface):
                  agent: str = AGENT):
         Interface.__init__(self, dataset_config=dataset_config, dates=dates,
                            default_pred=default_pred, filter_kb=filter_kb)
-        self.sparql = SPARQLWrapper(sparql_endpoint, agent=agent)
+        #self.sparql = SPARQLWrapper(sparql_endpoint, agent=agent)
+        self.sparql = SPARQLWrapper(sparql_endpoint)
+        self.sparql.addCustomHttpHeader(
+            "User-Agent",
+            "Mozilla/5.0 (compatible; WikidataQueryBot/1.0; +https://example.org)"
+        )
         self.sparql_query = SPARQLQuery()
 
     def get_triples(self, **params: dict[str, str]) -> list[(str, str, str)]:
@@ -78,17 +98,36 @@ class SPARQLInterface(Interface):
         proxy_support = urllib.request.ProxyHandler({})
         opener = urllib.request.build_opener(proxy_support)
         urllib.request.install_opener(opener)
-        self.sparql.setReturnFormat(RDFXML)
+        #self.sparql.setReturnFormat(RDFXML)
+        self.sparql.setReturnFormat(JSON)
+        self.sparql.setMethod("GET")
         self.sparql.setQuery(query)
         # self.sparql.setMethod(POST)
         try:
-            results = self.sparql.query().convert()
+            '''results = self.sparql.query().convert()
             return [
                 (str(triple[0]), str(triple[1]), str(triple[2]))
                 for triple in list(set(results))
                 if str(triple[2]).startswith("http")
-            ]
-        except:
+            ]'''
+
+            #time.sleep(0.5)
+            results = self.sparql.query().convert()
+
+            triples = []
+            for result in results["results"]["bindings"]:
+                s = result["s"]["value"]
+                p = result["p"]["value"]
+                o = result["o"]["value"]
+
+                if o.startswith("http"):
+                    triples.append((s, p, o))
+
+            return triples
+
+
+        except Exception as e:
+            print(e, "EMPTY")
             return []
 
 

@@ -127,7 +127,7 @@ class GraphSearchFramework:
         self.start = config["start"]
 
         # TEMPORAL FILTER
-        if ("start_date" and "end_date") in config:
+        if "start_date" in config and "end_date" in config:
             self.dates = [config["start_date"], config["end_date"]]
         else:
             self.dates = None
@@ -197,13 +197,13 @@ class GraphSearchFramework:
         # METRICS
         # Metrics part, only if mode == "metrics_driven"
         # Will compute metrics at each iteration (standard are: precision, recall, f1)
-        if self.mode == "search_type_node_metrics":
+        '''if self.mode == "search_type_node_metrics":
             config_metrics = {
                 "referents": config["referents"], "type_metrics": config["type_metrics"],
                 "gold_standard": config['gold_standard']
             }
             self.metrics = Metrics(config_metrics=config_metrics)
-            self.metrics_data = {}
+            self.metrics_data = {}'''
 
         # self.plotter = Plotter()
 
@@ -508,14 +508,14 @@ class GraphSearchFramework:
                     sample = subset_ingoing.sample().iloc[0]
                     path.append(f"ingoing-{sample.predicate};{sample.object}")
                 else:
-                    sample = subset_ingoing.sample().iloc[0]
-                    path.append(f"ingoing-{sample.predicate};{sample.object}")
+                    sample = subset_outgoing.sample().iloc[0]
+                    path.append(f"outgoing-{sample.subject};{sample.predicate}")
 
         return path
 
     def _expand_one_node(self, args: dict) \
         -> (DataFrame, DataFrame, DataFrame, DataFrame, list[str]):
-        return self.node_expander(args=args, dates=self.dates)
+        return self.node_expander(args=args, dates=self.dates, save_folder=self.save_folder)
 
     def _update_nodes_expanded(self, iteration:int, nodes: list[str]) -> DataFrame:
 
@@ -609,7 +609,8 @@ class GraphSearchFramework:
         - if node selection is all nodes corresponding to a path, then removing that path
         - else decreasing it by one """
         if self.node_selection_type == "random":
-            return defaultdict(int, {k: v if v != to_expand else v-1 for k, v in occurence.items()})
+            return defaultdict(int, {k: v if k != to_expand else v-1 for k, v in occurence.items()})
+
         return defaultdict(int, {k: v for k, v in occurence.items() if k != to_expand})
 
     def merge_outputs(self, output: list, iteration: int, info: dict) -> dict:
@@ -781,7 +782,7 @@ class GraphSearchFramework:
                         .object.unique()]
 
             # METRICS
-            if self.mode == "search_type_node_metrics":
+            '''if self.mode == "search_type_node_metrics":
                 self.metrics_data = self.metrics.update_metrics_data(
                     metrics_data=self.metrics_data, iteration=i, found=events_found)
 
@@ -804,7 +805,7 @@ class GraphSearchFramework:
                     "last_precision":  current_metrics["precision"],
                     "last_recall":  current_metrics["recall"],
                     "last_it": i
-                })
+                })'''
 
             metadata.update({"nb_expanded": len(self.nodes_expanded)})
             metadata.update({"end": str(datetime.now())})

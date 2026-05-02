@@ -21,28 +21,29 @@
                          "http://dbpedia.org/ontology/abstract",
                          "http://www.w3.org/2000/01/rdf-schema#comment",
                          "http://www.w3.org/2000/01/rdf-schema#label"],
-    "start": "http://dbpedia.org/resource/World_War_I",
-    "start_date": "1914-07-07",
-    "end_date": "1918-11-12",
-    "start1": "http://dbpedia.org/resource/French_Revolution",
-    "start_date1": "1789-05-05",
-    "end_date1": "1799-12-31",
-    "iterations": 2,
+    "start": "http://dbpedia.org/resource/Albert_Einstein",
+    "start_date": "1879-03-14",
+    "end_date": "1955-04-18",
+
+    "iterations": 20,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
+
     "gold_standard": "./sample-data/French_Revolution_gs_events.csv",
     "referents": "./sample-data/French_Revolution_referents.json",
+
     "type_metrics": ["precision", "recall", "f1"],
     "ordering": {
         "domain_range": 1
     },
     "filtering": {
-        "what": 1,
-        "where": 1,
-        "when": 1,
-        "who": 1
+        "what": 0,
+        "where": 0,
+        "when": 0,
+        "who": 0
     },
-    "name_exp": "french_revolution",
+
+    "name_exp": "einstein_biography",
     "dataset_type": "dbpedia",
     "dataset_path": "dbpedia_dataset",
     "sparql_endpoint": "https://dbpedia.org/sparql"

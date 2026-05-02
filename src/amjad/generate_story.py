@@ -1,8 +1,8 @@
 from openai import OpenAI
-from src.amjad.config import VLLM_URL, MODEL_NAME
+from src.amjad.config import VLLM_URL, MODEL_NAME, EURECOM_URL
 import os
 
-def generate_story(timeline_file, target_words=400):
+def generate_story(timeline_file, main_event, target_words=1000):
 
     # Load timeline text
     with open(timeline_file, "r", encoding="utf-8") as f:
@@ -10,37 +10,33 @@ def generate_story(timeline_file, target_words=400):
 
     # Update the prompt with strict length and conclusion instructions
     prompt = f"""
-        You are given a list of events related to a main historical event.
+        You are writing a concise, complete historical narrative about the {main_event}.
 
-        Using ONLY these events as a base, write a coherent historical narrative.
+        Your primary task is to explicitly incorporate and connect the events provided below, treating them as the backbone of your story.
 
         Requirements:
-        - Write a coherent historical narrative of NO LONGER THAN {target_words} words.
-        - Explain how the main event started (you may add missing key causes if needed)
-        - Organize the events into major phases
-        - Focus on the most important events (do not list everything)
-        - Explain how the event evolved and ended (you may add missing ending events)
-        - Maintain chronological order
+        - Pacing and Length: Target approximately {target_words} words. You MUST pace your writing to ensure the story has a definitive beginning, middle, and ending. Do not let the narrative cut off abruptly. 
+        - Structure: Organize the history into major chronological phases. 
+        - Narrative Flow: Write a cohesive, high-level story that explains how the event started, how it evolved, and how it ultimately ended.
 
-        Rules:
-        - You may add a few well-known events if they are missing (e.g. causes or ending)
-        - Do NOT invent obscure or unknown events
-        - Prefer a clear, high-level story over listing details
+        Rules for Outside Information:
+        - Use the "Provided Events" as your main foundation.
+        - You may briefly add well-known historical context (e.g., root causes or the final aftermath) ONLY if necessary to bridge gaps between the provided events or to ensure a proper ending. 
 
-        Events:
+        Provided Events:
         {context}
-        """
+    """
 
     client = OpenAI(
-        base_url=VLLM_URL,
-        api_key="EMPTY"
+        base_url=EURECOM_URL,
+        api_key="sk-LX6J9reWpzrRfJhyV2moTg"
     )
 
     # Calculate a safe token limit (roughly 2 tokens per word to be safe)
     safe_max_tokens = int(target_words * 2)
 
     response = client.chat.completions.create(
-        model=MODEL_NAME,
+        model="Qwen/Qwen3-30B-A3B-Thinking-2507",
         messages=[
             {"role": "user", "content": prompt}
         ],
@@ -63,7 +59,7 @@ def generate_story(timeline_file, target_words=400):
     # noteamjad: title missing
 
 if __name__ == "__main__":
-    timeline_file_path = "/home/kallas/project/graph_search_framework/experiments/2026-03-21-20_52_56-informed_dbpedia_french_revolution_1_pred_object_freq_domain_range_what_where_when_who_wikilink_without_category_uri_iter__max_inf/event_timeline.txt"
+    timeline_file_path = "/home/kallas/project/graph_search_framework/experiments/2026-04-30-13_56_47-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/event_timeline.txt"
 
-
-    story, _ = generate_story(timeline_file_path)
+    main_event = "World War I"
+    story, _ = generate_story(timeline_file_path, main_event)

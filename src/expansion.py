@@ -51,6 +51,9 @@ class NodeExpansion:
 
         self.filtering = Filtering(args=args_filtering)
         self.superclasses = defaultdict(list)
+        
+        # accumulator of importans nodes throughout the iterations
+        self.global_important_nodes = set()
 
         self.dataset_type = interface.dataset_config["config_type"]
         info_folder = os.path.join(FOLDER_PATH, "domain-range-pred")
@@ -86,9 +89,11 @@ class NodeExpansion:
         return self._filter_sub_graph(type_date_df, triple_ingoing, triple_outgoing, dates)
 
     def _filter_sub_graph(self, type_date_df: DataFrame, triple_ingoing: DataFrame,
-                          triple_outgoing: DataFrame, dates: list[str, str]) \
+                          triple_outgoing: DataFrame, dates: list[str, str], save_folder) \
                             -> (DataFrame, DataFrame, DataFrame, DataFrame, list[str]):
         """ Filtering subgraph: nodes to be removed, nodes to be kept, other """
+
+        # print(type_date_df.predicate.unique())
 
         # Edge case: type_date_df is empty
         # --> we assume that the ingoing/outgoing nodes are not relevant for the search
@@ -107,45 +112,78 @@ class NodeExpansion:
                         list(self.mapping.keys())
             else:
                 filtered = []
+
+
+            important_predicates = [
+                "http://www.wikidata.org/prop/direct/P793",  # significant event
+                "http://www.wikidata.org/prop/direct/P828",  # has cause
+                "http://www.wikidata.org/prop/direct/P1478", # has immediate cause
+                "http://www.wikidata.org/prop/direct/P1542", # has effect
+            ]
+
+            important_nodes = set()
+
+            important_nodes.update(
+                triple_ingoing[
+                    triple_ingoing.predicate.isin(important_predicates)
+                ].subject.unique()
+            )
+
+            # outgoing: node → something
+            important_nodes.update(
+                triple_outgoing[
+                    triple_outgoing.predicate.isin(important_predicates)
+                ].object.unique()
+            )
+
+            #print(important_nodes)
+
             # Filter on types of nodes that should be retrieved
-            to_keep = list(type_date_df[(~type_date_df.subject.isin(to_discard)) & \
-                (type_date_df.object.isin(filtered))].subject.unique())
+            # print(filtered)
+            event_predicates = [
+                "http://www.wikidata.org/prop/direct/P585",
+                "http://www.wikidata.org/prop/direct/P580",
+                "http://www.wikidata.org/prop/direct/P582",
+            ]
 
-        # Apply filtering first
-        subgraph_ingoing = triple_ingoing[triple_ingoing.subject.isin(to_keep)]
-        subgraph_ingoing = subgraph_ingoing.drop_duplicates("subject")
-        path_ingoing = triple_ingoing[~triple_ingoing.subject.isin(to_discard)]
+            event_nodes = set(
+                type_date_df[
+                    type_date_df.predicate.isin(event_predicates)
+                ].subject.unique()
+            )
 
-        subgraph_outgoing = triple_outgoing[triple_outgoing.object.isin(to_keep)]
-        subgraph_outgoing = subgraph_outgoing.drop_duplicates("subject")
-        path_outgoing = triple_outgoing[~triple_outgoing.object.isin(to_discard)]
+            valid_important = important_nodes & event_nodes
 
-        # PRUNING AFTER FILTERING
-        """
-        noteAmjad: for now I still prune randomly, I guess we need to find another way.
-        - pruning based on ranks (kind of already there, because we have ranking in the pipeline, but check how to apply it here)
-        - I'm also thinking of LLM based relevance filtering to guide graph expansion, so we completely run the first step without this pruning, then we feed only the events to the LLM (even if hundreds it is okay because we feed ONLY events), then the LLM tries to get the most important ones related to the story, then we enrich that. (Maybe also this better be done during this stage so that we avoid expansions on events that are not relevant, but for now I'm still using iteration=1 only so it doesn't apply unless we have more iterations)
-        """
-        MAX_NODES = 50
 
-        if subgraph_ingoing.shape[0] > MAX_NODES:
-            subgraph_ingoing = subgraph_ingoing.sample(n=MAX_NODES, random_state=42)
+            self.global_important_nodes.update(valid_important)
 
-        if subgraph_outgoing.shape[0] > MAX_NODES:
-            subgraph_outgoing = subgraph_outgoing.sample(n=MAX_NODES, random_state=42)
+            with open(f"{save_folder}/important_nodes.json", "w") as f:
+                json.dump(list(self.global_important_nodes), f)
+                
 
-        return subgraph_ingoing, path_ingoing, subgraph_outgoing, path_outgoing, to_discard
+            to_keep = list(
+                (event_nodes | valid_important) - set(to_discard)
+            )
+           
 
-    def __call__(self, args: dict, dates: list[str, str]) \
+        return triple_ingoing[triple_ingoing.subject.isin(to_keep)], \
+            triple_ingoing[~triple_ingoing.subject.isin(to_discard)], \
+            triple_outgoing[triple_outgoing.object.isin(to_keep)], \
+            triple_outgoing[~triple_outgoing.object.isin(to_discard)], \
+            to_discard
+
+    def __call__(self, args: dict, dates: list[str, str], save_folder) \
         -> (DataFrame, DataFrame, DataFrame, DataFrame, list[str]):
 
         # Querying knowledge base
         ingoing, outgoing, types_date = self._get_output_triples(
             node=args["node"], predicate=args["predicate"])
 
+        #print(types_date.head(20))
+
         # Filter subgraph to keep
         return self._filter_sub_graph(type_date_df=types_date, triple_ingoing=ingoing,
-                                      triple_outgoing=outgoing, dates=dates)
+                                      triple_outgoing=outgoing, dates=dates, save_folder=save_folder)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,40 @@
+{
+    "rdf_type": {
+        "event": "http://www.wikidata.org/entity/Q1190554"
+    },
+    "predicate_filter": [
+		"http://www.wikidata.org/prop/direct/P910",
+        "http://www.wikidata.org/prop/direct/P921",
+        "http://www.wikidata.org/prop/direct/P607",
+        "http://www.wikidata.org/prop/direct/P547",
+		"http://www.wikidata.org/prop/direct/P1343",
+		"http://www.wikidata.org/prop/direct/P5008",
+		"http://www.wikidata.org/prop/direct/P2184",
+		"http://www.wikidata.org/prop/direct/P1269",
+		"http://www.wikidata.org/prop/direct/P527"
+	],
+
+    "start": "http://www.wikidata.org/entity/Q361",
+    "start_date": "1914-01-01",
+    "end_date": "1918-12-31",
+
+    "start1": "http://www.wikidata.org/entity/Q6534",
+    "start_date1": "1789-01-14",
+    "end_date1": "1799-12-09",
+    "iterations": 10,
+    "type_ranking": "pred_object_freq",
+    "type_interface": "hdt",
+    "ordering": {
+        "domain_range": 1
+    },
+    "filtering": {
+        "where": 1,
+        "when": 1
+    },
+    "name_exp": "french_revolution",
+    "dataset_type": "wikidata",
+    "dataset_path": "wikidata_dataset",
+    "sparql_endpoint": "https://query.wikidata.org/sparql",
+    "nested_dataset": 0
+
+}

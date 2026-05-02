@@ -1,6 +1,7 @@
 import pandas as pd
 import networkx as nx
 import os
+import json
 
 class StoryCentralityPruner:
     def __init__(self, damping_factor=0.85):
@@ -115,6 +116,8 @@ class StoryCentralityPruner:
         top_k_nodes = set(nodes_df.head(k)['node_uri'].tolist())
 
         above_threshold = set(nodes_df.head(max(k*3, 50))['node_uri'])
+        print("\n--- TOP 30 PAGERANK SCORES ---")
+        print(nodes_df.head(30))
 
         combined = top_k_nodes | above_threshold
         combined.add(seed_topic)
@@ -142,28 +145,47 @@ class StoryCentralityPruner:
         return pruned, list(final_nodes)
 
 
+    def get_important_edges(self, df, subgraph_path):
+        """
+        Extracts edges involving important nodes so they can be injected 
+        back into the graph after pruning is complete.
+        """
+        base_dir = os.path.dirname(subgraph_path)
+        important_nodes_path = os.path.join(base_dir, "important_nodes.json")
+
+
+        if not os.path.exists(important_nodes_path):
+            print("No important_nodes.json file found. Skipping important nodes retention.")
+            return pd.DataFrame() # Return empty dataframe
+
+        with open(important_nodes_path, "r") as f:
+            important_nodes = set(json.load(f))
+
+        # Grab all edges where the subject or object is an important node
+        important_edges_df = df[
+            df['subject'].isin(important_nodes) | df['object'].isin(important_nodes)
+        ].copy()
+
+        print(f"Secured {len(important_edges_df)} edges involving important nodes for final injection.")
+        return important_edges_df
+
+
     def run_pruning(self, subgraph_path, seed_topic, k=20):
         step1_df = pd.read_csv(subgraph_path)
 
-        #step1_df = self.keep_high_level_nodes(step1_df, seed_topic)
-
+        # Retain important edges
+        important_edges_df = self.get_important_edges(step1_df, subgraph_path)
 
         nodes_df = self.get_pagerank_scores(step1_df, seed_topic)
-
-        '''print(nodes_df.head(20))
-
-        print("a", nodes_df['pagerank_score'].describe())
-        print("b", nodes_df['pagerank_score'].nunique())
-
-        print("\n--- PPR SCORE DISTRIBUTION ---")
-        print(nodes_df['pagerank_score'].describe())'''
-
 
         pruned_subgraph, top_k_nodes = self.topk_with_neighbors(
             step1_df, nodes_df, k=k, seed_topic=seed_topic
         )
 
         pruned_subgraph = self.keep_seed_component(pruned_subgraph, seed_topic=seed_topic)  # fixed
+
+        if not important_edges_df.empty:
+            pruned_subgraph = pd.concat([pruned_subgraph, important_edges_df]).drop_duplicates()
 
         print("\n--- COUNTS ---")
         print(f"Original edges:          {len(step1_df)}")
@@ -185,9 +207,9 @@ if __name__ == "__main__":
 
     #subgraph_path = "/home/kallas/project/graph_search_framework/french_revolution_triples.csv"
 
-    subgraph_path = "/home/kallas/project/graph_search_framework/sample-data/French_Revolution_subgraph.csv"
+    subgraph_path = "/home/kallas/project/graph_search_framework/experiments/2026-04-28-10_21_51-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/2-subgraph.csv"
 
-    seed_topic = "http://dbpedia.org/resource/French_Revolution"
+    seed_topic = "http://www.wikidata.org/entity/Q36w1"
 
     pruner = StoryCentralityPruner()
 

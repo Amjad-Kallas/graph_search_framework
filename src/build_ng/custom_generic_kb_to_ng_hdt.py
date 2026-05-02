@@ -67,9 +67,7 @@ def encode(uri):
     return URIRef(uri)
 
 def map_predicate(pred):
-    if "isPartOfMilitaryConflict" in pred:
-        return SEM.subEventOf
-    return None
+    return URIRef(pred)
 
 def build_ng(input_file, output_file, hdt_interface):
     df = pd.read_csv(input_file)
@@ -107,7 +105,7 @@ def build_ng(input_file, output_file, hdt_interface):
         # ---- HDT ENRICHMENT ----
         actors, places, dates = hdt_interface.get_event_info(uri)
 
-        for a in actors:
+        '''for a in actors:
             g.add((node, SEM.hasActor, encode(a)))
 
         for p in places:
@@ -124,14 +122,14 @@ def build_ng(input_file, output_file, hdt_interface):
         # (Make sure to uncomment your Wikipedia logic if you want the descriptions)
         desc = get_wikipedia_intro(uri, max_words=200)
         if desc:
-            g.add((node, RDFS.comment, Literal(desc)))
+            g.add((node, RDFS.comment, Literal(desc)))'''
 
     g.serialize(output_file, format="ttl")
     print("====\nNarrative graph built successfully!")
 
 if __name__ == "__main__":
-    input_subgraph = "/home/kallas/project/graph_search_framework/french_revolution_triples.csv"
-    output_ng = "/home/kallas/project/graph_search_framework/sample-data/prune.ttl"
+    input_subgraph = "/home/kallas/project/graph_search_framework/kg-example/output_search.csv"
+    output_ng = "/home/kallas/project/graph_search_framework/kg-example/titi.ttl"
 
     interface = HDTInterface()
 

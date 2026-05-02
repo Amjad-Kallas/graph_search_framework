@@ -6,10 +6,16 @@ from src.framework import GraphSearchFramework
 
 from src.build_ng.custom_generic_kb_to_ng_hdt import build_ng as build_ng_hdt
 from src.build_ng.custom_generic_kb_to_ng import build_ng as build_ng_sparql
+from src.build_ng.custom_generic_kb_to_ng_wikidata import build_ng_wikidata_hdt
+from src.build_ng.custom_generic_kb_to_ng_wikidata_online import build_ng_wikidata_online
 from src.amjad.parse_rdf import parse_rdf
 from src.amjad.generate_story import generate_story
 from src.amjad.evaluate_story import evaluate_story
 from src.amjad.pruning import StoryCentralityPruner
+from src.build_ng.post_filtering import apply_post_filtering
+from src.hdt_interface import HDTInterface
+
+from src.wikidata_subgraph_to_readable import fetch_all_labels, get_single_label
 
 def run_framework(args_main, config_loaded):
     
@@ -80,9 +86,14 @@ def run_pipeline():
 
 
     temp_ground_truh = "/home/kallas/project/graph_search_framework/src/amjad/paper.txt"
-    
+
+    interface = HDTInterface()
+
     print("\n1. Running ChronoGrapher...")
     target_folder, subgraph_file = run_framework(args_main, config_loaded)
+
+    fetch_all_labels(subgraph_file , subgraph_file[:-4]+"_readable.csv")
+
 
 
     # Pruning
@@ -90,33 +101,35 @@ def run_pipeline():
     pruner = StoryCentralityPruner()
     pruned_subgraph_file = pruner.run_pruning(subgraph_file, seed_topic=seed_topic)
 
+    fetch_all_labels(pruned_subgraph_file , pruned_subgraph_file[:-4]+"_readable.csv")
 
 
     output_ng = target_folder + f"/output_ng.ttl"
     timeline_file = target_folder + f"/event_timeline.txt"
         
 
-    
+     
     print("\n2. Building narrative graph...")
-    if use_hdt:
-        from src.hdt_interface import HDTInterface
+    #build_ng_wikidata_online(pruned_subgraph_file, output_ng)
+    build_ng_wikidata_online(subgraph_file, output_ng)
+    #build_ng_wikidata_online(subgraph_file, f"original_{output_ng}")
 
-        interface = HDTInterface()
-        build_ng_hdt(pruned_subgraph_file, output_ng, interface)
 
-    else: # use SPARQL
-        build_ng_sparql(pruned_subgraph_file, output_ng)
-
+    # Apply post filtering
+    apply_post_filtering(output_ng, config_loaded)
 
     print("\n3. Parsing RDF...")
 
 
     parse_rdf(output_ng, timeline_file)
+    
+    main_event = get_single_label(config_loaded["start"])
+    exit()
 
     print("\n4. Generating story...")
-    story, story_file = generate_story(timeline_file)
+    story, story_file = generate_story(timeline_file, main_event)
 
-    exit()
+
     # compute story score if needed
     if compute_score:
         print("\n5. Computing story score...")

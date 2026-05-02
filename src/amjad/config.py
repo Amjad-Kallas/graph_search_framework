@@ -3,3 +3,5 @@ WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
 MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
 
 VLLM_URL = "http://localhost:8001/v1"
+
+EURECOM_URL = "https://litellm.tools.eurecom.fr/v1"
