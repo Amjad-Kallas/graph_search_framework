@@ -14,14 +14,10 @@
 		"http://www.wikidata.org/prop/direct/P527"
 	],
 
-    "start": "http://www.wikidata.org/entity/Q361",
-    "start_date": "1914-01-01",
-    "end_date": "1918-12-31",
-
-    "start1": "http://www.wikidata.org/entity/Q6534",
-    "start_date1": "1789-01-14",
-    "end_date1": "1799-12-09",
-    "iterations": 10,
+    "start": "http://www.wikidata.org/entity/Q6534",
+    "start_date": "1789-01-14",
+    "end_date": "1799-12-09",
+    "iterations": 2,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
