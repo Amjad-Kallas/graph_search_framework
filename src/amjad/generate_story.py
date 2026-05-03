@@ -1,39 +1,42 @@
 from openai import OpenAI
-from src.amjad.config import VLLM_URL, MODEL_NAME, EURECOM_URL
+from src.amjad.config import VLLM_URL, MODEL_NAME, EURECOM_URL, MY_API
 import os
 
-def generate_story(timeline_file, main_event, target_words=1000):
+def generate_story(timeline_file, main_event, target_words=700):
 
     # Load timeline text
     with open(timeline_file, "r", encoding="utf-8") as f:
         context = f.read()
 
-    # Update the prompt with strict length and conclusion instructions
-    prompt = f"""
-        You are writing a concise, complete historical narrative about the {main_event}.
+    prompt = f"""You are a historian writing an informative account of {main_event} for a general audience.
 
-        Your primary task is to explicitly incorporate and connect the events provided below, treating them as the backbone of your story.
+Writing style:
+- The primary goal is to be clear, accurate, and informative.
+- Write in continuous paragraphs — no headers, bullet points, bold text, or markdown formatting.
+- Keep a neutral, educational tone. A light narrative quality is welcome (smooth transitions, causal explanations), but avoid dramatic flourishes, literary scenes, or emotional language.
+- Explain why events happened, not just what happened.
 
-        Requirements:
-        - Pacing and Length: Target approximately {target_words} words. You MUST pace your writing to ensure the story has a definitive beginning, middle, and ending. Do not let the narrative cut off abruptly. 
-        - Structure: Organize the history into major chronological phases. 
-        - Narrative Flow: Write a cohesive, high-level story that explains how the event started, how it evolved, and how it ultimately ended.
+Structure:
+- Begin with a brief introduction of the context and causes.
+- Follow a chronological arc: origins → key developments → outcome and aftermath.
+- Close with a short summary of the event's significance.
 
-        Rules for Outside Information:
-        - Use the "Provided Events" as your main foundation.
-        - You may briefly add well-known historical context (e.g., root causes or the final aftermath) ONLY if necessary to bridge gaps between the provided events or to ensure a proper ending. 
+Use of provided events:
+- The events below are your chronological guide. Follow their general sequence.
+- You do not need to mention every event — use the most important ones to anchor the account.
+- Add essential historical context where needed to keep the account coherent.
 
-        Provided Events:
-        {context}
-    """
+Length: Write approximately {target_words} words. The account must be complete — do not end mid-sentence.
+
+Events (chronological guide):
+{context}"""
 
     client = OpenAI(
         base_url=EURECOM_URL,
-        api_key="sk-LX6J9reWpzrRfJhyV2moTg"
+        api_key=MY_API
     )
 
-    # Calculate a safe token limit (roughly 2 tokens per word to be safe)
-    safe_max_tokens = int(target_words * 2)
+    safe_max_tokens = int(target_words * 4)
 
     response = client.chat.completions.create(
         model="Qwen/Qwen3-30B-A3B-Thinking-2507",
@@ -41,7 +44,7 @@ def generate_story(timeline_file, main_event, target_words=1000):
             {"role": "user", "content": prompt}
         ],
         temperature=0.3,
-        max_tokens=safe_max_tokens 
+        max_tokens=safe_max_tokens
     )
 
     story = response.choices[0].message.content
@@ -56,10 +59,82 @@ def generate_story(timeline_file, main_event, target_words=1000):
 
     return story, story_file
 
-    # noteamjad: title missing
+
+def generate_story_baseline(output_folder, main_event, target_words=700):
+
+    prompt = f"""You are a historian writing an informative account of {main_event} for a general audience.
+
+Writing style:
+- The primary goal is to be clear, accurate, and informative.
+- Write in continuous paragraphs — no headers, bullet points, bold text, or markdown formatting.
+- Keep a neutral, educational tone. A light narrative quality is welcome (smooth transitions, causal explanations), but avoid dramatic flourishes, literary scenes, or emotional language.
+- Explain why events happened, not just what happened.
+
+Structure:
+- Begin with a brief introduction of the context and causes.
+- Follow a chronological arc: origins → key developments → outcome and aftermath.
+- Close with a short summary of the event's significance.
+
+Length: Write approximately {target_words} words. The account must be complete — do not end mid-sentence."""
+
+    client = OpenAI(
+        base_url=EURECOM_URL,
+        api_key=MY_API
+    )
+
+    safe_max_tokens = int(target_words * 4)
+
+    response = client.chat.completions.create(
+        model="Qwen/Qwen3-30B-A3B-Thinking-2507",
+        messages=[
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.3,
+        max_tokens=safe_max_tokens
+    )
+
+    story = response.choices[0].message.content
+
+    story_file = f"{output_folder}/generated_story_baseline.txt"
+
+    with open(story_file, "w") as file:
+        file.write(story)
+
+    print(f"====\nBaseline story generated successfully and saved to {story_file}")
+
+    return story, story_file
+
 
 if __name__ == "__main__":
-    timeline_file_path = "/home/kallas/project/graph_search_framework/experiments/2026-04-30-13_56_47-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/event_timeline.txt"
+    from src.amjad.evaluate_story import evaluate_story
 
-    main_event = "World War I"
-    story, _ = generate_story(timeline_file_path, main_event)
+    BASE = "/home/kallas/project/graph_search_framework/experiments"
+
+    events = [
+        ("world_war_2",      "World War II"),
+        ("cold_war",         "Cold War"),
+        ("crusades",         "Crusades"),
+        ("french_revolution","French Revolution"),
+        ("vietnam_war",      "Vietnam War"),
+    ]
+
+    for folder_name, main_event in events:
+        folder        = f"{BASE}/{folder_name}"
+        timeline_file = f"{folder}/event_timeline.txt"
+        wiki_file     = f"{folder}/wikipedia_intro_{main_event.replace(' ', '_')}.txt"
+
+        print(f"\n{'='*60}")
+        print(f"Event: {main_event}")
+        print(f"{'='*60}")
+
+        print("-- Generating event-driven story...")
+        _, story_file = generate_story(timeline_file, main_event)
+
+        print("-- Generating baseline story...")
+        _, baseline_file = generate_story_baseline(folder, main_event)
+
+        print("-- Scoring event-driven story...")
+        evaluate_story(story_file, wiki_file, output_path=f"{folder}/score_event_driven.json")
+
+        print("-- Scoring baseline story...")
+        evaluate_story(baseline_file, wiki_file, output_path=f"{folder}/score_baseline.json")

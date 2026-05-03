@@ -9,7 +9,7 @@ from src.build_ng.custom_generic_kb_to_ng import build_ng as build_ng_sparql
 from src.build_ng.custom_generic_kb_to_ng_wikidata import build_ng_wikidata_hdt
 from src.build_ng.custom_generic_kb_to_ng_wikidata_online import build_ng_wikidata_online
 from src.amjad.parse_rdf import parse_rdf
-from src.amjad.generate_story import generate_story
+from src.amjad.generate_story import generate_story, generate_story_baseline
 from src.amjad.evaluate_story import evaluate_story
 from src.amjad.pruning import StoryCentralityPruner
 from src.build_ng.post_filtering import apply_post_filtering
@@ -17,34 +17,33 @@ from src.hdt_interface import HDTInterface
 
 from src.wikidata_subgraph_to_readable import fetch_all_labels, get_single_label
 
+from src.amjad.llm_pruning import rerank_events_combined
+
 def run_framework(args_main, config_loaded):
-    
+
     num_iterations = config_loaded.get("iterations")
-        
+
     if "rdf_type" in config_loaded:
         config_loaded["rdf_type"] = list(config_loaded["rdf_type"].items())
 
     framework = GraphSearchFramework(
-        config=config_loaded, 
+        config=config_loaded,
         mode=args_main["mode"],
         node_selection=args_main["node_selection"],
         walk=args_main["walk"]
     )
 
     print("Executing Graph Search Framework via new pipeline script...")
-    
+
     target_folder = framework(end_node=args_main["end_node"])
-    
+
     print(f"Framework finished successfully!\n")
     print(f"Data is saved in: {target_folder}")
-    
+
 
     target_file = os.path.join(target_folder, f"{num_iterations}-subgraph.csv")
 
     return target_folder, target_file
-
-
-
 
 
 def run_pipeline():
@@ -61,7 +60,7 @@ def run_pipeline():
     ap.add_argument("-w", "--walk", default="informed",
                     help="type of walk in the graph: `random` or `informed`")
     ap.add_argument("--compute_score", action="store_true",
-                    help="Evaluate story if flag is present")    
+                    help="Evaluate story if flag is present")
     ap.add_argument("-i", "--interface", choices=["hdt", "sparql_endpoint"], default=None,
                     help="Override type_interface from config (choices: hdt, sparql_endpoint)")
 
@@ -70,13 +69,13 @@ def run_pipeline():
 
     with open(args_main["json"], "r", encoding="utf-8") as openfile_main:
         config_loaded = json.load(openfile_main)
-    
+
     config_interface = config_loaded.get("type_interface", "sparql_endpoint").lower()
-    
+
     final_interface = args_main["interface"] if args_main["interface"] else config_interface
-    
+
     use_hdt = (final_interface == "hdt")
-    
+
     print(f"Configuration loaded. Interface set to: {final_interface.upper()}")
 
     """
@@ -84,8 +83,6 @@ def run_pipeline():
     the value in the configuration file
     """
 
-
-    temp_ground_truh = "/home/kallas/project/graph_search_framework/src/amjad/paper.txt"
 
     interface = HDTInterface()
 
@@ -96,45 +93,48 @@ def run_pipeline():
 
 
 
-    # Pruning
+    '''# Pruning
     seed_topic = config_loaded["start"]
     pruner = StoryCentralityPruner()
     pruned_subgraph_file = pruner.run_pruning(subgraph_file, seed_topic=seed_topic)
 
-    fetch_all_labels(pruned_subgraph_file , pruned_subgraph_file[:-4]+"_readable.csv")
+    fetch_all_labels(pruned_subgraph_file , pruned_subgraph_file[:-4]+"_readable.csv")'''
 
 
     output_ng = target_folder + f"/output_ng.ttl"
     timeline_file = target_folder + f"/event_timeline.txt"
-        
 
-     
+
     print("\n2. Building narrative graph...")
     #build_ng_wikidata_online(pruned_subgraph_file, output_ng)
     build_ng_wikidata_online(subgraph_file, output_ng)
     #build_ng_wikidata_online(subgraph_file, f"original_{output_ng}")
 
 
-    # Apply post filtering
-    apply_post_filtering(output_ng, config_loaded)
+    main_event = get_single_label(config_loaded["start"])
+
+    # Apply post filtering: remove events of "Q...", and the ones very outside the range, and without comment
+    apply_post_filtering(output_ng, config_loaded, main_event)
+
+    print("\n3. Wikipedia + LLM Filtering")
+
+    rerank_events_combined(output_ng, main_event, target_k=35)
 
     print("\n3. Parsing RDF...")
 
-
     parse_rdf(output_ng, timeline_file)
-    
-    main_event = get_single_label(config_loaded["start"])
-    exit()
 
-    print("\n4. Generating story...")
-    story, story_file = generate_story(timeline_file, main_event)
-
+    print("\n4. Generating stories...")
+    _, story_file    = generate_story(timeline_file, main_event)
+    _, baseline_file = generate_story_baseline(target_folder, main_event)
 
     # compute story score if needed
     if compute_score:
-        print("\n5. Computing story score...")
-        evaluate_story(story_file, temp_ground_truh)
-    
+        print("\n5. Computing story scores...")
+        wiki_intro_file = os.path.join(target_folder, f"wikipedia_intro_{main_event.replace(' ', '_')}.txt")
+        evaluate_story(story_file,    wiki_intro_file, output_path=os.path.join(target_folder, "score_event_driven.json"))
+        evaluate_story(baseline_file, wiki_intro_file, output_path=os.path.join(target_folder, "score_baseline.json"))
+
 
 if __name__ == "__main__":
     run_pipeline()

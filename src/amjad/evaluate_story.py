@@ -37,6 +37,14 @@ def evaluate_story(generated_story, reference_story, output_path=None):
 
 
 if __name__ == "__main__":
-    story_file = "/home/kallas/project/graph_search_framework/src/amjad/generated_story.txt"
-    reference_file = "/home/kallas/project/graph_search_framework/src/amjad/reference_story.txt"
-    evaluate_story(story_file, reference_file)
+    main_dir = "/home/kallas/project/graph_search_framework/experiments/world_war_1"
+
+    reference_file             = f"{main_dir}/wikipedia_intro_World_War_I.txt"
+    baseline_story             = f"{main_dir}/generated_story_baseline.txt"
+    event_driven_story         = f"{main_dir}/generated_story.txt"
+
+    print("=== Evaluating baseline story vs reference ===")
+    evaluate_story(baseline_story, reference_file, output_path=f"{main_dir}/score_baseline.json")
+
+    print("\n=== Evaluating event-driven story vs reference ===")
+    evaluate_story(event_driven_story, reference_file, output_path=f"{main_dir}/score_event_driven.json")

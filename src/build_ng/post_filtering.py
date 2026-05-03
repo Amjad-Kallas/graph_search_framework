@@ -1,10 +1,11 @@
-import pandas as pd
 from rdflib import Graph, URIRef
-from rdflib.namespace import RDF
 from datetime import datetime, timedelta
 import json
+import logging
 import os
 import re
+
+logging.getLogger("rdflib").setLevel(logging.ERROR)
 
 SEM = "http://semanticweb.cs.vu.nl/2009/11/sem/"
 
@@ -33,7 +34,7 @@ def load_important_event_names(input_ttl):
 # Main filtering
 # --------------------------
 
-def apply_post_filtering(input_ttl, config_loaded, max_events=200):
+def apply_post_filtering(input_ttl, config_loaded, main_event=None, max_events=200):
     g = Graph()
     g.parse(input_ttl, format="ttl")
 
@@ -44,38 +45,40 @@ def apply_post_filtering(input_ttl, config_loaded, max_events=200):
     max_date = end_date + timedelta(days=365)
 
     important_names = load_important_event_names(input_ttl)
+    main_event_normalized = normalize_name(main_event).lower() if main_event else None
 
-    all_events = list(g.subjects(RDF.type, URIRef(SEM + "Event")))
+    all_subjects = list({s for s, _, _ in g})
 
-    kept_events = []
-    removed_events = []
+    kept = []
+    removed = []
 
     # --------------------------
     # First pass: filtering
     # --------------------------
-    for s in all_events:
+    for s in all_subjects:
         name = str(s).split("/")[-1]
+
+        # 0. Remove the main seed event
+        if main_event_normalized and name.lower() == main_event_normalized:
+            removed.append(s)
+            continue
 
         # 1. Remove unresolved Q nodes
         if is_bad_node(s):
-            removed_events.append(s)
+            removed.append(s)
             continue
 
-        # 2. Check if has comment
-        has_comment = False
-        for _, _, comment in g.triples((s, URIRef("http://www.w3.org/2000/01/rdf-schema#comment"), None)):
-            has_comment = True
-            break
-
+        # 2. Must have a comment
+        has_comment = any(True for _ in g.triples((s, URIRef("http://www.w3.org/2000/01/rdf-schema#comment"), None)))
         if not has_comment:
-            removed_events.append(s)
+            removed.append(s)
             continue
 
         # 3. Check date
         valid_date = False
         for _, _, date_literal in g.triples((s, URIRef(SEM + "hasTimeStamp"), None)):
             try:
-                d = datetime.strptime(str(date_literal), "%Y-%m-%d")
+                d = datetime.strptime(str(date_literal).split("^^")[0], "%Y-%m-%d")
                 if min_date <= d <= max_date:
                     valid_date = True
                 break
@@ -84,21 +87,20 @@ def apply_post_filtering(input_ttl, config_loaded, max_events=200):
 
         # 4. Keep logic
         if name in important_names:
-            kept_events.append(s)
+            kept.append(s)
         elif valid_date:
-            kept_events.append(s)
+            kept.append(s)
         else:
-            removed_events.append(s)
+            removed.append(s)
 
-    # Apply removal
-    for e in removed_events:
+    for e in removed:
         g.remove((e, None, None))
         g.remove((None, None, e))
 
     # --------------------------
     # Second pass: limit size
     # --------------------------
-    remaining = list(g.subjects(RDF.type, URIRef(SEM + "Event")))
+    remaining = list({s for s, _, _ in g})
 
     important = []
     normal = []
@@ -125,7 +127,7 @@ def apply_post_filtering(input_ttl, config_loaded, max_events=200):
 
 
 if __name__ == "__main__":
-    input_ttl = "/home/kallas/project/graph_search_framework/experiments/2026-04-28-11_03_05-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/output_ng.ttl"
+    input_ttl = "/home/kallas/project/graph_search_framework/experiments/2026-05-03-15_35_02-informed_wikidata_french_revolution_10_pred_object_freq_domain_range___when__without_category_uri_iter__max_inf/output_ng.ttl"
 
     config = {
     "start": "http://www.wikidata.org/entity/Q361",
@@ -134,4 +136,8 @@ if __name__ == "__main__":
 
     }
 
-    apply_post_filtering(input_ttl, config, max_events=1)
+    from src.wikidata_subgraph_to_readable import get_single_label
+
+    main_event = get_single_label(config["start"])
+
+    apply_post_filtering(input_ttl, config, main_event=main_event, max_events=200)

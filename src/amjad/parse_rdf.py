@@ -15,7 +15,7 @@ def normalize_name(name):
     return re.sub(r'[^a-zA-Z0-9]+', '_', name).strip('_')
 
 
-def truncate_description(desc, word_limit=50):
+def truncate_description(desc, word_limit=30):
     """
     Truncate description at next period after word_limit words.
     If total words <= word_limit, return entire description.
@@ -37,15 +37,18 @@ def truncate_description(desc, word_limit=50):
     return " ".join(words[:word_limit]) + "."
 
 
-def load_important_event_names(input_ttl):
-    path = os.path.join(os.path.dirname(input_ttl), "important_nodes.json")
+def load_selected_event_names(input_ttl):
+    path = os.path.join(os.path.dirname(input_ttl), "selected_events_combined.txt")
     if not os.path.exists(path):
-        return set()
+        return None  # None = no filter, use all events
 
+    names = set()
     with open(path, "r") as f:
-        data = json.load(f)
-
-    return set(normalize_name(item["name"]) for item in data)
+        for line in f:
+            name = line.strip()
+            if name:
+                names.add(normalize_name(name))
+    return names
 
 
 # --------------------------
@@ -91,14 +94,20 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
     g = Graph()
     g.parse(input_ttl, format="ttl")
 
-    events = defaultdict(lambda: {
-        "date": None,
-        "places": set(),
-        "actors": set(),
-        "desc": None
-    })
+    # Collect all event URIs from the TTL first
+    event_uris = set()
+    for s, p, o in g:
+        if "type" in str(p) and "Event" in str(o):
+            event_uris.add(s)
+    if not event_uris:
+        event_uris = {s for s, _, _ in g}
+
+    events = {uri: {"date": None, "places": set(), "actors": set(), "desc": None}
+              for uri in event_uris}
 
     for s, p, o in g:
+        if s not in events:
+            continue
         p = str(p)
 
         if "hasTimeStamp" in p:
@@ -114,6 +123,20 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
 
         elif "comment" in p:
             events[s]["desc"] = str(o)
+
+    # --------------------------
+    # Filter to selected events
+    # --------------------------
+
+    selected_names = load_selected_event_names(input_ttl)
+
+    if selected_names is not None:
+        events = {uri: info for uri, info in events.items()
+                  if normalize_name(unquote(str(uri).split("/")[-1]).replace("_", " ")) in selected_names}
+
+    # --------------------------
+    # Build timeline
+    # --------------------------
 
     timeline = []
 
@@ -137,56 +160,9 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
 
         timeline.append((date, line))
 
-    # --------------------------
-    # Sort timeline
-    # --------------------------
-
     timeline.sort(key=lambda x: x[0] if x[0] != "Unknown" else "9999-12-31")
 
-    # --------------------------
-    # Load important events
-    # --------------------------
-
-    important_names = load_important_event_names(input_ttl)
-
-    important_events = []
-    normal_events = []
-
-    for date, line in timeline:
-        try:
-            name_part = line.split("—")[1].strip()
-        except IndexError:
-            name_part = ""
-
-        norm_name = normalize_name(name_part)
-
-        if norm_name in important_names:
-            important_events.append((date, line))
-        else:
-            normal_events.append((date, line))
-
-    # --------------------------
-    # Selection logic
-    # --------------------------
-
-    selected = important_events.copy()
-    remaining_slots = max_events - len(selected)
-
-    if remaining_slots > 0:
-        if len(normal_events) <= remaining_slots:
-            selected += normal_events
-        else:
-            if remaining_slots == 1:
-                selected.append(normal_events[len(normal_events) // 2])
-            else:
-                step = (len(normal_events) - 1) / (remaining_slots - 1)
-                indices = [round(i * step) for i in range(remaining_slots)]
-                selected += [normal_events[i] for i in indices]
-
-    # Final sort (keep chronological order)
-    selected.sort(key=lambda x: x[0] if x[0] != "Unknown" else "9999-12-31")
-
-    timeline_lines = [line for _, line in selected]
+    timeline_lines = [line for _, line in timeline]
 
     # --------------------------
     # Save timeline
@@ -207,6 +183,6 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
 
 
 if __name__ == "__main__":
-    #input_ttl_path = "/home/kallas/project/graph_search_framework/src/amjad/generation_ng.ttl"
-    #output_txt_path = "/home/kallas/project/graph_search_framework/src/amjad/temp_event_timeline.txt"
+    input_ttl_path = "/home/kallas/project/graph_search_framework/experiments/2026-05-02-20_19_01-informed_wikidata_french_revolution_10_pred_object_freq_domain_range___when__without_category_uri_iter__max_inf/output_ng.ttl"
+    output_txt_path = "/home/kallas/project/graph_search_framework/experiments/2026-05-02-20_19_01-informed_wikidata_french_revolution_10_pred_object_freq_domain_range___when__without_category_uri_iter__max_inf/temp_event_timeline.txt"
     parse_rdf(input_ttl_path, output_txt_path)
