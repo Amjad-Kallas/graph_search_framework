@@ -23,7 +23,7 @@ NG  = Namespace("http://narrative.graph/entity/")
 WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
 HEADERS = {
     "Accept": "application/json",
-    "User-Agent": "KG-Narrative/1.0"
+    "User-Agent": "KG-Narrative/1.0 (harrypotterone12321@gmail.com)"
 }
 
 # --------------------------
@@ -65,6 +65,7 @@ def make_readable_uri(original_uri, labels_dict):
 # --------------------------
 def run_sparql(query, max_retries=5, timeout=20):
     for attempt in range(max_retries):
+        t0 = time.time()
         try:
             r = requests.get(
                 WIKIDATA_SPARQL,
@@ -72,18 +73,36 @@ def run_sparql(query, max_retries=5, timeout=20):
                 headers=HEADERS,
                 timeout=timeout
             )
+            elapsed = time.time() - t0
 
             if r.status_code == 200:
+                print(f"  [SPARQL] OK ({elapsed:.1f}s)")
                 return r.json()
 
-            elif r.status_code in [429, 503]:
+            elif r.status_code == 429:
+                sleep = 2 ** attempt
+                print(f"  [SPARQL] 429 Rate-limited (attempt {attempt+1}/{max_retries}) — sleeping {sleep}s")
+                time.sleep(sleep)
+
+            elif r.status_code == 503:
+                sleep = 2 ** attempt
+                print(f"  [SPARQL] 503 Service unavailable (attempt {attempt+1}/{max_retries}) — sleeping {sleep}s")
+                time.sleep(sleep)
+
+            else:
+                print(f"  [SPARQL] HTTP {r.status_code} ({elapsed:.1f}s)")
                 time.sleep(2 ** attempt)
 
         except requests.exceptions.Timeout:
+            elapsed = time.time() - t0
+            print(f"  [SPARQL] Timeout after {elapsed:.1f}s (attempt {attempt+1}/{max_retries})")
             time.sleep(2 ** attempt)
-        except requests.exceptions.RequestException:
+        except requests.exceptions.RequestException as e:
+            elapsed = time.time() - t0
+            print(f"  [SPARQL] Request error after {elapsed:.1f}s (attempt {attempt+1}/{max_retries}): {e}")
             time.sleep(2 ** attempt)
 
+    print(f"  [SPARQL] All {max_retries} attempts failed.")
     return None
 
 # --------------------------
@@ -151,7 +170,7 @@ def get_events_info(uris):
 def fetch_labels(uris):
     labels = {}
 
-    for batch in chunked(list(uris), 50):
+    for batch in chunked(list(uris), 25):
         values = " ".join(f"<{u}>" for u in batch)
 
         query = f"""

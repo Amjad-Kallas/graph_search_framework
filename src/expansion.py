@@ -50,6 +50,7 @@ class NodeExpansion:
         self.mapping = {uri: name for (name, uri) in rdf_type}
 
         self.filtering = Filtering(args=args_filtering)
+        self.entity_type = args_filtering.get("entity_type", "event")
         self.superclasses = defaultdict(list)
         
         # accumulator of importans nodes throughout the iterations
@@ -114,12 +115,32 @@ class NodeExpansion:
                 filtered = []
 
 
-            important_predicates = [
-                "http://www.wikidata.org/prop/direct/P793",  # significant event
-                "http://www.wikidata.org/prop/direct/P828",  # has cause
-                "http://www.wikidata.org/prop/direct/P1478", # has immediate cause
-                "http://www.wikidata.org/prop/direct/P1542", # has effect
-            ]
+            if self.entity_type == "person":
+                main_predicates = [
+                    "http://www.wikidata.org/prop/direct/P569",  # date of birth
+                    "http://www.wikidata.org/prop/direct/P19",   # place of birth
+                    "http://www.wikidata.org/prop/direct/P570",  # date of death
+                    "http://www.wikidata.org/prop/direct/P101",  # field of work
+                    "http://www.wikidata.org/prop/direct/P106",  # occupation
+                ]
+                important_predicates = [
+                    "http://www.wikidata.org/prop/direct/P800",  # notable work
+                    "http://www.wikidata.org/prop/direct/P166",  # award received
+                ]
+            else:  # event (default)
+                main_predicates = [
+                    "http://www.wikidata.org/prop/direct/P585",
+                    "http://www.wikidata.org/prop/direct/P580",
+                    "http://www.wikidata.org/prop/direct/P582",
+                    "http://www.wikidata.org/prop/direct/P793",
+                    "http://www.wikidata.org/prop/direct/P1427",
+                ]
+                important_predicates = [
+                    "http://www.wikidata.org/prop/direct/P793",  # significant event
+                    "http://www.wikidata.org/prop/direct/P828",  # has cause
+                    "http://www.wikidata.org/prop/direct/P1478", # has immediate cause
+                    "http://www.wikidata.org/prop/direct/P1542", # has effect
+                ]
 
             important_nodes = set()
 
@@ -129,26 +150,15 @@ class NodeExpansion:
                 ].subject.unique()
             )
 
-            # outgoing: node → something
             important_nodes.update(
                 triple_outgoing[
                     triple_outgoing.predicate.isin(important_predicates)
                 ].object.unique()
             )
 
-            #print(important_nodes)
-
-            # Filter on types of nodes that should be retrieved
-            # print(filtered)
-            event_predicates = [
-                "http://www.wikidata.org/prop/direct/P585",
-                "http://www.wikidata.org/prop/direct/P580",
-                "http://www.wikidata.org/prop/direct/P582",
-            ]
-
             event_nodes = set(
                 type_date_df[
-                    type_date_df.predicate.isin(event_predicates)
+                    type_date_df.predicate.isin(main_predicates)
                 ].subject.unique()
             )
 

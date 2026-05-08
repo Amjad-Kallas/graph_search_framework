@@ -8,22 +8,18 @@ def generate_story(timeline_file, main_event, target_words=700):
     with open(timeline_file, "r", encoding="utf-8") as f:
         context = f.read()
 
-    prompt = f"""You are a historian writing an informative account of {main_event} for a general audience.
+    prompt = f"""You are a storytelling agent writing a narrative of {main_event} for a general audience.
 
 Writing style:
-- The primary goal is to be clear, accurate, and informative.
+- The primary goal is to be clear, accurate, and informative without losing engagement focus.
 - Write in continuous paragraphs — no headers, bullet points, bold text, or markdown formatting.
-- Keep a neutral, educational tone. A light narrative quality is welcome (smooth transitions, causal explanations), but avoid dramatic flourishes, literary scenes, or emotional language.
+- Keep an educational tone but go beyond a simple report of events. A light narrative quality is welcome (smooth transitions, causal explanations), but limit dramatic flourishes, literary scenes, and emotional language.
 - Explain why events happened, not just what happened.
 
-Structure:
-- Begin with a brief introduction of the context and causes.
-- Follow a chronological arc: origins → key developments → outcome and aftermath.
-- Close with a short summary of the event's significance.
 
 Use of provided events:
 - The events below are your chronological guide. Follow their general sequence.
-- You do not need to mention every event — use the most important ones to anchor the account.
+- You are free to skip events that do not serve your narrative goals.
 - Add essential historical context where needed to keep the account coherent.
 
 Length: Write approximately {target_words} words. The account must be complete — do not end mid-sentence.
@@ -43,7 +39,7 @@ Events (chronological guide):
         messages=[
             {"role": "user", "content": prompt}
         ],
-        temperature=0.3,
+        temperature=0.6,
         max_tokens=safe_max_tokens
     )
 
@@ -62,18 +58,14 @@ Events (chronological guide):
 
 def generate_story_baseline(output_folder, main_event, target_words=700):
 
-    prompt = f"""You are a historian writing an informative account of {main_event} for a general audience.
+    prompt = f"""You are a storytelling agent writing a narrative of {main_event} for a general audience.
 
 Writing style:
-- The primary goal is to be clear, accurate, and informative.
+- The primary goal is to be clear, accurate, and informative without losing engagement focus.
 - Write in continuous paragraphs — no headers, bullet points, bold text, or markdown formatting.
-- Keep a neutral, educational tone. A light narrative quality is welcome (smooth transitions, causal explanations), but avoid dramatic flourishes, literary scenes, or emotional language.
+- Keep an educational tone but go beyond a simple report of events. A light narrative quality is welcome (smooth transitions, causal explanations), but limit dramatic flourishes, literary scenes, and emotional language.
 - Explain why events happened, not just what happened.
 
-Structure:
-- Begin with a brief introduction of the context and causes.
-- Follow a chronological arc: origins → key developments → outcome and aftermath.
-- Close with a short summary of the event's significance.
 
 Length: Write approximately {target_words} words. The account must be complete — do not end mid-sentence."""
 
@@ -89,7 +81,7 @@ Length: Write approximately {target_words} words. The account must be complete �
         messages=[
             {"role": "user", "content": prompt}
         ],
-        temperature=0.3,
+        temperature=0.6,
         max_tokens=safe_max_tokens
     )
 
@@ -121,7 +113,7 @@ if __name__ == "__main__":
     for folder_name, main_event in events:
         folder        = f"{BASE}/{folder_name}"
         timeline_file = f"{folder}/event_timeline.txt"
-        wiki_file     = f"{folder}/wikipedia_intro_{main_event.replace(' ', '_')}.txt"
+        wiki_file     = f"{folder}/wikipedia_intro.txt"
 
         print(f"\n{'='*60}")
         print(f"Event: {main_event}")

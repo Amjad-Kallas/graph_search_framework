@@ -121,10 +121,10 @@ def compute_bertscore(story_text: str, paper_text: str) -> float:
             model_type="roberta-large",
             lang="en",
             verbose=False,
+            #rescale_with_baseline=True,
             device="cuda" if torch.cuda.is_available() else "cpu",
         )
-        # F is a tensor of rank [1]
-        return float(F[0].item())
+        return float(max(0.0, F[0].item()))
     except Exception:
         # neutral fallback in the event of an error
         return 0.0
@@ -202,9 +202,9 @@ def compute_storyscore(
       0.10 → No hallucination
     """
     return (
-        0.40 * bert
-        + 0.30 * lexrec
-        + 0.10 * title_match
+        0.45 * bert
+        + 0.35 * lexrec
+        + 0.0 * title_match
         + 0.10 * noloop
         + 0.10 * nohall
     )
@@ -253,8 +253,8 @@ def compute_story_score(payload: Dict[str, Any]) -> Dict[str, float]:
 
     noloop = compute_noloop(story_text_raw)
 
-    # no-hallucination as the original version (NER PERSON/ORG)
-    nohall = compute_nohallucination(sections_text_norm, paper_text_norm)
+    # no-hallucination: use raw (non-lowercased) text so NER can detect capitalised entities
+    nohall = compute_nohallucination(sections_text_raw, paper_text_raw)
 
     # final storyscore
     storyscore = compute_storyscore(

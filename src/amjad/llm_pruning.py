@@ -126,7 +126,10 @@ def _score_batch(batch, main_event, client):
     - 7–8: Important event with clear impact
     - 4–6: Secondary or supporting relevance
     - 1–3: Minor or weak relevance
-    - 0: Irrelevant
+    - 0: Irrelevant, unrecognizable, or you have no knowledge of it
+
+    IMPORTANT: If you do not recognize an event or cannot assess its relevance to "{main_event}", assign it a score of 0.
+    Do NOT guess or inflate scores for unfamiliar events.
 
     OUTPUT FORMAT (STRICT):
     <event name>: <score>

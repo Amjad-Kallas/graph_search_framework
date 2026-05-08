@@ -89,8 +89,7 @@ def get_wikipedia_intro_full(main_event_name, output_dir=None):
     intro = _query_exintro("en.wikipedia.org", main_event_name.replace(" ", "_"))
 
     if output_dir and intro:
-        safe_name = main_event_name.replace(" ", "_")
-        wiki_file = os.path.join(output_dir, f"wikipedia_intro_{safe_name}.txt")
+        wiki_file = os.path.join(output_dir, "wikipedia_intro.txt")
         with open(wiki_file, "w", encoding="utf-8") as f:
             f.write(intro)
         print(f"Wikipedia intro saved to {wiki_file}")

@@ -53,3 +53,7 @@ experiments_run/usage_ng/narrative_generation_all
 
 dbpedia_dataset
 wikidata_dataset
+
+logs
+logs/*
+*.log

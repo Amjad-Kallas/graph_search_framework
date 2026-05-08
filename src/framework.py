@@ -228,6 +228,7 @@ class GraphSearchFramework:
         self.path_found = False
         self.it_found = None
 
+        self.entity_type = config.get("type", "event")
         self.folder_name_suffix = \
             self.get_exp_name(config=config)
         self.save_folder = self._add_save_info()
@@ -267,6 +268,7 @@ class GraphSearchFramework:
             "places": dataset_config.get("places"),
             "people": dataset_config.get("person"),
             "dataset_type": dataset_config.get("config_type"),
+            "entity_type": config.get("type", "event"),
         }
 
     def _check_config(self, config: dict, walk: str):
@@ -385,37 +387,10 @@ class GraphSearchFramework:
         # MANDATORY ON CONDITIONS
 
     def get_exp_name(self, config: dict) -> str:
-        """ Get experiment name, depending on parameters """
-        exp = config["name_exp"] if "name_exp" in config else config["start"].split("/")[-1].lower()
-        elts = [self.walk, config['dataset_type'], exp,
-                str(config["iterations"]), self.type_ranking]
-        domain_range = "domain_range" if \
-            config.get('ordering') and \
-                config.get('ordering').get('domain_range') \
-                else ""
-        elts.append(domain_range)
-        if config.get('filtering'):
-            what = "what" if \
-                config.get('filtering').get('what') else ""
-            where = "where" if \
-                config.get('filtering').get('where') else ""
-            when = "when" if \
-                config.get('filtering').get('when') else ""
-            who = "who" if \
-                config.get('filtering').get('who') else ""
-            elts += [what, where, when, who]
-
-        if self.dataset_type == "dbpedia":  # wikilink for DBpedia only
-            wikilink = "wikilink" if "http://dbpedia.org/ontology/wikiPageWikiLink" \
-                in config["predicate_filter"] else ""
-            elts.append(wikilink)
-        cat = "with_category" if config.get("exclude_category") == 0 else "without_category"
-        elts.append(cat)
-        elts += ["uri", "iter", str(config.get("uri_limit")) \
-            if config.get('uri_limit') else \
-                '',  "max", str(config.get("max_uri")) if config.get('max_uri') else 'inf']
-
-        return "_".join(elts)
+        """ Get experiment name from name_exp or start URI """
+        if "name_exp" in config:
+            return config["name_exp"]
+        return config["start"].split("/")[-1].lower()
 
     def select_nodes_to_expand(self, iteration: int) -> list[str]:
         """ Accessible call to _select_nodes_to_expand"""
@@ -670,17 +645,20 @@ class GraphSearchFramework:
                                                     occurence=self.occurence)
 
     def _add_save_info(self) -> str:
-        date_begin = datetime.now()
-        date = '-'.join([str(date_begin)[:10], str(date_begin)[11:19]])
-
-        folder_path = os.path.join(FOLDER_PATH, "experiments")
+        folder_path = os.path.join(FOLDER_PATH, "experiments", self.entity_type)
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 
-        save_folder = os.path.join(folder_path,
-                                 f"{date}-{self.folder_name_suffix}").replace(":", "_")
-        if os.path.exists(save_folder):
-            raise ValueError("Folder to save data already exists, re creating one")
+        exp_folder = os.path.join(folder_path, self.folder_name_suffix)
+        os.makedirs(exp_folder, exist_ok=True)
+
+        counter = 1
+        while True:
+            save_folder = os.path.join(exp_folder, str(counter))
+            if not os.path.exists(save_folder):
+                break
+            counter += 1
+
         os.makedirs(save_folder)
         return save_folder
 

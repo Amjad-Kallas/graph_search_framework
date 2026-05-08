@@ -89,7 +89,7 @@ def run_pipeline():
     print("\n1. Running ChronoGrapher...")
     target_folder, subgraph_file = run_framework(args_main, config_loaded)
 
-    fetch_all_labels(subgraph_file , subgraph_file[:-4]+"_readable.csv")
+    #fetch_all_labels(subgraph_file , subgraph_file[:-4]+"_readable.csv")
 
 
 
@@ -104,13 +104,12 @@ def run_pipeline():
     output_ng = target_folder + f"/output_ng.ttl"
     timeline_file = target_folder + f"/event_timeline.txt"
 
+    hdt_folder = "/home/kallas/project/graph_search_framework/wikidata_dataset"
 
     print("\n2. Building narrative graph...")
-    #build_ng_wikidata_online(pruned_subgraph_file, output_ng)
     build_ng_wikidata_online(subgraph_file, output_ng)
-    #build_ng_wikidata_online(subgraph_file, f"original_{output_ng}")
-
-
+    #build_ng_wikidata_hdt(subgraph_file, hdt_folder, output_ng)
+    exit()
     main_event = get_single_label(config_loaded["start"])
 
     # Apply post filtering: remove events of "Q...", and the ones very outside the range, and without comment
@@ -124,6 +123,7 @@ def run_pipeline():
 
     parse_rdf(output_ng, timeline_file)
 
+    exit()
     print("\n4. Generating stories...")
     _, story_file    = generate_story(timeline_file, main_event)
     _, baseline_file = generate_story_baseline(target_folder, main_event)
@@ -131,8 +131,8 @@ def run_pipeline():
     # compute story score if needed
     if compute_score:
         print("\n5. Computing story scores...")
-        wiki_intro_file = os.path.join(target_folder, f"wikipedia_intro_{main_event.replace(' ', '_')}.txt")
         evaluate_story(story_file,    wiki_intro_file, output_path=os.path.join(target_folder, "score_event_driven.json"))
+        wiki_intro_file = os.path.join(target_folder, f"wikipedia_intro_{main_event.replace(' ', '_')}.txt")
         evaluate_story(baseline_file, wiki_intro_file, output_path=os.path.join(target_folder, "score_baseline.json"))
 
 
