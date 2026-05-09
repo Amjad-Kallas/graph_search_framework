@@ -24,11 +24,11 @@ from manual_pipeline import (  # noqa: E402
 TO_TEST = ROOT / "sample-data" / "to_test"
 
 CATEGORY_LABELS = {
-    ("events", "long_known"):  "Events — Long Known",
-    ("events", "short_known"): "Events — Short Known",
-    ("events", "unknown"):     "Events — Unknown",
-    ("persons", "known"):      "Persons — Known",
-    ("persons", "unknown"):    "Persons — Unknown",
+    ("events", "long_known"):  "Events — Long Well Known",
+    ("events", "short_known"): "Events — Short Well Known",
+    ("events", "unknown"):     "Events — Little Known",
+    ("persons", "known"):      "Persons — Well Known",
+    ("persons", "unknown"):    "Persons — Little Known",
 }
 
 CATEGORY_ORDER = list(CATEGORY_LABELS.values())
@@ -210,7 +210,7 @@ with st.expander("Event details", expanded=True):
         st.markdown(f"**Name:** {selected['name']}")
         st.markdown(f"**Start date:** {cfg.get('start_date', '—')}")
         st.markdown(f"**End date:** {cfg.get('end_date', '—')}")
-        st.markdown(f"**Iterations:** {cfg.get('iterations', '—')}")
+
     with c2:
         st.markdown(f"**Type:** {cfg.get('type', '—').title()}")
         st.markdown(f"**Ranking:** `{cfg.get('type_ranking', '—')}`")

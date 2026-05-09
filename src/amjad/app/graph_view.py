@@ -2,6 +2,8 @@ import os
 import base64
 import tempfile
 
+import altair as alt
+import networkx as nx
 from rdflib import Graph, Namespace, RDF, RDFS
 from pyvis.network import Network
 import streamlit as st
@@ -11,6 +13,11 @@ SEM = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 
 def _label(uri: str) -> str:
     return uri.split("/")[-1].replace("_", " ")
+
+
+def _node_id(uri: str) -> str:
+    """Short stable ID: URI fragment, e.g. 'Battle_of_Jutland'."""
+    return str(uri).split("/")[-1]
 
 
 def render_narrative_graph(ttl_path: str, height: int = 700):
@@ -130,3 +137,118 @@ def render_narrative_graph(ttl_path: str, height: int = 700):
         legend += " &nbsp;&nbsp; 🟠 **Place**"
     st.markdown(legend)
     st.iframe(src=f"data:text/html;base64,{b64}", height=height + 10)
+
+
+def render_narrative_graph_interactive(
+    ttl_path: str,
+    selected_ids: set,
+    height: int = 700,
+) -> str | None:
+    """
+    Interactive graph using Altair + networkx layout.
+    Works through VSCode tunnels (no separate component server needed).
+    Event nodes are blue; selected ones are gold.
+    Clicking a node returns its ID (URI fragment), or None.
+    """
+    if not os.path.exists(ttl_path):
+        st.warning(f"Narrative graph not found: `{ttl_path}`")
+        return None
+
+    g = Graph()
+    g.parse(ttl_path, format="turtle")
+
+    events = set(g.subjects(RDF.type, SEM.Event))
+    if not events:
+        st.info("No events found in the narrative graph.")
+        return None
+
+    # ── Build networkx graph for layout ───────────────────────────────────────
+    G = nx.Graph()
+    event_nids: set = set()
+
+    for ev in events:
+        nid = _node_id(str(ev))
+        label = nid.replace("_", " ")
+        date = g.value(ev, SEM.hasTimeStamp)
+        comment = g.value(ev, RDFS.comment)
+        tip = label
+        if date:
+            tip += f" ({date})"
+        if comment:
+            tip += f" — {str(comment)[:150]}…"
+        G.add_node(nid, label=label, tooltip=tip)
+        event_nids.add(nid)
+
+    for ev in events:
+        nid = _node_id(str(ev))
+        for parent in g.objects(ev, SEM.subEventOf):
+            pid = _node_id(str(parent))
+            if pid in event_nids:
+                G.add_edge(nid, pid)
+
+    pos = nx.spring_layout(G, seed=42, k=1.5)
+
+    # ── Node data ─────────────────────────────────────────────────────────────
+    node_rows = []
+    for nid in G.nodes():
+        x, y = pos[nid]
+        node_rows.append({
+            "id": nid,
+            "label": G.nodes[nid]["label"],
+            "tooltip": G.nodes[nid]["tooltip"],
+            "x": float(x),
+            "y": float(y),
+            "color": "#FFD700" if nid in selected_ids else "#4C9BE8",
+            "size": 250 if nid in selected_ids else 150,
+        })
+
+    # ── Edge data (two rows per edge, grouped by edge_id for mark_line) ───────
+    edge_rows = []
+    for i, (u, v) in enumerate(G.edges()):
+        for node in (u, v):
+            x, y = pos[node]
+            edge_rows.append({"x": float(x), "y": float(y), "edge_id": i})
+
+    # ── Altair layers ─────────────────────────────────────────────────────────
+    click_sel = alt.selection_point(name="click", fields=["id"], on="click", toggle=False)
+
+    edge_layer = alt.Chart(alt.Data(values=edge_rows)).mark_line(
+        color="#666666", opacity=0.6, strokeWidth=1.5,
+    ).encode(
+        x=alt.X("x:Q", axis=None, scale=alt.Scale(zero=False)),
+        y=alt.Y("y:Q", axis=None, scale=alt.Scale(zero=False)),
+        detail="edge_id:N",
+    )
+
+    node_layer = alt.Chart(alt.Data(values=node_rows)).mark_circle().encode(
+        x=alt.X("x:Q", axis=None, scale=alt.Scale(zero=False)),
+        y=alt.Y("y:Q", axis=None, scale=alt.Scale(zero=False)),
+        color=alt.Color("color:N", scale=None),
+        size=alt.Size("size:Q", scale=None),
+        tooltip=["label:N", "tooltip:N"],
+    ).add_params(click_sel)
+
+    label_layer = alt.Chart(alt.Data(values=node_rows)).mark_text(
+        dy=-14, fontSize=10, color="#ffffff",
+    ).encode(
+        x=alt.X("x:Q", axis=None, scale=alt.Scale(zero=False)),
+        y=alt.Y("y:Q", axis=None, scale=alt.Scale(zero=False)),
+        text="label:N",
+    )
+
+    chart = (edge_layer + node_layer + label_layer).properties(
+        width="container",
+        height=height,
+        background="#0e1117",
+    ).configure_view(stroke=None)
+
+    st.markdown("🔵 **Unselected** &nbsp;&nbsp; 🟡 **Selected** &nbsp;&nbsp; — Click a node to select / deselect")
+
+    event = st.altair_chart(chart, width='stretch', on_select="rerun")
+
+    # Extract clicked node ID from selection
+    selection = getattr(event, "selection", {})
+    points = selection.get("click", []) if selection else []
+    if points:
+        return points[0].get("id")
+    return None
