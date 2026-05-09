@@ -11,14 +11,14 @@
         "http://www.wikidata.org/prop/direct/P5008",
         "http://www.wikidata.org/prop/direct/P2184",
         "http://www.wikidata.org/prop/direct/P1269",
-        "http://www.wikidata.org/prop/direct/P527"
+        "http://www.wikidata.org/prop/direct/P527",
+        "http://www.wikidata.org/prop/direct/P106",
+        "http://www.wikidata.org/prop/direct/P1412"
     ],
-
     "start": "http://www.wikidata.org/entity/Q3247658",
     "start_date": "1934-01-01",
     "end_date": "2020-12-31",
-
-    "iterations": 10,
+    "iterations": 3,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
@@ -33,6 +33,6 @@
     "dataset_path": "wikidata_dataset",
     "sparql_endpoint": "https://query.wikidata.org/sparql",
     "nested_dataset": 0,
-    "type": "person"
-
+    "type": "person",
+    "start_name": "Fairuz"
 }

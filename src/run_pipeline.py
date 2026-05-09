@@ -46,6 +46,58 @@ def run_framework(args_main, config_loaded):
     return target_folder, target_file
 
 
+def run_pipeline_direct(
+    config_path,
+    mode="search_type_node_metrics",
+    node_selection="all",
+    end_node="",
+    walk="informed",
+    interface=None,
+):
+    """
+    Importable, exit()-free version of the pipeline for use in the Streamlit app.
+    Returns (target_folder, timeline_file).
+    """
+    with open(config_path, "r", encoding="utf-8") as f:
+        config_loaded = json.load(f)
+
+    config_interface = config_loaded.get("type_interface", "sparql_endpoint").lower()
+    final_interface = interface if interface else config_interface
+
+    print(f"Configuration loaded. Interface set to: {final_interface.upper()}")
+
+    HDTInterface()
+
+    args_main = {
+        "mode": mode,
+        "node_selection": node_selection,
+        "end_node": end_node,
+        "walk": walk,
+    }
+
+    print("\n1. Running ChronoGrapher...")
+    target_folder, subgraph_file = run_framework(args_main, config_loaded)
+
+    output_ng = os.path.join(target_folder, "output_ng.ttl")
+    timeline_file = os.path.join(target_folder, "event_timeline.txt")
+    hdt_folder = "/home/kallas/project/graph_search_framework/wikidata_dataset"
+
+    print("\n2. Building narrative graph...")
+    build_ng_wikidata_hdt(subgraph_file, hdt_folder, output_ng)
+
+    main_event = config_loaded.get("start_name") or get_single_label(config_loaded["start"])
+
+    apply_post_filtering(output_ng, config_loaded, main_event)
+
+    print("\n3. Wikipedia + LLM Filtering...")
+    rerank_events_combined(output_ng, main_event, target_k=35)
+
+    print("\n4. Parsing RDF...")
+    parse_rdf(output_ng, timeline_file)
+
+    return target_folder, timeline_file
+
+
 def run_pipeline():
 
     ap = argparse.ArgumentParser()
@@ -92,7 +144,6 @@ def run_pipeline():
     #fetch_all_labels(subgraph_file , subgraph_file[:-4]+"_readable.csv")
 
 
-
     '''# Pruning
     seed_topic = config_loaded["start"]
     pruner = StoryCentralityPruner()
@@ -107,10 +158,10 @@ def run_pipeline():
     hdt_folder = "/home/kallas/project/graph_search_framework/wikidata_dataset"
 
     print("\n2. Building narrative graph...")
-    build_ng_wikidata_online(subgraph_file, output_ng)
-    #build_ng_wikidata_hdt(subgraph_file, hdt_folder, output_ng)
-    exit()
-    main_event = get_single_label(config_loaded["start"])
+    #build_ng_wikidata_online(subgraph_file, output_ng)
+    build_ng_wikidata_hdt(subgraph_file, hdt_folder, output_ng)
+
+    main_event = config_loaded.get("start_name") or get_single_label(config_loaded["start"])
 
     # Apply post filtering: remove events of "Q...", and the ones very outside the range, and without comment
     apply_post_filtering(output_ng, config_loaded, main_event)

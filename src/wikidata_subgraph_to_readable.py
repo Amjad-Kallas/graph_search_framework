@@ -131,8 +131,8 @@ def get_single_label(uri: str, lang: str = "en") -> str:
 
 
 if __name__ == "__main__":
-    input_file = "experiments/2026-04-24-16_38_31-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/2-subgraph.csv"
-    output_file = "experiments/2026-04-24-16_38_31-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/readable_2-subgraph.csv"
-    #fetch_all_labels(input_file, output_file)
+    input_file = "/home/kallas/project/graph_search_framework/experiments/event/world_war_1/2/2-subgraph.csv"
+    output_file = "/home/kallas/project/graph_search_framework/experiments/event/world_war_1/readable_2-subgraph.csv"
+    fetch_all_labels(input_file, output_file)
 
 

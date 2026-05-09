@@ -202,11 +202,11 @@ def compute_storyscore(
       0.10 → No hallucination
     """
     return (
-        0.45 * bert
-        + 0.35 * lexrec
+        0.6 * bert
+        + 0.4 * lexrec
         + 0.0 * title_match
-        + 0.10 * noloop
-        + 0.10 * nohall
+        + 0.0 * noloop
+        + 0.0 * nohall
     )
 
 

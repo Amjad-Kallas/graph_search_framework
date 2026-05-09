@@ -11,14 +11,13 @@
         "http://www.wikidata.org/prop/direct/P5008",
         "http://www.wikidata.org/prop/direct/P2184",
         "http://www.wikidata.org/prop/direct/P1269",
-        "http://www.wikidata.org/prop/direct/P527"
+        "http://www.wikidata.org/prop/direct/P527",
+        "http://www.wikidata.org/prop/direct/P106"
     ],
-
     "start": "http://www.wikidata.org/entity/Q57774",
     "start_date": "1944-01-01",
     "end_date": "1983-12-31",
-
-    "iterations": 10,
+    "iterations": 3,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
@@ -33,6 +32,6 @@
     "dataset_path": "wikidata_dataset",
     "sparql_endpoint": "https://query.wikidata.org/sparql",
     "nested_dataset": 0,
-    "type": "person"
-
+    "type": "person",
+    "start_name": "Klaus Nomi"
 }

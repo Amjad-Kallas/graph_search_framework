@@ -11,14 +11,14 @@
         "http://www.wikidata.org/prop/direct/P5008",
         "http://www.wikidata.org/prop/direct/P2184",
         "http://www.wikidata.org/prop/direct/P1269",
-        "http://www.wikidata.org/prop/direct/P527"
+        "http://www.wikidata.org/prop/direct/P527",
+        "http://www.wikidata.org/prop/direct/P495",
+        "http://www.wikidata.org/prop/direct/P17"
     ],
-
-    "start": "http://www.wikidata.org/entity/Q193484",
-    "start_date": "1963-01-01",
-    "end_date": "1963-12-31",
-
-    "iterations": 10,
+    "start": "http://www.wikidata.org/entity/Q208958",
+    "start_date": "1998-01-01",
+    "end_date": "1998-12-31",
+    "iterations": 3,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
@@ -28,11 +28,11 @@
         "where": 0,
         "when": 1
     },
-    "name_exp": "assassination_of_jfk",
+    "name_exp": "good_friday_agreement",
     "dataset_type": "wikidata",
     "dataset_path": "wikidata_dataset",
     "sparql_endpoint": "https://query.wikidata.org/sparql",
     "nested_dataset": 0,
-    "type": "event"
-
+    "type": "event",
+    "start_name": "Good Friday Agreement"
 }

@@ -38,15 +38,11 @@ def apply_post_filtering(input_ttl, config_loaded, main_event=None, max_events=2
     g = Graph()
     g.parse(input_ttl, format="ttl")
 
-    entity_type = config_loaded.get("type", "event")
-
     start_date = datetime.strptime(config_loaded["start_date"], "%Y-%m-%d")
     end_date = datetime.strptime(config_loaded["end_date"], "%Y-%m-%d")
 
-    # persons span a lifetime so allow a wider window (±5 years)
-    slack_days = 365 * 5 if entity_type == "person" else 365
-    min_date = start_date - timedelta(days=slack_days)
-    max_date = end_date + timedelta(days=slack_days)
+    min_date = start_date - timedelta(days=365)
+    max_date = end_date + timedelta(days=365)
 
     important_names = load_important_event_names(input_ttl)
     main_event_normalized = normalize_name(main_event).lower() if main_event else None
@@ -93,9 +89,6 @@ def apply_post_filtering(input_ttl, config_loaded, main_event=None, max_events=2
         if name in important_names:
             kept.append(s)
         elif valid_date:
-            kept.append(s)
-        elif entity_type == "person" and has_comment:
-            # persons may lack a timestamp but are still valid if described
             kept.append(s)
         else:
             removed.append(s)

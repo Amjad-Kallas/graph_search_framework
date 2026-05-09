@@ -25,12 +25,16 @@ def select_best_date(dates):
     best, best_score = None, -1
     for d in dates:
         try:
-            d = d[:10]
-            _, m, day = d.split("-")
+            d_str = str(d)
+            # HDT returns literals like '"1914-09-01"^^xsd:dateTime' — strip the quotes first
+            if d_str.startswith('"'):
+                d_str = d_str.split('"')[1]
+            d_str = d_str[:10]
+            _, m, day = d_str.split("-")
             score = (m != "01") + (day != "01")
             if score > best_score:
                 best_score = score
-                best = d
+                best = d_str
         except:
             continue
     return best
@@ -105,11 +109,13 @@ def get_events_info_hdt(hdt_docs, uris):
         for (_, _, o) in triples:
             places.add(o)
 
-        # dates
+        # dates (event predicates + person birth/death)
         for p in [
             "http://www.wikidata.org/prop/direct/P585",
             "http://www.wikidata.org/prop/direct/P580",
             "http://www.wikidata.org/prop/direct/P582",
+            "http://www.wikidata.org/prop/direct/P569",  # date of birth
+            "http://www.wikidata.org/prop/direct/P570",  # date of death
         ]:
             triples = search_triples(hdt_docs, uri, p, "")
             for (_, _, o) in triples:
@@ -341,8 +347,9 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
 # ENTRY
 # --------------------------
 if __name__ == "__main__":
-    input_csv = "/home/kallas/project/graph_search_framework/experiments/2026-04-28-08_47_05-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/pruned-2-subgraph.csv"
-    output_ttl = "/home/kallas/project/graph_search_framework/experiments/2026-04-28-08_47_05-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/li_huwesh.ttl"
+    input_csv = "/home/kallas/project/graph_search_framework/experiments/person/charlie_chaplin/2/2-subgraph.csv"
+    output_ttl = "/home/kallas/project/graph_search_framework/experiments/person/charlie_chaplin/2/li_huwe.ttl"
+    
     hdt_folder = "/home/kallas/project/graph_search_framework/wikidata_dataset"   # <- folder, not file
 
 

@@ -121,7 +121,7 @@ class NodeExpansion:
                     "http://www.wikidata.org/prop/direct/P19",   # place of birth
                     "http://www.wikidata.org/prop/direct/P570",  # date of death
                     "http://www.wikidata.org/prop/direct/P101",  # field of work
-                    "http://www.wikidata.org/prop/direct/P106",  # occupation
+                    
                 ]
                 important_predicates = [
                     "http://www.wikidata.org/prop/direct/P800",  # notable work

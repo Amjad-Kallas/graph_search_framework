@@ -13,12 +13,10 @@
         "http://www.wikidata.org/prop/direct/P1269",
         "http://www.wikidata.org/prop/direct/P527"
     ],
-
     "start": "http://www.wikidata.org/entity/Q5682",
     "start_date": "1547-01-01",
     "end_date": "1616-12-31",
-
-    "iterations": 10,
+    "iterations": 3,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
@@ -33,6 +31,6 @@
     "dataset_path": "wikidata_dataset",
     "sparql_endpoint": "https://query.wikidata.org/sparql",
     "nested_dataset": 0,
-    "type": "person"
-
+    "type": "person",
+    "start_name": "Miguel de Cervantes"
 }

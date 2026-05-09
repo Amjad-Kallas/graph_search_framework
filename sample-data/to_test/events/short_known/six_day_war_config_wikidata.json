@@ -13,12 +13,10 @@
         "http://www.wikidata.org/prop/direct/P1269",
         "http://www.wikidata.org/prop/direct/P527"
     ],
-
-    "start": "http://www.wikidata.org/entity/Q125953",
-    "start_date": "1908-01-01",
-    "end_date": "1908-12-31",
-
-    "iterations": 10,
+    "start": "http://www.wikidata.org/entity/Q49077",
+    "start_date": "1967-01-01",
+    "end_date": "1967-12-31",
+    "iterations": 8,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
@@ -28,11 +26,11 @@
         "where": 0,
         "when": 1
     },
-    "name_exp": "tunguska_event",
+    "name_exp": "six_day_war",
     "dataset_type": "wikidata",
     "dataset_path": "wikidata_dataset",
     "sparql_endpoint": "https://query.wikidata.org/sparql",
     "nested_dataset": 0,
-    "type": "event"
-
+    "type": "event",
+    "start_name": "Six-Day War"
 }

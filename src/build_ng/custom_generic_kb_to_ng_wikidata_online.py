@@ -410,7 +410,7 @@ def build_ng_wikidata_online(input_file, output_file):
 # ENTRY
 # --------------------------
 if __name__ == "__main__":
-    input_csv = "/home/kallas/project/graph_search_framework/experiments/2026-04-28-08_47_05-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/pruned-2-subgraph.csv"
-    output_ttl = "/home/kallas/project/graph_search_framework/experiments/2026-04-28-08_47_05-informed_wikidata_french_revolution_2_pred_object_freq_domain_range__where_when__without_category_uri_iter__max_inf/li_huwe.ttl"
+    input_csv = "/home/kallas/project/graph_search_framework/experiments/event/world_war_1/3/2-subgraph.csv"
+    output_ttl = "/home/kallas/project/graph_search_framework/experiments/event/world_war_1/3/li_huwe.ttl"
 
     build_ng_wikidata_online(input_csv, output_ttl)
