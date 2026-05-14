@@ -1,0 +1,468 @@
+{
+  "n_runs_per_event": 5,
+  "n_events": 20,
+  "per_event": {
+    "amalia_rodrigues": {
+      "event_driven": {
+        "bertscore": 0.8220924258232116,
+        "lexical_recall": 0.04924951751416627,
+        "title_cov": 0.0,
+        "noloop": 0.8751627051499717,
+        "ctx_recall": 0.04924951751416627,
+        "nohall": 0.0,
+        "storyscore": 0.5129552624995934,
+        "diversity": 0.09544212818145752
+      },
+      "baseline": {
+        "bertscore": 0.8240514516830444,
+        "lexical_recall": 0.027565383140357013,
+        "title_cov": 0.0,
+        "noloop": 0.9672744293476605,
+        "ctx_recall": 0.027565383140357013,
+        "nohall": 0.0,
+        "storyscore": 0.5054570242659694,
+        "diversity": 0.04818341732025146
+      }
+    },
+    "bertha_von_suttner": {
+      "event_driven": {
+        "bertscore": 0.8041733264923095,
+        "lexical_recall": 0.0453311747933923,
+        "title_cov": 0.0,
+        "noloop": 0.9025858250276855,
+        "ctx_recall": 0.0453311747933923,
+        "nohall": 0.0,
+        "storyscore": 0.5006364658127426,
+        "diversity": 0.03253934383392334
+      },
+      "baseline": {
+        "bertscore": 0.7972181797027588,
+        "lexical_recall": 0.04237521155135454,
+        "title_cov": 0.0,
+        "noloop": 0.9496753246753247,
+        "ctx_recall": 0.04237521155135454,
+        "nohall": 0.0,
+        "storyscore": 0.49528099244219703,
+        "diversity": 0.041317641735076904
+      }
+    },
+    "charlie_chaplin": {
+      "event_driven": {
+        "bertscore": 0.8424735069274902,
+        "lexical_recall": 0.25030697382096206,
+        "title_cov": 0.0,
+        "noloop": 0.9761904066232369,
+        "ctx_recall": 0.25030697382096206,
+        "nohall": 0.26598290598290597,
+        "storyscore": 0.605606893684879,
+        "diversity": 0.06694175601005554
+      },
+      "baseline": {
+        "bertscore": 0.8502910137176514,
+        "lexical_recall": 0.2300354781231822,
+        "title_cov": 0.0,
+        "noloop": 0.9645981033144082,
+        "ctx_recall": 0.2300354781231822,
+        "nohall": 0.3474358974358974,
+        "storyscore": 0.6021887994798637,
+        "diversity": 0.05450819134712219
+      }
+    },
+    "cristiano_ronaldo": {
+      "event_driven": {
+        "bertscore": 0.8465914845466613,
+        "lexical_recall": 0.30194876075490806,
+        "title_cov": 0.0,
+        "noloop": 0.9459523809523811,
+        "ctx_recall": 0.30194876075490806,
+        "nohall": 0.37429813664596273,
+        "storyscore": 0.6287343950299599,
+        "diversity": 0.0511613130569458
+      },
+      "baseline": {
+        "bertscore": 0.8370577573776246,
+        "lexical_recall": 0.22158776358986404,
+        "title_cov": 0.0,
+        "noloop": 0.9581179138321996,
+        "ctx_recall": 0.22158776358986404,
+        "nohall": 0.3787231559290383,
+        "storyscore": 0.5908697598625203,
+        "diversity": 0.045706814527511595
+      }
+    },
+    "fairuz": {
+      "event_driven": {
+        "bertscore": 0.8290809392929077,
+        "lexical_recall": 0.10065707120485916,
+        "title_cov": 0.0,
+        "noloop": 0.9544666100792627,
+        "ctx_recall": 0.10065707120485916,
+        "nohall": 0.10207070707070709,
+        "storyscore": 0.5377113920576883,
+        "diversity": 0.0528170108795166
+      },
+      "baseline": {
+        "bertscore": 0.828692352771759,
+        "lexical_recall": 0.09805678508601652,
+        "title_cov": 0.0,
+        "noloop": 0.9660950338077997,
+        "ctx_recall": 0.09805678508601652,
+        "nohall": 0.10493506493506495,
+        "storyscore": 0.5364381256974621,
+        "diversity": 0.050878101587295534
+      }
+    },
+    "frida_kahlo": {
+      "event_driven": {
+        "bertscore": 0.8383361101150513,
+        "lexical_recall": 0.23061759956733008,
+        "title_cov": 0.0,
+        "noloop": 0.9644643109874039,
+        "ctx_recall": 0.23061759956733008,
+        "nohall": 0.19762626262626265,
+        "storyscore": 0.5952487058959628,
+        "diversity": 0.025274133682250975
+      },
+      "baseline": {
+        "bertscore": 0.8393570184707642,
+        "lexical_recall": 0.2252364582654034,
+        "title_cov": 0.0,
+        "noloop": 0.9691486643437862,
+        "ctx_recall": 0.2252364582654034,
+        "nohall": 0.5730158730158731,
+        "storyscore": 0.5937087943886199,
+        "diversity": 0.03469128608703613
+      }
+    },
+    "johnny_depp": {
+      "event_driven": {
+        "bertscore": 0.8199096918106079,
+        "lexical_recall": 0.19366134533082918,
+        "title_cov": 0.0,
+        "noloop": 0.9454385773179602,
+        "ctx_recall": 0.19366134533082918,
+        "nohall": 0.18715728715728716,
+        "storyscore": 0.5694103532186965,
+        "diversity": 0.18305344879627228
+      },
+      "baseline": {
+        "bertscore": 0.8258397579193115,
+        "lexical_recall": 0.19128090085247135,
+        "title_cov": 0.0,
+        "noloop": 0.9610177865612648,
+        "ctx_recall": 0.19128090085247135,
+        "nohall": 0.34500000000000003,
+        "storyscore": 0.5720162150925755,
+        "diversity": 0.11115655303001404
+      }
+    },
+    "klaus_nomi": {
+      "event_driven": {
+        "bertscore": 0.8413056612014771,
+        "lexical_recall": 0.07975218545782434,
+        "title_cov": 0.0,
+        "noloop": 0.9673738630765932,
+        "ctx_recall": 0.07975218545782434,
+        "nohall": 0.39,
+        "storyscore": 0.536684270904016,
+        "diversity": 0.06506356000900268
+      },
+      "baseline": {
+        "bertscore": 0.8419474601745606,
+        "lexical_recall": 0.08040848398269244,
+        "title_cov": 0.0,
+        "noloop": 0.9573352652809506,
+        "ctx_recall": 0.08040848398269244,
+        "nohall": 0.2428571428571428,
+        "storyscore": 0.5373318696978133,
+        "diversity": 0.06476813554763794
+      }
+    },
+    "leonardo_da_vinci": {
+      "event_driven": {
+        "bertscore": 0.8333849549293518,
+        "lexical_recall": 0.2067783694140813,
+        "title_cov": 0.0,
+        "noloop": 0.9729104711713408,
+        "ctx_recall": 0.2067783694140813,
+        "nohall": 0.2802459580323357,
+        "storyscore": 0.5827423207232435,
+        "diversity": 0.03921147584915161
+      },
+      "baseline": {
+        "bertscore": 0.8241169333457947,
+        "lexical_recall": 0.16587497762336914,
+        "title_cov": 0.0,
+        "noloop": 0.9788692943328201,
+        "ctx_recall": 0.16587497762336914,
+        "nohall": 0.31619047619047624,
+        "storyscore": 0.5608201510568245,
+        "diversity": 0.05737144351005554
+      }
+    },
+    "ludwig_van_beethoven": {
+      "event_driven": {
+        "bertscore": 0.848998749256134,
+        "lexical_recall": 0.2231212264495679,
+        "title_cov": 0.0,
+        "noloop": 0.9729079617593728,
+        "ctx_recall": 0.2231212264495679,
+        "nohall": 0.24136321195144722,
+        "storyscore": 0.5986477401335075,
+        "diversity": 0.0731753408908844
+      },
+      "baseline": {
+        "bertscore": 0.8437272548675537,
+        "lexical_recall": 0.1764299772179132,
+        "title_cov": 0.0,
+        "noloop": 0.9716936518149865,
+        "ctx_recall": 0.1764299772179132,
+        "nohall": 0.21111111111111108,
+        "storyscore": 0.5768083438076975,
+        "diversity": 0.06733126640319824
+      }
+    },
+    "maria_callas": {
+      "event_driven": {
+        "bertscore": 0.8420621871948242,
+        "lexical_recall": 0.1780476751692268,
+        "title_cov": 0.0,
+        "noloop": 0.9651190701190702,
+        "ctx_recall": 0.1780476751692268,
+        "nohall": 0.42272727272727273,
+        "storyscore": 0.5764563823845852,
+        "diversity": 0.05647096037864685
+      },
+      "baseline": {
+        "bertscore": 0.8340643882751465,
+        "lexical_recall": 0.13035896738355737,
+        "title_cov": 0.0,
+        "noloop": 0.9729311058891319,
+        "ctx_recall": 0.13035896738355737,
+        "nohall": 0.28376068376068375,
+        "storyscore": 0.5525822199185109,
+        "diversity": 0.0931146800518036
+      }
+    },
+    "marie_curie": {
+      "event_driven": {
+        "bertscore": 0.836557412147522,
+        "lexical_recall": 0.2609168142323931,
+        "title_cov": 0.0,
+        "noloop": 0.9462897439677626,
+        "ctx_recall": 0.2609168142323931,
+        "nohall": 0.32602397602397604,
+        "storyscore": 0.6063011729814703,
+        "diversity": 0.04079176783561707
+      },
+      "baseline": {
+        "bertscore": 0.8294546008110046,
+        "lexical_recall": 0.21952806521450324,
+        "title_cov": 0.0,
+        "noloop": 0.9535725772935075,
+        "ctx_recall": 0.21952806521450324,
+        "nohall": 0.4234343434343435,
+        "storyscore": 0.585483986572404,
+        "diversity": 0.05281530618667603
+      }
+    },
+    "miguel_de_cervantes": {
+      "event_driven": {
+        "bertscore": 0.8262966394424438,
+        "lexical_recall": 0.18729588736259256,
+        "title_cov": 0.0,
+        "noloop": 0.9627342752634979,
+        "ctx_recall": 0.18729588736259256,
+        "nohall": 0.4802020202020202,
+        "storyscore": 0.5706963386105034,
+        "diversity": 0.040657395124435426
+      },
+      "baseline": {
+        "bertscore": 0.8219374060630799,
+        "lexical_recall": 0.16272437424830372,
+        "title_cov": 0.0,
+        "noloop": 0.9779101020314368,
+        "ctx_recall": 0.16272437424830372,
+        "nohall": 0.47018759018759015,
+        "storyscore": 0.5582521933371694,
+        "diversity": 0.037525910139083865
+      }
+    },
+    "pablo_picasso": {
+      "event_driven": {
+        "bertscore": 0.8434529900550842,
+        "lexical_recall": 0.1683930728055674,
+        "title_cov": 0.0,
+        "noloop": 0.9726849310671353,
+        "ctx_recall": 0.1683930728055674,
+        "nohall": 0.07756056808688387,
+        "storyscore": 0.5734290231552774,
+        "diversity": 0.048014914989471434
+      },
+      "baseline": {
+        "bertscore": 0.8409619212150574,
+        "lexical_recall": 0.17196609808242508,
+        "title_cov": 0.0,
+        "noloop": 0.9738337232126053,
+        "ctx_recall": 0.17196609808242508,
+        "nohall": 0.20505494505494504,
+        "storyscore": 0.5733635919620044,
+        "diversity": 0.052612829208374026
+      }
+    },
+    "satyajit_ray": {
+      "event_driven": {
+        "bertscore": 0.8248439431190491,
+        "lexical_recall": 0.15613738450925177,
+        "title_cov": 0.0,
+        "noloop": 0.965818216175359,
+        "ctx_recall": 0.15613738450925177,
+        "nohall": 0.2280861244019139,
+        "storyscore": 0.5573613196751301,
+        "diversity": 0.05418623685836792
+      },
+      "baseline": {
+        "bertscore": 0.8269758582115173,
+        "lexical_recall": 0.16264956727215124,
+        "title_cov": 0.0,
+        "noloop": 0.9740826185546683,
+        "ctx_recall": 0.16264956727215124,
+        "nohall": 0.36023976023976023,
+        "storyscore": 0.5612453418357709,
+        "diversity": 0.053753191232681276
+      }
+    },
+    "serge_gainsbourg": {
+      "event_driven": {
+        "bertscore": 0.8315598130226135,
+        "lexical_recall": 0.12313024332056681,
+        "title_cov": 0.0,
+        "noloop": 0.9596679898174916,
+        "ctx_recall": 0.12313024332056681,
+        "nohall": 0.2050793650793651,
+        "storyscore": 0.5481879851417949,
+        "diversity": 0.07766711115837097
+      },
+      "baseline": {
+        "bertscore": 0.8359709143638611,
+        "lexical_recall": 0.12740964936250243,
+        "title_cov": 0.0,
+        "noloop": 0.9659599483204134,
+        "ctx_recall": 0.12740964936250243,
+        "nohall": 0.3612121212121212,
+        "storyscore": 0.5525464083633176,
+        "diversity": 0.07622873187065124
+      }
+    },
+    "taylor_swift": {
+      "event_driven": {
+        "bertscore": 0.8357488870620727,
+        "lexical_recall": 0.21712152425288855,
+        "title_cov": 0.0,
+        "noloop": 0.9671829073042421,
+        "ctx_recall": 0.21712152425288855,
+        "nohall": 0.22999999999999998,
+        "storyscore": 0.588297941938399,
+        "diversity": 0.039765197038650515
+      },
+      "baseline": {
+        "bertscore": 0.8292415618896485,
+        "lexical_recall": 0.16986569982880567,
+        "title_cov": 0.0,
+        "noloop": 0.9567733013649493,
+        "ctx_recall": 0.16986569982880567,
+        "nohall": 0.49000000000000005,
+        "storyscore": 0.5654912170653114,
+        "diversity": 0.06935620307922363
+      }
+    },
+    "vaslav_nijinsky": {
+      "event_driven": {
+        "bertscore": 0.8410968780517578,
+        "lexical_recall": 0.10461515443922154,
+        "title_cov": 0.0,
+        "noloop": 0.956558917817499,
+        "ctx_recall": 0.10461515443922154,
+        "nohall": 0.04913419913419914,
+        "storyscore": 0.5465041886067433,
+        "diversity": 0.029589360952377318
+      },
+      "baseline": {
+        "bertscore": 0.8448609709739685,
+        "lexical_recall": 0.09279925768597949,
+        "title_cov": 0.0,
+        "noloop": 0.9694034023818798,
+        "ctx_recall": 0.09279925768597949,
+        "nohall": 0.088975468975469,
+        "storyscore": 0.5440362856587729,
+        "diversity": 0.042824918031692506
+      }
+    },
+    "vincent_van_gogh": {
+      "event_driven": {
+        "bertscore": 0.8430763125419617,
+        "lexical_recall": 0.2508571182015605,
+        "title_cov": 0.0,
+        "noloop": 0.9271498712348055,
+        "ctx_recall": 0.2508571182015605,
+        "nohall": 0.19564804390655785,
+        "storyscore": 0.6061886348058012,
+        "diversity": 0.06790188550949097
+      },
+      "baseline": {
+        "bertscore": 0.8438137531280517,
+        "lexical_recall": 0.2308691149859426,
+        "title_cov": 0.0,
+        "noloop": 0.9318946975128497,
+        "ctx_recall": 0.2308691149859426,
+        "nohall": 0.35021645021645026,
+        "storyscore": 0.5986358978712081,
+        "diversity": 0.06729351282119751
+      }
+    },
+    "wolfgang_amadeus_mozart": {
+      "event_driven": {
+        "bertscore": 0.8472941517829895,
+        "lexical_recall": 0.17586644887821634,
+        "title_cov": 0.0,
+        "noloop": 0.966815702028468,
+        "ctx_recall": 0.17586644887821634,
+        "nohall": 0.2575954592363261,
+        "storyscore": 0.5787230706210803,
+        "diversity": 0.03862655162811279
+      },
+      "baseline": {
+        "bertscore": 0.8471492409706116,
+        "lexical_recall": 0.15746636261207334,
+        "title_cov": 0.0,
+        "noloop": 0.9732065271808347,
+        "ctx_recall": 0.15746636261207334,
+        "nohall": 0.4203174603174603,
+        "storyscore": 0.5712760896271962,
+        "diversity": 0.040204590559005736
+      }
+    }
+  },
+  "global_avg": {
+    "event_driven": {
+      "bertscore": 0.8349168032407761,
+      "lexical_recall": 0.17519027737397028,
+      "title_cov": 0.0,
+      "noloop": 0.9533737368470272,
+      "ctx_recall": 0.17519027737397028,
+      "nohall": 0.22554007491327122,
+      "storyscore": 0.5710261928940537,
+      "diversity": 0.05891754463315011
+    },
+    "baseline": {
+      "bertscore": 0.8333364897966385,
+      "lexical_recall": 0.1542244288054434,
+      "title_cov": 0.0,
+      "noloop": 0.9646696735526739,
+      "ctx_recall": 0.1542244288054434,
+      "nohall": 0.2986333772436714,
+      "storyscore": 0.5616916654001605,
+      "diversity": 0.05808213621377946
+    }
+  }
+}

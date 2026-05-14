@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 10.0,
+  "coverage_raw": 7.4,
+  "factual_consistency": 1.0,
+  "coverage": 0.711111111111111,
+  "reasoning": [
+    "The generated text aligns with the reference on key facts without contradictions. However, it omits several important aspects mentioned in the reference, such as certain key figures and fields of development.",
+    "The generated text is consistent with the reference text with no contradictions. The generated text covers most key points from the reference but misses some specific details.",
+    "Factual consistency is high with no contradictions; coverage is good but misses some key points like diplomacy and accounting.",
+    "All facts in the generated text are consistent with the reference text, with no contradictions. The generated text covers most key points from the reference but omits some important aspects like politics, exploration, technology, and banking/accounting.",
+    "All facts in the generated text align with the reference without contradiction. The generated text addresses most key points from the reference but omits some important aspects such as exploration and banking."
+  ]
+}

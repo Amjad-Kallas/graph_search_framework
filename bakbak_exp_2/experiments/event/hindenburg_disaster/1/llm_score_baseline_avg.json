@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.6,
+  "coverage_raw": 8.8,
+  "factual_consistency": 0.9555555555555555,
+  "coverage": 0.8666666666666666,
+  "reasoning": [
+    "No contradictions with reference text. Major points covered, some minor details omitted.",
+    "No contradictions with reference text; minor omissions in coverage.",
+    "All stated facts match the reference without contradictions. Most key points are covered, but some details like the ground fatality and specific media coverage are missing.",
+    "All facts in the generated text that overlap with the reference are consistent, with no contradictions. The generated text covers all key points from the reference, with only minor details missing.",
+    "The generated text has one factual contradiction but is otherwise consistent with the reference. It covers all key points from the reference with one minor omission."
+  ]
+}

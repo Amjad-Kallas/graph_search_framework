@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.0,
+  "coverage_raw": 6.4,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.6,
+  "reasoning": [
+    "The generated text contradicts the reference regarding the timeline of Depp's collaboration with Tim Burton. It covers major career events but omits many specific details from the reference.",
+    "The generated text has significant contradictions with the reference regarding the legal dispute outcome and the incorrect inclusion of 'Batman Returns'; The generated text covers most key points but omits some details like the production company and rock supergroup.",
+    "The generated text contains several factual inaccuracies and contradictions with the reference. The generated text addresses most key points but omits significant aspects like awards and legal issues.",
+    "factual_consistency: Mostly accurate but includes unsupported facts (e.g., 'Hocus Pocus', 'The Six Triple Eight'). coverage: Covers main career points but omits key details like early music career, awards, and production ventures.",
+    "Contradictions in career start date and specific film roles; covers major career points but omits awards and music career."
+  ]
+}

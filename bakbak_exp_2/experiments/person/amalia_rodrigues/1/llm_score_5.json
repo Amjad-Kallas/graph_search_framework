@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 4,
+  "coverage_raw": 3,
+  "factual_consistency": 0.3333333333333333,
+  "coverage": 0.2222222222222222,
+  "reasoning": "The generated text correctly states some facts about Am\u00e1lia Rodrigues but contains major inconsistencies regarding the content of the reference text. The generated text covers some key points about Am\u00e1lia Rodrigues but omits major aspects of her career and includes extensive irrelevant information about other musicians."
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "factual_consistency: Mostly accurate but includes unsupported facts (e.g., 'Hocus Pocus', 'The Six Triple Eight'). coverage: Covers main career points but omits key details like early music career, awards, and production ventures."
+}

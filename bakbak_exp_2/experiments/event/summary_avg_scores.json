@@ -1,0 +1,380 @@
+{
+  "n_runs_per_event": 5,
+  "n_events": 16,
+  "per_event": {
+    "apollo_11_moon_landing": {
+      "event_driven": {
+        "bertscore": 0.8494717955589295,
+        "lexical_recall": 0.30275506460507706,
+        "title_cov": 0.0,
+        "noloop": 0.9582049078418903,
+        "ctx_recall": 0.30275506460507706,
+        "nohall": 0.7627747252747252,
+        "storyscore": 0.6307851031773886,
+        "diversity": 0.058161687850952146
+      },
+      "baseline": {
+        "bertscore": 0.8508800387382507,
+        "lexical_recall": 0.3005997354111348,
+        "title_cov": 0.0,
+        "noloop": 0.9560804952033342,
+        "ctx_recall": 0.3005997354111348,
+        "nohall": 0.7666666666666666,
+        "storyscore": 0.6307679174074043,
+        "diversity": 0.06760321855545044
+      }
+    },
+    "cold_war": {
+      "event_driven": {
+        "bertscore": 0.8424619317054749,
+        "lexical_recall": 0.2235287050298403,
+        "title_cov": 0.0,
+        "noloop": 0.9417642140468228,
+        "ctx_recall": 0.2235287050298403,
+        "nohall": 0.06217032967032965,
+        "storyscore": 0.594888641035221,
+        "diversity": 0.07634875178337097
+      },
+      "baseline": {
+        "bertscore": 0.858546781539917,
+        "lexical_recall": 0.29259429907196394,
+        "title_cov": 0.0,
+        "noloop": 0.9659648789748457,
+        "ctx_recall": 0.29259429907196394,
+        "nohall": 0.1607936507936508,
+        "storyscore": 0.6321657885527359,
+        "diversity": 0.0912193477153778
+      }
+    },
+    "congo_crisis": {
+      "event_driven": {
+        "bertscore": 0.8517180681228638,
+        "lexical_recall": 0.2701458579161795,
+        "title_cov": 0.0,
+        "noloop": 0.9506688644796741,
+        "ctx_recall": 0.2701458579161795,
+        "nohall": 0.4678239407651172,
+        "storyscore": 0.61908918404019,
+        "diversity": 0.10565652847290039
+      },
+      "baseline": {
+        "bertscore": 0.8548453688621521,
+        "lexical_recall": 0.2672494150860475,
+        "title_cov": 0.0,
+        "noloop": 0.968544465308874,
+        "ctx_recall": 0.2672494150860475,
+        "nohall": 0.5444444444444445,
+        "storyscore": 0.6198069873517102,
+        "diversity": 0.062483477592468264
+      }
+    },
+    "cultural_revolution": {
+      "event_driven": {
+        "bertscore": 0.8387796759605408,
+        "lexical_recall": 0.20740525647672806,
+        "title_cov": 0.0,
+        "noloop": 0.9372925320293742,
+        "ctx_recall": 0.20740525647672806,
+        "nohall": 0.4792063492063492,
+        "storyscore": 0.5862299081670156,
+        "diversity": 0.12429185509681702
+      },
+      "baseline": {
+        "bertscore": 0.8509128808975219,
+        "lexical_recall": 0.23746368418405123,
+        "title_cov": 0.0,
+        "noloop": 0.9518265455474758,
+        "ctx_recall": 0.23746368418405123,
+        "nohall": 0.5156843156843156,
+        "storyscore": 0.6055332022121338,
+        "diversity": 0.07237801551818848
+      }
+    },
+    "french_revolution": {
+      "event_driven": {
+        "bertscore": 0.8526153445243836,
+        "lexical_recall": 0.22621275685399467,
+        "title_cov": 0.0,
+        "noloop": 0.9663448146056842,
+        "ctx_recall": 0.22621275685399467,
+        "nohall": 0.41979458450046686,
+        "storyscore": 0.602054309456228,
+        "diversity": 0.07318860292434692
+      },
+      "baseline": {
+        "bertscore": 0.8448004245758056,
+        "lexical_recall": 0.2254910581919746,
+        "title_cov": 0.0,
+        "noloop": 0.9729451050292187,
+        "ctx_recall": 0.2254910581919746,
+        "nohall": 0.42695304695304703,
+        "storyscore": 0.5970766780222732,
+        "diversity": 0.05446632504463196
+      }
+    },
+    "good_friday_agreement": {
+      "event_driven": {
+        "bertscore": 0.831834864616394,
+        "lexical_recall": 0.17830530947183512,
+        "title_cov": 0.0,
+        "noloop": 0.9499819736027779,
+        "ctx_recall": 0.17830530947183512,
+        "nohall": 0.08333333333333334,
+        "storyscore": 0.5704230425585705,
+        "diversity": 0.11455857157707214
+      },
+      "baseline": {
+        "bertscore": 0.834552001953125,
+        "lexical_recall": 0.16966362992004885,
+        "title_cov": 0.0,
+        "noloop": 0.9359637188208618,
+        "ctx_recall": 0.16966362992004885,
+        "nohall": 0.13636363636363635,
+        "storyscore": 0.5685966531398946,
+        "diversity": 0.08958451747894287
+      }
+    },
+    "hindenburg_disaster": {
+      "event_driven": {
+        "bertscore": 0.837147843837738,
+        "lexical_recall": 0.13239264294679504,
+        "title_cov": 0.0,
+        "noloop": 0.9589340604054076,
+        "ctx_recall": 0.13239264294679504,
+        "nohall": 0.0,
+        "storyscore": 0.5552457634813609,
+        "diversity": 0.06953648924827575
+      },
+      "baseline": {
+        "bertscore": 0.8430617451667786,
+        "lexical_recall": 0.1329426030957121,
+        "title_cov": 0.0,
+        "noloop": 0.961236064797883,
+        "ctx_recall": 0.1329426030957121,
+        "nohall": 0.0,
+        "storyscore": 0.5590140883383519,
+        "diversity": 0.03619071841239929
+      }
+    },
+    "munich_massacre": {
+      "event_driven": {
+        "bertscore": 0.8401349306106567,
+        "lexical_recall": 0.15794372180450608,
+        "title_cov": 0.0,
+        "noloop": 0.9622049070233981,
+        "ctx_recall": 0.15794372180450608,
+        "nohall": 0.1,
+        "storyscore": 0.5672584470881965,
+        "diversity": 0.03333107233047485
+      },
+      "baseline": {
+        "bertscore": 0.8449283957481384,
+        "lexical_recall": 0.1688314806639869,
+        "title_cov": 0.0,
+        "noloop": 0.9601932367149759,
+        "ctx_recall": 0.1688314806639869,
+        "nohall": 0.1983333333333333,
+        "storyscore": 0.5744896297144778,
+        "diversity": 0.046890789270401
+      }
+    },
+    "nigerian_civil_war": {
+      "event_driven": {
+        "bertscore": 0.8575137853622437,
+        "lexical_recall": 0.26540928911347716,
+        "title_cov": 0.0,
+        "noloop": 0.9172961691566343,
+        "ctx_recall": 0.26540928911347716,
+        "nohall": 0.3742657342657343,
+        "storyscore": 0.6206719868627371,
+        "diversity": 0.10618961453437806
+      },
+      "baseline": {
+        "bertscore": 0.85795818567276,
+        "lexical_recall": 0.2346538849055512,
+        "title_cov": 0.0,
+        "noloop": 0.9695158102766799,
+        "ctx_recall": 0.2346538849055512,
+        "nohall": 0.37588189588189586,
+        "storyscore": 0.6086364653658765,
+        "diversity": 0.07193893194198608
+      }
+    },
+    "renaissance": {
+      "event_driven": {
+        "bertscore": 0.8320673823356628,
+        "lexical_recall": 0.11380457892369251,
+        "title_cov": 0.0,
+        "noloop": 0.9547022016149315,
+        "ctx_recall": 0.11380457892369251,
+        "nohall": 0.17567765567765564,
+        "storyscore": 0.5447622609708745,
+        "diversity": 0.06871274709701539
+      },
+      "baseline": {
+        "bertscore": 0.8380744457244873,
+        "lexical_recall": 0.1558048638953429,
+        "title_cov": 0.0,
+        "noloop": 0.9678596597201249,
+        "ctx_recall": 0.1558048638953429,
+        "nohall": 0.20717948717948714,
+        "storyscore": 0.5651666129928294,
+        "diversity": 0.07091372013092041
+      }
+    },
+    "september_11_attacks": {
+      "event_driven": {
+        "bertscore": 0.8485599160194397,
+        "lexical_recall": 0.2880420039568933,
+        "title_cov": 0.0,
+        "noloop": 0.9434781488352917,
+        "ctx_recall": 0.2880420039568933,
+        "nohall": 0.4935897435897436,
+        "storyscore": 0.6243527511944211,
+        "diversity": 0.05051431655883789
+      },
+      "baseline": {
+        "bertscore": 0.854768967628479,
+        "lexical_recall": 0.3311745662576097,
+        "title_cov": 0.0,
+        "noloop": 0.9532699000044051,
+        "ctx_recall": 0.3311745662576097,
+        "nohall": 0.598041958041958,
+        "storyscore": 0.6453312070801313,
+        "diversity": 0.044962209463119504
+      }
+    },
+    "six_day_war": {
+      "event_driven": {
+        "bertscore": 0.8386068701744079,
+        "lexical_recall": 0.19961982059791492,
+        "title_cov": 0.0,
+        "noloop": 0.9641191229464361,
+        "ctx_recall": 0.19961982059791492,
+        "nohall": 0.195021645021645,
+        "storyscore": 0.5830120503438108,
+        "diversity": 0.06256905198097229
+      },
+      "baseline": {
+        "bertscore": 0.8687971353530883,
+        "lexical_recall": 0.2880491862416463,
+        "title_cov": 0.0,
+        "noloop": 0.9570449172576833,
+        "ctx_recall": 0.2880491862416463,
+        "nohall": 0.5349999999999999,
+        "storyscore": 0.6364979557085115,
+        "diversity": 0.04726673364639282
+      }
+    },
+    "storming_of_the_bastille": {
+      "event_driven": {
+        "bertscore": 0.8264945864677429,
+        "lexical_recall": 0.13558436028166576,
+        "title_cov": 0.0,
+        "noloop": 0.9612903356805796,
+        "ctx_recall": 0.13558436028166576,
+        "nohall": 0.0,
+        "storyscore": 0.5501304959933121,
+        "diversity": 0.08251234889030457
+      },
+      "baseline": {
+        "bertscore": 0.8313006520271301,
+        "lexical_recall": 0.12813939254475054,
+        "title_cov": 0.0,
+        "noloop": 0.9602387372205371,
+        "ctx_recall": 0.12813939254475054,
+        "nohall": 0.0,
+        "storyscore": 0.5500361482341781,
+        "diversity": 0.03459436297416687
+      }
+    },
+    "taiping_rebellion": {
+      "event_driven": {
+        "bertscore": 0.8500262022018432,
+        "lexical_recall": 0.24456222485950924,
+        "title_cov": 0.0,
+        "noloop": 0.9516140499067329,
+        "ctx_recall": 0.24456222485950924,
+        "nohall": 0.4356862745098039,
+        "storyscore": 0.6078406112649096,
+        "diversity": 0.17594115138053895
+      },
+      "baseline": {
+        "bertscore": 0.8508333683013916,
+        "lexical_recall": 0.2338487339036285,
+        "title_cov": 0.0,
+        "noloop": 0.962458193979933,
+        "ctx_recall": 0.2338487339036285,
+        "nohall": 0.51,
+        "storyscore": 0.6040395145422863,
+        "diversity": 0.051233220100402835
+      }
+    },
+    "world_war_1": {
+      "event_driven": {
+        "bertscore": 0.8442259907722474,
+        "lexical_recall": 0.2845752124027112,
+        "title_cov": 0.0,
+        "noloop": 0.9741002215285608,
+        "ctx_recall": 0.2845752124027112,
+        "nohall": 0.20619684663162924,
+        "storyscore": 0.6203656794244329,
+        "diversity": 0.08585065603256226
+      },
+      "baseline": {
+        "bertscore": 0.852339506149292,
+        "lexical_recall": 0.30836470312609787,
+        "title_cov": 0.0,
+        "noloop": 0.9675463492940697,
+        "ctx_recall": 0.30836470312609787,
+        "nohall": 0.3764646464646465,
+        "storyscore": 0.6347495849400143,
+        "diversity": 0.07048422694206238
+      }
+    },
+    "world_war_2": {
+      "event_driven": {
+        "bertscore": 0.8471727728843689,
+        "lexical_recall": 0.29517779931950816,
+        "title_cov": 0.0,
+        "noloop": 0.966097604259095,
+        "ctx_recall": 0.29517779931950816,
+        "nohall": 0.21714285714285714,
+        "storyscore": 0.6263747834584247,
+        "diversity": 0.06972441673278809
+      },
+      "baseline": {
+        "bertscore": 0.8516162037849426,
+        "lexical_recall": 0.32305021354504126,
+        "title_cov": 0.0,
+        "noloop": 0.961142915877421,
+        "ctx_recall": 0.32305021354504126,
+        "nohall": 0.3101190476190476,
+        "storyscore": 0.640189807688982,
+        "diversity": 0.07775040864944457
+      }
+    }
+  },
+  "global_avg": {
+    "event_driven": {
+      "bertscore": 0.8430519975721835,
+      "lexical_recall": 0.22034153778502052,
+      "title_cov": 0.0,
+      "noloop": 0.9536308829977057,
+      "ctx_recall": 0.22034153778502052,
+      "nohall": 0.2795427512243369,
+      "storyscore": 0.5939678136573184,
+      "diversity": 0.08481799140572548
+    },
+    "baseline": {
+      "bertscore": 0.8492635063827036,
+      "lexical_recall": 0.2373700906277868,
+      "title_cov": 0.0,
+      "noloop": 0.9607394371267701,
+      "ctx_recall": 0.2373700906277868,
+      "nohall": 0.35387038308913304,
+      "storyscore": 0.6045061400807369,
+      "diversity": 0.061872513964772224
+    }
+  }
+}

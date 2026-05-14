@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 4,
+  "coverage_raw": 6,
+  "factual_consistency": 0.3333333333333333,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contains several factual inaccuracies and contradictions with the reference. The generated text addresses most key points but omits significant aspects like awards and legal issues."
+}

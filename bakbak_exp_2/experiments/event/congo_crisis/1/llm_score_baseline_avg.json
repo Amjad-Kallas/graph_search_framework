@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.2,
+  "coverage_raw": 7.0,
+  "factual_consistency": 0.9111111111111111,
+  "coverage": 0.6666666666666667,
+  "reasoning": [
+    "All stated facts in the generated text are consistent with the reference, with no contradictions. The generated text addresses most key points from the reference but omits several important aspects such as the Simba rebellion and the interim government.",
+    "The generated text is largely consistent with the reference but contains a significant contradiction regarding the duration of Katanga's secession. While most key points are covered, important details like the compromise constitution and Tshombe's recall are missing.",
+    "Factual consistency is high with no major contradictions, only minor timeline discrepancies. Coverage is good but misses some important details from the reference such as South Kasai's secession, the rival government in Stanleyville, the Simbas rebellion, and Tshombe's return.",
+    "The generated text is mostly consistent with the reference text. It covers main events but misses some key details.",
+    "All facts in the generated text match the reference without contradiction. The generated text addresses most key events but omits some significant details such as the Simba rebellion and the rival government in Stanleyville."
+  ]
+}

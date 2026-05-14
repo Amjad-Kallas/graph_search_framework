@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 9,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.8888888888888888,
+  "reasoning": "The generated text is mostly factually consistent with minor discrepancies in dates. It covers all key points from the reference text."
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is mostly consistent with the reference text but has a contradiction regarding the record-breaking sale. It covers many key points but misses some important aspects like political involvement and teaching career."
+}

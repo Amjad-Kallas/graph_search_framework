@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 8.8,
+  "coverage_raw": 6.2,
+  "factual_consistency": 0.8666666666666666,
+  "coverage": 0.5777777777777778,
+  "reasoning": [
+    "The generated text is largely consistent with the reference, with no major contradictions. The generated text covers many key aspects of Callas's life and career but omits several important details and events from the reference.",
+    "Factual consistency is high as there are no contradictions with the reference text. Coverage is moderate as some key personal details and events are omitted.",
+    "Minor discrepancy in the age she started musical education; misses personal struggles and key personal life events.",
+    "The generated text is mostly consistent with the reference, with only a minor discrepancy in the spelling of her birth name. The generated text covers most of the key points about Callas's life and career but omits significant personal drama and scandal present in the reference.",
+    "The text is mostly consistent but has some contradictions and unsupported details. Major points are covered but some key aspects (e.g., Onassis affair) are missing."
+  ]
+}

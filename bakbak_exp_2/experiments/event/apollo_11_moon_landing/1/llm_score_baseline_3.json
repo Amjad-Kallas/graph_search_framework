@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 8,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is mostly factually consistent with one notable error in the timing of the moonwalk. It covers most key points from the reference but omits some details such as the Soviet Luna 15 mission and the Apollo 1 fire."
+}

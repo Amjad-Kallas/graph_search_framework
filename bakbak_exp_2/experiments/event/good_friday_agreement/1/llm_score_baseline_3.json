@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "All facts in the generated text align with the reference without contradictions. Most key points are covered, but some specific details from the reference are missing."
+}

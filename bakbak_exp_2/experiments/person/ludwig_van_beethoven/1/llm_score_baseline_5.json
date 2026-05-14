@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 7,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text does not contradict the reference and matches on all major facts. The generated text covers the main stages of Beethoven's life and career but omits several key works and details present in the reference."
+}

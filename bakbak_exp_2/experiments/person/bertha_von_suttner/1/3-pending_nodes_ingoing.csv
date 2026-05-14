@@ -1,0 +1,10 @@
+,subject,predicate,object,type_df,superclass
+0,http://www.wikidata.org/entity/Q12832683,http://www.w3.org/2002/07/owl#sameAs,http://www.wikidata.org/entity/Q18456,ingoing,[]
+1,http://www.wikidata.org/entity/Q35637,http://www.wikidata.org/prop/direct/P1346,http://www.wikidata.org/entity/Q18456,ingoing,[]
+10,http://www.wikidata.org/entity/Q8905520,http://www.wikidata.org/prop/direct/P301,http://www.wikidata.org/entity/Q18456,ingoing,[]
+11,http://www.wikidata.org/entity/Q33148798,http://www.wikidata.org/prop/direct/P40,http://www.wikidata.org/entity/Q18456,ingoing,[]
+0,http://www.wikidata.org/entity/Q2625673,http://www.wikidata.org/prop/direct/P155,http://www.wikidata.org/entity/Q137526,ingoing,[]
+0,http://www.wikidata.org/entity/Q24296154,http://www.w3.org/2002/07/owl#sameAs,http://www.wikidata.org/entity/Q15299313,ingoing,[]
+0,http://www.wikidata.org/entity/Q15813037,http://www.wikidata.org/prop/direct/P559,http://www.wikidata.org/entity/Q827673,ingoing,[]
+1,http://www.wikidata.org/entity/Q892807,http://www.wikidata.org/prop/direct/P559,http://www.wikidata.org/entity/Q827673,ingoing,[]
+2,http://www.wikidata.org/entity/Q15813032,http://www.wikidata.org/prop/direct/P669,http://www.wikidata.org/entity/Q827673,ingoing,[]

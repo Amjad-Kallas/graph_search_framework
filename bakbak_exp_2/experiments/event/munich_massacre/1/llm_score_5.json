@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 5,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.4444444444444444,
+  "reasoning": "The generated text contradicts the reference on key details such as casualty numbers and demands; it omits several key aspects including the operation name and Israeli response."
+}

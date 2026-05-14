@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 7,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text has significant contradictions with the reference regarding the legal dispute outcome and the incorrect inclusion of 'Batman Returns'; The generated text covers most key points but omits some details like the production company and rock supergroup."
+}

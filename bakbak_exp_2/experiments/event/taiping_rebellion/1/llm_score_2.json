@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 7,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text's facts align with the reference except for a minor ambiguity regarding Hong Xiuquan's death. The generated text covers the main narrative but omits some important details such as internal conflicts and specific massacres."
+}

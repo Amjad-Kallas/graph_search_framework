@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 5,
+  "coverage_raw": 6,
+  "factual_consistency": 0.4444444444444444,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contradicts the reference on key facts such as France's support for Nigeria instead of Biafra and the timeline of Port Harcourt's capture. The generated text covers the main events of the war but omits important details like the role of Ojukwu and post-war marginalization of the Igbo people."
+}

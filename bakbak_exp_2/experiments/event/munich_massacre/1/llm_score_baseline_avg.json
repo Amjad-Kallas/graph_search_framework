@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.8,
+  "coverage_raw": 6.0,
+  "factual_consistency": 0.6444444444444445,
+  "coverage": 0.5555555555555556,
+  "reasoning": [
+    "The generated text contradicts the reference on the number of prisoners demanded but is otherwise consistent. The generated text covers the main events but omits several key points from the reference.",
+    "The generated text has some factual inconsistencies with the reference, particularly in numbers and details. The generated text covers main events but misses several key points from the reference.",
+    "The generated text is mostly consistent with the reference but contradicts on the number of prisoners demanded. The generated text covers the main events but omits several key details from the reference.",
+    "The generated text contradicts the reference on the number of initial deaths and prisoners demanded. It covers most key points but omits some details from the reference.",
+    "The generated text contradicts the reference on key facts such as the number of prisoners demanded and the number of terrorists killed. It covers most main events but misses important details like the operation name and the release of surviving perpetrators."
+  ]
+}

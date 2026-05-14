@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "factual_consistency: No contradictions between generated and reference text. coverage: Most key points covered, but missing some important details like the Vitruvian Man and founder of High Renaissance."
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 7,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is mostly consistent with the reference but has minor inaccuracies. It covers many key points but omits some important aspects such as international involvement and post-war Igbo marginalization."
+}

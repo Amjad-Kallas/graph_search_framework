@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 6,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contradicts the reference on key facts such as the number of prisoners demanded and the number of terrorists killed. It covers most main events but misses important details like the operation name and the release of surviving perpetrators."
+}

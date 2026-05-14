@@ -1,0 +1,10 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 6,
+  "factual_consistency": 1.0,
+  "coverage": 0.5555555555555556,
+  "reasoning": {
+    "factual_consistency": "No contradictions with the reference text.",
+    "coverage": "Covers the main themes but omits several key details from the reference text."
+  }
+}

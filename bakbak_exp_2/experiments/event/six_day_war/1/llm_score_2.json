@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 6,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is consistent with the reference text and does not contradict any facts presented in the reference.; The generated text covers the main causes and key military events but omits several important details and consequences mentioned in the reference text."
+}

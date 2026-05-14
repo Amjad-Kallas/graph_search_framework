@@ -1,0 +1,623 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Albert_Pujols a sem:Event ;
+    sem:hasTimeStamp "1980-01-16"^^xsd:date ;
+    rdfs:comment "José Alberto Pujols Alcántara (Spanish pronunciation: [puˈxols]; born January 16, 1980) is a Dominican-American professional baseball manager and former first baseman and designated hitter who is the manager of the Estrellas Orientales of the Dominican Professional Baseball League. He played 22 seasons in Major League Baseball (MLB) for the St. Louis Cardinals, Los Angeles Angels of Anaheim / Los Angeles Angels, and Los Angeles Dodgers." .
+
+ng:Allan_Simonsen a sem:Event ;
+    sem:hasActor ng:1972_Summer_Olympics,
+        ng:1986_FIFA_World_Cup,
+        ng:UEFA_Euro_1984 ;
+    sem:hasTimeStamp "1952-12-15"^^xsd:date ;
+    rdfs:comment "Allan Rodenkam Simonsen (born 15 December 1952) is a Danish former footballer and manager. He most prominently played as a striker for German Bundesliga club Borussia Mönchengladbach, winning the 1975 and 1979 UEFA Cups, as well as for Barcelona in Spain, winning the 1982 Cup Winners' Cup. Simonsen is the only footballer to have scored in the European Cup, UEFA Cup, and Cup Winners' Cup finals." .
+
+ng:Andriy_Shevchenko a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:UEFA_Euro_2012 ;
+    sem:hasTimeStamp "1976-09-29"^^xsd:date ;
+    rdfs:comment "Andriy Mykolayovych Shevchenko (Ukrainian: Андрій Миколайович Шевченко, pronounced [ɐnˈd⁽ʲ⁾r⁽ʲ⁾ij mekoˈlɑjowetʃ ʃeu̯ˈtʃɛnko]; born 29 September 1976) is a Ukrainian former football manager and player. Shevchenko is considered one of the greatest strikers of all time and Ukraine's greatest ever player. He is the all-time top scorer for the Ukraine national team with 48 goals." .
+
+ng:Arjen_Robben a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Euro_2008,
+        ng:UEFA_Euro_2012 ;
+    sem:hasTimeStamp "1984-01-23"^^xsd:date ;
+    rdfs:comment "Arjen Robben (Dutch pronunciation: [ˈɑrjə(n) ˈrɔbə(n)] ; born 23 January 1984) is a Dutch former professional footballer who played as a winger. Known for his dribbling skills, speed, and long-range shots, he is regarded as one of the best players of his generation and one of the greatest wingers of all time. He ranks second for the all-time Dutch top goalscorers (32) in the UEFA Champions League and is the all-time Dutch top assist provider (19) in the competition." .
+
+ng:Bebeto a sem:Event ;
+    sem:hasActor ng:1988_Summer_Olympics,
+        ng:1990_FIFA_World_Cup,
+        ng:1994_FIFA_World_Cup,
+        ng:1996_Summer_Olympics,
+        ng:1998_FIFA_World_Cup ;
+    sem:hasTimeStamp "1964-02-16"^^xsd:date ;
+    rdfs:comment "José Roberto Gama de Oliveira (born 16 February 1964), known as Bebeto (Brazilian Portuguese: [beˈbɛtu]), is a Brazilian former professional football player who played as a forward. He entered politics in the 2010 Brazilian general elections and was elected to the Legislative Assembly of Rio de Janeiro representing the Democratic Labour Party. With 39 goals in 75 appearances for Brazil, Bebeto is the sixth highest goalscorer for his national team." .
+
+ng:Best_International_Athlete_ESPY_Award a sem:Event ;
+    rdfs:comment "The Best International Athlete ESPY Award is an award given to the sportsperson adjudged to have been the best or most outstanding of those born outside, or not possessing citizenship, of the United States who contest a major international sport in a given calendar year. From 2008 to 2009, the award was split into Best Female International Athlete ESPY Award and Best Male International Athlete ESPY Award. The women's version of the award for 2008 and 2009 was presented to Mexican professional golfer Lorena Ochoa." .
+
+ng:Birgit_Prinz a sem:Event ;
+    sem:hasActor ng:1996_Summer_Olympics,
+        ng:2000_Summer_Olympics,
+        ng:2004_Summer_Olympics,
+        ng:2008_Summer_Olympics ;
+    sem:hasTimeStamp "1977-10-25"^^xsd:date ;
+    rdfs:comment "Birgit Prinz (born 25 October 1977) is a German former footballer, two-time FIFA Women's World Cup champion and three-time FIFA World Player of the Year. In addition to the German national team, Prinz played for 1. FFC Frankfurt in the Frauen-Bundesliga as well as the Carolina Courage in the Women's United Soccer Association (WUSA), the first professional women's league in the United States." .
+
+ng:Bobby_Charlton a sem:Event ;
+    sem:hasActor ng:1958_FIFA_World_Cup,
+        ng:1962_FIFA_World_Cup,
+        ng:1966_FIFA_World_Cup,
+        ng:1970_FIFA_World_Cup,
+        ng:UEFA_Euro_1968 ;
+    sem:hasTimeStamp "1937-10-11"^^xsd:date ;
+    rdfs:comment "Sir Robert Charlton (11 October 1937 – 21 October 2023) was an English footballer who played as an attacking midfielder, left winger or centre-forward. Widely considered one of the greatest players of all time, he was a member of the England team that won the 1966 FIFA World Cup, the year he also won the Ballon d'Or. He finished second in the Ballon d'Or voting in 1967 and 1968." .
+
+ng:Bravo_Award a sem:Event ;
+    rdfs:comment "The Bravo Award was an annual award which was handed out by the Italian magazine Guerin Sportivo to the most outstanding young European footballer. The first winner of the award was Englishman Jimmy Case. The first non-European to win the award was Eli Ohana in 1988." .
+
+ng:Carles_Rexach a sem:Event ;
+    sem:hasActor ng:1978_FIFA_World_Cup ;
+    sem:hasTimeStamp "1947-01-13"^^xsd:date ;
+    rdfs:comment "Carles Rexach Cerdà (Catalan pronunciation: [ˈkaɾləz rəˈʃak]; born 13 January 1947) is a Spanish former football winger and manager. His career was mainly associated with Barcelona, spending 44 years at the club as a player (youth levels included) and coach. He formed a successful partnership with Johan Cruyff, both on and off the field, and as a player appeared in 638 games and scored 197 goals, winning the Pichichi Trophy in 1971; he totalled eight titles in both capacities, including the La Liga championship in the 1973–74 season and the 1979 Cup Winners' Cup." .
+
+ng:Carli_Lloyd a sem:Event ;
+    sem:hasActor ng:2007_FIFA_Women_s_World_Cup,
+        ng:2008_Summer_Olympics,
+        ng:2011_FIFA_Women_s_World_Cup,
+        ng:2012_Summer_Olympics,
+        ng:2015_FIFA_Women_s_World_Cup,
+        ng:Football_at_the_2016_Summer_Olympics ;
+    sem:hasTimeStamp "1982-07-16"^^xsd:date ;
+    rdfs:comment "Carli Anne Hollins (née&#160;Lloyd; born July 16, 1982) is an American former professional soccer player. She won the 2015 and 2019 editions of the FIFA Women's World Cup with the United States, finished second at the 2011 FIFA Women's World Cup, and scored the gold medal-winning goals in the finals of the 2008 Olympics and the 2012 Olympics. She also won the bronze medal with the U.S. at the 2020 Olympics." .
+
+ng:Christian_Vieri a sem:Event ;
+    sem:hasActor ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:UEFA_Euro_2004 ;
+    sem:hasTimeStamp "1973-07-12"^^xsd:date ;
+    rdfs:comment "Christian Vieri (Italian pronunciation: [ˈkristjaɱ ˈvjɛːri]; born 12 July 1973), commonly known as Bobo Vieri, is an Italian former professional footballer who played as a centre forward. Having been born in Italy, Vieri moved with his family to Australia as a child, before returning to Italy to pursue his professional career at a young age. He then spent the bulk of his career playing in the Serie A. In March 2004, he was named in the FIFA 100, a list of the 125 greatest living footballers selected by Pelé as a part of FIFA's centenary celebrations." .
+
+ng:David_Alaba a sem:Event ;
+    sem:hasTimeStamp "1992-06-24"^^xsd:date ;
+    sem:subEventOf ng:UEFA_Team_of_the_Year ;
+    rdfs:comment "David Alaba (Austrian German: [ˈdeɪvɪd ˈalaba, ˈdaːv-]; born 24 June 1992) is an Austrian professional footballer who plays as a centre-back for La Liga club Real Madrid and captains the Austria national team. He was previously primarily a left-back, and was considered one of the best in the world at this position. Alaba started out in Bayern's youth system before being promoted to the reserve team for the 2009–10 season." .
+
+ng:David_Beckham a sem:Event ;
+    sem:hasActor ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:UEFA_Euro_2000,
+        ng:UEFA_Euro_2004 ;
+    sem:hasTimeStamp "1975-05-02"^^xsd:date ;
+    rdfs:comment "Sir David Robert Joseph Beckham ( BEK-əm; born 2 May 1975) is an English former professional footballer, the president and co-owner of Inter Miami CF and co-owner of Salford City F.C.. Primarily a right midfielder and known for his range of passing, crossing ability and set-piece taking, Beckham is considered one of the best players of his generation and one of the greatest set-piece specialists of all time. He won 19 major trophies in his career, and is the only English player to win league titles in four different countries: England, France, Spain, and the United States." .
+
+ng:Deco a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Euro_2008 ;
+    sem:hasTimeStamp "1977-08-27"^^xsd:date ;
+    rdfs:comment "Anderson Luís de Souza (born 27 August 1977), also known as Deco (Portuguese pronunciation: [ˈdɛku]), is a former professional footballer who primarily played as an attacking or central midfielder. Born and raised in Brazil, he played for the Portugal national team. He currently works as sporting director for Barcelona." .
+
+ng:Denis_Law a sem:Event ;
+    sem:hasActor ng:1974_FIFA_World_Cup ;
+    sem:hasTimeStamp "1940-02-24"^^xsd:date ;
+    rdfs:comment "Denis Law (24 February 1940 – 17 January 2025) was a Scottish footballer who played as a forward. His career as a football player began at Second Division Huddersfield Town in 1956. After four years at Huddersfield, he was signed by Manchester City for an estimated transfer fee of £55,000, which set a new British record." .
+
+ng:Diego_Milito a sem:Event ;
+    sem:hasActor ng:2010_FIFA_World_Cup ;
+    sem:hasTimeStamp "1979-06-12"^^xsd:date ;
+    rdfs:comment "Diego Alberto Milito (born 12 June 1979) is an Argentine former professional footballer who played as a striker. He was nicknamed El Principe (\"The Prince\" in English) because of his physical resemblance with former Uruguayan footballer Enzo Francescoli, who had the same nickname. Milito began his club career in Argentina with Racing Club in 1999, and later moved to Italian side Genoa in 2003." .
+
+ng:Dirk_Nowitzki a sem:Event ;
+    sem:hasActor ng:2008_Summer_Olympics ;
+    sem:hasTimeStamp "1978-06-19"^^xsd:date ;
+    rdfs:comment "Dirk Werner Nowitzki (German: [ˈdɪʁk noˈvɪtski] ; born June 19, 1978) is a German former professional basketball player who is a special advisor for the Dallas Mavericks of the National Basketball Association (NBA). Listed at 7&#160;ft 0&#160;in (2.13&#160;m), he is widely regarded as one of the greatest power forwards of all time and is considered by many to be the greatest European player of all time. In 2021, he was selected to the NBA 75th Anniversary Team." .
+
+ng:Eden_Hazard a sem:Event ;
+    sem:hasActor ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2016 ;
+    sem:hasTimeStamp "1991-01-07"^^xsd:date ;
+    rdfs:comment "Eden Michael Walter Lucien Hazard (born 7 January 1991) is a Belgian former professional footballer who played as a winger or attacking midfielder. Over the span of his sixteen-year career, he played for Lille, Chelsea, Real Madrid, and the Belgium national team. Known for his dribbling, creativity, and vision, he is regarded as one of the best players of his generation and one of the greatest players in Premier League history." .
+
+ng:Enrique_Porta a sem:Event ;
+    sem:hasTimeStamp "1944-12-17"^^xsd:date ;
+    rdfs:comment "Enrique Porta Guíu (born 17 December 1944) is a Spanish retired footballer who played as a striker. He amassed La Liga totals of 122 matches and 40 goals across nine seasons with Granada and Zaragoza, winning the Pichichi Trophy with the former club." .
+
+ng:European_Golden_Shoe a sem:Event ;
+    rdfs:comment "The European Golden Shoe, also known as the European Golden Boot, is an award that is presented each season to the player with the most points in league matches from the top division of a European national league. The trophy is a sculpture of a football boot. The award, originally called Soulier d'Or, French for Golden Shoe, was launched in the 1967–68 season, and was given to the top goalscorer in all European leagues during a season." .
+
+ng:FIFA_World_Player_of_the_Year a sem:Event ;
+    rdfs:comment "The FIFA World Player of the Year was an association football award presented annually by the sport's governing body, FIFA, between 1991 and 2015 at the FIFA World Player Gala. Coaches and captains of international teams and media representatives selected the player they deem to have performed the best in the previous calendar year. Originally a single award for the world's best men's player, parallel awards for men and women were awarded from 2001 to 2009." .
+
+ng:FWA_Footballer_of_the_Year a sem:Event ;
+    rdfs:comment "The Football Writers' Association Footballer of the Year (often called the FWA Footballer of the Year, or in England simply the Footballer of the Year) is an annual award given to the player who is adjudged to have been the best of the season in English football. The award has been presented since the 1947–48 season, with the inaugural winner being Blackpool winger Stanley Matthews. The latest winner of the award as of 2024–25 is Mohamed Salah of Liverpool." .
+
+ng:Fabio_Cannavaro a sem:Event ;
+    sem:hasActor ng:1995_96_Serie_A,
+        ng:1996_Summer_Olympics,
+        ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:2009_FIFA_Confederations_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:2011_12_Serie_A,
+        ng:Coppa_Italia,
+        ng:Serie_A,
+        ng:UEFA_Euro_2000,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Europa_League ;
+    sem:hasTimeStamp "1973-09-13"^^xsd:date ;
+    rdfs:comment "Fabio Cannavaro (Italian pronunciation: [ˈfaːbjo kannaˈvaːro]; born 13 September 1973) is an Italian professional football coach and former player who is the head coach of the Uzbekistan national team. He is regarded as one of the greatest defenders of all time. A centre-back, he spent the majority of his career in Italy." .
+
+ng:Fernando_Redondo a sem:Event ;
+    sem:hasActor ng:1994_FIFA_World_Cup ;
+    sem:hasTimeStamp "1969-06-06"^^xsd:date ;
+    rdfs:comment "Fernando Carlos Redondo Neri (Spanish pronunciation: [feɾˈnando reˈðondo]; born 6 June 1969) is an Argentine former professional footballer who played as a defensive midfielder. He most notably played for Real Madrid and AC Milan. He is widely regarded as one of the greatest defensive midfielders of all time." .
+
+ng:Fidel_Uriarte a sem:Event ;
+    sem:hasTimeStamp "2016-12-19"^^xsd:date ;
+    rdfs:comment "Fidel Uriarte Macho (1 March 1945 – 19 December 2016) was a Spanish professional footballer who played as a striker. Having spent most of his 15-year career with Athletic Bilbao, he was crowned La Liga's Pichichi in 1968, winning two Copa del Rey and scoring more than 100 official goals with his main club." .
+
+ng:Franz_Beckenbauer a sem:Event ;
+    sem:hasActor ng:1966_FIFA_World_Cup,
+        ng:1970_FIFA_World_Cup,
+        ng:1974_FIFA_World_Cup,
+        ng:UEFA_Euro_1972,
+        ng:UEFA_Euro_1976,
+        ng:UEFA_Euro_1988 ;
+    sem:hasTimeStamp "1945-09-11"^^xsd:date ;
+    rdfs:comment "Franz Anton Beckenbauer (German pronunciation: [fʁants ˈbɛkn̩ˌbaʊɐ] ; 11 September 1945 – 7 January 2024) was a German professional football player, manager, and official. Nicknamed der Kaiser (\"the Emperor\"), he is widely regarded as one of the greatest and most influential players of all time. Beckenbauer was a versatile player who started out as a midfielder, but made his name as a centre-back." .
+
+ng:George_Best a sem:Event ;
+    sem:hasTimeStamp "1946-05-22"^^xsd:date ;
+    rdfs:comment "George Best (22 May 1946 – 25 November 2005) was a Northern Irish professional footballer who played as a right winger, spending most of his club career at Manchester United. A skillful dribbler, he is considered one of the greatest players of all time, along with being considered one of the most talented to play. He was named European Footballer of the Year in 1968 and came fifth in the FIFA Player of the Century vote." .
+
+ng:George_Weah a sem:Event ;
+    sem:hasActor ng:1996_African_Cup_of_Nations,
+        ng:2002_African_Cup_of_Nations ;
+    sem:hasTimeStamp "1966-10-01"^^xsd:date ;
+    rdfs:comment "George Manneh Oppong Weah (born 1 October 1966) is a Liberian politician and former professional footballer who served as the 25th president of Liberia from 2018 to 2024. Before his election for the presidency, Weah served as senator from Montserrado County. He played as a striker in his prolific 18-year professional football career which ended in 2003." .
+
+ng:Georgina_Rodr_guez a sem:Event ;
+    sem:hasTimeStamp "1995-01-27"^^xsd:date ;
+    rdfs:comment "Georgina Rodríguez Hernández (born 27 January 1994) is an Argentine and Spanish social media personality, model, and entrepreneur. She rose to fame through her relationship with Portuguese footballer Cristiano Ronaldo, which garnered her significant media attention and helped her build a massive following across Instagram and other social media channels. In addition to her success as a model, Georgina also pursued ventures in fashion, collaborating with high-end brands and launching her own clothing line." .
+
+ng:Gianluigi_Buffon a sem:Event ;
+    sem:hasActor ng:1996_Summer_Olympics,
+        ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:2009_FIFA_Confederations_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Euro_2008,
+        ng:UEFA_Euro_2012,
+        ng:UEFA_Euro_2016 ;
+    sem:hasTimeStamp "1978-01-28"^^xsd:date ;
+    rdfs:comment "Gianluigi Buffon (Italian pronunciation: [dʒanluˈiːdʒi bufˈfon, -fɔn]; born 28 January 1978) is an Italian former professional footballer who played as a goalkeeper. Widely regarded as one of the greatest goalkeepers of all time, he is one of the few recorded players to have made over 1,100 professional career appearances and holds the record for the most appearances in Serie A. Buffon made his Serie A debut at Parma in 1995, helping Parma win the Coppa Italia, the UEFA Cup and the Supercoppa Italiana in 1999. After joining Juventus in 2001, for the world record fee for a goalkeeper of €52.9" .
+
+ng:Gianni_Rivera a sem:Event ;
+    sem:hasActor ng:1960_Summer_Olympics,
+        ng:1962_FIFA_World_Cup,
+        ng:1966_FIFA_World_Cup,
+        ng:1970_FIFA_World_Cup,
+        ng:1974_FIFA_World_Cup,
+        ng:UEFA_Euro_1968 ;
+    sem:hasTimeStamp "1943-08-18"^^xsd:date ;
+    rdfs:comment "Giovanni \"Gianni\" Rivera (Italian pronunciation: [ˈdʒanni riˈvɛːra]; born 18 August 1943) is an Italian politician and former footballer who played as an attacking midfielder. Dubbed Italy's \"Golden Boy\" by the media, he played the majority of his club career with Italian side AC Milan, after beginning his career with hometown club Alessandria in 1959. After joining Milan in 1960, he enjoyed a highly successful career in domestic and European football, winning three Serie A titles and two European Cups, among several other trophies, and also serving as the team's captain for twelve seasons." .
+
+ng:Hans_Krankl a sem:Event ;
+    sem:hasActor ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup ;
+    sem:hasTimeStamp "1953-02-14"^^xsd:date ;
+    rdfs:comment "Johann \"Hans\" Krankl (German: [hans ˈkʁaŋkl̩]; born 14 February 1953) is an Austrian former professional footballer. A prolific striker, he is regarded by many as one of Austria's greatest players." .
+
+ng:Harry_Kane a sem:Event ;
+    sem:hasActor ng:UEFA_Euro_2016 ;
+    sem:hasTimeStamp "1993-07-28"^^xsd:date ;
+    rdfs:comment "Harry Edward Kane (born 28 July 1993) is an English professional footballer who plays as a striker for Bundesliga club Bayern Munich and captains the England national team. Regarded as one of the best strikers of his generation, he is Tottenham Hotspur's all-time top goalscorer (280), England's all-time top goalscorer (78), and the highest-scoring English player in the UEFA Champions League (53). He is also the Premier League's second-highest all-time goalscorer (213) and the 10th highest goalscorer for Bayern Munich (139)." .
+
+ng:Hristo_Stoichkov a sem:Event ;
+    sem:hasActor ng:1994_FIFA_World_Cup,
+        ng:1998_FIFA_World_Cup,
+        ng:UEFA_Euro_1996 ;
+    sem:hasTimeStamp "1966-02-08"^^xsd:date ;
+    rdfs:comment "Hristo Stoichkov (Bulgarian: Христо Стоичков pronounced [ˈxristo stoˈitʃkof]; born 8 February 1966) is a Bulgarian former professional footballer and current football commentator for TUDN. A prolific forward, he is widely regarded as the greatest Bulgarian footballer of all time. He was the runner-up for the FIFA World Player of the Year award in 1992 and 1994 and received the Ballon d'Or in 1994. He was also named the BTA Best Balkan Athlete of the Year in 1994." .
+
+ng:Igor_Belanov a sem:Event ;
+    sem:hasActor ng:1986_FIFA_World_Cup,
+        ng:UEFA_Euro_1988 ;
+    sem:hasTimeStamp "1960-09-25"^^xsd:date ;
+    rdfs:comment "Igor Ivanovich Belanov (Russian: И́горь Ива́нович Бела́нов) or Ihor Ivanovych Bielanov (Ukrainian: Ігор Іванович Бєланов; born 25 September 1960) is a Soviet and Ukrainian former professional footballer who played as a striker. He made a name for himself at Dynamo Kyiv, winning five major titles as well as the Ballon d'Or in 1986 and became the second Ukrainian national to win the award after Oleh Blokhin (1975). He then spent six years in Germany with Borussia Mönchengladbach in the Bundesliga and Eintracht Braunschweig in the 2." .
+
+ng:Irina_Shayk a sem:Event ;
+    sem:hasTimeStamp "1986-01-06"^^xsd:date ;
+    rdfs:comment "Irina Valeryevna Shaykhlislamova (Russian: Ирина Валерьевна Шайхлисламова; Tatar: İrina Şəyxelislamova; born 6 January 1986), also known as Irina Shayk (), is a Russian fashion model and actress. She received international recognition when she appeared as the first Russian model on the cover of the 2011 Sports Illustrated Swimsuit Issue. In 2022, the website Models.com placed her on their list of the New Supers." .
+
+ng:Jean_Pierre_Papin a sem:Event ;
+    sem:hasActor ng:1986_FIFA_World_Cup,
+        ng:UEFA_Euro_1992 ;
+    sem:hasTimeStamp "1963-11-05"^^xsd:date ;
+    rdfs:comment "Jean-Pierre Roger Guillaume Papin (French pronunciation: [ʒɑ̃pjɛʁ papɛ̃]; born 5 November 1963) is a French football manager and former professional player who played as a forward. He was most recently the head coach of the reserve team of Olympique de Marseille. He won the Ballon d'Or in 1991." .
+
+ng:Johan_Cruyff a sem:Event ;
+    sem:hasActor ng:1974_FIFA_World_Cup,
+        ng:UEFA_Euro_1976 ;
+    sem:hasTimeStamp "1947-04-25"^^xsd:date ;
+    rdfs:comment "Hendrik Johannes Cruijff (25 April 1947 – 24 March 2016), or Johan Cruyff (Dutch: [ˈjoːɦɑŋ ˈkrœyf] ), was a Dutch professional football player and manager. Regarded as one of the greatest players in history and as the greatest Dutch footballer ever, he won the Ballon d'Or three times, in 1971, 1973, and 1974. Cruyff was a proponent of the football philosophy known as Total Football developed by Rinus Michels, which Cruyff also employed as a manager." .
+
+ng:Josef_Masopust a sem:Event ;
+    sem:hasActor ng:1958_FIFA_World_Cup,
+        ng:1960_European_Nations_Cup,
+        ng:1962_FIFA_World_Cup ;
+    sem:hasTimeStamp "1931-02-09"^^xsd:date ;
+    rdfs:comment "Josef Masopust (9 February 1931 – 29 June 2015) was a Czech football player and coach. He played as midfielder and was a key player for Czechoslovakia, helping them reach the 1962 FIFA World Cup Final. He was capped 63 times, scoring ten goals for his national team." .
+
+ng:Josip_Skoblar a sem:Event ;
+    sem:hasActor ng:1962_FIFA_World_Cup ;
+    sem:hasTimeStamp "1941-03-12"^^xsd:date ;
+    rdfs:comment "Josip Skoblar (born 12 March 1941) is a Croatian former professional football player and manager. He was primarily a forward, and also capable of playing on both wings. In 1971, he won the European Golden Shoe with 44 goals." .
+
+ng:Juan_Antonio_Pizzi a sem:Event ;
+    sem:hasActor ng:1998_FIFA_World_Cup,
+        ng:UEFA_Euro_1996 ;
+    sem:hasTimeStamp "1968-06-07"^^xsd:date ;
+    rdfs:comment "Juan Antonio Pizzi Torroja (Spanish pronunciation: [ˈxwan anˈtonjo ˈpisi], Italian: [ˈpittsi]; born 7 June 1968) is a retired professional footballer who played as a striker. Pizzi spent the bulk of his club career in Spain, mainly at Tenerife, helping to the side's consolidation in La Liga and amassing top division totals of 221 matches and 92 goals over eight seasons – he also played for Valencia and Barcelona. Born in Argentina, Pizzi represented the Spain national team for four years, appearing with it in one World Cup and one European Championship." .
+
+ng:Juan_Arza a sem:Event ;
+    sem:hasTimeStamp "1923-06-12"^^xsd:date ;
+    rdfs:comment "Juan Arza Iñigo (12 June 1923 – 17 July 2011) was a Spanish football forward and manager. He spent the majority of his career with Sevilla, appearing in 414 official games over the course of 16 La Liga seasons (206 goals, best-ever in the club's history), and also managed his main team on several occasions." .
+
+ng:Juan_Seminario a sem:Event ;
+    sem:hasTimeStamp "1936-07-22"^^xsd:date ;
+    rdfs:comment "Juan Roberto Seminario Rodríguez (born 22 July 1936) is a Peruvian former football player, recognized as one of Peru's most important strikers. Nicknamed \"El Loco\" he is the only Zaragoza player to have won the \"Pichichi Trophy\" (1961–62 La Liga). He played for several clubs, notably Spanish clubs Real Zaragoza and FC Barcelona, Sporting CP of Portugal, as well as Italian club Fiorentina." .
+
+ng:Juanito a sem:Event ;
+    sem:hasActor ng:1976_Summer_Olympics,
+        ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup,
+        ng:UEFA_Euro_1980 ;
+    sem:hasTimeStamp "1954-11-10"^^xsd:date ;
+    rdfs:comment "Juan Gómez González (10 November 1954 – 2 April 1992), known as Juanito, was a Spanish footballer who played as a forward. A player with tremendous dribbling ability whose career was overshadowed by a fierce character, he was best known for his Real Madrid years. He died in a road accident at the age of 37." .
+
+ng:Justine_Henin a sem:Event ;
+    sem:hasActor ng:2004_Summer_Olympics ;
+    sem:hasTimeStamp "1982-06-01"^^xsd:date ;
+    rdfs:comment "Justine Henin (French pronunciation: [ʒystin ɛnɛ̃]; born 1 June 1982) is a Belgian former professional tennis player. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 117 weeks, including as the year-end No." .
+
+ng:Karim_Benzema a sem:Event ;
+    sem:hasActor ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2008,
+        ng:UEFA_Euro_2012 ;
+    sem:hasTimeStamp "1987-12-19"^^xsd:date ;
+    rdfs:comment "Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer who plays as a striker for Saudi Pro League club Al-Hilal. Regarded as one of the greatest strikers of all time, Benzema is a creative forward known for his technical skills, vision and versatility on the field. He won 25 trophies with Real Madrid, including four La Liga, three Copa del Rey, and five UEFA Champions League titles." .
+
+ng:Karl_Heinz_Rummenigge a sem:Event ;
+    sem:hasActor ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup,
+        ng:1986_FIFA_World_Cup,
+        ng:German_presidential_election_2004,
+        ng:UEFA_Euro_1980,
+        ng:UEFA_Euro_1984 ;
+    sem:hasTimeStamp "1955-09-25"^^xsd:date ;
+    rdfs:comment "Karl-Heinz \"Kalle\" Rummenigge (German: [ˌkaʁlˈhaɪnts ˈkalə ˈʁʊmənɪɡə]; born 25 September 1955) is a German football executive and former professional player. He has been regarded as a prominent player and a notable German football player. He also served as the Chairman of Executive Board of FC Bayern München AG, a daughter company of German Bundesliga team Bayern Munich." .
+
+ng:Kevin_Keegan a sem:Event ;
+    sem:hasActor ng:1982_FIFA_World_Cup,
+        ng:UEFA_Euro_1980,
+        ng:UEFA_Euro_2000 ;
+    sem:hasTimeStamp "1951-02-14"^^xsd:date ;
+    rdfs:comment "Joseph Kevin Keegan (born 14 February 1951) is an English former footballer and manager. Nicknamed \"King Kev\" or \"Mighty Mouse\", Keegan was recognised for his dribbling ability, as well as his finishing and presence in the air, and is regarded as one of the greatest players of all time. Keegan began his playing career at Scunthorpe United in 1968, before Bill Shankly signed him for Liverpool." .
+
+ng:La_Liga_Player_of_the_Month a sem:Event ;
+    rdfs:comment "The Player of the Month is an association football award that recognises the best La Liga player each month of the season, the most recent winner having been Lamine Yamal. He was awarded on April 25, 2026." .
+
+ng:Lev_Yashin a sem:Event ;
+    sem:hasActor ng:1956_Summer_Olympics,
+        ng:1958_FIFA_World_Cup,
+        ng:1960_European_Nations_Cup,
+        ng:1962_FIFA_World_Cup,
+        ng:1964_European_Nations_Cup,
+        ng:1966_FIFA_World_Cup,
+        ng:1970_FIFA_World_Cup ;
+    sem:hasTimeStamp "1929-10-22"^^xsd:date ;
+    rdfs:comment "Lev Ivanovich Yashin (Russian: Лев Иванович Яшин; 22 October 1929 – 20 March 1990) was a Soviet professional footballer considered to be one of the greatest players of all time and the best goalkeeper in the history of the sport. He was the first and only goalkeeper to win the Ballon d'Or. He was known for his athleticism, positioning, imposing presence in goal, and acrobatic reflex saves." .
+
+ng:Lionel_Messi a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:2008_Summer_Olympics,
+        ng:2010_FIFA_World_Cup,
+        ng:2014_FIFA_World_Cup ;
+    sem:hasTimeStamp "1987-06-24"^^xsd:date ;
+    rdfs:comment "Lionel Andrés \"Leo\" Messi (born 24 June 1987) is an Argentine professional footballer who plays as a forward for and captains both the Major League Soccer club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players in history, Messi has set numerous records for individual accolades won throughout his professional footballing career, including eight Ballon d'Ors, six European Golden Shoes, and eight times being named the world's best player by FIFA. In 2025, he was named the All Time Men's World Best Player by the IFFHS. Messi is the most decorated player in the" .
+
+ng:Lorena_Ochoa a sem:Event ;
+    sem:hasTimeStamp "1981-11-15"^^xsd:date ;
+    rdfs:comment "Lorena Ochoa Reyes (Spanish: [loˈɾena oˈtʃoa] ; born 15 November 1981) is a Mexican former professional golfer who played on the U.S.-based LPGA Tour from 2003 to 2010. She was the top-ranked female golfer in the world for 158 consecutive and total weeks (the consecutive streak is an LPGA Tour record), from 23 April 2007 to her retirement on 2 May 2010, at the age of 28 years old. As the first Mexican golfer of either gender to be ranked number one in the world, because of her record, she is considered the best Mexican female golfer of all time." .
+
+ng:Luciano_S_nchez a sem:Event ;
+    sem:hasTimeStamp "1944-05-24"^^xsd:date ;
+    rdfs:comment "Luciano Sánchez may refer to:" .
+
+ng:Marco_van_Basten a sem:Event ;
+    sem:hasActor ng:1990_FIFA_World_Cup,
+        ng:UEFA_Euro_1988,
+        ng:UEFA_Euro_1992,
+        ng:UEFA_Euro_2008 ;
+    sem:hasTimeStamp "1964-10-31"^^xsd:date ;
+    rdfs:comment "Marcel \"Marco\" van Basten (Dutch pronunciation: [ˈmɑrkoː vɑm ˈbɑstə(n)] ; born 31 October 1964) is a Dutch former football manager and player who played as a striker for Ajax and AC Milan, as well as the Netherlands national team. Regarded as one of the greatest attacking players of all time, he scored over 300 goals at the highest club and international levels, but played his last game at the age of 28, followed by an early retirement at just 30, due to a recurring ankle injury and more than two years of unsuccessful treatment. He was later the head coach" .
+
+ng:Mario_Kempes a sem:Event ;
+    sem:hasActor ng:1974_FIFA_World_Cup,
+        ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup ;
+    sem:hasTimeStamp "1954-07-15"^^xsd:date ;
+    rdfs:comment "Mario Alberto Kempes Chiodi (Spanish pronunciation: [ˈmaɾjo alˈβeɾto ˈkempes ˈtʃjoði], Italian: [ˈkjɔːdi]; born 15 July 1954) is an Argentine former professional footballer who played as a striker or attacking midfielder. A prolific goalscorer, he finished as La Liga's top goalscorer twice with Valencia where he amassed 116 goals in 184 league games. He is regarded as one of the greatest players of all time." .
+
+ng:Matthias_Sammer a sem:Event ;
+    sem:hasActor ng:1994_FIFA_World_Cup,
+        ng:UEFA_Euro_1992,
+        ng:UEFA_Euro_1996 ;
+    sem:hasTimeStamp "1967-09-05"^^xsd:date ;
+    rdfs:comment "Matthias Sammer (German pronunciation: [maˈtiːas ˈzamɐ]; born 5 September 1967) is a German football official and former player and coach. He played as a defensive midfielder and later in his career as a sweeper. With Borussia Dortmund as a player, Sammer won the Bundesliga and DFB-Supercup in 1995, the Bundesliga, DFB-Supercup, and European Footballer of the Year in 1996, and the UEFA Champions League and Intercontinental Cup in 1997." .
+
+ng:Michael_Owen a sem:Event ;
+    sem:hasActor ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:UEFA_Euro_2000,
+        ng:UEFA_Euro_2004 ;
+    sem:hasTimeStamp "1979-12-14"^^xsd:date ;
+    rdfs:comment "Michael James Owen (born 14 December 1979) is an English former professional footballer who played as a striker for Liverpool, Real Madrid, Newcastle United, Manchester United, and Stoke City, as well as the England national team. Since retiring from football in 2013, he has become a racehorse breeder and owner and regularly features as a sports pundit and commentator. Regarded as one of the best strikers of his generation, in 2001, Owen was the recipient of the Ballon d'Or." .
+
+ng:Michel_Platini a sem:Event ;
+    sem:hasActor ng:1976_Summer_Olympics,
+        ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup,
+        ng:1986_FIFA_World_Cup,
+        ng:UEFA_Euro_1984,
+        ng:UEFA_Euro_1992 ;
+    sem:hasTimeStamp "1955-06-21"^^xsd:date ;
+    rdfs:comment "Michel François Platini (French pronunciation: [miʃɛl fʁɑ̃swa platini]; born 21 June 1955) is a French football administrator and former player and manager. Regarded as one of the greatest footballers of all time, Platini won the Ballon d'Or three times in a row, in 1983, 1984 and 1985, and came seventh in the FIFA Player of the Century vote. In recognition of his achievements, he was named a Knight of the Legion of Honour in 1985 and became an Officer in 1998." .
+
+ng:Miroslav_Klose a sem:Event ;
+    sem:hasActor ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Euro_2008,
+        ng:UEFA_Euro_2012 ;
+    sem:hasTimeStamp "1978-06-09"^^xsd:date ;
+    rdfs:comment "Miroslav Josef Klose (German: [ˈmiːʁoslaf ˈkloːzə] , Polish: Mirosław Józef Klose; born Mirosław Marian Klose; 9 June 1978) is a German professional football manager and former player who currently serves as head coach of 1. FC Nürnberg. A striker, Klose is the all-time top scorer for Germany and holds the record for the most goals scored in the FIFA World Cup with 16 goals scored over four editions of the tournament between 2002 and 2014." .
+
+ng:PFA_Team_of_the_Year a sem:Event ;
+    rdfs:comment "The Professional Footballers' Association Team of the Year (often called the PFA Team of the Year, or simply the Team of the Year) is an annual award given to a set of 55 footballers across the top four tiers of men's English football: the Premier League, the Championship, League One and League Two, as well as the top tier of women's football: the Women's Super League. The award has been presented to men since the 1973–74 season and women since the 2013–14 season. The shortlist is compiled by the members of the players' trade union, the Professional Footballers' Association (PFA)," .
+
+ng:PFA_Young_Player_of_the_Year a sem:Event ;
+    rdfs:comment "The Professional Footballers' Association Young Player of the Year (often called the PFA Young Player of the Year, or simply the Young Player of the Year) is an annual award given to the young player who is adjudged to have been the best of the season in English football. As of 2021, players must have been aged 21 or under as of 1 July immediately preceding the start of the season; in the past the age limit has been 23, which led to criticism in the media over whether a player who was 24 years old at the end of" .
+
+ng:Paolo_Maldini a sem:Event ;
+    sem:hasActor ng:1990_FIFA_World_Cup,
+        ng:1994_FIFA_World_Cup,
+        ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:Serie_A,
+        ng:UEFA_Euro_1988,
+        ng:UEFA_Euro_1996,
+        ng:UEFA_Euro_2000 ;
+    sem:hasTimeStamp "1968-06-26"^^xsd:date ;
+    rdfs:comment "Paolo Cesare Maldini (Italian pronunciation: [ˈpaːolo malˈdiːni]; born 26 June 1968) is an Italian football executive and former professional footballer who spent his entire career playing as a left-back or as a centre-back for AC Milan and the Italy national team. He is widely regarded as one of the greatest players of all time. As the Milan and Italy captain for many years, he was nicknamed \"Il Capitano\"." .
+
+ng:Paolo_Rossi a sem:Event ;
+    sem:hasActor ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup,
+        ng:1986_FIFA_World_Cup ;
+    sem:hasTimeStamp "1956-09-23"^^xsd:date ;
+    rdfs:comment "Paolo Rossi (Italian pronunciation: [ˈpaːolo ˈrossi]; 23 September 1956 – 9 December 2020) was an Italian professional footballer who played as a striker. He led Italy to the 1982 FIFA World Cup title, scoring six goals to win the Golden Boot as top goalscorer, and the Golden Ball for the player of the tournament. Rossi was also awarded the 1982 Ballon d'Or as the European Footballer of the Year for his performances (remaining the only player in history to win these four awards in a single year)." .
+
+ng:Pau_Gasol a sem:Event ;
+    sem:hasActor ng:2004_Summer_Olympics,
+        ng:2008_Summer_Olympics,
+        ng:2012_Summer_Olympics ;
+    sem:hasTimeStamp "1980-07-06"^^xsd:date ;
+    rdfs:comment "Pau Gasol Sáez (Catalan: [ˈpaw ɣəˈzɔl], Spanish: [ˈpaw ɣaˈsol]; born July 6, 1980) is a Spanish former professional basketball player who played in the National Basketball Association (NBA) for 18 seasons, primarily as a power forward. He was a six-time NBA All-Star and a four-time All-NBA team selection, twice on the second team and twice on the third team. Gasol won two NBA championships with the Los Angeles Lakers in 2009 and 2010." .
+
+ng:Pichichi_Trophy a sem:Event ;
+    rdfs:comment "In Spanish football, the Pichichi Trophy (Spanish: Trofeo Pichichi ) is awarded by the sport newspaper Marca to the top goalscorer of each La Liga season. Named after the Athletic Bilbao striker Rafael \"Pichichi\" Moreno, the trophy has been awarded annually since the 1952–53 season. All top scorers who preceded the award's creation were retroactively named Pichichi winners by Marca." .
+
+ng:Premier_League_Golden_Boot a sem:Event ;
+    rdfs:comment "The Premier League Golden Boot is an annual association football award presented to the leading goalscorer in the Premier League. For sponsorship purposes, it was called the Carling Golden Boot from 1994 to 2001, the Barclaycard Golden Boot from 2002 to 2004, the Barclays Golden Boot from 2005 to 2016, the Cadbury Golden Boot from 2017 to 2020, and the Coca-Cola Zero Sugar Golden Boot for 2021. Since 2022, it is referred to as the Castrol Golden Boot." .
+
+ng:Premier_League_Player_of_the_Month a sem:Event ;
+    rdfs:comment "The Premier League Player of the Month is an association football award that recognises the best adjudged Premier League player each month of the season. The winner is chosen by a combination of an online public vote, which contributes to 10% of the final tally, a panel of experts, and the captain of each Premier League club. It has been called the Carling Premiership Player of the Month (1994–2001), the Barclaycard Premiership Player of the Month (2001–2004) and the Barclays Player of the Month (2004–2016); it is currently known as the EA Sports Player of the Month." .
+
+ng:Premier_League_Player_of_the_Season a sem:Event ;
+    rdfs:comment "The Premier League Player of the Season is an annual association football award presented to players in England, which recognises the most outstanding player in the Premier League each season. The recipient is chosen by a panel assembled by the league's sponsors consisting of members of \"football's governing bodies, the media and fans\", and is announced in the second or third week of May. For sponsorship purposes, from 1994 to 2001 it was called the Carling Player of the Year; from 2001 to 2004 as the Barclaycard Player of the Year; and from 2004 to 2016 as the Barclays Player" .
+
+ng:Pruden a sem:Event ;
+    sem:hasTimeStamp "1998-02-25"^^xsd:date ;
+    rdfs:comment "Prudencio Sánchez Fernández, commonly known as Pruden (1 September 1916 – 25 February 1998) was a Spanish footballer who played as a forward for Atlético Madrid (then known as Atlético Aviación) and Real Madrid. He was La Liga's top scorer in 1940–41 with Atlético, in which he was the architect of the entity's second league title that same year. At Real Madrid, he played a pivotal role in helping the club win two consecutive Copa del Reys as he scored important goals in both finals." .
+
+ng:Quini a sem:Event ;
+    sem:hasActor ng:1978_FIFA_World_Cup,
+        ng:1982_FIFA_World_Cup,
+        ng:UEFA_Euro_1980 ;
+    sem:hasTimeStamp "1949-09-23"^^xsd:date ;
+    rdfs:comment "Enrique Castro González (Spanish pronunciation: [enˈrike ˈkastɾo ɣonˈθaleθ]; 23 September 1949 – 27 February 2018), known as Quini [ˈkini], was a Spanish professional footballer who played as a striker. In a career totally connected with Sporting de Gijón and FC Barcelona, he was widely regarded as one of the country's best strikers, having won a total of seven Pichichi Trophy awards, five of those in La Liga. A Spain international for 12 years, Quini represented the nation in two World Cups and one European Championship." .
+
+ng:Rafael_Nadal a sem:Event ;
+    sem:hasActor ng:2004_Summer_Olympics,
+        ng:2008_Summer_Olympics,
+        ng:2016_Summer_Olympics,
+        ng:Tennis_at_the_2008_Summer_Olympics_Men_s_singles,
+        ng:Tennis_at_the_2016_Summer_Olympics,
+        ng:Tennis_at_the_2016_Summer_Olympics_Men_s_Doubles ;
+    sem:hasTimeStamp "1986-06-03"^^xsd:date ;
+    rdfs:comment "Rafael \"Rafa\" Nadal Parera, 1st Marquess of Llevant de Mallorca (born 3 June 1986) is a Spanish former professional tennis player. He was ranked as the world No. 1 in men's singles by the Association of Tennis Professionals (ATP) for 209 weeks, and finished as the year-end No." .
+
+ng:Raymond_Kopa a sem:Event ;
+    sem:hasActor ng:1954_FIFA_World_Cup,
+        ng:1958_FIFA_World_Cup ;
+    sem:hasTimeStamp "1931-10-13"^^xsd:date ;
+    rdfs:comment "Raymond Kopa (né Kopaszewski; 13 October 1931 – 3 March 2017) was a French professional footballer, integral to the France national team of the 1950s. At club level he was part of the legendary Real Madrid team of the 1950s, winning three European Cups. Considered one of the greatest players of all-time, Kopa was a forward or an attacking midfielder who was quick, agile and known for his dribbling, playmaking, and prolific scoring." .
+
+ng:Ricardo_Al_s a sem:Event ;
+    sem:hasTimeStamp "1931-10-11"^^xsd:date ;
+    rdfs:comment "Ricardo Alós Bailach (11 October 1931 – 14 January 2024), sometimes known as just Ricardo, was a Spanish professional footballer who played as a forward. A prolific goalscorer, he is best known for winning the 1957–58 Pichichi Trophy in a three-way tie." .
+
+ng:Rivaldo a sem:Event ;
+    sem:hasActor ng:1996_Summer_Olympics,
+        ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup ;
+    sem:hasTimeStamp "1972-04-19"^^xsd:date ;
+    rdfs:comment "Rivaldo Vítor Borba Ferreira (Brazilian Portuguese: [ʁiˈvawdu ˈvitoʁ ˈbɔʁbɐ feˈʁe(j)ɾɐ]; born 19 April 1972), known simply as Rivaldo, is a Brazilian former footballer who played mainly as a second striker but also as a attacking midfielder, and on occasion deployed as a wide midfielder or as a winger. Known for his skill and creativity, Rivaldo was renowned for his bending free kicks, bicycle kicks, feints, powerful ball striking from distance, and ability to both score and create goals. In 1999, he won the Ballon d'Or and was named FIFA World Player of the Year." .
+
+ng:Riyad_Mahrez a sem:Event ;
+    sem:hasActor ng:2014_FIFA_World_Cup,
+        ng:2015_Africa_Cup_of_Nations,
+        ng:2017_Africa_Cup_of_Nations ;
+    sem:hasTimeStamp "1991-02-22"^^xsd:date ;
+    rdfs:comment "Riyad Karim Mahrez (born 21 February 1991) is a professional footballer who plays as a right winger for Al-Ahli. Born in France, he captains the Algeria national team. He is regarded as one of the best African players of all time." .
+
+ng:Roberto_Baggio a sem:Event ;
+    sem:hasActor ng:1990_FIFA_World_Cup,
+        ng:1994_FIFA_World_Cup,
+        ng:1998_FIFA_World_Cup ;
+    sem:hasTimeStamp "1967-02-18"^^xsd:date ;
+    rdfs:comment "Roberto Baggio (Italian pronunciation: [roˈbɛrto ˈbaddʒo]; born 18 February 1967) is an Italian former professional footballer who mainly played as a second striker, or as an attacking midfielder, although he was capable of playing in several offensive positions. He is the former president of the technical sector of the Italian Football Federation. A technically gifted creative playmaker and set piece specialist, renowned for his curling free-kicks, dribbling skills, and goalscoring, Baggio is widely regarded as one of the greatest players of all time." .
+
+ng:Robin_van_Persie a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2008,
+        ng:UEFA_Euro_2012 ;
+    sem:hasTimeStamp "1983-08-06"^^xsd:date ;
+    rdfs:comment "Robin van Persie (Dutch pronunciation: [ˈrɔbɪɱ vɑm ˈpɛrsi] ; born 6 August 1983) is a Dutch football coach and former professional footballer who is the head coach of Eredivisie club Feyenoord. He is regarded as one of the best strikers of his generation and was known for his technique, ball control, and vision. Starting his career as a winger, Van Persie made his senior debut for Feyenoord during the 2001–02 season, which culminated with victory in the 2002 UEFA Cup final; he was also named as the Dutch Football Talent of the Year." .
+
+ng:Roger_Federer a sem:Event ;
+    sem:hasActor ng:2000_Summer_Olympics,
+        ng:2004_Summer_Olympics,
+        ng:Tennis_at_the_2000_Summer_Olympics_Men_s_singles,
+        ng:Tennis_at_the_2008_Summer_Olympics_Men_s_doubles,
+        ng:Tennis_at_the_2012_Summer_Olympics_Men_s_singles ;
+    sem:hasTimeStamp "1981-08-08"^^xsd:date ;
+    rdfs:comment "Roger Federer ( FED-ər-ər; Swiss Standard German: [ˈrɔdʒər ˈfeːdərər]; born 8 August 1981) is a Swiss former professional tennis player. He was ranked as the world No. 1 in men's singles by the Association of Tennis Professionals (ATP) for 310 weeks (second-most of all time), including a record 237 consecutive weeks, and finished as the year-end No." .
+
+ng:Ronaldinho a sem:Event ;
+    sem:hasActor ng:2000_Summer_Olympics,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:2008_Summer_Olympics ;
+    sem:hasTimeStamp "1980-03-21"^^xsd:date ;
+    rdfs:comment "Ronaldo de Assis Moreira (born 21 March 1980), commonly known as Ronaldinho Gaúcho or simply Ronaldinho, is a Brazilian former professional footballer who played as an attacking midfielder or left winger. Widely regarded as one of the greatest players of all time, he won two FIFA World Player of the Year awards and a Ballon d'Or. He is the only player ever to have won a World Cup, a Copa América, a Confederations Cup, a Champions League, a Copa Libertadores and a Ballon d'Or." .
+
+ng:Ronaldo a sem:Event ;
+    sem:hasActor ng:1994_FIFA_World_Cup,
+        ng:1996_Summer_Olympics,
+        ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup ;
+    sem:hasTimeStamp "1976-09-22"^^xsd:date ;
+    rdfs:comment "Ronaldo Luís Nazário de Lima (Brazilian Portuguese: [ʁoˈnawdu luˈiz‿naˈzaɾju dʒi ˈlimɐ]; born 18 September 1976), mononymously known as Ronaldo, is a Brazilian former professional footballer who played as a striker. He is the owner and president of La Liga 2 club Real Valladolid. Nicknamed O Fenômeno and R9, he is widely regarded as one of the greatest players of all time." .
+
+ng:Roy_Makaay a sem:Event ;
+    sem:hasActor ng:2008_Summer_Olympics,
+        ng:UEFA_Euro_2000,
+        ng:UEFA_Euro_2004 ;
+    sem:hasTimeStamp "1975-03-09"^^xsd:date ;
+    rdfs:comment "Roy Rudolphus Antonius Makaay (born 9 March 1975) is a Dutch professional football coach and former player. As a forward, he was known for his goal-scoring ability as a result of his \"aerial prowess and quick drives to the net where he can put the ball away with either foot.\" He began his career at Vitesse and Tenerife before moving to Deportivo de La Coruña in 1999 and helping the side to their first La Liga title in his first season there. He also won the Copa del Rey in 2002 and the following season was given the European Golden" .
+
+ng:Ruud_Gullit a sem:Event ;
+    sem:hasActor ng:1990_FIFA_World_Cup,
+        ng:UEFA_Euro_1988,
+        ng:UEFA_Euro_1992 ;
+    sem:hasTimeStamp "1962-09-01"^^xsd:date ;
+    rdfs:comment "Ruud Gullit (Dutch pronunciation: [ˈryt ˈxʏlɪt] ; born Rudi Dil; 1 September 1962) is a Dutch former footballer and subsequent manager. He was noted for his ability to play in multiple positions. At club level, Gullit moved from PSV to AC Milan in 1987 for a world record transfer fee." .
+
+ng:Ruud_van_Nistelrooy a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Euro_2008 ;
+    sem:hasTimeStamp "1976-07-01"^^xsd:date ;
+    rdfs:comment "Rutgerus Johannes Martinus van Nistelrooij (Dutch pronunciation: [ˈryt fɑn ˈnɪstəlroːi]; born 1 July 1976), commonly known by his anglicised name of Ruud van Nistelrooy (), is a Dutch professional football manager and former player. He is currently working as an assistant coach of the Netherlands national football team. Widely regarded as one of the best strikers of his generation, Van Nistelrooy was the top scorer in three UEFA Champions League seasons and is the all-time Dutch top goalscorer in the competition's history with 56 goals." .
+
+ng:Salva_Ballesta a sem:Event ;
+    sem:hasTimeStamp "1975-05-22"^^xsd:date ;
+    rdfs:comment "Salvador Ballesta Vialcho (born 22 May 1975), commonly known as Salva, is a Spanish former professional footballer who played as a striker, currently a manager. A scorer noted for his flair and workrate, he played for seven top-division clubs, most notably Atlético Madrid, Valencia – with whom he won his sole team trophy – and Málaga. He amassed totals of 235 games and 86 goals over 11 La Liga seasons, adding 126 matches and 52 goals in the Segunda División." .
+
+ng:Sir_Matt_Busby_Player_of_the_Year a sem:Event ;
+    rdfs:comment "The Sir Matt Busby Player of the Year, previously known as the MUFC Members Player of the Year (1988–1995), is an award presented to the Manchester United fans' player of the season. It is named after former Manchester United manager Sir Matt Busby, who managed the club in two spells, from 1945 to 1969 and from 1970 to 1971. The award was renamed in his honour in 1996, following his death in 1994, and a new trophy was commissioned – a scaled-down replica of the statue of Busby at the east end of Old Trafford." .
+
+ng:Sotiris_Kaiafas a sem:Event ;
+    sem:hasTimeStamp "1949-12-17"^^xsd:date ;
+    rdfs:comment "Sotirios Kaiafas (Greek: Σωτήριος Καϊάφας; born 17 December 1949) is a Cypriot former footballer who is considered to be Cyprus's best footballer. He played for Omonia and the Cyprus national team. During his career at Omonia, he won the European Golden Boot (1975–76)." .
+
+ng:Stanley_Matthews a sem:Event ;
+    sem:hasActor ng:1950_FIFA_World_Cup,
+        ng:1954_FIFA_World_Cup ;
+    sem:hasTimeStamp "2000-02-23"^^xsd:date ;
+    rdfs:comment "Sir Stanley Matthews (1 February 1915 – 23 February 2000) was an English footballer who played as an outside right. Often regarded as one of the greatest players of the British game and one of the greatest players of all time, he is the only player to have been knighted while still playing football, as well as being the first winner of both the European Footballer of the Year and the Football Writers' Association Footballer of the Year awards. His nicknames included \"The Wizard of Dribble\" and \"The Magician\"." .
+
+ng:Stefan_Effenberg a sem:Event ;
+    sem:hasActor ng:1994_FIFA_World_Cup,
+        ng:UEFA_Euro_1992 ;
+    sem:hasTimeStamp "1968-08-02"^^xsd:date ;
+    rdfs:comment "Stefan Effenberg (German pronunciation: [ˈʃtɛfan ˈʔɛfn̩bɛʁk]; born 2 August 1968) is a German football pundit and former professional player. A midfielder, he was known for his leadership skills, passing range, shooting ability, and physical strength, but was also a temperamental and controversial character. In the Bundesliga alone – where he represented Bayern Munich most notably, in six seasons and in two different spells – Effenberg collected 109 yellow cards, an all-time record at the time of his retirement." .
+
+ng:Steven_Gerrard a sem:Event ;
+    sem:hasActor ng:2006_FIFA_World_Cup,
+        ng:2010_FIFA_World_Cup,
+        ng:2014_FIFA_World_Cup,
+        ng:UEFA_Euro_2000,
+        ng:UEFA_Euro_2004,
+        ng:UEFA_Euro_2012 ;
+    sem:hasTimeStamp "1980-05-30"^^xsd:date ;
+    rdfs:comment "Steven George Gerrard (born 30 May 1980) is an English professional football manager and a former player who most recently managed Saudi Pro League club Al Ettifaq. Widely regarded as one of the greatest midfielders of all time and one of Liverpool's greatest ever players, Gerrard spent the majority of his playing career as a central midfielder for Liverpool and the England national team, captaining both. Born in Merseyside, Gerrard played for his local club Liverpool for most of his professional career, from 1998 to 2015; here he won nine trophies, including one UEFA Champions League (2005), two FA Cups" .
+
+ng:Teddy_Sheringham a sem:Event ;
+    sem:hasActor ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:UEFA_Euro_1996 ;
+    sem:hasTimeStamp "1966-04-02"^^xsd:date ;
+    rdfs:comment "Edward Paul (Teddy) Sheringham (born 2 April 1966) is an English football manager and former player. He played as a forward, mostly as a second striker, in a 24-year professional career. Sheringham was part of the Manchester United team that won the treble of the Premier League, FA Cup and UEFA Champions League in 1999." .
+
+ng:Telmo_Zarra a sem:Event ;
+    sem:hasActor ng:1950_FIFA_World_Cup ;
+    sem:hasTimeStamp "2006-02-23"^^xsd:date ;
+    rdfs:comment "Pedro Telmo Zarraonandía Montoya (20 January 1921 – 23 February 2006), known as Telmo Zarra (Basque: [ˈs̻ara], Spanish: [ˈθara]), was a Spanish football forward. He spent the majority of his career at Athletic Bilbao, from 1940 to 1955, for whom he remains the top scorer in competitive matches with 335 goals. Zarra signed for Athletic after playing one season for Erandio." .
+
+ng:UEFA_Club_Footballer_of_the_Year a sem:Event ;
+    rdfs:comment "The UEFA Club Footballer of the Year was a football award presented by UEFA to the most outstanding performers of every European club football season. The award, along with \"Best Goalkeeper\", \"Best Defender\", \"Best Midfielder,\" and \"Best Forward\", was given at the end of each season at a special gala in Monaco prior to the UEFA Super Cup. The honour had been bestowed upon first-class European football stars since the 1997–98 season, when it was awarded to Ronaldo, then of Internazionale." .
+
+ng:Usain_Bolt a sem:Event ;
+    sem:hasActor ng:Athletics_at_the_2004_Summer_Olympics,
+        ng:Athletics_at_the_2016_Summer_Olympics,
+        ng:athletics_at_the_2008_Summer_Olympics,
+        ng:athletics_at_the_2012_Summer_Olympics ;
+    sem:hasTimeStamp "1986-08-21"^^xsd:date ;
+    rdfs:comment "Usain St. Leo Bolt ( YOO-sayn; born 21 August 1986) is a Jamaican retired sprinter. Widely regarded as the greatest sprinter of all time, he is an eight-time Olympic gold medalist and the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay." .
+
+ng:Zinedine_Zidane a sem:Event ;
+    sem:hasActor ng:1998_FIFA_World_Cup,
+        ng:2002_FIFA_World_Cup,
+        ng:2006_FIFA_World_Cup,
+        ng:UEFA_Euro_1996,
+        ng:UEFA_Euro_2000,
+        ng:UEFA_Euro_2004 ;
+    sem:hasTimeStamp "1972-06-23"^^xsd:date ;
+    rdfs:comment "Zinedine Yazid Zidane (French: [zinedin zidan]; born 23 June 1972), popularly known as Zizou (French: [zizu]), is a French professional football manager and former player who played as an attacking midfielder. Widely regarded as one of the greatest players of all time, Zidane was a playmaker renowned for his elegance, vision, passing, and ball control. He received many individual accolades as a player, including being named FIFA World Player of the Year in 1998, 2000 and 2003, and winning the 1998 Ballon d'Or." .
+
+ng:UEFA_Team_of_the_Year a sem:Event ;
+    rdfs:comment "The UEFA Fan's Team of the Year is a football award given by UEFA through a poll on its official website. This award started in 2001 and allows users of the organization's website to choose their own eleven players and a coach based on their overall performances in European club football and international competitions." .
+

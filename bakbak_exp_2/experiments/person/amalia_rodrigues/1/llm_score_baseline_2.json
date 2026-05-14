@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 5,
+  "factual_consistency": 1.0,
+  "coverage": 0.4444444444444444,
+  "reasoning": "All stated facts in the generated text are consistent with the reference text without contradictions. The generated text covers some key points from the reference but omits others, such as her title as 'Queen of Fado' and her status as the best-selling Portuguese artist."
+}

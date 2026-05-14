@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 9,
+  "factual_consistency": 1.0,
+  "coverage": 0.8888888888888888,
+  "reasoning": "All stated facts in the generated text are consistent with the reference text. The generated text covers all major aspects of Marie Curie's life and work, with only minor details missing from the reference text."
+}

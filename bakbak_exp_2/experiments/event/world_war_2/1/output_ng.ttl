@@ -1,0 +1,1122 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Action_off_Lofoten a sem:Event ;
+    sem:hasTimeStamp "1940-04-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The action off Lofoten was a naval battle fought between the German Kriegsmarine and the British Royal Navy off the southern coast of the Lofoten Islands, Norway during the Second World War. A German squadron under Vizeadmiral Günther Lütjens consisting of the battleships Scharnhorst and Gneisenau met and engaged a British squadron under Admiral Sir William Whitworth consisting of the battlecruiser HMS&#160;Renown and nine destroyers. After a short engagement, Gneisenau suffered moderate damage and the Germans withdrew." .
+
+ng:Albanian_resistance_during_World_War_II a sem:Event ;
+    sem:hasTimeStamp "1939-01-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "In Albania, World War II began with its invasion by Italy in April 1939. Fascist Italy set up Albania as its protectorate or puppet state. The resistance was largely carried out by Communist groups against the Italian (until 1943) and then German occupation in Albania." .
+
+ng:Allied_invasion_of_Italy a sem:Event ;
+    sem:hasPlace ng:Salerno ;
+    sem:hasTimeStamp "1943-09-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Allied invasion of Italy was the Allied amphibious landing on mainland Italy that took place from 3 September 1943, during the Italian campaign of World War II. The operation was undertaken by General Sir Harold Alexander's 15th Army Group (comprising General Mark W. Clark's American Fifth Army and General Bernard Montgomery's British Eighth Army) and followed the successful Allied invasion of Sicily. A preliminary landing in Calabria (Operation Baytown) took place on 3 September, the main invasion force landed on the west coast of Italy at Salerno on 9 September as part of Operation Avalanche at the same time" .
+
+ng:Allied_invasion_of_Sicily a sem:Event ;
+    sem:hasPlace ng:Sperlinga ;
+    sem:hasTimeStamp "1943-07-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Allied invasion of Sicily, also known as the Battle of Sicily and Operation Husky, was a major campaign of World War II in which Allied forces invaded the Italian island of Sicily in July 1943 and took it from the Axis forces. The island was defended by the Italian 6th Army and the German XIV Panzer Corps. The invasion paved the way for the Allied invasion of mainland Italy and initiated the Italian campaign that removed Italy from the war." .
+
+ng:Arctic_convoys_of_World_War_II a sem:Event ;
+    sem:hasPlace ng:Arctic_Ocean,
+        ng:Norwegian_Sea ;
+    sem:hasTimeStamp "1941-08-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Arctic convoys of World War II were oceangoing convoys which sailed from the United Kingdom, Iceland, and North America to northern ports in the Soviet Union, most to Arkhangelsk (Archangel) or Murmansk in Russia. There were 78 convoys, Convoy PQ 1 to Convoy PQ 18 (outbound), Convoy QP 1 to Convoy QP 15 (inbound), Convoy JW 51 – Convoy JW 67 (outbound) and Convoy RA 51 to Convoy RA 67 (inbound). Convoys ran from August 1941 to May 1945, sailing via the Atlantic and Arctic oceans, with periods of no sailings during several months in 1942 and in the" .
+
+ng:Axis_occupation_of_Greece a sem:Event ;
+    sem:hasTimeStamp "1941-04-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The occupation of Greece by the Axis powers (Greek: Η Κατοχή, romanized:&#160;I Katochi) began in April 1941 after the German invasion of Greece to assist its ally, Italy, in the Greco-Italian War had begun in October 1940. Following the Battle of Crete, Greece was occupied starting in June 1941. The occupation of the mainland lasted until Germany and its ally Bulgaria withdrew under Allied pressure in early October 1944, with Crete and some other Aegean Islands being surrendered to the Allies by German garrisons in May and June 1945, after the end of the Second World War in Europe." .
+
+ng:Battle_of_Aachen a sem:Event ;
+    sem:hasActor ng:Nazi_Germany,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Aachen ;
+    sem:hasTimeStamp "1944-10-02"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Aachen was a battle of World War II, fought by American and German forces in and around Aachen, Germany, between 12 September and 21 October 1944. The city had been incorporated into the Siegfried Line, the main defensive network on Germany's western border; the Allies had hoped to capture it quickly and advance into the industrialized Ruhr basin. Although most of Aachen's civilian population was evacuated before the battle began, much of the city was destroyed and both sides suffered heavy losses." .
+
+ng:Battle_of_Abbeville a sem:Event ;
+    sem:hasPlace ng:Abbeville ;
+    sem:hasTimeStamp "1940-06-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Abbeville took place from 27 May to 4 June 1940, near Abbeville during the Battle of France in the Second World War. On 20 May, the 2nd Panzer Division advanced 56&#160;mi (90&#160;km) to Abbeville on the English Channel, overran the 25th Infantry Brigade of the 50th (Northumbrian) Infantry Division and captured the town at 8:30 p.m. Only a few British survivors managed to retreat to the south bank of the Somme and at 2:00 a.m. on 21 May, the III Battalion, Rifle Regiment 2 reached the coast, west of Noyelles-sur-Mer. The 1st Armoured Division (Major-General Roger Evans)" .
+
+ng:Battle_of_Ambon a sem:Event ;
+    sem:hasTimeStamp "1942-02-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Ambon (30 January – 3 February 1942) occurred on Ambon Island in the Dutch East Indies (now Indonesia), as part of the Japanese offensive on the Dutch colony during World War II. In the face of a combined defense by Dutch and Australian troops, Japanese forces conquered the island and its strategic airfield in several days. In the aftermath of the fighting, a major massacre of many Dutch and Australian prisoners of war by the Imperial Japanese Army (IJA) followed. Following the war, many of the IJA personnel were tried for war crimes." .
+
+ng:Battle_of_Arracourt a sem:Event ;
+    sem:hasPlace ng:Arracourt ;
+    sem:hasTimeStamp "1944-09-18"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Arracourt took place between U.S. and German armoured forces near the town of Arracourt, Lorraine, France between 18 and 29 September 1944, during the Lorraine Campaign of World War II. As part of a counteroffensive against recent U.S. advances in France, the German 5th Panzer Army had as its objective the recapture of Lunéville and the elimination of the XII Corps bridgehead over the Moselle River at Dieulouard. With local superiority in troops and tanks, the Germans anticipated quick defeat of the defending Combat Command A (CCA) of the U.S. 4th Armored Division. With better intelligence, tactics" .
+
+ng:Battle_of_Arras a sem:Event ;
+    sem:hasPlace ng:Arras ;
+    sem:hasTimeStamp "1940-05-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Arras took place on 21 May 1940, during the Battle of France in the Second World War. Following the German invasion of the Low Countries on 10 May, French and British forces advanced into Belgium. The German campaign plan Fall Gelb (Case Yellow) had evolved into a decoy operation in the Netherlands and Belgium, with the main effort through the Ardennes." .
+
+ng:Battle_of_Attu a sem:Event ;
+    sem:hasPlace ng:Attu_Island ;
+    sem:hasTimeStamp "1943-05-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Attu (codenamed Operation Landcrab), which took place on 11–30 May 1943, was fought between forces of the United States, aided by Canadian reconnaissance and fighter-bomber support, and Japan on Attu Island off the coast of the Territory of Alaska as part of the Aleutian Islands campaign during the American Theater and the Pacific Theater. Attu is the only land battle in which Japanese and American forces fought in snowy conditions, in contrast with the tropical climate in the rest of the Pacific. The battle ended when most of the Japanese defenders were killed in brutal hand-to-hand combat" .
+
+ng:Battle_of_Authion a sem:Event ;
+    sem:hasTimeStamp "1945-04-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Authion was a military engagement that took place towards the end of World War II, shortly before the defeat of Nazi Germany in 1945. Units of the French Army were sent to the French Alps to clear an important route from central France to Italy. A critical choke point was the 2,080 metre (6,820 feet) high Authion massif, held by determined but weakened German and Italian forces." .
+
+ng:Battle_of_Bacsil_Ridge a sem:Event ;
+    sem:hasTimeStamp "1945-03-19"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Bacsil Ridge began on 19 March 1945. It was one of the continued main battles of the 1944–1945 Philippines Campaign of the Second World War between the Filipino soldiers under the 121st Infantry Regiment, Philippine Commonwealth Army, USAFIP-NL, under the command of American General Russell W. Volckmann, and the Japanese Imperial forces under General Tomoyuki Yamashita, which resulted in the capture of San Fernando, La Union on 23 March 1945, and lead to the subsequent capture Bacnotan, La Union after two months of fighting between the armies and guerilla fighters." .
+
+ng:Battle_of_Bardia a sem:Event ;
+    sem:hasPlace ng:Bardia ;
+    sem:hasTimeStamp "1941-01-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Bardia was fought between 3 and 5 January 1941, as part of Operation Compass, the first British military operation of the Western Desert campaign of the Second World War. It was the first battle of the war in which an Australian Army formation took part, the first to be commanded by an Australian general and the first to be planned by an Australian staff. The 6th Australian Division (Major General Iven Mackay) assaulted the strongly held Italian fortress of Bardia, Libya, assisted by air support and naval gunfire and under the cover of an artillery barrage." .
+
+ng:Battle_of_Bataan a sem:Event ;
+    sem:hasTimeStamp "1945-02-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle for the Recapture of Bataan (Filipino: Labanan para sa Bataan) from 31 January to 21 February 1945, by US forces and Allied Filipino guerrillas from the Japanese, part of the campaign for the liberation of the Philippines, was waged to secure the western shore of Manila Bay to enable the use of its harbor and open new supply lines for American troops engaged in the crucial battle for the liberation of Manila. The Bataan peninsula's recapture also avenged the surrender of the US Army Luzon Force to invading Japanese forces on 9 April 1942." .
+
+ng:Battle_of_Bautzen a sem:Event ;
+    sem:hasPlace ng:Bautzen ;
+    sem:hasTimeStamp "1945-04-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Bautzen (or Battle of Budziszyn, April 1945) was one of the last battles of the Eastern Front during World War II in Europe. It was fought on the extreme southern flank of the Spremberg-Torgau Offensive, seeing days of pitched street fighting between forces of the Polish Second Army under elements of the Soviet 52nd Army and 5th Guards Army[a] on one side and elements of German Army Group Center in the form of the remnants of the 4th Panzer and 17th armies on the other. The battle took place during Ivan Konev's 1st Ukrainian Front's push toward" .
+
+ng:Battle_of_Biak a sem:Event ;
+    sem:hasPlace ng:Biak ;
+    sem:hasTimeStamp "1944-05-27"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Biak was part of the Western New Guinea campaign of World War II, fought between the United States Army and the Japanese Army from May 27 to August 17, 1944. Taking place on the island of Biak, in Geelvink Bay, in present-day Indonesia, it was part of General Douglas MacArthur's South West Pacific Area's offensive drive to clear New Guinea in preparation for an invasion of the Philippines. It was the first major effort by the Japanese to allow uncontested landings for the purpose of creating a kill zone inland." .
+
+ng:Battle_of_Britain a sem:Event ;
+    sem:hasPlace ng:United_Kingdom ;
+    sem:hasTimeStamp "1940-07-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Britain (German: Luftschlacht um England, lit. 'air battle for England') was a military campaign of the Second World War, in which the Royal Air Force (RAF) and the Fleet Air Arm (FAA) of the Royal Navy defended the United Kingdom against large-scale attacks by Nazi Germany's air force, the Luftwaffe. It was the first major military campaign fought entirely by air forces. It takes its name from the speech given by Prime Minister Winston Churchill to the House of Commons on 18 June, 1940: \"What General Weygand called the 'Battle of France' is over." .
+
+ng:Battle_of_Brody a sem:Event ;
+    sem:hasTimeStamp "1941-06-23"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Brody (other names in use include Battle of Dubna, Battle of Dubno, Battle of Rovne, Battle of Rovne-Brody) was a tank battle fought between the 1st Panzer Group's III Army Corps and XLVIII Army Corps (Motorized) and five mechanized corps of the Soviet 5th Army and 6th Army in the triangle formed by the towns of Dubno, Lutsk and Brody between 23 and 30 June 1941. It was one of the most intense armored engagements in the opening phase of Operation Barbarossa, and some say that it may surpass the more famous Battle of Prokhorovka. It is" .
+
+ng:Battle_of_Bukit_Timah a sem:Event ;
+    sem:hasPlace ng:Singapore ;
+    sem:hasTimeStamp "1942-02-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Bukit Timah (10–12 February 1942), was part of the final stage of the Empire of Japan's invasion of Singapore during World War II." .
+
+ng:Battle_of_Calabria a sem:Event ;
+    sem:hasPlace ng:Calabria ;
+    sem:hasTimeStamp "1940-07-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Calabria (Battaglia di Punta Stilo) on 9 July 1940, was a naval battle during the Battle of the Mediterranean in the Second World War between ships of the Regia Marina and those of the Mediterranean Fleet. The battle took place 30&#160;nmi (56&#160;km; 35&#160;mi) to the east of Punta Stilo, Calabria. Both fleets went to sea to protect convoys that reached their destinations and both had signals intelligence giving them notice of their opponent's intentions and both had air support, the Italians from land-based aircraft and the British from the aircraft carrier HMS&#160;Eagle." .
+
+ng:Battle_of_Cape_Esperance a sem:Event ;
+    sem:hasTimeStamp "1942-10-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Cape Esperance, also known as the Second Battle of Savo Island and in Japanese sources as the Sea Battle of Savo Island (サボ島沖海戦), took place on 11–12 October 1942, in the Pacific campaign of World War II between the Imperial Japanese Navy and United States Navy. The naval battle was the second of four major surface engagements during the Guadalcanal campaign and took place at the entrance to the strait between Savo Island and Guadalcanal in the Solomon Islands. Cape Esperance (9°15′S 159°42′E) is the northernmost point on Guadalcanal, and the battle took its name from this" .
+
+ng:Battle_of_Cape_Gloucester a sem:Event ;
+    sem:hasTimeStamp "1943-12-26"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Cape Gloucester was fought in the Pacific theater of World War II between Japanese and Allied forces on the island of New Britain, Territory of New Guinea, between 26 December 1943 and 16 January 1944. Codenamed Operation Backhander, the US landing formed part of the wider Operation Cartwheel, the main Allied strategy in the South West Pacific Area and Pacific Ocean Areas during 1943–1944. It was the second landing the US 1st Marine Division had conducted during the war thus far, after Guadalcanal." .
+
+ng:Battle_of_Cape_Spartivento a sem:Event ;
+    sem:hasPlace ng:Mediterranean_Sea ;
+    sem:hasTimeStamp "1940-11-27"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Cape Spartivento (Battaglia di Capo Teulada) was a naval battle during the Battle of the Mediterranean in the Second World War, fought between naval forces of the Royal Navy and the Italian Regia Marina on 27 November 1940." .
+
+ng:Battle_of_Cape_St_George a sem:Event ;
+    sem:hasTimeStamp "1943-11-25"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Cape St. George was a naval battle of the Pacific campaign of World War II fought on 25 November 1943, between Cape St. George, New Ireland, and Buka Island (now part of the North Solomons Province in Papua New Guinea)." .
+
+ng:Battle_of_Carei a sem:Event ;
+    sem:hasTimeStamp "1944-10-25"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Carei was the last stage of recovering Romania's former territory of Northern Transylvania, ceded in 1940 to Hungary as a result of the Second Vienna Award. The battle occurred towards the end of World War II, in the wider context of the Battle of Romania and the Battle of Debrecen. On October 25, 1944, the cities of Carei and Satu Mare were freed from Hungarian and German control." .
+
+ng:Battle_of_Carentan a sem:Event ;
+    sem:hasPlace ng:Carentan ;
+    sem:hasTimeStamp "1944-06-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Carentan was an engagement in World War II between airborne forces of the United States Army and the German Wehrmacht during the Battle of Normandy. The battle took place from 10 to 14 June 1944, on the approaches to and within the town of Carentan, France. The objective of the attacking American forces was consolidation of the U.S. beachheads (Utah Beach and Omaha Beach) and establishment of a continuous defensive line against expected German counterattacks." .
+
+ng:Battle_of_Ceber a sem:Event ;
+    sem:hasPlace ng:Ceber_wi_tokrzyskie_Voivodeship ;
+    sem:hasTimeStamp "1944-08-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Ceber was a World War II battle took place overnight on 4–5 August 1944 in the village of Ceber in the Holy Cross Mountains (Świętokrzyskie). A battalion of Polish partisans of the Home Army's 2nd Legions' Infantry Regiment led by Capt. Michał Mandziara (nom de guerre Siwy) assaulted a German garrison of the village, took it by surprise and annihilated it after a brief encounter." .
+
+ng:Battle_of_Centuripe a sem:Event ;
+    sem:hasTimeStamp "1943-08-02"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Centuripe was fought from 2 to 4 August 1943, as part of the Allied invasion of Sicily during World War II. The 78th Battleaxe Division, of the British Eighth Army, was engaged in fierce fighting around the town of Centuripe in the hill country of central Sicily, between the Rivers Dittaìno and Salso. Centuripe, a hill town set on a very high rocky pinnacle and approached by only one steep and twisty road, itself was the key to the whole Adrano position, the capture of which would in turn force the Germans to withdraw to new positions." .
+
+ng:Battle_of_Chambois a sem:Event ;
+    sem:hasPlace ng:Chambois ;
+    sem:hasTimeStamp "1944-08-18"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Chambois was an August 1944 battle during the Battle of Normandy in World War II. Prior to the battle, a pocket had formed around Falaise, Calvados, where the German Army Group B, with the 7th Army and the Fifth Panzer Army (formerly Panzergruppe West) were encircled by the Western Allies." .
+
+ng:Battle_of_Christmas_Island a sem:Event ;
+    sem:hasPlace ng:Christmas_Island ;
+    sem:hasTimeStamp "1942-03-31"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Christmas Island was a small engagement which began on 31 March 1942, during World War II. Assisted by a mutiny of soldiers of the British Indian Army against their British officers, Imperial Japanese Army troops were able to occupy Christmas Island without any land-based resistance. The United States Navy submarine Seawolf caused severe damage to the Imperial Japanese Navy cruiser Naka during the landings." .
+
+ng:Battle_of_Crete a sem:Event ;
+    sem:hasPlace ng:Crete ;
+    sem:hasTimeStamp "1941-05-20"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Crete (German: Luftlandeschlacht um Kreta, Greek: Μάχη της Κρήτης), codenamed Operation Mercury (German: Unternehmen Merkur), was a major Axis airborne and amphibious operation during World War II to capture the island of Crete. It began on the morning of 20 May 1941, with multiple German airborne landings on Crete. Greek and other Allied forces, along with Cretan civilians, defended the island." .
+
+ng:Battle_of_Crucifix_Hill a sem:Event ;
+    sem:hasPlace ng:Aachen ;
+    sem:hasTimeStamp "1944-10-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Crucifix Hill was a World War II battle that took place on 8 October 1944, on Crucifix Hill (Haarberg, Hill 239), next to the village of Haaren in Germany and was a part of the U.S. 1st Division's campaign to seize Aachen, Germany. The Battle of Aachen was part of the Drive to the Siegfried Line. The hill was named after a large crucifix mounted on the top of the hill." .
+
+ng:Battle_of_Dakar a sem:Event ;
+    sem:hasPlace ng:Dakar ;
+    sem:hasTimeStamp "1940-09-23"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Dakar, also known as Operation Menace, was an unsuccessful attempt in September 1940 by the Allies to capture the strategic port of Dakar in French West Africa (modern-day Senegal). It was hoped that the success of the operation could overthrow the pro-German Vichy French administration in the colony, and be replaced by a pro-Allied Free French one under General Charles de Gaulle." .
+
+ng:Battle_of_Dunkirk a sem:Event ;
+    sem:hasPlace ng:Dunkirk ;
+    sem:hasTimeStamp "1940-05-26"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Dunkirk (French: Bataille de Dunkerque) was fought around the French port of Dunkirk (Dunkerque) during the Second World War, between the Allies and Nazi Germany. As the Allies were losing the Battle of France on the Western Front, the Battle of Dunkirk was the defence and evacuation of British and other Allied forces to Britain from 26 May to 4 June 1940. After the Phoney War, the Battle of France began in earnest on 10 May 1940." .
+
+ng:Battle_of_Dutch_Harbor a sem:Event ;
+    sem:hasPlace ng:Unalaska ;
+    sem:hasTimeStamp "1942-06-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Dutch Harbor took place on 3-4 June 1942, when the Imperial Japanese Navy launched two aircraft carrier raids on the Dutch Harbor Naval Operating Base and U.S. Army Fort Mears at Dutch Harbor on Amaknak Island, opening the Aleutian Islands campaign of World War II. The bombing marked the first aerial attack by an enemy on North America, though Amaknak island is not part of the continental US and was not a state but the Alaska Territory at the time. and was the second time in history that the North America was bombed by someone working for" .
+
+ng:Battle_of_El_Guettar a sem:Event ;
+    sem:hasPlace ng:El_Guettar_Tunisia ;
+    sem:hasTimeStamp "1943-03-23"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of El Guettar took place from 23 March – 3 April 1943, in south-central Tunisia during the Tunisia Campaign of World War II. It was fought by elements of the Army Group Africa under General Hans-Jürgen von Arnim, along with Italian First Army under General Giovanni Messe, against the U.S. II Corps under Lieutenant General George Patton. It was the first battle in which U.S. forces were able to defeat the experienced German tank units, but the followup to the battle was inconclusive." .
+
+ng:Battle_of_Empress_Augusta_Bay a sem:Event ;
+    sem:hasTimeStamp "1943-11-02"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Empress Augusta Bay, on 1–2 November 1943 – also known as the Battle of Gazelle Bay, Operation Cherry Blossom, and in Japanese sources as the Sea Battle off Bougainville Island (ブーゲンビル島沖海戦) – was a naval battle fought at night in Empress Augusta Bay near Bougainville Island. The naval battle was a result of Allied landings at Cape Torokina in the first action in the Bougainville campaign of World War II. It may also be considered as part of the Solomons and New Guinea campaigns. The battle was significant as part of a broader Allied strategy—known as Operation" .
+
+ng:Battle_of_Finschhafen a sem:Event ;
+    sem:hasTimeStamp "1943-09-22"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Finschhafen was part of the Huon Peninsula campaign in New Guinea during World War II and was fought between Australian and Japanese forces. The fighting took place between 22 September and 24 October 1943 following the landing at Scarlet Beach, which was followed by a two-pronged advance on Finschhafen as the Australian 20th Infantry Brigade advanced on the town from the north, while the 22nd Infantry Battalion drove from the south, having advanced from the landing beaches east of Lae. After the capture of Finschhafen, the Japanese forces in the area withdrew towards Sattelberg where they sought" .
+
+ng:Battle_of_Gembloux a sem:Event ;
+    sem:hasPlace ng:Gembloux ;
+    sem:hasTimeStamp "1940-05-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Gembloux (or Battle of the Gembloux Gap) was fought between French and German forces in May 1940 during the Second World War. On 10 May 1940, The Nazi Wehrmacht, invaded Luxembourg, The Netherlands and Belgium under the operational plan Fall Gelb (Case Yellow). Allied armies responded with the Dyle Plan (Breda variant), intended to halt the Germans in Belgium, believing it to be the main German thrust." .
+
+ng:Battle_of_Goodenough_Island a sem:Event ;
+    sem:hasTimeStamp "1942-10-22"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Goodenough Island (22–27 October 1942), also known as Operation Drake, was a battle of the Pacific campaign of World War&#160;II. The Allies landed on Goodenough Island, Papua, and clashed with a Japanese Kaigun Rikusentai (Special Naval Landing Force). The Japanese troops had been stranded on the island during the Battle of Milne Bay in late August 1942. \"Drake Force\", consisting of the Australian 2/12th Battalion and attachments, landed on the southern tip of Goodenough Island at Mud Bay and Taleba Bay on 22 October, tasked with denying the Japanese use of the island prior to the Buna" .
+
+ng:Battle_of_Graveney_Marsh a sem:Event ;
+    sem:hasPlace ng:Kent ;
+    sem:hasTimeStamp "1940-09-27"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Graveney Marsh, on the night of 27 September 1940 in Kent, England, was the last ground engagement involving an organized foreign force to take place on the mainland of Great Britain. The fighting took place between the crew of a shot-down German Junkers Ju 88A-1 bomber from KG 77 and a detachment of soldiers from the 1st Battalion, London Irish Rifles (1&#160;LIR), in Seasalter on the north Kent coast. The Ju&#160;88, W.Nr&#160;088&#160;8099, 3Z+EL, and nicknamed Eule (\"Owl\") by its crew, was a new model and had only entered service two weeks earlier." .
+
+ng:Battle_of_Groningen a sem:Event ;
+    sem:hasPlace ng:Groningen ;
+    sem:hasTimeStamp "1945-04-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Groningen took place during the penultimate month of World War II in Europe, on 13 to 16 April 1945, in the city of Groningen. The 2nd Canadian Division attacked Groningen (though the whole division was never in combat at any given time), defended by 7,000 German soldiers and Dutch and Belgian SS troops. There were also many Luftwaffe troops manning flak guns in the area." .
+
+ng:Battle_of_Guam a sem:Event ;
+    sem:hasTimeStamp "1944-08-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Guam (21 July – 10 August 1944) was the American recapture of the Japanese-held island of Guam, an American territory in the Mariana Islands captured by the Japanese in the First Battle of Guam in 1941 during the Pacific campaign of World War II. The battle was a critical component of Operation Forager. The recapture of Guam and the broader Mariana and Palau Islands campaign resulted in the destruction of much of Japan's naval air power and allowed the United States to establish large airbases from which it could bomb the Japanese home islands with its new" .
+
+ng:Battle_of_Gurun a sem:Event ;
+    sem:hasActor ng:11th_Infantry_Division,
+        ng:5th_Division ;
+    sem:hasPlace ng:Gurun ;
+    sem:hasTimeStamp "1941-12-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Gurun was a minor engagement between the Japanese and Commonwealth forces during the Malayan Campaign of the Second World War. The battle occurred when the 11th Indian Division attempted to slow down the Japanese advance after the disastrous Battle of Jitra at a position 3 miles north of the village of Gurun." .
+
+ng:Battle_of_Halbe a sem:Event ;
+    sem:hasPlace ng:Halbe ;
+    sem:hasTimeStamp "1945-04-24"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Halbe (German: Kesselschlacht von Halbe, Battle of the Halbe Pocket; Russian: Хальбский котёл, Halbe pocket) was a battle lasting from April 24 to May 1, 1945 in which the German Ninth Army under the command of General Theodor Busse was destroyed as a fighting force by the advancing Red Army during the Battle of Berlin. The Ninth Army, encircled in a large pocket in the Spree Forest region south-east of Berlin, attempted to break out westwards through the village of Halbe and the pine forests south of Berlin to link up with the German Twelfth Army commanded" .
+
+ng:Battle_of_Hannut a sem:Event ;
+    sem:hasPlace ng:Hannut ;
+    sem:hasTimeStamp "1940-05-12"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Hannut was a Second World War battle fought during the Battle of Belgium which took place between 12 and 14 May 1940 at Hannut in Belgium. It was the largest tank battle in the campaign. It was also the largest clash of tanks in armoured warfare history at the time." .
+
+ng:Battle_of_Hel a sem:Event ;
+    sem:hasPlace ng:Hel_Peninsula ;
+    sem:hasTimeStamp "1939-09-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Hel (Polish: Obrona Helu, literally \"the Defense of Hel\") was a World War II engagement fought from 1 September to 2 October 1939 on the Hel Peninsula, of the Baltic Sea coast, between invading German forces and defending Polish units during the German invasion of Poland (also known in Polish historiography as the September Campaign). The defense of the Hel Peninsula took place around the Hel Fortified Area, a system of Polish fortifications that had been constructed in the 1930s near the interwar border with the German Third Reich. Beginning on 20 September 1939, after the Polish" .
+
+ng:Battle_of_Heraklion a sem:Event ;
+    sem:hasPlace ng:Chania ;
+    sem:hasTimeStamp "1941-05-20"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Heraklion was part of the Battle of Crete, fought during World War II on the Greek island of Crete between 20 and 30 May 1941. British, Australian and Greek forces of 14th Infantry Brigade, commanded by Brigadier Brian Chappel, defended Heraklion port and airfield against a German paratrooper attack by the 1st Parachute Regiment of the 7th Air Division, commanded by Colonel Bruno Bräuer. The attack on Heraklion during the afternoon of 20 May was one of four airborne assaults on Crete that day, following German attacks against Maleme airfield and the main port of Chania in" .
+
+ng:Battle_of_Imphal a sem:Event ;
+    sem:hasTimeStamp "1944-03-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Imphal (Meitei: Japan Laan, lit. 'Japanese invasion'), also known as the \"Stalingrad of the East\" in combination with Kohima, took place in the region around the city of Imphal, the capital of the state of Manipur in Northeast India from March until July 1944. Japanese armies attempted to destroy the Allied forces at Imphal and invade India, but were driven back into Burma with heavy losses. Together with the simultaneous Battle of Kohima on the road by which the encircled Allied forces at Imphal were relieved, the battle was the turning point of the Burma campaign, part" .
+
+ng:Battle_of_Java a sem:Event ;
+    sem:hasPlace ng:Java ;
+    sem:hasTimeStamp "1942-02-28"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Java (Invasion of Java, Operation J) was a battle of the Pacific theatre of World War II. It occurred on the island of Java from 28 February – 12 March 1942. It involved forces from the Empire of Japan, which invaded on 28 February 1942, and Allied personnel. Allied commanders signed a formal surrender at Japanese headquarters at Bandung on 12 March." .
+
+ng:Battle_of_Keren a sem:Event ;
+    sem:hasPlace ng:Keren_Eritrea ;
+    sem:hasTimeStamp "1941-02-05"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Keren (Italian: Battaglia di Cheren) took place from 3 February to 27 March 1941. Keren was attacked by the British during the East African Campaign of the Second World War. A force of Italian regular and colonial troops defended the position against troops mostly from Sudan and British India and Free French forces." .
+
+ng:Battle_of_Kesternich a sem:Event ;
+    sem:hasPlace ng:Germany ;
+    sem:hasTimeStamp "1944-12-13"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Kesternich is a small village just inside the German border from Belgium. It was the site of two major battles during World War II. These battles are tied to the Siegfried Line Campaign, the Battle of the Huertgen Forest, the Battle of the Bulge, and the assault on the Roer River dams at the outset of Operation Lumberjack." .
+
+ng:Battle_of_Ko_Chang a sem:Event ;
+    sem:hasPlace ng:Gulf_of_Thailand ;
+    sem:hasTimeStamp "1941-01-16"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Ko Chang took place on 17 January 1941 during the Franco-Thai War. A flotilla of French warships attacked a smaller force of Thai vessels, including a coastal defence ship. The battle resulted in a tactical victory by the French Navy over the Royal Thai Navy, although the strategic result is dubious." .
+
+ng:Battle_of_Kohima a sem:Event ;
+    sem:hasPlace ng:Kohima ;
+    sem:hasTimeStamp "1944-04-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Kohima was the turning point of the Japanese U-Go offensive into British India in 1944 during the Second World War. It took place in three stages from 4 April to 22 June 1944 around the town of Kohima, now the capital city of the state of Nagaland in Northeast India. From 3 to 16 April, the Japanese attempted to capture Kohima ridge, a feature which dominated the road by which the besieged British and Indian troops of IV Corps at Imphal were supplied." .
+
+ng:Battle_of_Krasny_Bor a sem:Event ;
+    sem:hasPlace ng:Krasny_Bor ;
+    sem:hasTimeStamp "1943-02-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Krasny Bor was part of the Soviet offensive Operation Polyarnaya Zvezda in the Eastern Front of World War II. It called for a pincer attack near Leningrad to build on the success of Operation Iskra and completely lift the siege of Leningrad, in the process encircling a substantial part of the German 18th Army. The offensive near the town of Krasny Bor formed the western arm of the pincer. The Soviet offensive began on Wednesday, 10 February 1943, and produced noticeable gains on the first day but rapidly became a stalemate." .
+
+ng:Battle_of_Le_Mesnil_Patry a sem:Event ;
+    sem:hasPlace ng:Le_Mesnil_Patry ;
+    sem:hasTimeStamp "1944-06-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Le Mesnil-Patry during the Second World War was the last attack by a Canadian armoured battle group in Normandy in June 1944. The Queen's Own Rifles of Canada of the 8th Canadian Infantry Brigade of the 3rd Canadian Division, supported by the 6th Armoured Regiment (1st Hussars) of the 2nd Canadian Armoured Brigade attacked the village of Le Mesnil-Patry to advance southwards towards the higher ground of Hill 107 west of Cheux. The attack was intended to support a larger operation by the 50th (Northumbrian) Infantry Division and the 7th Armoured Division to capture the city of" .
+
+ng:Battle_of_Leuven a sem:Event ;
+    sem:hasPlace ng:Leuven ;
+    sem:hasTimeStamp "1940-05-16"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Battle of Leuven may refer to:" .
+
+ng:Battle_of_Leyte_Gulf a sem:Event ;
+    sem:hasPlace ng:Leyte_Gulf ;
+    sem:hasTimeStamp "1944-10-23"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Leyte Gulf (23–26 October 1944) was the largest naval battle of World War II and by some criteria the largest naval battle in history, with over 200,000 naval personnel involved. By late 1944, the Japanese fleet had become much weaker than that of the Allied forces; it contained fewer capital ships (aircraft carriers and battleships) than the Allies had aircraft carriers in the Pacific. After the catastrophic Battle of the Philippine Sea in June 1944, senior Japanese military leaders understood that their remaining naval forces were incapable of achieving a strategic victory against the Allies." .
+
+ng:Battle_of_Livno a sem:Event ;
+    sem:hasPlace ng:Livno ;
+    sem:hasTimeStamp "1943-12-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Livno is the name of several battles fought over the town of Livno during World War II, which changed hands between the Independent State of Croatia and Partisan forces several times." .
+
+ng:Battle_of_Luzon a sem:Event ;
+    sem:hasTimeStamp "1945-08-15"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Luzon (Tagalog: Labanan sa Luzon; Japanese: ルソン島の戦い; Spanish: Batalla de Luzón) was a land battle of the Pacific Theater of Operations of World War II by the Allied forces of the U.S., its colony the Philippines, Mexico, and allies against forces of the Empire of Japan. The battle resulted in a U.S. and Filipino victory. The Allies had taken control of all strategically and economically important locations of Luzon by March 1945, although pockets of Japanese resistance held out in the mountains until the unconditional surrender of Japan." .
+
+ng:Battle_of_Madagascar a sem:Event ;
+    sem:hasPlace ng:Antsiranana ;
+    sem:hasTimeStamp "1942-05-05"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Madagascar (5 May – 6 November 1942) was an Allied campaign to capture the Vichy French−controlled island Madagascar during World War II. The seizure of the island by the British was to deny Madagascar's ports to the Imperial Japanese Navy and to prevent the loss or impairment of the Allied shipping routes to India, Australia and Southeast Asia. It began with Operation Ironclad, the seizure of the port of Diego-Suarez (now Antsiranana) near the northern tip of the island, on 5 May 1942. A campaign to secure the rest of the island, Operations Stream, Line and Jane," .
+
+ng:Battle_of_Manila a sem:Event ;
+    sem:hasPlace ng:Manila ;
+    sem:hasTimeStamp "1945-02-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Manila (3 February&#160;– 3 March 1945) was a major battle during the Philippine campaign of 1944–45, during the Second World War. It was fought by forces from both the United States and the Philippines against Japanese troops in Manila, the capital city of the Philippines. The month-long battle, which resulted in the death of at least 100,000 civilians and the complete devastation of the city, was the scene of the worst urban fighting fought by American forces in the Pacific theater." .
+
+ng:Battle_of_Marseille a sem:Event ;
+    sem:hasPlace ng:Marseille ;
+    sem:hasTimeStamp "1944-08-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Marseille was an urban battle of World War II that took place August 21–28, 1944, and led to the liberation of Marseille by Free French forces under the command of General Jean de Lattre de Tassigny. The groundwork was laid by the Allied invasion of southern France in Operation Dragoon on 15 August 1944 by the United States Seventh Army, with major support from the French First Army." .
+
+ng:Battle_of_Medenine a sem:Event ;
+    sem:hasPlace ng:Medenine ;
+    sem:hasTimeStamp "1943-03-06"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Medenine (German: Unternehmen Capri [Operation Capri]) was an Axis spoiling attack at Medenine in Tunisia on 6 March 1943. The operation was intended to delay an attack by the British Eighth Army on the Mareth Line. The British had been forewarned by Ultra decrypts of German wireless communications and rushed reinforcements from Tripoli and Benghazi before the Axis attack, which was a costly failure." .
+
+ng:Battle_of_Midtskogen a sem:Event ;
+    sem:hasPlace ng:Elverum ;
+    sem:hasTimeStamp "1940-04-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Midtskogen was a minor battle fought on the night of 9–10 April 1940 during the Second World War between a German raiding party and an improvised Norwegian force. The site of the battle was Midtskogen Farm, approximately 5&#160;km (3.1&#160;mi) west of the town of Elverum at the mouth of the Østerdalen valley in southern Norway. The invading German troops aimed to capture King Haakon VII and his cabinet, thereby forcing Norway into submission." .
+
+ng:Battle_of_Midway a sem:Event ;
+    sem:hasPlace ng:Midway_Atoll ;
+    sem:hasTimeStamp "1942-06-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea. The Japanese Combined Fleet under the command of Isoroku Yamamoto suffered a decisive defeat by two carrier strike groups of the U.S. Pacific Fleet near Midway Atoll, about 1,300&#160;mi (1,100&#160;nmi; 2,100&#160;km) northwest of Oahu. Yamamoto had intended to capture Midway and lure out and destroy the U.S. Pacific Fleet, especially the aircraft carriers which had escaped damage at" .
+
+ng:Battle_of_Mindoro a sem:Event ;
+    sem:hasTimeStamp "1944-12-13"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Mindoro (Filipino: Labanan sa Mindoro) took place during World War II between the forces of the United States and Japan, in Mindoro Island in the central Philippines, from 13 to 16 December 1944, during the Philippines Campaign. Troops of the United States Army, supported by the United States Navy and U.S. Army Air Forces (USAAF), made an amphibious landing on Mindoro and defeated Imperial Japanese Army (IJA) forces there. There was no significant opposition from the Imperial Japanese Navy, nor from the Japanese Army and Navy Air Forces, except for kamikaze (suicide) attacks on American ships." .
+
+ng:Battle_of_Montcornet a sem:Event ;
+    sem:hasPlace ng:Montcornet ;
+    sem:hasTimeStamp "1940-05-17"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Montcornet, on 17 May 1940 took place during the Battle of France. The French 4e Division cuirassée (Colonel Charles de Gaulle), attacked the German-held village of Montcornet with over 200 tanks. The French drove off the Germans but later had to retreat due to lack of support and the intervention of the Luftwaffe." .
+
+ng:Battle_of_Montese a sem:Event ;
+    sem:hasPlace ng:Montese ;
+    sem:hasTimeStamp "1945-04-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Montese was fought from 14 to 17 April 1945 in Italian commune of Montese, at the end of World War II, as part of the final Allied offensive in the Italian campaign. It pitted the 1st Division of the Brazilian Expeditionary Force (FEB), reinforced by tanks from the American 1st Armored Division, against German troops of the Wehrmacht's 14th Army. It is considered the bloodiest WW2 battle fought by Brazil." .
+
+ng:Battle_of_Muar a sem:Event ;
+    sem:hasTimeStamp "1942-01-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Muar was the last major battle of the Malayan Campaign during the Second World War. It took place from 14–22 January 1942 around Gemensah Bridge and on the Muar River. After the British defeat at Slim River, General Archibald Wavell, commander of ABDA, decided that Lieutenant General Lewis Heath's III Indian Corps should withdraw 240 kilometres (150&#160;mi) south into the State of Johore to rest and regroup, while the 8th Australian Division would attempt to stop the Japanese advance." .
+
+ng:Battle_of_Nancy a sem:Event ;
+    sem:hasPlace ng:Lorraine ;
+    sem:hasTimeStamp "1944-09-05"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Nancy in September 1944 was a 10-day battle on the Western Front of World War II in which the Third United States Army defeated German forces defending the approaches to Nancy, France and crossings over the Moselle River to the north and south of the city. The battle resulted in U.S. forces fighting their way across the Moselle and liberating Nancy." .
+
+ng:Battle_of_Nikolayevka a sem:Event ;
+    sem:hasTimeStamp "1943-01-13"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Nikolayevka occurred on 26 January 1943 when the Tridentina division (part of the Alpine corps, within the Italian 8th Army) broke out of the Soviet encirclement, near the village of Nikolayevka (now Livenka, Belgorod Oblast, in Russia). This allowed the Italian survivors of the Ostrogozhsk–Rossosh offensive, which caused huge losses to the Alpini, to complete their retreat to safety." .
+
+ng:Battle_of_Noemfoor a sem:Event ;
+    sem:hasPlace ng:Netherlands_New_Guinea ;
+    sem:hasTimeStamp "1944-07-02"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Noemfoor was part of the New Guinea campaign of World War II. It took place on the island of Noemfoor, in Dutch New Guinea (now Papua, in Indonesia), between 2 July and 31 August 1944. During the battle, Allied forces landed on the island to capture Japanese bases as part of their advance through the Pacific towards the Philippines. The initial landing was largely unopposed and the Japanese defenders withdrew inland as the US troops came ashore." .
+
+ng:Battle_of_Overloon a sem:Event ;
+    sem:hasPlace ng:Overloon ;
+    sem:hasTimeStamp "1944-09-30"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Overloon was fought in the Second World War between Allied forces and the German Army which took place in and around the village of Overloon in the south-east of the Netherlands between 30 September and 18 October 1944. The battle was an Allied victory, after the Allies launched Operation Aintree. The Allies went on to liberate the town of Venray." .
+
+ng:Battle_of_Poljana a sem:Event ;
+    sem:hasPlace ng:Prevalje_Municipality ;
+    sem:hasTimeStamp "1945-05-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Poljana took place outside of Poljana, near the town of Prevalje in Yugoslavia (modern-day Slovenia) between the Yugoslav Army and a column of 30,000 retreating Axis soldiers, which consisted of the German Wehrmacht, the Croatian Armed Forces (which consisted of Home Guard and Ustaše soldiers), the Montenegrin People's Army (which was of former Chetniks and survivors of the Battle of Lijevče Field), the Serbian Volunteer Corps, the Slovene Home Guard, the 15th Waffen SS Cossack Cavalry Corps and other collaborationist forces who were on their way to surrender to the British in Austria. The battle was one" .
+
+ng:Battle_of_Porkuni a sem:Event ;
+    sem:hasPlace ng:Porkuni ;
+    sem:hasTimeStamp "1944-09-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Battle of Porkuni (Estonian: Porkuni lahing) was the largest engagement between Estonians serving in the Red Army and Estonian pro-independence and Waffen-SS units. It took place on 21 September 1944 between Lake Porkuni and the village of Sauvälja about seven kilometres northeast of the town of Tamsalu during the Leningrad Front's Tallinn Offensive Operation (17 September 1944 – 26 September 1944). The 249th Rifle Regiment of the 8th Estonian Rifle Corps had heavy machine guns and mortars and were supported by artillery and tanks." .
+
+ng:Battle_of_Prachuab_Khirikhan a sem:Event ;
+    sem:hasActor ng:Empire_of_Japan,
+        ng:Thailand ;
+    sem:hasPlace ng:Prachuap_Khiri_Khan ;
+    sem:hasTimeStamp "1941-12-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Prachuap Khiri Khan (Thai: ยุทธการที่ประจวบคีรีขันธ์) was an early engagement of the Japanese invasion of Thailand in the Southeast Asian theatre of World War II. It was fought on 8–9 December 1941 at the airfield of Prachuap Khiri Khan, on the coast of the Gulf of Thailand along the Kra Isthmus. The Japanese meant to use Thailand as a base to strike at British possessions in Burma and Malaya and attacked Thailand without warning." .
+
+ng:Battle_of_Prokhorovka a sem:Event ;
+    sem:hasActor ng:Aleksey_Semenovich_Zhadov,
+        ng:Hermann_Hoth,
+        ng:Nazi_Germany,
+        ng:Nikolai_Vatutin,
+        ng:Otto_De_loch,
+        ng:Paul_Hausser,
+        ng:Pavel_Rotmistrov,
+        ng:Soviet_Union,
+        ng:Stepan_Krasovsky,
+        ng:Vladimir_Sudets ;
+    sem:hasPlace ng:Prokhorovka_Belgorod_Oblast ;
+    sem:hasTimeStamp "1943-07-12"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Prokhorovka was fought on 12 July 1943 near Prokhorovka, 87 kilometres (54&#160;mi) southeast of Kursk, in the Soviet Union, during the Second World War. Taking place on the Eastern Front, the engagement was part of the wider Battle of Kursk and occurred when the 5th Guards Tank Army of the Soviet Red Army attacked the II SS-Panzer Corps of the German Waffen-SS in one of the largest tank battles in history. In April 1943, the German leadership began preparing for Operation Citadel, with the objective of enveloping and destroying the Soviet forces in the Kursk salient by" .
+
+ng:Battle_of_Romania a sem:Event ;
+    sem:hasPlace ng:Romania ;
+    sem:hasTimeStamp "1944-01-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Romania in World War II comprised several operations in or around Romania in 1944, as part of the Eastern Front, in which the Soviet Army defeated Axis (German and Romanian) forces in the area, Romania changed sides, and Soviet and Romanian forces drove the Germans back into Hungary. Soviet troops entered Romanian territory during the Uman–Botoșani offensive in March 1944, capturing several towns in northern Moldavia, including Botoșani. According to historian David Glantz, the Soviet Union first attempted to invade Romania during the spring of 1944, through the territory of present-day Moldova." .
+
+ng:Battle_of_Savo_Island a sem:Event ;
+    sem:hasTimeStamp "1942-08-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Savo Island, also known as the First Battle of Savo Island and in Japanese sources as the First Battle of the Solomon Sea (第一次ソロモン海戦, Dai-ichi-ji Soromon Kaisen), and colloquially among Allied Guadalcanal veterans as the Battle of the Five Sitting Ducks, was a naval battle during the Solomon Islands campaign of the Pacific War of World War II between the Imperial Japanese Navy and Allied naval forces. The battle took place on 8–9 August 1942 and was the first major naval engagement of the Guadalcanal campaign, the first of several naval battles in the straits later named" .
+
+ng:Battle_of_Sedjenane a sem:Event ;
+    sem:hasPlace ng:Sejenane ;
+    sem:hasTimeStamp "1943-02-26"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Sedjenane is a town in northern Tunisia, on the railway line to Mateur and the port of Bizerta. The Battle of Sedjenane was fought during World War II between the Allies and Axis for control of a town in northern Tunisia, on the railway line to Mateur and the port of Bizerta. The battle was part of the Tunisia Campaign." .
+
+ng:Battle_of_Sidi_Bou_Zid a sem:Event ;
+    sem:hasPlace ng:Sidi_Bouzid ;
+    sem:hasTimeStamp "1943-02-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Sidi Bou Zid (Unternehmen Frühlingswind/Operation Spring Breeze) took place during the Tunisia Campaign from 14–17 February 1943, in World War II. The battle was fought around Sidi Bou Zid, where a large number of U.S. Army units were mauled by German and Italian forces. It resulted in the Axis forces recapturing the strategically important town of Sbeitla in central Tunisia. The battle was planned by the Germans to be a two-part offensive-defensive operation against U.S. positions in western Tunisia." .
+
+ng:Battle_of_Sio a sem:Event ;
+    sem:hasTimeStamp "1943-12-05"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Sio, fought between December 1943 and March 1944, was the break-out and pursuit phase of General Douglas MacArthur's Huon Peninsula campaign, part of the New Guinea campaign of World War II. After the defeat of the Japanese in the Battle of Sattelberg, Australian Army forces broke through the Japanese positions around Finschhafen. Constant pressure from United States Navy PT boats, Australian land forces and Allied aircraft brought the Japanese logistical system to the brink of collapse, resulting in disease, malnutrition, and privation for the Japanese soldiers. Meanwhile, the Allied supply system grappled with the problems of terrain" .
+
+ng:Battle_of_Slivice a sem:Event ;
+    sem:hasPlace ng:imelice ;
+    sem:hasTimeStamp "1945-05-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Slivice (Czech: Bitva u Slivice) was the last large World War II battle in the area of the Czech lands. During 11–12 May 1945, German troops, trying to surrender to nearby American troops rather than the USSR, defended themselves against local partisans and the Red Army. The Germans eventually capitulated during early hours of May 12." .
+
+ng:Battle_of_Stalingrad a sem:Event ;
+    sem:hasActor ng:Independent_State_of_Croatia,
+        ng:Kingdom_of_Hungary,
+        ng:Kingdom_of_Italy,
+        ng:Kingdom_of_Romania,
+        ng:Nazi_Germany,
+        ng:Soviet_Union,
+        ng:Spain ;
+    sem:hasPlace ng:Volgograd ;
+    sem:hasTimeStamp "1942-08-23"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Stalingrad was a major battle on the Eastern Front of World War II in which Nazi Germany and its Axis allies fought the Soviet Union for control of the city of Stalingrad in southern Russia. Marked by intense close-quarters combat and heavy civilian losses during aerial bombardment, the battle is considered the largest and deadliest urban battle in military history and the largest battle in World War II. By the end of the fighting, the German 6th Army had been destroyed, the 4th Panzer Army had suffered severe losses, and Army Group B was routed, shifting the" .
+
+ng:Battle_of_Sunda_Strait a sem:Event ;
+    sem:hasTimeStamp "1942-02-28"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Sunda Strait was a naval battle which occurred during World War II in the Sunda Strait between the islands of Java, and Sumatra. On the night of 28 February&#160;– 1 March 1942, the Australian light cruiser HMAS&#160;Perth, American heavy cruiser USS&#160;Houston, and Dutch destroyer HNLMS&#160;Evertsen faced a major Imperial Japanese Navy (IJN) task force. After a fierce battle lasting several hours, all Allied ships were sunk." .
+
+ng:Battle_of_Tarakan a sem:Event ;
+    sem:hasTimeStamp "1942-01-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Tarakan took place on 11–12 January 1942, a day after the Empire of Japan declared war on the Kingdom of the Netherlands." .
+
+ng:Battle_of_Taranto a sem:Event ;
+    sem:hasPlace ng:Taranto ;
+    sem:hasTimeStamp "1940-11-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Taranto took place on the night of 11/12 November 1940 during the Second World War between British naval forces (Admiral Andrew Cunningham) and Italian naval forces (Admiral Inigo Campioni). The Royal Navy launched the first all-aircraft ship-to-ship naval attack in history, employing 21 Fairey Swordfish biplane torpedo bombers from the aircraft carrier HMS&#160;Illustrious in the Mediterranean Sea. The attack struck the battle fleet of the Regia Marina at anchor in the harbour of Taranto, using aerial torpedoes, despite the shallowness of the water." .
+
+ng:Battle_of_Tehumardi a sem:Event ;
+    sem:hasPlace ng:Tehumardi ;
+    sem:hasTimeStamp "1944-10-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Tehumardi (Estonian: Tehumardi öölahing, Russian: Бой у Техумарди, German Schlacht von Tehumardi) was a battle on October 8, 1944, related to the Moonsund Operation during World War II. Soviet soldiers fought German troops occupying Tehumardi. It was one of the most brutal engagements during the fighting on the Estonian island of Saaremaa (Ösel) in 1944." .
+
+ng:Battle_of_Timor a sem:Event ;
+    sem:hasPlace ng:Portuguese_Timor,
+        ng:West_Timor ;
+    sem:hasTimeStamp "1942-02-19"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Timor occurred in Portuguese Timor and Dutch Timor during the Second World War. Japanese forces invaded the island on 19 February 1942 and were resisted by a small, under-equipped force of Allied military personnel—known as Sparrow Force—predominantly from Australia, the United Kingdom, and the Dutch East Indies. Following a brief but stout resistance, the Japanese succeeded in forcing the surrender of the bulk of the Allied force after three days of fighting, although several hundred Australian commandos continued to wage an unconventional raiding campaign." .
+
+ng:Battle_of_Toulon a sem:Event ;
+    sem:hasPlace ng:Second_World_War,
+        ng:Toulon ;
+    sem:hasTimeStamp "1944-08-20"^^xsd:date ;
+    rdfs:comment "The Battle of Toulon was an urban battle of World War II in southern France that took place 20–26 August 1944 and led to the liberation of Toulon by Free French forces under the command of General Edgard de Larminat." .
+
+ng:Battle_of_Vella_Gulf a sem:Event ;
+    sem:hasTimeStamp "1943-08-06"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Vella Gulf (ベラ湾夜戦, Berawan yasen) was a naval battle of the Pacific campaign of World War II fought on the night of 6–7 August 1943 in Vella Gulf between Vella Lavella and Kolombangara in the Solomon Islands of the southwest Pacific. This engagement was the first time that American destroyers were allowed to operate independently of the American cruiser force during the Pacific campaign. In the battle, six American destroyers had intelligence that a Japanese group was coming to Vella Gulf on that night, and laid in wait for them." .
+
+ng:Battle_of_Vevi a sem:Event ;
+    sem:hasTimeStamp "1941-04-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Vevi (or Veve, Greek: Μάχη της Bεύης), in Greece, also known as the Battle of the Klidi Pass, was part of the Greek campaign of World War II. It took place on 11–12 April 1941, north of the town of Amyntaion, close to the northwestern Greek border. Allied troops fought forces from Nazi Germany." .
+
+ng:Battle_of_Villers_Bocage a sem:Event ;
+    sem:hasPlace ng:Villers_Bocage ;
+    sem:hasTimeStamp "1944-06-13"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Villers-Bocage took place during the Second World War on 13 June 1944, one week after the Normandy landings, which had begun the Western Allies' conquest of German-occupied France. The battle was the result of a British attempt to exploit a gap in the German defences west of the city of Caen. After one day of fighting in and around the small town of Villers-Bocage and a second day defending a position outside the town, the British force retreated." .
+
+ng:Battle_of_Vinjesvingen a sem:Event ;
+    sem:hasPlace ng:Vinjesvingen ;
+    sem:hasTimeStamp "1940-05-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Vinjesvingen was a battle of the Norwegian campaign and took place in May 1940 in the Telemark county, Norway. It became one of the two last strongholds of Norwegian resistance in southern Norway during World War II, the other being Hegra Fortress." .
+
+ng:Battle_of_Wake_Island a sem:Event ;
+    sem:hasActor ng:Empire_of_Japan,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Wake_Island ;
+    sem:hasTimeStamp "1941-12-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Wake Island was a battle of the Pacific campaign of World War II, fought on Wake Island. The assault was one of five simultaneous assaults on American naval and air bases in the Pacific on the morning of 8 December 1941 (7 December in Hawaii), with the Battle of Wake Island ending on 23 December, with the surrender of American forces to the Empire of Japan. It was fought on and around the atoll formed by Wake Island and its minor islets of Peale and Wilkes Islands by the air, land, and naval forces of the Japanese" .
+
+ng:Battle_of_Wilno a sem:Event ;
+    sem:hasPlace ng:Vilnius ;
+    sem:hasTimeStamp "1939-09-18"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Wilno (modern Vilnius, Lithuania) was fought by the Polish Army against the Soviet invasion of Poland in 1939, which accompanied the German Invasion of Poland in accordance with Molotov–Ribbentrop Pact. On 18–19 September, Soviet forces took over the city of Wilno. Polish forces, concentrated in the west, were relatively weak in the east." .
+
+ng:Battle_of_Yenangyaung a sem:Event ;
+    sem:hasPlace ng:Yenangyaung ;
+    sem:hasTimeStamp "1942-04-19"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Yenangyaung (Chinese: 仁安羌大捷; pinyin: Rén'ānqiāng Dàjié; lit. 'Great Victory at Yenangyaung') was fought in Burma (now Myanmar) from 16 to 19 April 1942. As part of the Burma Campaign of World War II, the battle was fought between Chinese and British allied forces on one side and Japanese forces on the other. The battle took place in the vicinity of Yenangyaung and its oil fields." .
+
+ng:Battle_of_the_Afsluitdijk a sem:Event ;
+    sem:hasPlace ng:Afsluitdijk ;
+    sem:hasTimeStamp "1940-05-12"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Afsluitdijk of 12–14 May 1940 was an unsuccessful attempt by German Wehrmacht forces to seize the Afsluitdijk during the invasion of the Netherlands. German invasion plans called for a simultaneous attack on Vesting Holland from multiple directions, expecting to capture the country's capital and most important region in a day's time. To facilitate an attack from the north, Wehrmacht elements commanded by General Kurt Feldt first needed to cross the Afsluitdijk, a 32-kilometer-long (20&#160;mi) causeway and dike connecting the country's northern provinces to its western province of North Holland and ultimately to Amsterdam and beyond." .
+
+ng:Battle_of_the_Atlantic a sem:Event ;
+    sem:hasActor ng:Erich_Raeder,
+        ng:Ernest_King,
+        ng:Karl_D_nitz,
+        ng:Max_Kennedy_Horton,
+        ng:Second_Polish_Republic,
+        ng:Vichy_France ;
+    sem:hasPlace ng:Arctic_Ocean,
+        ng:Atlantic_Ocean,
+        ng:Caribbean_Sea,
+        ng:Gulf_of_Mexico,
+        ng:Gulf_of_Saint_Lawrence,
+        ng:Irish_Sea,
+        ng:Labrador_Sea,
+        ng:North_Sea,
+        ng:Outer_Banks ;
+    sem:hasTimeStamp "1939-09-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Atlantic, the longest-continuous military campaign in World War II, ran from 1939 to the defeat of Nazi Germany in 1945, covering a major part of the naval history of World War II. At its core was the Allied naval blockade of Germany, announced the day after the declaration of war, and Germany's subsequent counterblockade. The campaign peaked from mid-1940 to the end of 1943. The Battle of the Atlantic pitted U-boats and other warships of the German Kriegsmarine (navy) and aircraft of the Luftwaffe (air force) against the Royal Navy, Royal Canadian Navy, United States Navy," .
+
+ng:Battle_of_the_Barents_Sea a sem:Event ;
+    sem:hasPlace ng:Barents_Sea ;
+    sem:hasTimeStamp "1942-12-31"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Barents Sea was a World War II naval engagement on 31 December 1942 between warships of the German Navy (Kriegsmarine) and British ships escorting Convoy JW 51B to Kola Inlet in the USSR. The action took place in the Barents Sea north of North Cape, Norway. The German raiders' failure to inflict significant losses on the convoy infuriated Hitler, who ordered that German naval strategy would henceforth concentrate on the U-boat fleet rather than surface ships." .
+
+ng:Battle_of_the_Bulge a sem:Event ;
+    sem:hasPlace ng:Ardennes ;
+    sem:hasTimeStamp "1944-12-16"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Bulge, also known as the Ardennes Offensive and referred to by the Germans as Unternehmen Wacht am Rhein (transl. Operation Watch on the Rhine), was an offensive campaign on the Western Front during the Second World War, taking place from 16 December 1944 to 25 January 1945. It was launched through the densely forested Ardennes region of eastern Belgium and northern Luxembourg and was intended to stop Allied use of the Belgian port of Antwerp and to split the Allied lines, allowing the Germans to encircle and destroy each of the four Allied armies and force" .
+
+ng:Battle_of_the_Caucasus a sem:Event ;
+    sem:hasTimeStamp "1944-05-12"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Caucasus was a series of Axis and Soviet operations in the Caucasus as part of the Eastern Front of World War II. On 25 July 1942, German troops captured Rostov-on-Don, opening the Caucasus region of the southern Soviet Union to the Germans and threatening the oil fields beyond at Maykop, Grozny, and ultimately Baku. Two days prior, Adolf Hitler had issued a directive to launch an operation into the Caucasus named Operation Edelweiß. German units would reach their high water mark in the Caucasus in early November 1942, getting as far as the town of Alagir" .
+
+ng:Battle_of_the_Denmark_Strait a sem:Event ;
+    sem:hasPlace ng:Denmark_Strait ;
+    sem:hasTimeStamp "1941-05-24"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Denmark Strait was a naval engagement in the Second World War, which took place on 24 May 1941 between ships of the Royal Navy and the Kriegsmarine. The British battleship HMS&#160;Prince of Wales and the battlecruiser HMS&#160;Hood fought the German battleship Bismarck and the heavy cruiser Prinz Eugen, which were attempting to break out into the North Atlantic to attack Allied merchant shipping (Operation Rheinübung) through the Denmark Strait between Greenland and Iceland. Less than 10 minutes after the British opened fire, a shell from Bismarck struck Hood near her aft ammunition magazines." .
+
+ng:Battle_of_the_Eastern_Solomons a sem:Event ;
+    sem:hasTimeStamp "1942-08-24"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The naval Battle of the Eastern Solomons (also known as the Battle of the Stewart Islands and in Japanese sources as the Second Battle of the Solomon Sea) took place on 24–25 August 1942 and was the third carrier battle of the Pacific campaign of World War II and the second major engagement fought between the United States Navy and the Imperial Japanese Navy (IJN) during the Guadalcanal campaign. As at the Battle of the Coral Sea and the Battle of Midway, the ships of the two adversaries were never within sight of each other. Instead, all attacks were carried" .
+
+ng:Battle_of_the_North_Cape a sem:Event ;
+    sem:hasPlace ng:North_Cape ;
+    sem:hasTimeStamp "1943-12-26"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the North Cape was a Second World War naval battle on 26 December 1943, part of the Arctic campaign. The German battleship&#160;Scharnhorst sailed to implement Operation Ostfront, an attack on Arctic convoys carrying supplies from the western Allies to the Soviet Union. Scharnhorst was brought to battle and sunk by the battleship HMS&#160;Duke of York and its cruisers and destroyers." .
+
+ng:Battle_of_the_Philippine_Sea a sem:Event ;
+    sem:hasActor ng:Empire_of_Japan,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Philippine_Sea ;
+    sem:hasTimeStamp "1944-06-19"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Philippine Sea was a major naval battle of World War II on 19–20 June 1944 that eliminated the Imperial Japanese Navy's ability to conduct large-scale carrier actions. It took place during the United States' amphibious reconquest of the Mariana Islands during the Pacific War. The battle was the last of five major \"carrier-versus-carrier\" engagements between American and Japanese naval forces, and pitted elements of the United States Navy's Fifth Fleet against ships and aircraft of the Imperial Japanese Navy's Mobile Fleet and nearby island garrisons." .
+
+ng:Battle_of_the_Scheldt a sem:Event ;
+    sem:hasPlace ng:Scheldt ;
+    sem:hasTimeStamp "1944-10-02"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Scheldt in World War II was a series of military operations to open up the Scheldt river between Antwerp and the North Sea for shipping, so that Antwerp's port could be used to supply the Allies in north-west Europe. The operations were carried out by the First Canadian Army, with assistance from Polish and British units which had been attached. The action was under the acting command of the First Canadian's Lieutenant-General Guy Simonds." .
+
+ng:Battle_of_the_Seelow_Heights a sem:Event ;
+    sem:hasPlace ng:Seelow ;
+    sem:hasTimeStamp "1945-04-16"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of the Seelow Heights (German: Schlacht um die Seelower Höhen) was part of the Berlin Strategic Offensive Operation (16 April – 2 May 1945). A pitched battle, it was one of the last assaults on large entrenched defensive positions of the Second World War. It was fought over three days, from 16 to 19 April 1945." .
+
+ng:Black_Friday a sem:Event ;
+    sem:hasPlace ng:F_rde_Fjord ;
+    sem:hasTimeStamp "1945-02-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "On 9&#160;February 1945, near the end of the Second World War, a force of Allied Bristol Beaufighter aircraft suffered many losses during an attack on the German destroyer Z33 and its escorting vessels; the operation was called Black Friday by the survivors. The German ships were sheltering in a strong defensive position in the Førde Fjord in Sogn og Fjordane county, Norway, forcing the Allied aircraft to attack through massed anti-aircraft fire (FlaK). The Beaufighters and their escort of Mustang Mk III fighters from 65 Squadron RAF were intercepted by twelve Focke-Wulf Fw 190s of Jagdgeschwader 5 (Fighter Wing 5)" .
+
+ng:Bombing_of_Hamburg_in_World_War_II a sem:Event ;
+    sem:hasActor ng:Eighth_Air_Force,
+        ng:RAF_Bomber_Command ;
+    sem:hasPlace ng:Hamburg ;
+    sem:hasTimeStamp "1939-09-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Allied bombing of Hamburg during World War II included numerous attacks on civilians and civic infrastructure. As a large city and industrial centre, Hamburg's shipyards, U-boat pens, and the Hamburg-Harburg area oil refineries were attacked throughout the war. As part of a sustained campaign of strategic bombing during World War II, the attack during the last week of July 1943, code named Operation Gomorrah, created one of the largest firestorms raised by the Royal Air Force and United States Army Air Forces in World War II, killing an estimated 34,000 people in Hamburg, wounding 180,000 more, and destroying 60%" .
+
+ng:Bombing_of_Nijmegen a sem:Event ;
+    sem:hasPlace ng:Nijmegen ;
+    sem:hasTimeStamp "1944-02-22"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The bombing of Nijmegen on 22 February 1944 was a target-of-opportunity aerial bombing raid by the United States Army Air Forces on the city of Nijmegen in the Netherlands, then occupied by Nazi Germany. In terms of the number of victims, it was one of the largest bombardments of a Dutch city during World War II. Officially, nearly 800 people (almost all civilians) were killed due to carelessness in inaccurate bombing, but because people in hiding were not counted, the actual death toll was likely higher. A large part of the historic city centre was destroyed, including Saint Steven's Church." .
+
+ng:Bombing_of_the_Bezuidenhout a sem:Event ;
+    sem:hasPlace ng:Bezuidenhout,
+        ng:The_Hague ;
+    sem:hasTimeStamp "1945-03-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The bombing of the Bezuidenhout (Dutch: bombardement op het Bezuidenhout) took place on 3 March 1945, when the Royal Air Force mistakenly bombed the Bezuidenhout neighbourhood in the Dutch city of The Hague, resulting in the death of 532 people." .
+
+ng:Case_Black a sem:Event ;
+    sem:hasPlace ng:Bosnia ;
+    sem:hasTimeStamp "1943-05-15"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Case Black (German: Fall Schwarz), also known as the Fifth Enemy Offensive (Serbo-Croatian Latin: Peta neprijateljska ofanziva) in Yugoslav historiography and often identified with its final phase, the Battle of the Sutjeska (Serbo-Croatian Latin: Bitka na Sutjesci pronounced [bîtka na sûtjɛst͡si]), was a joint attack by the Axis. Taking place from 15 May to 16 June 1943, it aimed to destroy the main Yugoslav Partisan force, near the Sutjeska River in south-eastern Bosnia. The failure of the offensive marked a turning point for Yugoslavia during World War II. It was also the last major German-Italian joint operation against the partisans." .
+
+ng:Clydebank_Blitz a sem:Event ;
+    sem:hasPlace ng:Clydebank ;
+    sem:hasTimeStamp "1941-03-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Clydebank Blitz was a pair of air raids conducted by the Luftwaffe on the shipbuilding and munition-making town of Clydebank in Scotland. The bombings took place in March 1941. The air raids were part of a bombing program known today as The Blitz." .
+
+ng:Cocos_Islands_Mutiny a sem:Event ;
+    sem:hasTimeStamp "1942-05-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Cocos Islands mutiny was a mutiny by Sri Lankan soldiers against British officers, on the Cocos (Keeling) Islands on 8 May 1942, during the Second World War. The mutineers attempted to seize control of the islands and disable the British garrison. The mutineers was defeated and punished; the three ringleaders were sentences to death; they became the only British Commonwealth servicemen to be executed for mutiny during the Second World War." .
+
+ng:Colmar_Pocket a sem:Event ;
+    sem:hasTimeStamp "1944-11-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Colmar Pocket (French: Poche de Colmar; German: Brückenkopf Elsass) was the area held in central Alsace, France, by the German Nineteenth Army from November 1944 to February 1945, against the U.S. 6th Army Group (6th AG) during World War II. It was formed when 6th AG liberated southern and northern Alsace and adjacent eastern Lorraine, but could not clear central Alsace. During Operation Nordwind in December 1944, the 19th Army attacked north out of the Pocket in support of other German forces attacking south from the Saar into northern Alsace. In late January and early February 1945, the French" .
+
+ng:Continuation_War a sem:Event ;
+    sem:hasActor ng:Finland,
+        ng:Nazi_Germany,
+        ng:Soviet_Union ;
+    sem:hasTimeStamp "1941-06-25"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Continuation War, also known as the Second Soviet–Finnish War, was a conflict fought by Finland and Nazi Germany against the Soviet Union during World War II. It began with a Finnish declaration of war on 25 June 1941 and ended on 19 September 1944 with the Moscow Armistice. The Soviet Union and Finland had previously fought the Winter War from 1939 to 1940, which ended with the Soviet failure to conquer Finland and the Moscow Peace Treaty. Numerous reasons have been proposed for the Finnish decision to invade, with regaining territory lost during the Winter War regarded as the" .
+
+ng:Convoys_HX_229_SC_122 a sem:Event ;
+    sem:hasPlace ng:North_Atlantic ;
+    sem:hasTimeStamp "1943-03-16"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "During the Battle of the Atlantic, British merchant shipping was formed into convoys for protection against German submarine attack. In March 1943 convoys HX 229 and SC 122 were the focus of the largest convoy battle of the Second World War. Kriegsmarine tactics against convoys employed wolfpack tactics in nearly simultaneous surface attacks at night." .
+
+ng:Eastern_Front a sem:Event ;
+    sem:hasActor ng:Allies_of_World_War_II,
+        ng:Hungary,
+        ng:Mongolia,
+        ng:Nazi_Germany,
+        ng:Norway,
+        ng:Poland,
+        ng:Romania,
+        ng:Soviet_Union,
+        ng:Tuvan_People_s_Republic ;
+    sem:hasPlace ng:Eastern_Europe ;
+    sem:hasTimeStamp "1945-05-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Eastern Front, also known as the Great Patriotic War, or the German–Soviet War, was a theatre of World War II fought between the European Axis powers and Allies, including the Soviet Union (USSR) and Poland. It encompassed Central Europe, Eastern Europe, Northeast Europe (Baltics), and Southeast Europe (Balkans), and lasted from 22 June 1941 to 9 May 1945. Of the estimated 70–85 million deaths attributed to the war, around 30&#160;million occurred on the Eastern Front, including 9&#160;million children." .
+
+ng:European_Theatre_of_World_War_II a sem:Event ;
+    sem:hasPlace ng:Europe ;
+    sem:hasTimeStamp "1945-05-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The European theatre of World War II was one of the two main theatres of combat during World War II, lasting from September 1939 to May 1945. The Allied powers (including the United Kingdom, the United States, the Soviet Union and France) fought the Axis powers (including Nazi Germany and the Kingdom of Italy) on both the Western and Eastern fronts across the continent. There was also significant conflict in the Scandinavian, Mediterranean, and Balkan regions." .
+
+ng:Georgian_uprising_on_Texel a sem:Event ;
+    sem:hasTimeStamp "1945-04-05"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Georgian uprising on Texel (Dutch: Opstand der Georgiërs) (5 April 1945 – 20 May 1945) was an insurrection by the 882nd Infantry Battalion Königin Tamara (Queen Tamar or Tamara) of the Georgian Legion of the German Army stationed on the German-occupied Dutch island of Texel (pronounced Tessel in Dutch, and Texel in English, Frisian, and German). The battalion was made up of 800 Georgians and 400 Germans, with mainly German officers. It was one of the last battles in the European theater." .
+
+ng:German_invasion_of_Denmark a sem:Event ;
+    sem:hasPlace ng:Denmark ;
+    sem:hasTimeStamp "1940-04-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The German invasion of Denmark (German: Operation Weserübung – Süd), was the German attack on Denmark on 9 April 1940, during the Second World War. The attack was a prelude to the invasion of Norway (German: Weserübung Nord, 9 April – 10 June 1940). Denmark's strategic importance was limited." .
+
+ng:German_occupation_of_the_Channel_Islands a sem:Event ;
+    sem:hasPlace ng:Channel_Islands ;
+    sem:hasTimeStamp "1940-06-30"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The military occupation of the Channel Islands by Nazi Germany lasted for most of the Second World War, from 30 June 1940 until liberation on 9 May 1945. The Bailiwick of Jersey and Bailiwick of Guernsey are British Crown dependencies in the English Channel, near the coast of Normandy. The Channel Islands were the only de jure part of the British Empire in Europe to be occupied by Nazi Germany during the war." .
+
+ng:Invasion_of_Poland a sem:Event ;
+    sem:hasPlace ng:Poland ;
+    sem:hasTimeStamp "1939-10-06"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The invasion of Poland, also known as the September Campaign, Polish Campaign, and Polish Defensive War of 1939 (1 September – 6 October 1939), was a joint attack on the Republic of Poland by Nazi Germany, the Slovak Republic, and the Soviet Union, which marked the beginning of World War II. The German invasion was preceded by the Danzig crisis and began on 1 September 1939, one week after the signing of the Molotov–Ribbentrop Pact between Germany and the Soviet Union, and one day after the Supreme Soviet of the Soviet Union had approved the pact. The Soviets invaded Poland" .
+
+ng:Invasion_of_Yugoslavia a sem:Event ;
+    sem:hasTimeStamp "1941-04-06"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The invasion of Yugoslavia, also known as the April War or Operation 25, was a German-led attack on the Kingdom of Yugoslavia by the Axis powers which began on 6 April 1941 during World War II. The order for the invasion was put forward in \"Führer Directive No. 25\", which Adolf Hitler issued on 27 March 1941, following a Yugoslav coup d'état that overthrew the pro-Axis government. The invasion commenced with an overwhelming air attack on Belgrade and facilities of the Royal Yugoslav Air Force (VVKJ) by the Luftwaffe (German Air Force) and attacks by German land forces from southwestern" .
+
+ng:Italian_bombing_of_Mandatory_Palestine_in_World_War_II a sem:Event ;
+    sem:hasTimeStamp "1940-09-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Italian bombing of Mandatory Palestine in World War II was part of an effort by the Royal Italian Air Force (Regia Aeronautica) to strike at the United Kingdom by attacking those parts of the British Empire in the Middle East. The Luftwaffe and Vichy French Air Force also conducted attacks on Palestine." .
+
+ng:Land_Battle_of_Vella_Lavella a sem:Event ;
+    sem:hasTimeStamp "1943-08-15"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Vella Lavella was fought from 15 August – 6 October 1943 between the Empire of Japan and the Allied forces from New Zealand and the United States at the end of the New Georgia campaign. Vella Lavella, an island located in the Solomon Islands, had been occupied by Japanese forces early during the war in the Pacific. Following the Battle of Munda Point, the Allies recaptured the island in late 1943, following a decision to bypass a large concentration of Japanese troops on the island of Kolombangara." .
+
+ng:Landing_at_Nadzab a sem:Event ;
+    sem:hasPlace ng:Nadzab ;
+    sem:hasTimeStamp "1943-09-05"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Landing at Nadzab was an airborne landing on 5 September 1943 during the New Guinea campaign of World War II in conjunction with the landing at Lae. The Nadzab action began with a parachute drop at Lae Nadzab Airport, combined with an overland force. The parachute drop was carried out by the US Army's 503rd Parachute Infantry Regiment and elements of the Australian Army's 2/4th Field Regiment into Nadzab, New Guinea in the Markham Valley, observed by General Douglas MacArthur, circling overhead in a B-17." .
+
+ng:Lapland_War a sem:Event ;
+    sem:hasActor ng:Aaro_Pajari,
+        ng:August_Krakau,
+        ng:Finland,
+        ng:Hjalmar_Siilasvuo,
+        ng:Lothar_Rendulic,
+        ng:Nazi_Germany,
+        ng:Ruben_Lagus ;
+    sem:hasPlace ng:Lapland ;
+    sem:hasTimeStamp "1944-09-15"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "During World War II, the Lapland War (Finnish: Lapin sota; Swedish: Lapplandskriget; German: Lapplandkrieg) saw fighting between Finland and Nazi Germany – effectively from September to November 1944 – in Finland's northernmost region, Lapland. Though the Finns and the Germans had been fighting together against the Soviet Union since 1941 during the Continuation War (1941–1944), peace negotiations between the Finnish government and the Allies of World War II had been conducted intermittently during 1943–1944, but no agreement had been reached. The Moscow Armistice, signed on 19 September 1944, demanded that Finland break diplomatic ties with Germany and expel or disarm" .
+
+ng:Liberation_of_Belgium a sem:Event ;
+    sem:hasTimeStamp "1944-09-02"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Liberation of Belgium from German occupation began on 2 September 1944 when Allied forces entered the province of Hainaut and was completed on 4 February 1945 with the liberation of the village of Krewinkel. The liberation came after four years of German-occupied rule. The Belgian government was returned to power on 8 September 1944 after Allied forces had captured Brussels four days earlier." .
+
+ng:Maquis_du_Mont_Mouchet a sem:Event ;
+    sem:hasPlace ng:Mont_Mouchet ;
+    sem:hasTimeStamp "1944-05-20"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Maquis du Mont Mouchet (French pronunciation: [maki dy mɔ̃ mu ʃɛ]) were a group of French resistance fighters during the Second World War that were based at Mont Mouchet. The Germans, having discovered the maquis, made several attacks up until May 1944 with about 3,000 men and using aviation and armoured units. The maquisards fought back fiercely." .
+
+ng:Mediterranean_and_Middle_East_theatre_of_World_War_II a sem:Event ;
+    sem:hasPlace ng:Horn_of_Africa,
+        ng:Middle_East,
+        ng:North_Africa,
+        ng:Southern_Europe ;
+    sem:hasTimeStamp "1940-06-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Mediterranean and Middle East theatre, also known as the Mediterranean Theater of War, was a major theatre of operations during the Second World War. The vast size of the theatre saw interconnected land, naval, and air campaigns fought for control of the Mediterranean Sea, North Africa, the Horn of Africa, the Middle East and Southern Europe. Despite their disparate geographic locations and objectives, these operations were not seen as neatly separated from each other, but part of an extensive, contiguous theatre of war." .
+
+ng:Ohi_Day a sem:Event ;
+    sem:hasTimeStamp "1940-10-28"^^xsd:date ;
+    rdfs:comment "Ohi Day (; Greek: Επέτειος του Όχι, romanized:&#160;Epéteios tou Óchi, lit. 'Anniversary of the No'; Greek pronunciation: [eˈpetios tu ˈoçi]) is celebrated throughout Greece, Cyprus and the Greek communities around the world on 28 October each year. Ohi Day commemorates the rejection by the Greek Ioannis Metaxas of the ultimatum made by Italian dictator Benito Mussolini on 28 October 1940 and the subsequent Hellenic counterattack against the invading Italian forces at the mountains of Pindus during the Greco-Italian War and Greek resistance during the Axis occupation." .
+
+ng:Operation_Ambassador a sem:Event ;
+    sem:hasActor ng:John_Durnford_Slater,
+        ng:Nazi_Germany,
+        ng:No_3_Commando,
+        ng:Ronnie_Tod ;
+    sem:hasPlace ng:Guernsey ;
+    sem:hasTimeStamp "1940-07-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Ambassador was an operation carried out by British Commandos on 14–15 July 1940 within the context of the Second World War. It was the second raid by the newly formed British Commandos and was focused upon the German-occupied Channel island of Guernsey. The raiding party consisted of 40 men from the newly formed No." .
+
+ng:Operation_Archery a sem:Event ;
+    sem:hasActor ng:No_2_Commando,
+        ng:No_3_Commando,
+        ng:No_4_Commando,
+        ng:No_6_Commando,
+        ng:Norwegian_Independent_Company_1 ;
+    sem:hasPlace ng:V_gs_y ;
+    sem:hasTimeStamp "1941-12-27"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Archery, also known as the Måløy Raid, was a British Combined Operations raid during World War II against German positions on the island of Vågsøy, Norway, on 27 December 1941. British Commandos of No. 3 Commando, two troops of No." .
+
+ng:Operation_Basalt a sem:Event ;
+    sem:hasActor ng:Nazi_Germany,
+        ng:United_Kingdom ;
+    sem:hasPlace ng:Sark ;
+    sem:hasTimeStamp "1942-10-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Basalt was a small British raid conducted during World War II on Sark during the German occupation of the Channel Islands. The objective of the raid was offensive reconnaissance and capturing prisoners." .
+
+ng:Operation_Bernhard a sem:Event ;
+    sem:hasTimeStamp "1942-01-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Bernhard was an exercise by Nazi Germany to forge British bank notes. The initial plan was to drop the notes over Britain to bring about a collapse of the British economy during the Second World War. The first phase was run from early 1940 by the Sicherheitsdienst (SD) under the title Unternehmen Andreas (Operation Andreas)." .
+
+ng:Operation_Biting a sem:Event ;
+    sem:hasPlace ng:Saint_Jouin_Bruneval ;
+    sem:hasTimeStamp "1942-02-27"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Biting, also known as the Bruneval Raid, was a British Combined Operations raid on a German coastal radar installation at Bruneval in northern France, during the Second World War, on the night of 27–28 February 1942. Several of these installations were identified from Royal Air Force (RAF) aerial reconnaissance photographs during 1941, but the purpose and the nature of the equipment was not known. Some British scientists believed that these stations were connected with successful German attacks on RAF bombers conducting bombing raids against targets in Occupied Europe, resulting in severe losses of pilots and bombers." .
+
+ng:Operation_Carthage a sem:Event ;
+    sem:hasTimeStamp "1945-03-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Carthage, on 21 March 1945, was a British air raid on Copenhagen, Denmark during the Second World War which caused significant collateral damage. The target of the raid was the Shellhus, used as Gestapo headquarters in the city centre. It was used for the storage of dossiers and the torture of Danish citizens during interrogations." .
+
+ng:Operation_Cartoon a sem:Event ;
+    sem:hasTimeStamp "1943-01-01"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Cartoon was a British Commando raid on the island of Stord near Leirvik in Vestland, Norway on the night of 23/24 January 1943. The operation was carried out by 53 men of No. 12 Commando supported by ten men from the Norwegian 10 (IA) Commando (Captain Harald Risnes)." .
+
+ng:Operation_Chastise a sem:Event ;
+    sem:hasPlace ng:Eder,
+        ng:M_hne,
+        ng:Sorpe_Dam ;
+    sem:hasTimeStamp "1943-05-16"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Chastise, commonly known as the Dambusters Raid, was an attack on German dams carried out on the night of 16/17 May 1943 by 617 Squadron RAF Bomber Command, later called the Dam Busters, using special bouncing bombs developed by Barnes Wallis. The Möhne and Edersee dams were breached, causing catastrophic flooding of the Ruhr valley and of villages in the Eder valley; the Sorpe Dam sustained only minor damage. Two hydroelectric power stations were destroyed and several more damaged." .
+
+ng:Operation_Clipper a sem:Event ;
+    sem:hasActor ng:Brian_Horrocks,
+        ng:G_nther_Blumentritt,
+        ng:Nazi_Germany,
+        ng:United_Kingdom,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Geilenkirchen ;
+    sem:hasTimeStamp "1944-11-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "During the Second World War, Operation Clipper was an Allied offensive by the British XXX Corps (which included the American 84th Infantry Division) to reduce the Geilenkirchen salient in mid-November 1944. Clipper was the preliminary to a wider Allied operation, Operation Queen, to gain control of the Roer valley and of the Hürtgen Forest. Geilenkirchen is situated on the Wurm River, some 20&#160;km (12&#160;mi) north of Aachen." .
+
+ng:Operation_Cobra a sem:Event ;
+    sem:hasPlace ng:Cotentin_Peninsula ;
+    sem:hasTimeStamp "1944-07-25"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Cobra was an offensive launched by the First United States Army under Lieutenant General Omar Bradley seven weeks after the D-Day landings, during the Normandy campaign of World War II. The intention was to take advantage of the distraction of the Germans by the British and Canadian attacks around Caen in Operation Goodwood, and thereby break through the German defenses that were penning in their forces, while the Germans were unbalanced. Once a corridor had been created, the First Army would then be able to advance into Brittany, rolling up the German flanks once free of the constraints of" .
+
+ng:Operation_Diadem a sem:Event ;
+    sem:hasTimeStamp "1944-05-21"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Diadem, also referred to as the Fourth Battle of Monte Cassino or, in Canada, the Battle of the Liri Valley, was an offensive operation undertaken by the Allies of World War II (U.S. Fifth Army and British Eighth Army) in May 1944, as part of the Italian Campaign of World War II. Diadem was supported by air attacks called Operation Strangle. The opposing force was the German 10th Army. The object of Diadem was to break the German defenses on the Gustav Line (the western half of the Winter Line) and open up the Liri Valley, the main route" .
+
+ng:Operation_Donnerkeil a sem:Event ;
+    sem:hasTimeStamp "1942-02-11"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Unternehmen Donnerkeil (Operation Thunderbolt) was the codename for a German military operation during the Second World War. Donnerkeil was an air superiority operation designed to support Operation Cerberus, the Kriegsmarine (German Navy) plan to evacuate capital ships from France to Germany (an operation known to the British as the Channel Dash). In 1941, Kriegsmarine surface vessels had conducted commerce raiding operations in support of German U-boats in the Battle of the Atlantic." .
+
+ng:Operation_Doomsday a sem:Event ;
+    sem:hasTimeStamp "1945-05-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "In Operation Doomsday, the British 1st Airborne Division acted as a police and military force during the Allied occupation of Norway in May 1945, immediately after the victory in Europe during the Second World War. The division maintained law and order until the arrival of the remainder of Force 134, the occupation force. During its time in Norway, the division supervised the surrender of the German forces in Norway, as well as preventing the sabotage of military and civilian facilities." .
+
+ng:Operation_Gauntlet a sem:Event ;
+    sem:hasTimeStamp "1941-08-25"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Gauntlet was an Allied Combined Operation from 25 August until 3 September 1941, during the Second World War. Canadian, British and Norwegian armed forces in exile (Utefronten, Outside Front) landed on the Norwegian island of Spitzbergen in the Svalbard Archipelago, 650&#160;mi (1,050&#160;km) south of the North Pole. Coal mines on the islands were owned and operated by Norway at Longyearbyen and by the Soviet Union at Barentsburg; both governments agreed to their destruction and the evacuation of their nationals." .
+
+ng:Operation_Herring a sem:Event ;
+    sem:hasTimeStamp "1945-04-19"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Herring (Herring 1) was the last World War II airborne combat drop in Europe." .
+
+ng:Operation_I_Go a sem:Event ;
+    sem:hasTimeStamp "1943-04-19"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation I-Go (い号作戦, I-Go sakusen) was an aerial counter-offensive launched by Imperial Japanese forces against Allied forces during the Solomon Islands and New Guinea campaigns in the Pacific Theater of World War II. Taking place from 1–16 April 1943, Japanese aircraft—primarily from Imperial Japanese Navy units under the command of Admirals Isoroku Yamamoto and Jinichi Kusaka—attacked Allied ships, aircraft, and land installations in the southeast Solomon Islands and New Guinea. The goal of the operation was to halt the Allied offensives to give Japan time to prepare a new set of defenses in response to recent defeats in the Guadalcanal" .
+
+ng:Operation_Jericho a sem:Event ;
+    sem:hasTimeStamp "1944-02-18"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Jericho (Ramrod 564) took place on 18 February 1944 during the Second World War. Allied aircraft bombed Amiens Prison in German-occupied France at very low altitude to blow holes in the prison walls, kill German guards and use shock waves to spring open cell doors. The French Resistance was waiting on the outside to rescue prisoners and spirit them away." .
+
+ng:Operation_Jurist a sem:Event ;
+    sem:hasTimeStamp "1945-08-28"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Jurist referred to the British recapture of Penang following Japan's surrender in 1945. Jurist was launched as part of Operation Zipper, the overall British plan to reconquer Malaya, including Singapore. While a larger Allied fleet sailed on to Singapore through the Malacca Strait under Operation Tiderace, a detachment of Royal Navy warships, led by Vice Admiral Harold Walker, moved towards Penang Island, arriving off the island on 28 August 1945." .
+
+ng:Operation_Mascot a sem:Event ;
+    sem:hasActor ng:Henry_Ruthven_Moore,
+        ng:Nazi_Germany,
+        ng:United_Kingdom ;
+    sem:hasPlace <http://www.wikidata.org/entity/Q3276975> ;
+    sem:hasTimeStamp "1944-07-17"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Mascot was an unsuccessful British carrier air raid conducted against the German battleship Tirpitz at her anchorage in Kaafjord, Norway, on 17 July 1944. The attack was one of a series of strikes against the battleship launched from aircraft carriers between April and August 1944, and was initiated after Allied intelligence determined that the damage inflicted during the Operation Tungsten raid on 3 April had been repaired. A force of 44 British dive bombers and 40 fighters took off from three aircraft carriers in the early hours of 17 July." .
+
+ng:Operation_Pomegranate a sem:Event ;
+    sem:hasTimeStamp "1944-01-12"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Pomegranate was a six-man raid in support of Operation Shingle by the Special Air Service designed to be conducted against German aircraft based on the Italian airfield of Sant'Egidio, near Perugia, on the night of 12 January 1944. The commandos, aboard a C-47 of the USAAF, made their parachute jump on the slopes of Monte Tezio to the east of Lake Trasimeno, after which the plane on which they had been travelling crashed into the mountainside killing the entire crew. Although all six paratroopers landed safely, the group split up after being challenged by a German sentry as they" .
+
+ng:Operation_Spring_Awakening a sem:Event ;
+    sem:hasTimeStamp "1945-03-06"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Spring Awakening (German: Unternehmen Frühlingserwachen) was the last major German offensive of World War II. The operation was referred to in Germany as the Plattensee Offensive and in the Soviet Union as the Balaton Defensive Operation. It took place in Western Hungary on the Eastern Front and lasted from 6 March until 15 March 1945. The objective was to secure the last significant oil reserves still available to the European Axis powers and prevent the Red Army from advancing towards Vienna." .
+
+ng:Operation_Tiderace a sem:Event ;
+    sem:hasTimeStamp "1945-09-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Tiderace was the codename of the British plan to retake Singapore following the Japanese surrender in 1945. The liberation force was led by Lord Louis Mountbatten, Supreme Allied Commander of South East Asia Command. Tiderace was initiated in coordination with Operation Zipper, which involved the liberation of Malaya." .
+
+ng:Operation_Torch a sem:Event ;
+    sem:hasTimeStamp "1942-11-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Torch (8–16 November 1942) was an Allied invasion of French North Africa during World War II. Torch was a compromise operation that met the British objective of securing victory in North Africa while allowing American armed forces the opportunity to begin their fight against Nazi Germany and Fascist Italy on a limited scale. The French colonies were aligned with Germany via Vichy France but the loyalties of the population were mixed. Reports indicated that they might support the Allies." .
+
+ng:Operation_Tungsten a sem:Event ;
+    sem:hasActor ng:Henry_Ruthven_Moore,
+        ng:Nazi_Germany,
+        ng:United_Kingdom ;
+    sem:hasPlace <http://www.wikidata.org/entity/Q3276975> ;
+    sem:hasTimeStamp "1944-04-03"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Tungsten was a Second World War air raid by the Fleet Air Arm of the Royal Navy against the German battleship Tirpitz. The operation sought to damage or destroy Tirpitz at her base in Kaafjord in the far north of Norway before she could become fully operational again following a period of repairs. The British decision to strike Kaafjord was motivated by fears that the battleship, upon re-entering service, would attack strategically important convoys carrying supplies to the Soviet Union." .
+
+ng:Operation_Veritable a sem:Event ;
+    sem:hasPlace ng:Klever_Reichswald ;
+    sem:hasTimeStamp "1945-02-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Veritable (also known as the Battle of the Reichswald) was the northern part of an Allied pincer movement that took place between 8 February and 11 March 1945 during the final stages of the Second World War. The operation was conducted by Field Marshal Bernard Montgomery's Anglo-Canadian 21st Army Group, primarily consisting of the First Canadian Army under Lieutenant-General Harry Crerar and the British XXX Corps under Lieutenant-general Brian Horrocks. Veritable was the northern pincer movement and started with XXX Corps advancing through the Reichswald (German: Imperial Forest) while the 3rd Canadian Infantry Division, in amphibious vehicles, cleared German" .
+
+ng:Operation_Zitronella a sem:Event ;
+    sem:hasTimeStamp "1943-09-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Operation Zitronella, also known as Unternehmen Sizilien (Operation Sicily), was an eight-hour German raid on Spitzbergen, in the Svalbard Archipelago, on 8 September 1943. The battleships Tirpitz (in its only offensive action) and Scharnhorst, plus nine destroyers, sailed to the archipelago, bombarded Allied-occupied settlements in Isfjorden and covered a landing party. Six Norwegians were killed and 31 were taken prisoner; sixteen Germans were wounded, one dying of his wounds." .
+
+ng:Pacific_War a sem:Event ;
+    sem:hasPlace ng:East_Asia,
+        ng:Indian_Ocean,
+        ng:Oceania,
+        ng:Pacific_Ocean,
+        ng:South_Asia ;
+    sem:hasTimeStamp "1941-12-07"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Pacific War, sometimes called the Asia–Pacific War or the Pacific Theater, was the theater of World War II fought between Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans, and Oceania. It was geographically the largest theater of the war, including the Pacific Ocean theater, the South West Pacific theater, the Second Sino-Japanese War, and the brief Soviet–Japanese War, and included some of the largest naval battles in history. War between Japan and the Republic of China had begun in 1937, with hostilities dating back to Japan's invasion of Manchuria in 1931, but the" .
+
+ng:Palawan_massacre a sem:Event ;
+    sem:hasTimeStamp "1944-12-14"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Palawan massacre occurred on 14 December 1944, during World War II, near the city of Puerto Princesa in the Philippine island of Palawan. Allied soldiers, imprisoned near the city, were killed by Imperial Japanese soldiers. Only eleven men managed to survive, while 139 were killed." .
+
+ng:Second_Battle_of_Amba_Alagi a sem:Event ;
+    sem:hasTimeStamp "1941-05-04"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Battle of Amba Alagi was fought in May 1941, during World War II, part of the East African Campaign. After the Italian defeat at Keren in April 1941, Prince Amedeo, Duke of Aosta withdrew his forces to the mountain stronghold at Amba Alagi. The mountain had galleries carved into the rock to protect the defending troops and hold ample ammunition and stores and the Italian troops thought themselves to be impregnable." .
+
+ng:Siege_of_Budapest a sem:Event ;
+    sem:hasPlace ng:Budapest ;
+    sem:hasTimeStamp "1944-12-29"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Siege of Budapest or Battle of Budapest was the 50-day-long encirclement by Soviet and Romanian forces of the Hungarian capital of Budapest, near the end of World War II. Part of the broader Budapest Offensive, the siege began when Budapest, defended by Hungarian and German troops, was encircled on 26 December 1944 by the Red Army and the Romanian Army. During the siege, about 38,000 civilians died through starvation, military action, and mass executions of Jews by the far-right Hungarian nationalist Arrow Cross Party. The city unconditionally surrendered on 13 February 1945." .
+
+ng:Siege_of_Calais a sem:Event ;
+    sem:hasTimeStamp "1940-05-22"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The siege of Calais (1940) was a battle for the port of Calais during the Battle of France. The siege was fought at the same time as the Battle of Boulogne, just before Operation Dynamo, the evacuation of the British Expeditionary Force (BEF) through Dunkirk. After the Franco-British counter-attack at the Battle of Arras (21 May), German units were held back to be ready to resist a resumption of the counter-attack on 22 May, despite the protests of General Heinz Guderian, the commander of the XIX Armee Korps, who wanted to rush north up the Channel coast to capture Boulogne," .
+
+ng:Siege_of_Leningrad a sem:Event ;
+    sem:hasTimeStamp "1941-09-08"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The siege of Leningrad was a military blockade undertaken by the Axis powers against the city of Leningrad (present-day Saint Petersburg) in the Soviet Union on the Eastern Front of World War II from 1941 to 1944. Leningrad, the country's second largest city, was besieged by Germany and Finland for 872 days, but never captured. The siege was the most destructive in history and possibly the most deadly, causing an estimated 1.5&#160;million deaths, from a prewar population of 3.2 million." .
+
+ng:Sinking_of_Prince_of_Wales_and_Repulse a sem:Event ;
+    sem:hasTimeStamp "1941-12-10"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The sinking of Prince of Wales and Repulse was a naval engagement in World War II, as part of the war in the Pacific, that took place on 10 December 1941 in the South China Sea off the east coast of the British colonies of Malaya (present-day Malaysia) and the Straits Settlements (present-day Singapore and its coastal towns), 70 miles (61 nautical miles; 110 kilometres) east of Kuantan, Pahang. Part of a British naval squadron known as Force Z, the Royal Navy battleship HMS&#160;Prince of Wales and battlecruiser HMS&#160;Repulse were sunk by land-based bombers and torpedo bombers of the Imperial" .
+
+ng:Slovak_National_Uprising a sem:Event ;
+    sem:hasTimeStamp "1944-08-29"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Slovak National Uprising (Slovak: Slovenské národné povstanie, abbreviated SNP; alternatively also Povstanie roku 1944, English: The Uprising of 1944) was organised by the Slovak resistance during the Second World War, directed against the German invasion of Slovakia by the German military, which began on 29 August 1944, and on the other against the Slovak collaborationist regime of the Ludaks under Jozef Tiso. Along with the Warsaw Uprising, it was the largest uprising against Nazism and its allies in Europe. Carried by parts of the Slovak army, the main area of the uprising was in central Slovakia, with the town of" .
+
+ng:Soviet_invasion_of_Manchuria a sem:Event ;
+    sem:hasTimeStamp "1945-08-09"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Soviet invasion of Manchuria, formally known as the Manchurian Strategic Offensive Operation or simply the Manchurian Operation (Маньчжурская операция) and sometimes, mainly in the West, as Operation August Storm, began on 9 August 1945 with the Soviet Union's invasion of the Empire of Japan's puppet states of Manchukuo and Mengjiang, in Japanese-occupied Manchuria and Inner Mongolia respectively. It was the largest campaign of the 1945 Soviet–Japanese War, which resumed hostilities between the Union of Soviet Socialist Republics and the Empire of Japan after almost six years of peace. The invasion began hours before the atomic bombing of Nagasaki and" .
+
+ng:Soviet_invasion_of_Poland a sem:Event ;
+    sem:hasPlace ng:Poland ;
+    sem:hasTimeStamp "1939-09-17"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Soviet invasion of Poland was a military conflict by the Soviet Union without a formal declaration of war. On 17 September 1939, the Soviet Union invaded Poland from the east, 16 days after Nazi Germany invaded Poland from the west. Subsequent military operations lasted for the following 20 days and ended on 6 October 1939 with the two-way division and annexation of the entire territory of the Second Polish Republic by Nazi Germany and the Soviet Union." .
+
+ng:Soviet_occupation_of_Bessarabia_and_Northern_Bukovina a sem:Event ;
+    sem:hasActor ng:Kingdom_of_Romania,
+        ng:Soviet_Union ;
+    sem:hasPlace ng:Bessarabia,
+        ng:Bukovina ;
+    sem:hasTimeStamp "1940-06-28"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "Between 28 June and 3 July 1940, the Soviet Union occupied Bessarabia and Northern Bukovina, following an ultimatum made to Romania on 26 June 1940 that threatened the use of force. Those regions, with a total area of 50,762&#160;km2 (19,599&#160;sq&#160;mi) and a population of 3,776,309 inhabitants, were incorporated into the Soviet Union. On 26 October 1940, six Romanian islands on the Chilia branch of the Danube, with an area of 23.75&#160;km2 (9.17&#160;sq&#160;mi), were also occupied by the Soviet Army." .
+
+ng:The_Blitz a sem:Event ;
+    sem:hasPlace ng:United_Kingdom ;
+    sem:hasTimeStamp "1940-09-07"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Blitz (English: 'lightning') was a bombing campaign by Nazi Germany and Fascist Italy against the United Kingdom during the Second World War. It lasted for eight months, from 7 September 1940 to 16 May 1941. The name is a shortened form of Blitzkrieg, a term used in the popular press to describe a German style of surprise attack used during the war." .
+
+ng:Western_New_Guinea_campaign a sem:Event ;
+    sem:hasPlace ng:Netherlands_New_Guinea,
+        ng:Territory_of_New_Guinea ;
+    sem:hasTimeStamp "1944-04-22"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Western New Guinea campaign was a series of actions in the New Guinea campaign of World War II. Dutch East Indies KNIL, United States and Australian forces assaulted Japanese bases and positions in the northwest coastal areas of Netherlands New Guinea and adjoining parts of the Australian Territory of New Guinea. The campaign began with Operations Reckless and Persecution, which were amphibious landings by the U.S. I Corps at Hollandia and Aitape on 22 April 1944. Fighting in western New Guinea continued until the end of the war." .
+
+ng:Winter_War a sem:Event ;
+    sem:hasActor ng:Finland,
+        ng:Soviet_Union ;
+    sem:hasPlace ng:Finland ;
+    sem:hasTimeStamp "1939-11-30"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "The Winter War was a war between the Soviet Union and Finland. It began with a Soviet invasion of Finland on 30 November 1939, three months after the outbreak of World War II, and ended three and a half months later with the Moscow Peace Treaty on 13 March 1940. Despite superior military strength, especially in tanks and aircraft, the Soviet Union suffered severe losses and initially made little headway." .
+
+ng:World_War_II_in_Yugoslavia a sem:Event ;
+    sem:hasPlace ng:Yugoslavia ;
+    sem:hasTimeStamp "1941-04-06"^^xsd:date ;
+    sem:subEventOf ng:Second_World_War ;
+    rdfs:comment "World War II in the Kingdom of Yugoslavia began on 6 April 1941, when the country was invaded and swiftly conquered by Axis forces and partitioned among Germany, Italy, Hungary, Bulgaria and their client regimes. Shortly after Germany attacked the USSR on 22 June 1941, the communist-led republican Yugoslav Partisans, on orders from Moscow, launched a guerrilla liberation war fighting against the Axis forces and their locally established puppet regimes, including the Axis-allied Independent State of Croatia (NDH) and the Government of National Salvation in the German-occupied territory of Serbia. This was dubbed the National Liberation War and Socialist Revolution" .
+
+ng:Second_World_War a sem:Event ;
+    sem:hasActor ng:Allies_of_World_War_II,
+        ng:Axis ;
+    sem:hasPlace ng:Africa,
+        ng:Asia,
+        ng:Atlantic_Ocean,
+        ng:Europe,
+        ng:Mediterranean_Sea,
+        ng:Middle_East,
+        ng:Pacific_Ocean,
+        ng:Russia,
+        ng:Scandinavia,
+        ng:Southeast_Asia ;
+    sem:hasTimeStamp "1945-09-02"^^xsd:date ;
+    rdfs:comment "World War&#160;II, or the Second World War (1 September 1939 – 2 September 1945), was a global conflict between two coalitions: the Allies and the Axis powers. Nearly all of the world's countries participated. Tanks and aircraft played major roles, the latter enabling the strategic bombing of cities and delivery of the only nuclear weapons used in war." .
+

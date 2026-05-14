@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.0,
+  "coverage_raw": 5.2,
+  "factual_consistency": 0.5555555555555555,
+  "coverage": 0.4666666666666667,
+  "reasoning": [
+    "The generated text is mostly consistent with the reference but has a contradiction regarding an Academy Award nomination. The generated text covers the main points but omits many specific films and details from the reference.",
+    "Factual consistency has errors in dates and timeline. Coverage omits several key aspects from the reference.",
+    "The generated text contradicts the reference on early career details; it covers only a few key points from the reference.",
+    "Major facts are correct but there are significant errors (e.g., incorrect film credits); covers key career points but omits awards, music career, and personal life details.",
+    "Factual consistency is high but marred by a few contradictions and unsupported details. Coverage is moderate, hitting key points but missing many details from the reference."
+  ]
+}

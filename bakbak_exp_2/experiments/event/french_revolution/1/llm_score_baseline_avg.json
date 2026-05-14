@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.6,
+  "coverage_raw": 8.4,
+  "factual_consistency": 0.9555555555555555,
+  "coverage": 0.8222222222222222,
+  "reasoning": [
+    "Minor error in timing of Directory's establishment; most key points covered, some specific events missing.",
+    "The generated text is consistent with the reference text and does not contradict any facts. The generated text covers most key points from the reference but misses some specific details.",
+    "All facts match the reference with no contradictions. Most key points are covered but some important events and details are missing.",
+    "All facts in the generated text are consistent with the reference text, with no contradictions. The generated text covers most key points from the reference, but misses explicit mention of the insurrection of 10 August 1792 and the Directory.",
+    "The generated text is fully consistent with the reference text, with no contradictions. The generated text covers all major events and themes from the reference, with only minor details missing."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 8,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is largely consistent with the reference but includes an initial contradictory statement about unrelated historical events not mentioned in the reference. The generated text covers most key points from the reference but omits some important details like the Simbas rebellion and Dag Hammarskj\u00f6ld's death."
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 6,
+  "factual_consistency": 1.0,
+  "coverage": 0.5555555555555556,
+  "reasoning": "All facts in the generated text that overlap with the reference are consistent, with no contradictions. The generated text covers some key aspects of the Renaissance but omits others, such as its broader European impact and effects on fields beyond art."
+}

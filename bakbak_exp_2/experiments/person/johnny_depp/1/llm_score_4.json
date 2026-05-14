@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 5,
+  "coverage_raw": 6,
+  "factual_consistency": 0.4444444444444444,
+  "coverage": 0.5555555555555556,
+  "reasoning": "Major facts are correct but there are significant errors (e.g., incorrect film credits); covers key career points but omits awards, music career, and personal life details."
+}

@@ -1,0 +1,5 @@
+All 2 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Mannerism  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. High Renaissance  |  combined=0.000  wiki=0.000  llm=0.000 ***

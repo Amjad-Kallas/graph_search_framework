@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.2,
+  "coverage_raw": 5.4,
+  "factual_consistency": 0.5777777777777778,
+  "coverage": 0.48888888888888893,
+  "reasoning": [
+    "The generated text contradicts the reference on the number of terrorists involved but is consistent on other key facts. The generated text covers the main events of the attack and rescue but omits several important details from the reference, such as the specific demands and the aftermath involving the release of perpetrators and the Israeli response.",
+    "The generated text contradicts the reference on the number of prisoners demanded. The generated text covers the main events but omits several key details and the aftermath.",
+    "Contradictions in demands and casualty numbers. Omits neo-Nazi involvement, perpetrator release, and later ceremonies.",
+    "The generated text contradicts the reference on some facts (e.g., number of terrorists, prisoners demanded) but aligns on the main events. The generated text covers the main events but omits several key details from the reference.",
+    "The generated text contradicts the reference on key details such as casualty numbers and demands; it omits several key aspects including the operation name and Israeli response."
+  ]
+}

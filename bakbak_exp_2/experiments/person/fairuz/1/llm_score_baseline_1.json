@@ -1,0 +1,10 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 3,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.2222222222222222,
+  "reasoning": {
+    "factual_consistency": "The generated text does not contradict the reference on key facts, though it adds details not present in the reference.",
+    "coverage": "The generated text misses many key points from the reference, focusing instead on cultural context not covered in the reference."
+  }
+}

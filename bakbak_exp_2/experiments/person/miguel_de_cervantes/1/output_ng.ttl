@@ -1,0 +1,58 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Cervantes a sem:Event ;
+    sem:hasPlace ng:Bach_quadrangle ;
+    rdfs:comment "Cervantes is a crater on Mercury. It has a diameter of 181 kilometers. Its name was adopted by the International Astronomical Union in 1976." .
+
+ng:Cervantine_Library a sem:Event ;
+    rdfs:comment "The Cervantine Library Spanish: Biblioteca Cervantina (also known as the Library Miguel de Cervantes) is a library located on the main campus of Tecnológico de Monterrey, in the city of Monterrey, Nuevo León, Mexico.The library has about 130,000 items in its collection, with its holdings on Mexican history and culture ranked second in the Americas. It also houses series of photographs covering the history of Mexico and Monterrey during the 19th and 20th centuries. Since 1998, the library has worked to digitalize its collection and put it online." .
+
+ng:El_licenciado_Vidriera a sem:Event ;
+    rdfs:comment "\"El licenciado Vidriera\" (\"The Lawyer of Glass\" or \"The Glass Graduate\") is a short story written by Miguel de Cervantes and included in his Novelas ejemplares, first published in 1613. In the story, a young scholar goes mad, believing himself to be made entirely of glass, and becomes famous for his satirical comments on the society around him. He eventually becomes cured and leaves his scholar's life to join the army, dying in battle." .
+
+ng:Gran_Teatro_Cervantes a sem:Event ;
+    rdfs:comment "Gran Teatro Cervantes is a theatre, dedicated to Miguel de Cervantes, in Tangier, Morocco. The theatre was built in 1913 by the Spanish." .
+
+ng:Instituto_Cervantes a sem:Event ;
+    rdfs:comment "Instituto Cervantes (Spanish: [instiˈtuto θerˈβantes], the Cervantes Institute) is a worldwide nonprofit organization created by the Spanish government in 1991. It is named after Miguel de Cervantes (1547–1616), the author of Don Quixote and perhaps the most important figure in the history of Spanish literature. The Cervantes Institute is the largest organization in the world responsible for promoting the study and the teaching of Spanish language and culture." .
+
+ng:Juan_de_la_Cuesta a sem:Event ;
+    sem:hasTimeStamp "1600-01-01"^^xsd:date ;
+    rdfs:comment "Juan de la Cuesta (died 1627) was a Spanish printer known for printing (not publishing) the first editions of Don Quixote de la Mancha (1605) and the Novelas ejemplares (1613), by Miguel de Cervantes, as well as the works of other leading figures of Spain's Golden Age, such as Lope de Vega. Although he may previously have worked in Segovia, and there was also a Juan de la Cuesta based in Alcalá de Henares in 1589 (although the latter may refer to another person), it was not until 1599 that he started working in Madrid, taken on as manager of" .
+
+ng:La_Galatea a sem:Event ;
+    rdfs:comment "La Galatea (Spanish pronunciation: [la ɣalaˈte.a]) was Miguel de Cervantes’ first book, published in 1585. Under the guise of pastoral characters, it is an examination of love and contains many allusions to contemporary literary figures. It enjoyed modest success, but was not soon reprinted; its promised sequel was never published." .
+
+ng:La_ilustre_fregona a sem:Event ;
+    rdfs:comment "La ilustre fregona (The Illustrious Kitchen Maid or The Illustrious Scullery-maid) is a novella by Miguel de Cervantes, published in the collection Novelas ejemplares. It tells the story of two wealthy young men who fall in love with a kitchen maid in Toledo. The story contains mistaken identities, ironic comments and genre traits of the picaresque novel and pastoral romance." .
+
+ng:Los_Trabajos_de_Persiles_y_Sigismunda a sem:Event ;
+    rdfs:comment "Los trabajos de Persiles y Sigismunda (\"The Travails of Persiles and Sigismunda\") is a romance or Byzantine novel by Miguel de Cervantes Saavedra, his last work and one that stands in opposition to the more famous novel Don Quixote by its embrace of the fantastic rather than the commonplace. While Cervantes is known primarily for Don Quixote, widely regarded as one of the foremost classic novels of all time, he himself believed the Persiles, as it is commonly called, to be his crowning achievement. He completed it only three days before his death, and it was posthumously published in 1617." .
+
+ng:Miguel_de_Cervantes_Prize a sem:Event ;
+    rdfs:comment "The Miguel de Cervantes Prize (Spanish: Premio de Literatura en Lengua Castellana Miguel de Cervantes) is awarded annually to honour the lifetime achievement of an outstanding writer in the Spanish language. The Encyclopædia Britannica calls it the \"most prestigious and remunerative award given for Spanish-language literature\"." .
+
+ng:Miguel_de_Cervantes_University a sem:Event ;
+    rdfs:comment "Miguel de Cervantes University (Spanish: Universidad Miguel de Cervantes) is a private university located in Santiago de Chile and was established in 1996. This university had around 853 students in 2010. It is accredited by Chile's National Accreditation Commission (CNA-Chile)." .
+
+ng:Museo_Casa_de_Cervantes a sem:Event ;
+    rdfs:comment "The Cervantes' House (Spanish: Casa de Cervantes) is a museum in Valladolid, Spain, devoted to Miguel de Cervantes. The museum is located in the house that was Cervantes's home around the time the first part of Don Quixote was published. Although he did not stay long in Valladolid, he set his story The Dialogue of the Dogs there." .
+
+ng:Novelas_ejemplares a sem:Event ;
+    rdfs:comment "Novelas ejemplares (\"Exemplary Novels\") is a series of seven novellas, four novelettes, and one short story that follow the model established in Italy. The series was&#160;written by&#160;Miguel de Cervantes&#160;between 1590 and 1612 and printed in Madrid in 1613 by&#160;Juan de la Cuesta. Novelas ejemplares followed the publication of&#160;the first part of Don Quixote." .
+
+ng:Rinconete_y_Cortadillo a sem:Event ;
+    rdfs:comment "\"Rinconete y Cortadillo\" (or \"Novela de Rinconete y Cortadillo\") is one of the twelve short stories included in Novelas Ejemplares, by Spanish writer Miguel de Cervantes. It describes the comical adventures of two petty criminals as they travel to Seville and are then taken in by the city's thieves' guild. Seville at the time was a rich city with marked social contrasts, being the entrepôt of Spain and the new world of the Americas." .
+
+ng:Teatro_Cervantes a sem:Event ;
+    rdfs:comment "The Cervantes Theater (Spanish: Teatro Cervantes) is located in the Mexican city of Guanajuato. The building is of stone in the colonial style, designed by José Martínez Cossio and inaugurated in 1979. It is a venue of the Festival Internacional Cervantino, but also holds other events during the rest of the year." .
+
+ng:The_Siege_of_Numantia a sem:Event ;
+    rdfs:comment "The Siege of Numantia (Spanish: El cerco de Numancia) is a tragedy by Miguel de Cervantes set at the siege of Numantia, captured and razed by Scipio Aemilianus in 133 BC. The play is divided into four acts, (jornadas, or \"days\"). The dialogue is sometimes in tercets and sometimes in redondillas, but for the most part in octaves. The work was composed circa 1582 and was apparently very successful in the years before the advent of the playwright Lope de Vega." .
+
+ng:Viaje_al_Parnaso a sem:Event ;
+    rdfs:comment "Viaje del Parnaso (\"Journey to Parnassus\") is a poetic work by Miguel de Cervantes. It was first published in 1614, two years before the author's death." .
+

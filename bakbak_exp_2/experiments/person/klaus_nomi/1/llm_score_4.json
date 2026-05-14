@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 3,
+  "coverage_raw": 5,
+  "factual_consistency": 0.2222222222222222,
+  "coverage": 0.4444444444444444,
+  "reasoning": "The generated text contradicts the reference on key facts such as the date of death and details of the association with David Bowie. The generated text covers some key points but omits others, such as the East Village art scene and specific song covers mentioned in the reference."
+}

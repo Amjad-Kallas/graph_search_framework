@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 6,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is largely consistent with the reference, with no major contradictions. The generated text covers many key aspects of Callas's life and career but omits several important details and events from the reference."
+}

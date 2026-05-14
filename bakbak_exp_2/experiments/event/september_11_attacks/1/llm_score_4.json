@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "No contradictions with the reference text; covers main events but misses some important details."
+}

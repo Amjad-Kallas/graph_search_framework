@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.8,
+  "coverage_raw": 8.0,
+  "factual_consistency": 0.9777777777777779,
+  "coverage": 0.7777777777777777,
+  "reasoning": [
+    "The generated text has no factual contradictions with the reference. It covers all major points but omits some minor details.",
+    "No contradictions with reference text; Most key points covered, some details missing.",
+    "All facts in the generated text that overlap with the reference are consistent. The generated text covers most key points from the reference, including the main events and symbolism, but omits some details about the national holiday.",
+    "All facts in the generated text match the reference text without contradictions. The generated text covers most key points from the reference, missing only some details like the Bastille's scheduled demolition and the F\u00eate de la F\u00e9d\u00e9ration.",
+    "factual_consistency: Minor discrepancies (governor's name, no direct contradiction on deaths); coverage: Most key points covered but missing the national holiday aspect."
+  ]
+}

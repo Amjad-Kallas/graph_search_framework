@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 8.6,
+  "coverage_raw": 6.0,
+  "factual_consistency": 0.8444444444444444,
+  "coverage": 0.5555555555555555,
+  "reasoning": [
+    "The generated text's facts about the Cultural Revolution are consistent with the reference, and there are no contradictions. The generated text covers some key points about the Cultural Revolution but omits others and includes much irrelevant information.",
+    "The facts about the Cultural Revolution in the generated text are consistent with the reference text, with no contradictions. The generated text covers some key points from the reference but misses many major aspects and is partially off-topic.",
+    "The generated text is largely consistent with the reference, with only minor simplifications and no direct contradictions. The generated text covers the main events and figures of the Cultural Revolution but omits some specific details and aspects present in the reference text.",
+    "The generated text is mostly factually consistent but contains a significant error about the reference's content. The generated text covers most key points from the reference but omits some details and includes irrelevant information.",
+    "No contradictions found; generated text covers most key points but omits some important details and events."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 7,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is mostly consistent with the reference but has a significant contradiction regarding France's support in the war. The generated text covers most of the main events and causes of the war but omits several important details about the aftermath and international response."
+}

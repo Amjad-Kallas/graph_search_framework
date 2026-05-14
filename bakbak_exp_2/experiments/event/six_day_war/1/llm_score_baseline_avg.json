@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.6,
+  "coverage_raw": 8.2,
+  "factual_consistency": 0.9555555555555555,
+  "coverage": 0.8,
+  "reasoning": [
+    "The generated text's facts align perfectly with the reference, with no contradictions. The generated text covers most key points from the reference but omits some significant details, such as the 1956 Suez Crisis, the USS Liberty incident, and the death of UN peacekeepers.",
+    "No contradictions with the reference text. Major aspects are covered but some important details are missing.",
+    "The generated text is mostly factually consistent with minor discrepancies in dates. It covers all key points from the reference text.",
+    "Minor discrepancies in dates but overall consistent with reference. Covers main events but misses some key consequences.",
+    "All facts in the generated text match the reference without contradiction. The generated text covers most key points but misses some important details from the reference."
+  ]
+}

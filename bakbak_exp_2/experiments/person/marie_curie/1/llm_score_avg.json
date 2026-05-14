@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.8,
+  "coverage_raw": 8.0,
+  "factual_consistency": 0.9777777777777779,
+  "coverage": 0.7777777777777778,
+  "reasoning": [
+    "The generated text's facts align with the reference without contradictions. The generated text covers most key points but omits some details about her legacy and honors.",
+    "The generated text is factually consistent with the reference and covers most key points but misses some important aspects of her life and legacy.",
+    "All facts in the generated text align with the reference text without contradictions. The generated text covers most key points but misses some details from the reference text.",
+    "All stated facts in the generated text are consistent with the reference text. The generated text covers all major aspects of Marie Curie's life and work, with only minor details missing from the reference text.",
+    "Minor discrepancy in describing the workspace. Covers most key points but omits some details like the Curie Institutes and specific honors."
+  ]
+}

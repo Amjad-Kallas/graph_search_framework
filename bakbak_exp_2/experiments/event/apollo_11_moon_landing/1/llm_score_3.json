@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "Minor error in transit time, otherwise consistent. Covers main events but misses some details like service module and fifth crewed mission."
+}

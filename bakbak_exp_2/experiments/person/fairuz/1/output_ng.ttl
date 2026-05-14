@@ -1,0 +1,19 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Assi_Rahbani a sem:Event ;
+    sem:hasTimeStamp "1923-05-03"^^xsd:date ;
+    rdfs:comment "Assi Rahbani (Arabic: عاصي الرحباني; 4 May 1923 – 21 June 1986) was a Lebanese composer, musician, conductor and producer. He was part of the Rahbani Brothers (Arabic: الأخوان رحباني), with his brother Mansour Rahbani. He married Lebanese singer Nouhad Haddad, more famous by her stage name, Fairuz." .
+
+ng:Eh_Fi_Amal a sem:Event ;
+    rdfs:comment "Eh Fi Amal (Arabic: إيه في أمل‎ meaning \"Yes There Is Hope\") is the ninety-ninth album by the Lebanese recording artist Fairuz, released October 6, 2010 in Lebanon and the following day in the rest of the world. The album follows the massive success of its first two singles&#160;: \"قال قايل\" \"Kal Kayel\" (Someone Said), \"قصة صغيرة كتير\" \"Kissa Sghery Kteer\" (Very Short Story) and \"إيه في أمل\" \"Eh Fi Amal\" (Yes, There Is Hope), which were sent to radio a month before the album's release. It also includes two previously unreleased songs." .
+
+ng:Fairuz_discography a sem:Event ;
+    rdfs:comment "The discography of Lebanese singer Fairuz includes a large repertoire of more than 1,500 songs, out of which nearly 800 were released. Fairuz has sold more than 150 million records worldwide. Around 85 Fairuz CDs, records, and cassettes have been officially released so far." .
+
+ng:Ziad_Rahbani a sem:Event ;
+    sem:hasTimeStamp "1956-01-01"^^xsd:date ;
+    rdfs:comment "Ziad Rahbani (Arabic: زياد الرحباني, romanized:&#160;Ziyād ar-Raḥbānī; 1 January 1956 – 26 July 2025) was a Lebanese composer, pianist, playwright and political commentator. He was the son of Lebanese singer Fairuz and Lebanese composer Assi Rahbani. Many of his musicals satirize Lebanese Sectarian politics both during and after the Lebanese Civil War, and are often critical of the traditional political establishment." .
+

@@ -1,0 +1,27 @@
+All 24 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. First Quarter Storm  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. Sino Soviet border conflict  |  combined=0.396  wiki=0.990  llm=0.000 ***
+  3. Abagana  |  combined=0.359  wiki=0.897  llm=0.000 ***
+  4. Operation Junction City  |  combined=0.358  wiki=0.895  llm=0.000 ***
+  5. 1967 in the Vietnam War  |  combined=0.353  wiki=0.882  llm=0.000 ***
+  6. Palestinian insurgency in South Lebanon  |  combined=0.343  wiki=0.858  llm=0.000 ***
+  7. Operation Wheeler Wallowa  |  combined=0.328  wiki=0.820  llm=0.000 ***
+  8. Operation Banner  |  combined=0.314  wiki=0.785  llm=0.000 ***
+  9. 1968 in the Vietnam War  |  combined=0.299  wiki=0.747  llm=0.000 ***
+ 10. 1968 Summer Olympics  |  combined=0.290  wiki=0.725  llm=0.000 ***
+ 11. 1970 in the Vietnam War  |  combined=0.286  wiki=0.714  llm=0.000 ***
+ 12. Operation Menu  |  combined=0.278  wiki=0.696  llm=0.000 ***
+ 13. Operation Cedar Falls  |  combined=0.278  wiki=0.695  llm=0.000 ***
+ 14. Arms Crisis  |  combined=0.235  wiki=0.588  llm=0.000 ***
+ 15. 1969 in the Vietnam War  |  combined=0.224  wiki=0.560  llm=0.000 ***
+ 16. Operation Sea Dragon  |  combined=0.220  wiki=0.549  llm=0.000 ***
+ 17. Operation Giant Lance  |  combined=0.194  wiki=0.486  llm=0.000 ***
+ 18. Corrective Movement  |  combined=0.193  wiki=0.482  llm=0.000 ***
+ 19. North Carolina v Alford  |  combined=0.139  wiki=0.347  llm=0.000 ***
+ 20. Operation Distant Plain  |  combined=0.131  wiki=0.328  llm=0.000 ***
+ 21. Miranda v Arizona  |  combined=0.064  wiki=0.160  llm=0.000 ***
+ 22. Operation Prairie Flat  |  combined=0.039  wiki=0.097  llm=0.000 ***
+ 23. Green v County School Board of New Kent County  |  combined=0.019  wiki=0.047  llm=0.000 ***
+ 24. Walz v Tax Commission  |  combined=0.000  wiki=0.000  llm=0.000 ***

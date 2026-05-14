@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.2,
+  "coverage_raw": 7.4,
+  "factual_consistency": 0.9111111111111111,
+  "coverage": 0.711111111111111,
+  "reasoning": [
+    "No contradictions with reference text; some key works and details from reference are missing.",
+    "Minor contradiction on age at move to Vienna; covers main points but misses some key works.",
+    "Factual consistency is high with only a minor inconsistency regarding the placement of the Seventh Symphony. Coverage is good but misses some key works mentioned in the reference text.",
+    "The generated text's facts align with the reference without contradictions; The generated text covers most key points but omits some specific works and details from the reference.",
+    "No contradictions with the reference text. The generated text covers most key points but omits some important works mentioned in the reference."
+  ]
+}

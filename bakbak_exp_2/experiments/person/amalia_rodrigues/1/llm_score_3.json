@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 7,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text contradicts the reference by stating it contains chronological events when it does not. The generated text covers most key points about Am\u00e1lia Rodrigues from the reference but omits some details."
+}

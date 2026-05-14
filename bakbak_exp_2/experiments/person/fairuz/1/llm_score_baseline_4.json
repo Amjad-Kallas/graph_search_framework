@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 5,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.4444444444444444,
+  "reasoning": "Minor inaccuracies in details but no major contradictions with the reference text. The generated text misses several key points from the reference text, such as specific early career details, major hits, awards, and career statistics."
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 8,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text has a minor contradiction regarding the Bastille's location but is otherwise factually consistent. It covers most key points from the reference but omits some details such as the scheduled demolition and fighting specifics."
+}

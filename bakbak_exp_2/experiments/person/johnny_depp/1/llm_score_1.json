@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is mostly consistent with the reference but has a contradiction regarding an Academy Award nomination. The generated text covers the main points but omits many specific films and details from the reference."
+}

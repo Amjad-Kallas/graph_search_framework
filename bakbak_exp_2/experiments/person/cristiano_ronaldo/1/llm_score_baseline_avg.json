@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 8.2,
+  "coverage_raw": 6.4,
+  "factual_consistency": 0.8,
+  "coverage": 0.6,
+  "reasoning": [
+    "Only one minor contradiction with reference. Covers main career points but omits many key details and achievements.",
+    "The generated text contradicts the reference on the number of Champions League titles with Real Madrid. It covers the main career phases but omits many key achievements and records.",
+    "All facts in the generated text are consistent with the reference text. The generated text covers the main career narrative but omits several key achievements and records from the reference.",
+    "Minor contradictions in dates and numbers; covers main career narrative but misses some awards and records.",
+    "All facts in the generated text align with the reference without contradiction. The generated text covers the main career points but omits several key achievements and records mentioned in the reference."
+  ]
+}

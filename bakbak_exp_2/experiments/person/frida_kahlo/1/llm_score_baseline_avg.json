@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.2,
+  "coverage_raw": 7.6,
+  "factual_consistency": 0.9111111111111111,
+  "coverage": 0.7333333333333333,
+  "reasoning": [
+    "The generated text is fully consistent with the reference text with no contradictions. It covers most key points but omits some important details such as political involvement and teaching career.",
+    "The generated text is mostly consistent with the reference but has a contradiction regarding the timeline of Kahlo's international recognition; The generated text covers most key aspects of Kahlo's life and work but omits some important details and events.",
+    "Minor factual contradiction regarding age at accident; major aspects of Kahlo's life and work are well-covered with only minor omissions.",
+    "The generated text is mostly consistent with the reference, with only a minor contradiction regarding the type of vehicle in her accident. The generated text covers most key points but omits some details like the Paris exhibition and her teaching career.",
+    "The generated text has no factual contradictions with the reference text. The generated text covers most major points but misses some important details."
+  ]
+}

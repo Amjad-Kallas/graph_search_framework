@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is factually consistent with the reference and covers major themes but omits some secondary details."
+}

@@ -1,0 +1,5 @@
+All 2 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Battle of Abu Ageila  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  2. Battle of Ammunition Hill  |  combined=0.420  wiki=0.000  llm=0.700 ***

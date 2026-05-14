@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 6,
+  "factual_consistency": 1.0,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text's facts about the Congo Crisis match the reference text without contradictions. The generated text covers the main narrative of the Congo Crisis but misses several key events and details from the reference text."
+}

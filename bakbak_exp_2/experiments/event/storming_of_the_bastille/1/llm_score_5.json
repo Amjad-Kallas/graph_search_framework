@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text does not contradict any facts from the reference. The generated text covers most key points from the reference but omits some details such as the duration of fighting and the scheduled demolition of the Bastille."
+}

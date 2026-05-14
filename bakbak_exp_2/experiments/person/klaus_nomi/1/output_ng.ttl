@@ -1,0 +1,22 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+
+ng:Encore a sem:Event ;
+    rdfs:comment "Encore! is a compilation album by German countertenor Klaus Nomi, released posthumously in 1983. Two previously unreleased songs were included on the album. Nomi died earlier that year." .
+
+ng:In_Concert a sem:Event ;
+    rdfs:comment "In Concert may refer to:" .
+
+ng:Simple_Man a sem:Event ;
+    rdfs:comment "Simple Man is the second album by German countertenor Klaus Nomi, released on 23 November 1982 by RCA. It was also the last album of original material to be released during Nomi's lifetime. The album consists of a mix of opera and pop music, songs by Renaissance composer John Dowland and excerpts from Baroque composer Henry Purcell's Dido and Aeneas juxtaposed with \"Ding-Dong! The Witch Is Dead\" from The Wizard of Oz and Marlene Dietrich's \"Falling in Love Again\"." .
+
+ng:The_Collection a sem:Event ;
+    rdfs:comment "The Collection may refer to:" .
+
+ng:The_Essential a sem:Event ;
+    rdfs:comment "The Essential may refer to: The Essential Series, an Irish radio show The Essential (Concrete Blonde album), 2005 The Essential (Divinyls album), 2008 The Essential (Don Johnson album), 1997 The Essential (Era album), 2010 The Essential (Ganggajang album), 1996 The Essential (Grandmaster Flash and the Furious Five album), 2010 The Essential (John Farnham album), 2009 The Essential (Nik Kershaw album), 2000 The Essential, a collection of compilation albums published by EMI Records. Examples include: The Essential (Sandra album), a re-release of 18 Greatest Hits The Essential Diesel, a 2009 best of album by Diesel The Essential, a collection of compilation" .
+
+ng:Za_Bakdaz a sem:Event ;
+    rdfs:comment "Za Bakdaz: The Unfinished Opera is a collection of songs German countertenor Klaus Nomi was working on up until his death in 1983. The album was released posthumously in 2007. The large majority of the tracks have never before been heard on an official studio release; the original sessions took place from 1979 to 1983, with the tracks completed between 1984 and 2006 at the home studio of Page Wood and George Elliott." .
+

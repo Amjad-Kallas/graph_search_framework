@@ -1,0 +1,49 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Appleton a sem:Event ;
+    sem:hasTimeStamp "1857-01-01"^^xsd:date ;
+    rdfs:comment "Appleton (Menominee: Ahkōnemeh) is the county seat of Outagamie County, Wisconsin, United States, with small portions extending into Calumet and Winnebago counties. Located on the Fox River north of Lake Winnebago, it is 30 miles (48&#160;km) southwest of Green Bay and 100 miles (160&#160;km) north of Milwaukee. The city had a population of 75,644 at the 2020 census, making it the sixth-most populous city in Wisconsin." .
+
+ng:Atlantic_City a sem:Event ;
+    sem:hasTimeStamp "1854-05-01"^^xsd:date ;
+    rdfs:comment "Atlantic City, sometimes referred to by its initials A.C., is a seaside resort city in Atlantic County, in the U.S. state of New Jersey. Atlantic City comprises the second half of the Atlantic City-Hammonton metropolitan statistical area, which encompasses those cities and all of Atlantic County for statistical purposes. Both Atlantic City and Hammonton, as well as the surrounding Atlantic County, are culturally tied to Philadelphia and constitute part of the larger Philadelphia metropolitan area or Delaware Valley, the nation's seventh-largest metropolitan area as of 2020." .
+
+ng:Fond_du_Lac a sem:Event ;
+    sem:hasTimeStamp "1852-01-01"^^xsd:date ;
+    rdfs:comment "Fond du Lac ( ) is a city in Fond du Lac County, Wisconsin, United States, and its county seat. It is at the southern end of Lake Winnebago and had a population of 44,678 at the 2020 census. The city forms the core of the Fond du Lac metropolitan statistical area, which includes all of Fond du Lac County and had 104,154 residents in 2020." .
+
+ng:Green_Bay a sem:Event ;
+    sem:hasTimeStamp "1854-01-01"^^xsd:date ;
+    rdfs:comment "Green Bay is a city in Brown County, Wisconsin, United States, and its county seat. It is located along the Green Bay inlet at the mouth of the Fox River on Lake Michigan. With a population of 107,395 at the 2020 census, it is the third-most populous city in Wisconsin and third-most populous city on Lake Michigan." .
+
+ng:Janesville a sem:Event ;
+    sem:hasTimeStamp "1853-01-01"^^xsd:date ;
+    rdfs:comment "Janesville is a city in and the county seat of Rock County, Wisconsin, United States. The population was 65,615 at the 2020 census, and was estimated at 66,428 in 2024, making it the tenth-most populous city in Wisconsin. The Janesville–Beloit Metropolitan statistical area, consisting solely of Rock County, has an estimated 165,461 residents in the 2024 estimate." .
+
+ng:Kenosha a sem:Event ;
+    sem:hasTimeStamp "1850-01-01"^^xsd:date ;
+    rdfs:comment "Kenosha ( ) is a city in Kenosha County, Wisconsin, United States, and its county seat. Located on the southwestern shore of Lake Michigan, it is the fourth-most populous city in Wisconsin, with 99,986 residents at the 2020 census. The Kenosha metropolitan statistical area, consisting solely of Kenosha County, has roughly 169,000 residents." .
+
+ng:La_Crosse a sem:Event ;
+    sem:hasTimeStamp "1856-01-01"^^xsd:date ;
+    rdfs:comment "La Crosse ( lə-KROSS) is a city in La Crosse County, Wisconsin, United States, and its county seat. Positioned alongside the Mississippi River, La Crosse is the most populous city on Wisconsin's western border. The population was 52,680 at the 2020 census." .
+
+ng:Madison a sem:Event ;
+    sem:hasTimeStamp "1856-01-01"^^xsd:date ;
+    rdfs:comment "Madison is the capital of the U.S. state of Wisconsin. It is the second-most populous city in the state (after Milwaukee), with a population of 269,840 at the 2020 census. The Madison metropolitan area has an estimated 708,000 residents." .
+
+ng:Oshkosh a sem:Event ;
+    sem:hasTimeStamp "1853-01-01"^^xsd:date ;
+    rdfs:comment "Oshkosh ( ) is a city in Winnebago County, Wisconsin, United States, and its county seat. It is located on the western shore of Lake Winnebago, adjacent to the much less populous Town of Oshkosh in the north. The population was 66,816 at the 2020 census, making it the ninth-most populous city in Wisconsin." .
+
+ng:Sheboygan a sem:Event ;
+    sem:hasTimeStamp "1853-01-01"^^xsd:date ;
+    rdfs:comment "Sheboygan () is a city in Sheboygan County, Wisconsin, United States, and its county seat. The population was 49,929 at the 2020 census, while the Sheboygan metropolitan area had 118,034 residents. The city is located on the western shore of Lake Michigan at the mouth of the Sheboygan River, about 50 miles (80 kilometers) north of Milwaukee and 64 miles (103 kilometers) south of Green Bay." .
+
+ng:Superior a sem:Event ;
+    sem:hasTimeStamp "1858-01-01"^^xsd:date ;
+    rdfs:comment "Superior is a city in Douglas County, Wisconsin, United States, and its county seat. The population was 26,751 at the 2020 census. Superior and nearby Duluth, Minnesota, sit at the western tip of Lake Superior and together form the Twin Ports, a major Great Lakes harbor." .
+

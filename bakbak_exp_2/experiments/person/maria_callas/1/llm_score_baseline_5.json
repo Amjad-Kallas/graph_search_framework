@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The text is mostly consistent but has some contradictions and unsupported details. Major points are covered but some key aspects (e.g., Onassis affair) are missing."
+}

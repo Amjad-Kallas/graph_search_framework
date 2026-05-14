@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 5,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.4444444444444444,
+  "reasoning": "The generated text's facts about the Cultural Revolution are consistent with the reference, and there are no contradictions. The generated text covers some key points about the Cultural Revolution but omits others and includes much irrelevant information."
+}

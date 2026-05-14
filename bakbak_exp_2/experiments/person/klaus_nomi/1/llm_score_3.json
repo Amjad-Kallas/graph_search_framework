@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contradicts the reference on Nomi's date of death. The generated text covers most key points but omits Nomi's collaboration with David Bowie."
+}

@@ -1,0 +1,16 @@
+{
+  "factual_consistency_raw": 6.6,
+  "coverage_raw": 5.2,
+  "factual_consistency": 0.6222222222222223,
+  "coverage": 0.4666666666666667,
+  "reasoning": [
+    "The generated text is fully consistent with the reference text and contains no contradictions. The generated text covers many key points but omits some important details from the reference.",
+    "factual_consistency: Contains significant factual errors such as incorrect birth name and misrepresentation of family relations. coverage: Addresses major themes and some key points but omits several important details from the reference.",
+    {
+      "factual_consistency": "No contradictions with the reference text.",
+      "coverage": "Covers the main themes but omits several key details from the reference text."
+    },
+    "Contradictions in birth name and discography details. Missing most key points from the reference text.",
+    "The generated text contradicts the reference on key facts such as birth name and album count but is consistent on other details. The generated text addresses some key points from the reference but misses several important aspects such as early career and major performances."
+  ]
+}

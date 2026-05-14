@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "No contradictions found between generated and reference text. Most key points are covered, but some details and specific achievements are missing."
+}

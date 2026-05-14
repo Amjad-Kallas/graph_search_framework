@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.2,
+  "coverage_raw": 7.2,
+  "factual_consistency": 0.9111111111111111,
+  "coverage": 0.6888888888888889,
+  "reasoning": [
+    "No contradictions with the reference text. The generated text covers most key points but omits some important details.",
+    "The generated text is consistent with the reference on all major facts, with no contradictions. The generated text covers most key points from the reference but omits some details about her struggles and personal life.",
+    "Contradiction on age at start of musical education; misses key details like rivalry and press coverage.",
+    "Minor contradiction on the age at which she began her musical education; covers most key points but omits the rivalry with Tebaldi, near-sightedness, and ashes scattering.",
+    "The generated text is largely consistent with the reference, with only minor inaccuracies. The generated text addresses most key points from the reference but omits several important details."
+  ]
+}

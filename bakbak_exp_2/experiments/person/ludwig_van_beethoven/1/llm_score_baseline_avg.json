@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 8.8,
+  "coverage_raw": 7.4,
+  "factual_consistency": 0.8666666666666666,
+  "coverage": 0.711111111111111,
+  "reasoning": [
+    "Minor inconsistency with the date of Beethoven's move to Vienna; covers main themes but omits several specific works mentioned in the reference.",
+    "Minor error on move year; covers most key points but some specific works omitted.",
+    "Minor contradiction on the year of Beethoven's move to Vienna. Covers all major events but omits some specific details and works.",
+    "Minor contradiction regarding the year Beethoven moved to Vienna. Covers main biographical points but omits several specific works mentioned in the reference.",
+    "The generated text does not contradict the reference and matches on all major facts. The generated text covers the main stages of Beethoven's life and career but omits several key works and details present in the reference."
+  ]
+}

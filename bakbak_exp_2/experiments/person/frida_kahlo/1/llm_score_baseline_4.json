@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is mostly consistent with the reference, with only a minor contradiction regarding the type of vehicle in her accident. The generated text covers most key points but omits some details like the Paris exhibition and her teaching career."
+}

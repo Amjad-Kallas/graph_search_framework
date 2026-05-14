@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 7.6,
+  "coverage_raw": 7.0,
+  "factual_consistency": 0.7333333333333333,
+  "coverage": 0.6666666666666667,
+  "reasoning": [
+    "Minor error in the order of tower collapses. Covers key points but misses some details.",
+    "The generated text has one major contradiction regarding the number of terrorists but is otherwise consistent with the reference. The generated text covers the main events but omits several key details from the reference.",
+    "The generated text contradicts the reference on the number of hijackers. The generated text omits several key details from the reference.",
+    "No contradictions with the reference text; covers main events but misses some important details.",
+    "The generated text contradicts the reference on the number of terrorists. It covers most key points but omits cleanup and memorials."
+  ]
+}

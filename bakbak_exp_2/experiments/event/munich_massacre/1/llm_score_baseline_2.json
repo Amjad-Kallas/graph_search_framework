@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 5,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.4444444444444444,
+  "reasoning": "The generated text has some factual inconsistencies with the reference, particularly in numbers and details. The generated text covers main events but misses several key points from the reference."
+}

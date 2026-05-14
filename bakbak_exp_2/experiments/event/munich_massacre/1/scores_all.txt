@@ -1,0 +1,5 @@
+All 2 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. 1972 Summer Olympics  |  combined=1.000  wiki=1.000  llm=1.000 ***
+  2. Badminton at the 1972 Summer Olympics  |  combined=0.000  wiki=0.000  llm=0.000 ***

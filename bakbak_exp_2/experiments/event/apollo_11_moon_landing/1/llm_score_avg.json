@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 8.8,
+  "coverage_raw": 8.0,
+  "factual_consistency": 0.8666666666666666,
+  "coverage": 0.7777777777777777,
+  "reasoning": [
+    "Minor discrepancy in estimated viewer count, but otherwise consistent with reference. Covers most key points but misses important context (Apollo 1 fire, Mercury/Gemini) and some details.",
+    "The generated text is mostly consistent with the reference but has a significant error in the timing of the moon landing and moonwalk. The generated text covers all major points from the reference but omits some minor details about the aftermath and current status of artifacts.",
+    "Minor error in transit time, otherwise consistent. Covers main events but misses some details like service module and fifth crewed mission.",
+    "The generated text has no factual contradictions with the reference. It covers most key points but omits some details.",
+    "Minor discrepancy in audience numbers; main events covered but some context and details missing."
+  ]
+}

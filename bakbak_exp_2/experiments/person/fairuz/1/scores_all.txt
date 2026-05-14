@@ -1,0 +1,7 @@
+All 4 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Assi Rahbani  |  combined=1.000  wiki=1.000  llm=1.000 ***
+  2. Eh Fi Amal  |  combined=0.470  wiki=0.125  llm=0.700 ***
+  3. Fairuz discography  |  combined=0.240  wiki=0.000  llm=0.400 ***
+  4. Ziad Rahbani  |  combined=0.164  wiki=0.110  llm=0.200 ***

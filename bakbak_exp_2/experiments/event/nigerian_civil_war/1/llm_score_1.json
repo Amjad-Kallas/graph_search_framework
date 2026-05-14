@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is mostly consistent with the reference but has contradictions regarding international support. The generated text covers many key points but omits important aspects such as post-war political marginalization and the full details of international involvement and humanitarian response."
+}

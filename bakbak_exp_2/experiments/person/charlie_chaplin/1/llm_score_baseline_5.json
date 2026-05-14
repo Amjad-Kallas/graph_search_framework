@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 7,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is mostly consistent with the reference, with one contradiction regarding Chaplin's father's death. The generated text covers most key aspects of Chaplin's life and career but omits some important details such as his co-founding of United Artists and his Honorary Academy Award."
+}

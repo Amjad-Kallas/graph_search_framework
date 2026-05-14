@@ -1,0 +1,691 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Action_of_17_November_1917 a sem:Event ;
+    sem:hasPlace ng:North_Atlantic ;
+    sem:hasTimeStamp "1917-11-17"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The action of 17 November 1917 was a naval battle of the First World War. The action was fought between a German U-boat and two United States Navy destroyers in the North Atlantic Ocean." .
+
+ng:Action_of_22_September_1914 a sem:Event ;
+    sem:hasPlace ng:Broad_Fourteens ;
+    sem:hasTimeStamp "1914-09-22"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Action of 22 September 1914 was an attack by the German U-boat U-9 that took place during the First World War. Three obsolete Royal Navy cruisers of the 7th Cruiser Squadron manned mainly by Royal Naval Reserve part-timers and sometimes referred to as the Live Bait Squadron, were sunk by U-9 while patrolling the southern North Sea. Neutral ships and trawlers nearby began to rescue survivors but 1,459 British sailors were killed." .
+
+ng:Action_of_4_May_1917 a sem:Event ;
+    sem:hasPlace ng:North_Sea ;
+    sem:hasTimeStamp "1917-05-04"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The action of 4 May 1917 was a naval and air engagement of the First World War in the North Sea. The action took place between the German Zeppelin LZ 92 (tactical name, L.43), several German submarines and a naval force led by the Australian light cruiser HMAS&#160;Sydney. The action was inconclusive with no casualties on either side, concluding when the Zeppelin had dropped all of its bombs and the cruisers had expended all of their anti-aircraft ammunition." .
+
+ng:Action_of_Elouges a sem:Event ;
+    sem:hasPlace ng:louges ;
+    sem:hasTimeStamp "1914-08-24"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The action of Elouges on 24 August 1914 was fought during the First World War. Following the Battle of Mons the British Expeditionary Force was withdrawing, closely followed by the advancing German Army. The British 5th Division was assisted by the 2nd Cavalry Brigade and 3rd Cavalry Brigade." .
+
+ng:Action_off_Lerwick a sem:Event ;
+    sem:hasPlace ng:Lerwick ;
+    sem:hasTimeStamp "1917-10-17"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The action off Lerwick (, \"Lerrick\") was a naval engagement on 17 October 1917 fought in the North Sea during the First World War. The German light, minelaying cruisers SMS&#160;Brummer and Bremse attacked a westbound convoy of twelve colliers and other merchant ships and their escorts, part of the regular Scandinavian convoy. The two escorting destroyers and nine neutral Scandinavian ships were sunk off Shetland, Scotland." .
+
+ng:Bakar_mockery a sem:Event ;
+    sem:hasPlace ng:Bakar ;
+    sem:hasTimeStamp "1918-02-10"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Bakar mockery (Italian Beffa di Buccari), or Bakar raid, was a raid of the Italian Navy (Regia Marina) in the last year of World War I. Whilst it had little material effect on the war at sea, it was a particularly bold venture which had a welcome effect on Italian morale, which was at a low ebb following the defeat at Caporetto a few months prior." .
+
+ng:Battle_of_Antivari a sem:Event ;
+    sem:hasPlace ng:Adriatic_Sea,
+        ng:Bar ;
+    sem:hasTimeStamp "1914-08-16"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Antivari or Action off Antivari was a naval engagement between a large fleet of French and British warships and two ships of the Austro-Hungarian navy at the start of the First World War. The old Austrian protected cruiser SMS&#160;Zenta and the destroyer SMS&#160;Ulan were blockading the Montenegrin port of Antivari, when on 16 August 1914, they were surprised and cut off by a large Anglo-French force that had sortied into the Adriatic. Zenta fought and was destroyed, to give Ulan a chance to escape, which she did." .
+
+ng:Battle_of_Arras a sem:Event ;
+    sem:hasPlace ng:Arras ;
+    sem:hasTimeStamp "1914-10-04"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Arras (also known as the First Battle of Arras, 1–4 October 1914), was an attempt by the French Army to outflank the German Army, which was attempting to do the same thing during the \"Race to the Sea\", their reciprocal attempts to exploit conditions created during the First Battle of the Aisne. At the First Battle of Picardy (22–26 September) each side had attacked expecting to advance round an open northern flank and found instead that troops had arrived from further south and extended the flank northwards. The Tenth Army (General Louis Maud'huy) attacked advancing German forces" .
+
+ng:Battle_of_Baku a sem:Event ;
+    sem:hasPlace ng:Baku ;
+    sem:hasTimeStamp "1918-08-26"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Baku (Azerbaijani: Bakı döyüşü, Turkish: Bakü Muharebesi, Russian: Битва за Баку) took place in August and September 1918 between the Ottoman–Azerbaijani coalition forces led by Nuri Pasha and Bolshevik–ARF Baku Soviet forces, later succeeded by the British–Armenian–White Russian forces led by Lionel Dunsterville, and saw Soviet Russia briefly re-enter the war. The battle took place during World War I, was a conclusive part of the Caucasus Campaign, but a beginning of the Armenian–Azerbaijani War." .
+
+ng:Battle_of_Belleau_Wood a sem:Event ;
+    sem:hasPlace ng:Belleau ;
+    sem:hasTimeStamp "1918-06-26"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Belleau Wood (1–26 June 1918) was a major battle that occurred during the German spring offensive in World War I, near the Marne River in France. The battle was fought by the U.S. 2nd (under the command of Major General Omar Bundy) and 3rd Divisions along with French and British forces against an assortment of German units including elements from the 237th, 10th, 197th, 87th, and 28th Divisions. In United States Marines Corps lore dating back to the battle, the nickname Teufel Hunden (Devil Dogs) was given to the Marines by German troops." .
+
+ng:Battle_of_Bitlis a sem:Event ;
+    sem:hasPlace ng:Bitlis ;
+    sem:hasTimeStamp "1915-07-01"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Bitlis refers to a series of engagements in the summer of 1916 for the town of Bitlis and to a lesser extent nearby Muş, between Russian Imperial forces and their Ottoman counterparts. The town was the last stronghold of the Ottoman Empire preventing the Russians from entering Anatolia and Mesopotamia. Part of the battle is known as Battle of Muş The first military confrontation at Bitlis occurred in July 1915, when Russian troops launched an unsuccessful assault on the town's fortifications." .
+
+ng:Battle_of_Bukoba a sem:Event ;
+    sem:hasPlace ng:Bukoba ;
+    sem:hasTimeStamp "1915-06-21"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Bukoba was the first victory for Entente forces in German East Africa, coming after the disastrous battles of Tanga and Jassin. The British objective was the destruction of the Bukoba wireless station. Due to Bukoba's location on the shore of Lake Victoria, it was decided that the raid should take the form of an amphibious assault." .
+
+ng:Battle_of_Cambrai a sem:Event ;
+    sem:hasPlace ng:Cambrai ;
+    sem:hasTimeStamp "1918-10-08"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Cambrai, 1918 (also known as the Second Battle of Cambrai) was fought between troops of the British First, Third and Fourth Armies and German Empire forces during the Hundred Days Offensive of the First World War. The battle took place in and around the French city of Cambrai, between 8 and 10 October 1918. The battle incorporated many of the newer tactics of 1918, in particular tanks." .
+
+ng:Battle_of_Cantigny a sem:Event ;
+    sem:hasPlace ng:Cantigny ;
+    sem:hasTimeStamp "1918-05-28"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Cantigny, fought May 28, 1918, was the first major American battle and offensive of World War I. The U.S. 1st Division, the most experienced of the five American divisions then in France and in reserve for the French Army near the village of Cantigny, was selected for the attack. The objective of the attack was to reduce a small salient made by the German Army in the front lines but also to instill confidence among the French." .
+
+ng:Battle_of_Caporetto a sem:Event ;
+    sem:hasPlace ng:Kobarid ;
+    sem:hasTimeStamp "1917-10-24"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Caporetto (also known as the&#160;Twelfth Battle of the Isonzo, the Battle of Kobarid or the Battle of Karfreit) took place on the Isonzo front of World War I. The battle was fought between the Kingdom of Italy and the Central Powers and took place from 24 October to 19 November 1917, near the town of Kobarid (now in north-western Slovenia, then part of the Austrian Littoral), and near the river Isonzo. The battle was named after the Italian name of the town (also known as Karfreit in German). Austro-Hungarian forces, reinforced by German units, were able to" .
+
+ng:Battle_of_Cocos a sem:Event ;
+    sem:hasPlace ng:Cocos_Keeling_Islands ;
+    sem:hasTimeStamp "1914-11-09"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Cocos was a single-ship action that occurred on 9 November 1914, after the Australian light cruiser HMAS&#160;Sydney, under the command of John Glossop, responded to an attack on a communications station at Direction Island by the German light cruiser SMS&#160;Emden, commanded by Karl von Müller. After the retreat of the German East Asia Squadron from Southeast Asia, Emden had remained behind to function as a commerce raider. During a two-month period, the German cruiser captured or sank 25 civilian vessels, shelled Madras, and destroyed two Allied warships at Penang." .
+
+ng:Battle_of_Coronel a sem:Event ;
+    sem:hasTimeStamp "1914-11-01"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Coronel was a First World War naval battle that led to an Imperial German Navy victory over the Royal Navy on 1 November 1914, off the coast of central Chile near the city of Coronel. The East Asia Squadron (German: Ostasiengeschwader or Kreuzergeschwader) of the Imperial German Navy (Kaiserliche Marine) led by Vice-Admiral Graf Maximilian von Spee met and overpowered a British squadron commanded by Rear-Admiral Sir Christopher Cradock. The engagement probably took place as a result of misunderstandings." .
+
+ng:Battle_of_Delville_Wood a sem:Event ;
+    sem:hasActor ng:British_Empire,
+        ng:German_Empire ;
+    sem:hasPlace ng:Longueval ;
+    sem:hasTimeStamp "1916-07-14"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Delville Wood (15 July – 3 September 1916) was a series of engagements in the 1916 Battle of the Somme in the First World War, between the armies of the German Empire and the British Empire. Delville Wood (Bois d'Elville), was a thick tangle of trees, chiefly beech and hornbeam (the wood has been replanted with oak and birch by the South African government), with dense hazel thickets, intersected by grassy rides, to the east of Longueval. As part of a general offensive starting on 14 July, which became known as the Battle of Bazentin Ridge (14–17" .
+
+ng:Battle_of_Dinant a sem:Event ;
+    sem:hasPlace ng:Dinant ;
+    sem:hasTimeStamp "1914-08-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Dinant was an engagement fought by French and German forces in and around the Belgian town of Dinant in the First World War, during the German invasion of Belgium. The French Fifth Army and the British Expeditionary Force (BEF) advanced into Belgium and fought the Battle of Charleroi (21–23 August) and Battle of Mons (23 August), from the Meuse crossings in the east, to Mons in the west. On 15 August 1914, German troops captured the Citadel of Dinant which overlooked the town; the citadel was recaptured by a French counter-attack during the afternoon." .
+
+ng:Battle_of_Dobro_Pole a sem:Event ;
+    sem:hasPlace ng:Novaci_Municipality ;
+    sem:hasTimeStamp "1918-09-15"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Dobro Pole (Serbian: Битка код Доброг Поља, romanized:&#160;Bitka kod Dobrog Polja; Greek: Μάχη του Ντόμπρο Πόλε, romanized:&#160;Máchi tou Dóbro Póle), also known as the Breakthrough at Dobro Pole (Bulgarian: Пробив при Добро Поле, romanized:&#160;Probiv pri Dobro Pole), was a World War I battle fought between 15 and 18 September 1918. The battle was fought in the initial stage of the Vardar Offensive, in the Balkans Theatre. On 15 September, a combined force of Serbian, French and Greek troops attacked the Bulgarian-held trenches in Dobro Pole (\"Good Field\"), at the time part of the Kingdom of Serbia (present-day" .
+
+ng:Battle_of_Dogger_Bank a sem:Event ;
+    sem:hasPlace ng:Dogger_Bank,
+        ng:North_Sea ;
+    sem:hasTimeStamp "1916-02-10"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Dogger Bank (24 January 1915) was a naval engagement during the First World War near the Dogger Bank in the North Sea, between squadrons of the British Grand Fleet and the Kaiserliche Marine (High Seas Fleet). The British had intercepted and decoded German wireless transmissions, gaining advance knowledge that a German raiding squadron was heading for the Dogger Bank. Ships of the Grand Fleet sailed to intercept the raiders.",
+        "The Battle of Dogger Bank on 10 February 1916 was a naval engagement between the Kaiserliche Marine of the German Empire and the Royal Navy of the United Kingdom, during the First World War. Three German torpedo boat flotillas sortied into the North Sea and encountered the British 10th Sloop Flotilla near Dogger Bank. The German vessels eventually engaged the British vessels, after mistaking them for cruisers instead of minesweeping sloops." .
+
+ng:Battle_of_Doiran a sem:Event ;
+    sem:hasPlace ng:Dojran_Lake ;
+    sem:hasTimeStamp "1918-09-18"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Third Battle of Doiran was fought from 18 to 19 September 1918, with the British and the Greeks assaulting the positions of the Bulgarian First Army near Dojran Lake. The battle was part of World War I and took place in the Balkan Theatre. The battle ended with the Bulgarians repulsing all attacks." .
+
+ng:Battle_of_Dover_Strait a sem:Event ;
+    sem:hasPlace ng:Strait_of_Dover ;
+    sem:hasTimeStamp "1917-04-20"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Dover Strait that occurred on 26–27 October 1916 was a naval battle of the First World War between Great Britain and the German Empire. Two and a half flotillas of German torpedo boats from the Flanders Flotilla launched a raid into the Dover Strait in an attempt to disrupt the Dover Barrage and destroy whatever Allied shipping could be found in the strait. Upon approaching the barrage, the German torpedo boats were challenged by the British destroyer HMS&#160;Flirt and an engagement broke out.",
+        "The Second Battle of Dover Strait was a naval battle of the First World War, fought in the Dover Strait in April 1917 (not the Battle of Dover Strait of 1916). Two Royal Navy destroyers defeated a superior force of German Kaiserliche Marine torpedo boats. Two German torpedo boats were sunk and both British destroyers suffered damage." .
+
+ng:Battle_of_Festubert a sem:Event ;
+    sem:hasPlace ng:Festubert ;
+    sem:hasTimeStamp "1915-05-27"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Festubert (15–25 May 1915) was an attack by the British army in the Artois region of France on the western front during World War I. The offensive formed part of a series of attacks by the French Tenth Army and the British First Army in the Second Battle of Artois (3 May – 18 June 1915). After the failure of the breakthrough attempt by the First Army in the attack at Aubers Ridge (9 May 1915) tactics of a short hurricane bombardment and an infantry advance with unlimited objectives, were replaced by the French practice of slow" .
+
+ng:Battle_of_Galicia a sem:Event ;
+    sem:hasPlace ng:Lviv ;
+    sem:hasTimeStamp "1914-08-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Galicia, also known as the Great Battle of Galicia, was a major battle between Russia and Austria-Hungary during the early stages of World War I in 1914. In the course of the battle, the Austro-Hungarian armies were severely defeated in several encounters and forced out of Galicia, while the Russians captured Lemberg (now Lviv) and, for approximately nine months, ruled Eastern Galicia until their defeat at Gorlice and Tarnów. The Battle of Galicia showed weaknesses of the Austro-Hungarian Army during that period and at the same time was one of the formidable victories of the Imperial Russian" .
+
+ng:Battle_of_Ginchy a sem:Event ;
+    sem:hasPlace ng:Ginchy ;
+    sem:hasTimeStamp "1916-09-09"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Ginchy took place on 9 September 1916 during the Battle of the Somme, when the 16th (Irish) Division captured the German-held village. Ginchy is 0.93&#160;mi (1.5&#160;km) north-east of Guillemont, at the junction of six roads, on a rise overlooking Combles, 2.5&#160;mi (4&#160;km) to the south-east. After the conclusion of the Battle of Guillemont on 6 September, XIV Corps and XV Corps were required to complete the advance to positions which would give observation over the German third position." .
+
+ng:Battle_of_Hamel a sem:Event ;
+    sem:hasPlace ng:Le_Hamel ;
+    sem:hasTimeStamp "1918-07-04"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Hamel was an attack by Australian Army and US Army infantry, supported by Royal Tank Regiment tanks, against German positions in and around the town of Le Hamel, in northern France, during World War I. The attack was planned and led by Lieutenant General John Monash, commander of the Australian Corps, and took place on 4 July 1918. Many of the tactics employed, such as the use of combined arms, illustrated the evolution of military tactics, from the massed attacks mounted earlier in the war. The objectives were achieved within 93 minutes, just three minutes longer than" .
+
+ng:Battle_of_Heligoland_Bight_1914 a sem:Event ;
+    sem:hasPlace ng:Helgoland ;
+    sem:hasTimeStamp "1914-08-28"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Heligoland Bight was the first Anglo-German naval battle of the First World War, fought on 28 August 1914, between ships of the United Kingdom and Germany. The battle took place in the south-eastern North Sea, when the British attacked German patrols off the north-west German coast. The German High Seas Fleet was in harbour on the north German coast while the British Grand Fleet was out in the northern North Sea." .
+
+ng:Battle_of_Hill_70 a sem:Event ;
+    sem:hasPlace ng:Lens ;
+    sem:hasTimeStamp "1917-08-15"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Hill 70 took place in the First World War between the Canadian Corps and attached units against five divisions of the German 6th Army. The battle took place along the Western Front on the outskirts of Lens in the Nord-Pas-de-Calais region of France between 15 and 25 August 1917. The plan was to inflict casualties, to draw German troops away from the 3rd Battle of Ypres and to make the German hold on Lens untenable." .
+
+ng:Battle_of_Jassin a sem:Event ;
+    sem:hasTimeStamp "1915-01-18"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Jassin (also known as the Battle of Yasin, the Battle of Jasin, the Battle of Jasini or the Battle of Jassini) was a World War I battle that took place on 18– 19 January 1915 at Jassin on the German East African side of the border with British East Africa between a German Schutztruppe force and British and Indian troops. Jassin had been occupied by the British in order to secure the border between British East Africa and German territory, but was weakly defended by a garrison of four companies of Indian troops, commanded by Colonel Raghbir" .
+
+ng:Battle_of_Jerusalem a sem:Event ;
+    sem:hasPlace ng:Jerusalem ;
+    sem:hasTimeStamp "1917-11-17"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Jerusalem also known as the Fall of Jerusalem occurred during the British Empire's \"Jerusalem Operations\" against the Ottoman Empire, in World War I, when fighting for the city developed from 17 November, continuing after the surrender until 30 December 1917, to secure the final objective of the Southern Palestine Offensive during the Sinai and Palestine Campaign of World War I. Before Jerusalem could be secured, two battles were recognised by the British as being fought in the Judean Hills to the north and east of the Hebron–Junction Station line. These were the Battle of Nebi Samwill from" .
+
+ng:Battle_of_Jisr_Benat_Yakub a sem:Event ;
+    sem:hasPlace ng:Jordan_River ;
+    sem:hasTimeStamp "1918-09-27"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Jisr Benat Yakub was fought on 27 September 1918 at the beginning of the pursuit by the Desert Mounted Corps of the retreating remnants of the Yildirim Army Group towards Damascus during the Sinai and Palestine campaign of World War I. After the Battle of Samakh and the Capture of Tiberias, which completed the Egyptian Expeditionary Force's decisive victory in the Battle of Sharon section of the Battle of Megiddo, the Australian Mounted Division attacked and captured a series of rearguard positions. The positions were held by German and Ottoman soldiers of the Tiberias Group at Daughters" .
+
+ng:Battle_of_Jutland a sem:Event ;
+    sem:hasActor ng:Australia,
+        ng:British_Empire,
+        ng:Canada,
+        ng:David_Beatty_1st_Earl_Beatty,
+        ng:Franz_von_Hipper,
+        ng:German_Empire,
+        ng:John_Jellicoe_1st_Earl_Jellicoe,
+        ng:Reinhard_Scheer ;
+    sem:hasPlace ng:North_Sea ;
+    sem:hasTimeStamp "1916-05-31"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Jutland (German: Skagerrakschlacht, lit. 'Battle of the Skagerrak') was a naval battle between Britain's Royal Navy Grand Fleet, under Admiral Sir John Jellicoe, and the Imperial German Navy's High Seas Fleet, under Vice-Admiral Reinhard Scheer, during the First World War. The battle unfolded in extensive manoeuvring and three main engagements from 31 May to 1 June 1916, off the North Sea coast of Denmark's Jutland Peninsula. It was the largest naval battle and only full-scale clash of battleships of the war, and the outcome ensured that the Royal Navy denied the German surface fleet access to the" .
+
+ng:Battle_of_Karakilisa a sem:Event ;
+    sem:hasPlace ng:Vanadzor ;
+    sem:hasTimeStamp "1918-05-25"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Karakilisa (Armenian: Ղարաքիլիսայի ճակատամարտ Gharakilisayi chakatamart, Turkish: Karakilise Muharebesi or Karakilise Muharebeleri) took place during the Caucasus Campaign of World War I in the vicinity of Karakilisa (now Vanadzor), on May 25–28, 1918." .
+
+ng:Battle_of_Kolubara a sem:Event ;
+    sem:hasPlace ng:Kolubara ;
+    sem:hasTimeStamp "1914-11-16"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Kolubara (Serbian Cyrillic: Колубарска битка, German: Schlacht an der Kolubara) was fought between Austria-Hungary and Serbia in November and December 1914, during the Serbian Campaign of 1914. It commenced on 16 November, when the Austro-Hungarians under the command of Oskar Potiorek reached the Kolubara river during their third invasion of Serbia that year, having captured the strategic town of Valjevo and forced the Serbian army to undertake a series of retreats. The Serbs withdrew from Belgrade on 29–30 November, and the city soon fell under Austro-Hungarian control." .
+
+ng:Battle_of_Limanowa a sem:Event ;
+    sem:hasPlace ng:Galicia ;
+    sem:hasTimeStamp "1914-12-01"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Limanowa-Łapanów took place from 1 December to 13 December 1914, between the Austro-Hungarian Army and the Russian Army near the town of Limanowa (40 kilometres (25&#160;mi) south-east of Kraków). The Austro-Hungarian high command had assumed that the German success would weaken Russian forces in the north and that the Galician front would remain quiet. Both these assumptions were incorrect." .
+
+ng:Battle_of_Magdhaba a sem:Event ;
+    sem:hasTimeStamp "1916-12-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Magdhaba took place on 23 December 1916 during the Defence of Egypt section of the Sinai and Palestine Campaign in the First World War. The attack by the Anzac Mounted Division took place against an entrenched Ottoman Army garrison to the south and east of Bir Lahfan in the Sinai desert, some 18–25 miles (29–40&#160;km) inland from the Mediterranean coast. This Egyptian Expeditionary Force (EEF) victory against the Ottoman Empire garrison also secured the town of El Arish after the Ottoman garrison withdrew." .
+
+ng:Battle_of_Megiddo a sem:Event ;
+    sem:hasPlace ng:Ottoman_Empire,
+        ng:Tel_Megiddo ;
+    sem:hasTimeStamp "1918-09-19"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Megiddo was fought between 19 and 25 September 1918, on the Plain of Sharon, in front of Tulkarm, Tabsor and Arara in the Judean Hills as well as on the Esdralon Plain at Nazareth, Afulah, Beisan, Jenin and Samakh. Its name, which has been described as \"perhaps misleading\" since very limited fighting took place near Tel Megiddo, was chosen by British commander Edmund Allenby for its biblical and symbolic resonance. The battle was the final Allied offensive of the Sinai and Palestine Campaign of World War I. The contending forces were the Allied Egyptian Expeditionary Force, of" .
+
+ng:Battle_of_Mlali a sem:Event ;
+    sem:hasPlace ng:Mlali ;
+    sem:hasTimeStamp "1916-08-24"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Mlali was fought during the East African Campaign of World War I. In mid-August 1916, the British, led by General Jan Christiaan Smuts, advanced three divisions from Kenya south into the Imperial German colony of Tanganyika to seize and disrupt their vital railway. Informed of the British movement by his scouts, the German commander Paul von Lettow-Vorbeck sent Captain Otto to investigate. Outnumbered, the Germans were forced to withdraw." .
+
+ng:Battle_of_Mojkovac a sem:Event ;
+    sem:hasPlace ng:Mojkovac ;
+    sem:hasTimeStamp "1916-01-06"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Mojkovac was a World War I battle fought between 6 and 7 January 1916 near Mojkovac, in today's Montenegro, between the armies of Austria-Hungary and the Kingdom of Montenegro. It ended with a decisive Montenegrin victory." .
+
+ng:Battle_of_Moon_Sound a sem:Event ;
+    sem:hasPlace ng:Baltic_Sea ;
+    sem:hasTimeStamp "1917-10-19"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Moon Sound was a naval battle fought between the forces of the German Empire, and the Russian Republic (and three British submarines) in the Baltic Sea during Operation Albion from 16 October 1917 until 3 November 1917 during World War I. The German intention was to destroy the Russian forces and occupy the West Estonian Archipelago, and achieved both objectives. The Imperial German Navy had ten battleships, one battlecruiser, nine light cruisers, one mine cruiser, fifty destroyers and six submarines while the Russians had only two pre-dreadnoughts, three cruisers, three gunboats, twenty-one destroyers, and three British submarines." .
+
+ng:Battle_of_Moreuil_Wood a sem:Event ;
+    sem:hasPlace ng:Arve ;
+    sem:hasTimeStamp "1918-03-30"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Moreuil Wood (30 March 1918) was an engagement of World War I that took place on the banks of the river Avre in France, where the Canadian Cavalry Brigade attacked and forced the German 23rd Saxon Division to withdraw from Moreuil Wood, a commanding position on the river bank. While the Germans ultimately succeeded in recapturing the wood by the battle's end, the delay caused by the Allies contributed to the halt of the Spring Offensive. During the battle, a Victoria Cross was awarded to Canadian Gordon Flowerdew of Lord Strathcona's Horse." .
+
+ng:Battle_of_Morval a sem:Event ;
+    sem:hasPlace ng:Morval ;
+    sem:hasTimeStamp "1916-09-25"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Morval, 25–28 September 1916, was an attack during the Battle of the Somme by the British Fourth Army on the villages of Morval, Gueudecourt and Lesbœufs held by the German 1st Army, which had been the final objectives of the Battle of Flers–Courcelette (15–22 September). The main British attack was postponed to combine with attacks by the French Sixth Army on the village of Combles south of Morval. The attack was to close up to the German defences between Moislains and Le Transloy, near the Péronne–Bapaume road (N 17)." .
+
+ng:Battle_of_Mount_Ortigara a sem:Event ;
+    sem:hasPlace ng:Asiago ;
+    sem:hasTimeStamp "1917-06-10"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Mount Ortigara was fought from 10 to 25 June 1917 between the Italian and Austro-Hungarian armies for possession of Mount Ortigara, in the Asiago Plateau." .
+
+ng:Battle_of_Mulhouse a sem:Event ;
+    sem:hasPlace ng:Mulhouse ;
+    sem:hasTimeStamp "1914-08-07"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Mulhouse (German: Mülhausen), also called the Battle of Alsace (French: Bataille d'Alsace), began on 7 August 1914 and was the opening attack of the First World War by the French Army against the German Empire. The battle was a French attempt to recover Alsace, which France had ceded to Germany after the Franco-Prussian War of 1870–1871. The French occupied Mulhouse on 8 August and were then forced out by German counter-attacks on 10 August." .
+
+ng:Battle_of_Ngomano a sem:Event ;
+    sem:hasTimeStamp "1917-11-25"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Ngomano or Negomano was fought between Germany and Portugal during the East African Campaign of World War I. A force of Germans and Askaris under Paul Emil von Lettow-Vorbeck had recently won a costly victory against the British at the Battle of Mahiwa, in present-day Tanzania and ran very short of food and other supplies. As a consequence, the Germans invaded Portuguese East Africa to the south, both to supply themselves with captured Portuguese materiel and escape superior British forces to the north. Portugal was part of the Entente and a belligerent, employing troops in France and" .
+
+ng:Battle_of_Penang a sem:Event ;
+    sem:hasActor ng:French_Third_Republic,
+        ng:German_Empire,
+        ng:Russian_Empire ;
+    sem:hasPlace ng:Strait_of_Malacca ;
+    sem:hasTimeStamp "1914-10-28"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Penang (Russian: Бой у Пенанга; French: Combat de Penang; German: Schlacht von Penang) was a surprise naval engagement by the Imperial German Navy's East Asia Squadron during the First World War that took place on 28 October 1914. The battle involved the German cruiser SMS&#160;Emden in the Penang Strait, which sank two Allied warships as part of its commerce raiding operations throughout the Indian Ocean. During the battle, a total of 135 French and Russian sailors were killed and 157 others were wounded, while the Germans sustained no casualties." .
+
+ng:Battle_of_R_o_de_Oro a sem:Event ;
+    sem:hasPlace ng:R_o_de_Oro ;
+    sem:hasTimeStamp "1914-08-22"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Río de Oro was a single-ship action fought in August 1914 during the First World War, when HMS&#160;Highflyer attacked the German SS&#160;Kaiser Wilhelm der Grosse off Río de Oro on the coast of Northwest Africa." .
+
+ng:Battle_of_Rafa a sem:Event ;
+    sem:hasTimeStamp "1917-01-09"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Rafa, also known as the Action of Rafah, fought on 9 January 1917, was the third and final battle to complete the recapture of the Sinai Peninsula by British forces during the Sinai and Palestine campaign of the First World War. The Desert Column of the Egyptian Expeditionary Force (EEF) attacked an entrenched Ottoman Army garrison at El Magruntein to the south of Rafah, close to the frontier between the Sultanate of Egypt and the Ottoman Empire, to the north and east of Sheikh Zowaiid. The attack marked the beginning of fighting in the Ottoman territory of" .
+
+ng:Battle_of_Rafajlowa a sem:Event ;
+    sem:hasPlace ng:Bistritsia ;
+    sem:hasTimeStamp "1915-01-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Rafajlowa took place in the night of January 23–24, 1915, during World War I. The 2nd Brigade, Polish Legions, which was part of the Austro-Hungarian Army repelled a night raid of the Russian Imperial Army, which was aimed at blocking all passes through Gorgany mountain range in Eastern Carpathians. The battle took place in the village of Rafajlowa, Austrian Galicia (now the village is called Bystrytsia, and belongs to Ukraine)." .
+
+ng:Battle_of_Salaita_Hill a sem:Event ;
+    sem:hasTimeStamp "1916-02-12"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Salaita Hill (German: Battle of Oldoboro Hill) was the first large-scale engagement of the East African Campaign of the First World War to involve British, Indian, Rhodesian, and South African troops. The battle took place on February 12, 1916, as part of the three-pronged offensive into German East Africa launched by General Jan Smuts, who had been given overall command of the Allied forces in the region." .
+
+ng:Battle_of_San_Matteo a sem:Event ;
+    sem:hasPlace ng:Punta_San_Matteo ;
+    sem:hasTimeStamp "1918-08-13"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of San Matteo took place in the late summer of 1918 on the Punta San Matteo (3,678 m) during World War I. It was regarded as the highest battle in history until it was surpassed in 1999 by the Kargil Conflict at 5,600 m. At the beginning of 1918 Austro-Hungarian troops set up a fortified position with small artillery pieces on the top of the San Matteo Peak. The base of the peak lies at 2800m altitude and it takes a four-hour ice climb up a glacier to reach the top." .
+
+ng:Battle_of_Sandfontein a sem:Event ;
+    sem:hasTimeStamp "1914-09-26"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Sandfontein was fought between the Union Defence Force of South Africa and the German Empire on 26 September 1914 at Sandfontein, during the first stage of the South West Africa Campaign of World War I. It ended in a German victory." .
+
+ng:Battle_of_Sardarabad a sem:Event ;
+    sem:hasPlace ng:Sardarapat_Memorial ;
+    sem:hasTimeStamp "1918-05-21"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Sardarabad (Armenian: Սարդարապատի ճակատամարտ, romanized:&#160;Sardarapati chakatamart; Turkish: Serdarabad Muharebesi) was a battle of the Caucasus campaign of World War I that took place near Sardarabad, Armenia, from 21 to 29 May 1918, between the regular Armenian military units and militia on one side and the Ottoman army that had invaded Eastern Armenia on the other. As Sardarabad is approximately 40 kilometres (25&#160;mi) west of the capital of Yerevan, the battle not only halted the Ottoman advance into the rest of Armenia, but also prevented the complete destruction of the Armenian nation. The battle paved the way for" .
+
+ng:Battle_of_Sarikamish a sem:Event ;
+    sem:hasPlace ng:Sar_kam ;
+    sem:hasTimeStamp "1914-12-22"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Sarikamish was an engagement between the Russian and Ottoman Empires during World War I. It took place from 22 December 1914, to 17 January 1915, as part of the Caucasus campaign. The battle resulted in a decisive Russian victory. The Ottoman plan relied on highly mobile troops capable of reaching specific objectives at precise times, drawing on German and Napoleonic tactical principles." .
+
+ng:Battle_of_Skra_di_Legen a sem:Event ;
+    sem:hasPlace ng:Skra ;
+    sem:hasTimeStamp "1918-05-29"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Skra-di-Legen (Skora di Legen) was a two-day battle which took place at the Skra fortified position, located northeast of Mount Paiko, which is north-west of Thessaloniki, on May 29–30, 1918, on the Macedonian front of World War I. The battle was the first large-scale employment on the front of Greek troops of the National Defense Army Corps (Greece, united after the National Schism, had joined the war in summer 1917), and resulted in the elimination of a whole enemy regiment (the 49th) and the capture of the heavily fortified Bulgarian positions. The Allied force comprised three Greek" .
+
+ng:Battle_of_St_Quentin_Canal a sem:Event ;
+    sem:hasPlace ng:Lens ;
+    sem:hasTimeStamp "1918-09-29"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of St Quentin Canal was a pivotal battle of World War I that began on 29 September 1918 and involved British, Australian and American forces operating as part of the British Fourth Army under the overall command of General Sir Henry Rawlinson. Further north, part of the British Third Army also supported the attack. South of the Fourth Army's 19&#160;km (12&#160;mi) front, the French First Army launched a coordinated attack on a 9.5&#160;km (6&#160;mi) front." .
+
+ng:Battle_of_Tanga a sem:Event ;
+    sem:hasPlace ng:Tanga ;
+    sem:hasTimeStamp "1914-11-03"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Tanga, also known as the Battle of the Bees, was an unsuccessful invasion of the Port of Tanga in German East Africa by the British Indian Expeditionary Force \"B\" on 3–5 November 1914 during World War I. Under the command of the Major-General Arthur Aitken, British forces attacked Tanga in concert with Indian Expeditionary Force \"C\", which concomitantly attempted to capture Longido. The battle was the first major engagement of the East African campaign and saw Aitken's troops defeated by a smaller force of German Schutztruppen under Paul von Lettow-Vorbeck and forced to retreat. Lettow-Vorbeck's men captured" .
+
+ng:Battle_of_Tannenberg a sem:Event ;
+    sem:hasPlace ng:Olsztyn ;
+    sem:hasTimeStamp "1914-08-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Tannenberg, also known as the Second Battle of Tannenberg, was fought between Russia and Germany between 26 and 30 August 1914, the first month of World War I. The battle resulted in the encirclement and the almost complete destruction of the Russian 2nd Army by the German 8th Army and the suicide of its commanding general, Alexander Samsonov. A series of follow-up battles (First Masurian Lakes) led to the ousting of the Russian 1st Army from East Prussia. The outcome brought considerable prestige to the German army commander, General Paul von Hindenburg, and his rising staff officer," .
+
+ng:Battle_of_Thiepval_Ridge a sem:Event ;
+    sem:hasActor ng:German_Empire,
+        ng:Hubert_Gough,
+        ng:J_R_R_Tolkien,
+        ng:Julian_Byng_1st_Viscount_Byng_of_Vimy,
+        ng:Rupprecht_Crown_Prince_of_Bavaria ;
+    sem:hasPlace ng:France,
+        ng:Thiepval ;
+    sem:hasTimeStamp "1916-09-25"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Thiepval Ridge was the first big offensive of the Reserve Army (Lieutenant General Hubert Gough), during the Battle of the Somme on the Western Front during the First World War. The attack was intended to benefit from the Fourth Army attack in the Battle of Morval by starting 24 hours afterwards. The battle was fought on a front from Courcelette in the east, near the Albert–Bapaume road, to Thiepval and the Schwaben Redoubt (Schwaben-Feste) in the west, which overlooked the German defences further north in the Ancre valley, the rising ground towards Beaumont-Hamel and Serre beyond." .
+
+ng:Battle_of_Transylvania a sem:Event ;
+    sem:hasPlace ng:Transylvania ;
+    sem:hasTimeStamp "1916-08-27"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Transylvania was the first major operation of Romania during World War I, beginning on 27 August 1916. It started as an attempt by the Romanian Army to seize Transylvania, and potentially knock Austria-Hungary out of the war. Although initially successful, the offensive was brought to a halt after Bulgaria's attack on Dobruja." .
+
+ng:Battle_of_Vimy_Ridge a sem:Event ;
+    sem:hasPlace ng:Vimy ;
+    sem:hasTimeStamp "1917-04-09"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Vimy Ridge (9–12 April 1917) was part of the Battle of Arras, in the Pas-de-Calais department of France, during the First World War. The main combatants were the four divisions of the Canadian Corps in the First Army, against three divisions of the German 6th Army. The battle began the Battle of Arras and was the first attack of the Nivelle Offensive." .
+
+ng:Battle_of_Vittorio_Veneto a sem:Event ;
+    sem:hasPlace ng:Vittorio_Veneto ;
+    sem:hasTimeStamp "1918-10-24"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of Vittorio Veneto was fought from 24 October to 3 November 1918 (with an armistice taking effect 24 hours later) near Vittorio Veneto on the Italian Front during World War I. After having defeated Austro-Hungarian troops during the Second Battle of the Piave River and recognizing the dire internal situation of Austria-Hungary caused by the course of the war and the blockade of the Adriatic at sea, the Royal Italian Army launched a major offensive: the Italian victory marked the end of the war on the Italian Front, secured the dissolution of the Austro-Hungarian Empire and contributed to" .
+
+ng:Battle_of_the_Falkland_Islands a sem:Event ;
+    sem:hasPlace ng:Falkland_Islands ;
+    sem:hasTimeStamp "1914-12-08"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of the Falkland Islands was a First World War naval action between the British Royal Navy and Imperial German Navy on 8 December 1914 in the South Atlantic. The British, after their defeat at the Battle of Coronel on 1 November, sent a large force to track down and destroy the German cruiser squadron. The battle is commemorated every year on 8 December in the Falkland Islands as a public holiday." .
+
+ng:Battle_of_the_Gulf_of_Riga a sem:Event ;
+    sem:hasPlace ng:Gulf_of_Riga ;
+    sem:hasTimeStamp "1915-08-08"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of the Gulf of Riga was a World War I naval operation of the German High Seas Fleet against the Russian Baltic Fleet in the Gulf of Riga in the Baltic Sea in August 1915. The operation's objective was to destroy the Russian naval forces in the Gulf in preparation for landing German troops to facilitate the fall of Riga in the later stages of the Central Powers' offensive on the Eastern Front in 1915. The German fleet, however, failed to achieve its objective and was forced to return to its bases; Riga remained in Russian hands until" .
+
+ng:Battle_of_the_Piave_River a sem:Event ;
+    sem:hasPlace ng:Piave ;
+    sem:hasTimeStamp "1918-06-15"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Second Battle of the Piave River (or Battle of the Solstice), fought between 15 and 23 June 1918, was a decisive victory for the Italian Army against the Austro-Hungarian Empire during World War I, as Italy was part of the Allied Forces, while Austria-Hungary was part of the Central Powers. Though the battle proved to be a decisive blow to the Austro-Hungarian Empire and by extension the Central Powers, its full significance was not initially appreciated in Italy. Yet Erich Ludendorff, on hearing the news, is reported to have said he 'had the sensation of defeat for the first" .
+
+ng:Battle_of_the_Strait_of_Otranto a sem:Event ;
+    sem:hasPlace ng:Strait_of_Otranto ;
+    sem:hasTimeStamp "1917-05-14"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of the Strait of Otranto of 1917 was the result of an Austro-Hungarian raid during the Adriatic Campaign of World War I on the Otranto Barrage, an Allied naval blockade of the Strait of Otranto. The battle took place on 15&#160;May&#160;1917, and was the largest surface action in the Adriatic Sea during World War I. The Otranto Barrage was a fixed barrier, composed of lightly armed naval drifters (modified fishing boats) with anti-submarine nets coupled with minefields and supported by Allied naval patrols. The Austro-Hungarian Navy planned to raid the Otranto Barrage with a force of three light" .
+
+ng:Battle_of_the_Vistula_River a sem:Event ;
+    sem:hasActor ng:Austria_Hungary,
+        ng:German_Empire,
+        ng:Russian_Empire ;
+    sem:hasPlace ng:Warsaw ;
+    sem:hasTimeStamp "1914-09-29"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Battle of the Vistula River, also known as the Battle of Warsaw and Ivangorod, was a major Russian victory against Germany and Austria-Hungary on the Eastern Front during the First World War. The battle is one of the largest and most important battles in the First World War, one of the most striking victories of the Russian army, which showed that the Russian troops were strong and could resist the Germans. Both sides suffered heavy losses." .
+
+ng:Bombardment_of_Ancona a sem:Event ;
+    sem:hasPlace ng:Province_of_Ancona ;
+    sem:hasTimeStamp "1915-05-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Bombardment of Ancona was a naval engagement of the Adriatic Campaign of World War I between the navies of Italy and Austria-Hungary. Forces of the Imperial and Royal Navy attacked and bombarded military and civilian targets all across Ancona in central Italy and several other nearby islands and communities in response to Italy's declaration of war on Austria-Hungary." .
+
+ng:Bombardment_of_Pape_ete a sem:Event ;
+    sem:hasPlace ng:Papeete ;
+    sem:hasTimeStamp "1914-09-22"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Bombardment of Papeete occurred in French Polynesia when German warships attacked on 22 September 1914, during World War I. The German armoured cruisers SMS&#160;Scharnhorst and Gneisenau entered the port of Papeete on the island of Tahiti and sank the French gunboat Zélée and freighter Walküre before bombarding the town's fortifications. French shore batteries and a gunboat resisted the German intrusion but were greatly outgunned. The main German objective was to seize the coal piles stored on the island, but these were destroyed by the French at the start of the action." .
+
+ng:Bombardment_of_Yarmouth_and_Lowestoft a sem:Event ;
+    sem:hasPlace ng:North_Sea ;
+    sem:hasTimeStamp "1916-04-24"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Bombardment of Yarmouth and Lowestoft, often referred to as the Lowestoft Raid, was a naval battle fought during the First World War between the German Empire and the British Empire in the North Sea. The German fleet sent a battlecruiser squadron with accompanying cruisers and destroyers, commanded by Rear Admiral Friedrich Boedicker, to bombard the coastal ports of Yarmouth and Lowestoft. Although the ports had some military importance, the main aim of the raid was to entice defending ships to sail, which could then be picked off, either by the battlecruiser squadron or by the full High Seas Fleet," .
+
+ng:Capture_of_Jericho a sem:Event ;
+    sem:hasPlace ng:Jericho ;
+    sem:hasTimeStamp "1918-02-19"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Capture of Jericho occurred between 19 and 21 February 1918 to the east of Jerusalem beginning the Occupation of the Jordan Valley during the Sinai and Palestine Campaign of the First World War. Fighting took place in an area bordered by the Bethlehem–Nablus road in the west, the Jordan River in the east, and north of a line from Jerusalem to the Dead Sea. Here a British Empire force attacked Ottoman positions, forcing them back to Jericho and eventually across the Jordan River." .
+
+ng:Christmas_truce a sem:Event ;
+    sem:hasTimeStamp "1914-12-25"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Christmas truce was a series of widespread unofficial ceasefires mainly along the Western Front of the First World War around Christmas in 1914. The truce occurred five months after hostilities had begun. Lulls occurred in the fighting as armies ran out of men and munitions and commanders reconsidered their strategies following the stalemate of the Race to the Sea and the indecisive result of the First Battle of Ypres." .
+
+ng:Eastern_Front a sem:Event ;
+    sem:hasPlace ng:Central_Europe,
+        ng:Eastern_Europe ;
+    sem:hasTimeStamp "1914-08-17"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Eastern Front or Eastern Theater, of World War I, was a theater of operations that encompassed at its greatest extent the entire frontier between Russia and Romania on one side and Austria-Hungary, Bulgaria, the Ottoman Empire, and Germany on the other. It ranged from the Baltic Sea in the north to the Black Sea in the south, involved most of Eastern Europe, and stretched deep into Central Europe. The term contrasts with the Western Front, which was being fought in Belgium and France." .
+
+ng:Finnish_Civil_War a sem:Event ;
+    sem:hasActor ng:Adolf_Taimi,
+        ng:Ali_Aaltonen,
+        ng:August_Wesley,
+        ng:Carl_Gustaf_Emil_Mannerheim,
+        ng:Eero_Haapalainen,
+        ng:Eino_Rahja,
+        ng:Ernst_L_fstr_m,
+        ng:Ernst_Linder,
+        ng:Evert_Eloranta,
+        ng:Finnish_Socialist_Workers_Republic,
+        ng:Georgy_Bulatsel,
+        ng:Hannes_Ignatius,
+        ng:Hans_Kalm,
+        ng:Hjalmar_Frisell,
+        ng:Hugo_Meurer,
+        ng:Hugo_Salmela,
+        ng:Karl_Fredrik_Wilkama,
+        ng:Kullervo_Manner,
+        ng:Martin_Wetzer,
+        ng:Mihail_Svet_nikov,
+        ng:Otto_von_Brandenstein,
+        ng:R_diger_von_der_Goltz,
+        ng:Red_Guards,
+        ng:Russian_Soviet_Federative_Socialist_Republic,
+        ng:Verner_Lehtim_ki,
+        ng:White_Guard,
+        ng:Whites ;
+    sem:hasPlace ng:Finland ;
+    sem:hasTimeStamp "1918-05-15"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Finnish Civil War was a civil war in 1918 fought for the leadership and control of recently independent Finland (formerly part of Russia) between White Finland and the Finnish Socialist Workers' Republic (Red Finland). The clashes took place in the context of the national, political, and social turmoil caused by World War I (Eastern Front) in Europe. The belligerents were the paramilitary Red Guards, led by a section of the Social Democratic Party with backup of the Russian bolsheviks, and the paramilitary White Guards of the senate." .
+
+ng:First_Battle_of_Krithia a sem:Event ;
+    sem:hasPlace ng:Krithia ;
+    sem:hasTimeStamp "1915-04-28"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The First Battle of Krithia (Turkish: Birinci Kirte Muharebesi) was the first Allied attempt to advance in the Battle of Gallipoli during the First World War. Starting on 28 April, three days after the Landing at Cape Helles, the defensive power of the Ottoman forces quickly overwhelmed the attack, which suffered from poor leadership and planning, lack of communications, and exhausted and demoralised troops." .
+
+ng:First_Battle_of_the_Isonzo a sem:Event ;
+    sem:hasPlace ng:So_a ;
+    sem:hasTimeStamp "1915-06-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The First Battle of the Isonzo was fought between the armies of Italy and Austria-Hungary on the northeastern Italian Front in World War I, between 23 June and 7 July 1915. The aim of the Italian Army was to drive the Austrians away from its defensive positions along the Soča (Isonzo) river and surrounding mountains and hopefully capture the port of Trieste. Although the Italians enjoyed a 2:1 numeric superiority, their offensive failed because the Italian commander, Luigi Cadorna, employed frontal assaults after impressive (but short) artillery barrages." .
+
+ng:First_Battle_of_the_Masurian_Lakes a sem:Event ;
+    sem:hasPlace ng:Masurian_Lake_District ;
+    sem:hasTimeStamp "1914-09-07"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The First Battle of the Masurian Lakes was a German offensive in the Eastern Front 2–16 September 1914, during the Russian invasion of East Prussia. It took place only days after the Battle of Tannenberg where the German 8th Army encircled and destroyed the Russian 2nd Army. Using the rapid movements aided by the East Prussian railway network, the 8th Army reformed in front of the spread-out Russian 1st Army and pushed it back across its entire front, eventually ejecting it from Germany." .
+
+ng:Gas_attack_at_Hulluch a sem:Event ;
+    sem:hasPlace ng:Hulluch ;
+    sem:hasTimeStamp "1916-04-27"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The gas attacks at Hulluch were two German cloud gas attacks on British troops during the First World War, from 27 to 29 April 1916, near the village of Hulluch, 1&#160;mi (1.6&#160;km) north of Loos in northern France. The gas attacks were part of an engagement between divisions of the II Royal Bavarian Corps and divisions of the British I Corps. Just before dawn on 27 April, the 16th (Irish) Division and part of the 15th (Scottish) Division were subjected to a cloud gas attack near Hulluch." .
+
+ng:German_occupation_of_Luxembourg_in_World_War_I a sem:Event ;
+    sem:hasPlace ng:Luxembourg ;
+    sem:hasTimeStamp "1918-11-11"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "From 2 August 1914 until the end of World War I on 11 November 1918, the Grand Duchy of Luxembourg was under full occupation by the German Empire. The German government justified the occupation by citing the need to support their armies in neighbouring France, although many Luxembourgers, past and present, have interpreted German actions otherwise. During this period, Luxembourg was allowed to retain its own government and political system, but all proceedings were overshadowed by the German army's presence." .
+
+ng:Hindenburg_Line a sem:Event ;
+    sem:hasTimeStamp "1917-02-01"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Hindenburg Line (Siegfriedstellung, Siegfried Position) was a German defensive fortification built during the winter of 1916–1917 on the Western Front in France during the First World War. The line ran from Arras to Laffaux, near Soissons, on the Aisne. In 1916, the Battle of Verdun and the Battle of the Somme left the German western armies (Westheer) exhausted and on the Eastern Front, the Brusilov offensive had inflicted huge losses on the Austro-Hungarian armies and forced the Germans to take over more of the front." .
+
+ng:Ice_Cruise_of_the_Baltic_Fleet a sem:Event ;
+    sem:hasPlace ng:Baltic_Sea ;
+    sem:hasTimeStamp "1918-02-01"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Ice Cruise of the Baltic Fleet (Russian: Ледовый поход Балтийского флота) was an operation which transferred the ships of the Baltic Fleet of the Imperial Russian Navy from their bases at Tallinn, at the time known as Reval (Russian: Ревель), and Helsinki to Kronstadt in 1918." .
+
+ng:July_Crisis a sem:Event ;
+    sem:hasTimeStamp "1914-07-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The July Crisis was a series of interrelated diplomatic and military escalations among the major powers of Europe in mid-1914, which led to the outbreak of World War I. It began on 28 June 1914 when the Bosnian Serb nationalist Gavrilo Princip assassinated Archduke Franz Ferdinand, heir presumptive to the Austro-Hungarian throne, and his wife Sophie, Duchess of Hohenberg. A complex web of alliances, coupled with the miscalculations of numerous political and military leaders (who either regarded war as in their best interests, or felt that a general war would not occur), resulted in an outbreak of hostilities amongst most" .
+
+ng:Mesopotamian_campaign a sem:Event ;
+    sem:hasPlace ng:Mesopotamia ;
+    sem:hasTimeStamp "1914-11-06"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Mesopotamian campaign or Mesopotamian front (Turkish: Irak Cephesi) was a campaign in the Middle Eastern theatre of World War I fought between the British Empire, with troops from Britain, Australia and the vast majority from the British Raj, and the Central Powers, primarily the Ottoman Empire, over control of Ottoman Iraq. It started after the British Fao Landing in 1914, which sought to protect Anglo-Persian Oil Company oil fields in Khuzestan province and the Shatt al-Arab waterway. The front later evolved into a larger campaign that sought to capture the city of Baghdad and divert Ottoman forces from other" .
+
+ng:Middle_Eastern_theatre_of_World_War_I a sem:Event ;
+    sem:hasPlace ng:Central_Asia,
+        ng:Middle_East ;
+    sem:hasTimeStamp "1914-10-29"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Middle Eastern theatre of World War I saw action between 30 October 1914 and 30 October 1918. The combatants were, on one side, the Ottoman Empire (with the help of a great number of Turks, Kurdish tribes and Circassians, and the relative majority of Arabs), with some assistance from the other Central Powers; and on the other side, the British (with the help of a small number of Jews, Greeks, Armenians, some Kurdish tribes and Arab states, along with Hindu, Sikh and Muslim colonial troops from India) as well as troops from the British Dominions of Australia, Canada, and" .
+
+ng:Operation_Albion a sem:Event ;
+    sem:hasPlace ng:Baltic_Sea ;
+    sem:hasTimeStamp "1917-09-29"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "Operation Albion was a German air, land and naval operation in the First World War, against Russian forces in October 1917 to occupy the West Estonian Archipelago. The campaign aimed to occupy the Baltic islands of Saaremaa (Ösel), Hiiumaa (Dagö) and Muhu (Moon). The three islands were part of the Russian Empire and strategically dominated the central and northern Baltic Sea." .
+
+ng:Operation_Faustschlag a sem:Event ;
+    sem:hasPlace ng:Belarus,
+        ng:Ukraine ;
+    sem:hasTimeStamp "1918-02-18"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Operation Faustschlag or Unternehmen Faustschlag (lit. 'Operation Fist Punch'), also known as the Eleven Days' War, was a Central Powers offensive in World War I. It was the last major offensive on the Eastern Front. Russian forces were unable to put up any serious resistance due to the turmoil of the Russian Revolution and subsequent Russian Civil War. The armies of the Central Powers therefore captured huge territories in Estonia, Latvia, Belarus, and Ukraine, forcing the Bolshevik government of Russia to sign the Treaty of Brest-Litovsk." .
+
+ng:Partitioning_of_the_Ottoman_Empire a sem:Event ;
+    sem:hasTimeStamp "1918-10-30"^^xsd:date ;
+    rdfs:comment "The partition of the Ottoman Empire (30 October 1918&#160;– 1 November 1922) was a geopolitical event that occurred after World War I and the occupation of Constantinople by British, French, and Italian troops in November 1918. The partitioning was planned in several agreements made by the Allied Powers early in the course of World War I, notably the Sykes–Picot Agreement, after the Ottoman Empire had joined Germany to form the Ottoman–German alliance. The huge conglomeration of territories and peoples that formerly comprised the Ottoman Empire was divided into several new states." .
+
+ng:Raid_on_Suez_Canal a sem:Event ;
+    sem:hasPlace ng:Suez_Canal ;
+    sem:hasTimeStamp "1915-02-04"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The raid on the Suez Canal, also known as actions on the Suez Canal, took place between 26 January and 4 February 1915 when a German-led Ottoman force advanced from southern Palestine to attack the British Empire-protected Suez Canal, marking the beginning of the Sinai and Palestine campaign (1915–1918) of World War I (1914–1918). Substantial Ottoman forces crossed the Sinai Peninsula, and a few managed to cross the Canal. The primary objective of the Ottoman forces was not to capture British Egypt, but to seize the Suez Canal." .
+
+ng:Second_Battle_of_Heligoland_Bight a sem:Event ;
+    sem:hasPlace ng:Helgoland ;
+    sem:hasTimeStamp "1917-11-17"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Second Battle of Heligoland Bight, also the Action in the Helgoland Bight and the Zweite Seeschlacht bei Helgoland, was an inconclusive naval engagement fought between British and German squadrons on 17 November 1917 during the First World War." .
+
+ng:Second_Battle_of_Krithia a sem:Event ;
+    sem:hasPlace ng:Krithia ;
+    sem:hasTimeStamp "1915-05-06"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Second Battle of Krithia (Turkish: İkinci Kirte Muharebesi) continued the Allies' attempts to advance on the Helles battlefield during the Battle of Gallipoli of the First World War. The village of Krithia and neighbouring hill of Achi Baba had to be captured in order for the British to advance up the Gallipoli peninsula to the forts that controlled passage of the Dardanelles straits. A small amount of ground was captured after two days of costly fighting, but the objectives remained out of reach." .
+
+ng:Second_Battle_of_the_Masurian_Lakes a sem:Event ;
+    sem:hasPlace ng:Masurian_Lake_District ;
+    sem:hasTimeStamp "1915-02-07"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Second Battle of the Masurian Lakes or Winter Battle of the Masurian Lakes, known in Germany as the Winter Battle in Masuria and in Russia as the Battle of Augustowo, was the northern part of the Central Powers' offensive on the Eastern Front in the winter of 1915 during World War I. The offensive was intended to advance beyond the Vistula River and potentially knock Russia out of the war." .
+
+ng:Siege_of_Medina a sem:Event ;
+    sem:hasPlace ng:Medina ;
+    sem:hasTimeStamp "1916-06-10"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The siege of Medina lasted from 10 June 1916 to 10 January 1919, when Hejazi Arab rebels surrounded the Islamic holy city, which was then under the control of the Ottoman Empire. The Ottoman Empire joined the war on the side of the Central Powers under the leadership of the Ottoman Sultan, Mehmed V. In an attempt to weaken the Ottomans, the Allies provoked an Arab Revolt within the empire led by Sharif Hussein bin Ali of Mecca. Sharif Hussein, supported by British and French agents, occupied Mecca and later besieged Medina." .
+
+ng:Siege_of_Tsingtao a sem:Event ;
+    sem:hasPlace ng:Qingdao ;
+    sem:hasTimeStamp "1914-08-27"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Siege of Tsingtao (German: Belagerung von Tsingtau; Japanese: 青島の戦い; simplified Chinese: 青岛战役; traditional Chinese: 青島戰役) was the attack on the German port of Qingdao (Tsingtao) from Jiaozhou Bay during World War I by Japan and the United Kingdom. The siege was waged against Imperial Germany between 27 August and 7 November 1914." .
+
+ng:Sinking_of_the_RMS_Lusitania a sem:Event ;
+    sem:hasTimeStamp "1915-05-07"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "RMS&#160;Lusitania was a British-registered ocean liner that was torpedoed by an Imperial German Navy U-boat during the First World War on 7 May 1915, about 11 nautical miles (20 kilometres; 13 miles) off the Old Head of Kinsale, Ireland (then part of the United Kingdom). The attack took place in the declared maritime war-zone around the United Kingdom, three months after unrestricted submarine warfare against the ships of the United Kingdom had been announced by Germany following the Allied powers' implementation of a naval blockade against it and the other Central Powers. The passengers had been notified before departing New" .
+
+ng:Skirmish_at_Joncherey a sem:Event ;
+    sem:hasActor ng:French_Third_Republic,
+        ng:German_Empire ;
+    sem:hasPlace ng:Joncherey ;
+    sem:hasTimeStamp "1914-08-02"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Skirmish at Joncherey (French pronunciation: [ʒɔ̃ʃʁɛ]) was a clash in the Territoire de Belfort, on the border between France and Germany, and was the first military action of the Western Front of World War I. It occurred in the village of Joncherey near the French–German border in Alsace-Lorraine. The skirmish took place a day before the German declaration of war against France on 3 August 1914." .
+
+ng:Surdulica_massacre a sem:Event ;
+    sem:hasPlace ng:Surdulica ;
+    sem:hasTimeStamp "1916-01-01"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "A mass murder of Serbian men by Bulgarian occupational authorities occurred in the southern Serbian town of Surdulica between 1915 and 1916, during World War I. Members of the Serbian intelligentsia in the region, mostly functionaries, teachers, priests and former soldiers, were detained by Bulgarian forces—ostensibly so that they could be deported to the Bulgarian capital, Sofia—before being taken to Surdulica and killed. An estimated 2,000–3,000 Serbian men were executed by the Bulgarians in the town. Witnesses to the massacre were interviewed by American writer William Drayton in December 1918 and January 1919." .
+
+ng:Third_Battle_of_Krithia a sem:Event ;
+    sem:hasPlace ng:Gallipoli ;
+    sem:hasTimeStamp "1915-06-04"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Third Battle of Krithia (Turkish: Üçüncü Kirte Muharebesi), fought on the Gallipoli peninsula during World War I, was the last in a series of Allied attacks against the Ottoman defences aimed at achieving the original objectives of 25 April 1915. The previous failures in the first and second battles resulted in a less ambitious plan being developed for the attack, but the outcome was another costly failure for the Allies. The allied aim was, as always, to facilitate the capture of Alçı Tepe (Achi Baba) which commanded most of the peninsula." .
+
+ng:Treaty_of_Brest_Litovsk a sem:Event ;
+    sem:hasPlace ng:Brest ;
+    sem:hasTimeStamp "1918-03-03"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Treaty of Brest-Litovsk was a separate peace treaty signed on 3 March 1918 between Soviet Russia and the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria), by which Russia withdrew from World War I. The treaty, which followed months of negotiations after the armistice on the Eastern Front in December 1917, was signed at Brest-Litovsk (now Brest, Belarus). The Soviet delegation was initially headed by Adolph Joffe, and key figures from the Central Powers included Max Hoffmann and Richard von Kühlmann of Germany, Ottokar Czernin of Austria-Hungary, and Talaat Pasha of the Ottoman Empire. In January 1918, the" .
+
+ng:Western_Front a sem:Event ;
+    sem:hasPlace ng:Alsace_Lorraine,
+        ng:Belgium,
+        ng:France ;
+    sem:hasTimeStamp "1914-08-03"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Western Front was one of the main theatres of war during World War I. Following the outbreak of war in August 1914, the German Army opened the Western Front by invading Luxembourg and Belgium, then gaining military control of important industrial regions in France. The German advance was halted with the Battle of the Marne. Following the Race to the Sea, both sides dug in along a meandering line of fortified trenches, stretching from the North Sea to the Swiss frontier with France, the position of which changed little except during early 1917 and again in 1918." .
+
+ng:Zeebrugge_Raid a sem:Event ;
+    sem:hasPlace ng:Zeebrugge ;
+    sem:hasTimeStamp "1918-04-23"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Zeebrugge Raid (Dutch: Aanval op de haven van Zeebrugge; French: Raid sur Zeebruges) on 23 April 1918, was an attempt by the Royal Navy to block the Belgian port of Bruges-Zeebrugge. The British intended to sink obsolete ships in the canal entrance, to prevent German vessels from leaving port. The port was used by the Imperial German Navy as a base for the Flanders U-boat flotillas and light shipping, which were a threat to Allied control of the English Channel and southern North Sea." .
+
+ng:landing_at_Anzac_Cove a sem:Event ;
+    sem:hasPlace ng:ANZAC_Cove ;
+    sem:hasTimeStamp "1915-04-25"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The landing at Anzac Cove on Sunday, 25 April 1915, also known as the landing at Gaba Tepe and, to the Turks, as the Arıburnu Battle, was part of the amphibious invasion of the Gallipoli Peninsula by the forces of the British Empire, which began the land phase of the Gallipoli campaign of the First World War. The assault troops, mostly from the Australian and New Zealand Army Corps (ANZAC), landed at night on the western (Aegean Sea) side of the peninsula. They were put ashore one&#160;mi (1.6&#160;km) north of their intended landing beach." .
+
+ng:pursuit_of_Goeben_and_Breslau a sem:Event ;
+    sem:hasPlace ng:Mediterranean_Sea ;
+    sem:hasTimeStamp "1914-07-28"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The pursuit of Goeben and Breslau was a naval action that occurred in the Mediterranean Sea at the outbreak of the First World War when elements of the British Mediterranean Fleet attempted to intercept the German Mittelmeerdivision consisting of the battlecruiser SMS&#160;Goeben and the light cruiser SMS&#160;Breslau. The German ships evaded the British fleet and passed through the Dardanelles to reach Constantinople, where they were eventually handed over to the Ottoman Empire. Renamed Yavuz Sultan Selim and Midilli, the former Goeben and Breslau were ordered by their German commander to attack Russian positions, in doing so bringing the Ottoman Empire" .
+
+ng:raid_on_Scarborough_Hartlepool_and_Whitby a sem:Event ;
+    sem:hasPlace ng:Hartlepool,
+        ng:Scarborough,
+        ng:West_Hartlepool,
+        ng:Whitby ;
+    sem:hasTimeStamp "1914-12-16"^^xsd:date ;
+    sem:subEventOf ng:First_World_War ;
+    rdfs:comment "The Raid on Scarborough, Hartlepool and Whitby on 16 December 1914 was an attack by the Imperial German Navy on the British ports of Scarborough, Hartlepool, West Hartlepool and Whitby. The bombardments caused hundreds of civilian casualties and resulted in public outrage in Britain against the German Navy for the raid and the Royal Navy for failing to prevent it." .
+
+ng:First_World_War a sem:Event ;
+    sem:hasActor ng:Allies,
+        ng:Central_Powers ;
+    sem:hasPlace ng:Africa,
+        ng:Asia,
+        ng:Australia_and_Oceania,
+        ng:Europe,
+        ng:Middle_East ;
+    sem:hasTimeStamp "1914-07-28"^^xsd:date ;
+    rdfs:comment "World War I, or the First World War (28 July 1914 – 11 November 1918), also known as The Great War, was a global conflict between two coalitions: the Allies (or Entente) and the Central Powers. Major areas of conflict included Europe and the Middle East, as well as parts of Africa and the Asia-Pacific. The war saw important developments in weaponry including tanks, aircraft, artillery, machine guns, and chemical weapons." .
+

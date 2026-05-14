@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.2,
+  "coverage_raw": 8.0,
+  "factual_consistency": 0.9111111111111111,
+  "coverage": 0.7777777777777778,
+  "reasoning": [
+    "No contradictions with reference text; generated text covers most key points but omits some details such as internal conflicts and the final defeat date of rebel forces.",
+    "The generated text's facts align with the reference except for a minor ambiguity regarding Hong Xiuquan's death. The generated text covers the main narrative but omits some important details such as internal conflicts and specific massacres.",
+    "Minor discrepancies in dates and cause of death, but generally consistent with reference; Covers most key points and the main narrative, but omits some specific details about internal conflicts.",
+    "The generated text's facts align perfectly with the reference without any contradictions. While the generated text covers most key points from the reference, it omits some specific details such as the exact date and cause of Hong Xiuquan's death and the defeat of the last rebel forces in 1871.",
+    "Minor discrepancy in the date of the final defeat, but otherwise consistent with reference facts. Covers most key points and events, missing some contextual details from the reference."
+  ]
+}

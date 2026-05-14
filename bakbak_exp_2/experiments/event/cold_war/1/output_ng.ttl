@@ -1,0 +1,355 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Aden_Emergency a sem:Event ;
+    sem:hasActor ng:British_Empire,
+        ng:Colin_Campbell_Mitchell,
+        ng:Egypt,
+        ng:Federation_of_South_Arabia,
+        ng:Front_for_the_Liberation_of_Occupied_South_Yemen,
+        ng:Gamal_Abdel_Nasser,
+        ng:Harold_Wilson,
+        ng:Michael_Beetham,
+        ng:Michael_Le_Fanu,
+        ng:National_Liberation_Front,
+        ng:Qahtan_Muhammad_al_Shaabi,
+        ng:Yemen_Arab_Republic ;
+    sem:hasPlace ng:Federation_of_South_Arabia,
+        ng:Middle_East ;
+    sem:hasTimeStamp "1963-10-14"^^xsd:date ;
+    rdfs:comment "The Aden Emergency, also known as the 14 October Revolution or the Aden Insurgency, was an armed rebellion led mainly by the National Liberation Front (NLF) and the Front for the Liberation of Occupied South Yemen (FLOSY) against the British Protectorate and Federation of South Arabia. It began on 14 October 1963 when tribes from Radfan attacked British troops and ended with the proclamation of independence of the People's Republic of Southern Yemen. The British had declared a state of emergency following the throwing of a grenade at a gathering of British officials on 10 December 1963 at RAF Khormaksar." .
+
+ng:Air_Battle_of_El_Mansoura a sem:Event ;
+    sem:hasTimeStamp "1973-10-14"^^xsd:date ;
+    sem:subEventOf ng:Yom_Kippur_War ;
+    rdfs:comment "The air battle of Mansoura was an air battle that took place in 1973 during the Yom Kippur War between the Egyptian Air Force (EAF) and the Israeli Air Force (IAF) near the town of El Mansoura, in the Nile Delta. The Israeli air force launched air strikes on October 14 against the Egyptian air bases at Tanta and Mansoura. Israeli aircraft were spotted approaching from the Mediterranean Sea." .
+
+ng:Battle_of_Baltim a sem:Event ;
+    sem:hasTimeStamp "1973-10-09"^^xsd:date ;
+    sem:subEventOf ng:Yom_Kippur_War ;
+    rdfs:comment "The Battle of Baltim (also Battle of Damietta, Battle of Baltim–Damietta, Battle of Damietta–Baltim or Battle of Damietta – El Burelos) was fought between the Israeli Navy and the Egyptian Navy on 8–9 October, 1973, during the Yom Kippur War. It took place off the Nile Delta, between Baltim and Damietta. The battle began when six Israeli Sa'ar-class missile boats heading toward Port Said were engaged by four Egyptian Osa-class missile boats coming from Alexandria." .
+
+ng:Battle_of_Ban_Me_Thuot a sem:Event ;
+    sem:hasPlace ng:Bu_n_Ma_Thu_t ;
+    sem:hasTimeStamp "1975-03-03"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Ban Me Thuot was a decisive battle of the Vietnam War which led to the complete destruction of South Vietnam's II Corps Tactical Zone. The battle was part of a larger North Vietnamese military operation known as Campaign 275 to capture the Tay Nguyen region, known in the West as the Vietnamese Central Highlands. In March 1975 the People's Army of Vietnam (PAVN) staged a large-scale offensive, known as Campaign 275, with the aim of capturing the Central Highlands from the Army of the Republic of Vietnam (ARVN) in order to kick-start the first stage of the" .
+
+ng:Battle_of_Dak_To a sem:Event ;
+    sem:hasPlace ng:Kon_Tum ;
+    sem:hasTimeStamp "1967-11-03"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Dak To (Vietnamese: Chiến dịch Đắk Tô - Tân Cảnh) in Vietnam was a series of major engagements of the Vietnam War that took place between 3 and 23 November 1967, in Kontum Province, in the Central Highlands of the Republic of Vietnam (South Vietnam). The action at Đắk Tô was one of a series of People's Army of Vietnam (PAVN) offensive initiatives that began during the second half of the year. PAVN attacks at Lộc Ninh (in Bình Long Province), Sông Bé (in Phước Long Province) and at Con Thien and Khe Sanh, (in Quảng Trị" .
+
+ng:Battle_of_Dien_Bien_Phu a sem:Event ;
+    sem:hasPlace ng:i_n_Bi_n_Ph ;
+    sem:hasTimeStamp "1954-03-13"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "The Battle of Điện Biên Phủ was a defeat of the French Union forces by the Viet Minh forces in the First Indochina War. It took place between 13 March and 7 May 1954. The French began an operation to insert, and support, their soldiers at Điện Biên Phủ, deep in the autonomous Tai Federation in northwest Tonkin." .
+
+ng:Battle_of_Gang_Toi a sem:Event ;
+    sem:hasPlace ng:ng_Nai ;
+    sem:hasTimeStamp "1965-11-08"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Gang Toi (8 November 1965) was fought during the Vietnam War between Australian troops and the Viet Cong. The battle was one of the first engagements between the two forces during the war and occurred when A Company, 1st Battalion, Royal Australian Regiment (1 RAR) struck a Viet Cong bunker system defended by Company 238 in the Gang Toi Hills, in northern Biên Hòa Province. It occurred during a major joint US-Australian operation codenamed Operation Hump, involving the US 173rd Airborne Brigade, to which 1 RAR was attached." .
+
+ng:Battle_of_Hamburger_Hill a sem:Event ;
+    sem:hasPlace ng:Dong_Ap_Bia ;
+    sem:hasTimeStamp "1969-05-10"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Hamburger Hill (13–20 May 1969) was fought by United States Army (US Army) and Army of the Republic of Vietnam (ARVN) forces against People's Army of Vietnam (PAVN) forces during Operation Apache Snow of the Vietnam War. Though the heavily fortified Hill 937, a ridge of the mountain Dong Ap Bia in central Vietnam near its western border with Laos, had little strategic value, US command ordered its capture by a frontal assault, only to abandon it soon thereafter. The action caused a controversy among both the US armed services and the public back home, and marked" .
+
+ng:Battle_of_Hanoi a sem:Event ;
+    sem:hasTimeStamp "1947-02-18"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "On December 19, 1946, Viet Minh soldiers detonated explosives in Hanoi, and the ensuing battle, known as the Battle of Hanoi marked the opening salvo of the First Indochina War." .
+
+ng:Battle_of_Ia_Drang a sem:Event ;
+    sem:hasPlace ng:Ia_Drang_Valley ;
+    sem:hasTimeStamp "1965-11-14"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Ia Drang (Vietnamese: Trận Ia Đrăng, [iə̯ ɗrăŋ]; in English ) was the first major battle between the United States Army and the People's Army of Vietnam (PAVN), as part of the Pleiku campaign conducted early in the Vietnam War, at the eastern foot of the Chu Pong Massif in the central highlands of Vietnam, in 1965. It is notable for being the first large scale helicopter air assault and also the first use of Boeing B-52 Stratofortress strategic bombers in a tactical support role. Ia Drang set the blueprint for the Vietnam War with the Americans" .
+
+ng:Battle_of_Karameh a sem:Event ;
+    sem:hasTimeStamp "1968-03-21"^^xsd:date ;
+    sem:subEventOf ng:War_of_Attrition ;
+    rdfs:comment "The Battle of Karameh (Arabic: معركة الكرامة) was a 15-hour military engagement between Israel and the combined forces of Jordan and the Palestine Liberation Organization (PLO) in the Jordanian border town of Karameh during the War of Attrition on 21 March 1968. It was planned by Israel as one of two concurrent raids on PLO camps, one in Karameh along the Jordan River and the other in the distant village of Ghor es-Safi south of the Dead Sea. After Israel occupied the West Bank in 1967, Palestinian fighters, also known as fedayeen, moved to Jordan and stepped up their attacks" .
+
+ng:Battle_of_Khe_Sanh a sem:Event ;
+    sem:hasPlace ng:Gapyeong_County ;
+    sem:hasTimeStamp "1968-04-08"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Khe Sanh (21 January – 9 July 1968) was conducted in the Khe Sanh area of northwestern Quảng Trị Province, Republic of Vietnam (South Vietnam), during the Vietnam War. The main US forces defending Khe Sanh Combat Base (KSCB) were two regiments of the United States Marine Corps supported by elements from the United States Army, the United States Air Force (USAF) and the Royal Australian Air Force (RAAF), as well as a small number of Army of the Republic of Vietnam (ARVN) troops. These were pitted against two to three divisional-size elements of the North Vietnamese" .
+
+ng:Battle_of_Lang_Vei a sem:Event ;
+    sem:hasPlace ng:Qu_ng_Tr ;
+    sem:hasTimeStamp "1968-02-06"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of Lang Vei (Vietnamese: Trận Làng Vây) began on the evening of 6 February 1968 and concluded during the early hours of 7 February, in Quảng Trị Province, South Vietnam. Towards the end of 1967, the 198th Tank Battalion of the People's Army of Vietnam's (PAVN) 202nd Armored Regiment received instructions from the North Vietnamese Ministry of Defense to reinforce the 304th Division as part of the Route 9–Khe Sanh Campaign. After an arduous journey down the Ho Chi Minh trail in January 1968, the 198th Tank Battalion linked up with the 304th Division for an offensive along" .
+
+ng:Battle_of_Latakia a sem:Event ;
+    sem:hasPlace ng:Latakia ;
+    sem:hasTimeStamp "1973-10-07"^^xsd:date ;
+    sem:subEventOf ng:Yom_Kippur_War ;
+    rdfs:comment "The Battle of Latakia (Arabic: معركة اللاذقية; Hebrew: קרב לטקיה) was a small but revolutionary naval action of the Yom Kippur War, fought on 7 October 1973 between Israel and Syria. It was the first naval battle in history to see combat between surface-to-surface missile-equipped missile boats and the use of electronic deception." .
+
+ng:Battle_of_Mang_Yang_Pass a sem:Event ;
+    sem:hasPlace ng:Mang_Yang ;
+    sem:hasTimeStamp "1954-06-24"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "The Battle of Mang Yang Pass (also known as the Battle of An Khê or the Battle of Đắk Pơ) was one of the last battles of the First Indochina War between the French Union and Việt Minh which took place from 24 to 29 June 1954. The battle was one of the bloodiest defeats of the French Union forces, along with the battle of Dien Bien Phu shortly beforehand." .
+
+ng:Battle_of_Muong_Khoua a sem:Event ;
+    sem:hasPlace ng:Phongsaly_Province ;
+    sem:hasTimeStamp "1953-04-13"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "The Battle of Muong Khoua took place between April 13 and May 18, 1953, in northern Laos during the First Upper Laos Campaign in the French Indochina War. A garrison of a dozen French and 300 Laotian troops occupied a fortified outpost in the hills above the village of Muong Khoua, across the Vietnamese border from Điện Biên Phủ. Muong Khoua was among the last French outposts in northern Laos following the decision of the French High Command to string isolated garrisons through the region in order to buy time to fortify the major Laotian cities against Việt Minh attack." .
+
+ng:Battle_of_Route_Coloniale_4 a sem:Event ;
+    sem:hasPlace ng:ng_Kh ;
+    sem:hasTimeStamp "1950-10-13"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "The Battle of Route Coloniale 4, also called the Autumn-Winter Border Campaign (Chiến Dịch Biên Giới Thu Đông) by the Viet Minh, was a battle of the First Indochina War. It took place along Route Coloniale 4 (RC4, also known as Highway 4), a road used to supply the French military base at Cao Bằng. French military traffic along the road had previously been subject to an ongoing series of ambushes during 1947–1949." .
+
+ng:Battle_of_Saigon a sem:Event ;
+    sem:hasPlace ng:Ho_Chi_Minh_City ;
+    sem:hasTimeStamp "1968-03-07"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The First Battle of Saigon, fought during the Tet Offensive of the Vietnam War, was the coordinated attack by communist forces, including both the North Vietnamese Army and the Viet Cong (VC), against Saigon, the capital of South Vietnam." .
+
+ng:Battle_of_Suez a sem:Event ;
+    sem:hasActor ng:Egyptian_Armed_Forces,
+        ng:Israel_Defense_Forces ;
+    sem:hasPlace ng:Suez ;
+    sem:hasTimeStamp "1973-10-24"^^xsd:date ;
+    sem:subEventOf ng:Yom_Kippur_War ;
+    rdfs:comment "The Battle of Suez was fought on October 24–25, 1973 between the Israel Defense Forces and the Egyptian Army in the Egyptian city of Suez. It was the closing battle of the Yom Kippur War, before a ceasefire took effect. On October 23, with the imminent arrival of UN observers to the front, Israel decided to capture Suez, assuming it would be poorly defended." .
+
+ng:Battle_of_the_Paracel_Islands a sem:Event ;
+    sem:hasPlace ng:Paracel_Islands ;
+    sem:hasTimeStamp "1974-01-19"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Battle of the Paracel Islands (Chinese: 西沙海战; pinyin: Xisha haizhan; Vietnamese: Hải chiến Hoàng Sa) was an engagement between the Chinese and South Vietnamese navies near the Paracel Islands from 19 to 20 January 1974. The battle was part of an attempt by the South Vietnamese navy to remove the Chinese navy from the area towards the end of the Vietnam War. Prior to the conflict, part of the Paracel Islands was controlled by China and another part was controlled by South Vietnam." .
+
+ng:Cambodian_Civil_War a sem:Event ;
+    sem:hasActor ng:Khmer_Republic,
+        ng:Kingdom_of_Cambodia,
+        ng:National_Front_for_the_Liberation_of_South_Vietnam,
+        ng:National_United_Front_of_Kampuchea,
+        ng:North_Vietnam,
+        ng:South_Vietnam,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Khmer_Republic,
+        ng:Kingdom_of_Cambodia ;
+    sem:hasTimeStamp "1967-03-11"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Cambodian Civil War (Khmer: សង្គ្រាមស៊ីវិលកម្ពុជា, UNGEGN: Sângkréam Sivĭl Kâmpŭchéa) was a civil war in Cambodia fought between the Khmer Rouge, supported by North Vietnam and China, against the government of the Kingdom of Cambodia and, after October 1970, the Khmer Republic, which had succeeded the kingdom after a coup, both supported by the United States and South Vietnam. The conflict was part of the Vietnam War. The conflict was linked to the Vietnam War." .
+
+ng:Congo_Crisis a sem:Event ;
+    sem:hasTimeStamp "1960-06-01"^^xsd:date ;
+    rdfs:comment "The Congo Crisis (French: Crise congolaise) was a period of political upheaval and conflict between 1960 and 1965 in the Republic of the Congo (today the Democratic Republic of the Congo). The crisis began almost immediately after the Congo became independent from Belgium and ended, unofficially, with the entire country under the rule of Joseph-Désiré Mobutu. Constituting a series of civil wars, the Congo Crisis was also a proxy conflict in the Cold War, in which the Soviet Union and the United States supported opposing factions." .
+
+ng:Cuban_Missile_Crisis a sem:Event ;
+    sem:hasActor ng:Soviet_Union,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Caribbean_Sea,
+        ng:Cuba ;
+    sem:hasTimeStamp "1962-10-14"^^xsd:date ;
+    rdfs:comment "The Cuban Missile Crisis, also known as the October Crisis in Cuba (Spanish: Crisis de Octubre), or the Caribbean Crisis (Russian: Карибский кризис, romanized:&#160;Karibskiy krizis), was a 13-day confrontation between the governments of the United States and the Soviet Union, when American deployments of nuclear missiles in the United Kingdom, Italy and Turkey were matched by Soviet deployments of nuclear missiles in Cuba. The crisis lasted from 16&#160;to&#160;28 October 1962. The confrontation is widely considered the closest the Cold War came to escalating into full-scale nuclear war." .
+
+ng:Ethio_Somali_War a sem:Event ;
+    sem:hasActor ng:Cuba,
+        ng:Ethiopia,
+        ng:Somalia,
+        ng:South_Yemen,
+        ng:Soviet_Union,
+        ng:Western_Somali_Liberation_Front ;
+    sem:hasPlace ng:Ethiopia,
+        ng:Ogaden ;
+    sem:hasTimeStamp "1977-07-13"^^xsd:date ;
+    rdfs:comment "The Ogaden War, also known as the Ethio-Somali War (Somali: Dagaalkii Xoraynta Soomaali Galbeed, Amharic: የኢትዮጵያ ሶማሊያ ጦርነት, romanized:&#160;ye’ītiyop’iya somalīya t’orinet), was a military conflict between Somalia and Ethiopia fought from July 1977 to March 1978 over control of the sovereignty of the Ogaden region. Somalia launched an invasion in support of the Western Somali Liberation Front (WSLF) insurgency, triggering a broader inter-state war. The intervention drew the disapproval of the Soviet Union, which subsequently withdrew its support for Somalia and backed Ethiopia instead." .
+
+ng:Fall_of_Saigon a sem:Event ;
+    sem:hasPlace ng:Ho_Chi_Minh_City ;
+    sem:hasTimeStamp "1975-04-30"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "Saigon, the capital of South Vietnam, was captured by North Vietnam on 30 April 1975. This caused the collapse of South Vietnam to communism and the evacuation of thousands of civilians and U.S. personnel, and ended the Vietnam War. The aftermath ushered in a transition period under the Provisional Revolutionary Government of the Republic of South Vietnam until the formal reunification in 1976." .
+
+ng:Indonesian_invasion_of_East_Timor a sem:Event ;
+    sem:hasActor ng:East_Timor,
+        ng:Francisco_Xavier_do_Amaral,
+        ng:Indonesia,
+        ng:Indonesian_National_Armed_Forces,
+        ng:Maraden_Panggabean,
+        ng:Nicolau_dos_Reis_Lobato,
+        ng:Revolutionary_Front_for_an_Independent_East_Timor,
+        ng:Suharto,
+        ng:Timorese_Democratic_Union,
+        ng:Timorese_Popular_Democratic_Association ;
+    sem:hasTimeStamp "1975-12-07"^^xsd:date ;
+    rdfs:comment "The Indonesian invasion of East Timor, known in Indonesia as Operation Lotus (Indonesian: Operasi Seroja), began on 7 December 1975 when the Indonesian military (ABRI/TNI) invaded East Timor under the pretext of anti-colonialism and anti-communism to overthrow the Fretilin government that had emerged in 1974. The overthrow of the popular and short-lived Fretilin-led government sparked a violent quarter-century occupation in which approximately 100,000–180,000 soldiers and civilians are estimated to have been killed or starved to death. The Commission for Reception, Truth and Reconciliation in East Timor documented a minimum estimate of 102,000 deaths as a result of the conflict in" .
+
+ng:Indonesian_occupation_of_East_Timor a sem:Event ;
+    sem:hasTimeStamp "1975-12-07"^^xsd:date ;
+    rdfs:comment "The Indonesian occupation of East Timor began in December 1975 and lasted until October 1999. After centuries of Portuguese colonial rule in East Timor, the 1974 Carnation Revolution in Portugal led to the decolonisation of its former colonies, creating instability in East Timor and leaving its future uncertain. After a small-scale civil war, the pro-independence Fretilin declared victory in the capital city of Dili and declared an independent East Timor on 28 November 1975." .
+
+ng:Laotian_Civil_War a sem:Event ;
+    sem:hasActor ng:Kingdom_of_Laos,
+        ng:North_Vietnam,
+        ng:Pathet_Lao,
+        ng:South_Vietnam,
+        ng:Thailand,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Kingdom_of_Laos ;
+    sem:hasTimeStamp "1953-11-09"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "The Laotian Civil War was waged between the Communist Pathet Lao and the Royal Lao Government from 23 May 1959 to 2 December 1975. The Kingdom of Laos was a covert theater during the Vietnam War with both sides receiving heavy external support in a proxy war between the global Cold War superpowers. The fighting also involved the North Vietnamese, South Vietnamese, American and Thai armies, both directly and through irregular proxies." .
+
+ng:Malayan_Emergency a sem:Event ;
+    sem:hasTimeStamp "1948-06-16"^^xsd:date ;
+    rdfs:comment "The Malayan Emergency, also known as the Anti–British National Liberation War, (1948–1960) was a guerrilla war fought in Malaya between communist pro-independence fighters of the Malayan National Liberation Army (MNLA) and the military forces of the Federation of Malaya and the Commonwealth (British Empire). The communists fought to win independence for Malaya from the British Empire and to establish a communist state, while the Malayan Federation and Commonwealth forces fought to protect British economic and colonial interests and combat communism. The term \"Emergency\" was used by the British to characterise the conflict in order to avoid referring to it as" .
+
+ng:Ofira_Air_Battle a sem:Event ;
+    sem:hasTimeStamp "1973-10-06"^^xsd:date ;
+    sem:subEventOf ng:Yom_Kippur_War ;
+    rdfs:comment "The Ofira Air Battle was one of the first air battles of the Yom Kippur War. On 6 October 1973, Egypt launched a massive surprise attack on Israel that included over 200 Egyptian aircraft participating in an opening airstrike. The Israeli Air Force (IAF) Base Ofira at Sharm el-Sheikh came under attack by 20 Egyptian Air Force MiG-17s and their eight MiG-21 escorts." .
+
+ng:Operation_Camargue a sem:Event ;
+    sem:hasPlace ng:French_Indochina ;
+    sem:hasTimeStamp "1953-07-28"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "Operation Camargue was one of the largest operations by the French Far East Expeditionary Corps and Vietnamese National Army in the First Indochina War. It took place from 28 July until 10 August 1953. French armored platoons, airborne units and troops delivered by landing craft to the coast of central Annam, modern-day Vietnam, attempted to sweep forces of the communist Viet Minh from the critical Route 1." .
+
+ng:Operation_Castor a sem:Event ;
+    sem:hasPlace ng:i_n_Bi_n_Ph ;
+    sem:hasTimeStamp "1953-11-20"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "Operation Castor was a successful airborne operation for French Union forces in the First Indochina War. This operation of France and the State of Vietnam established a fortified airhead in Điện Biên Province against the communist Việt Minh, in the north-west corner of Vietnam and was commanded by Brigadier General Jean Gilles. The Operation began at 10:35 on 20 November 1953, with reinforcements dropped over the following two days." .
+
+ng:Operation_Cedar_Falls a sem:Event ;
+    sem:hasPlace ng:Cu_Chi ;
+    sem:hasTimeStamp "1967-01-08"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "Operation Cedar Falls was a military operation of the Vietnam War conducted primarily by US forces that took place from 8 to 26 January 1967. The aim of the massive search-and-destroy operation was to eradicate the Iron Triangle, an area northwest of Saigon that had become a major stronghold of the Viet Cong (VC). It was the largest American ground operation of the Vietnam war: two Army divisions, one infantry and one paratrooper brigade, and one armored cavalry regiment participated in the operation." .
+
+ng:Operation_Hastings a sem:Event ;
+    sem:hasPlace ng:Vietnamese_Demilitarized_Zone ;
+    sem:hasTimeStamp "1966-07-15"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "Operation Hastings was an American military operation in the Vietnam War. The operation was a qualified success in that it pushed the People's Army of Vietnam (PAVN) forces back across the Demilitarized Zone (DMZ). As the PAVN clearly did not feel constrained by the \"demilitarized\" nature of the DMZ, U.S. military leadership ordered a steady build-up of U.S. Marines near the DMZ from 1966 to 1968." .
+
+ng:Operation_Linebacker a sem:Event ;
+    sem:hasPlace ng:North_Vietnam ;
+    sem:hasTimeStamp "1972-05-09"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "Operation Linebacker was the codename of a U.S. Seventh Air Force and U.S. Navy Task Force 77 air interdiction campaign conducted against North Vietnam from 9 May to 23 October 1972, during the Vietnam War. Its purpose was to halt or slow the transportation of supplies and materials for the Nguyen Hue Offensive (known in the West as the Easter Offensive), an invasion of the South Vietnam by the North Vietnamese People's Army of Vietnam (PAVN) that had been launched on 30 March. Linebacker was the first continuous bombing effort conducted against North Vietnam since the end of Operation Rolling" .
+
+ng:Operation_Lorraine a sem:Event ;
+    sem:hasPlace ng:Ngh_a_L ;
+    sem:hasTimeStamp "1952-10-29"^^xsd:date ;
+    sem:subEventOf ng:First_Indochina_War ;
+    rdfs:comment "Operation Lorraine was a French military operation of the First Indochina War." .
+
+ng:Operation_Menu a sem:Event ;
+    sem:hasTimeStamp "1969-03-18"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "Operation Menu was a covert United States Strategic Air Command (SAC) tactical bombing campaign conducted in eastern Cambodia from 18 March 1969 to 26 May 1970 as part of the Vietnam War. The targets of these attacks were sanctuaries and base areas of the People's Army of Vietnam (PAVN – commonly referred to during the war as the North Vietnamese Army, NVA) and the Viet Cong (VC), which used them for resupply, training, and resting between campaigns across the border in the Republic of Vietnam (South Vietnam). The impact of the bombing campaign on the Khmer Rouge guerrillas, the PAVN," .
+
+ng:Operation_Peristera a sem:Event ;
+    sem:hasPlace ng:Peloponnese ;
+    sem:hasTimeStamp "1948-12-19"^^xsd:date ;
+    sem:subEventOf ng:Greek_Civil_War ;
+    rdfs:comment "Operation Peristera (Greek: Επιχείρηση «Περιστερά», \"dove\" in Greek) was a military campaign for control of the Peloponnese peninsula in southern Greece during the Greek Civil War." .
+
+ng:Operation_Prairie a sem:Event ;
+    sem:hasPlace ng:Vietnamese_Demilitarized_Zone ;
+    sem:hasTimeStamp "1966-08-03"^^xsd:date ;
+    sem:subEventOf ng:Vietnam_War ;
+    rdfs:comment "Operation Prairie was a U.S. military operation in Quảng Trị Province, South Vietnam that sought to eliminate People's Army of Vietnam (PAVN) forces south of the Demilitarized Zone (DMZ). Over the course of late 1965 and early 1966 the Viet Cong (VC) and the PAVN intensified their military threat along the DMZ. The tactical goal of these incursions was to draw United States military forces away from cities and towns. Operation Hastings, a series of actions in defense of the DMZ, lasted from 15 July to 3 August 1966." .
+
+ng:Operation_Strikeback a sem:Event ;
+    sem:hasActor ng:NATO ;
+    sem:hasPlace ng:Atlantic_Ocean,
+        ng:GIUK_gap,
+        ng:Norwegian_Sea ;
+    sem:hasTimeStamp "1957-09-03"^^xsd:date ;
+    rdfs:comment "Exercise Strikeback, aka Operation Strikeback, was a major naval exercise of the North Atlantic Treaty Organization (NATO) that took place over a ten-day period in September 1957. As part of a series of exercises to simulate an all-out Soviet attack on NATO, Exercise Strikeback was tasked with two objectives. Its initial objective was the deployment of NATO's naval forces (designated the \"Blue Fleet\") against other NATO forces attempting to simulate an \"enemy\" navy that featured a large number of submarines (designated the \"Orange Fleet\")." .
+
+ng:Sino_Soviet_border_conflict a sem:Event ;
+    sem:hasActor ng:China,
+        ng:Soviet_Union ;
+    sem:hasTimeStamp "1969-03-02"^^xsd:date ;
+    rdfs:comment "The Sino-Soviet border conflict, also known as the Sino-Soviet crisis, was a seven-month undeclared military conflict between the Soviet Union and China in 1969, following the Sino-Soviet split. The most serious border clash, which brought the world's two largest socialist states to the brink of war, occurred near Damansky (Zhenbao) Island on the Ussuri (Wusuli) River in Manchuria. Clashes also took place in Xinjiang." .
+
+ng:Third_Battle_of_Mount_Hermon a sem:Event ;
+    sem:hasTimeStamp "1973-10-21"^^xsd:date ;
+    sem:subEventOf ng:Yom_Kippur_War ;
+    rdfs:comment "The Third Battle of Mount Hermon was fought on the night of October 21–22, 1973, between the Israeli Army and the Syrian Army over Mount Hermon, during the last days of the Yom Kippur War. Syrian troops had captured the IDF outpost on the mountain on October 6, and held it for two weeks. In the third battle, codenamed Operation Dessert (Hebrew: מבצע קינוח, Mivtza Kinu'ah), Israeli troops captured the Israeli outpost and the Syrian one." .
+
+ng:Greek_Civil_War a sem:Event ;
+    sem:hasActor ng:Kingdom_of_Greece,
+        ng:Provisional_Democratic_Government ;
+    sem:hasTimeStamp "1946-01-01"^^xsd:date ;
+    rdfs:comment "The Greek Civil War (Greek: Εμφύλιος Πόλεμος, romanized:&#160;Emfýlios Pólemos, lit. 'Civil War') took place from 1946 to 1949. The conflict, which erupted shortly after the end of World War II, consisted of a Communist-led uprising against the established government of the Kingdom of Greece. The rebels declared a people's republic, the Provisional Democratic Government of Greece, which was governed by the Communist Party of Greece (KKE) and its military branch, the Democratic Army of Greece (DSE)." .
+
+ng:War_of_Attrition a sem:Event ;
+    sem:hasActor ng:Egypt,
+        ng:Israel,
+        ng:Jordan,
+        ng:Palestine_Liberation_Organization,
+        ng:Soviet_Union,
+        ng:Syria ;
+    sem:hasTimeStamp "1970-08-07"^^xsd:date ;
+    rdfs:comment "The War of Attrition (Arabic: حرب الاستنزاف, romanized:&#160;Ḥarb al-Istinzāf; Hebrew: מלחמת ההתשה, romanized:&#160;Milḥemet haHatashah) involved fighting between Israel and Egypt, Jordan, the Palestine Liberation Organisation (PLO) and their allies from 1967 to 1970. Following the 1967 Six-Day War, no serious diplomatic efforts were made to resolve the issues at the heart of the Arab–Israeli conflict. The 1967 Arab League summit formulated in September the \"three no's\" policy, barring peace, recognition, or negotiations with Israel." .
+
+ng:Yom_Kippur_War a sem:Event ;
+    sem:hasActor ng:Ahmad_Ismail_Ali,
+        ng:Ali_Aslan,
+        ng:Benny_Peled,
+        ng:David_Elazar,
+        ng:Egypt,
+        ng:Haim_Bar_Lev,
+        ng:Israel,
+        ng:Israel_Tal,
+        ng:Mohamed_Abdel_Ghani_el_Gamasy,
+        ng:Moshe_Dayan,
+        ng:Mustafa_Tlass,
+        ng:Pakistan_Air_Force,
+        ng:Palestine_Liberation_Organization,
+        ng:Saad_el_Shazly,
+        ng:Shmuel_Gonen,
+        ng:Syria,
+        ng:United_States_of_America,
+        ng:Yitzhak_Hofi ;
+    sem:hasPlace ng:Golan_Heights,
+        ng:Middle_East,
+        ng:Sinai_Peninsula,
+        ng:Suez_Canal ;
+    sem:hasTimeStamp "1973-10-06"^^xsd:date ;
+    rdfs:comment "The Yom Kippur War, also known as the 1973 Arab–Israeli War, the fourth Arab–Israeli War, the October War, or the Ramadan War (6–25 October 1973), was fought between Israel and a coalition of Arab states led by Egypt and Syria. Most of the fighting occurred in the Sinai Peninsula and the Golan Heights, territories occupied by Israel in 1967. Some combat also took place in mainland Egypt and northern Israel." .
+
+ng:First_Indochina_War a sem:Event ;
+    sem:hasPlace ng:French_Indochina ;
+    sem:hasTimeStamp "1946-12-19"^^xsd:date ;
+    rdfs:comment "The First Indochina War, known alternatively internationally as the French Indochina War, was fought in French Indochina between France and the Viet Minh and their respective allies, from 19 December 1946 until 11 August 1954. Most of the engagements of this conflict occurred in Vietnam. At the Potsdam Conference in July 1945, the Allied Combined Chiefs of Staff decided that Indochina south of latitude 16° north was to be included in the South East Asia Command under British Admiral Mountbatten." .
+
+ng:Vietnam_War a sem:Event ;
+    sem:hasActor ng:China,
+        ng:Khmer_Republic,
+        ng:Khmer_Rouge,
+        ng:Kingdom_of_Laos,
+        ng:National_Front_for_the_Liberation_of_South_Vietnam,
+        ng:New_Zealand,
+        ng:North_Korea,
+        ng:North_Vietnam,
+        ng:Pathet_Lao,
+        ng:Philippines,
+        ng:South_Korea,
+        ng:South_Vietnam,
+        ng:Thailand,
+        ng:United_States_of_America ;
+    sem:hasTimeStamp "1975-04-30"^^xsd:date ;
+    rdfs:comment "The Vietnam War (1 November 1955 – 30 April 1975) was an armed conflict in Vietnam, Laos, and Cambodia fought between North Vietnam (Democratic Republic of Vietnam) and South Vietnam (Republic of Vietnam) and their allies. North Vietnam was supported by the Soviet Union and China, while South Vietnam was supported by the United States and other anti-communist nations. The conflict was the second of the Indochina wars and a proxy war of the Cold War between the Soviet Union and US. The Vietnam War was one of the postcolonial wars of national liberation, a theater in the Cold War," .
+

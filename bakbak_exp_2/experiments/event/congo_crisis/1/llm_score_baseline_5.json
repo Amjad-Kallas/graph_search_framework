@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "All facts in the generated text match the reference without contradiction. The generated text addresses most key events but omits some significant details such as the Simba rebellion and the rival government in Stanleyville."
+}

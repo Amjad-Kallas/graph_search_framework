@@ -1,0 +1,13 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:1972_Summer_Olympics a sem:Event ;
+    sem:hasTimeStamp "1972-08-26"^^xsd:date ;
+    rdfs:comment "The 1972 Summer Olympics (German: Olympische Sommerspiele 1972), officially known as the Games of the XX Olympiad (German: Spiele der XX. Olympiade) and officially branded as Munich 1972 (German: München 1972; Bavarian: Minga 1972), were an international multi-sport event held in Munich, West Germany, from 26 August to 11 September 1972. It was the second Summer Olympics to be held in Germany, after the 1936 Games in Berlin, which had taken place under the Nazi rule. Germany became only the second country at that point after the United States to have two different cities host the Summer Olympics." .
+
+ng:Badminton_at_the_1972_Summer_Olympics a sem:Event ;
+    sem:hasTimeStamp "1972-09-04"^^xsd:date ;
+    rdfs:comment "The badminton tournament was one of two demonstration sports at the 1972 Summer Olympics in Munich. It was the first time that the sport was part of the Olympic program, and it would become an official Olympic sport 20 years later at the 1992 Summer Olympics." .
+

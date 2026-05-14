@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.4,
+  "coverage_raw": 7.6,
+  "factual_consistency": 0.9333333333333332,
+  "coverage": 0.7333333333333333,
+  "reasoning": [
+    "The generated text is mostly consistent with the reference but has one error about the Directory replacing the Terror. The generated text covers most key events but misses some important details from the reference.",
+    "All facts in the generated text that overlap with the reference are consistent; no contradictions. The generated text covers most key points from the reference but omits some details like the Declaration of the Rights of Man and the insurrection of 10 August.",
+    "The generated text is consistent with the reference text and does not contain any contradictions. The generated text covers most of the key points from the reference text but misses some important aspects.",
+    "The generated text has no factual contradictions with the reference. It covers most key points but omits some important details.",
+    "The generated text is largely consistent with the reference, with only minor discrepancies in details. The generated text covers most key points from the reference but omits a few details."
+  ]
+}

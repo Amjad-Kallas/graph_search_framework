@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 9,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.8888888888888888,
+  "reasoning": "Minor inconsistency in the total number of fatalities stated; some minor details from the reference are not covered in the generated text."
+}

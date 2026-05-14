@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text has one major contradiction regarding the number of terrorists but is otherwise consistent with the reference. The generated text covers the main events but omits several key details from the reference."
+}

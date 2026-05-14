@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 4,
+  "coverage_raw": 4,
+  "factual_consistency": 0.3333333333333333,
+  "coverage": 0.3333333333333333,
+  "reasoning": "The generated text contradicts the reference on key facts such as birth name and album count but is consistent on other details. The generated text addresses some key points from the reference but misses several important aspects such as early career and major performances."
+}

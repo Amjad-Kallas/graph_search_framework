@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.8,
+  "coverage_raw": 6.8,
+  "factual_consistency": 0.6444444444444444,
+  "coverage": 0.6444444444444445,
+  "reasoning": [
+    "The generated text is mostly consistent with the reference but has contradictions regarding international support. The generated text covers many key points but omits important aspects such as post-war political marginalization and the full details of international involvement and humanitarian response.",
+    "Contradiction about France's support. Covers most main points but misses some important details.",
+    "The generated text is mostly factually consistent with minor discrepancies; it covers the main points but omits some important details.",
+    "The generated text contradicts the reference on key facts such as France's support for Nigeria instead of Biafra and the timeline of Port Harcourt's capture. The generated text covers the main events of the war but omits important details like the role of Ojukwu and post-war marginalization of the Igbo people.",
+    "Mostly consistent with minor contradictions and unsupported details; covers most key points but omits some details."
+  ]
+}

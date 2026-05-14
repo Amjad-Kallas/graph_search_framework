@@ -1,0 +1,58 @@
+All 55 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Dulce Pontes  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. Linda de Suza  |  combined=0.307  wiki=0.768  llm=0.000 ***
+  3. Cliff Richard  |  combined=0.300  wiki=0.750  llm=0.000 ***
+  4. Sarah Brightman  |  combined=0.241  wiki=0.603  llm=0.000 ***
+  5. Classics  |  combined=0.195  wiki=0.488  llm=0.000 ***
+  6. Piet Veerman  |  combined=0.195  wiki=0.486  llm=0.000 ***
+  7. Dreamchaser  |  combined=0.193  wiki=0.482  llm=0.000 ***
+  8. Richard Stilgoe  |  combined=0.191  wiki=0.479  llm=0.000 ***
+  9. Just Show Me How to Love You  |  combined=0.182  wiki=0.455  llm=0.000 ***
+ 10. Sarah Brightman Sings the Music of Andrew Lloyd Webber  |  combined=0.181  wiki=0.453  llm=0.000 ***
+ 11. Time to Say Goodbye  |  combined=0.179  wiki=0.447  llm=0.000 ***
+ 12. Dive  |  combined=0.175  wiki=0.437  llm=0.000 ***
+ 13. The Symphony World Tour  |  combined=0.174  wiki=0.435  llm=0.000 ***
+ 14. Harem  |  combined=0.172  wiki=0.431  llm=0.000 ***
+ 15. Andrew Lloyd Webber  |  combined=0.170  wiki=0.426  llm=0.000 ***
+ 16. Diva The Video Collection  |  combined=0.161  wiki=0.403  llm=0.000 ***
+ 17. Amigos Para Siempre  |  combined=0.160  wiki=0.401  llm=0.000 ***
+ 18. Classics The Best of Sarah Brightman  |  combined=0.160  wiki=0.400  llm=0.000 ***
+ 19. Tim Rice  |  combined=0.160  wiki=0.399  llm=0.000 ***
+ 20. There for Me  |  combined=0.157  wiki=0.392  llm=0.000 ***
+ 21. Surrender  |  combined=0.155  wiki=0.386  llm=0.000 ***
+ 22. La Luna  |  combined=0.151  wiki=0.378  llm=0.000 ***
+ 23. Fly  |  combined=0.146  wiki=0.364  llm=0.000 ***
+ 24. The Andrew Lloyd Webber Collection  |  combined=0.145  wiki=0.361  llm=0.000 ***
+ 25. A Question of Honour  |  combined=0.144  wiki=0.359  llm=0.000 ***
+ 26. As I Came of Age  |  combined=0.144  wiki=0.359  llm=0.000 ***
+ 27. Mike Batt  |  combined=0.141  wiki=0.351  llm=0.000 ***
+ 28. The Harem Tour CD  |  combined=0.138  wiki=0.345  llm=0.000 ***
+ 29. Angel  |  combined=0.135  wiki=0.337  llm=0.000 ***
+ 30. Free  |  combined=0.134  wiki=0.335  llm=0.000 ***
+ 31. Diva The Singles Collection  |  combined=0.132  wiki=0.330  llm=0.000 ***
+ 32. Frank Peterson  |  combined=0.132  wiki=0.329  llm=0.000 ***
+ 33. Encore  |  combined=0.129  wiki=0.323  llm=0.000 ***
+ 34. The Songs That Got Away  |  combined=0.125  wiki=0.312  llm=0.000 ***
+ 35. Eden  |  combined=0.123  wiki=0.307  llm=0.000 ***
+ 36. All I Ask of You  |  combined=0.119  wiki=0.297  llm=0.000
+ 37. Captain Nemo  |  combined=0.118  wiki=0.296  llm=0.000
+ 38. Symphony  |  combined=0.116  wiki=0.289  llm=0.000
+ 39. Him  |  combined=0.103  wiki=0.258  llm=0.000
+ 40. Pie Jesu  |  combined=0.103  wiki=0.257  llm=0.000
+ 41. Love Changes Everything  |  combined=0.101  wiki=0.252  llm=0.000
+ 42. Symphony Live in Vienna  |  combined=0.097  wiki=0.242  llm=0.000
+ 43. How Can Heaven Love Me  |  combined=0.097  wiki=0.242  llm=0.000
+ 44. Unexpected Song  |  combined=0.095  wiki=0.237  llm=0.000
+ 45. Sarah Brightman discography  |  combined=0.085  wiki=0.213  llm=0.000
+ 46. The Harem World Tour Live from Las Vegas  |  combined=0.084  wiki=0.210  llm=0.000
+ 47. David Mallet  |  combined=0.081  wiki=0.202  llm=0.000
+ 48. I Lost My Heart to a Starship Trooper  |  combined=0.080  wiki=0.200  llm=0.000
+ 49. The Adventures of the Love Crusader  |  combined=0.079  wiki=0.198  llm=0.000
+ 50. A Winter Symphony  |  combined=0.074  wiki=0.185  llm=0.000
+ 51. Anything But Lonely  |  combined=0.072  wiki=0.179  llm=0.000
+ 52. Deliver Me  |  combined=0.070  wiki=0.175  llm=0.000
+ 53. Bruce Gowers  |  combined=0.047  wiki=0.118  llm=0.000
+ 54. Charles Hart  |  combined=0.017  wiki=0.043  llm=0.000
+ 55. Hannes Rossacher  |  combined=0.000  wiki=0.000  llm=0.000

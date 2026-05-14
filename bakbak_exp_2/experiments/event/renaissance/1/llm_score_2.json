@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 7,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text's facts align well with the reference, with no contradictions and matching key details like time period, rediscovery of classical texts, and key figures. The generated text covers major themes like humanism and art but omits some key points such as the spread to Europe and other fields like literature and science."
+}

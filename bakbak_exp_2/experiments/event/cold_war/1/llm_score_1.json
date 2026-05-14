@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 5,
+  "factual_consistency": 1.0,
+  "coverage": 0.4444444444444444,
+  "reasoning": "All facts in generated text align with reference; no contradictions. Key reference elements like Marshall Plan, Berlin Blockade, Warsaw Pact, Soviet-Afghan War, and Cold War end are omitted, reducing coverage."
+}

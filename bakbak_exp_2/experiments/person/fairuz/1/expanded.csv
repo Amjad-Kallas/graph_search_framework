@@ -1,0 +1,4 @@
+,iteration,path_expanded,nb_expanded,node_expanded,score
+0,1,3-ingoing-http://www.wikidata.org/prop/direct/P175;http://www.wikidata.org/entity/Q3247658,1,['http://www.wikidata.org/entity/Q3247658'],2
+1,2,3-ingoing-http://www.w3.org/2002/07/owl#sameAs;http://www.wikidata.org/entity/Q3247658,2,"['http://www.wikidata.org/entity/Q5348557', 'http://www.wikidata.org/entity/Q5430730']",1
+2,3,3-ingoing-http://www.wikidata.org/prop/direct/P161;http://www.wikidata.org/entity/Q3247658,1,['http://www.wikidata.org/entity/Q20793289'],1

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 7,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.6666666666666666,
+  "reasoning": "Factual consistency is high as there are no contradictions with the reference text. Coverage is good but misses some major aspects like the Five Black Categories and the Down to the Countryside Movement."
+}

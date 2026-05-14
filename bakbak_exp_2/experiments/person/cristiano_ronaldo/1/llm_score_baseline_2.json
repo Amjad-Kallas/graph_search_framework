@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 6,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contradicts the reference on the number of Champions League titles with Real Madrid. It covers the main career phases but omits many key achievements and records."
+}

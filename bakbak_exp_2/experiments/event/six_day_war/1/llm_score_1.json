@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 5,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.4444444444444444,
+  "reasoning": "The generated text's facts align with the reference without contradictions, though it adds unconfirmed details about specific battles. The generated text covers some key aspects of the war but omits major points such as the context, Syria's role, ceasefire details, and aftermath."
+}

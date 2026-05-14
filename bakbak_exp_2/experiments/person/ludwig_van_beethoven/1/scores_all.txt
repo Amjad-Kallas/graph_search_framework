@@ -1,0 +1,160 @@
+All 157 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Johann van Beethoven  |  combined=0.900  wiki=0.900  llm=0.900 ***
+  2. Violin Sonata No 9  |  combined=0.895  wiki=0.887  llm=0.900 ***
+  3. Missa Solemnis  |  combined=0.883  wiki=0.858  llm=0.900 ***
+  4. Symphony No 9  |  combined=0.869  wiki=0.823  llm=0.900 ***
+  5. Fidelio  |  combined=0.869  wiki=0.823  llm=0.900 ***
+  6. Joseph Haydn  |  combined=0.867  wiki=0.818  llm=0.900 ***
+  7. Christian Gottlob Neefe  |  combined=0.866  wiki=0.815  llm=0.900 ***
+  8. Ferdinand Ries  |  combined=0.863  wiki=0.808  llm=0.900 ***
+  9. Violin Concerto  |  combined=0.859  wiki=0.797  llm=0.900 ***
+ 10. Symphony No 3  |  combined=0.856  wiki=0.791  llm=0.900 ***
+ 11. Johann Georg Albrechtsberger  |  combined=0.853  wiki=0.782  llm=0.900 ***
+ 12. Eroica Variations  |  combined=0.846  wiki=0.765  llm=0.900 ***
+ 13. Count Ferdinand Ernst Gabriel von Waldstein  |  combined=0.817  wiki=0.693  llm=0.900 ***
+ 14. Diabelli Variations  |  combined=0.814  wiki=0.684  llm=0.900 ***
+ 15. Symphony No 1  |  combined=0.805  wiki=0.812  llm=0.800 ***
+ 16. Symphony No 2  |  combined=0.775  wiki=0.887  llm=0.700 ***
+ 17. Triple Concerto  |  combined=0.774  wiki=0.735  llm=0.800 ***
+ 18. Symphony No 6  |  combined=0.769  wiki=0.872  llm=0.700 ***
+ 19. The Creatures of Prometheus  |  combined=0.763  wiki=0.708  llm=0.800 ***
+ 20. Christ on the Mount of Olives  |  combined=0.762  wiki=0.706  llm=0.800 ***
+ 21. Coriolan Overture  |  combined=0.758  wiki=0.694  llm=0.800 ***
+ 22. Symphony No 7  |  combined=0.755  wiki=0.839  llm=0.700 ***
+ 23. Symphony No 8  |  combined=0.748  wiki=0.820  llm=0.700 ***
+ 24. Violin Sonata No 10  |  combined=0.747  wiki=0.818  llm=0.700 ***
+ 25. Symphony No 4  |  combined=0.739  wiki=0.797  llm=0.700 ***
+ 26. String Quartet No 4 Beethoven  |  combined=0.720  wiki=0.899  llm=0.600 ***
+ 27. Karl Alois Prince Lichnowsky  |  combined=0.711  wiki=0.726  llm=0.700 ***
+ 28. Joseph Franz von Lobkowitz  |  combined=0.710  wiki=0.724  llm=0.700 ***
+ 29. Johann Georg von Browne Camus  |  combined=0.709  wiki=0.723  llm=0.700 ***
+ 30. Violin Sonata No 5  |  combined=0.692  wiki=0.831  llm=0.600 ***
+ 31. The Ruins of Athens  |  combined=0.692  wiki=0.679  llm=0.700 ***
+ 32. Leonore  |  combined=0.661  wiki=0.303  llm=0.900 ***
+ 33. Horn Sonata  |  combined=0.657  wiki=0.893  llm=0.500 ***
+ 34. Three Piano Sonatas WoO 47  |  combined=0.654  wiki=0.885  llm=0.500 ***
+ 35. Joseph Sonnleithner  |  combined=0.654  wiki=0.584  llm=0.700 ***
+ 36. String Quartet No 9 Beethoven  |  combined=0.627  wiki=0.518  llm=0.700
+ 37. Octet  |  combined=0.619  wiki=0.796  llm=0.500
+ 38. String Quartet No 7 Beethoven  |  combined=0.617  wiki=0.492  llm=0.700
+ 39. String Trios Op 9  |  combined=0.610  wiki=0.774  llm=0.500
+ 40. String Quartet No 8 Beethoven  |  combined=0.604  wiki=0.460  llm=0.700
+ 41. Moritz Reichsgraf von Fries  |  combined=0.594  wiki=0.434  llm=0.700
+ 42. The Consecration of the House  |  combined=0.574  wiki=0.686  llm=0.500
+ 43. Kaspar Anton Karl van Beethoven  |  combined=0.569  wiki=0.822  llm=0.400
+ 44. String Quartet No 6 Beethoven  |  combined=0.567  wiki=0.517  llm=0.600
+ 45. Karl van Beethoven  |  combined=0.560  wiki=0.801  llm=0.400
+ 46. String Quartet No 5 Beethoven  |  combined=0.560  wiki=0.501  llm=0.600
+ 47. Kakadu Variations  |  combined=0.544  wiki=0.609  llm=0.500
+ 48. Yorckscher Marsch  |  combined=0.523  wiki=0.708  llm=0.400
+ 49. Ten National Airs with Variations for Flute and Piano  |  combined=0.510  wiki=0.676  llm=0.400
+ 50. Violin Sonata No 8  |  combined=0.507  wiki=0.518  llm=0.500
+ 51. Egmont  |  combined=0.498  wiki=0.045  llm=0.800
+ 52. Friedrich von Matthisson  |  combined=0.401  wiki=0.554  llm=0.300
+ 53. Piano Sonata No 12  |  combined=0.400  wiki=1.000  llm=0.000
+ 54. Piano Sonata No 22  |  combined=0.379  wiki=0.947  llm=0.000
+ 55. Piano Sonata No 8  |  combined=0.378  wiki=0.944  llm=0.000
+ 56. Piano Sonata No 27  |  combined=0.376  wiki=0.940  llm=0.000
+ 57. Piano Sonata No 31  |  combined=0.371  wiki=0.928  llm=0.000
+ 58. Piano Sonata No 26  |  combined=0.366  wiki=0.915  llm=0.000
+ 59. Piano Sonata No 28  |  combined=0.365  wiki=0.912  llm=0.000
+ 60. Piano Concerto No 2  |  combined=0.360  wiki=0.901  llm=0.000
+ 61. Dorothea von Ertmann  |  combined=0.354  wiki=0.434  llm=0.300
+ 62. Piano Sonata No 11  |  combined=0.353  wiki=0.882  llm=0.000
+ 63. Piano Sonata No 24  |  combined=0.351  wiki=0.879  llm=0.000
+ 64. Piano Sonata No 29  |  combined=0.351  wiki=0.876  llm=0.000
+ 65. Beethoven s piano sonatas  |  combined=0.350  wiki=0.875  llm=0.000
+ 66. Piano Concerto No 3  |  combined=0.344  wiki=0.861  llm=0.000
+ 67. Piano Sonata No 25  |  combined=0.344  wiki=0.860  llm=0.000
+ 68. Piano Concerto No 1 Beethoven  |  combined=0.344  wiki=0.860  llm=0.000
+ 69. String Quartet No 10 Beethoven  |  combined=0.343  wiki=0.857  llm=0.000
+ 70. String Quartet No 16 Beethoven  |  combined=0.340  wiki=0.851  llm=0.000
+ 71. Piano Trios Op 1  |  combined=0.340  wiki=0.850  llm=0.000
+ 72. Piano Sonata No 4  |  combined=0.340  wiki=0.850  llm=0.000
+ 73. Piano Trio Op 97  |  combined=0.340  wiki=0.849  llm=0.000
+ 74. Piano Sonata No 2  |  combined=0.339  wiki=0.847  llm=0.000
+ 75. String Quartet No 12 Beethoven  |  combined=0.338  wiki=0.846  llm=0.000
+ 76. Piano Sonata No 3  |  combined=0.336  wiki=0.839  llm=0.000
+ 77. Piano Sonata No 30  |  combined=0.335  wiki=0.838  llm=0.000
+ 78. Piano Concerto No 4  |  combined=0.335  wiki=0.838  llm=0.000
+ 79. Piano Sonata No 7  |  combined=0.335  wiki=0.837  llm=0.000
+ 80. Piano Sonata No 16  |  combined=0.333  wiki=0.832  llm=0.000
+ 81. Piano Sonata No 1  |  combined=0.333  wiki=0.831  llm=0.000
+ 82. 32 Variations in C minor  |  combined=0.330  wiki=0.825  llm=0.000
+ 83. Piano Trio Op 11  |  combined=0.330  wiki=0.825  llm=0.000
+ 84. Piano Sonata No 23  |  combined=0.330  wiki=0.824  llm=0.000
+ 85. String Quartet No 13 Beethoven  |  combined=0.328  wiki=0.820  llm=0.000
+ 86. Piano Sonata No 6  |  combined=0.328  wiki=0.820  llm=0.000
+ 87. Piano Sonata No 5  |  combined=0.326  wiki=0.814  llm=0.000
+ 88. Septet  |  combined=0.324  wiki=0.810  llm=0.000
+ 89. Carl Czerny  |  combined=0.324  wiki=0.809  llm=0.000
+ 90. Bagatelles Op 33  |  combined=0.321  wiki=0.803  llm=0.000
+ 91. Piano Trios Op 70  |  combined=0.320  wiki=0.800  llm=0.000
+ 92. Piano Sonata No 15  |  combined=0.320  wiki=0.799  llm=0.000
+ 93. Piano Concerto No 0  |  combined=0.317  wiki=0.793  llm=0.000
+ 94. Piano Sonata No 32  |  combined=0.316  wiki=0.789  llm=0.000
+ 95. Piano Concerto No 5  |  combined=0.314  wiki=0.785  llm=0.000
+ 96. Piano Sonata No 21  |  combined=0.311  wiki=0.777  llm=0.000
+ 97. String Quartet No 15 Beethoven  |  combined=0.311  wiki=0.777  llm=0.000
+ 98. Cello Sonata No 3  |  combined=0.310  wiki=0.776  llm=0.000
+ 99. String Quartet No 14 Beethoven  |  combined=0.310  wiki=0.775  llm=0.000
+100. Bagatelles Op 119  |  combined=0.304  wiki=0.760  llm=0.000
+101. Quintet for Piano and Winds  |  combined=0.303  wiki=0.757  llm=0.000
+102. Choral Fantasy  |  combined=0.302  wiki=0.756  llm=0.000
+103. Symphony No 10  |  combined=0.300  wiki=0.751  llm=0.000
+104. Bagatelles Op 126  |  combined=0.299  wiki=0.748  llm=0.000
+105. Rage Over a Lost Penny  |  combined=0.297  wiki=0.742  llm=0.000
+106. String Quartet No 11 Beethoven  |  combined=0.297  wiki=0.742  llm=0.000
+107. Rodolphe Kreutzer  |  combined=0.296  wiki=0.739  llm=0.000
+108. Franz Schubert  |  combined=0.294  wiki=0.736  llm=0.000
+109. Wolfgang Amadeus Mozart  |  combined=0.288  wiki=0.720  llm=0.000
+110. Piano Concerto No 6  |  combined=0.284  wiki=0.709  llm=0.000
+111. Adelaide  |  combined=0.275  wiki=0.688  llm=0.000
+112. Antonio Salieri  |  combined=0.275  wiki=0.688  llm=0.000
+113. Andante favori  |  combined=0.273  wiki=0.683  llm=0.000
+114. Anton Diabelli  |  combined=0.272  wiki=0.681  llm=0.000
+115. Ludwig van  |  combined=0.267  wiki=0.667  llm=0.000
+116. Anthem of Europe  |  combined=0.249  wiki=0.623  llm=0.000
+117. Muzio Clementi  |  combined=0.239  wiki=0.598  llm=0.000
+118. Piano Sonata No 13  |  combined=0.238  wiki=0.596  llm=0.000
+119. Piano Sonata No 18  |  combined=0.238  wiki=0.595  llm=0.000
+120. Piano Sonata No 9  |  combined=0.237  wiki=0.592  llm=0.000
+121. Piano Sonata No 17  |  combined=0.237  wiki=0.591  llm=0.000
+122. Johann Baptist Schenk  |  combined=0.232  wiki=0.580  llm=0.000
+123. Piano Sonatas Nos 19 and 20  |  combined=0.222  wiki=0.556  llm=0.000
+124. The Magnificent Rebel  |  combined=0.221  wiki=0.402  llm=0.100
+125. Piano Sonata No 10  |  combined=0.221  wiki=0.551  llm=0.000
+126. String Quartet No 3  |  combined=0.220  wiki=0.550  llm=0.000
+127. Copying Beethoven  |  combined=0.220  wiki=0.550  llm=0.000
+128. String Quartet No 2  |  combined=0.215  wiki=0.537  llm=0.000
+129. Daniel Read  |  combined=0.210  wiki=0.525  llm=0.000
+130. String Quartet No 1 Beethoven  |  combined=0.206  wiki=0.514  llm=0.000
+131. Beethoven Lives Upstairs  |  combined=0.201  wiki=0.503  llm=0.000
+132. Piano Sonata No 14  |  combined=0.199  wiki=0.498  llm=0.000
+133. Rise O Voices of Rhodesia  |  combined=0.192  wiki=0.481  llm=0.000
+134. Friedrich Schiller  |  combined=0.176  wiki=0.441  llm=0.000
+135. Archduke Maximilian Francis of Austria  |  combined=0.168  wiki=0.420  llm=0.000
+136. Maximiliane Brentano  |  combined=0.165  wiki=0.412  llm=0.000
+137. Symphony No 5  |  combined=0.149  wiki=0.372  llm=0.000
+138. Fantasia  |  combined=0.117  wiki=0.294  llm=0.000
+139. The Orchestra Conductor  |  combined=0.117  wiki=0.292  llm=0.000
+140. Stephan von Breuning  |  combined=0.113  wiki=0.281  llm=0.000
+141. Passion  |  combined=0.112  wiki=0.279  llm=0.000
+142. Dreaming Lips  |  combined=0.107  wiki=0.268  llm=0.000
+143. Andrey Razumovsky  |  combined=0.103  wiki=0.257  llm=0.000
+144. First Name Carmen  |  combined=0.094  wiki=0.235  llm=0.000
+145. Fantasia 2000  |  combined=0.089  wiki=0.224  llm=0.000
+146. Two or Three Things I Know About Her  |  combined=0.071  wiki=0.176  llm=0.000
+147. Viridiana  |  combined=0.065  wiki=0.162  llm=0.000
+148. A Tale of Springtime  |  combined=0.053  wiki=0.131  llm=0.000
+149. Drumroll  |  combined=0.053  wiki=0.131  llm=0.000
+150. Black Sin  |  combined=0.049  wiki=0.122  llm=0.000
+151. Taking Sides  |  combined=0.046  wiki=0.115  llm=0.000
+152. A Married Woman  |  combined=0.044  wiki=0.110  llm=0.000
+153. Elephant  |  combined=0.041  wiki=0.102  llm=0.000
+154. The Reader  |  combined=0.039  wiki=0.097  llm=0.000
+155. Visit or Memories and Confessions  |  combined=0.035  wiki=0.087  llm=0.000
+156. Rejected  |  combined=0.031  wiki=0.077  llm=0.000
+157. All the Boys Are Called Patrick  |  combined=0.000  wiki=0.000  llm=0.000

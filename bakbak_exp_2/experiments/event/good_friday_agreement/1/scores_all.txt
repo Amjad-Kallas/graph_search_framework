@@ -1,0 +1,7 @@
+All 4 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Kosovo War  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. 1998 Masters  |  combined=0.197  wiki=0.493  llm=0.000 ***
+  3. 1998 FIFA World Cup  |  combined=0.085  wiki=0.212  llm=0.000 ***
+  4. 1998 Winter Olympics  |  combined=0.000  wiki=0.000  llm=0.000 ***

@@ -1,0 +1,23 @@
+All 20 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. The Two Fridas  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  2. Diego and I  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  3. Self Portrait with Thorn Necklace and Hummingbird  |  combined=0.930  wiki=0.974  llm=0.900 ***
+  4. Cristina Kahlo  |  combined=0.928  wiki=0.969  llm=0.900 ***
+  5. The Broken Column  |  combined=0.906  wiki=0.915  llm=0.900 ***
+  6. Self Portrait with Monkey  |  combined=0.906  wiki=0.915  llm=0.900 ***
+  7. Frida and Diego Rivera  |  combined=0.876  wiki=0.989  llm=0.800 ***
+  8. Dolores Olmedo  |  combined=0.875  wiki=0.988  llm=0.800 ***
+  9. Guillermo Kalho  |  combined=0.857  wiki=0.942  llm=0.800 ***
+ 10. Diego Rivera  |  combined=0.854  wiki=0.635  llm=1.000 ***
+ 11. What the Water Gave Me  |  combined=0.839  wiki=0.749  llm=0.900 ***
+ 12. The Wounded Deer  |  combined=0.830  wiki=0.876  llm=0.800 ***
+ 13. My Dress Hangs There  |  combined=0.777  wiki=0.743  llm=0.800 ***
+ 14. The Frame  |  combined=0.763  wiki=0.856  llm=0.700 ***
+ 15. The Wounded Table  |  combined=0.755  wiki=0.839  llm=0.700 ***
+ 16. Tina Modotti  |  combined=0.512  wiki=0.231  llm=0.700 ***
+ 17. Daniel Filipacchi  |  combined=0.084  wiki=0.209  llm=0.000 ***
+ 18. A Conger Goodyear  |  combined=0.055  wiki=0.138  llm=0.000 ***
+ 19. Rudolf Ernest Langer  |  combined=0.031  wiki=0.079  llm=0.000 ***
+ 20. Laura Mulvey  |  combined=0.000  wiki=0.000  llm=0.000 ***

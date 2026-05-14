@@ -1,0 +1,279 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:22 a sem:Event ;
+    rdfs:comment "\"22\" is a song by the American singer-songwriter Taylor Swift from her fourth studio album, Red (2012). It was released as the album's fourth single on March 12, 2013, by Big Machine Records. Written and produced by Swift, Max Martin, and Shellback, \"22\" combines pop subgenres such as bubblegum pop and dance-pop with disco and 1990s rock." .
+
+ng:All_Too_Well a sem:Event ;
+    rdfs:comment "\"All Too Well\" is a song by the American singer-songwriter Taylor Swift. Written by Swift and Liz Rose, the song was first produced by Swift and Nathan Chapman for her fourth studio album, Red (2012). After a 2019 dispute regarding the ownership of Swift's masters, she re-recorded the song as \"All Too Well (Taylor's Version)\" and released an unabridged \"10 Minute Version\" as part of the re-recorded album Red (Taylor's Version) in November 2021." .
+
+ng:Ashley_Tisdale a sem:Event ;
+    sem:hasTimeStamp "1985-07-02"^^xsd:date ;
+    rdfs:comment "Ashley Michelle Tisdale-French (born July 2, 1985) is an American actress and singer. During her childhood, she was featured in over 100 advertisements and had minor roles on-screen and in theatre. She achieved mainstream success as Maddie Fitzpatrick in the Disney Channel teen sitcom The Suite Life of Zack &amp; Cody (2005–2008)." .
+
+ng:Austin_Swift a sem:Event ;
+    sem:hasTimeStamp "1992-03-11"^^xsd:date ;
+    rdfs:comment "Austin Kingsley Swift (born March 11, 1992) is an American music executive, producer, and actor who has appeared in films such as Live by Night and I.T. (both 2016). The younger brother of singer-songwriter Taylor Swift, he has appeared in and produced several of her music videos, and manages elements of her music licensing for multimedia uses. Swift was born in West Reading, Pennsylvania." .
+
+ng:B_o_B a sem:Event ;
+    sem:hasTimeStamp "1988-11-15"^^xsd:date ;
+    rdfs:comment "Bobby Ray Simmons Jr. (born November 15, 1988), known professionally as B.o.B, is an American rapper, singer, songwriter, and record producer. Raised in Decatur, Georgia, Simmons signed with record producer Jim Jonsin's Rebel Rock Entertainment in 2006. Two years later, he signed a joint venture recording contract with fellow Georgia rapper T.I.'s Grand Hustle Records, an imprint of Atlantic Records." .
+
+ng:Back_to_December a sem:Event ;
+    rdfs:comment "\"Back to December\" is a song written and recorded by the American singer-songwriter Taylor Swift for her third studio album, Speak Now (2010). Big Machine Records released it as the album's second single on November 15, 2010. Produced by Swift and Nathan Chapman, \"Back to December\" is a country pop song and a power ballad that incorporates a string section." .
+
+ng:Bad_Blood a sem:Event ;
+    rdfs:comment "\"Bad Blood\" is a song by the American singer-songwriter Taylor Swift from her fifth studio album, 1989 (2014). She wrote the song with the Swedish producers Max Martin and Shellback. It is a pop song using keyboards and hip-hop-inspired drum beats, and the lyrics are about betrayal by a close friend." .
+
+ng:Beautiful_Eyes a sem:Event ;
+    rdfs:comment "Beautiful Eyes is the second extended play (EP) by the American singer-songwriter Taylor Swift. It was released as a Walmart exclusive on July 15, 2008, through Big Machine Records. In later years, after the MP3 service got closed down, Walmart transferred the rights to Amazon for their Amazon MP3 service, where it remains exclusively available in the United States." .
+
+ng:Begin_Again a sem:Event ;
+    rdfs:comment "\"Begin Again\" is a song written and recorded by the American singer-songwriter Taylor Swift for her fourth studio album, Red (2012). It was released as the second single from Red on October 1, 2012, by Big Machine Records. Produced by Swift, Dann Huff, and Nathan Chapman, \"Begin Again\" is a gentle country, folk-pop, and soft rock ballad with arpeggiated acoustic guitar, steel guitar, and percussion." .
+
+ng:Blank_Space a sem:Event ;
+    rdfs:comment "\"Blank Space\" is a song by the American singer-songwriter Taylor Swift and the second single from her fifth studio album, 1989 (2014). Swift wrote the song with its producers, Max Martin and Shellback. Inspired by the media scrutiny on Swift's love life that affected her girl-next-door reputation, \"Blank Space\" portrays a flirtatious woman with multiple romantic attachments." .
+
+ng:Both_of_Us a sem:Event ;
+    rdfs:comment "\"Both of Us\" is a song by American rapper B.o.B, released on May 22, 2012, as the third single from his second studio album, Strange Clouds (2012). The song features vocals from American singer-songwriter Taylor Swift. The artists co-wrote the song alongside Ammar Malik and the song's producers Dr." .
+
+ng:Breathe a sem:Event ;
+    rdfs:comment "\"Breathe\" is a song by Taylor Swift featuring Colbie Caillat from Swift's second studio album, Fearless (2008). Swift wrote the song with Caillat and produced it with Nathan Chapman. A country pop and pop rock ballad, \"Breathe\" incorporates strummed acoustic instruments and a string section." .
+
+ng:Byron_Gallimore a sem:Event ;
+    sem:hasTimeStamp "2000-01-01"^^xsd:date ;
+    rdfs:comment "Byron Gallimore (born in Puryear, Tennessee) is an American record producer known for his work in the field of country music. He has worked with artists Tim McGraw, Faith Hill, Sugarland, Lee Ann Womack, and Jo Dee Messina. Hill's 1999 album Breathe won him the Grammy Award for Best Country Album." .
+
+ng:Call_It_What_You_Want_Taylor_Swift_song a sem:Event ;
+    rdfs:comment "\"Call It What You Want\" is a song by the American singer-songwriter Taylor Swift from her sixth studio album, Reputation (2017). Written and produced by Swift and Jack Antonoff, the song is a mid-tempo electropop and synth-pop ballad with R&amp;B-trap crossover elements. Its lyrics are about the transformative power of a romantic relationship that helps Swift cope with the tumultuous outer world." .
+
+ng:Calvin_Harris a sem:Event ;
+    sem:hasTimeStamp "1984-01-17"^^xsd:date ;
+    rdfs:comment "Adam Richard Wiles (born 17 January 1984), known professionally as Calvin Harris (and sometimes under the stage name Love Regenerator), is a Scottish DJ, record producer, singer, and songwriter. His debut studio album, I Created Disco (2007) was preceded by the singles \"Acceptable in the 80s\" and \"The Girls\", both of which achieved commercial success in Europe, as well as in Australia. His second album, Ready for the Weekend (2009), debuted atop the official album charts in Scotland, as well as in the United Kingdom, and its lead single, \"I'm Not Alone\", became his first song to reach number one" .
+
+ng:Carly_Rae_Jepsen a sem:Event ;
+    sem:hasTimeStamp "1985-11-21"^^xsd:date ;
+    rdfs:comment "Carly Rae Jepsen (born November 21, 1985) is a Canadian singer, songwriter and actress. After studying musical theatre for most of her school life and while in university, Jepsen garnered mainstream attention after placing third on the fifth season of Canadian Idol in 2007. In 2008, Jepsen released her folk-influenced debut studio album, Tug of War, in Canada before it was internationally released in 2011." .
+
+ng:Change a sem:Event ;
+    rdfs:comment "\"Change\" is a song by the American singer-songwriter Taylor Swift, released on August 8, 2008, to promote the AT&amp;T Team USA Soundtrack for the United States team at the 2008 Olympics. \"Change\" was included in Swift's second studio album, Fearless (2008). Swift wrote the track after winning the Horizon Award at the 2007 Country Music Association Awards; its lyrics are about overcoming obstacles to achieve victory." .
+
+ng:Colbie_Caillat a sem:Event ;
+    sem:hasTimeStamp "1985-05-28"^^xsd:date ;
+    rdfs:comment "Colbie Marie Caillat ( KOHL-bee kal-AY; born May 28, 1985) is an American singer-songwriter. She rose to fame on the social networking website Myspace in 2005. She signed with Universal Republic Records to release her debut studio album, Coco (2007), which was supported by the singles \"Bubbly\" and \"Realize\", peaked at number five on the Billboard 200, and received double platinum certification by the Recording Industry Association of America (RIAA)." .
+
+ng:Ed_Sheeran a sem:Event ;
+    sem:hasTimeStamp "1991-02-17"^^xsd:date ;
+    rdfs:comment "Edward Christopher Sheeran ( SHEER-ən; born 17 February 1991) is an English singer-songwriter and musician. Born in Halifax, West Yorkshire, and raised in Framlingham, Suffolk, he began writing songs around the age of eleven. In early 2011, Sheeran independently released the extended play No." .
+
+ng:End_Game a sem:Event ;
+    rdfs:comment "\"End Game\" is a song by the American singer-songwriter Taylor Swift featuring the English singer-songwriter Ed Sheeran and the American rapper Future. Written alongside producers Max Martin and Shellback, it was released on November 14, 2017, as the third single from her sixth studio album, Reputation. \"End Game\" is an incorporation of pop rap, boom bap, and R&amp;B. It features loose vocal cadences and hip-hop-influenced drums that create trap beats." .
+
+ng:Everything_Has_Changed a sem:Event ;
+    rdfs:comment "\"Everything Has Changed\" is a song by the American singer-songwriter Taylor Swift featuring the English singer-songwriter Ed Sheeran from Swift's fourth studio album, Red (2012). Big Machine Records released it as the sixth single from the album on July 14, 2013. The song's music video, directed by Philip Andelman, was released on June 6, 2013." .
+
+ng:Eyes_Open a sem:Event ;
+    rdfs:comment "\"Eyes Open\" is a song written and recorded by the American singer-songwriter Taylor Swift for the soundtrack to the 2012 film The Hunger Games. Produced by Swift and Nathan Chapman, it is an alternative rock power ballad instrumented with chiming guitars, evoking pop-punk and space rock sounds. The lyrics are about resilience during hardships, told from the perspective of the film's protagonist, Katniss Everdeen." .
+
+ng:Fearless a sem:Event ;
+    rdfs:comment "\"Fearless\" is a song by the American singer-songwriter Taylor Swift and the title track of her second studio album, Fearless (2008). She wrote the track with Liz Rose and Hillary Lindsey, and produced it with Nathan Chapman. A pop rock, country pop, and country rock song, \"Fearless\" is instrumented by booming drums and chiming guitars.",
+        "Fearless is the second studio album by the American singer-songwriter Taylor Swift. It was released in North America on November 11, 2008, by Big Machine Records. Inspired by Swift's teenage perspectives, Fearless explores love and life using fairy tale-inspired lyrical imagery." .
+
+ng:Fearless_Tour a sem:Event ;
+    rdfs:comment "The Fearless Tour was the debut concert tour by the American singer-songwriter Taylor Swift, in support of her second studio album, Fearless (2008). It began in Evansville, Indiana, United States, on April 23, 2009, and concluded in Cavendish, Canada, on July 10, 2010. Swift's first headlining concert tour after she had opened shows for other musicians to support her debut studio album Taylor Swift (2006), it covered 118 dates and visited North America, England, Australia, and Japan." .
+
+ng:Fifteen a sem:Event ;
+    rdfs:comment "\"Fifteen\" is a song written and recorded by the American singer-songwriter Taylor Swift for her second studio album, Fearless (2008). Inspired by Swift's high-school freshman year, the lyrics narrate how she and her friend Abigail Anderson, both at 15, experience teenage heartbreak and realize life aspirations. Swift included the track on the album after Anderson consented to the personal references." .
+
+ng:Gary_Lightbody a sem:Event ;
+    sem:hasTimeStamp "1976-06-15"^^xsd:date ;
+    rdfs:comment "Gareth John Lightbody (born 15 June 1976) is a musician from Northern Ireland. He is the lead singer and rhythm guitarist of the alternative rock band Snow Patrol. He also founded the musical supergroups the Reindeer Section and Tired Pony." .
+
+ng:George_Michael a sem:Event ;
+    sem:hasTimeStamp "1963-06-25"^^xsd:date ;
+    rdfs:comment "George Michael (born Georgios Kyriakos Panayiotou; 25 June 1963 – 25 December 2016) was an English singer-songwriter and record producer. Regarded as a pop culture icon, he is one of the best-selling recording artists of all time. Michael was known as a creative force in songwriting, vocal performance, and visual presentation." .
+
+ng:Gorgeous_Taylor_Swift_song a sem:Event ;
+    rdfs:comment "\"Gorgeous\" is a song by the American singer-songwriter Taylor Swift from her sixth studio album, Reputation (2017). She wrote the song with its producers, Max Martin and Shellback. A bubblegum pop, electropop, and synth-pop song, \"Gorgeous\" features a loop instrumented by minimal hip-hop drum machine beats, synthesizers, occasional acoustic guitars, and a triangle ding before the refrain." .
+
+ng:Half_of_My_Heart a sem:Event ;
+    rdfs:comment "\"Half of My Heart\" is a song by American singer-songwriter John Mayer featuring American singer-songwriter Taylor Swift. It is the third single from Mayer's 2009 album, Battle Studies. Mayer was nominated for a Grammy Award for Best Male Pop Vocal Performance in 2011 for his solo version of the song." .
+
+ng:Hey_Stephen a sem:Event ;
+    rdfs:comment "\"Hey Stephen\" is a song written and recorded by the American singer-songwriter Taylor Swift for her second studio album, Fearless (2008). It is a country pop, folk-pop, and teen pop song about an unrequited love, inspired by a real-life infatuation. Produced by Swift and Nathan Chapman, \"Hey Stephen\" features drums inspired by girl group records, an upright bass that propels its groove, and a subdued Hammond B-3 organ." .
+
+ng:Holy_Ground a sem:Event ;
+    rdfs:comment "\"Holy Ground\" is a song written and recorded by the American singer-songwriter Taylor Swift for her fourth studio album, Red (2012). Produced by Jeff Bhasker, \"Holy Ground\" is an upbeat song combining arena rock, country rock, and heartland rock with insistent drums. In the lyrics, the narrator reminisces about a good moment in a failed relationship; she describes where she and the ex-lover once stood as \"holy ground\"." .
+
+ng:I_Knew_You_Were_Trouble a sem:Event ;
+    rdfs:comment "\"I Knew You Were Trouble\" is a song by the American singer-songwriter Taylor Swift from her fourth studio album, Red (2012). She wrote it with its producers, Max Martin and Shellback. A dubstep and pop track, \"I Knew You Were Trouble\" has a production based around electric guitars and synthesizers, accentuated its refrain with a wobble bass and Swift's distorted vocals; critics found the dubstep production a radical departure from Swift's previous country pop sounds." .
+
+ng:If_This_Was_a_Movie a sem:Event ;
+    rdfs:comment "\"If This Was a Movie\" is a song by the American singer-songwriter Taylor Swift, originally released as part of the physical deluxe edition of her third studio album Speak Now in 2010. She wrote the track with Martin Johnson and produced it with Nathan Chapman. A pop rock song, \"If This Was a Movie\" includes both acoustic and electric string instruments, drums, key notes, and full orchestration." .
+
+ng:Innocent a sem:Event ;
+    rdfs:comment "\"Innocent\" is a song written and recorded by the American singer-songwriter Taylor Swift from her third studio album, Speak Now (2010). Produced by Swift and Nathan Chapman, the song was written in response to Kanye West's interruption of her acceptance speech at the 2009 MTV Video Music Awards, feeling the need to sympathize with him after the public outrage he received. A gentle folk-pop and alternative country ballad with tender vocals, its lyrics are about a protagonist's encouragement of someone who has committed wrongdoings, claiming them to hold innocence and believing that they could redeem themself." .
+
+ng:Jack_Antonoff a sem:Event ;
+    sem:hasTimeStamp "1984-03-31"^^xsd:date ;
+    rdfs:comment "Jack Michael Antonoff (born March 31, 1984) is an American singer, songwriter, multi-instrumentalist, and music producer. He is the lead vocalist of the rock band Bleachers, and previously the guitarist and drummer for the pop rock band Fun and the lead vocalist of the indie rock band Steel Train. Antonoff has produced and co-written songs with other music acts such as Taylor Swift, Lorde, Lana Del Rey, St." .
+
+ng:Jacknife_Lee a sem:Event ;
+    sem:hasTimeStamp "2000-01-01"^^xsd:date ;
+    rdfs:comment "Garret \"Jacknife\" Lee is an Irish music producer and mixer. He has worked with a variety of artists, including the Cars, U2, R.E.M., the Killers, Robbie Williams, Snow Patrol, Bloc Party, Two Door Cinema Club, AFI, the Hives, Weezer, One Direction, Silversun Pickups, Editors, Modest Mouse, Lonnie Holley and Taylor Swift." .
+
+ng:Jim_Jonsin a sem:Event ;
+    sem:hasTimeStamp "1970-06-08"^^xsd:date ;
+    rdfs:comment "James Gregory Scheffer (born June 8, 1970), known professionally as Jim Jonsin, is an American record producer and songwriter from South Florida. He has produced for numerous musical artists, including Beyoncé, Kelly Rowland, Usher, Lil Wayne, Kid Cudi, Eminem, Pitbull, Yelawolf, Nelly, Mary J. Blige, Wiz Khalifa, Danity Kane and Jamie Foxx, among others. He won a Grammy Award for his work on Lil Wayne's 2008 single \"Lollipop,\" and received a nomination for Best Rap Album for his work on \"Whatever You Like\" by T.I. that same year." .
+
+ng:John_Mayer a sem:Event ;
+    sem:hasTimeStamp "1977-10-16"^^xsd:date ;
+    rdfs:comment "John Clayton Mayer ( MAY-ər; born October 16, 1977) is an American singer, songwriter, and guitarist. He attended Berklee College of Music in Boston, but he left for Atlanta in 1997 with fellow guitarist Clay Cook, with whom he formed the short-lived rock duo Lo-Fi Masters. After their split, Mayer continued to play at local clubs, refining his skills and gaining a minor following." .
+
+ng:John_Paul_White a sem:Event ;
+    sem:hasTimeStamp "1973-01-01"^^xsd:date ;
+    rdfs:comment "John Paul White (born August 4, 1972) is an American musician and former member of the Grammy Award-winning duo the Civil Wars. He restarted his solo career with his 2016 release, Beulah." .
+
+ng:Josh_Kear a sem:Event ;
+    sem:hasTimeStamp "1974-10-11"^^xsd:date ;
+    rdfs:comment "Joshua Peter Kear is a multi-Grammy Award winning songwriter based in Nashville, Tennessee. In 2007, Kear co-wrote Carrie Underwood's hit \"Before He Cheats\" with Chris Tompkins. The song dominated the US Hot Country Songs chart for five weeks and earned a Grammy Award for Best Country Song." .
+
+ng:Joy_Williams a sem:Event ;
+    sem:hasTimeStamp "1982-11-14"^^xsd:date ;
+    rdfs:comment "Joy Elizabeth Williams (born November 14, 1982) is an American singer-songwriter. The winner of four Grammy Awards, Williams has released five solo albums and four EPs since her self-titled debut in 2001. She was half of The Civil Wars duo from 2009 until 2014." .
+
+ng:Kendrick_Lamar a sem:Event ;
+    sem:hasTimeStamp "1987-06-17"^^xsd:date ;
+    rdfs:comment "Kendrick Lamar Duckworth (born June 17, 1987) is an American rapper, songwriter, and record producer. Rooted in West Coast hip-hop, his music features conscious, introspective lyrics, with political criticism and social commentary concerning African-American culture. Music journalists have listed Lamar among the greatest rappers of all time." .
+
+ng:Last_Christmas a sem:Event ;
+    rdfs:comment "\"Last Christmas\" is a song by the English duo Wham!, released on 3 December 1984 via CBS Records internationally and as a double A-side via Epic Records with \"Everything She Wants\" in multiple European countries. It was written and produced by the Wham! member George Michael." .
+
+ng:Long_Live a sem:Event ;
+    rdfs:comment "\"Long Live\" is a song written and recorded by the American singer-songwriter Taylor Swift for her third studio album, Speak Now (2010). Produced by Swift and Nathan Chapman, \"Long Live\" is a heartland rock and pop rock song featuring girl group harmonies and chiming rock guitars. The lyrics are about Swift's gratitude for her fans and bandmates, using high-school and royalty imagery to describe the accomplishments in the narrator's life." .
+
+ng:Look_What_You_Made_Me_Do a sem:Event ;
+    rdfs:comment "\"Look What You Made Me Do\" is a song by the American singer-songwriter Taylor Swift and the lead single from her sixth studio album, Reputation (2017). Big Machine Records released the song on August 24, 2017, following an approximately year-long hiatus due to the controversies that affected Swift's public image in 2016. Written and produced by Swift and Jack Antonoff, \"Look What You Made Me Do\" has an electronic production combining electropop, dance-pop, progressive pop, and synth-punk with elements of hip-hop, electroclash, industrial, and electro." .
+
+ng:Love_Story a sem:Event ;
+    rdfs:comment "\"Love Story\" is a song by the American singer-songwriter Taylor Swift. It was released as the lead single from her second studio album, Fearless, on September 15, 2008, by Big Machine Records. Inspired by a boy who was unpopular with her family and friends, Swift wrote the song using William Shakespeare's tragedy Romeo and Juliet as a reference point." .
+
+ng:Max_Martin a sem:Event ;
+    sem:hasTimeStamp "1971-02-26"^^xsd:date ;
+    rdfs:comment "Karl Martin Sandberg (born 26 February 1971), known professionally as Max Martin, is a Swedish record producer and songwriter. He rose to prominence in the late 1990s with songwriting credits on a string of hit singles, such as Britney Spears's \"...Baby One More Time\" (1998), the Backstreet Boys' \"I Want It That Way\" (1999), Celine Dion's \"That's the Way It Is\" (1999), and NSYNC's \"It's Gonna Be Me\" (2000). Martin has written or co-written 29 Billboard Hot 100 number-one singles; 27 of which he has produced or co-produced, an all-time record for the chart as of March&#160;2024." .
+
+ng:Mean a sem:Event ;
+    rdfs:comment "\"Mean\" is a song written and recorded by the American singer-songwriter Taylor Swift for her third studio album, Speak Now (2010). Big Machine Records released it to country radio in the United States as the album's third single on March 7, 2011. Produced by Swift and Nathan Chapman, \"Mean\" is a banjo-led country, country pop, and bluegrass track that incorporates fiddles, mandolins, hand claps, and multitracked vocals." .
+
+ng:Miley_Cyrus a sem:Event ;
+    sem:hasTimeStamp "1992-11-23"^^xsd:date ;
+    rdfs:comment "Miley Ray Cyrus ( MY-lee SY-rəs, born Destiny Hope Cyrus; November 23, 1992) is an American singer, songwriter, and actress. An influential figure in popular music, Cyrus is known for her evolving artistry and image reinventions. She was an established child actress before developing a successful entertainment career as an adult." .
+
+ng:Mine a sem:Event ;
+    rdfs:comment "\"Mine\" is a song written and recorded by the American singer-songwriter Taylor Swift from her third studio album, Speak Now (2010). Big Machine Records released the song as the lead single from the album on August 4, 2010. Produced by Swift and Nathan Chapman, \"Mine\" is a country pop song with elements of pop rock." .
+
+ng:New_Romantics a sem:Event ;
+    rdfs:comment "\"New Romantics\" is a song by the American singer-songwriter Taylor Swift from the deluxe edition of her fifth studio album, 1989 (2014). She wrote the song with the producers Max Martin and Shellback. The title references the New Romantic cultural movement of the 1970s and 1980s; the new wave music style of that era influenced the song's synth-pop production." .
+
+ng:Ours a sem:Event ;
+    rdfs:comment "\"Ours\" is a song written and recorded by the American singer-songwriter Taylor Swift for the deluxe edition of her third studio album, Speak Now (2010). It was released to US country radio as the album's last single on December 5, 2011, by Big Machine Records. Produced by Swift and Nathan Chapman, \"Ours\" is an understated country pop and country folk ballad with a folk-influenced production." .
+
+ng:Paula_Fernandes a sem:Event ;
+    sem:hasTimeStamp "1984-08-28"^^xsd:date ;
+    rdfs:comment "Paula Fernandes de Souza (Brazilian Portuguese: [ˈpawlɐ feʁˈnɐ̃dʒis]; born August 28, 1984, in Sete Lagoas, Minas Gerais) is a Brazilian singer-songwriter. She won Latin Grammy Awards for her albums Amanhecer in 2016 and for Origens (Ao Vivo em Sete Lagoas) in 2020." .
+
+ng:Picture_to_Burn a sem:Event ;
+    rdfs:comment "\"Picture to Burn\" is a song by the American singer-songwriter Taylor Swift from her debut studio album, Taylor Swift (2006). Big Machine Records released the song to US country radio on February 4, 2008, as the album's fourth single. Written by Swift and Liz Rose, the lyrics were inspired by a narcissistic classmate of Swift and depict a protagonist's vengeance against an ex-lover." .
+
+ng:Red a sem:Event ;
+    rdfs:comment "\"Red\" is a song by the American singer-songwriter Taylor Swift and the title track of her fourth studio album, Red (2012). She wrote the song and produced it with Nathan Chapman and Dann Huff. An incorporation of country, pop, and rock styles, \"Red\" features acoustic banjo and guitars alongside electronic vocal processing." .
+
+ng:Robert_Ellis_Orrall a sem:Event ;
+    sem:hasTimeStamp "1955-05-04"^^xsd:date ;
+    rdfs:comment "Robert Ellis Orrall (born May 4, 1955) is an American singer, songwriter, and record producer. Signed to RCA Records in 1980, Orrall debuted that year with the album \"Fixation\". His first Top 40 single was \"I Couldn't Say No\", a duet with Carlene Carter." .
+
+ng:Ronan a sem:Event ;
+    rdfs:comment "\"Ronan\" is a charity single by the American singer-songwriter Taylor Swift. It was released as an iTunes-exclusive download on September 8, 2012, by Big Machine Records. The lyrics are based on a blog by Maya Thompson about her three-year-old son Ronan, who died from neuroblastoma in 2011." .
+
+ng:Shake_It_Off a sem:Event ;
+    rdfs:comment "\"Shake It Off\" is a song by the American singer-songwriter Taylor Swift and the lead single from her fifth studio album, 1989 (2014). She wrote the song with its producers, Max Martin and Shellback. Inspired by the media scrutiny on Swift's public image, the lyrics are about her indifference to detractors and their negative remarks." .
+
+ng:Sounds_of_the_Season_The_Taylor_Swift_Holiday_Collection a sem:Event ;
+    rdfs:comment "The Taylor Swift Holiday Collection is the first extended play and Christmas record by the American singer-songwriter Taylor Swift. It was released as a Target exclusive on October 14, 2007, in partnership with Big Machine Records, and became available at other retailers on December 2, 2008. The Taylor Swift Holiday Collection consists of six tracks—four are cover versions of Christmas songs (\"Last Christmas\", \"Santa Baby\", \"Silent Night\", and \"White Christmas\") and two are original tracks written by Swift (\"Christmases When You Were Mine\" and \"Christmas Must Be Something More\")." .
+
+ng:Sparks_Fly a sem:Event ;
+    rdfs:comment "\"Sparks Fly\" is a song by the American singer-songwriter Taylor Swift from her third studio album, Speak Now (2010). Swift had written the track in 2006 and occasionally performed it live, and she produced it with Nathan Chapman for Speak Now after receiving fan requests. \"Sparks Fly\" is a pop rock, country pop, and power pop song with influences of country music and arena rock; its production incorporates dynamic electric guitars and subtle fiddles." .
+
+ng:Speak_Now a sem:Event ;
+    rdfs:comment "\"Speak Now\" is a song by the American singer-songwriter Taylor Swift from her third studio album, Speak Now. Before the album's release, Big Machine Records issued it on the iTunes Store on October 5, 2010. Swift wrote the track inspired by a conversation with a friend where she learned that a guy whom her friend had an infatuation with would marry someone else.",
+        "Speak Now is the third studio album by the American singer-songwriter Taylor Swift. It was released on October 25, 2010, through Big Machine Records. Swift wrote the album entirely herself while touring in 2009–2010 to reflect on her transition from adolescence to adulthood." .
+
+ng:Speak_Now_World_Tour a sem:Event ;
+    rdfs:comment "The Speak Now World Tour was the second concert tour by the American singer-songwriter Taylor Swift, in support of her third studio album, Speak Now (2010). It began in Singapore, on February 9, 2011, and concluded in Auckland, New Zealand, on March 18, 2012. Visiting Asia and Europe before kicking off in North America on May 27, 2011, the tour covered 110 shows across 19 territories." .
+
+ng:Starlight a sem:Event ;
+    rdfs:comment "Starlight is the light emitted by stars. It typically refers to visible electromagnetic radiation from stars other than the Sun, observable from Earth at night, although a component of starlight is observable from Earth during daytime. Sunlight is the term used for the Sun's starlight observed during daytime." .
+
+ng:Style a sem:Event ;
+    rdfs:comment "\"Style\" is a song by the American singer-songwriter Taylor Swift and the third single from her fifth studio album, 1989 (2014). She wrote the track with its producers Max Martin, Shellback, and Ali Payami. An incorporation of pop, funk, disco, and electronic styles, \"Style\" is built on an electric guitar riff, pulsing synthesizers, and dense vocal reverb." .
+
+ng:Superman a sem:Event ;
+    rdfs:comment "Superman is a superhero created by writer Jerry Siegel and artist Joe Shuster, first appearing in issue #1 of Action Comics, published in the United States on April 18, 1938. Superman has been regularly published in American comic books published by DC Comics since then, and has been adapted to other media including radio serials, novels, films, television shows, theater, and video games. Superman is the archetypal superhero: he wears an outlandish costume, uses a codename, and fights evil and averts disasters with the aid of extraordinary abilities." .
+
+ng:T_Bone_Burnett a sem:Event ;
+    sem:hasTimeStamp "1948-01-14"^^xsd:date ;
+    rdfs:comment "Joseph Henry \"T Bone\" Burnett III (born January 14, 1948) is an American record producer, guitarist, singer, and songwriter. He was a guitarist in Bob Dylan's band during the 1970s. Burnett has won several Grammy Awards for his work on film soundtracks, namely O Brother, Where Art Thou? (2000), Cold Mountain (2004), Walk the Line (2005), and Crazy Heart (2010)." .
+
+ng:Taylor_Swift_discography a sem:Event ;
+    rdfs:comment "Taylor Swift discography may refer to:" .
+
+ng:Taylor_Swift_videography a sem:Event ;
+    rdfs:comment "The American singer-songwriter Taylor Swift has appeared in various visual media. She has starred in 62 music videos, 15 of which she self-directed; released six documentaries, including four feature-length concert films; and acted in a number of fictional films, television shows, and commercial advertisements. Trey Fanjoy directed several of Swift's award-winning music videos during her early career from 2006 to 2009." .
+
+ng:Teardrops_on_My_Guitar a sem:Event ;
+    rdfs:comment "\"Teardrops on My Guitar\" is a song by the American singer-songwriter Taylor Swift from her debut studio album, Taylor Swift (2006). Big Machine Records released the song to country radio on February 20, 2007, and to pop radio on November 9, as the album's second single in the United States. In 2009, the track was released as a single in Europe and included on the \"international\" edition of Swift's second studio album, Fearless." .
+
+ng:Tell_Me_Why a sem:Event ;
+    rdfs:comment "Tell Me Why may refer to:" .
+
+ng:The_Best_Day a sem:Event ;
+    rdfs:comment "The Best Day(s) may refer to:" .
+
+ng:The_Last_Time a sem:Event ;
+    rdfs:comment "\"The Last Time\" is a song by Taylor Swift featuring Gary Lightbody, taken from Swift's fourth studio album, Red (2012). Swift wrote the track with Lightbody, a member of the rock band Snow Patrol and producer Jacknife Lee. A power ballad, the song sees Swift's and Lightbody's characters expressing their perspectives on a failed relationship, torn between heartbreak and forgiveness." .
+
+ng:The_Story_of_Us a sem:Event ;
+    rdfs:comment "\"The Story of Us\" is a song written and recorded by the American singer-songwriter Taylor Swift for her third studio album, Speak Now (2010). The international mix was released to radio in Europe on April 7, 2011 and the original version was sent to US pop radio on April 19, 2011, as the fourth single from the album. Produced by Swift and Nathan Chapman, the track combines pop-punk, dance-country, dance-pop, new wave, and power pop with a production consisting of fast-paced drums and dynamic electric guitars." .
+
+ng:Tim_McGraw a sem:Event ;
+    sem:hasTimeStamp "1967-05-01"^^xsd:date ;
+    rdfs:comment "\"Tim McGraw\" is the debut single by the American singer-songwriter Taylor Swift, released on June 19, 2006, by Big Machine Records. Swift wrote the song with Liz Rose for her debut studio album, Taylor Swift (2006). Produced by Nathan Chapman, \"Tim McGraw\" is an acoustic guitar-led country and country pop ballad that incorporates the '50s progression and features fiddle, mandolin, and Dobro guitar.",
+        "Samuel Timothy McGraw (born May 1, 1967) is an American country singer and actor. He has released 17 studio albums (11 for Curb Records, five for Big Machine Records and one for Arista Nashville). 10 of those albums have reached number one on the Top Country Albums charts, with his 1994 breakthrough album Not a Moment Too Soon being the top country album of 1994." .
+
+ng:Today_Was_a_Fairytale a sem:Event ;
+    rdfs:comment "\"Today Was a Fairytale\" is a song written and recorded by the American singer-songwriter Taylor Swift. Produced by Swift and Nathan Chapman, it was released digitally on January 19, 2010, by Big Machine Records as a single from the soundtrack for the 2010 film Valentine's Day, in which she acted. Swift had previously written the song and offered it to producers for the film's soundtrack." .
+
+ng:Treacherous a sem:Event ;
+    rdfs:comment "\"Treacherous\" is a song by the American singer-songwriter Taylor Swift from her fourth studio album, Red (2012). She wrote the track with its producer, Dan Wilson. Blending styles of country and pop, \"Treacherous\" is a slow-burning folk ballad that builds up into a finale." .
+
+ng:Two_Is_Better_Than_One a sem:Event ;
+    rdfs:comment "\"Two Is Better Than One\" is a song by the American rock band Boys Like Girls from their second studio album Love Drunk (2009). The song features American singer-songwriter Taylor Swift. It was written by Martin Johnson and Swift." .
+
+ng:We_Are_Never_Ever_Getting_Back_Together a sem:Event ;
+    rdfs:comment "\"We Are Never Ever Getting Back Together\" is a song by the American singer-songwriter Taylor Swift from her fourth studio album, Red (2012). It was released as the album's lead single on August 13, 2012, by Big Machine Records. Written and produced by Swift, Max Martin, and Shellback, \"We Are Never Ever Getting Back Together\" is an upbeat pop song that features synthesizers, twangy processed guitar riffs, bass drums, and a spoken-word bridge." .
+
+ng:Welcome_to_New_York a sem:Event ;
+    rdfs:comment "\"Welcome to New York\" is a song by the American singer-songwriter Taylor Swift from her fifth studio album, 1989 (2014). Written by Swift and Ryan Tedder, the song was inspired by Swift's relocation to New York City in April 2014. Its lyrics explore a newfound freedom in the city and a lighthearted attitude towards past heartbreaks." .
+
+ng:White_Horse a sem:Event ;
+    rdfs:comment "\"White Horse\" is a song by the American singer-songwriter Taylor Swift and the second single from her second studio album, Fearless (2008). Big Machine Records released the track to US country radio on December 8, 2008. Swift wrote \"White Horse\" with Liz Rose and produced it with Nathan Chapman." .
+
+ng:You_Belong_with_Me a sem:Event ;
+    rdfs:comment "\"You Belong with Me\" is a song by the American singer-songwriter Taylor Swift and the third single from her second studio album Fearless (2008). Big Machine Records released the song to radio on April 20, 2009. Swift was inspired to write \"You Belong with Me\" after overhearing a telephone call between a touring band member and his girlfriend; she and Liz Rose wrote the lyrics, which discuss an unrequited love." .
+
+ng:Zayn_Malik a sem:Event ;
+    sem:hasTimeStamp "1993-01-12"^^xsd:date ;
+    rdfs:comment "Zain Javadd Malik (; born 12 January 1993), known professionally as Zayn Malik or simply Zayn, is an English singer. He auditioned as a solo contestant for the British music competition television series The X Factor in 2010, where he ended up being a part of five-piece boy band One Direction, which went on to become one of the best-selling boy bands of all time. He left the group in March 2015 and signed a solo recording contract with RCA Records." .
+

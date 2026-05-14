@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 5,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.4444444444444444,
+  "reasoning": "Factual consistency is high but marred by a few contradictions and unsupported details. Coverage is moderate, hitting key points but missing many details from the reference."
+}

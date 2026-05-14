@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 8,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text contradicts the reference on the number of terrorists. It covers most key points but omits cleanup and memorials."
+}

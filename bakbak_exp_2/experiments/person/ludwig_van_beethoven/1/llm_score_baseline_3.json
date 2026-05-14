@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "Minor contradiction on the year of Beethoven's move to Vienna. Covers all major events but omits some specific details and works."
+}

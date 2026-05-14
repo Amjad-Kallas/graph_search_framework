@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 6,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contradicts the reference on the number of terrorists involved but is consistent on other key facts. The generated text covers the main events of the attack and rescue but omits several important details from the reference, such as the specific demands and the aftermath involving the release of perpetrators and the Israeli response."
+}

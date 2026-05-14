@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 7,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is consistent with the reference text and covers most key points, but misses some specific details like the DUP's opposition and the exact date the British\u2013Irish Agreement came into force."
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text's facts are entirely consistent with the reference, with no contradictions. The generated text covers many key points from the reference but omits several important details, such as specific hijackers' names, memorials, and later events."
+}

@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 8.4,
+  "coverage_raw": 7.6,
+  "factual_consistency": 0.8222222222222222,
+  "coverage": 0.7333333333333333,
+  "reasoning": [
+    "The generated text contains factual inaccuracies about Chaplin's early career and the founding of United Artists. While most key points are covered, some specific films and details are omitted.",
+    "The text is mostly factually consistent with one contradiction about Chaplin's final film. It covers major aspects of his life and career but omits some important details.",
+    "Minor inconsistency in the timeline of Chaplin's early life events. Most key aspects of Chaplin's life and career are covered, but some specific details and films from the reference are omitted.",
+    "No contradictions found between generated and reference texts. Most key points are covered, but some important details and films are omitted.",
+    "The generated text is mostly consistent with the reference, with one contradiction regarding Chaplin's father's death. The generated text covers most key aspects of Chaplin's life and career but omits some important details such as his co-founding of United Artists and his Honorary Academy Award."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "No contradictions with the reference text. Covers main points but omits some details such as the full name, death date, and that she was the first Austrian laureate."
+}

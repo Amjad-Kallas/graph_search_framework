@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 9,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.8888888888888888,
+  "reasoning": "The generated text is mostly consistent with the reference but has a significant error in the timing of the moon landing and moonwalk. The generated text covers all major points from the reference but omits some minor details about the aftermath and current status of artifacts."
+}

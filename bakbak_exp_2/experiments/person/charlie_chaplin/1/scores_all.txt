@@ -1,0 +1,104 @@
+All 101 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. City Lights  |  combined=0.974  wiki=0.935  llm=1.000 ***
+  2. Modern Times  |  combined=0.956  wiki=0.890  llm=1.000 ***
+  3. The Gold Rush  |  combined=0.906  wiki=0.916  llm=0.900 ***
+  4. A King in New York  |  combined=0.903  wiki=0.907  llm=0.900 ***
+  5. The Great Dictator  |  combined=0.899  wiki=0.896  llm=0.900 ***
+  6. Limelight  |  combined=0.886  wiki=0.864  llm=0.900 ***
+  7. The Tramp  |  combined=0.879  wiki=0.997  llm=0.800 ***
+  8. The Kid  |  combined=0.875  wiki=0.839  llm=0.900 ***
+  9. Mack Sennett  |  combined=0.863  wiki=0.807  llm=0.900 ***
+ 10. A Countess from Hong Kong  |  combined=0.858  wiki=0.796  llm=0.900 ***
+ 11. In the Park  |  combined=0.853  wiki=0.783  llm=0.900 ***
+ 12. Monsieur Verdoux  |  combined=0.844  wiki=0.761  llm=0.900 ***
+ 13. The Floorwalker  |  combined=0.835  wiki=0.888  llm=0.800 ***
+ 14. Joan Barry  |  combined=0.830  wiki=0.726  llm=0.900 ***
+ 15. Laughing Gas  |  combined=0.829  wiki=0.723  llm=0.900 ***
+ 16. Josephine Chaplin  |  combined=0.828  wiki=0.871  llm=0.800 ***
+ 17. Mildred Harris  |  combined=0.826  wiki=0.864  llm=0.800 ***
+ 18. The Immigrant  |  combined=0.820  wiki=0.850  llm=0.800 ***
+ 19. Roland Totheroh  |  combined=0.819  wiki=0.698  llm=0.900 ***
+ 20. Behind the Screen  |  combined=0.817  wiki=0.842  llm=0.800 ***
+ 21. Lita Grey  |  combined=0.809  wiki=0.823  llm=0.800 ***
+ 22. His New Job  |  combined=0.806  wiki=0.814  llm=0.800 ***
+ 23. Leo White  |  combined=0.797  wiki=0.943  llm=0.700 ***
+ 24. Mabel Normand  |  combined=0.792  wiki=0.779  llm=0.800 ***
+ 25. A Woman of Paris  |  combined=0.781  wiki=0.752  llm=0.800 ***
+ 26. Getting Acquainted  |  combined=0.779  wiki=0.748  llm=0.800 ***
+ 27. The New Janitor  |  combined=0.767  wiki=0.869  llm=0.700 ***
+ 28. A Night Out  |  combined=0.767  wiki=0.868  llm=0.700 ***
+ 29. The Rink  |  combined=0.761  wiki=0.851  llm=0.700 ***
+ 30. Shoulder Arms  |  combined=0.758  wiki=0.845  llm=0.700 ***
+ 31. The Adventurer  |  combined=0.755  wiki=0.838  llm=0.700 ***
+ 32. One A M  |  combined=0.747  wiki=0.816  llm=0.700 ***
+ 33. A Jitney Elopement  |  combined=0.745  wiki=0.812  llm=0.700 ***
+ 34. Burlesque on Carmen  |  combined=0.736  wiki=0.790  llm=0.700 ***
+ 35. The Idle Class  |  combined=0.735  wiki=0.787  llm=0.700 ***
+ 36. The Count  |  combined=0.730  wiki=0.925  llm=0.600
+ 37. The Pilgrim  |  combined=0.730  wiki=0.775  llm=0.700
+ 38. A Busy Day  |  combined=0.726  wiki=0.766  llm=0.700
+ 39. The Pawnshop  |  combined=0.718  wiki=0.745  llm=0.700
+ 40. The Chaplin Revue  |  combined=0.714  wiki=0.886  llm=0.600
+ 41. Pay Day  |  combined=0.712  wiki=0.731  llm=0.700
+ 42. By the Sea  |  combined=0.701  wiki=0.703  llm=0.700
+ 43. Karl Struss  |  combined=0.690  wiki=0.675  llm=0.700
+ 44. Twenty Minutes of Love  |  combined=0.687  wiki=0.816  llm=0.600
+ 45. A Night in the Show  |  combined=0.679  wiki=0.798  llm=0.600
+ 46. The Masquerader  |  combined=0.674  wiki=0.785  llm=0.600
+ 47. Hannah Chaplin  |  combined=0.662  wiki=0.906  llm=0.500
+ 48. Paulette Goddard  |  combined=0.654  wiki=0.436  llm=0.800
+ 49. The Property Man  |  combined=0.640  wiki=0.849  llm=0.500
+ 50. Work  |  combined=0.635  wiki=0.839  llm=0.500
+ 51. His Musical Career  |  combined=0.629  wiki=0.973  llm=0.400
+ 52. Police  |  combined=0.626  wiki=0.815  llm=0.500
+ 53. His New Profession  |  combined=0.591  wiki=0.877  llm=0.400
+ 54. His Prehistoric Past  |  combined=0.572  wiki=0.830  llm=0.400
+ 55. The Bank  |  combined=0.559  wiki=0.798  llm=0.400
+ 56. Gentlemen of Nerve  |  combined=0.556  wiki=0.790  llm=0.400
+ 57. His Trysting Place  |  combined=0.552  wiki=0.781  llm=0.400
+ 58. Triple Trouble  |  combined=0.548  wiki=0.771  llm=0.400
+ 59. The Rounders  |  combined=0.547  wiki=0.617  llm=0.500
+ 60. The Cure  |  combined=0.537  wiki=0.892  llm=0.300
+ 61. Michael Chaplin  |  combined=0.526  wiki=0.716  llm=0.400
+ 62. Harry Ensign  |  combined=0.524  wiki=0.559  llm=0.500
+ 63. The Fireman  |  combined=0.522  wiki=0.706  llm=0.400
+ 64. Dough and Dynamite  |  combined=0.515  wiki=0.686  llm=0.400
+ 65. Shanghaied  |  combined=0.497  wiki=0.791  llm=0.300
+ 66. Those Love Pangs  |  combined=0.491  wiki=0.627  llm=0.400
+ 67. Her Friend the Bandit  |  combined=0.485  wiki=0.612  llm=0.400
+ 68. Sydney Chaplin  |  combined=0.483  wiki=0.908  llm=0.200
+ 69. The Champion  |  combined=0.464  wiki=0.710  llm=0.300
+ 70. Eugene Chaplin  |  combined=0.464  wiki=0.859  llm=0.200
+ 71. Recreation  |  combined=0.450  wiki=0.825  llm=0.200
+ 72. The Face on the Bar Room Floor  |  combined=0.441  wiki=0.802  llm=0.200
+ 73. Victoria Chaplin  |  combined=0.435  wiki=0.788  llm=0.200
+ 74. Geraldine Chaplin  |  combined=0.425  wiki=0.764  llm=0.200
+ 75. Charles Chaplin  |  combined=0.400  wiki=1.000  llm=0.000
+ 76. Wheeler Dryden  |  combined=0.372  wiki=0.780  llm=0.100
+ 77. Charles Reisner  |  combined=0.369  wiki=0.922  llm=0.000
+ 78. Christopher Chaplin  |  combined=0.350  wiki=0.875  llm=0.000
+ 79. Charles D Hall  |  combined=0.296  wiki=0.740  llm=0.000
+ 80. Harold Lloyd  |  combined=0.273  wiki=0.682  llm=0.000
+ 81. Curt Courant  |  combined=0.262  wiki=0.656  llm=0.000
+ 82. Benny Hill  |  combined=0.217  wiki=0.543  llm=0.000
+ 83. George D Baker  |  combined=0.207  wiki=0.517  llm=0.000
+ 84. Marcel Marceau  |  combined=0.202  wiki=0.504  llm=0.000
+ 85. William C Foster  |  combined=0.198  wiki=0.496  llm=0.000
+ 86. Irwin Corey  |  combined=0.196  wiki=0.490  llm=0.000
+ 87. Monta Bell  |  combined=0.187  wiki=0.468  llm=0.000
+ 88. Federico Fellini  |  combined=0.185  wiki=0.462  llm=0.000
+ 89. A Edward Sutherland  |  combined=0.181  wiki=0.452  llm=0.000
+ 90. Ira H Morgan  |  combined=0.179  wiki=0.448  llm=0.000
+ 91. Hugo Riesenfeld  |  combined=0.169  wiki=0.421  llm=0.000
+ 92. Arthur Ibbetson  |  combined=0.154  wiki=0.385  llm=0.000
+ 93. Frank D Williams  |  combined=0.152  wiki=0.380  llm=0.000
+ 94. Jess Robbins  |  combined=0.152  wiki=0.379  llm=0.000
+ 95. John Beckman  |  combined=0.138  wiki=0.344  llm=0.000
+ 96. Meredith Willson  |  combined=0.113  wiki=0.283  llm=0.000
+ 97. Frank Williams  |  combined=0.096  wiki=0.239  llm=0.000
+ 98. John Jasper  |  combined=0.090  wiki=0.225  llm=0.000
+ 99. Caught in the Rain  |  combined=0.065  wiki=0.163  llm=0.000
+100. Mixed Up  |  combined=0.020  wiki=0.050  llm=0.000
+101. Franklin Delano Williams  |  combined=0.000  wiki=0.000  llm=0.000

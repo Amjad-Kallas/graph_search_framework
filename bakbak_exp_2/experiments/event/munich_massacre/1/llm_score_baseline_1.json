@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 5,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.4444444444444444,
+  "reasoning": "The generated text contradicts the reference on the number of prisoners demanded but is otherwise consistent. The generated text covers the main events but omits several key points from the reference."
+}

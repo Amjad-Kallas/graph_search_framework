@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.8,
+  "coverage_raw": 6.8,
+  "factual_consistency": 0.9777777777777779,
+  "coverage": 0.6444444444444444,
+  "reasoning": [
+    "The generated text does not contradict any facts in the reference. The generated text covers most key points from the reference but omits some details such as her title as the 'Queen of Fado' and her status as the best-selling Portuguese artist.",
+    "All stated facts in the generated text are consistent with the reference text without contradictions. The generated text covers some key points from the reference but omits others, such as her title as 'Queen of Fado' and her status as the best-selling Portuguese artist.",
+    "Minor inconsistency in name spelling; covers key points but omits title and sales record.",
+    "All stated facts in the generated text are consistent with the reference, with no contradictions. The generated text covers most key points from the reference but omits the detail about being the best-selling Portuguese artist.",
+    "All stated facts in the generated text are consistent with the reference. The generated text covers most key points from the reference but omits the nickname and best-selling status."
+  ]
+}

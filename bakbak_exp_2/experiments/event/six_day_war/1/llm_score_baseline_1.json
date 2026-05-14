@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text's facts align perfectly with the reference, with no contradictions. The generated text covers most key points from the reference but omits some significant details, such as the 1956 Suez Crisis, the USS Liberty incident, and the death of UN peacekeepers."
+}

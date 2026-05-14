@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 10.0,
+  "coverage_raw": 7.4,
+  "factual_consistency": 1.0,
+  "coverage": 0.711111111111111,
+  "reasoning": [
+    "All stated facts in the generated text are consistent with the reference text. The generated text covers many key points but misses several important aspects mentioned in the reference.",
+    "The generated text is consistent with the reference text with no contradictions. It covers most major points but misses some important details.",
+    "The generated text is fully consistent with the reference text, with no contradictions. The generated text covers most key points but misses some important events and details from the reference text.",
+    "The generated text is consistent with the reference text with no contradictions. The generated text covers most key points but misses some important details.",
+    "All facts in the generated text are consistent with the reference. The generated text covers most key points but misses some significant events."
+  ]
+}

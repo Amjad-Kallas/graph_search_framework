@@ -52,7 +52,7 @@ def format_events_for_llm(events):
 # ---------------------------------------------------------------------------
 # Original selection-based reranker (kept for backwards compatibility)
 # ---------------------------------------------------------------------------
-
+'''
 def rerank_events(events, main_event, events_file, target_k=35):
     prompt = f"""
         You are selecting the most important events to build a coherent historical narrative about {main_event}.
@@ -104,7 +104,7 @@ def rerank_events(events, main_event, events_file, target_k=35):
         f.write(selected_events)
 
     print(f"====\nSelected events saved to {output_file}")
-    return selected_events, output_file
+    return selected_events, output_file'''
 
 
 # ---------------------------------------------------------------------------
@@ -197,6 +197,7 @@ def rerank_events_combined(
     target_k=35,
     wiki_weight=0.4,
     llm_weight=0.6,
+    use_llm=True,
 ):
     """
     Score every event in *ttl_file* using two signals:
@@ -237,8 +238,13 @@ def rerank_events_combined(
     wiki_scores_norm = {k: (v - w_min) / w_range for k, v in wiki_scores.items()}
 
     # 3. LLM scoring
-    llm_scores = score_events_llm(events, main_event)
-    print(f"LLM returned scores for {len(llm_scores)} / {len(events)} events.")
+    if use_llm:
+        llm_scores = score_events_llm(events, main_event)
+        print(f"LLM returned scores for {len(llm_scores)} / {len(events)} events.")
+    else:
+        llm_scores = {}
+        wiki_weight, llm_weight = 1.0, 0.0
+        print("LLM scoring disabled — using Wikipedia similarity only.")
 
     # 4. Combine
     combined = []
@@ -307,4 +313,4 @@ if __name__ == "__main__":
     )
     main_event = "World War II"
 
-    selected, out = rerank_events_combined(ttl_path, main_event, target_k=35)
+    selected, out = rerank_events_combined(ttl_path, main_event, target_k=35, use_llm=False)

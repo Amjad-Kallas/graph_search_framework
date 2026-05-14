@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "All facts in the generated text are consistent with the reference; no contradictions. The generated text covers most key points from the reference but omits some important details like the Down to the Countryside Movement and specific persecution categories."
+}

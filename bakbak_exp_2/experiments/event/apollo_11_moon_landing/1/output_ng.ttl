@@ -1,0 +1,9 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:The_Bill_Cosby_Show a sem:Event ;
+    sem:hasTimeStamp "1969-09-14"^^xsd:date ;
+    rdfs:comment "The Bill Cosby Show is an American sitcom television series that aired for two seasons on NBC's Sunday night schedule from 1969 until 1971 under the sponsorship of Procter &amp; Gamble. There were 52 episodes made in the series. It marked Bill Cosby's first solo foray in television after his co-starring role with Robert Culp in I Spy." .
+

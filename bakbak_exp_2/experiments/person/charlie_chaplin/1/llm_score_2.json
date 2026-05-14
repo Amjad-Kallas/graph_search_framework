@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 5,
+  "coverage_raw": 6,
+  "factual_consistency": 0.4444444444444444,
+  "coverage": 0.5555555555555556,
+  "reasoning": "Factual consistency is penalized for the incorrect birth year and minor inconsistencies. Coverage is moderate as major points are addressed but some key details are missing."
+}

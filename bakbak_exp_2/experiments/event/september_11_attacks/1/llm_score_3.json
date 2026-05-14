@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 6,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text contradicts the reference on the number of hijackers. The generated text omits several key details from the reference."
+}

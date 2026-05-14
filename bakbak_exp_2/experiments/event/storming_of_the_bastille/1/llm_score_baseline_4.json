@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "All facts in the generated text match the reference text without contradictions. The generated text covers most key points from the reference, missing only some details like the Bastille's scheduled demolition and the F\u00eate de la F\u00e9d\u00e9ration."
+}

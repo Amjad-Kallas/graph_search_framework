@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 10.0,
+  "coverage_raw": 5.4,
+  "factual_consistency": 1.0,
+  "coverage": 0.4888888888888888,
+  "reasoning": [
+    "All facts in generated text align with reference; no contradictions. Key reference elements like Marshall Plan, Berlin Blockade, Warsaw Pact, Soviet-Afghan War, and Cold War end are omitted, reducing coverage.",
+    "Factual consistency is perfect with no contradictions. Coverage is low as many key points from the reference text are missing.",
+    "factual_consistency: The generated text does not contradict any facts in the reference text. coverage: The generated text covers many key aspects of the Cold War but omits some major events and details present in the reference text.",
+    "The generated text is factually consistent with the reference text, with no contradictions. However, it misses some key events and aspects covered in the reference text, such as the Berlin Blockade, Korean War, and the end of the Cold War.",
+    "Factual consistency: No contradictions with the reference text. Coverage: Covers some key events but misses many major aspects."
+  ]
+}

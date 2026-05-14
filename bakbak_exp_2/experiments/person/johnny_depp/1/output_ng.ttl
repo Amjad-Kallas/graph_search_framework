@@ -1,0 +1,759 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Aaron_Johnson a sem:Event ;
+    sem:hasTimeStamp "1990-06-13"^^xsd:date ;
+    rdfs:comment "Aaron Perry Taylor-Johnson (né Johnson; born 13 June 1990) is an English actor. His accolades include a Golden Globe Award, in addition to nominations for two British Academy Film Awards and a British Independent Film Award. As a child actor, Taylor-Johnson performed in films including Shanghai Knights (2003), The Illusionist (2006), and Angus, Thongs and Perfect Snogging (2008)." .
+
+ng:Adriana_Caselotti a sem:Event ;
+    sem:hasTimeStamp "1916-05-06"^^xsd:date ;
+    rdfs:comment "Adriana Elena Loretta Caselotti (May 6, 1916 – January 19, 1997) was an American actress and singer. Caselotti was best known as the voice of the title character of the first Walt Disney animated feature, Snow White and the Seven Dwarfs (1937), for which she was named a Disney Legend in 1994, making her the first female voice-over artist to achieve this." .
+
+ng:Al_Pacino a sem:Event ;
+    sem:hasTimeStamp "1940-04-25"^^xsd:date ;
+    rdfs:comment "Alfredo James Pacino ( pə-CHEE-noh; Italian: [paˈtʃiːno]; born April 25, 1940) is an American actor. Known for his intense performances on stage and screen, Pacino is widely regarded as one of the greatest actors of all time. His career spans more than five decades, during which he has earned many accolades, including an Academy Award, two Tony Awards, and two Primetime Emmy Awards, achieving the Triple Crown of Acting." .
+
+ng:Alan_Menken a sem:Event ;
+    sem:hasTimeStamp "1949-07-22"^^xsd:date ;
+    rdfs:comment "Alan Irwin Menken (born July 22, 1949) is an American composer and conductor. Over his career he has received numerous accolades including winning eight Academy Awards, a Tony Award, eleven Grammy Awards, seven Golden Globe Awards, a Daytime Emmy Award, and a Golden Raspberry for worst original song. He is one of 22 recipients to have won the competitive EGOT (Emmy, a Grammy, an Oscar, and a Tony)." .
+
+ng:Amber_Heard a sem:Event ;
+    sem:hasTimeStamp "1986-04-22"^^xsd:date ;
+    rdfs:comment "Amber Laura Heard (born April 22, 1986) is an American actress. She had her first leading role in the horror film All the Boys Love Mandy Lane (2006), and went on to star in films such as The Ward (2010), Drive Angry (2011), and London Fields (2018). She has also had supporting roles in films including Pineapple Express (2008), Never Back Down (2008), The Joneses (2009), The Rum Diary (2011), Paranoia (2013), Machete Kills (2013), 3 Days to Kill (2014), Magic Mike XXL (2015), and The Danish Girl (2015)." .
+
+ng:Angela_Lansbury a sem:Event ;
+    sem:hasTimeStamp "1925-10-16"^^xsd:date ;
+    rdfs:comment "Dame Angela Brigid Lansbury (October&#160;16, 1925&#160;– October&#160;11, 2022) was a British-American-Irish actress and singer. In a career spanning 80 years, she played various roles across film, stage, and television. Although based for much of her life in the United States, her work attracted international attention." .
+
+ng:Angelina_Jolie a sem:Event ;
+    sem:hasTimeStamp "1975-06-04"^^xsd:date ;
+    rdfs:comment "Angelina Jolie ( joh-LEE; born Angelina Jolie Voight, , June 4, 1975) is an American actress, filmmaker, and humanitarian. She is the recipient of numerous accolades, including an Academy Award, a Tony Award and three Golden Globe Awards. Films in which she has appeared have grossed over $6.9 billion worldwide." .
+
+ng:Anika_Noni_Rose a sem:Event ;
+    sem:hasTimeStamp "1972-09-06"^^xsd:date ;
+    rdfs:comment "Anika Noni Rose (born September 6, 1972) is an American actress. She is best known for voicing Tiana in The Princess and the Frog (2009). She was named a Disney Legend in 2011." .
+
+ng:Ann_Sothern a sem:Event ;
+    sem:hasTimeStamp "2001-03-15"^^xsd:date ;
+    rdfs:comment "Ann Sothern (born Harriette Arlene Lake; January 22, 1909&#160;– March 15, 2001) was an American actress who worked on stage, radio, film, and television, in a career that spanned nearly six decades. Sothern began her career in the late 1920s in bit parts in films. In 1930, she made her Broadway stage debut and soon worked her way up to starring roles." .
+
+ng:Art_Babbitt a sem:Event ;
+    sem:hasTimeStamp "1907-10-08"^^xsd:date ;
+    rdfs:comment "Arthur Harold Babitsky (October 8, 1907 – March 4, 1992), better known as Art Babbitt, was an American animator, best known for his work at the Walt Disney Productions animation unit. He received over 80 awards as an animation director and animator, and also developed the character of Goofy. Babbitt worked as an animator or animation director on films such as Snow White and the Seven Dwarfs, Pinocchio, Fantasia and Dumbo, among others." .
+
+ng:Art_Linkletter a sem:Event ;
+    sem:hasTimeStamp "1912-07-17"^^xsd:date ;
+    rdfs:comment "Arthur Gordon Linkletter (born Gordon Arthur Kelly or Arthur Gordon Kelly; sources differ; July 17, 1912 – May 26, 2010) was a Canadian-born American radio and television personality. He was the host of House Party, which ran on CBS radio and television for 25 years, and People Are Funny, which aired on NBC radio and television for 19 years. He became a naturalized United States citizen in 1942." .
+
+ng:Barbara_Walters a sem:Event ;
+    sem:hasTimeStamp "1929-09-25"^^xsd:date ;
+    rdfs:comment "Barbara Jill Walters (September 25, 1929&#160;– December 30, 2022) was an American broadcast journalist and television personality. Known for her interviewing ability and popularity with viewers, she appeared as a host of numerous television programs, including Today, the ABC Evening News, 20/20, and The View. Walters was a working journalist from 1951 until her retirement in 2014." .
+
+ng:Bea_Arthur a sem:Event ;
+    sem:hasTimeStamp "1922-05-13"^^xsd:date ;
+    rdfs:comment "Beatrice Arthur (born Bernice Frankel; May 13, 1922&#160;– April 25, 2009) was an American actress, comedian, and singer. She began her career on stage in 1947, attracting critical acclaim before achieving worldwide recognition for her work on television beginning in the 1970s as Maude Findlay in the popular sitcoms All in the Family (1971–1972) and Maude (1972–1978) and later in the 1980s and 1990s as Dorothy Zbornak on The Golden Girls (1985–1992). Arthur won several accolades throughout her career, beginning with the 1966 Tony Award for Best Featured Actress in a Musical for playing Vera Charles in Mame." .
+
+ng:Bella_Darvi a sem:Event ;
+    sem:hasTimeStamp "1921-08-23"^^xsd:date ;
+    rdfs:comment "Bella Darvi (born Bajla Węgier; 23 October 1928 – 11 September 1971) was a Polish film actress and stage performer who was active in France and the United States." .
+
+ng:Benicio_del_Toro a sem:Event ;
+    sem:hasTimeStamp "1967-02-19"^^xsd:date ;
+    rdfs:comment "Benicio Monserrate Rafael del Toro Sánchez (Latin American Spanish: [beˈnisjo ðel ˈtoɾo]; born February 19, 1967) is a Puerto Rican actor. His accolades include an Academy Award, a BAFTA Award, a Golden Globe Award, a Goya Award, and the Best Actor awards at the Berlin International Film Festival and the Cannes Film Festival. Films in which he has appeared have grossed over $5.9 billion worldwide." .
+
+ng:Betty_Taylor a sem:Event ;
+    sem:hasTimeStamp "1919-10-07"^^xsd:date ;
+    rdfs:comment "Betty Taylor (October 7, 1919 – June 4, 2011) was an American actress and performer, best known as \"Slue Foot Sue\" in Disneyland's Golden Horseshoe Revue, opposite Wally Boag. Taylor died on June 4, 2011, at the age of 91, the day after Boag died." .
+
+ng:Bill_Murray a sem:Event ;
+    sem:hasTimeStamp "1950-09-21"^^xsd:date ;
+    rdfs:comment "William James Murray (born September 21, 1950) is an American actor and comedian, known for his deadpan delivery in roles ranging from studio comedies to independent dramas. He has received several accolades including a BAFTA Award, a Golden Globe Award, and two Primetime Emmy Awards as well as a nomination for an Academy Award. Murray was awarded the Mark Twain Prize for American Humor in 2016." .
+
+ng:Bill_Nighy a sem:Event ;
+    sem:hasTimeStamp "1949-12-12"^^xsd:date ;
+    rdfs:comment "William Francis Nighy (; born 12 December 1949) is a British actor. Known for his work on stage and screen, he has received various accolades including two BAFTA Awards and a Golden Globe Award, in addition to nominations for an Academy Award, a Tony Award, a Laurence Olivier Award and two Screen Actors Guild Awards. Nighy started his career with the Everyman Theatre, Liverpool, and made his London debut with the Royal National Theatre starting with The Illuminatus! in 1977." .
+
+ng:Bill_Peet a sem:Event ;
+    sem:hasTimeStamp "2002-05-11"^^xsd:date ;
+    rdfs:comment "William Bartlett Peet (né Peed; January 29, 1915&#160;– May 11, 2002) was an American children's book illustrator and a story writer and animator for Walt Disney Animation Studios. Peet joined Disney in 1937 and worked first on Snow White and the Seven Dwarfs (1937) near the end of its production. Progressively, his involvement in the Disney studio's animated feature films and shorts increased, and he remained there until early in the development of The Jungle Book (1967)." .
+
+ng:Bill_Walsh a sem:Event ;
+    sem:hasTimeStamp "1913-09-30"^^xsd:date ;
+    rdfs:comment "William Crozier Walsh (September 30, 1913 – January 27, 1975) was a film producer, screenwriter and comics writer who primarily worked on live-action films for Walt Disney Productions. For his work on Mary Poppins, he shared Academy Award nominations for Best Picture with Walt Disney, and for Best Writing, Screenplay Based on Material from Another Medium with Don DaGradi. He also wrote the Mickey Mouse comic strip for more than two decades." .
+
+ng:Billy_Crystal a sem:Event ;
+    sem:hasTimeStamp "1948-03-14"^^xsd:date ;
+    rdfs:comment "William Edward Crystal (born March 14, 1948) is an American comedian, actor, and filmmaker. He is known as a stand-up comedian and for his film and stage roles. Crystal has received numerous accolades, including six Primetime Emmy Awards and a Tony Award as well as nominations for three Grammy Awards and three Golden Globe Awards." .
+
+ng:Bob_Gurr a sem:Event ;
+    sem:hasTimeStamp "1931-10-25"^^xsd:date ;
+    rdfs:comment "Robert Henry Gurr (born October 25, 1931) is an American amusement ride designer and Imagineer. His most famous work was for Walt Disney's Disneyland Park, and its subsequent sister parks. Gurr is said to have designed most, if not all, of the ride vehicles of Disneyland's oldest attractions, including Autopia, Main Street Vehicles, the Disneyland Monorail, Matterhorn Bobsleds, Submarine Voyage, and the Haunted Mansion." .
+
+ng:Bonita_Granville a sem:Event ;
+    sem:hasTimeStamp "1923-02-02"^^xsd:date ;
+    rdfs:comment "Bonita Gloria Granville Wrather (February 2, 1923 – October 11, 1988) was an American character actress and producer. The daughter of vaudevillians, Granville began her career on the stage at age three. She began as a child actress, making her film debut in Westward Passage (1932)." .
+
+ng:Brad_Dourif a sem:Event ;
+    sem:hasTimeStamp "1950-03-18"^^xsd:date ;
+    rdfs:comment "Bradford Claude Dourif (; born March 18, 1950) is an American actor. He is known for his Academy Award-nominated role as Billy Bibbit in One Flew Over the Cuckoo's Nest (1975), portraying Gríma Wormtongue in The Lord of the Rings: The Two Towers (2002), and voicing Chucky in the Child's Play franchise (1988–present). Brad Dourif's other film credits include Wise Blood (1979), Heaven's Gate (1980), Ragtime (1981), Dune (1984), Blue Velvet (1986), Mississippi Burning (1988), The Exorcist III (1990), Alien Resurrection (1997), Halloween (2007) and its 2009 sequel." .
+
+ng:Brad_Pitt a sem:Event ;
+    sem:hasTimeStamp "1963-12-18"^^xsd:date ;
+    rdfs:comment "William Bradley Pitt (born December 18, 1963) is an American actor and film producer. In a film career spanning more than thirty years, Pitt has received numerous accolades, including two Academy Awards, two British Academy Film Awards, two Golden Globe Awards, two Primetime Emmy Awards and one Volpi Cup. His films as a leading actor have grossed over $7.5&#160;billion worldwide." .
+
+ng:Buddy_Baker a sem:Event ;
+    sem:hasTimeStamp "2002-07-26"^^xsd:date ;
+    rdfs:comment "Norman Dale \"Buddy\" Baker (January 4, 1918 – July 26, 2002) was an American composer who scored many Disney films, including The Apple Dumpling Gang (1975), The Shaggy D.A. (1976), The Many Adventures of Winnie the Pooh (1977), The Apple Dumpling Gang Rides Again (1979), and The Fox and the Hound (1981). He also composed scores for Disney theme park attractions, including Great Moments with Mr. Lincoln and The Haunted Mansion." .
+
+ng:Buddy_Ebsen a sem:Event ;
+    sem:hasTimeStamp "1908-04-02"^^xsd:date ;
+    rdfs:comment "Buddy Ebsen (born Christian Ludolf Ebsen Jr.; April 2, 1908 – July 6, 2003), was an American actor and dancer, widely known for his role as Jed Clampett in the CBS television sitcom The Beverly Hillbillies (1962–1971) as well his title role in the television detective drama Barnaby Jones (1973–1980). Also known as Frank \"Buddy\" Ebsen. Originally a dancer, Ebsen began his film career in Broadway Melody of 1936. He also appeared as a dancer with child star Shirley Temple in Captain January (1936)." .
+
+ng:Buddy_Hackett a sem:Event ;
+    sem:hasTimeStamp "1924-08-31"^^xsd:date ;
+    rdfs:comment "Buddy Hackett (born Leonard Hacker; August 31, 1924 – June 30, 2003) was an American comedian and comic actor. Known for his raunchy material, heavy appearance and thick New York City accent, his notable roles include Marcellus Washburn in The Music Man (1962), Benjy Benjamin in It's a Mad, Mad, Mad, Mad World (1963), Tennessee Steinmetz in The Love Bug (1968) and the voice of Scuttle in The Little Mermaid (1989). He was also a frequent guest on TV game shows and variety shows." .
+
+ng:Burny_Mattinson a sem:Event ;
+    sem:hasTimeStamp "1935-05-13"^^xsd:date ;
+    rdfs:comment "Burnett Mattinson (May 13, 1935 – February 27, 2023) was an American animator, director, producer, and story artist for Walt Disney Productions/Walt Disney Animation Studios, where he was employed from 1953 until his death in 2023. Mattinson was honored as an inductee of the Disney Legends program in 2008. Mattinson was the longest serving employee of The Walt Disney Company, with a career that spanned seven decades." .
+
+ng:Carl_Barks a sem:Event ;
+    sem:hasTimeStamp "1901-03-27"^^xsd:date ;
+    rdfs:comment "Carl Barks (March 27, 1901 – August 25, 2000) was an American cartoonist, author, and painter. He is best known for his work in Disney comic books, as the writer and artist of the first Donald Duck stories and as the creator of Scrooge McDuck. He worked anonymously until late in his career; fans dubbed him \"The Duck Man\" and \"The Good Duck Artist\"." .
+
+ng:Carrie_Fisher a sem:Event ;
+    sem:hasTimeStamp "1956-10-21"^^xsd:date ;
+    rdfs:comment "Carrie Frances Fisher (October 21, 1956 – December 27, 2016) was an American actress and writer. She is best known for playing Princess Leia in the original Star Wars films (1977–1983) and reprised the role in The Force Awakens (2015), The Last Jedi (2017)—a posthumous release that was dedicated to her—and The Rise of Skywalker (2019), the latter using unreleased footage from The Force Awakens. Her other film credits include Shampoo (1975), The Blues Brothers (1980), Hannah and Her Sisters (1986), The 'Burbs (1989), When Harry Met Sally... (1989), Soapdish (1991), and The Women (2008)." .
+
+ng:Channing_Tatum a sem:Event ;
+    sem:hasTimeStamp "1980-04-26"^^xsd:date ;
+    rdfs:comment "Channing Matthew Tatum (born April 26, 1980) is an American actor and film producer. He made his film debut in the drama Coach Carter (2005), and had his breakthrough with the sports comedy film She's the Man (2006) and the dance film Step Up (2006). He rose to prominence for playing Duke in the action films G.I. Joe: The Rise of Cobra (2009) and G.I. Joe: Retaliation (2013), the title role in the comedy-drama films Magic Mike (2012), Magic Mike XXL (2015) and Magic Mike's Last Dance (2023), and an undercover cop in the action-comedy films 21 Jump Street (2012)" .
+
+ng:Christian_Slater a sem:Event ;
+    sem:hasTimeStamp "1969-08-18"^^xsd:date ;
+    rdfs:comment "Christian Michael Leonard Slater (born August 18, 1969) is an American actor. He made his film debut with a leading role in The Legend of Billie Jean (1985) and gained wider recognition for his breakout role as Jason \"J.D.\" Dean, a sociopathic high school student, in the satire Heathers (1989). In the 1990s, Slater starred in a number of big-budget films, including Young Guns II (1990), Robin Hood: Prince of Thieves (1991), Interview with the Vampire (1994), Broken Arrow (1996), and Hard Rain (1998) as well as cult films like Gleaming the Cube (1989), Pump Up the Volume (1990) and" .
+
+ng:Claire_Danes a sem:Event ;
+    sem:hasTimeStamp "1979-04-12"^^xsd:date ;
+    rdfs:comment "Claire Catherine Danes (born April 12, 1979) is an American actress. Prolific in film and television since her teens, she is the recipient of three Primetime Emmy Awards and four Golden Globe Awards. In 2012 and 2026, Time named her one of the 100 most influential people in the world." .
+
+ng:Claire_Foy a sem:Event ;
+    sem:hasTimeStamp "1984-04-16"^^xsd:date ;
+    rdfs:comment "Claire Elizabeth Foy (born 16 April 1984) is a British actress. She is best known for her portrayal of Queen Elizabeth II in the The Crown (2016–2017, 2020, 2022–2023), for which she received various accolades such as a Golden Globe and two Primetime Emmy Awards. Foy made her screen debut in the pilot episode of the supernatural comedy series Being Human (2008)." .
+
+ng:Claude_Coats a sem:Event ;
+    sem:hasTimeStamp "1913-01-17"^^xsd:date ;
+    rdfs:comment "Claude Coats (January 17, 1913 – January 9, 1992) was an American artist, background artist, animator and set designer, known for his work with the Walt Disney Animation Studios and Walt Disney Imagineering. His pioneering work with the company helped define the character of animated films, and later, immersive installations with his designs for Disneyland. Coats, known as \"The Gentle Giant\" was inducted a Disney Legend in 1991." .
+
+ng:Clyde_Geronimi a sem:Event ;
+    sem:hasTimeStamp "1901-06-12"^^xsd:date ;
+    rdfs:comment "Clito \"Clyde\" Geronimi (June 12, 1901 – April 24, 1989), known as Gerry, was an American animation director. He is best known for his work at Walt Disney Productions." .
+
+ng:Damian_Lewis a sem:Event ;
+    sem:hasTimeStamp "1971-02-11"^^xsd:date ;
+    rdfs:comment "Damian Watcyn Lewis (born 11 February 1971) is a British actor and musician. He rose to prominence portraying U.S. Army Major Richard Winters in the HBO miniseries Band of Brothers. Lewis won a Primetime Emmy Award and a Golden Globe Award for his portrayal of U.S. Marine Sergeant Nicholas Brody in the Showtime series Homeland, and received nominations for his performance as Henry VIII of England in Wolf Hall." .
+
+ng:Dave_Smith a sem:Event ;
+    sem:hasTimeStamp "1940-10-13"^^xsd:date ;
+    rdfs:comment "David Rollin Smith (October 13, 1940 – February 15, 2019) was the founder and chief archivist of the Walt Disney Archives, the corporate archive of The Walt Disney Company." .
+
+ng:David_Stollery a sem:Event ;
+    sem:hasTimeStamp "1941-01-18"^^xsd:date ;
+    rdfs:comment "David John Stollery III (born January 18, 1941, in Los Angeles, California) is a former American child actor and, as an adult, an industrial designer. He appeared in numerous Disney movies and television programs in the 1950s. He is best known for his teenage role as the loner Marty in the Spin and Marty television serials on the Mickey Mouse Club TV series in the mid-1950s." .
+
+ng:David_Tomlinson a sem:Event ;
+    sem:hasTimeStamp "1917-05-07"^^xsd:date ;
+    rdfs:comment "David Cecil MacAlister Tomlinson (7 May 1917 – 24 June 2000) was an English stage, film and television actor, singer and comedian. Having been described as both a leading actor and a character actor, he is primarily remembered for his roles with The Walt Disney Company as the patriarch father George Banks in Mary Poppins (1964), hapless antagonist Peter Thorndyke in The Love Bug (1968) and the friendly con man Professor Emelius Browne in Bedknobs and Broomsticks (1971). Tomlinson was posthumously inducted as a Disney Legend in 2002." .
+
+ng:Dean_Jones a sem:Event ;
+    sem:hasTimeStamp "1931-01-25"^^xsd:date ;
+    rdfs:comment "Dean Carroll Jones (January 25, 1931&#160;– September 1, 2015) was an American actor. He was best known as the Walt Disney Company's main leading man in the 1970s with his roles as Agent Zeke Kelso in That Darn Cat! (1965), Jim Douglas in the Herbie franchise (1969–1997), and with other film companies such as Dr. Herman Varnick in Beethoven (1992)." .
+
+ng:Denzel_Washington a sem:Event ;
+    sem:hasTimeStamp "1954-12-28"^^xsd:date ;
+    rdfs:comment "Denzel Hayes Washington Jr. (born December 28, 1954) is an American actor, producer, and director. Known for his dramatic roles on stage and screen, he has received numerous accolades including two Academy Awards, an Actor Award, two Golden Globes, two Silver Bears and a Tony Award as well as nominations for a Grammy Award and two Primetime Emmy Awards. In 2020, The New York Times named Washington the greatest actor of the 21st century." .
+
+ng:Dick_Huemer a sem:Event ;
+    sem:hasTimeStamp "1979-11-30"^^xsd:date ;
+    rdfs:comment "Richard Huemer (January 2, 1898 – November 30, 1979) was an American animator in the Golden Age of Animation." .
+
+ng:Disney_Legends a sem:Event ;
+    rdfs:comment "Disney Legends is a Hall of Fame award that is awarded by the Walt Disney Company to individuals who \"[have] made a significant impact on the Disney legacy\". The honor was established in 1987, and was traditionally awarded annually during a special private ceremony. Since 2009, it has been awarded on a biennial basis during Disney's D23 Expo." .
+
+ng:Don_Iwerks a sem:Event ;
+    sem:hasTimeStamp "1929-01-01"^^xsd:date ;
+    rdfs:comment "Donald Warren Iwerks ( EYE-wurks; born July 24, 1929) is an American former Disney executive and co-founder of Iwerks Entertainment along with former Disney executive Stan Kinsey. He is the son of the animator Ub Iwerks (Walt Disney's original business partner and co-creator of Mickey Mouse and Oswald the Lucky Rabbit) and father of Oscar-nominated documentary film producer Leslie Iwerks." .
+
+ng:Dudley_Moore a sem:Event ;
+    sem:hasTimeStamp "1935-04-19"^^xsd:date ;
+    rdfs:comment "Dudley Stuart John Moore (19 April 1935&#160;– 27 March 2002) was an English actor, comedian, musician and composer. He first came to prominence in the UK as a leading figure in the British satire boom of the 1960s. He was one of the four writer-performers in the groundbreaking satirical comedy revue Beyond the Fringe from 1960 to 1964." .
+
+ng:Ed_Wynn a sem:Event ;
+    sem:hasTimeStamp "1886-11-09"^^xsd:date ;
+    rdfs:comment "Isaiah Edwin Leopold (November 9, 1886 – June 19, 1966), better known as Ed Wynn, was an American actor and comedian. He began his career in vaudeville in 1903 and was known for his Perfect Fool comedy character, his pioneering radio show of the 1930s, his performances in classic Disney films such as Alice in Wonderland and Mary Poppins, and his later career as a dramatic actor, which continued into the 1960s. Wynn's variety show (1949–1950), The Ed Wynn Show, won a Peabody Award and an Emmy Award." .
+
+ng:Elizabeth_Taylor a sem:Event ;
+    sem:hasTimeStamp "1932-02-27"^^xsd:date ;
+    rdfs:comment "Dame Elizabeth Rosemond Taylor (February 27, 1932 – March 23, 2011) was a British and American actress. She began her career as a child actress in the early 1940s and was one of the most popular stars of classical Hollywood cinema in the 1950s. She then became the world's highest-paid movie star in the 1960s, remaining a well-known public figure for the rest of her life." .
+
+ng:Elton_John a sem:Event ;
+    sem:hasTimeStamp "1947-03-25"^^xsd:date ;
+    rdfs:comment "Sir Elton Hercules John (born Reginald Kenneth Dwight; 25 March 1947) is a British singer, songwriter and pianist. His music and showmanship have had a significant, lasting effect on the music industry, and his songwriting partnership with the lyricist Bernie Taupin is one of the most successful in history. John was the 19th person to achieve an \"EGOT\", winning Emmy, Grammy, Oscar, and Tony awards." .
+
+ng:Eminem a sem:Event ;
+    sem:hasTimeStamp "1972-10-17"^^xsd:date ;
+    rdfs:comment "Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem, is an American rapper, songwriter, record producer, and record executive. Widely regarded as one of the greatest and most influential rappers of all time, he is often credited with popularizing hip-hop in Middle America and the acceptance of white rappers. While much of his transgressive art during the late 1990s and early 2000s made him a controversial figure, Eminem has become a representation of popular angst in lower-income America and is noted for his conscious rap—including political criticism and social commentary—and rap flow." .
+
+ng:Emma_Stone a sem:Event ;
+    sem:hasTimeStamp "1988-11-06"^^xsd:date ;
+    rdfs:comment "Emily Jean \"Emma\" Stone (born November 6, 1988) is an American actress and film producer. Her accolades include two Academy Awards, two British Academy Film Awards, two Golden Globe Awards and a Volpi Cup. In 2017, she was the world's highest-paid actress and named by Time magazine as one of the 100 most influential people in the world." .
+
+ng:Eric_Larson a sem:Event ;
+    sem:hasTimeStamp "1905-09-03"^^xsd:date ;
+    rdfs:comment "Eric Cleon Larson (September 3, 1905&#160;– October 25, 1988) was an American animator at Walt Disney Animation Studios starting in 1933, and was one of \"Disney's Nine Old Men\"." .
+
+ng:Estelle_Getty a sem:Event ;
+    sem:hasTimeStamp "1923-07-25"^^xsd:date ;
+    rdfs:comment "Estelle Gettleman (née Scher; July 25, 1923 – July 22, 2008), known professionally as Estelle Getty, was an American actress and comedian. She was best known for her portrayal of Sophia Petrillo on The Golden Girls (1985–1992), for which she won a Golden Globe Award for Best Actress – Television Series Musical or Comedy and a Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series. She reprised the role in Empty Nest (1993–1995), The Golden Palace (1992–1993), Blossom (1990–1995), and Nurses (1991–1994)." .
+
+ng:Floyd_Norman a sem:Event ;
+    sem:hasTimeStamp "1935-06-22"^^xsd:date ;
+    rdfs:comment "Floyd Ernest Norman (born June 22, 1935) is an American animator, writer, artist and cartoonist. Over the course of his career, he has worked for various animation companies, among them Walt Disney Animation Studios, Hanna-Barbera Productions, Ruby-Spears, Film Roman and Pixar." .
+
+ng:Frank_Gifford a sem:Event ;
+    sem:hasTimeStamp "1930-08-16"^^xsd:date ;
+    rdfs:comment "Francis Newton Gifford (August 16, 1930 – August 9, 2015) was an American professional football player, actor, and television sports commentator. After a 12-year playing career as a halfback, flanker and safety for the New York Giants of the National Football League (NFL), he was a play-by-play announcer and commentator for 27 years on ABC's Monday Night Football. Gifford won the NFL Most Valuable Player Award from United Press International (UPI) in 1956, the same season his team won the NFL Championship." .
+
+ng:Frank_Sinatra a sem:Event ;
+    sem:hasTimeStamp "1915-12-12"^^xsd:date ;
+    rdfs:comment "Francis Albert Sinatra (; December 12, 1915 – May 14, 1998) was an American singer and actor. Nicknamed the \"Chairman of the Board\" and \"Ol' Blue Eyes\", he is regarded as one of the most influential entertainers of the 20th century. Born to Italian immigrants in Hoboken, New Jersey, Sinatra began his musical career in the swing era." .
+
+ng:Frank_Wells a sem:Event ;
+    sem:hasTimeStamp "1932-03-04"^^xsd:date ;
+    rdfs:comment "Franklin G. Wells (March 4, 1932 – April 3, 1994) was an American businessman who served as president and chief operating officer of The Walt Disney Company from 1984 until his death in 1994." .
+
+ng:Fred_MacMurray a sem:Event ;
+    sem:hasTimeStamp "1908-08-30"^^xsd:date ;
+    rdfs:comment "Frederick Martin MacMurray (August 30, 1908 – November 5, 1991) was an American actor. He appeared in more than one hundred films and a successful television series in a career that spanned nearly a half-century. His career as a major film leading man began in 1935, but his most renowned role was in Billy Wilder's 1944 film noir Double Indemnity." .
+
+ng:Fulton_Burley a sem:Event ;
+    sem:hasTimeStamp "1922-06-12"^^xsd:date ;
+    rdfs:comment "Fulton Burley (June 12, 1922 – May 7, 2007) was a Canadian performer, most widely known for his work in Disneyland. Born in Toronto, Ontario, and raised in Windsor, Ontario, Canada, Fulton came to the United States in 1943 after a telephone audition landed him the singing lead in Billy Rose's Diamond Horseshoe Revue on Broadway. He later marveled at his \"Irish\" luck saying, \"The peculiar thing is I was at the Golden Horseshoe for 25 years, and I had started [my professional career] at the Diamond Horseshoe.\" At age 7, he performed in church weddings, and by 14, on" .
+
+ng:Gabriel_Byrne a sem:Event ;
+    sem:hasTimeStamp "1950-05-12"^^xsd:date ;
+    rdfs:comment "Gabriel James Byrne (born 12 May 1950) is an Irish actor. He has received a Golden Globe Award as well as nominations for a Grammy Award, two Primetime Emmy Awards and two Tony Awards. Byrne was awarded the Irish Film and Television Academy Lifetime Achievement Award in 2018 and was listed at number 17 on The Irish Times list of Ireland's greatest film actors in 2020." .
+
+ng:George_Bodenheimer a sem:Event ;
+    sem:hasTimeStamp "1958-05-06"^^xsd:date ;
+    rdfs:comment "George Bodenheimer (born May 6, 1958) is the former president of ESPN Inc. and of ABC's sports division, known since 2006 as ESPN on ABC. He was president of ESPN since November 19, 1998 and of the former ABC Sports since March 3, 2003. The Sports Business Journal named Bodenheimer the most influential person of 2008 on a list of 50 people." .
+
+ng:George_Bruns a sem:Event ;
+    sem:hasTimeStamp "1914-07-03"^^xsd:date ;
+    rdfs:comment "George Edward Bruns (July 3, 1914 – May 23, 1983) was an American composer of music for film and television. His accolades include four Academy Award nominations and three Grammy Award nominations. He is mainly known for his compositions for numerous Disney films from the 1950s to the 1970s, among them Sleeping Beauty (1959), One Hundred and One Dalmatians, The Absent-Minded Professor (both 1961), The Sword in the Stone (1963), The Jungle Book (1967), The Love Bug (1968), The Aristocats (1970), and Robin Hood (1973)." .
+
+ng:George_Lucas a sem:Event ;
+    sem:hasTimeStamp "1944-05-14"^^xsd:date ;
+    rdfs:comment "George Walton Lucas Jr. (born May 14, 1944) is an American filmmaker and philanthropist. He created the Star Wars franchise and its fictional universe, the Indiana Jones franchise, and founded Lucasfilm, LucasArts, Industrial Light &amp; Magic and THX. Lucas also served as chairman of Lucasfilm before selling it to the Walt Disney Company in 2012. The recipient of two Emmy Awards and nominations for four Academy Awards and two Golden Globe Awards, he is considered to be one of the most significant figures of the 20th-century New Hollywood movement, and a pioneer of the modern blockbuster." .
+
+ng:Ginny_Tyler a sem:Event ;
+    sem:hasTimeStamp "1925-08-08"^^xsd:date ;
+    rdfs:comment "Merrie Virginia Eggers (née Erlandson; August 8, 1925 – July 13, 2012), known professionally as Ginny Tyler, was an American voice actress who performed on dozens of cartoons and animated films from 1957 to 1993. In 2006, she was named a Disney Legend." .
+
+ng:Glenn_Close a sem:Event ;
+    sem:hasTimeStamp "1947-03-19"^^xsd:date ;
+    rdfs:comment "Glenn Close (born March 19, 1947) is an American actress. In a career spanning five decades on screen and stage, she has received numerous accolades, including three Primetime Emmy Awards, three Tony Awards and three Golden Globe Awards, in addition to nominations for eight Academy Awards, three Grammy Awards, and two British Academy Film Awards. She was named by Time as one of the 100 most influential people in the world in 2019." .
+
+ng:Glynis_Johns a sem:Event ;
+    sem:hasTimeStamp "1923-10-05"^^xsd:date ;
+    rdfs:comment "Glynis Margaret Payne Johns (5 October 1923 – 4 January 2024) was a British actress and singer. In a career exceeding seven decades on stage and screen, Johns appeared in more than 60 films and 30 plays. She received various accolades throughout her career, including a Tony Award and a Drama Desk Award, as well as nominations for an Academy Award, a Golden Globe Award and a Laurence Olivier Award." .
+
+ng:Guillermo_del_Toro a sem:Event ;
+    sem:hasTimeStamp "1964-10-09"^^xsd:date ;
+    rdfs:comment "Guillermo del Toro Gómez (Spanish: [ɡiˈʝeɾmo ðel ˈtoɾo]; born 9 October 1964) is a Mexican filmmaker, author, and artist. His work has been characterized by a strong connection to fairy tales, gothicism, and horror, often blending the genres, with an effort to infuse visual or poetic beauty in the grotesque. He has had a lifelong fascination with monsters, which he considers symbols of great power." .
+
+ng:Guy_Williams a sem:Event ;
+    sem:hasTimeStamp "1989-04-30"^^xsd:date ;
+    rdfs:comment "Armando Joseph Catalano (January 14, 1924 – April 30, 1989), better known as Guy Williams, was an American actor. He played swashbuckling action heroes in the 1950s and 1960s. Among his most notable achievements were two TV series: Zorro in the title role, and as the father of the Robinson family on the popular sci-fi series Lost in Space." .
+
+ng:Hamilton_Luske a sem:Event ;
+    sem:hasTimeStamp "1903-10-16"^^xsd:date ;
+    rdfs:comment "Hamilton Somers Luske (October 16, 1903 – February 19, 1968) was an American animator and film director." .
+
+ng:Harriet_Burns a sem:Event ;
+    sem:hasTimeStamp "1928-08-20"^^xsd:date ;
+    rdfs:comment "Harriet Burns (August 20, 1928 – July 25, 2008) was an American artist and designer. Burns was the first woman hired in the Walt Disney Imagineering department within the Walt Disney Company." .
+
+ng:Hayley_Mills a sem:Event ;
+    sem:hasTimeStamp "1946-04-18"^^xsd:date ;
+    rdfs:comment "Hayley Catherine Rose Vivien Mills (born 18 April 1946) is an English actress and singer. A daughter of Sir John Mills and Mary Hayley Bell and younger sister of actress Juliet Mills, she began her acting career as a child and was hailed as a promising newcomer, winning the BAFTA Award for Most Promising Newcomer for her performance in the British crime drama film Tiger Bay (1959), the Academy Juvenile Award for Disney's Pollyanna (1960) and Golden Globe Award for New Star of the Year&#160;– Actress in 1961. During her early career, Mills appeared in six films for Walt Disney," .
+
+ng:Howard_Ashman a sem:Event ;
+    sem:hasTimeStamp "1950-05-17"^^xsd:date ;
+    rdfs:comment "Howard Elliott Ashman (May 17, 1950 – March 14, 1991) was an American playwright, lyricist, and stage director. He is most widely known for his work on feature films for Walt Disney Animation Studios, for which Ashman wrote the lyrics and Alan Menken composed the music. Ashman has been credited as being a main driving force behind the Disney Renaissance." .
+
+ng:Howard_Shore a sem:Event ;
+    sem:hasTimeStamp "1946-10-18"^^xsd:date ;
+    rdfs:comment "Howard Leslie Shore (born October 18, 1946) is a Canadian composer, conductor, and orchestrator noted for his film scores. He has composed the scores for over 80 films, most notably the scores for The Lord of the Rings and The Hobbit film trilogies. He is a consistent collaborator with director David Cronenberg, having scored all but one of his films since 1979, and collaborated with Martin Scorsese on six of his films." .
+
+ng:Hugh_Grant a sem:Event ;
+    sem:hasTimeStamp "1960-09-09"^^xsd:date ;
+    rdfs:comment "Hugh John Mungo Grant (born 9 September 1960) is an English actor. He established himself early in his career as a charming and vulnerable romantic leading man, and has since transitioned into a character actor. He has received several accolades including a British Academy Film Award and a Golden Globe Award as well as nominations for two Primetime Emmy Awards." .
+
+ng:Ilene_Woods a sem:Event ;
+    sem:hasTimeStamp "1929-05-05"^^xsd:date ;
+    rdfs:comment "Jacqueline Ruth Woods (May 5, 1929 – July 1, 2010), better known as Ilene Woods, was an American actress and singer. Woods was best known as the original voice of the title character of Walt Disney animated film Cinderella, for which she was named a Disney Legend in 2003." .
+
+ng:Irwin_Kostal a sem:Event ;
+    sem:hasTimeStamp "1994-11-23"^^xsd:date ;
+    rdfs:comment "Irwin Kostal (October 1, 1911 – November 23, 1994) was an American musical arranger of films and an orchestrator of Broadway musicals." .
+
+ng:Jack_Hannah a sem:Event ;
+    sem:hasTimeStamp "1994-06-11"^^xsd:date ;
+    rdfs:comment "John Fredrick Hannah (January 5, 1913 – June 11, 1994) was an American animator, writer and director of animated shorts. He worked for Disney and Walter Lantz." .
+
+ng:Jack_Lindquist a sem:Event ;
+    sem:hasTimeStamp "1927-03-15"^^xsd:date ;
+    rdfs:comment "Jack Lindquist (March 15, 1927 – February 28, 2016) was an American business executive who served as president of the Disneyland theme park in Anaheim, California from 1990 until he retired in 1993. He was a Disney employee from 1955 until his retirement, and was a marketing executive in the theme parks division for almost thirty years, including a stint as the first advertising manager for Disneyland. His eventual reach would extend worldwide, having trained and/or greatly influenced others who would become amusement industry leaders, both inside and outside of the Disney attractions." .
+
+ng:Jack_Wagner a sem:Event ;
+    sem:hasTimeStamp "1925-12-17"^^xsd:date ;
+    rdfs:comment "Jack Francis Wagner (October 17, 1925 – June 16, 1995) was an American radio personality and actor best known for his association with Disneyland. He is famous for the various announcements over the park PA, for parades, special events, etc. He also did voice work for Walt Disney World, and for the attractions themselves, including instructions, emergency precautions, and safety spiels." .
+
+ng:Jack_Wrather a sem:Event ;
+    sem:hasTimeStamp "1918-05-24"^^xsd:date ;
+    rdfs:comment "John Devereaux Wrather Jr. (May 24, 1918 – November 12, 1984), was an entrepreneur and petroleum businessman who became a television producer and later diversified by investing in broadcast stations and resort properties. He is best known for producing The Lone Ranger, Sergeant Preston of the Yukon, and Lassie television series in the 1950s as well as marrying actress Bonita Granville. His daughter, Linda Wrather appeared in one of the last episodes of the Lone Ranger, The Angel and the Outlaw." .
+
+ng:James_Algar a sem:Event ;
+    sem:hasTimeStamp "1912-06-11"^^xsd:date ;
+    rdfs:comment "James Algar (June 11, 1912 – February 26, 1998) was an American film director, screenwriter, and producer. He worked at Walt Disney Productions for 43 years and received the Disney Legends award in 1998. He was born in Modesto, California and died in Carmel, California." .
+
+ng:James_Gandolfini a sem:Event ;
+    sem:hasTimeStamp "1961-09-18"^^xsd:date ;
+    rdfs:comment "James John Gandolfini (Italian: [ɡandolˈfiːni]; September 18, 1961&#160;– June 19, 2013) was an American actor. He was best known for his portrayal of Tony Soprano, the Italian-American Mafia crime boss in HBO's television series The Sopranos (1999–2007). For this role, he won three Emmy Awards, five Screen Actors Guild Awards, and one Golden Globe Award." .
+
+ng:Jason_Bateman a sem:Event ;
+    sem:hasTimeStamp "1969-01-14"^^xsd:date ;
+    rdfs:comment "Jason Kent Bateman (born January 14, 1969) is an American actor. He is known for his roles as Michael Bluth in the Fox / Netflix sitcom Arrested Development (2003–2019) and Marty Byrde in the Netflix crime drama series Ozark (2017–2022), as well as for his work in numerous comedy films. His accolades include a Golden Globe Award and a Primetime Emmy Award." .
+
+ng:Jeff_Bridges a sem:Event ;
+    sem:hasTimeStamp "1949-12-04"^^xsd:date ;
+    rdfs:comment "Jeffrey Leon Bridges (born December 4, 1949) is an American actor and singer. He is best known for his leading man roles in film and television. In a career spanning more than seven decades, he has received various accolades, including an Academy Award and a Golden Globe Award, in addition to nominations for three BAFTA Awards and two Primetime Emmy Awards." .
+
+ng:Jeffrey_Tambor a sem:Event ;
+    sem:hasTimeStamp "1944-07-08"^^xsd:date ;
+    rdfs:comment "Jeffrey Michael Tambor (born July 8, 1944) is an American actor. He is known for his television roles such as Jeffrey Brookes, the uptight neighbor of Stanley and Helen Roper in the television sitcom The Ropers (1979–1980), as Hank Kingsley on The Larry Sanders Show (1992–1998), George Bluth Sr. and Oscar Bluth on Arrested Development (2003–2006, 2013, 2018–2019) and Maura Pfefferman on Transparent (2014–2017)." .
+
+ng:Jennifer_Grey a sem:Event ;
+    sem:hasTimeStamp "1960-03-26"^^xsd:date ;
+    rdfs:comment "Jennifer Grey (born March 26, 1960) is an American actress. She made her acting debut with the film Reckless (1984), and had her breakthrough with the teen comedy film Ferris Bueller's Day Off (1986). She earned worldwide fame starring as Frances \"Baby\" Houseman in the romantic drama film Dirty Dancing (1987), which earned her a Golden Globe Award nomination." .
+
+ng:Jessica_Chastain a sem:Event ;
+    sem:hasTimeStamp "1977-03-24"^^xsd:date ;
+    rdfs:comment "Jessica Michelle Chastain (born March 24, 1977) is an American actress and producer. Known for primarily starring in projects with feminist themes, she has received various accolades, including an Academy Award and a Golden Globe Award, in addition to nominations for a Primetime Emmy Award, two Tony Awards and two British Academy Film Awards. Time magazine named her one of the 100 most influential people in the world in 2012." .
+
+ng:Jim_Carrey a sem:Event ;
+    sem:hasTimeStamp "1962-01-17"^^xsd:date ;
+    rdfs:comment "James Eugene Carrey (; born January 17, 1962) is a Canadian and American actor and comedian. Known primarily for his energetic slapstick performances, he is regarded as one of the most prominent comedic actors of his generation. He has received two Golden Globe Awards, in addition to nominations for BAFTA Awards and Screen Actors Guild Awards." .
+
+ng:Jim_Henson a sem:Event ;
+    sem:hasTimeStamp "1936-09-24"^^xsd:date ;
+    rdfs:comment "James Maury Henson (September 24, 1936&#160;– May 16, 1990) was an American puppeteer, actor, animator, creative producer, and director who achieved worldwide notability as the creator of the Muppets. Henson was also well known for creating Fraggle Rock (1983–1987) and as the director of The Dark Crystal (1982) and Labyrinth (1986), as well as creating the Muppets for Sesame Street (1969–present). Born in Greenville, Mississippi, and raised in both Leland, Mississippi, and University Park, Maryland, Henson began developing puppets in high school." .
+
+ng:Jimmie_Dodd a sem:Event ;
+    sem:hasTimeStamp "1910-03-28"^^xsd:date ;
+    rdfs:comment "James Wesley Dodd (March 28, 1910 – November 10, 1964) was an American actor, singer, and songwriter best known as the master of ceremonies for the popular 1950s Walt Disney television series The Mickey Mouse Club, as well as the writer of its well-known theme song, \"The Mickey Mouse Club March\". A different version of this march, much slower in tempo and with different lyrics, became the alma mater that closed each episode. Dodd grew up in Cincinnati." .
+
+ng:Jimmy_MacDonald a sem:Event ;
+    sem:hasTimeStamp "1906-05-19"^^xsd:date ;
+    rdfs:comment "John James MacDonald (May 19, 1906 – February 1, 1991) was an English-American foley artist and voice actor. He was the original head of the Disney sound-effects department and was also the second official voice of Mickey Mouse from 1947 to 1976 after Walt Disney stopped playing the character and before Wayne Allwine became the third voice of Mickey in 1977." .
+
+ng:Joaquin_Phoenix a sem:Event ;
+    sem:hasTimeStamp "1974-10-28"^^xsd:date ;
+    rdfs:comment "Joaquin Rafael Phoenix ( whah-KEEN; born Joaquín Rafael Bottom; October 28, 1974) is an American actor. Widely described as one of the preeminent actors of his generation and known for his roles as dark, unconventional and eccentric characters in independent film, he has received various accolades, including an Academy Award, an Actor Award, a British Academy Film Award, a Grammy Award, a Volpi Cup, and two Golden Globes. Phoenix began his career by appearing in television series in the early 1980s with his brother River." .
+
+ng:Jodie_Foster a sem:Event ;
+    sem:hasTimeStamp "1962-11-19"^^xsd:date ;
+    rdfs:comment "Alicia Christian \"Jodie\" Foster (born November 19, 1962) is an American actress and filmmaker. Foster started her career as a child actor before establishing herself as a leading actress in film. As a performer, she is known for her versatility." .
+
+ng:Joe_Grant a sem:Event ;
+    sem:hasTimeStamp "1908-05-15"^^xsd:date ;
+    rdfs:comment "Joseph Clarence Grant (May 15, 1908 – May 6, 2005) was an American conceptual artist, storyboard artist, and screenwriter." .
+
+ng:Joe_Ranft a sem:Event ;
+    sem:hasTimeStamp "1960-03-13"^^xsd:date ;
+    rdfs:comment "Joseph Henry Ranft (March 13, 1960 – August 16, 2005) was an American animator, screenwriter, and voice actor. He worked for Pixar Animation Studios and Disney at Walt Disney Animation Studios and Disney Television Animation. His younger brother Jerome Ranft is a sculptor who also worked on several Pixar films." .
+
+ng:John_Goodman a sem:Event ;
+    sem:hasTimeStamp "1952-06-20"^^xsd:date ;
+    rdfs:comment "John Stephen Goodman (born June 20, 1952) is an American actor. He rose to prominence in television before becoming an acclaimed and popular film actor. Goodman has received various accolades including a Primetime Emmy Award, a Golden Globe Award, and a Screen Actors Guild Award." .
+
+ng:John_Hench a sem:Event ;
+    sem:hasTimeStamp "1908-06-29"^^xsd:date ;
+    rdfs:comment "John Hench (June 29, 1908 – February 5, 2004) was an American artist, designer and director at the Walt Disney Company. For 65 years, he helped design and develop various Disney attractions and theme parks." .
+
+ng:John_Lounsbery a sem:Event ;
+    sem:hasTimeStamp "1911-03-09"^^xsd:date ;
+    rdfs:comment "John Mitchell Lounsbery (March 9, 1911 - February 13, 1976) was an American animator and director employed by Walt Disney Productions. He is best known as one of Disney's Nine Old Men, of which he was the shortest lived as well as the first to die." .
+
+ng:Jon_Hamm a sem:Event ;
+    sem:hasTimeStamp "1971-03-10"^^xsd:date ;
+    rdfs:comment "Jonathan Daniel Hamm (born March 10, 1971) is an American actor. He is best known for his role as Don Draper in the period drama series Mad Men (2007–2015), for which he won numerous accolades, including a Primetime Emmy Award and two Golden Globe Awards. Hamm also acted in lead roles in the films Stolen (2010), Million Dollar Arm (2014), Keeping Up with the Joneses (2016), Beirut (2018), and Confess, Fletch (2022), as well as his supporting roles in The Town (2010), Sucker Punch (2011), Bridesmaids (2011), Baby Driver (2017), Tag (2018), Bad Times at the El Royale (2018), The" .
+
+ng:Joyce_Carlson a sem:Event ;
+    sem:hasTimeStamp "1923-03-16"^^xsd:date ;
+    rdfs:comment "Joyce Carlson (March 16, 1923 – January 2, 2008) was an American artist and designer credited with creating the idyllic universe of singing children at \"It's a Small World\" rides at Walt Disney theme parks around the world. Carlson also worked as an ink artist in the Walt Disney Animation Studios, on such films as Cinderella, Peter Pan and Sleeping Beauty. She was the lead ink artist for the 1955 Disney film Lady and the Tramp." .
+
+ng:Julie_Andrews a sem:Event ;
+    sem:hasTimeStamp "1935-10-01"^^xsd:date ;
+    rdfs:comment "Dame Julie Andrews (born Julia Elizabeth Wells, 1 October 1935) is an English actress, singer and author. Her accolades include an Academy Award, a British Academy Film Award, three Emmy Awards, three Grammy Awards, seven Golden Globe Awards and nominations for three Tony Awards. One of the biggest box office draws of the 1960s, Andrews has been honoured with the Kennedy Center Honors in 2001, the Screen Actors Guild Life Achievement Award in 2007, and the AFI Life Achievement Award in 2022." .
+
+ng:Kathryn_Beaumont a sem:Event ;
+    sem:hasTimeStamp "1938-06-27"^^xsd:date ;
+    rdfs:comment "Kathryn Priscilla Beaumont (born 27 June 1938) is a British actress. She is best known for voicing Alice in Alice in Wonderland (1951) and Wendy Darling in Peter Pan (1953), for which she was named a Disney Legend in 1998." .
+
+ng:Keanu_Reeves a sem:Event ;
+    sem:hasTimeStamp "1964-09-02"^^xsd:date ;
+    rdfs:comment "Keanu Charles Reeves ( kee-AH-noo; born September 2, 1964) is a Canadian actor and musician. The recipient of numerous accolades in a career on screen spanning four decades, he is known for his leading roles in action films, his amiable public image, and his philanthropic efforts. In 2020, The New York Times ranked him as the fourth-greatest actor of the 21st century, and in 2022, Time magazine named him one of the 100 most influential people in the world." .
+
+ng:Ken_Anderson a sem:Event ;
+    sem:hasTimeStamp "1909-03-17"^^xsd:date ;
+    rdfs:comment "Kenneth B. \"Ken\" Anderson (March 17, 1909 – December 13, 1993) was an American animator, art director, and storyboard artist for The Walt Disney Company. He had been named by Walt Disney as his \"jack of all trades\". Born in Seattle, Anderson studied architecture at the University of Washington." .
+
+ng:Ken_Annakin a sem:Event ;
+    sem:hasTimeStamp "1914-08-10"^^xsd:date ;
+    rdfs:comment "Kenneth Cooper Annakin, (10 August 1914 – 22 April 2009) was an English filmmaker. His career spanned half a century, beginning in the early 1940s and ending in 1992, and in the 1960s he was noticed by critics with large-scale adventure epic and comedies films, like Those Magnificent Men in Their Flying Machines, Battle of the Bulge, The Biggest Bundle of Them All and Monte Carlo or Bust!. He was an Academy Award and Directors Guild of America Award nominee, and received the Order of the British Empire in 2002." .
+
+ng:Kevin_Corcoran a sem:Event ;
+    sem:hasTimeStamp "1949-06-10"^^xsd:date ;
+    rdfs:comment "Kevin Anthony \"Moochie\" Corcoran (June 10, 1949&#160;– October 6, 2015) was an American child actor. He appeared in numerous Disney projects between 1957 and 1963, leading him to be honored as a Disney Legend in 2006." .
+
+ng:Kirk_Douglas a sem:Event ;
+    sem:hasTimeStamp "1916-12-09"^^xsd:date ;
+    rdfs:comment "Kirk Douglas (born Issur Danielovitch; December 9, 1916 – February 5, 2020) was an American actor and filmmaker. After an impoverished childhood, he made his film debut in The Strange Love of Martha Ivers (1946) with Barbara Stanwyck. Douglas soon developed into a leading box-office star throughout the 1950s, known for serious dramas, including westerns and war films." .
+
+ng:Laura_Linney a sem:Event ;
+    sem:hasTimeStamp "1964-02-05"^^xsd:date ;
+    rdfs:comment "Laura Leggett Linney (born February 5, 1964) is an American actress and director. She is the recipient of several awards, including four Primetime Emmy Awards, two Golden Globe Awards, and a Screen Actors Guild Award, in addition to nominations for three Academy Awards, five Tony Awards, and a BAFTA. Linney made her Broadway debut in 1990 before receiving Tony Award nominations for the 2002 revival of The Crucible, the original Broadway productions of Sight Unseen (2004), Time Stands Still (2010), My Name Is Lucy Barton (2020), and the 2017 revival of The Little Foxes. On television, she won her first" .
+
+ng:Lea_Salonga a sem:Event ;
+    sem:hasTimeStamp "1971-02-22"^^xsd:date ;
+    rdfs:comment "Maria Lea Carmen Imutan Salonga (born February 22, 1971) is a Filipina actress and singer. Known as the \"Pride of the Philippines\", she has headlined Broadway and West End productions, appeared on international television and film, and released albums of her work. Salonga began performing in Philippine musical theatre as a child, making her professional debut at age seven." .
+
+ng:Leigh_Harline a sem:Event ;
+    sem:hasTimeStamp "1907-03-26"^^xsd:date ;
+    rdfs:comment "Leigh Adrian Harline (March 26, 1907 – December 10, 1969) was an American film composer and songwriter." .
+
+ng:Leonard_Goldenson a sem:Event ;
+    sem:hasTimeStamp "1905-12-07"^^xsd:date ;
+    rdfs:comment "Leonard H. Goldenson (December 7, 1905 – December 27, 1999) was the founder and president of the United States–based television network American Broadcasting Company (ABC), from 1953 to 1986. Goldenson, as CEO of United Paramount Theatres, acquired a then-struggling ABC from candy industrialist Edward J. Noble. Goldenson focused on investing heavily on sports and news coverage along with creating synergy between Hollywood studios and television networks." .
+
+ng:Letty_Aronson a sem:Event ;
+    sem:hasTimeStamp "1943-01-01"^^xsd:date ;
+    rdfs:comment "Ellen Letty Aronson (née Konigsberg; born November 30, 1943) is an American film producer. She is the younger sister of writer and director Woody Allen." .
+
+ng:MTV_Movie_Award_for_Best_Performance a sem:Event ;
+    rdfs:comment "This is a following list of the MTV Movie Award Winners and Nominees for Best Performance from 1992 on Awards. In all but five years, the awards are separated into male and female categories." .
+
+ng:Macaulay_Culkin a sem:Event ;
+    sem:hasTimeStamp "1980-08-26"^^xsd:date ;
+    rdfs:comment "Macaulay Macaulay Culkin Culkin (born Macaulay Carson Culkin; August&#160;26,&#160;1980&#160;(1980-08-26)) is an American actor and musician. Considered one of the most successful child actors of the 1990s, Culkin has received several accolades including a Golden Globe Award nomination. In 2005, he was ranked second on VH1's list of the \"100 Greatest Kid-Stars\"." .
+
+ng:Marcello_Mastroianni a sem:Event ;
+    sem:hasTimeStamp "1924-09-28"^^xsd:date ;
+    rdfs:comment "Marcello Vincenzo Domenico Mastroianni (26 September 1924 – 19 December 1996) was an Italian actor. He is generally regarded as one of Italy's most iconic male performers of the 20th century. He played leading roles for many of the country's top directors, in a career spanning 147 films between 1939 and 1996, garnering many international honours including two BAFTA Awards, two Best Actor awards at the Venice and Cannes film festivals, two Golden Globes, and three Academy Award nominations." .
+
+ng:Mark_Hamill a sem:Event ;
+    sem:hasTimeStamp "1951-09-25"^^xsd:date ;
+    rdfs:comment "Mark Richard Hamill (; born September 25, 1951) is an American actor. He starred as Luke Skywalker in the Star Wars franchise, and has voiced the Joker in multiple pieces of DC Comics media, starting with Batman: The Animated Series in 1992. Through the 1980s, Hamill distinguished himself from his role in Star Wars by pursuing a theatre career on Broadway, starring in productions of The Elephant Man, Amadeus and The Nerd." .
+
+ng:Martin_Scorsese a sem:Event ;
+    sem:hasTimeStamp "1942-11-17"^^xsd:date ;
+    rdfs:comment "Martin Charles Scorsese ( skor-SESS-ee; Italian: [skorˈseːze, -se]; born November&#160;17, 1942) is an American filmmaker. One of the major figures of the New Hollywood era, he is widely considered one of the greatest and most influential directors in the history of cinema. He has received many accolades, including an Academy Award, four BAFTA Awards, three Emmy Awards, a Grammy Award, and three Golden Globe Awards." .
+
+ng:Marty_Sklar a sem:Event ;
+    sem:hasTimeStamp "1934-02-06"^^xsd:date ;
+    rdfs:comment "Martin A. \"Marty\" Sklar (February 6, 1934&#160;– July 27, 2017) was a scriptwriter and construction developer. He was The Walt Disney Company's international ambassador for Walt Disney Imagineering, the subsidiary of the company which designs and constructs Disney theme parks and resorts across the world. He was formerly vice president of Concepts and Planning for the company, before being promoted to president, then vice chairman and principal creative executive before his final role." .
+
+ng:Mary_Blair a sem:Event ;
+    sem:hasTimeStamp "1911-10-21"^^xsd:date ;
+    rdfs:comment "Mary Blair (born Mary Browne Robinson; October 21, 1911 – July 26, 1978) was an American artist, animation concept artist, colorist, and designer. She was prominent in producing art for The Walt Disney Company, drawing concept art for such films as Alice in Wonderland, Peter Pan, Song of the South and Cinderella. Blair also created character designs for enduring attractions such as Disneyland's It's a Small World, the fiesta scene in El Rio del Tiempo in the Mexico pavilion in Epcot's World Showcase, and an enormous mosaic inside Disney's Contemporary Resort." .
+
+ng:Matsuo_Yokoyama a sem:Event ;
+    sem:hasTimeStamp "1927-03-31"^^xsd:date ;
+    rdfs:comment "Matsuo Yokoyama (横山 松夫, Yokoyama Matsuo; born 31 March 1927) is a Japanese businessman who was the president of Walt Disney Enterprises of Japan from 1989 to 1994. As a merchandise representative in the early 1960s he was responsible for establishing the enforcement of Disney's intellectual property rights in Japan." .
+
+ng:Matt_Bomer a sem:Event ;
+    sem:hasTimeStamp "1977-10-11"^^xsd:date ;
+    rdfs:comment "Matthew Staton Bomer ( BOH-mər; born October 11, 1977) is an American actor. His works have earned him accolades including a Golden Globe Award, a Critics' Choice Television Award, and a Peabody Award, in addition to nominations for two Primetime Emmy Awards. Bomer made his television debut in 2000 on the long-running soap opera All My Children." .
+
+ng:Maurice_Chevalier a sem:Event ;
+    sem:hasTimeStamp "1888-09-12"^^xsd:date ;
+    rdfs:comment "Maurice Auguste Chevalier (French: [mɔʁis ʃəvalje]; 12&#160;September 1888 – 1 January 1972) was a French singer, actor, and entertainer. He is best known for his signature songs, including \"Livin' In The Sunlight\", \"Valentine\", \"Louise\", \"Mimi\", and \"Thank Heaven for Little Girls\", and for his films, including The Love Parade, The Big Pond, The Smiling Lieutenant, One Hour with You, and Love Me Tonight. His trademark attire was a boater hat and tuxedo." .
+
+ng:Mel_Shaw a sem:Event ;
+    sem:hasTimeStamp "1914-12-19"^^xsd:date ;
+    rdfs:comment "Mel Shaw (born Melvin Schwartzman; December 19, 1914 – November 22, 2012) was an American animator, design artist, writer, and artist. Shaw was involved in the animation, story design, and visual development of numerous Disney animated films, beginning with Bambi, which was released in 1942. His other animated film credits, usually involving animation design or the story, included The Rescuers in 1977, The Fox and the Hound in 1981, The Black Cauldron in 1985, The Great Mouse Detective in 1986, Beauty and the Beast in 1991, and The Lion King in 1994." .
+
+ng:Meryl_Streep a sem:Event ;
+    sem:hasTimeStamp "1949-06-22"^^xsd:date ;
+    rdfs:comment "Mary Louise \"Meryl\" Streep (born June 22, 1949) is an American actress. Recognized as one of the most versatile performers of her era, Streep is noted for her technical precision, command of dialects, and professional longevity. She is an alumna of Vassar College and the Yale School of Drama, holding a Bachelor of Arts and a Master of Fine Arts." .
+
+ng:Michael_J_Fox a sem:Event ;
+    sem:hasTimeStamp "1961-06-09"^^xsd:date ;
+    rdfs:comment "Michael Andrew Fox (born June 9, 1961), known professionally as Michael J. Fox, is a Canadian and American actor and activist. Beginning his career as a child actor in the 1970s, he rose to prominence portraying Alex P. Keaton on the NBC sitcom Family Ties (1982–1989) and Marty McFly in the Back to the Future film trilogy (1985–1990). Fox went on to star in films such as Teen Wolf (1985), The Secret of My Success (1987), Casualties of War (1989), Doc Hollywood (1991) and The Frighteners (1996)." .
+
+ng:Mickey_Rooney a sem:Event ;
+    sem:hasTimeStamp "1920-09-23"^^xsd:date ;
+    rdfs:comment "Mickey Rooney (born Ninnian Joseph Yule Jr.; September 23, 1920 – April 6, 2014) was an American actor. In a career spanning nearly nine decades, he appeared in more than 300 films and was among the last surviving stars of the silent-film era. He was the top box-office attraction from 1939 to 1941, and one of the best-paid actors of that era." .
+
+ng:Misha_Collins a sem:Event ;
+    sem:hasTimeStamp "1974-08-20"^^xsd:date ;
+    rdfs:comment "Dmitri \"Misha\" Collins (born Dmitri Tippens Krushnic; August 20, 1974) is an American actor best known for his role as the angel Castiel on the CW television series Supernatural (2008–2020)." .
+
+ng:Morgan_Freeman a sem:Event ;
+    sem:hasTimeStamp "1937-06-01"^^xsd:date ;
+    rdfs:comment "Morgan Freeman (born June 1, 1937) is an American actor, producer, and narrator. In a career spanning six decades, he has received numerous accolades, including an Academy Award and a Golden Globe Award, as well as a nomination for a Grammy Award and a Tony Award. He was honored with the Kennedy Center Honor in 2008, an AFI Life Achievement Award in 2011, the Cecil B. DeMille Award in 2012, and Screen Actors Guild Life Achievement Award in 2018." .
+
+ng:N_Paul_Kenworthy a sem:Event ;
+    sem:hasTimeStamp "1925-02-14"^^xsd:date ;
+    rdfs:comment "Norman Paul Kenworthy Jr. (February 14, 1925 – October 15, 2010) was an American film director and cinematographer, mostly for Disney studio films. As co-inventor of the Snorkel Camera System, a remote-controlled periscope camera, he shared a 1978 non-competitive Academy Award for technical achievement with engineer William Latady." .
+
+ng:Nastassja_Kinski a sem:Event ;
+    sem:hasTimeStamp "1961-01-24"^^xsd:date ;
+    rdfs:comment "Nastassja Aglaia Kinski (German: [nasˈtasi̯a ˈkɪnskiː] ; née Nakszynski, Polish: [nakˈʂɨj̃skʲi]; born 24 January 1961) is a German actress and former model who has appeared in more than 60 films in Europe and the United States. Her worldwide breakthrough was with Stay as You Are (1978). She then came to global prominence with her Golden Globe Award-winning performance as the title character in the Roman Polanski-directed film Tess (1979)." .
+
+ng:Norman_Palmer a sem:Event ;
+    sem:hasTimeStamp "1918-10-07"^^xsd:date ;
+    rdfs:comment "Norman \"Stormy\" Palmer (October 7, 1918 – March 23, 2013) was an American film editor for The Walt Disney Company. He worked for Disney for around 45 years and served as a mentor to Roy E. Disney, who was later appointed vice-chairman of Disney productions. Palmer was best known for his work on the True-Life Adventures series, and in 1998 he was named a Disney Legend." .
+
+ng:Octavia_Spencer a sem:Event ;
+    sem:hasTimeStamp "1972-05-25"^^xsd:date ;
+    rdfs:comment "Octavia Lenora Spencer (born May 25, 1970) is an American actress and author. She is the recipient of various accolades, including an Academy Award, a British Academy Film Award, and a Golden Globe Award, in addition to nominations for two Primetime Emmy Awards. Spencer made her film debut in the 1996 drama A Time to Kill." .
+
+ng:Oliver_Stone a sem:Event ;
+    sem:hasTimeStamp "1946-09-15"^^xsd:date ;
+    rdfs:comment "William Oliver Stone (born (1946-09-15)September 15, 1946) is an American filmmaker. An acclaimed director who tackled subjects ranging from the Vietnam War and American politics to musical biopics and crime dramas, Stone has received numerous accolades including three Academy Awards, a BAFTA Award, one Primetime Emmy, three Independent Spirit Awards and six Golden Globes. Stone was born in New York City and later briefly attended Yale University." .
+
+ng:Patricia_Arquette a sem:Event ;
+    sem:hasTimeStamp "1968-04-08"^^xsd:date ;
+    rdfs:comment "Patricia Arquette ( ar-KET; born April 8, 1968) is an American actress. Known for her roles on film and television, she has received an Academy Award, a BAFTA Award, two Primetime Emmy Awards, three Golden Globe Awards, and two Screen Actors Guild Awards. Arquette made her feature film debut as Kristen Parker in the fantasy slasher A Nightmare on Elm Street 3: Dream Warriors (1987)." .
+
+ng:Paul_Lukas a sem:Event ;
+    sem:hasTimeStamp "1894-05-26"^^xsd:date ;
+    rdfs:comment "Paul Lukas (born Pál Lukács; 26 May 1894&#160;– 15 August 1971) was a Hungarian actor. He won the Academy Award for Best Actor, and the first Golden Globe Award for Best Actor – Motion Picture Drama, as well as a Photoplay Award and a New York Film Critics Circle Award for his performance in the film Watch on the Rhine (1943), reprising the role he created on the Broadway stage." .
+
+ng:Peter_Dinklage a sem:Event ;
+    sem:hasTimeStamp "1969-06-11"^^xsd:date ;
+    rdfs:comment "Peter Hayden Dinklage (; born June 11, 1969) is an American actor. Portraying Tyrion Lannister on the HBO television series Game of Thrones (2011–2019), he won the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series a record four times. Dinklage also received a Golden Globe Award in 2011 and an Actor Award in 2020 for the role." .
+
+ng:Peter_Ellenshaw a sem:Event ;
+    sem:hasTimeStamp "1913-05-24"^^xsd:date ;
+    rdfs:comment "William Samuel Cook \"Peter\" Ellenshaw (24 May 1913 – 12 February 2007) was an English matte designer and special effects creator who worked on many Disney features. Born in London, he moved to America in 1953." .
+
+ng:Peter_Falk a sem:Event ;
+    sem:hasTimeStamp "1927-09-16"^^xsd:date ;
+    rdfs:comment "Peter Michael Falk (September 16, 1927 – June 23, 2011) was an American actor. He is best known for his role as Lieutenant Columbo on the NBC/ABC series Columbo (1968–1978, 1989–2003), for which he won four Primetime Emmy Awards (1972, 1975, 1976, 1990) and a Golden Globe Award (1973). In 1996, TV Guide ranked Falk No." .
+
+ng:Philip_Seymour_Hoffman a sem:Event ;
+    sem:hasTimeStamp "1967-07-23"^^xsd:date ;
+    rdfs:comment "Philip Seymour Hoffman (July 23, 1967 – February 2, 2014) was an American actor. He was known for his distinctive supporting character roles and his memorable leading roles in many films and theatrical productions from the early 1990s until his death in 2014. He was voted the greatest actor of the 21st century in a 2024 ranking by The Independent." .
+
+ng:Pinto_Colvig a sem:Event ;
+    sem:hasTimeStamp "1892-09-11"^^xsd:date ;
+    rdfs:comment "Vance DeBar Colvig Sr. (September 11, 1892 – October 3, 1967), known professionally as Pinto Colvig, was an American actor, cartoonist, and circus and vaudeville performer whose schtick was playing the clarinet off-key while mugging. Colvig was the original performer of the Disney characters Goofy and Pluto, as well as Bozo the Clown and Bluto in Popeye. In 1993, he was posthumously made a Disney Legend for his contributions to Walt Disney Films, including Snow White and the Seven Dwarfs and Fun and Fancy Free." .
+
+ng:Rachel_Brosnahan a sem:Event ;
+    sem:hasTimeStamp "1990-12-15"^^xsd:date ;
+    rdfs:comment "Rachel Elizabeth Brosnahan (born July 12, 1990) is an American actress. She rose to fame for her performance as Midge Maisel in the Amazon Prime Video period comedy series The Marvelous Mrs. Maisel (2017–2023), for which she won a Primetime Emmy Award in 2018 and two consecutive Golden Globe Awards in 2018 and 2019." .
+
+ng:Rachel_Carson a sem:Event ;
+    sem:hasTimeStamp "1907-05-27"^^xsd:date ;
+    rdfs:comment "Rachel Louise Carson (May 27, 1907&#160;– April 14, 1964) was an American marine biologist, writer, and conservationist whose sea trilogy (1941–1955) and book Silent Spring (1962) are credited with advancing marine conservation and the global environmental movement. Carson began her career as an aquatic biologist in the U.S. Bureau of Fisheries, and became a full-time nature writer in the 1950s. Her widely praised 1951 bestseller The Sea Around Us won her a U.S. National Book Award, recognition as a gifted writer, and financial security." .
+
+ng:Rachel_Weisz a sem:Event ;
+    sem:hasTimeStamp "1970-03-07"^^xsd:date ;
+    rdfs:comment "Rachel Hannah Weisz (; born 7 March 1970) is a British actress. Known for her roles in independent films and blockbusters, she has received several awards, including an Academy Award, a British Academy Film Award, a Golden Globe Award, a Screen Actors Guild Award, and a Laurence Olivier Award. Films in which she has appeared have grossed over $3.5 billion worldwide." .
+
+ng:Randy_Newman a sem:Event ;
+    sem:hasTimeStamp "1943-11-28"^^xsd:date ;
+    rdfs:comment "Randall Stuart Newman (born November 28, 1943) is an American singer-songwriter, pianist, composer, and arranger. Born in Los Angeles to an extended family of Hollywood film composers, he is known for his Americana-inspired songs, non-rhotic Southern-accented singing, and lyrics that are often mordant or satirical and delivered by an unreliable narrator. Since the 1990s, he has worked mainly in film scoring, most popularly for Disney and Pixar." .
+
+ng:Randy_Quaid a sem:Event ;
+    sem:hasTimeStamp "1950-10-01"^^xsd:date ;
+    rdfs:comment "Randy Randall Rudy Quaid (born October 1, 1950) is an American actor. He was nominated for an Academy Award, a BAFTA Award and a Golden Globe Award for his role in The Last Detail in 1973. In 1978, he co-starred as a prisoner in Midnight Express." .
+
+ng:Regis_Philbin a sem:Event ;
+    sem:hasTimeStamp "1931-08-25"^^xsd:date ;
+    rdfs:comment "Regis Francis Xavier Philbin ( REE-jis; August 25, 1931 – July 25, 2020) was an American television presenter, comedian, actor, and singer. Once called \"the hardest-working man in show business\", he held the Guinness World Record for the most hours spent on US television. Philbin was born and raised in New York City." .
+
+ng:Richard_Dreyfuss a sem:Event ;
+    sem:hasTimeStamp "1947-10-29"^^xsd:date ;
+    rdfs:comment "Richard Stephen Dreyfuss ( DRY-fəs; né Dreyfus; born October 29, 1947) is an American actor. He emerged from the New Hollywood wave of American cinema, finding fame with a succession of leading man parts in the 1970s. He has received an Academy Award, a BAFTA, and a Golden Globe." .
+
+ng:Richard_Fleischer a sem:Event ;
+    sem:hasTimeStamp "1916-12-08"^^xsd:date ;
+    rdfs:comment "Richard Owen Fleischer (; December 8, 1916 – March 25, 2006) was an American film director. His career spanned more than four decades, beginning at the height of the Golden Age of Hollywood and lasting through the American New Wave. He was the son of animation pioneer Max Fleischer, and served as chairman of Fleischer Studios." .
+
+ng:Richard_Todd a sem:Event ;
+    sem:hasTimeStamp "1919-06-11"^^xsd:date ;
+    rdfs:comment "Richard Andrew Palethorpe-Todd (11 June 1919&#160;– 3 December 2009) was a British actor known for his leading man roles of the 1950s. He received a Golden Globe Award for Most Promising Newcomer – Male, and an Academy Award for Best Actor nomination and a Golden Globe Award for Best Actor nomination for his performance as Corporal Lachlan MacLachlan in the 1949 film The Hasty Heart. His other notable roles include Jonathan Cooper in Stage Fright (1950), Wing Commander Guy Gibson in The Dam Busters (1955), Sir Walter Raleigh in The Virgin Queen (1955), and Major John Howard in The Longest" .
+
+ng:Robin_Wright a sem:Event ;
+    sem:hasTimeStamp "1966-04-08"^^xsd:date ;
+    rdfs:comment "Robin Gayle Wright (born April 8, 1966) is an American actress, producer and director. She has received accolades including a Golden Globe Award, and nominations for eight Primetime Emmy Awards. Wright first gained attention for her role as Kelly Capwell in the NBC Daytime soap opera Santa Barbara from 1984 to 1988." .
+
+ng:Ron_Logan a sem:Event ;
+    sem:hasTimeStamp "1938-02-09"^^xsd:date ;
+    rdfs:comment "Ronald Logan (February 9, 1938 – August 30, 2022) was an American businessman who served as executive vice president of Walt Disney Entertainment (now Walt Disney Creative Entertainment). After retiring from the company in 2001, he was formally a professor at the University of Central Florida Rosen College of Hospitality Management in Orlando, Florida, United States." .
+
+ng:Roy_E_Disney a sem:Event ;
+    sem:hasTimeStamp "2009-12-16"^^xsd:date ;
+    rdfs:comment "Roy Edward Disney (January 10, 1930 – December 16, 2009) was an American businessman, media executive, and filmmaker. He was best known for serving as a senior executive for the Walt Disney Company and the chairman of its animation division, both of which were founded by his uncle, Walt Disney, and his father, Roy O. Disney. Born in Los Angeles, Disney graduated from Pomona College in 1951 and began working at Walt Disney Productions an assistant director and producer." .
+
+ng:Roy_Williams a sem:Event ;
+    sem:hasTimeStamp "1907-07-30"^^xsd:date ;
+    rdfs:comment "Roy Williams (July 30, 1907 – November 7, 1976) was an American artist and entertainer for The Walt Disney Studios, best known as \"Big Roy,\" the adult mouseketeer for four seasons on the Mickey Mouse Club television series and for his invention of the Mickey Mouse hats." .
+
+ng:Rutger_Hauer a sem:Event ;
+    sem:hasTimeStamp "1944-01-23"^^xsd:date ;
+    rdfs:comment "Rutger Oelsen Hauer (Dutch: [ˈrʏtxər ˈulsə(n) ˈɦʌuər]; 23 January 1944 – 19 July 2019) was a Dutch actor, with a career that spanned over 170 roles across nearly 50 years, beginning in 1969. In 1999, he was named by the Dutch public as the Best Dutch Actor of the Century. Hauer's career began in 1969 with the title role in the Dutch television series Floris and surged with his leading role in Turkish Delight (1973), which in 1999 was named the Best Dutch Film of the Century." .
+
+ng:Ruthie_Tompson a sem:Event ;
+    sem:hasTimeStamp "1910-07-22"^^xsd:date ;
+    rdfs:comment "Ruth Irene Tompson (July 22, 1910 – October 10, 2021) was an American camera technician, animation checker and supercentenarian. She was known for her work on animated features at The Walt Disney Company and was declared a Disney Legend in 2000." .
+
+ng:Ryan_Gosling a sem:Event ;
+    sem:hasTimeStamp "1980-11-12"^^xsd:date ;
+    rdfs:comment "Ryan Thomas Gosling ( GOSS-ling; born November 12, 1980) is a Canadian actor. His work includes both independent films and major studio features, and his accolades include a Golden Globe Award, in addition to nominations for three Academy Awards, a Primetime Emmy Award, and two British Academy Film Awards. Gosling began his acting career when he was 13 on Disney Channel's The All New Mickey Mouse Club (1993–1995), and went on to appear in other family entertainment programs, including Are You Afraid of the Dark? (1995) and Goosebumps (1996)." .
+
+ng:Salvatore_Camarata a sem:Event ;
+    sem:hasTimeStamp "1913-05-11"^^xsd:date ;
+    rdfs:comment "Salvador \"Tutti\" Camarata (May 11, 1913 – April 13, 2005) was an American composer, arranger, trumpeter, and record producer. He was also known as \"Toots\" Camarata." .
+
+ng:Sam_Rockwell a sem:Event ;
+    sem:hasTimeStamp "1968-11-05"^^xsd:date ;
+    rdfs:comment "Samuel Rockwell (born November 5, 1968) is an American actor. In a career spanning over three decades of stage and screen, he is known for his offbeat and charismatic character roles in independent films, and has received various accolades including an Academy Award, a British Academy Film Award and a Silver Bear, in addition to nominations for three Primetime Emmy Awards and a Tony Award. From the late 1980s, Rockwell started his career portraying diverse supporting roles in a variety of genres, with a number of guest television roles and roles in films such as The Green Mile (1999), Galaxy" .
+
+ng:Sandahl_Bergman a sem:Event ;
+    sem:hasTimeStamp "1951-11-14"^^xsd:date ;
+    rdfs:comment "Sandahl Bergman (born November 14, 1951) is an American actress and dancer. Trained as a dancer, she first gained recognition performing on Broadway before transitioning to film roles. She attracted early film attention for her appearance in the dance sequence “Air Erotica” in Bob Fosse’s film All That Jazz (1979)." .
+
+ng:Sarah_Michelle_Gellar a sem:Event ;
+    sem:hasTimeStamp "1977-04-14"^^xsd:date ;
+    rdfs:comment "Sarah Michelle Prinze (née&#160;Gellar GHEL-ər; born April 14, 1977) is an American actress. She is known for portraying strong female characters in film and television, and is regarded as a scream queen for her work in the horror genre. After being spotted by a talent agent as a child, Gellar began her career on television at age five." .
+
+ng:Selena_Gomez a sem:Event ;
+    sem:hasTimeStamp "1992-07-22"^^xsd:date ;
+    rdfs:comment "Selena Marie Gomez ( sə-LEE-nə GOH-mez; born July 22, 1992) is an American actress, singer, songwriter, businesswoman, and producer. Gomez began her career as a child actress, appearing on the children's television series Barney &amp; Friends (2002–2004), and emerged as a teen idol for her leading role as Alex Russo on the Disney Channel sitcom Wizards of Waverly Place (2007–2012). She signed with Hollywood Records in 2008 and formed the band Selena Gomez &amp; the Scene, which released three albums: Kiss &amp; Tell (2009), A Year Without Rain (2010), and When the Sun Goes Down (2011)." .
+
+ng:Sidney_Lumet a sem:Event ;
+    sem:hasTimeStamp "1924-06-25"^^xsd:date ;
+    rdfs:comment "Sidney Arthur Lumet ( loo-MET; June 25, 1924&#160;– April 9, 2011) was an American film director. Lumet started his career in theatre before moving to directing television in 1950, and then directing films from 1957, where he gained a reputation for making realistic and gritty New York dramas that focused on the working class, tackled social injustices, and often questioned authority. He received various accolades including an Academy Honorary Award and a Golden Globe Award as well as nominations for nine British Academy Film Awards and a Primetime Emmy Award." .
+
+ng:Stan_Lee a sem:Event ;
+    sem:hasTimeStamp "1922-12-28"^^xsd:date ;
+    rdfs:comment "Stan Lee (born Stanley Martin Lieber ; December 28, 1922 – November 12, 2018) was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business called Timely Comics, which later became Marvel Comics. He was Marvel's primary creative leader for two decades, expanding it from a small publishing house division to a multimedia corporation that dominated the comics and film industries." .
+
+ng:Sterling_Holloway a sem:Event ;
+    sem:hasTimeStamp "1992-11-22"^^xsd:date ;
+    rdfs:comment "Sterling Price Holloway Jr. (January 14, 1905 – November 22, 1992) was an American actor who appeared in over 100 films and 40 television shows. He did voice acting for The Walt Disney Company, playing Mr. Stork in Dumbo, Adult Flower in Bambi, the Cheshire Cat in Alice in Wonderland, Kaa in The Jungle Book, Roquefort the Mouse in The Aristocats, and the title character in Winnie the Pooh, among many others." .
+
+ng:Steve_Buscemi a sem:Event ;
+    sem:hasTimeStamp "1957-12-13"^^xsd:date ;
+    rdfs:comment "Steven Vincent Buscemi (; Italian: [buʃˈʃɛːmi]; born December 13, 1957) is an American actor, director, and producer. His accolades include two Emmy Awards, a Golden Globe Award and two Independent Spirit Awards. Buscemi started his acting career with the independent productions Parting Glances (1986), Mystery Train (1989), and In the Soup (1992), following such roles with his breakthrough in Quentin Tarantino's Reservoir Dogs (1992)." .
+
+ng:Steven_Zaillian a sem:Event ;
+    sem:hasTimeStamp "1953-01-30"^^xsd:date ;
+    rdfs:comment "Steven Ernest Bernard Zaillian (born January 30, 1953) is an American screenwriter, film director and producer. He won an Academy Award, a BAFTA Award, a WGA Award, and a Golden Globe Award for his screenplay for the film Schindler's List (1993) and has earned Oscar nominations for the films Awakenings, Gangs of New York, Moneyball and The Irishman. He was presented with the Distinguished Screenwriter Award at the 2009 Austin Film Festival and the Laurel Award for Screenwriting Achievement from the Writers Guild of America in 2011." .
+
+ng:Susan_Lucci a sem:Event ;
+    sem:hasTimeStamp "1946-12-23"^^xsd:date ;
+    rdfs:comment "Susan Victoria Lucci (born December 23, 1946) is an American actress. She is best known for portraying Erica Kane on the ABC daytime drama All My Children during that show's entire network run from 1970 to 2011. The character is considered an icon, and she was called \"Daytime's Leading Lady\" by TV Guide, with The New York Times and the Los Angeles Times citing her as the highest-paid actor in daytime television." .
+
+ng:Tim_Allen a sem:Event ;
+    sem:hasTimeStamp "1953-06-13"^^xsd:date ;
+    rdfs:comment "Timothy Alan Dick (born June 13, 1953), known professionally as Tim Allen, is an American actor and comedian. He is known for playing Tim \"The Toolman\" Taylor on the ABC sitcom Home Improvement (1991–1999) for which he won a Golden Globe Award and Mike Baxter on the ABC/Fox sitcom Last Man Standing (2011–2021). He voices Buzz Lightyear for the Toy Story franchise (1995–present) for which he won an Annie Award and played Scott Calvin and Santa Claus in The Santa Clause franchise (1994–2023)." .
+
+ng:Tim_Considine a sem:Event ;
+    sem:hasTimeStamp "1940-12-31"^^xsd:date ;
+    rdfs:comment "Timothy Daniel Considine (December 31, 1940 – March 3, 2022) was an American actor, writer, photographer, and automotive historian. He was best known for his acting roles in the late 1950s and early 1960s." .
+
+ng:Tim_Rice a sem:Event ;
+    sem:hasTimeStamp "1944-11-10"^^xsd:date ;
+    rdfs:comment "Sir Timothy Miles Bindon Rice (born 10 November 1944) is an English songwriter. He is best known for his collaborations with Andrew Lloyd Webber, with whom he wrote, among other shows, Joseph and the Amazing Technicolor Dreamcoat, Jesus Christ Superstar, and Evita; Chess (with Björn Ulvaeus and Benny Andersson of ABBA); Aida (with Elton John); and, for Disney, Aladdin (with Alan Menken), The Lion King (with Elton John), and the stage adaptation of Beauty and the Beast (with Menken). He also wrote lyrics for the Alan Menken musical King David, and for DreamWorks Animation's The Road to El Dorado (with" .
+
+ng:Tom_Cruise a sem:Event ;
+    sem:hasTimeStamp "1962-07-03"^^xsd:date ;
+    rdfs:comment "Thomas Cruise Mapother IV (born July 3, 1962) is an American actor and film producer. Regarded as a Hollywood icon, he has received various accolades, including an Honorary Palme d'Or, an Academy Honorary Award, and three Golden Globes, in addition to nominations for four competitive Academy Awards. As of 2025, his films have grossed more than $13.3 billion worldwide, placing him among the highest-grossing actors of all time." .
+
+ng:Tom_Hanks a sem:Event ;
+    sem:hasTimeStamp "1956-07-09"^^xsd:date ;
+    rdfs:comment "Thomas Jeffrey Hanks (born July 9, 1956) is an American actor and filmmaker. Known for both his comedic and dramatic roles, he is one of the most popular and recognizable film stars worldwide, and is regarded as an American cultural icon. In 2020, Hanks was ranked as the fourth-highest-grossing American film actor of all time." .
+
+ng:Tommy_Kirk a sem:Event ;
+    sem:hasTimeStamp "1941-12-10"^^xsd:date ;
+    rdfs:comment "Thomas Lee Kirk (December 10, 1941 − September 28, 2021) was an American actor, best known for his performances in films made by Walt Disney Studios such as Old Yeller, The Shaggy Dog, Swiss Family Robinson, The Absent-Minded Professor, and The Misadventures of Merlin Jones, as well as the beach party films of the mid-1960s. He frequently appeared as a love interest for Annette Funicello or as part of a family with Kevin Corcoran as his younger brother and Fred MacMurray as his father. Kirk's career with Disney ended when news of his homosexuality threatened to become public." .
+
+ng:Tony_Anselmo a sem:Event ;
+    sem:hasTimeStamp "1960-02-18"^^xsd:date ;
+    rdfs:comment "Tony Anselmo (born February 18, 1960) is an American voice actor and animator. He has been the official character voice of Donald Duck since 1985 following the death of the original voice actor, Clarence Nash. He has also provided voices for Donald's triplet nephews, Huey, Dewey, and Louie, and his girlfriend, Daisy Duck." .
+
+ng:Tony_Baxter a sem:Event ;
+    sem:hasTimeStamp "1947-02-01"^^xsd:date ;
+    rdfs:comment "Tony Wayne Baxter (born February 1, 1947) is the former senior vice president of creative development in Walt Disney Imagineering and was responsible for creating designs and carrying out the construction of attractions all over the world. He announced his departure from his full-time position to become a part-time adviser on February 1, 2013. During his 47-year tenure with the company, he oversaw the construction of multiple contemporary Disney theme park attractions, including Big Thunder Mountain Railroad, Star Tours, Splash Mountain, The Indiana Jones Adventure, and Journey Into Imagination, and served as the executive producer of Disneyland Paris." .
+
+ng:Tyrus_Wong a sem:Event ;
+    sem:hasTimeStamp "1910-10-25"^^xsd:date ;
+    rdfs:comment "Tyrus Wong (October 25, 1910 – December 30, 2016) was a Chinese-born American artist. He was a painter, animator, calligrapher, muralist, ceramicist, lithographer and kite maker, as well as a set designer and storyboard artist. One of the most-influential and celebrated Asian-American artists of the 20th century, Wong was also a film production illustrator, who worked for Disney and Warner Bros." .
+
+ng:Ub_Iwerks a sem:Event ;
+    sem:hasTimeStamp "1901-03-24"^^xsd:date ;
+    rdfs:comment "Ub Iwerks ( ub EYE-wurks; born Ubbe Ert Iwwerks, March 24, 1901&#160;– July 7, 1971) was an American animator, cartoonist, film director, film producer, character designer, inventor, and special effects technician. He was widely known for his early work with Walt Disney Productions, especially for having worked on the creation of Mickey Mouse and Oswald the Lucky Rabbit, among other characters. Iwerks met Walt Disney in 1919 while working at an art studio in Kansas City." .
+
+ng:Van_Arsdale_France a sem:Event ;
+    sem:hasTimeStamp "1916-01-01"^^xsd:date ;
+    rdfs:comment "Joseph Van Arsdale France (October 3 1912 – October 13 1999) is credited with establishing the process for training new employees in Disney-owned and other \"theme parks\" around the world." .
+
+ng:Wally_Boag a sem:Event ;
+    sem:hasTimeStamp "1920-09-13"^^xsd:date ;
+    rdfs:comment "Wallace Vincent Boag (September 13, 1920 – June 3, 2011) was an American performer known for his starring role in Disney's long-running stage show the Golden Horseshoe Revue and as the voice of Jose the parrot in Walt Disney's Enchanted Tiki Room." .
+
+ng:Ward_Kimball a sem:Event ;
+    sem:hasTimeStamp "1914-03-04"^^xsd:date ;
+    rdfs:comment "Ward Walrath Kimball (March 4, 1914 – July 8, 2002) was an American animator employed by Walt Disney Animation Studios. He was part of Walt Disney's main team of animators, known collectively as Disney's Nine Old Men. His films have been honored with two Academy Awards for Best Animated Short Film." .
+
+ng:Wayne_Allwine a sem:Event ;
+    sem:hasTimeStamp "1947-02-07"^^xsd:date ;
+    rdfs:comment "Wayne Anthony Allwine (February 7, 1947 – May 18, 2009) was an American voice actor, sound effects editor, and foley artist. He was best remembered as the third official voice of Mickey Mouse (following Walt Disney and Jimmy MacDonald) and the first official casting following the establishment of Disney Character Voices International in 1988. To date, he holds the record for the longest-running voice actor to play Mickey Mouse, having performed the role for 32 years." .
+
+ng:Wes_Anderson a sem:Event ;
+    sem:hasTimeStamp "1969-05-01"^^xsd:date ;
+    rdfs:comment "Wesley Wales Anderson (born May 1, 1969) is an American filmmaker. His films are known for themes of grief, loss of innocence, and dysfunctional families. Due to his films' eccentricity, distinctive visual and narrative styles, and frequent use of ensemble casts, critics have described Anderson as an auteur." .
+
+ng:Whoopi_Goldberg a sem:Event ;
+    sem:hasTimeStamp "1955-11-13"^^xsd:date ;
+    rdfs:comment "Caryn Elaine Johnson (born November 13, 1955), known professionally as Whoopi Goldberg (), is an American actor, comedian, author, and television personality. She is one of 28 entertainers to receive the EGOT, consisting of an Emmy, a Grammy, an Oscar (Academy Award), and a Tony Award. Her other accolades include a BAFTA and two Golden Globes." .
+
+ng:William_Everett_Potter a sem:Event ;
+    sem:hasTimeStamp "1905-07-17"^^xsd:date ;
+    rdfs:comment "William Everett Potter (17 July 1905 – 5 December 1988) was an American engineer and military officer who served as Governor of the Panama Canal Zone from 1956 to 1960. He was also involved in the logistics of the 1964 New York World's Fair and the construction of Walt Disney World. A 1928 graduate of the United States Military Academy at West Point and a 1933 graduate of Massachusetts Institute of Technology, Potter served in Nicaragua, where he helped survey a route for the Nicaraguan Canal." .
+
+ng:William_Garity a sem:Event ;
+    sem:hasTimeStamp "1899-04-02"^^xsd:date ;
+    rdfs:comment "William E. Garity (April 2, 1899 – September 16, 1971) was an American inventor and audio engineer who attended the Pratt Institute before going to work for Lee De Forest around 1921. Garity worked with DeForest on the Phonofilm sound-on-film system until 1927, when Pat Powers hired Garity to develop a sound system closely based upon Phonofilm that Powers called Powers Cinephone. Garity is best known for his employment at Walt Disney Studios, which used the Cinephone system in the late 1920s and early 30s." .
+
+ng:Woody_Allen a sem:Event ;
+    sem:hasTimeStamp "1935-12-01"^^xsd:date ;
+    rdfs:comment "Heywood \"Woody\" Allen (born Allan Stewart Konigsberg; November 30, 1935) is an American filmmaker, actor, writer, and comedian. In a career spanning eight decades, he has written for film, television, and theater. Allen has received many accolades, including the most wins and nominations for the Academy Award for Best Original Screenplay." .
+
+ng:Xavier_Atencio a sem:Event ;
+    sem:hasTimeStamp "1919-09-04"^^xsd:date ;
+    rdfs:comment "Francis Xavier Atencio, also known as X Atencio (September 4, 1919 – September 10, 2017) was an American animator and Imagineer for The Walt Disney Company. He is perhaps best known for writing the scripts and song lyrics of the Disney theme park attractions Pirates of the Caribbean, The Haunted Mansion, and the Country Bear Jamboree." .
+
+ng:Zac_Efron a sem:Event ;
+    sem:hasTimeStamp "1987-10-18"^^xsd:date ;
+    rdfs:comment "Zachary David Alexander Efron (; born October 18, 1987) is an American actor. Efron began acting professionally in the early 2000s and rose to prominence as a teen idol for his leading role as Troy Bolton in the High School Musical film series (2006–2008). During this time, he also starred in the musical film Hairspray (2007) and the comedy film 17 Again (2009)." .
+

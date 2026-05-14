@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 10.0,
+  "coverage_raw": 8.0,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": [
+    "The generated text does not contradict any facts in the reference text. The generated text covers most of the key points about Leonardo's life and achievements but omits some details present in the reference.",
+    "No contradictions found; major aspects covered but some details missing.",
+    "No contradictions with the reference text; covers major points but misses some details like work in Rome and certain inventions.",
+    "No contradictions found between generated and reference text. Major aspects are covered, but some specific details from the reference are missing in the generated text.",
+    "No contradictions found between generated and reference text. Most key points are covered, but some important details from the reference are missing in the generated text."
+  ]
+}

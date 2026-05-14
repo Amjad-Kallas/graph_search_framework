@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 7.0,
+  "coverage_raw": 6.8,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.6444444444444444,
+  "reasoning": [
+    "The generated text is mostly consistent with the reference text but has a contradiction regarding the record-breaking sale. It covers many key points but misses some important aspects like political involvement and teaching career.",
+    "Minor inconsistency in age at bus accident; missing political involvement and teaching career from reference.",
+    "The generated text is mostly consistent with the reference but contradicts it regarding the auction record of Kahlo's paintings; it covers most key points but omits details such as Kahlo's teaching career, political party involvement, and the Louvre purchase.",
+    "The generated text contains a significant contradiction regarding the timeline of events. Most key points are covered but some important details are missing.",
+    "Major contradiction about health decline timeline; covers most key points but misses political involvement and exhibitions."
+  ]
+}

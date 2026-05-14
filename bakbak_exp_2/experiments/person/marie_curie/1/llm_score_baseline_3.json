@@ -1,0 +1,10 @@
+{
+  "factual_consistency_raw": 5,
+  "coverage_raw": 4,
+  "factual_consistency": 0.4444444444444444,
+  "coverage": 0.3333333333333333,
+  "reasoning": {
+    "factual_consistency": "The generated text is largely consistent with the reference text.",
+    "coverage": "The generated text covers most key points but misses some details."
+  }
+}

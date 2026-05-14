@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 6,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text may contradict the reference on the timing of the ground offensives (June 6 vs June 5). The generated text misses several key details from the reference, such as casualty figures and aftermath events."
+}

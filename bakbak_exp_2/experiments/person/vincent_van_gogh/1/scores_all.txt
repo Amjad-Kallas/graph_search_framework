@@ -1,0 +1,23 @@
+All 20 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Theo van Gogh  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  2. Self Portrait With a Bandaged Ear  |  combined=0.846  wiki=0.764  llm=0.900 ***
+  3. Anton Mauve  |  combined=0.838  wiki=0.746  llm=0.900 ***
+  4. Paul Gauguin  |  combined=0.837  wiki=0.741  llm=0.900 ***
+  5. Sien Hoornik  |  combined=0.789  wiki=0.922  llm=0.700 ***
+  6. Self portrait without beard  |  combined=0.741  wiki=0.803  llm=0.700 ***
+  7. Langlois Bridge  |  combined=0.668  wiki=0.621  llm=0.700 ***
+  8. The Painter of Sunflowers  |  combined=0.515  wiki=0.688  llm=0.400 ***
+  9. Wil van Gogh  |  combined=0.459  wiki=0.847  llm=0.200 ***
+ 10. Cor van Gogh  |  combined=0.456  wiki=0.840  llm=0.200 ***
+ 11. Van Gogh Museum  |  combined=0.353  wiki=0.883  llm=0.000 ***
+ 12. Van Gogh  |  combined=0.303  wiki=0.756  llm=0.000 ***
+ 13. Vincent Award  |  combined=0.270  wiki=0.674  llm=0.000 ***
+ 14. Willem Roelofs  |  combined=0.260  wiki=0.649  llm=0.000 ***
+ 15. Wassily Kandinski  |  combined=0.234  wiki=0.585  llm=0.000 ***
+ 16. Theo van Doesburg  |  combined=0.224  wiki=0.559  llm=0.000 ***
+ 17. Agostina Segatori  |  combined=0.223  wiki=0.108  llm=0.300 ***
+ 18. Maurice de Vlaminck  |  combined=0.201  wiki=0.503  llm=0.000 ***
+ 19. Franz Marc  |  combined=0.082  wiki=0.204  llm=0.000 ***
+ 20. Self Portrait  |  combined=0.060  wiki=0.000  llm=0.100 ***

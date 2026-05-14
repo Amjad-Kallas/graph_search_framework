@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is consistent with the reference on major facts with no contradictions, though some minor details are omitted; The generated text covers most key points from the reference but misses some important details like the DUP opposition and the implementation date."
+}

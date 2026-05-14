@@ -1,0 +1,14 @@
+All 11 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Kiel mutiny  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. Internationale Gartenbauausstellung 73  |  combined=0.311  wiki=0.779  llm=0.000 ***
+  3. 1969 German Open Championships  |  combined=0.160  wiki=0.399  llm=0.000 ***
+  4. 1970 German Open Championships  |  combined=0.148  wiki=0.370  llm=0.000 ***
+  5. 1972 Grand Prix German Open  |  combined=0.123  wiki=0.307  llm=0.000 ***
+  6. 1968 German Open Championships  |  combined=0.100  wiki=0.251  llm=0.000 ***
+  7. 1975 Grand Prix German Open  |  combined=0.043  wiki=0.108  llm=0.000 ***
+  8. 1971 Grand Prix German Open  |  combined=0.038  wiki=0.096  llm=0.000 ***
+  9. 1976 German Open  |  combined=0.024  wiki=0.061  llm=0.000 ***
+ 10. 1974 German Open  |  combined=0.012  wiki=0.029  llm=0.000 ***
+ 11. Eider Barrage  |  combined=0.000  wiki=0.000  llm=0.000 ***

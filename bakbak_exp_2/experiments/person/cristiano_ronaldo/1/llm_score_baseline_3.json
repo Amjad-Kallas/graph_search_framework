@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 6,
+  "factual_consistency": 1.0,
+  "coverage": 0.5555555555555556,
+  "reasoning": "All facts in the generated text are consistent with the reference text. The generated text covers the main career narrative but omits several key achievements and records from the reference."
+}

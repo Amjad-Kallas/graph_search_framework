@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 10.0,
+  "coverage_raw": 7.4,
+  "factual_consistency": 1.0,
+  "coverage": 0.711111111111111,
+  "reasoning": [
+    "factual_consistency: No contradictions between generated and reference text. coverage: Most key points covered, but missing some important details like the Vitruvian Man and founder of High Renaissance.",
+    "The generated text is factually consistent with the reference. While it covers most key points, some major works and details are omitted.",
+    "No contradictions with the reference text. Covers most key points but omits some details such as the Vitruvian Man and his brief time in Rome.",
+    "No contradictions found between generated and reference text. Most key points are covered, but some details and specific achievements are missing.",
+    "All facts in the generated text are consistent with the reference, with no contradictions. The generated text covers most key aspects of Leonardo's life and work but omits some important details such as his time in Milan and France, and some of his works and fields of study."
+  ]
+}

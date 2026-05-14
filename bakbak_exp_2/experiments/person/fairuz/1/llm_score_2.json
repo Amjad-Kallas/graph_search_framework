@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 5,
+  "coverage_raw": 6,
+  "factual_consistency": 0.4444444444444444,
+  "coverage": 0.5555555555555556,
+  "reasoning": "factual_consistency: Contains significant factual errors such as incorrect birth name and misrepresentation of family relations. coverage: Addresses major themes and some key points but omits several important details from the reference."
+}

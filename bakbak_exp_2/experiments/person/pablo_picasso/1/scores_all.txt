@@ -1,0 +1,30 @@
+All 27 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Museu Picasso  |  combined=0.965  wiki=0.912  llm=1.000 ***
+  2. Claude Picasso  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  3. Jacqueline Roque  |  combined=0.872  wiki=0.830  llm=0.900 ***
+  4. Olga Khokhlova  |  combined=0.860  wiki=0.800  llm=0.900 ***
+  5. Eva Gouel  |  combined=0.839  wiki=0.748  llm=0.900 ***
+  6. Minotauromachy  |  combined=0.834  wiki=0.734  llm=0.900 ***
+  7. Fernande Olivier  |  combined=0.832  wiki=0.731  llm=0.900 ***
+  8. Science and Charity  |  combined=0.796  wiki=0.789  llm=0.800 ***
+  9. Dora Maar  |  combined=0.774  wiki=0.584  llm=0.900 ***
+ 10. Maya Widmaier Picasso  |  combined=0.740  wiki=0.799  llm=0.700 ***
+ 11. Las Meninas  |  combined=0.668  wiki=0.470  llm=0.800 ***
+ 12. Emmanuel Guigon  |  combined=0.646  wiki=0.566  llm=0.700 ***
+ 13. Paloma Ruiz Picasso  |  combined=0.585  wiki=0.714  llm=0.500 ***
+ 14. Josefa Ruiz Blasco  |  combined=0.545  wiki=0.762  llm=0.400 ***
+ 15. Wassily Kandinski  |  combined=0.423  wiki=0.757  llm=0.200 ***
+ 16. Tsuguharu Foujita  |  combined=0.350  wiki=0.575  llm=0.200 ***
+ 17. Amedeo Modigliani  |  combined=0.281  wiki=0.703  llm=0.000 ***
+ 18. David Hockney  |  combined=0.272  wiki=0.680  llm=0.000 ***
+ 19. Juan Gris  |  combined=0.266  wiki=0.665  llm=0.000 ***
+ 20. Picasso  |  combined=0.222  wiki=0.554  llm=0.000 ***
+ 21. Arlecchino  |  combined=0.139  wiki=0.349  llm=0.000 ***
+ 22. John Cale  |  combined=0.122  wiki=0.305  llm=0.000 ***
+ 23. Ibrahim Kodra  |  combined=0.119  wiki=0.298  llm=0.000 ***
+ 24. Norman Mailer  |  combined=0.072  wiki=0.180  llm=0.000 ***
+ 25. El abrazo  |  combined=0.060  wiki=0.150  llm=0.000 ***
+ 26. Jonathan Richman  |  combined=0.027  wiki=0.066  llm=0.000 ***
+ 27. Margot  |  combined=0.000  wiki=0.000  llm=0.000 ***

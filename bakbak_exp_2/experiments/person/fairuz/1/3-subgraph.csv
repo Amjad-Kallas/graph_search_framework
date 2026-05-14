@@ -1,0 +1,11 @@
+,subject,predicate,object,type_df,iteration
+4,http://www.wikidata.org/entity/Q3575465,http://www.wikidata.org/prop/direct/P25,http://www.wikidata.org/entity/Q3247658,ingoing,1
+5,http://www.wikidata.org/entity/Q2868332,http://www.wikidata.org/prop/direct/P26,http://www.wikidata.org/entity/Q3247658,ingoing,1
+7,http://www.wikidata.org/entity/Q12249852,http://www.wikidata.org/prop/direct/P3373,http://www.wikidata.org/entity/Q3247658,ingoing,1
+8,http://www.wikidata.org/entity/Q2841080,http://www.wikidata.org/prop/direct/P737,http://www.wikidata.org/entity/Q3247658,ingoing,1
+5,http://www.wikidata.org/entity/Q3247658,http://www.wikidata.org/prop/direct/P26,http://www.wikidata.org/entity/Q2868332,outgoing,1
+11,http://www.wikidata.org/entity/Q3247658,http://www.wikidata.org/prop/direct/P40,http://www.wikidata.org/entity/Q3575465,outgoing,1
+0,http://www.wikidata.org/entity/Q5348557,http://www.wikidata.org/prop/direct/P175,http://www.wikidata.org/entity/Q3247658,outgoing,2
+0,http://www.wikidata.org/entity/Q3247658,http://www.wikidata.org/prop/direct/P358,http://www.wikidata.org/entity/Q5430730,ingoing,2
+0,http://www.wikidata.org/entity/Q5430730,http://www.wikidata.org/prop/direct/P175,http://www.wikidata.org/entity/Q3247658,outgoing,2
+0,http://www.wikidata.org/entity/Q20793289,http://www.w3.org/2002/07/owl#sameAs,http://www.wikidata.org/entity/Q3247658,outgoing,3

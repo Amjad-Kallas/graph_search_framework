@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.4,
+  "coverage_raw": 7.0,
+  "factual_consistency": 0.9333333333333332,
+  "coverage": 0.6666666666666666,
+  "reasoning": [
+    "Factual consistency is high with only minor discrepancies; coverage is good but misses some important details from the reference text.",
+    "The generated text's facts are entirely consistent with the reference, with no contradictions. The generated text covers many key points from the reference but omits several important details, such as specific hijackers' names, memorials, and later events.",
+    "The generated text is largely consistent with the reference, with only a minor discrepancy in the number of police officers killed; The generated text covers the main events and response but omits some details such as the global impact and memorials.",
+    "The generated text's facts are largely consistent with the reference, with minor discrepancies in numbers but no major contradictions. The generated text covers most key points but omits some important details like cleanup efforts and memorials.",
+    "No contradictions found between generated and reference texts. Main events and response covered, but some key aftermath details missing."
+  ]
+}

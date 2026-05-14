@@ -1,0 +1,9 @@
+{
+  "bertscore": 0.8167275786399841,
+  "lexical_recall": 0.13125,
+  "title_cov": 0.0,
+  "noloop": 0.9523809523809523,
+  "ctx_recall": 0.13125,
+  "nohall": 0.0,
+  "storyscore": 0.5425365471839905
+}

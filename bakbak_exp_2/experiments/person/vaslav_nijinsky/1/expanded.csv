@@ -1,0 +1,4 @@
+,iteration,path_expanded,nb_expanded,node_expanded,score
+0,1,3-ingoing-http://www.wikidata.org/prop/direct/P1809;http://www.wikidata.org/entity/Q194363,1,['http://www.wikidata.org/entity/Q194363'],3
+1,2,3-outgoing-http://www.wikidata.org/entity/Q2381161;http://www.wikidata.org/prop/direct/P31,3,"['http://www.wikidata.org/entity/Q2381161', 'http://www.wikidata.org/entity/Q206015', 'http://www.wikidata.org/entity/Q1637772']",2
+2,3,3-ingoing-http://www.wikidata.org/prop/direct/P101;http://www.wikidata.org/entity/Q207628,2,"['http://www.wikidata.org/entity/Q207628', 'http://www.wikidata.org/entity/Q41425']",160

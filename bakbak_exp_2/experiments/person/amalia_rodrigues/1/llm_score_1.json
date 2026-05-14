@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "All facts in the generated text that overlap with the reference are consistent, with no contradictions. The generated text covers most key points from the reference but misses some details like the nickname and best-selling status."
+}

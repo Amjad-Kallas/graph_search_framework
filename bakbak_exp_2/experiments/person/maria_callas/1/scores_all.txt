@@ -1,0 +1,190 @@
+All 187 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Callas  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. Aristotle Onassis  |  combined=0.260  wiki=0.650  llm=0.000 ***
+  3. Dinah Shore  |  combined=0.199  wiki=0.498  llm=0.000 ***
+  4. Rita Moreno  |  combined=0.198  wiki=0.495  llm=0.000 ***
+  5. Patricia Morison  |  combined=0.188  wiki=0.470  llm=0.000 ***
+  6. Barbra Streisand  |  combined=0.186  wiki=0.465  llm=0.000 ***
+  7. Connie Francis  |  combined=0.185  wiki=0.462  llm=0.000 ***
+  8. Ezio Pinza  |  combined=0.184  wiki=0.460  llm=0.000 ***
+  9. Dionne Warwick  |  combined=0.176  wiki=0.440  llm=0.000 ***
+ 10. Mary Martin  |  combined=0.175  wiki=0.439  llm=0.000 ***
+ 11. Diahann Carroll  |  combined=0.171  wiki=0.427  llm=0.000 ***
+ 12. Julie London  |  combined=0.170  wiki=0.425  llm=0.000 ***
+ 13. Anna Maria Pierangeli  |  combined=0.170  wiki=0.424  llm=0.000 ***
+ 14. Pier Paolo Pasolini  |  combined=0.168  wiki=0.420  llm=0.000 ***
+ 15. Sophia Loren  |  combined=0.168  wiki=0.419  llm=0.000 ***
+ 16. George Givot  |  combined=0.167  wiki=0.418  llm=0.000 ***
+ 17. Elvis Presley  |  combined=0.166  wiki=0.414  llm=0.000 ***
+ 18. Michelle Phillips  |  combined=0.165  wiki=0.413  llm=0.000 ***
+ 19. Miriam Makeba  |  combined=0.164  wiki=0.411  llm=0.000 ***
+ 20. Edie Adams  |  combined=0.164  wiki=0.411  llm=0.000 ***
+ 21. Doris Day  |  combined=0.164  wiki=0.410  llm=0.000 ***
+ 22. Rosemary Clooney  |  combined=0.164  wiki=0.409  llm=0.000 ***
+ 23. Joan Rivers  |  combined=0.162  wiki=0.406  llm=0.000 ***
+ 24. Phyllis Diller  |  combined=0.161  wiki=0.404  llm=0.000 ***
+ 25. Mitzi Gaynor  |  combined=0.161  wiki=0.404  llm=0.000 ***
+ 26. Luis Mariano  |  combined=0.161  wiki=0.402  llm=0.000 ***
+ 27. Melba Moore  |  combined=0.160  wiki=0.401  llm=0.000 ***
+ 28. Ray Charles  |  combined=0.159  wiki=0.399  llm=0.000 ***
+ 29. Audrey Hepburn  |  combined=0.159  wiki=0.397  llm=0.000 ***
+ 30. Fred Astaire  |  combined=0.157  wiki=0.394  llm=0.000 ***
+ 31. Grace Kelly  |  combined=0.157  wiki=0.393  llm=0.000 ***
+ 32. Polly Bergen  |  combined=0.156  wiki=0.391  llm=0.000 ***
+ 33. Janice Rule  |  combined=0.154  wiki=0.386  llm=0.000 ***
+ 34. Hermione Gingold  |  combined=0.154  wiki=0.385  llm=0.000 ***
+ 35. Betty Grable  |  combined=0.153  wiki=0.382  llm=0.000 ***
+ 36. Gwen Verdon  |  combined=0.153  wiki=0.382  llm=0.000
+ 37. Teresa Graves  |  combined=0.152  wiki=0.381  llm=0.000
+ 38. Lillian Roth  |  combined=0.152  wiki=0.380  llm=0.000
+ 39. Gina Lollobrigida  |  combined=0.152  wiki=0.379  llm=0.000
+ 40. Henry Mancini  |  combined=0.150  wiki=0.374  llm=0.000
+ 41. Jayne Mansfield  |  combined=0.145  wiki=0.364  llm=0.000
+ 42. Eartha Kitt  |  combined=0.144  wiki=0.361  llm=0.000
+ 43. Paul Anka  |  combined=0.143  wiki=0.359  llm=0.000
+ 44. Sonny Bono  |  combined=0.142  wiki=0.356  llm=0.000
+ 45. Bing Crosby  |  combined=0.142  wiki=0.354  llm=0.000
+ 46. Gene Autry  |  combined=0.140  wiki=0.350  llm=0.000
+ 47. Kay Thompson  |  combined=0.138  wiki=0.346  llm=0.000
+ 48. Richard Harris  |  combined=0.138  wiki=0.344  llm=0.000
+ 49. Muhammad Ali  |  combined=0.137  wiki=0.343  llm=0.000
+ 50. Ruby Keeler  |  combined=0.137  wiki=0.342  llm=0.000
+ 51. Maria Cumani Quasimodo  |  combined=0.136  wiki=0.340  llm=0.000
+ 52. Anita Gillette  |  combined=0.135  wiki=0.337  llm=0.000
+ 53. Richard Kiley  |  combined=0.134  wiki=0.334  llm=0.000
+ 54. Marie Wilson  |  combined=0.133  wiki=0.333  llm=0.000
+ 55. Heather Menzies  |  combined=0.133  wiki=0.333  llm=0.000
+ 56. Roy Orbison  |  combined=0.133  wiki=0.333  llm=0.000
+ 57. Barbara McNair  |  combined=0.132  wiki=0.330  llm=0.000
+ 58. Rhonda Fleming  |  combined=0.132  wiki=0.330  llm=0.000
+ 59. Elizabeth Taylor  |  combined=0.131  wiki=0.328  llm=0.000
+ 60. Tina Louise  |  combined=0.131  wiki=0.327  llm=0.000
+ 61. Angela Cartwright  |  combined=0.130  wiki=0.326  llm=0.000
+ 62. Annie Cordy  |  combined=0.129  wiki=0.323  llm=0.000
+ 63. Judy Tyler  |  combined=0.129  wiki=0.322  llm=0.000
+ 64. Eli Wallach  |  combined=0.127  wiki=0.317  llm=0.000
+ 65. Ed Sullivan  |  combined=0.127  wiki=0.316  llm=0.000
+ 66. Constance Bennett  |  combined=0.126  wiki=0.315  llm=0.000
+ 67. Tom Jones  |  combined=0.126  wiki=0.315  llm=0.000
+ 68. Eileen Brennan  |  combined=0.125  wiki=0.313  llm=0.000
+ 69. Joan Collins  |  combined=0.125  wiki=0.311  llm=0.000
+ 70. Elsa Morante  |  combined=0.123  wiki=0.307  llm=0.000
+ 71. Henry Fonda  |  combined=0.122  wiki=0.306  llm=0.000
+ 72. Faye Emerson  |  combined=0.122  wiki=0.305  llm=0.000
+ 73. Joe Frazier  |  combined=0.121  wiki=0.301  llm=0.000
+ 74. Piero Tosi  |  combined=0.120  wiki=0.299  llm=0.000
+ 75. Nat King Cole  |  combined=0.119  wiki=0.299  llm=0.000
+ 76. Juliet Prowse  |  combined=0.119  wiki=0.298  llm=0.000
+ 77. Pat Boone  |  combined=0.119  wiki=0.298  llm=0.000
+ 78. Anthony Quinn  |  combined=0.119  wiki=0.298  llm=0.000
+ 79. Burt Lancaster  |  combined=0.118  wiki=0.295  llm=0.000
+ 80. Dale Evans  |  combined=0.117  wiki=0.292  llm=0.000
+ 81. Charlton Heston  |  combined=0.117  wiki=0.292  llm=0.000
+ 82. Charlotte Rae  |  combined=0.116  wiki=0.290  llm=0.000
+ 83. Dolores Gray  |  combined=0.115  wiki=0.288  llm=0.000
+ 84. Joan Caulfield  |  combined=0.114  wiki=0.284  llm=0.000
+ 85. Paul Jabara  |  combined=0.113  wiki=0.283  llm=0.000
+ 86. Jo Van Fleet  |  combined=0.113  wiki=0.281  llm=0.000
+ 87. Piera Degli Esposti  |  combined=0.112  wiki=0.280  llm=0.000
+ 88. Jack Lemmon  |  combined=0.111  wiki=0.278  llm=0.000
+ 89. Shirley Jones  |  combined=0.110  wiki=0.275  llm=0.000
+ 90. Susan Hayward  |  combined=0.109  wiki=0.273  llm=0.000
+ 91. Lilli Palmer  |  combined=0.109  wiki=0.272  llm=0.000
+ 92. Kaye Ballard  |  combined=0.109  wiki=0.272  llm=0.000
+ 93. Mick Jagger  |  combined=0.105  wiki=0.263  llm=0.000
+ 94. Barbara Nichols  |  combined=0.105  wiki=0.262  llm=0.000
+ 95. Ronald Reagan  |  combined=0.104  wiki=0.260  llm=0.000
+ 96. Sarah Churchill  |  combined=0.104  wiki=0.260  llm=0.000
+ 97. Fenella Fielding  |  combined=0.104  wiki=0.259  llm=0.000
+ 98. Dick Van Dyke  |  combined=0.103  wiki=0.258  llm=0.000
+ 99. George Grizzard  |  combined=0.103  wiki=0.257  llm=0.000
+100. Tony Curtis  |  combined=0.103  wiki=0.256  llm=0.000
+101. Kim Novak  |  combined=0.102  wiki=0.256  llm=0.000
+102. Gene Raymond  |  combined=0.101  wiki=0.253  llm=0.000
+103. Ernie Kovacs  |  combined=0.100  wiki=0.251  llm=0.000
+104. Paula Prentiss  |  combined=0.100  wiki=0.249  llm=0.000
+105. John Gielgud  |  combined=0.100  wiki=0.249  llm=0.000
+106. Pert Kelton  |  combined=0.099  wiki=0.248  llm=0.000
+107. Nino Baragli  |  combined=0.099  wiki=0.248  llm=0.000
+108. James Komack  |  combined=0.099  wiki=0.247  llm=0.000
+109. Gale Storm  |  combined=0.098  wiki=0.245  llm=0.000
+110. Ennio Guarnieri  |  combined=0.097  wiki=0.243  llm=0.000
+111. Dorothy Lamour  |  combined=0.096  wiki=0.239  llm=0.000
+112. Tommy Steele  |  combined=0.095  wiki=0.239  llm=0.000
+113. Diana Barrymore  |  combined=0.095  wiki=0.237  llm=0.000
+114. John Densmore  |  combined=0.095  wiki=0.237  llm=0.000
+115. Jacqueline Susann  |  combined=0.094  wiki=0.235  llm=0.000
+116. Gregory Peck  |  combined=0.094  wiki=0.234  llm=0.000
+117. Phil Silvers  |  combined=0.094  wiki=0.234  llm=0.000
+118. Louis Gossett  |  combined=0.093  wiki=0.232  llm=0.000
+119. Ringo Starr  |  combined=0.093  wiki=0.232  llm=0.000
+120. Vincent Price  |  combined=0.092  wiki=0.230  llm=0.000
+121. Richard Burton  |  combined=0.092  wiki=0.230  llm=0.000
+122. Pernell Roberts  |  combined=0.092  wiki=0.229  llm=0.000
+123. Dick Powell  |  combined=0.091  wiki=0.227  llm=0.000
+124. Gordon MacRae  |  combined=0.091  wiki=0.227  llm=0.000
+125. Robert Strauss  |  combined=0.090  wiki=0.225  llm=0.000
+126. Buster Keaton  |  combined=0.088  wiki=0.221  llm=0.000
+127. Rod Steiger  |  combined=0.086  wiki=0.215  llm=0.000
+128. Eric Burdon  |  combined=0.085  wiki=0.212  llm=0.000
+129. Jack La Rue  |  combined=0.084  wiki=0.211  llm=0.000
+130. Massimo Girotti  |  combined=0.083  wiki=0.208  llm=0.000
+131. Joey Heatherton  |  combined=0.083  wiki=0.206  llm=0.000
+132. Sally Ann Howes  |  combined=0.082  wiki=0.206  llm=0.000
+133. Paul Newman  |  combined=0.082  wiki=0.205  llm=0.000
+134. Orson Welles  |  combined=0.081  wiki=0.204  llm=0.000
+135. Andy Griffith  |  combined=0.079  wiki=0.198  llm=0.000
+136. Ken Murray  |  combined=0.078  wiki=0.194  llm=0.000
+137. Charles Boyer  |  combined=0.076  wiki=0.190  llm=0.000
+138. Clive Revill  |  combined=0.076  wiki=0.189  llm=0.000
+139. Will Jordan  |  combined=0.074  wiki=0.186  llm=0.000
+140. Alan Price  |  combined=0.074  wiki=0.184  llm=0.000
+141. Barbara Britton  |  combined=0.073  wiki=0.184  llm=0.000
+142. Arthur Lake  |  combined=0.072  wiki=0.181  llm=0.000
+143. Barbara Feldon  |  combined=0.072  wiki=0.180  llm=0.000
+144. Dante Ferretti  |  combined=0.071  wiki=0.179  llm=0.000
+145. Peter Yates  |  combined=0.070  wiki=0.176  llm=0.000
+146. Judy Carne  |  combined=0.070  wiki=0.175  llm=0.000
+147. Jim Henson  |  combined=0.070  wiki=0.175  llm=0.000
+148. Sheb Wooley  |  combined=0.070  wiki=0.175  llm=0.000
+149. Keefe Brasselle  |  combined=0.069  wiki=0.172  llm=0.000
+150. Laurent Terzieff  |  combined=0.068  wiki=0.169  llm=0.000
+151. Don Rickles  |  combined=0.067  wiki=0.168  llm=0.000
+152. Ross Hunter  |  combined=0.067  wiki=0.166  llm=0.000
+153. Stanley Kramer  |  combined=0.066  wiki=0.166  llm=0.000
+154. Sidney Blackmer  |  combined=0.066  wiki=0.164  llm=0.000
+155. Pearl Bailey  |  combined=0.066  wiki=0.164  llm=0.000
+156. James Wong Howe  |  combined=0.064  wiki=0.159  llm=0.000
+157. Tom Poston  |  combined=0.063  wiki=0.158  llm=0.000
+158. Ken Berry  |  combined=0.063  wiki=0.157  llm=0.000
+159. Jerry Wald  |  combined=0.063  wiki=0.157  llm=0.000
+160. Oleg Popov  |  combined=0.063  wiki=0.157  llm=0.000
+161. Ron Carey  |  combined=0.061  wiki=0.152  llm=0.000
+162. Kevin Corcoran  |  combined=0.061  wiki=0.152  llm=0.000
+163. Gene Barry  |  combined=0.061  wiki=0.151  llm=0.000
+164. Howard Duff  |  combined=0.060  wiki=0.150  llm=0.000
+165. Suzan Ball  |  combined=0.060  wiki=0.150  llm=0.000
+166. Everett Sloane  |  combined=0.059  wiki=0.147  llm=0.000
+167. James Garner  |  combined=0.059  wiki=0.147  llm=0.000
+168. Paul Ford  |  combined=0.057  wiki=0.142  llm=0.000
+169. Don Adams  |  combined=0.053  wiki=0.133  llm=0.000
+170. Marie Sabouret  |  combined=0.052  wiki=0.130  llm=0.000
+171. Vince Edwards  |  combined=0.052  wiki=0.130  llm=0.000
+172. Fess Parker  |  combined=0.052  wiki=0.130  llm=0.000
+173. Jerry Van Dyke  |  combined=0.050  wiki=0.125  llm=0.000
+174. Jason Robards  |  combined=0.049  wiki=0.122  llm=0.000
+175. Dwight D Eisenhower  |  combined=0.049  wiki=0.121  llm=0.000
+176. Victoria Shaw  |  combined=0.047  wiki=0.117  llm=0.000
+177. Walter Pidgeon  |  combined=0.044  wiki=0.110  llm=0.000
+178. Fred Willard  |  combined=0.044  wiki=0.110  llm=0.000
+179. Bob Cousy  |  combined=0.043  wiki=0.107  llm=0.000
+180. Dave Madden  |  combined=0.042  wiki=0.105  llm=0.000
+181. Pat Buttram  |  combined=0.039  wiki=0.097  llm=0.000
+182. Frank Ross  |  combined=0.037  wiki=0.093  llm=0.000
+183. Harry Secombe  |  combined=0.031  wiki=0.077  llm=0.000
+184. Robert Walker Jr  |  combined=0.022  wiki=0.054  llm=0.000
+185. Wally Cox  |  combined=0.020  wiki=0.051  llm=0.000
+186. Norman Wisdom  |  combined=0.014  wiki=0.034  llm=0.000
+187. Scott Brady  |  combined=0.000  wiki=0.000  llm=0.000

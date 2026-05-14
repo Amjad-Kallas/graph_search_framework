@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.0,
+  "coverage_raw": 6.8,
+  "factual_consistency": 0.888888888888889,
+  "coverage": 0.6444444444444445,
+  "reasoning": [
+    "The generated text's facts about the Congo Crisis match the reference text without contradictions. The generated text covers the main narrative of the Congo Crisis but misses several key events and details from the reference text.",
+    "All stated facts match the reference without contradiction. Major points are covered but some key events (South Kasai secession, Simbas rebellion) are omitted.",
+    "No contradictions with reference text; covers main points but misses some key details.",
+    "The generated text is largely consistent with the reference but includes an initial contradictory statement about unrelated historical events not mentioned in the reference. The generated text covers most key points from the reference but omits some important details like the Simbas rebellion and Dag Hammarskj\u00f6ld's death.",
+    "Minor inconsistency in Mobutu's timeline; covers major events but omits several key aspects."
+  ]
+}

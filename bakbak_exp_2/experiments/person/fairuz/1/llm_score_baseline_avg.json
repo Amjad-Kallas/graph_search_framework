@@ -1,0 +1,16 @@
+{
+  "factual_consistency_raw": 7.8,
+  "coverage_raw": 4.6,
+  "factual_consistency": 0.7555555555555555,
+  "coverage": 0.4,
+  "reasoning": [
+    {
+      "factual_consistency": "The generated text does not contradict the reference on key facts, though it adds details not present in the reference.",
+      "coverage": "The generated text misses many key points from the reference, focusing instead on cultural context not covered in the reference."
+    },
+    "Factual consistency is slightly penalized for the contradiction regarding Fairuz's birthplace. Coverage is moderate as the generated text addresses major aspects of Fairuz's career but omits several key details from the reference text.",
+    "The generated text contradicts the reference on Fairuz's real name but is consistent on other facts. It omits major events and details from the reference text.",
+    "Minor inaccuracies in details but no major contradictions with the reference text. The generated text misses several key points from the reference text, such as specific early career details, major hits, awards, and career statistics.",
+    "The generated text contradicts the reference on Fairuz's real name but is otherwise consistent; it covers her career and influence but misses key details like her first hit and Baalbeck performance."
+  ]
+}

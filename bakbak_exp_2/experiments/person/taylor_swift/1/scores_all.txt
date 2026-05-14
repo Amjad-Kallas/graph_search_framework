@@ -1,0 +1,85 @@
+All 82 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. 22  |  combined=0.925  wiki=0.963  llm=0.900 ***
+  2. All Too Well  |  combined=0.907  wiki=0.918  llm=0.900 ***
+  3. Fearless Tour  |  combined=0.901  wiki=0.903  llm=0.900 ***
+  4. Bad Blood  |  combined=0.900  wiki=0.899  llm=0.900 ***
+  5. Blank Space  |  combined=0.897  wiki=0.892  llm=0.900 ***
+  6. You Belong with Me  |  combined=0.889  wiki=0.874  llm=0.900 ***
+  7. End Game  |  combined=0.797  wiki=0.943  llm=0.700 ***
+  8. Austin Swift  |  combined=0.772  wiki=0.880  llm=0.700 ***
+  9. Back to December  |  combined=0.771  wiki=0.877  llm=0.700 ***
+ 10. Begin Again  |  combined=0.661  wiki=0.902  llm=0.500 ***
+ 11. Breathe  |  combined=0.618  wiki=0.794  llm=0.500 ***
+ 12. Change  |  combined=0.609  wiki=0.923  llm=0.400 ***
+ 13. Beautiful Eyes  |  combined=0.577  wiki=0.842  llm=0.400 ***
+ 14. Both of Us  |  combined=0.416  wiki=0.739  llm=0.200 ***
+ 15. Tim McGraw  |  combined=0.400  wiki=1.000  llm=0.000 ***
+ 16. Look What You Made Me Do  |  combined=0.385  wiki=0.962  llm=0.000 ***
+ 17. Red  |  combined=0.381  wiki=0.952  llm=0.000 ***
+ 18. Fearless  |  combined=0.380  wiki=0.951  llm=0.000 ***
+ 19. We Are Never Ever Getting Back Together  |  combined=0.376  wiki=0.940  llm=0.000 ***
+ 20. Everything Has Changed  |  combined=0.374  wiki=0.935  llm=0.000 ***
+ 21. Fifteen  |  combined=0.373  wiki=0.932  llm=0.000 ***
+ 22. Teardrops on My Guitar  |  combined=0.368  wiki=0.921  llm=0.000 ***
+ 23. Long Live  |  combined=0.364  wiki=0.910  llm=0.000 ***
+ 24. Speak Now  |  combined=0.362  wiki=0.905  llm=0.000 ***
+ 25. I Knew You Were Trouble  |  combined=0.362  wiki=0.905  llm=0.000 ***
+ 26. Love Story  |  combined=0.362  wiki=0.905  llm=0.000 ***
+ 27. Ours  |  combined=0.361  wiki=0.903  llm=0.000 ***
+ 28. Gorgeous Taylor Swift song  |  combined=0.359  wiki=0.896  llm=0.000 ***
+ 29. Treacherous  |  combined=0.356  wiki=0.891  llm=0.000 ***
+ 30. Mean  |  combined=0.353  wiki=0.882  llm=0.000 ***
+ 31. Speak Now World Tour  |  combined=0.350  wiki=0.876  llm=0.000 ***
+ 32. Sounds of the Season The Taylor Swift Holiday Collection  |  combined=0.349  wiki=0.872  llm=0.000 ***
+ 33. Innocent  |  combined=0.348  wiki=0.869  llm=0.000 ***
+ 34. Style  |  combined=0.348  wiki=0.869  llm=0.000 ***
+ 35. Hey Stephen  |  combined=0.344  wiki=0.860  llm=0.000 ***
+ 36. The Story of Us  |  combined=0.342  wiki=0.856  llm=0.000
+ 37. Today Was a Fairytale  |  combined=0.341  wiki=0.852  llm=0.000
+ 38. If This Was a Movie  |  combined=0.338  wiki=0.846  llm=0.000
+ 39. Call It What You Want Taylor Swift song  |  combined=0.337  wiki=0.842  llm=0.000
+ 40. Holy Ground  |  combined=0.336  wiki=0.840  llm=0.000
+ 41. Mine  |  combined=0.334  wiki=0.836  llm=0.000
+ 42. Shake It Off  |  combined=0.334  wiki=0.835  llm=0.000
+ 43. White Horse  |  combined=0.331  wiki=0.829  llm=0.000
+ 44. The Last Time  |  combined=0.331  wiki=0.828  llm=0.000
+ 45. Welcome to New York  |  combined=0.330  wiki=0.825  llm=0.000
+ 46. Taylor Swift videography  |  combined=0.329  wiki=0.823  llm=0.000
+ 47. Picture to Burn  |  combined=0.326  wiki=0.814  llm=0.000
+ 48. Two Is Better Than One  |  combined=0.323  wiki=0.806  llm=0.000
+ 49. Sparks Fly  |  combined=0.319  wiki=0.798  llm=0.000
+ 50. Eyes Open  |  combined=0.316  wiki=0.790  llm=0.000
+ 51. Ronan  |  combined=0.314  wiki=0.785  llm=0.000
+ 52. New Romantics  |  combined=0.314  wiki=0.785  llm=0.000
+ 53. Taylor Swift discography  |  combined=0.300  wiki=0.750  llm=0.000
+ 54. Miley Cyrus  |  combined=0.292  wiki=0.729  llm=0.000
+ 55. Carly Rae Jepsen  |  combined=0.279  wiki=0.697  llm=0.000
+ 56. Half of My Heart  |  combined=0.272  wiki=0.681  llm=0.000
+ 57. Calvin Harris  |  combined=0.270  wiki=0.676  llm=0.000
+ 58. Ed Sheeran  |  combined=0.243  wiki=0.608  llm=0.000
+ 59. Max Martin  |  combined=0.240  wiki=0.600  llm=0.000
+ 60. George Michael  |  combined=0.240  wiki=0.600  llm=0.000
+ 61. Jack Antonoff  |  combined=0.239  wiki=0.598  llm=0.000
+ 62. Colbie Caillat  |  combined=0.236  wiki=0.589  llm=0.000
+ 63. Zayn Malik  |  combined=0.231  wiki=0.579  llm=0.000
+ 64. Jim Jonsin  |  combined=0.230  wiki=0.575  llm=0.000
+ 65. John Mayer  |  combined=0.223  wiki=0.558  llm=0.000
+ 66. Joy Williams  |  combined=0.216  wiki=0.539  llm=0.000
+ 67. Byron Gallimore  |  combined=0.206  wiki=0.514  llm=0.000
+ 68. Jacknife Lee  |  combined=0.202  wiki=0.505  llm=0.000
+ 69. Kendrick Lamar  |  combined=0.201  wiki=0.504  llm=0.000
+ 70. T Bone Burnett  |  combined=0.185  wiki=0.463  llm=0.000
+ 71. Josh Kear  |  combined=0.176  wiki=0.440  llm=0.000
+ 72. Ashley Tisdale  |  combined=0.175  wiki=0.437  llm=0.000
+ 73. Last Christmas  |  combined=0.172  wiki=0.431  llm=0.000
+ 74. Paula Fernandes  |  combined=0.167  wiki=0.416  llm=0.000
+ 75. B o B  |  combined=0.162  wiki=0.405  llm=0.000
+ 76. John Paul White  |  combined=0.160  wiki=0.399  llm=0.000
+ 77. Robert Ellis Orrall  |  combined=0.156  wiki=0.390  llm=0.000
+ 78. Gary Lightbody  |  combined=0.156  wiki=0.390  llm=0.000
+ 79. Tell Me Why  |  combined=0.055  wiki=0.137  llm=0.000
+ 80. Superman  |  combined=0.039  wiki=0.098  llm=0.000
+ 81. The Best Day  |  combined=0.014  wiki=0.035  llm=0.000
+ 82. Starlight  |  combined=0.000  wiki=0.000  llm=0.000

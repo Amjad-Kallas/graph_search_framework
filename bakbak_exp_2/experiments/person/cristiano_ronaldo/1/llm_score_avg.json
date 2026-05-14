@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.6,
+  "coverage_raw": 6.8,
+  "factual_consistency": 0.6222222222222221,
+  "coverage": 0.6444444444444445,
+  "reasoning": [
+    "The generated text is mostly factually consistent with the reference but contains a few significant errors. It covers major career points but misses some important details and sections.",
+    "The generated text has a significant discrepancy in the number of career goals and misses some key records and the marketability section.",
+    "Contradictions in major achievements such as La Liga titles and Champions League wins. Covers most key points but misses some important events and details.",
+    "The text is mostly consistent with minor errors. It covers major points but misses key international details and some records.",
+    "Factual consistency: The generated text has some factual inaccuracies regarding Ronaldo's Champions League wins. Coverage: The generated text covers most key aspects of Ronaldo's career but omits some details like his return to Manchester United and specific international tournament achievements."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is largely consistent with the reference, with only a minor discrepancy in the fatality count; The generated text covers most key points from the reference but omits some details such as the airship being the largest by volume."
+}

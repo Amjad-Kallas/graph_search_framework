@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text's facts align with the reference without contradictions. The generated text covers most key points but omits some details about her legacy and honors."
+}

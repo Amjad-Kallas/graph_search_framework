@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 7,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is mostly consistent with the reference but contradicts it regarding the auction record of Kahlo's paintings; it covers most key points but omits details such as Kahlo's teaching career, political party involvement, and the Louvre purchase."
+}

@@ -1,0 +1,114 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Amedeo_Modigliani a sem:Event ;
+    sem:hasTimeStamp "1884-07-12"^^xsd:date ;
+    rdfs:comment "Amedeo Clemente Modigliani (US: ; Italian: [ameˈdɛːo modiʎˈʎaːni]; 12 July 1884 – 24 January 1920) was an Italian painter and sculptor of the École de Paris who worked mainly in France. He is known for portraits and nudes in a modern style characterised by a surreal elongation of faces, necks, and figures — works that were not received well during his lifetime, but later became much sought after. Modigliani was born and spent his youth in Italy, where he studied the art of antiquity and the Renaissance." .
+
+ng:Arlecchino a sem:Event ;
+    sem:hasPlace ng:Museu_Picasso ;
+    rdfs:comment "Harlequin (, Italian: Arlecchino, Italian: [arlekˈkiːno]; Lombard: Arlechin, Lombard: [arleˈki]) is the best-known of the comic servant characters (Zanni) from the Italian commedia dell'arte, associated with the city of Bergamo. The role is traditionally believed to have been introduced by the Italian actor-manager Zan Ganassa in the late 16th century,. It was definitively popularized by the Italian actor Tristano Martinelli in Paris in 1584–1585, and became a stock character after Martinelli's death in 1630." .
+
+ng:Claude_Picasso a sem:Event ;
+    sem:hasTimeStamp "1947-05-15"^^xsd:date ;
+    rdfs:comment "Claude Ruiz Picasso (15 May 1947 – 24 August 2023) was a French photographer, cinematographer, film director, visual artist, graphic designer, businessman, and the third child of the artist Pablo Picasso." .
+
+ng:David_Hockney a sem:Event ;
+    sem:hasTimeStamp "1937-07-09"^^xsd:date ;
+    rdfs:comment "David Hockney (born 9 July 1937) is an English painter, draughtsman, printmaker, stage designer, and photographer. As an important contributor to the pop art movement of the 1960s, he is considered one of the most influential British artists of the 20th and 21st centuries. Hockney has owned residences and studios in Bridlington and London as well as two residences in California, where he has lived intermittently since 1964: one in the Hollywood Hills, one in Malibu." .
+
+ng:Dora_Maar a sem:Event ;
+    sem:hasTimeStamp "1907-11-22"^^xsd:date ;
+    rdfs:comment "Henriette Theodora Markovitch (22 November 1907 – 16 July 1997), known as Dora Maar, was a French photographer and painter. Maar was both a pioneering Surrealist artist and an antifascist activist. Maar was depicted in a number of Picasso's paintings, including his Portrait of Dora Maar and Dora Maar au Chat." .
+
+ng:El_abrazo a sem:Event ;
+    sem:hasPlace ng:Museu_Picasso ;
+    rdfs:comment "El abrazo (\"The Embrace\" in Spanish) may refer to:" .
+
+ng:Emmanuel_Guigon a sem:Event ;
+    sem:hasTimeStamp "1959-01-01"^^xsd:date ;
+    rdfs:comment "Emmanuel Guigon , born March 15, 1959, in Morteau, is a museologist, holds a doctorate in art history and is the current director of the Museu Picasso in Barcelona. He holds dual French-Swiss nationality. Guigon earned his doctorate in contemporary art at the Paris-Sorbonne University (France), and is a specialist in historical avant-gardes, surrealism, modern Spanish art and European post-war art." .
+
+ng:Eva_Gouel a sem:Event ;
+    sem:hasTimeStamp "1915-12-14"^^xsd:date ;
+    rdfs:comment "Eva Gouel (1885–December 14, 1915) was a French choreographer and the second girlfriend of the Spanish painter Pablo Picasso during the early 1910s. She was the inspiration for several of his paintings, including Ma Jolie (1912)." .
+
+ng:Fernande_Olivier a sem:Event ;
+    sem:hasTimeStamp "1881-06-06"^^xsd:date ;
+    rdfs:comment "Fernande Olivier (born Amélie Lang; 6 June 1881 – 29 January 1966) was a French artist and model known primarily for having been the model and first muse of painter Pablo Picasso, and for her written accounts of her relationship with him. Picasso painted over 60 portraits of Olivier." .
+
+ng:Ibrahim_Kodra a sem:Event ;
+    sem:hasTimeStamp "1918-04-22"^^xsd:date ;
+    rdfs:comment "Ibrahim Likmetaj Kodra (22 April 1918 – 7 February 2006) was an Albanian painter." .
+
+ng:Jacqueline_Roque a sem:Event ;
+    sem:hasTimeStamp "1926-02-24"^^xsd:date ;
+    rdfs:comment "Jacqueline Picasso or Jacqueline Roque (24 February 1926 – 15 October 1986) was the muse and second wife of Pablo Picasso. Their marriage lasted 12 years until his death, during which time he created over 400 portraits of her, more than any of Picasso's other lovers." .
+
+ng:John_Cale a sem:Event ;
+    sem:hasActor ng:Life_Along_the_Borderline ;
+    sem:hasTimeStamp "1942-03-09"^^xsd:date ;
+    rdfs:comment "John Davies Cale (born 9 March 1942) is a Welsh singer, musician, composer, record producer and arranger. He is a founding member of the influential American rock band the Velvet Underground, with whom he recorded two studio albums. Over his six-decade career, Cale has worked in various styles of rock and avant-garde music." .
+
+ng:Jonathan_Richman a sem:Event ;
+    sem:hasTimeStamp "1951-05-16"^^xsd:date ;
+    rdfs:comment "Jonathan Michael Richman (born May 16, 1951) is an American singer, songwriter and guitarist. In 1970, he founded the Modern Lovers, an influential proto-punk band. Since the mid-1970s, Richman has worked either solo or with low-key acoustic and electric backing." .
+
+ng:Josefa_Ruiz_Blasco a sem:Event ;
+    sem:hasTimeStamp "1825-01-01"^^xsd:date ;
+    rdfs:comment "Josefa Ruiz Blasco (Málaga 1825-1901) was the aunt of Pablo Picasso and the eldest of the eleven brothers and sisters of the Ruiz Blasco family. he lived with her sister and brother Matilde and José (Picasso’s father) in the Plaça de la Merced of Málaga until he got married and then she went to live with her youngest brother Salvador. Josefa Ruiz was a spinster, known for her strong character, her bad moods and extreme religiosity." .
+
+ng:Juan_Gris a sem:Event ;
+    sem:hasTimeStamp "1887-03-23"^^xsd:date ;
+    rdfs:comment "José Victoriano González-Pérez (23 March 1887 – 11 May 1927), better known as Juan Gris (Spanish: [ˈxwaŋ ˈɡɾis]; French: [gʀi]), was a Spanish painter born in Madrid who lived and worked in France for most of his active period. Closely connected to the innovative artistic genre Cubism, his works are among the movement's most distinctive." .
+
+ng:Las_Meninas a sem:Event ;
+    sem:hasPlace ng:Museu_Picasso ;
+    rdfs:comment "Las Meninas (Spanish for 'The Ladies-in-waiting' pronounced [las meˈninas]) is a 1656 painting in the Museo del Prado in Madrid, by Diego Velázquez, the leading artist in the court of King Philip&#160;IV of Spain and Portugal, and of the Spanish Golden Age. It has become one of the most widely analyzed works in Western painting for the way its complex and enigmatic composition raises questions about reality and illusion, and for the uncertain relationship it creates between the viewer and the figures depicted. The painting is believed by the art historian F. J. Sánchez Cantón to depict a room in",
+        "Las Meninas is a series of 58 paintings that Pablo Picasso painted in 1957 by performing a comprehensive analysis, reinterpreting and recreating several times Las Meninas by Diego Velazquez. The suite is fully preserved at the Museu Picasso in Barcelona and is the only complete series of the artist that remains together. This is a very extensive survey work, which consists of 45 performances of the original picture, 9 scenes of a dove, 3 landscapes, and a portrait of his second wife Jacqueline." .
+
+ng:Margot a sem:Event ;
+    sem:hasPlace ng:Museu_Picasso ;
+    rdfs:comment "Margot ( MAR-goh, MAR-gət, French: [maʁɡo]) is a feminine given name, a French diminutive of Marguerite that has long been used as an independent name. Variant spellings in use include Margo and Margaux. It is also occasionally a surname." .
+
+ng:Maya_Widmaier_Picasso a sem:Event ;
+    sem:hasTimeStamp "1935-09-05"^^xsd:date ;
+    rdfs:comment "María de la Concepción \"Maya\" Widmaier-Picasso (5 September 1935 – 20 December 2022), later known as Maya Ruiz-Picasso, was the eldest daughter of Spanish painter Pablo Picasso and Marie-Thérèse Walter. She devoted part of her life to the study and preservation of the legacy of her father." .
+
+ng:Minotauromachy a sem:Event ;
+    rdfs:comment "Minotauromachy (La Minotauromachie) is a 19.5 by 27.4” etching and engraving created by Spanish artist Pablo Picasso in Paris in 1935. The etching and resulting prints, literally entitled Minotaur Battle, feature many compositional aspects and themes seen often in Picasso’s art throughout the 1930s. These include the Minotaur, an unconscious or dying female matador on an injured horse, a young girl holding a candle and flowers, a man scaling a ladder, and two women watching with doves from a window." .
+
+ng:Norman_Mailer a sem:Event ;
+    sem:hasTimeStamp "2007-11-10"^^xsd:date ;
+    rdfs:comment "Nachem Malech Mailer (January 31, 1923 – November 10, 2007), known by his pen name Norman Kingsley Mailer, was an American writer, journalist, and filmmaker. In a career spanning more than six decades, Mailer had 11 best-selling books, at least one in each of the seven decades after World War II. His novel The Naked and the Dead was published in 1948 and brought him early renown. His 1968 nonfiction novel The Armies of the Night won the Pulitzer Prize for nonfiction as well as the National Book Award." .
+
+ng:Olga_Khokhlova a sem:Event ;
+    sem:hasTimeStamp "1891-06-17"^^xsd:date ;
+    rdfs:comment "Olga Picasso (born Olga Stepanovna Khokhlova; Russian: Ольга Степановна Хохлова; 17 June 1891 – 11 February 1955) was a Russian ballet dancer in the Ballets Russes, directed by Sergei Diaghilev and based in Paris. There she met and married the artist Pablo Picasso, served as one of his early muses, and was the mother of their son, Paul (Paulo)." .
+
+ng:Paloma_Ruiz_Picasso a sem:Event ;
+    sem:hasTimeStamp "1949-04-01"^^xsd:date ;
+    rdfs:comment "Paloma Picasso (born Anne Paloma Ruiz-Picasso y Gilot on 19 April 1949) is a French jewelry designer and businesswoman. She is best known for her collaboration with Tiffany &amp; Co and her signature perfumes. The daughter of artists Pablo Picasso and Françoise Gilot, she is represented in many of her father's works, such as Paloma with an Orange and Paloma in Blue." .
+
+ng:Picasso a sem:Event ;
+    sem:hasPlace ng:Pieria_quadrangle ;
+    rdfs:comment "Picasso is a crater on Mercury. It has drawn scientific attention because of the large, arc-shaped pit crater located on the eastern side of its floor. Similar pits have been discovered on the floors of several other Mercury craters, such as Beckett, Glinka, and Gibran." .
+
+ng:Science_and_Charity a sem:Event ;
+    sem:hasPlace ng:Museu_Picasso ;
+    rdfs:comment "Science and Charity is an oil on canvas painting by Pablo Picasso, which he painted in Barcelona in 1897. It is an example of one of Picasso's earliest works, as he painted it when he was only 15 years old. The painting depicts a formal composition of a sick patient in bed, attended by a doctor and a nun holding a child." .
+
+ng:Tsuguharu_Foujita a sem:Event ;
+    sem:hasActor ng:1936_Summer_Olympics ;
+    sem:hasTimeStamp "1886-11-27"^^xsd:date ;
+    rdfs:comment "Léonard Tsuguharu Foujita (藤田 嗣治, Fujita Tsuguharu; 27 November 1886 – 29 January 1968) was a Japanese-French painter. After studying Western-style painting in Japan, Foujita travelled to Paris, where he encountered the international modern art scene of the Montparnasse neighbourhood and developed an eclectic style that borrowed from both Japanese and European artistic traditions. With his unusual fashion and distinctive figurative style, Foujita reached the height of his fame in 1920s Paris." .
+
+ng:Wassily_Kandinski a sem:Event ;
+    sem:hasTimeStamp "1866-12-06"^^xsd:date ;
+    rdfs:comment "Wassily Wassilyevich Kandinsky (16 December&#160;[O.S. 4 December]&#160;1866&#160;– 13 December 1944) was a Russian painter and art theorist active in Germany during the late Belle Époque and Interwar eras. Kandinsky is generally credited as one of the pioneers of abstraction in Western art. Born in Moscow, he began painting studies (life-drawing, sketching and anatomy) at the age of&#160;30." .
+
+ng:Museu_Picasso a sem:Event ;
+    rdfs:comment "The Museu Picasso (Catalan pronunciation: [muˈzɛw piˈkasu], \"Picasso Museum\") is an art museum in Barcelona, in Catalonia, Spain. It houses an extensive collection of artworks by the twentieth-century Spanish artist Pablo Picasso, with a total of 4251 of his works. It is housed in five adjoining medieval palaces on Montcada Street in the La Ribera neighborhood in the Old City of Barcelona." .
+

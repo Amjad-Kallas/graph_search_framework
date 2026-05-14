@@ -90,7 +90,7 @@ def run_pipeline_direct(
     apply_post_filtering(output_ng, config_loaded, main_event)
 
     print("\n3. Wikipedia + LLM Filtering...")
-    rerank_events_combined(output_ng, main_event, target_k=35)
+    rerank_events_combined(output_ng, main_event, target_k=35, use_llm=False)
 
     print("\n4. Parsing RDF...")
     parse_rdf(output_ng, timeline_file)
@@ -168,7 +168,7 @@ def run_pipeline():
 
     print("\n3. Wikipedia + LLM Filtering")
 
-    rerank_events_combined(output_ng, main_event, target_k=35)
+    rerank_events_combined(output_ng, main_event, target_k=35, use_llm=False)
 
     print("\n3. Parsing RDF...")
 

@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 7,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text contains a significant contradiction regarding the timeline of events. Most key points are covered but some important details are missing."
+}

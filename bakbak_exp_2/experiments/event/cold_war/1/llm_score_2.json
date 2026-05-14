@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 4,
+  "factual_consistency": 1.0,
+  "coverage": 0.3333333333333333,
+  "reasoning": "Factual consistency is perfect with no contradictions. Coverage is low as many key points from the reference text are missing."
+}

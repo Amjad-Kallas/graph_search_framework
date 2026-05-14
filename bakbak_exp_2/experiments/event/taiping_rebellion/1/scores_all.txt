@@ -1,0 +1,14 @@
+All 11 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Kenosha  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. La Crosse  |  combined=0.393  wiki=0.982  llm=0.000 ***
+  3. Atlantic City  |  combined=0.302  wiki=0.754  llm=0.000 ***
+  4. Oshkosh  |  combined=0.298  wiki=0.744  llm=0.000 ***
+  5. Madison  |  combined=0.285  wiki=0.712  llm=0.000 ***
+  6. Fond du Lac  |  combined=0.259  wiki=0.648  llm=0.000 ***
+  7. Sheboygan  |  combined=0.224  wiki=0.559  llm=0.000 ***
+  8. Janesville  |  combined=0.198  wiki=0.495  llm=0.000 ***
+  9. Green Bay  |  combined=0.077  wiki=0.192  llm=0.000 ***
+ 10. Superior  |  combined=0.019  wiki=0.048  llm=0.000 ***
+ 11. Appleton  |  combined=0.000  wiki=0.000  llm=0.000 ***

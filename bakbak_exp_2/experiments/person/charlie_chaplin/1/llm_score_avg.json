@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 7.6,
+  "coverage_raw": 6.4,
+  "factual_consistency": 0.7333333333333333,
+  "coverage": 0.6,
+  "reasoning": [
+    "Contradiction on career start date; omits early life and controversy details.",
+    "Factual consistency is penalized for the incorrect birth year and minor inconsistencies. Coverage is moderate as major points are addressed but some key details are missing.",
+    "The generated text is consistent with the reference text on all major facts, with only minor additional details not present in the reference. The generated text covers many key points but omits some major aspects such as Chaplin's controversies and his Honorary Academy Award.",
+    "The generated text is largely consistent with the reference, with no major contradictions and only minor discrepancies. The generated text covers most key points from the reference but omits some important details, such as early life hardships and later career controversies.",
+    "The generated text is mostly consistent with the reference but misattributes Chaplin's independence to First National instead of United Artists. The generated text covers most key points about Chaplin's career and films but omits details about his early life, United Artists, and later controversies."
+  ]
+}

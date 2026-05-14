@@ -1,0 +1,6 @@
+,subject,predicate,object,type_df,superclass
+8,http://www.wikidata.org/entity/Q2301425,http://www.wikidata.org/prop/direct/P86,http://www.wikidata.org/entity/Q57774,ingoing,[]
+0,http://www.wikidata.org/entity/Q21186673,http://www.wikidata.org/prop/direct/P155,http://www.wikidata.org/entity/Q20072367,ingoing,[]
+0,http://www.wikidata.org/entity/Q18649441,http://www.w3.org/2002/07/owl#sameAs,http://www.wikidata.org/entity/Q3460120,ingoing,[]
+0,http://www.wikidata.org/entity/Q18668697,http://www.w3.org/2002/07/owl#sameAs,http://www.wikidata.org/entity/Q3459742,ingoing,[]
+2,http://www.wikidata.org/entity/Q21186673,http://www.wikidata.org/prop/direct/P156,http://www.wikidata.org/entity/Q3459742,ingoing,[]

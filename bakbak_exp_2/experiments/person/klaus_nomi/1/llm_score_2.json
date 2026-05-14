@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 6,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is mostly consistent with the reference except for the incorrect death date. The generated text covers many key points but misses some important details from the reference."
+}

@@ -1,0 +1,45 @@
+All 42 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Night of August 4 1789  |  combined=0.996  wiki=0.991  llm=1.000 ***
+  2. proclamation of the abolition of the monarchy  |  combined=0.987  wiki=0.967  llm=1.000 ***
+  3. Execution of Louis XVI  |  combined=0.966  wiki=0.916  llm=1.000 ***
+  4. Storming of the Bastille  |  combined=0.945  wiki=0.863  llm=1.000 ***
+  5. Constitution of the Year VIII  |  combined=0.936  wiki=0.990  llm=0.900 ***
+  6. French Constitution of 1791  |  combined=0.919  wiki=0.948  llm=0.900 ***
+  7. Trial of Louis XVI  |  combined=0.919  wiki=0.797  llm=1.000 ***
+  8. 18 Brumaire  |  combined=0.902  wiki=0.906  llm=0.900 ***
+  9. Reign of Terror  |  combined=0.880  wiki=1.000  llm=0.800 ***
+ 10. Flight to Varennes  |  combined=0.864  wiki=0.810  llm=0.900 ***
+ 11. French Constitution of 1793  |  combined=0.825  wiki=0.862  llm=0.800 ***
+ 12. Battle of Valmy  |  combined=0.821  wiki=0.701  llm=0.900 ***
+ 13. Constitution of the Year III  |  combined=0.797  wiki=0.793  llm=0.800 ***
+ 14. Coup of 30 Prairial Year VII  |  combined=0.768  wiki=0.871  llm=0.700 ***
+ 15. Coup of 18 Fructidor  |  combined=0.753  wiki=0.832  llm=0.700 ***
+ 16. September Massacres  |  combined=0.705  wiki=0.713  llm=0.700 ***
+ 17. Battle of Savenay  |  combined=0.683  wiki=0.508  llm=0.800 ***
+ 18. Battle of Saumur  |  combined=0.677  wiki=0.643  llm=0.700 ***
+ 19. Battle of Le Mans  |  combined=0.664  wiki=0.611  llm=0.700 ***
+ 20. Battle of Fontenay le Comte  |  combined=0.652  wiki=0.580  llm=0.700 ***
+ 21. Battle of Nantes  |  combined=0.650  wiki=0.575  llm=0.700 ***
+ 22. Battle of Thouars  |  combined=0.644  wiki=0.561  llm=0.700 ***
+ 23. Battle of Laval  |  combined=0.636  wiki=0.540  llm=0.700 ***
+ 24. Battle of Entrames  |  combined=0.629  wiki=0.522  llm=0.700 ***
+ 25. Battle of La Tremblaye  |  combined=0.618  wiki=0.495  llm=0.700 ***
+ 26. Nancy affair  |  combined=0.600  wiki=0.749  llm=0.500 ***
+ 27. Battle of Saint Fulgent  |  combined=0.597  wiki=0.441  llm=0.700 ***
+ 28. Battle of Montaigu  |  combined=0.586  wiki=0.414  llm=0.700 ***
+ 29. Battle of Dol  |  combined=0.583  wiki=0.407  llm=0.700 ***
+ 30. Battle of Granville  |  combined=0.559  wiki=0.346  llm=0.700 ***
+ 31. Battle of Saint Aubin du Cormier  |  combined=0.553  wiki=0.482  llm=0.600 ***
+ 32. Battle of Groix  |  combined=0.546  wiki=0.466  llm=0.600 ***
+ 33. Drownings at Nantes  |  combined=0.534  wiki=0.586  llm=0.500 ***
+ 34. Battle of Tiffauges  |  combined=0.470  wiki=0.425  llm=0.500 ***
+ 35. Battle of Vihiers  |  combined=0.460  wiki=0.399  llm=0.500 ***
+ 36. 1790s  |  combined=0.345  wiki=0.861  llm=0.000
+ 37. Haitian Revolution  |  combined=0.316  wiki=0.790  llm=0.000
+ 38. Siege of Saint Florent  |  combined=0.187  wiki=0.467  llm=0.000
+ 39. Battle of Segr  |  combined=0.153  wiki=0.383  llm=0.000
+ 40. Alpes Maritimes  |  combined=0.126  wiki=0.314  llm=0.000
+ 41. Battle of Cholet  |  combined=0.113  wiki=0.281  llm=0.000
+ 42. Strawberry Fire  |  combined=0.000  wiki=0.000  llm=0.000

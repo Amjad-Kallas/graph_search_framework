@@ -1,0 +1,65 @@
+{
+  "long_known": {
+    "n": 5,
+    "event_driven": {
+      "bertscore": 0.8437086844444275,
+      "lexical_recall": 0.22865981050594936,
+      "title_cov": 0.0,
+      "noloop": 0.9606018112110188,
+      "ctx_recall": 0.22865981050594936,
+      "nohall": 0.21619645472458773,
+      "storyscore": 0.5976891348690362
+    },
+    "baseline": {
+      "bertscore": 0.8490754723548889,
+      "lexical_recall": 0.2610610275660841,
+      "title_cov": 0.0,
+      "noloop": 0.9670917817791359,
+      "ctx_recall": 0.2610610275660841,
+      "nohall": 0.2963019758019758,
+      "storyscore": 0.6138696944393669
+    }
+  },
+  "short_known": {
+    "n": 7,
+    "event_driven": {
+      "bertscore": 0.8388929724693298,
+      "lexical_recall": 0.19923470338066962,
+      "title_cov": 0.0,
+      "noloop": 0.9568876366193974,
+      "ctx_recall": 0.19923470338066962,
+      "nohall": 0.2335313496027782,
+      "storyscore": 0.5830296648338658
+    },
+    "baseline": {
+      "bertscore": 0.8468984195164272,
+      "lexical_recall": 0.21705722773355562,
+      "title_cov": 0.0,
+      "noloop": 0.9548610100028114,
+      "ctx_recall": 0.21705722773355562,
+      "nohall": 0.3192007992007992,
+      "storyscore": 0.5949619428032785
+    }
+  },
+  "unknown": {
+    "n": 4,
+    "event_driven": {
+      "bertscore": 0.8495094329118729,
+      "lexical_recall": 0.2468806570914735,
+      "title_cov": 0.0,
+      "noloop": 0.9392179038931039,
+      "ctx_recall": 0.2468806570914735,
+      "nohall": 0.43924557468675113,
+      "storyscore": 0.608457922583713
+    },
+    "baseline": {
+      "bertscore": 0.8536374509334564,
+      "lexical_recall": 0.2433039295198196,
+      "title_cov": 0.0,
+      "noloop": 0.9630862537782406,
+      "ctx_recall": 0.2433039295198196,
+      "nohall": 0.486502664002664,
+      "storyscore": 0.6095040423680017
+    }
+  }
+}

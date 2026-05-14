@@ -1,0 +1,206 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:1790s a sem:Event ;
+    sem:hasTimeStamp "1790-01-01"^^xsd:date ;
+    rdfs:comment "The 1790s (pronounced \"seventeen-nineties\") was the decade that began on January 1, 1790, and ended on December 31, 1799. Considered as some of the Industrial Revolution's earlier days, the 1790s called for the start of an anti-imperialist world, as new democracies such as the French First Republic and the United States began flourishing at this era. Revolutions – both political and social – forever transformed global politics and art, as wars such as the French Revolutionary Wars and the American Revolutionary War moulded modern-day concepts of liberalism, partisanship, elections, and the political compass." .
+
+ng:18_Brumaire a sem:Event ;
+    sem:hasActor ng:Napoleon ;
+    sem:hasTimeStamp "1799-11-09"^^xsd:date ;
+    rdfs:comment "The Coup of 18 Brumaire (French: Coup d'État du 18 Brumaire) brought Napoleon Bonaparte to power as First Consul of the French First Republic. In the view of most historians, it ended the French Revolution and would soon lead to the coronation of Napoleon as Emperor of the French. This bloodless coup d'état overthrew the Directory, replacing it with the French Consulate." .
+
+ng:Alpes_Maritimes a sem:Event ;
+    sem:hasTimeStamp "1793-02-04"^^xsd:date ;
+    rdfs:comment "Alpes-Maritimes (French: [alp(ə)maʁitim]; Occitan: Aups Maritims; Monégasque: Alpes Marìtime; Italian: Alpi Marittime; lit. 'Maritime Alps') is a department of France located in the country's southeast corner, on the Italian border and Mediterranean coast. Part of the Provence-Alpes-Côte d'Azur region, it encompasses the French Riviera alongside neighbouring Var. Alpes-Maritimes had a population of 1,128,418 in 2023." .
+
+ng:Battle_of_Cholet a sem:Event ;
+    sem:hasPlace ng:Cholet ;
+    sem:hasTimeStamp "1793-10-17"^^xsd:date ;
+    rdfs:comment "The Battle of Cholet may refer to:" .
+
+ng:Battle_of_Dol a sem:Event ;
+    sem:hasPlace ng:Pontorson ;
+    sem:hasTimeStamp "1793-11-22"^^xsd:date ;
+    rdfs:comment "The Battle of Dol was a succession of battles in the war in the Vendée. They lasted three days and two nights from 20 to 22 November 1793 around Dol-de-Bretagne, Pontorson and Antrain. The Vendéens repelled an offensive by the Republicans against the town of Dol-de-Bretagne, then counterattacked and stormed Antrain, where the patriots' headquarters were located. The Republican forces suffered one of their heaviest defeats of the conflict and retreated to Rennes." .
+
+ng:Battle_of_Entrames a sem:Event ;
+    sem:hasPlace ng:Ch_teau_Gontier ;
+    sem:hasTimeStamp "1793-10-26"^^xsd:date ;
+    rdfs:comment "The Battle of Entrames was fought on 27 October 1793 during the French Revolutionary Wars. It pitted Republican forces against Vendée Royalists near Entrames in Mayenne, and it resulted in a Royalist victory." .
+
+ng:Battle_of_Fontenay_le_Comte a sem:Event ;
+    sem:hasPlace ng:Fontenay_le_Comte ;
+    sem:hasTimeStamp "1793-05-25"^^xsd:date ;
+    rdfs:comment "The Battles of Fontenay-le-Comte were fought on 16 May 1793 and on 25 May 1793 during the French Revolutionary Wars, between forces of the French Republic under Alexis Chalbos and Royalist forces under Marquis de Lescure and Charles de Bonchamps. The battle was fought near the town of Fontenay-le-Comte in Vendée, France, and ended in a Royalist victory. The first battle resulted in the town's successful resistance to the insurgent army; the second battle resulted in the Vendean victory." .
+
+ng:Battle_of_Granville a sem:Event ;
+    sem:hasActor ng:French_Revolutionary_Army,
+        ng:Henri_de_la_Rochejaquelein ;
+    sem:hasPlace ng:Granville ;
+    sem:hasTimeStamp "1793-11-14"^^xsd:date ;
+    rdfs:comment "The siege of Granville occurred at Granville, Manche on 14 November 1793. It faced 5,000 Republicans besieged by Vendéen forces during the Virée de Galerne. The battle ended with a Republican victory." .
+
+ng:Battle_of_Groix a sem:Event ;
+    sem:hasActor ng:Alexander_Hood_1st_Viscount_Bridport,
+        ng:Kingdom_of_Great_Britain ;
+    sem:hasPlace ng:Groix ;
+    sem:hasTimeStamp "1795-06-23"^^xsd:date ;
+    rdfs:comment "The Battle of Groix ([ɡʁwa]) took place on 23 June 1795 off the island of Groix in the Bay of Biscay during the War of the First Coalition. It was fought between elements of the British Channel Fleet and the French Atlantic Fleet, which were cruising in the region on separate missions. The British fleet, commanded by Admiral Lord Bridport, was covering an invasion convoy carrying a French Royalist army tasked with invading Quiberon, while the French fleet under Vice-admiral Villaret de Joyeuse had sailed a week earlier to rescue a convoy from being attacked by a British squadron." .
+
+ng:Battle_of_La_Tremblaye a sem:Event ;
+    sem:hasPlace ng:Cholet ;
+    sem:hasTimeStamp "1793-10-15"^^xsd:date ;
+    rdfs:comment "The Battle of La Tremblaye (15 October 1793), part of the war in the Vendée, took place near Cholet, and was a Republican victory over the Vendéens." .
+
+ng:Battle_of_Laval a sem:Event ;
+    sem:hasPlace ng:Laval ;
+    sem:hasTimeStamp "1793-10-22"^^xsd:date ;
+    rdfs:comment "The battle of Laval took place on 22 October 1793, during the war in the Vendée and saw Vendéen victory over republican troops. This is the first major battle of a particular episode of the war called the Virée de Galerne." .
+
+ng:Battle_of_Le_Mans a sem:Event ;
+    sem:hasPlace ng:Le_Mans ;
+    sem:hasTimeStamp "1793-12-13"^^xsd:date ;
+    rdfs:comment "The Battle of Le Mans was a combat in December 1793 in the Virée de Galerne, an operation of the War in the Vendée during the French Revolution. It resulted in the rout of the Vendéen forces by Republican troops." .
+
+ng:Battle_of_Montaigu a sem:Event ;
+    sem:hasPlace ng:Montaigu ;
+    sem:hasTimeStamp "1793-09-21"^^xsd:date ;
+    rdfs:comment "The Battle of Montaigu was a battle on 21 September 1793 during the War in the Vendée, in which the Vendéens were victorious." .
+
+ng:Battle_of_Nantes a sem:Event ;
+    sem:hasPlace ng:Nantes ;
+    sem:hasTimeStamp "1793-06-29"^^xsd:date ;
+    rdfs:comment "The Battle of Nantes was fought on 29 June 1793 during the War in the Vendée. In this engagement, French Republican forces successfully defended Nantes from a royalist attack led by Jacques Cathelineau, who was mortally wounded in the fighting. General Louis Marie Turreau wrote of it: The siege of Nantes is perhaps the most important military event of our revolution." .
+
+ng:Battle_of_Saint_Aubin_du_Cormier a sem:Event ;
+    sem:hasPlace ng:Saint_Aubin_du_Cormier ;
+    sem:hasTimeStamp "1796-06-01"^^xsd:date ;
+    rdfs:comment "The second Battle of Saint-Aubin du Cormier was a conflict between the anti-revolutionary Chouans and the French Republican forces during the Chouannerie. The First Battle of Saint-Aubin-du-Cormier took place in 1488. A substantial force of 1,000 Chouans under Gustave Hay de Bonteville moved to meet the small Republican force of 500 men, encountering them close to Saint-Aubin-du-Cormier." .
+
+ng:Battle_of_Saint_Fulgent a sem:Event ;
+    sem:hasPlace ng:Saint_Fulgent ;
+    sem:hasTimeStamp "1793-09-22"^^xsd:date ;
+    rdfs:comment "The Battle of Saint-Fulgent (22 September 1793) saw Royalist and Republican French forces clash at Saint-Fulgent during the War in the Vendée. The 11,000 Vendean rebels, led by Henri de La Rochejaquelein, defeated a 6,000-man republican division, commanded by Jean Quirin de Mieszkowski and belonging to the Army of the Coasts of La Rochelle. Half of the Republican force was killed, wounded or captured, but rebel losses were only one tenth as many." .
+
+ng:Battle_of_Saumur a sem:Event ;
+    sem:hasPlace ng:Saumur ;
+    sem:hasTimeStamp "1793-06-09"^^xsd:date ;
+    rdfs:comment "The Battle of Saumur took place during the Vendee Revolt. It occurred in the town of Saumur on 11 June 1793. As at the battle of Thouars, the Republican prisoners were released after swearing not to fight again in the Vendée and having had their hair shaved off so they could be recognised lest they went back on their word and were recaptured." .
+
+ng:Battle_of_Savenay a sem:Event ;
+    sem:hasPlace ng:Savenay ;
+    sem:hasTimeStamp "1793-12-23"^^xsd:date ;
+    rdfs:comment "The Battle of Savenay took place on 23 December 1793, and marks the end of the Virée de Galerne operational phase of the first war in the Vendée after the French Revolution. A Republican force of approximately 18,000 decisively defeated the Armée Catholique et Royale force of 6,000 at Savenay." .
+
+ng:Battle_of_Segr a sem:Event ;
+    sem:hasPlace ng:Segr ;
+    sem:hasTimeStamp "1795-07-21"^^xsd:date ;
+    rdfs:comment "The Battle of Segré was a battle between the forces of Conan II, Duke of Brittany, and an alliance of the rebel Rivallon I of Dol, the Angevin Empire, and the Duchy of Normandy, fought as part of the Breton–Norman War. During Conan's 1066 campaign against Anjou, he took Segré." .
+
+ng:Battle_of_Thouars a sem:Event ;
+    sem:hasPlace ng:Thouars ;
+    sem:hasTimeStamp "1793-05-05"^^xsd:date ;
+    rdfs:comment "The Battle of Thouars (5 May 1793) was a battle between Royalist and Republican French forces during the War in the Vendée. The Royalists or Vendeans led by Louis Marie de Lescure, Charles de Bonchamps, and Henri de La Rochejaquelein seized the town of Thouars and compelled its Republican defenders under Pierre Quétineau to surrender." .
+
+ng:Battle_of_Tiffauges a sem:Event ;
+    sem:hasPlace ng:Boussay ;
+    sem:hasTimeStamp "1793-09-19"^^xsd:date ;
+    rdfs:comment "The battle of Torfou-Tiffauges was a battle on 19 September 1793 during the War in the Vendée. It pitted many Royalist military leaders against Republican troops under Jean-Baptiste Kléber and Canclaux." .
+
+ng:Battle_of_Valmy a sem:Event ;
+    sem:hasPlace ng:Sainte_Menehould ;
+    sem:hasTimeStamp "1792-09-20"^^xsd:date ;
+    rdfs:comment "The Battle of Valmy, also known as the Cannonade of Valmy, was the first major victory by the army of France during the Revolutionary Wars that followed the French Revolution. The battle took place on 20 September 1792 as Prussian troops commanded by the Duke of Brunswick attempted to march on Paris. Generals François Kellermann and Charles Dumouriez stopped the advance near the northern village of Valmy in Champagne-Ardenne." .
+
+ng:Battle_of_Vihiers a sem:Event ;
+    sem:hasPlace ng:Vihiers ;
+    sem:hasTimeStamp "1793-07-18"^^xsd:date ;
+    rdfs:comment "The Battle of Vihiers (18 July 1793) was a battle between Royalist and Republican French forces at Vihiers during the War in the Vendée. After the Republican division under Jacques-Marie Pilote La Barolière advanced into the heart of the revolt area, it was attacked by the Vendeans under Dominique Piron de La Vienne and routed. The advance guard under Jacques-François Menou held its ground for a long time, but many Republican units from the main body quickly took to their heels." .
+
+ng:Constitution_of_the_Year_III a sem:Event ;
+    sem:hasTimeStamp "1795-08-22"^^xsd:date ;
+    rdfs:comment "The Constitution of the Year III (French: Constitution de l’an III) was the constitution of the French First Republic that established the Directory. It was adopted by the convention on 5 Fructidor Year III (22 August 1795) and approved by plebiscite on 6 September. Its preamble is the Declaration of the Rights and Duties of Man and of the Citizen of 1789." .
+
+ng:Constitution_of_the_Year_VIII a sem:Event ;
+    sem:hasTimeStamp "1799-12-01"^^xsd:date ;
+    rdfs:comment "The Constitution of the Year VIII (French: Constitution de l'an VIII or French: Constitution du 22 frimaire an VIII) was a national constitution of France, adopted on 24 December 1799 (during Year VIII of the French Republican calendar), which established the form of government known as the Consulate. The coup of 18 Brumaire (9 November 1799) had effectively given all power to Napoleon Bonaparte, and in the eyes of some, ended the French Revolution. After the coup, Napoleon and his allies legitimized his position by crafting a Constitution that would be, in the words of Napoleon, \"short and obscure\"." .
+
+ng:Coup_of_18_Fructidor a sem:Event ;
+    sem:hasTimeStamp "1797-09-04"^^xsd:date ;
+    rdfs:comment "The Coup of 18 Fructidor, Year V (4 September 1797 in the French Republican Calendar), was a seizure of power in France by members of the Directory, then forming the government of the First French Republic, with support from the military. The coup was provoked by the results of elections held months earlier, which had given the majority of seats in the country's Corps législatif (Legislative body) to royalist candidates, threatening a restoration of the monarchy and a return to the ancien régime. Three of the five members of the Directory, Paul Barras, Jean-François Rewbell and Louis Marie de La" .
+
+ng:Coup_of_30_Prairial_Year_VII a sem:Event ;
+    sem:hasTimeStamp "1799-06-17"^^xsd:date ;
+    rdfs:comment "The Coup of 30 Prairial Year VII (French: Coup d'État du 30 prairial an VII), also known as the Revenge of the Councils (French: revanche des conseils), was a bloodless coup in France that occurred on 18 June 1799 (30 Prairial Year VII by the French Republican Calendar). It left Emmanuel-Joseph Sieyès as the dominant figure of the French government, and prefigured the coup of 18 Brumaire that brought Napoleon Bonaparte to power." .
+
+ng:Drownings_at_Nantes a sem:Event ;
+    sem:hasTimeStamp "1793-01-01"^^xsd:date ;
+    rdfs:comment "The drownings at Nantes (French: noyades de Nantes) were a series of mass executions by drowning during the Reign of Terror in Nantes, France, that occurred between November 1793 and February 1794. During this period, anyone arrested and jailed for not consistently supporting the Revolution, or suspected of being a royalist sympathizer, especially Catholic priests and nuns, was cast into the river Loire and drowned on the orders of Jean-Baptiste Carrier, the representative-on-mission in Nantes. Before the drownings ceased, as many as four thousand or more people, including innocent families with women and children, died in what Carrier himself called" .
+
+ng:Execution_of_Louis_XVI a sem:Event ;
+    sem:hasTimeStamp "1793-01-21"^^xsd:date ;
+    rdfs:comment "Louis XVI, former Bourbon King of France since the abolition of the monarchy, was publicly executed on 21 January 1793 during the French Revolution at the Place de la Révolution in Paris. At his trial four days prior, the National Convention had convicted the former king of high treason in a near-unanimous vote; while no one voted \"not guilty\", several deputies abstained. Ultimately, they condemned him to death by a simple majority." .
+
+ng:Flight_to_Varennes a sem:Event ;
+    sem:hasTimeStamp "1791-06-01"^^xsd:date ;
+    rdfs:comment "The Flight to Varennes (French: Fuite de Varennes) during the night of 20–21 June 1791 was a significant event in the French Revolution in which the French royal family—comprising Louis XVI, Marie Antoinette, the Dauphin Louis Charles, Marie-Thérèse, Madame Royale, and Madame Élisabeth—unsuccessfully attempted to leave Paris for Montmédy, along with loyal members of their retinue. The King hoped to regain his freedom there, with the protection of royalist troops, as the Revolution was intensifying and the threat to the royal family's safety grew. They reached the small town of Varennes-en-Argonne, where they were stopped and arrested after being recognised" .
+
+ng:French_Constitution_of_1791 a sem:Event ;
+    sem:hasTimeStamp "1791-09-03"^^xsd:date ;
+    rdfs:comment "The French Constitution of 1791 (French: Constitution française du 3 septembre 1791) was the first written constitution in France, created after the collapse of the absolute monarchy of the Ancien Régime. One of the basic precepts of the French Revolution was adopting constitutionality and establishing popular sovereignty." .
+
+ng:French_Constitution_of_1793 a sem:Event ;
+    sem:hasTimeStamp "1793-06-24"^^xsd:date ;
+    rdfs:comment "The Constitution of 1793 (French: Acte constitutionnel du 24 juin 1793), also known as the Constitution of the Year I or the Montagnard Constitution, was the second constitution ratified for use during the French Revolution under the First Republic. Designed by the Montagnards, principally Maximilien Robespierre and Louis Saint-Just, it was intended to replace the constitutional monarchy of 1791 and the Girondin constitutional project. With sweeping plans for democratization and wealth redistribution, the new document promised a significant departure from the relatively moderate goals of the Revolution in previous years." .
+
+ng:Haitian_Revolution a sem:Event ;
+    sem:hasTimeStamp "1791-08-21"^^xsd:date ;
+    rdfs:comment "The Haitian Revolution, also known as the Haitian War of Independence, was a successful insurrection by enslaved Africans against French colonial rule in Saint-Domingue, now the sovereign state of Haiti. The revolution was one of the only known slave rebellions in human history that led to the founding of a state which was both free from slavery (though not from forced labour) and ruled by former captives. Vincent Ogé's 1790 revolt by free mulattoes (of mixed French and African ancestry) pressured the French Revolutionary government to grant them citizenship in May 1791, leading to further clashes with slave owners that" .
+
+ng:Nancy_affair a sem:Event ;
+    sem:hasPlace ng:Nancy ;
+    sem:hasTimeStamp "1790-08-05"^^xsd:date ;
+    rdfs:comment "The Nancy affair (French: Affaire de Nancy), commonly referred to in English as the Nancy Mutiny, was the crushing of a military mutiny in France on 31 August 1790, two years before the final overthrow of the French monarchy. The mutiny was of particular significance in that it illustrated the degree to which the discipline and reliability of the Royal Army had been undermined by thirteen months of revolutionary turmoil." .
+
+ng:Night_of_August_4_1789 a sem:Event ;
+    sem:hasTimeStamp "1789-08-04"^^xsd:date ;
+    rdfs:comment "One of the central events of the French Revolution was the abolition of feudalism, and the old rules, taxes, and privileges left over from the ancien régime. The National Constituent Assembly, after deliberating on the night of 4 August 1789, announced, \"The National Assembly abolishes the feudal system entirely.\" It abolished both the seigneurial rights of the Second Estate (the nobility) and the tithes gathered by the First Estate (the Catholic clergy). The old judicial system, founded on the 13 regional parlements, was suspended in November 1789 and finally abolished in 1790." .
+
+ng:Reign_of_Terror a sem:Event ;
+    sem:hasTimeStamp "1793-09-02"^^xsd:date ;
+    rdfs:comment "The Reign of Terror (French: La Terreur, lit. 'The Terror') was a period of the French Revolution when, following the creation of the First Republic, a series of massacres and numerous public executions took place in response to the Federalist revolts, revolutionary fervour, anticlerical sentiment, and accusations of treason by the Committee of Public Safety. While terror was never formally instituted as a legal policy by the Convention, it was more often employed as a concept. Historians disagree when exactly the \"Terror\" began." .
+
+ng:September_Massacres a sem:Event ;
+    sem:hasTimeStamp "1792-09-02"^^xsd:date ;
+    rdfs:comment "The September Massacres were a series of killings and summary executions of prisoners in Paris that occurred in 1792 from 2 September to 6 September during the French Revolution. Between 1,176 and 1,614 people were killed by sans-culottes, fédérés, and guardsmen, with the support of gendarmes responsible for guarding the tribunals and prisons, the Cordeliers, the Committee of Surveillance of the Commune, and the revolutionary sections of Paris. With Prussian and royalist armies advancing on Paris, and widespread fear that prisoners in the city would be freed to join them, on 1 September the Legislative Assembly called for volunteers to" .
+
+ng:Siege_of_Saint_Florent a sem:Event ;
+    sem:hasTimeStamp "1794-02-07"^^xsd:date ;
+    rdfs:comment "The siege of San Fiorenzo (also known as the siege of Saint-Florent ) was a British and Corsican military operation conducted during the French Revolutionary Wars against the French-held town of San Fiorenzo on the Mediterranean island of Corsica. The Corsican people had risen up against the French Republican garrison in 1793 after an attempt to arrest the Corsican leader Pasquale Paoli during the Reign of Terror. The French had then been driven into three fortified towns on the northern coast; San Fiorenzo, Calvi, and Bastia and Paoli appealed to the British Royal Navy's Mediterranean Fleet, commanded by Lord Hood," .
+
+ng:Storming_of_the_Bastille a sem:Event ;
+    sem:hasActor ng:Bernard_Ren_de_Launay,
+        ng:Gardes_Fran_aises,
+        ng:Kingdom_of_France,
+        ng:National_Guard,
+        ng:Pierre_Augustin_Hulin ;
+    sem:hasPlace ng:Paris ;
+    sem:hasTimeStamp "1789-07-14"^^xsd:date ;
+    rdfs:comment "The Storming of the Bastille (French: Prise de la Bastille [pʁiz də la bastij]), which occurred in Paris, France, on 14 July 1789, was an act of political violence by revolutionary insurgents who attempted to storm and seize control of the medieval armoury, fortress, and political prison known as the Bastille. After four hours of fighting and 94 deaths, the insurgents were able to enter the Bastille. The governor of the Bastille, Bernard-René Jourdan de Launay, and several members of the garrison were killed after surrendering." .
+
+ng:Strawberry_Fire a sem:Event ;
+    sem:hasPlace ng:Great_Basin_National_Park ;
+    sem:hasTimeStamp "2016-08-19"^^xsd:date ;
+    rdfs:comment "The Strawberry Fire was a wildfire that burned in the northern Great Basin National Park in White Pine County, Nevada in August 2016. The wildfire was caused by a lightning strike, and was reported a few days later on August 8. The Strawberry Fire was contained eleven days later." .
+
+ng:Trial_of_Louis_XVI a sem:Event ;
+    sem:hasTimeStamp "1792-12-10"^^xsd:date ;
+    rdfs:comment "The trial of Louis XVI—officially called \"Citizen Louis Capet\" since being dethroned—before the National Convention in December 1792 was a key event of the French Revolution. He was convicted of high treason and other crimes, resulting in his execution." .
+
+ng:proclamation_of_the_abolition_of_the_monarchy a sem:Event ;
+    sem:hasTimeStamp "1792-09-21"^^xsd:date ;
+    rdfs:comment "During the French Revolution, the proclamation of the abolition of the monarchy (French: Proclamation de l'abolition de la royauté) was a proclamation by the National Convention of France announcing that it had abolished the French monarchy on 21 September 1792, giving birth to the French First Republic." .
+

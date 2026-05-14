@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 8,
+  "factual_consistency": 1.0,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text has no contradictions with the reference text. The generated text covers most key points but misses some details such as the two-part structure and the DUP's opposition."
+}

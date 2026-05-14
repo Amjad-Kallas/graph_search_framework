@@ -1,0 +1,192 @@
+All 189 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Christian Slater  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. Richard Todd  |  combined=0.352  wiki=0.880  llm=0.000 ***
+  3. Brad Dourif  |  combined=0.349  wiki=0.873  llm=0.000 ***
+  4. Brad Pitt  |  combined=0.333  wiki=0.832  llm=0.000 ***
+  5. Philip Seymour Hoffman  |  combined=0.320  wiki=0.799  llm=0.000 ***
+  6. Tom Cruise  |  combined=0.315  wiki=0.788  llm=0.000 ***
+  7. Joaquin Phoenix  |  combined=0.313  wiki=0.783  llm=0.000 ***
+  8. Tom Hanks  |  combined=0.306  wiki=0.765  llm=0.000 ***
+  9. Aaron Johnson  |  combined=0.300  wiki=0.749  llm=0.000 ***
+ 10. Channing Tatum  |  combined=0.295  wiki=0.739  llm=0.000 ***
+ 11. Richard Dreyfuss  |  combined=0.295  wiki=0.737  llm=0.000 ***
+ 12. Sam Rockwell  |  combined=0.285  wiki=0.713  llm=0.000 ***
+ 13. Jim Carrey  |  combined=0.282  wiki=0.706  llm=0.000 ***
+ 14. Al Pacino  |  combined=0.280  wiki=0.699  llm=0.000 ***
+ 15. Macaulay Culkin  |  combined=0.280  wiki=0.699  llm=0.000 ***
+ 16. Amber Heard  |  combined=0.277  wiki=0.693  llm=0.000 ***
+ 17. Jon Hamm  |  combined=0.276  wiki=0.691  llm=0.000 ***
+ 18. Ryan Gosling  |  combined=0.268  wiki=0.671  llm=0.000 ***
+ 19. Bill Nighy  |  combined=0.267  wiki=0.667  llm=0.000 ***
+ 20. Jason Bateman  |  combined=0.264  wiki=0.659  llm=0.000 ***
+ 21. Mickey Rooney  |  combined=0.261  wiki=0.652  llm=0.000 ***
+ 22. Steve Buscemi  |  combined=0.260  wiki=0.651  llm=0.000 ***
+ 23. Zac Efron  |  combined=0.260  wiki=0.650  llm=0.000 ***
+ 24. Keanu Reeves  |  combined=0.256  wiki=0.640  llm=0.000 ***
+ 25. Dean Jones  |  combined=0.255  wiki=0.638  llm=0.000 ***
+ 26. Denzel Washington  |  combined=0.254  wiki=0.636  llm=0.000 ***
+ 27. David Tomlinson  |  combined=0.254  wiki=0.635  llm=0.000 ***
+ 28. Martin Scorsese  |  combined=0.254  wiki=0.634  llm=0.000 ***
+ 29. Tim Allen  |  combined=0.250  wiki=0.626  llm=0.000 ***
+ 30. Howard Shore  |  combined=0.250  wiki=0.624  llm=0.000 ***
+ 31. Jeffrey Tambor  |  combined=0.249  wiki=0.622  llm=0.000 ***
+ 32. Guillermo del Toro  |  combined=0.248  wiki=0.619  llm=0.000 ***
+ 33. Rutger Hauer  |  combined=0.246  wiki=0.616  llm=0.000 ***
+ 34. Damian Lewis  |  combined=0.246  wiki=0.616  llm=0.000 ***
+ 35. Sterling Holloway  |  combined=0.246  wiki=0.614  llm=0.000 ***
+ 36. Xavier Atencio  |  combined=0.244  wiki=0.609  llm=0.000
+ 37. Patricia Arquette  |  combined=0.242  wiki=0.606  llm=0.000
+ 38. Benicio del Toro  |  combined=0.242  wiki=0.604  llm=0.000
+ 39. Michael J Fox  |  combined=0.238  wiki=0.596  llm=0.000
+ 40. Pinto Colvig  |  combined=0.237  wiki=0.594  llm=0.000
+ 41. Tim Rice  |  combined=0.237  wiki=0.592  llm=0.000
+ 42. Tommy Kirk  |  combined=0.233  wiki=0.583  llm=0.000
+ 43. Frank Sinatra  |  combined=0.231  wiki=0.577  llm=0.000
+ 44. Buddy Hackett  |  combined=0.231  wiki=0.577  llm=0.000
+ 45. Jeff Bridges  |  combined=0.230  wiki=0.575  llm=0.000
+ 46. Kevin Corcoran  |  combined=0.229  wiki=0.572  llm=0.000
+ 47. James Gandolfini  |  combined=0.228  wiki=0.570  llm=0.000
+ 48. Hugh Grant  |  combined=0.227  wiki=0.567  llm=0.000
+ 49. Maurice Chevalier  |  combined=0.227  wiki=0.567  llm=0.000
+ 50. Laura Linney  |  combined=0.225  wiki=0.563  llm=0.000
+ 51. Kirk Douglas  |  combined=0.225  wiki=0.563  llm=0.000
+ 52. Fulton Burley  |  combined=0.224  wiki=0.561  llm=0.000
+ 53. Mark Hamill  |  combined=0.224  wiki=0.560  llm=0.000
+ 54. George Lucas  |  combined=0.224  wiki=0.560  llm=0.000
+ 55. Alan Menken  |  combined=0.221  wiki=0.552  llm=0.000
+ 56. Woody Allen  |  combined=0.216  wiki=0.540  llm=0.000
+ 57. Bill Murray  |  combined=0.216  wiki=0.540  llm=0.000
+ 58. Elizabeth Taylor  |  combined=0.214  wiki=0.536  llm=0.000
+ 59. Paul Lukas  |  combined=0.213  wiki=0.532  llm=0.000
+ 60. Peter Dinklage  |  combined=0.212  wiki=0.530  llm=0.000
+ 61. Wally Boag  |  combined=0.211  wiki=0.529  llm=0.000
+ 62. Jennifer Grey  |  combined=0.211  wiki=0.528  llm=0.000
+ 63. Rachel Weisz  |  combined=0.208  wiki=0.519  llm=0.000
+ 64. Oliver Stone  |  combined=0.208  wiki=0.519  llm=0.000
+ 65. John Goodman  |  combined=0.207  wiki=0.519  llm=0.000
+ 66. William Garity  |  combined=0.207  wiki=0.517  llm=0.000
+ 67. Morgan Freeman  |  combined=0.207  wiki=0.517  llm=0.000
+ 68. Whoopi Goldberg  |  combined=0.204  wiki=0.510  llm=0.000
+ 69. Jack Lindquist  |  combined=0.203  wiki=0.507  llm=0.000
+ 70. Richard Fleischer  |  combined=0.201  wiki=0.503  llm=0.000
+ 71. Julie Andrews  |  combined=0.200  wiki=0.500  llm=0.000
+ 72. Ed Wynn  |  combined=0.199  wiki=0.499  llm=0.000
+ 73. Fred MacMurray  |  combined=0.198  wiki=0.495  llm=0.000
+ 74. Emma Stone  |  combined=0.198  wiki=0.494  llm=0.000
+ 75. Bill Peet  |  combined=0.197  wiki=0.494  llm=0.000
+ 76. George Bruns  |  combined=0.197  wiki=0.493  llm=0.000
+ 77. Misha Collins  |  combined=0.197  wiki=0.492  llm=0.000
+ 78. Matt Bomer  |  combined=0.195  wiki=0.488  llm=0.000
+ 79. Mary Blair  |  combined=0.195  wiki=0.487  llm=0.000
+ 80. Steven Zaillian  |  combined=0.194  wiki=0.485  llm=0.000
+ 81. Hayley Mills  |  combined=0.194  wiki=0.484  llm=0.000
+ 82. Glynis Johns  |  combined=0.192  wiki=0.480  llm=0.000
+ 83. Carrie Fisher  |  combined=0.191  wiki=0.477  llm=0.000
+ 84. Glenn Close  |  combined=0.191  wiki=0.477  llm=0.000
+ 85. Guy Williams  |  combined=0.191  wiki=0.477  llm=0.000
+ 86. Gabriel Byrne  |  combined=0.190  wiki=0.476  llm=0.000
+ 87. Peter Falk  |  combined=0.190  wiki=0.474  llm=0.000
+ 88. Randy Quaid  |  combined=0.188  wiki=0.470  llm=0.000
+ 89. Nastassja Kinski  |  combined=0.188  wiki=0.469  llm=0.000
+ 90. David Stollery  |  combined=0.187  wiki=0.466  llm=0.000
+ 91. Buddy Baker  |  combined=0.185  wiki=0.464  llm=0.000
+ 92. Tony Baxter  |  combined=0.185  wiki=0.464  llm=0.000
+ 93. Buddy Ebsen  |  combined=0.185  wiki=0.463  llm=0.000
+ 94. Kathryn Beaumont  |  combined=0.184  wiki=0.460  llm=0.000
+ 95. John Lounsbery  |  combined=0.182  wiki=0.456  llm=0.000
+ 96. Sidney Lumet  |  combined=0.182  wiki=0.455  llm=0.000
+ 97. Angelina Jolie  |  combined=0.181  wiki=0.453  llm=0.000
+ 98. Jim Henson  |  combined=0.181  wiki=0.453  llm=0.000
+ 99. Ub Iwerks  |  combined=0.180  wiki=0.449  llm=0.000
+100. Marty Sklar  |  combined=0.178  wiki=0.444  llm=0.000
+101. Regis Philbin  |  combined=0.177  wiki=0.443  llm=0.000
+102. Elton John  |  combined=0.174  wiki=0.435  llm=0.000
+103. Robin Wright  |  combined=0.173  wiki=0.432  llm=0.000
+104. Estelle Getty  |  combined=0.173  wiki=0.431  llm=0.000
+105. Eminem  |  combined=0.172  wiki=0.431  llm=0.000
+106. Claire Danes  |  combined=0.172  wiki=0.429  llm=0.000
+107. Randy Newman  |  combined=0.170  wiki=0.426  llm=0.000
+108. Tim Considine  |  combined=0.167  wiki=0.418  llm=0.000
+109. Marcello Mastroianni  |  combined=0.165  wiki=0.413  llm=0.000
+110. Howard Ashman  |  combined=0.164  wiki=0.411  llm=0.000
+111. Meryl Streep  |  combined=0.164  wiki=0.410  llm=0.000
+112. Wayne Allwine  |  combined=0.164  wiki=0.409  llm=0.000
+113. Tony Anselmo  |  combined=0.163  wiki=0.409  llm=0.000
+114. Angela Lansbury  |  combined=0.163  wiki=0.407  llm=0.000
+115. Don Iwerks  |  combined=0.162  wiki=0.406  llm=0.000
+116. Stan Lee  |  combined=0.162  wiki=0.405  llm=0.000
+117. John Hench  |  combined=0.161  wiki=0.403  llm=0.000
+118. Frank Wells  |  combined=0.161  wiki=0.402  llm=0.000
+119. Art Babbitt  |  combined=0.160  wiki=0.399  llm=0.000
+120. Irwin Kostal  |  combined=0.159  wiki=0.398  llm=0.000
+121. Ward Kimball  |  combined=0.159  wiki=0.397  llm=0.000
+122. Mel Shaw  |  combined=0.155  wiki=0.388  llm=0.000
+123. Ilene Woods  |  combined=0.154  wiki=0.384  llm=0.000
+124. Bill Walsh  |  combined=0.153  wiki=0.383  llm=0.000
+125. Wes Anderson  |  combined=0.153  wiki=0.382  llm=0.000
+126. Ron Logan  |  combined=0.153  wiki=0.382  llm=0.000
+127. James Algar  |  combined=0.152  wiki=0.380  llm=0.000
+128. Jack Wrather  |  combined=0.152  wiki=0.380  llm=0.000
+129. Billy Crystal  |  combined=0.151  wiki=0.377  llm=0.000
+130. Selena Gomez  |  combined=0.147  wiki=0.367  llm=0.000
+131. Adriana Caselotti  |  combined=0.146  wiki=0.366  llm=0.000
+132. Bob Gurr  |  combined=0.145  wiki=0.363  llm=0.000
+133. Roy E Disney  |  combined=0.144  wiki=0.361  llm=0.000
+134. Dudley Moore  |  combined=0.144  wiki=0.361  llm=0.000
+135. Leigh Harline  |  combined=0.143  wiki=0.356  llm=0.000
+136. Jimmy MacDonald  |  combined=0.142  wiki=0.355  llm=0.000
+137. Sarah Michelle Gellar  |  combined=0.142  wiki=0.354  llm=0.000
+138. Claude Coats  |  combined=0.136  wiki=0.340  llm=0.000
+139. Jack Wagner  |  combined=0.136  wiki=0.339  llm=0.000
+140. Jimmie Dodd  |  combined=0.135  wiki=0.337  llm=0.000
+141. Claire Foy  |  combined=0.132  wiki=0.329  llm=0.000
+142. Octavia Spencer  |  combined=0.130  wiki=0.325  llm=0.000
+143. Hamilton Luske  |  combined=0.129  wiki=0.324  llm=0.000
+144. Lea Salonga  |  combined=0.129  wiki=0.323  llm=0.000
+145. Joe Grant  |  combined=0.129  wiki=0.322  llm=0.000
+146. Norman Palmer  |  combined=0.129  wiki=0.322  llm=0.000
+147. Sandahl Bergman  |  combined=0.129  wiki=0.322  llm=0.000
+148. Letty Aronson  |  combined=0.128  wiki=0.319  llm=0.000
+149. Ken Annakin  |  combined=0.126  wiki=0.314  llm=0.000
+150. Joe Ranft  |  combined=0.125  wiki=0.313  llm=0.000
+151. Van Arsdale France  |  combined=0.124  wiki=0.311  llm=0.000
+152. Bonita Granville  |  combined=0.123  wiki=0.307  llm=0.000
+153. N Paul Kenworthy  |  combined=0.122  wiki=0.305  llm=0.000
+154. William Everett Potter  |  combined=0.121  wiki=0.303  llm=0.000
+155. Burny Mattinson  |  combined=0.120  wiki=0.299  llm=0.000
+156. Eric Larson  |  combined=0.119  wiki=0.299  llm=0.000
+157. Ann Sothern  |  combined=0.117  wiki=0.293  llm=0.000
+158. Art Linkletter  |  combined=0.115  wiki=0.288  llm=0.000
+159. Carl Barks  |  combined=0.115  wiki=0.287  llm=0.000
+160. Bea Arthur  |  combined=0.113  wiki=0.282  llm=0.000
+161. Frank Gifford  |  combined=0.113  wiki=0.282  llm=0.000
+162. Ginny Tyler  |  combined=0.111  wiki=0.278  llm=0.000
+163. Susan Lucci  |  combined=0.111  wiki=0.278  llm=0.000
+164. Anika Noni Rose  |  combined=0.111  wiki=0.277  llm=0.000
+165. Joyce Carlson  |  combined=0.108  wiki=0.269  llm=0.000
+166. Rachel Carson  |  combined=0.107  wiki=0.267  llm=0.000
+167. Dick Huemer  |  combined=0.107  wiki=0.267  llm=0.000
+168. Jack Hannah  |  combined=0.104  wiki=0.260  llm=0.000
+169. Ruthie Tompson  |  combined=0.104  wiki=0.260  llm=0.000
+170. Peter Ellenshaw  |  combined=0.103  wiki=0.257  llm=0.000
+171. Jessica Chastain  |  combined=0.103  wiki=0.257  llm=0.000
+172. Jodie Foster  |  combined=0.102  wiki=0.254  llm=0.000
+173. Leonard Goldenson  |  combined=0.100  wiki=0.251  llm=0.000
+174. Salvatore Camarata  |  combined=0.099  wiki=0.247  llm=0.000
+175. Roy Williams  |  combined=0.097  wiki=0.241  llm=0.000
+176. Ken Anderson  |  combined=0.095  wiki=0.238  llm=0.000
+177. Clyde Geronimi  |  combined=0.095  wiki=0.238  llm=0.000
+178. Dave Smith  |  combined=0.094  wiki=0.236  llm=0.000
+179. Bella Darvi  |  combined=0.084  wiki=0.210  llm=0.000
+180. Rachel Brosnahan  |  combined=0.084  wiki=0.209  llm=0.000
+181. Matsuo Yokoyama  |  combined=0.077  wiki=0.192  llm=0.000
+182. Floyd Norman  |  combined=0.077  wiki=0.192  llm=0.000
+183. Betty Taylor  |  combined=0.076  wiki=0.190  llm=0.000
+184. Tyrus Wong  |  combined=0.074  wiki=0.186  llm=0.000
+185. Disney Legends  |  combined=0.064  wiki=0.161  llm=0.000
+186. George Bodenheimer  |  combined=0.028  wiki=0.069  llm=0.000
+187. Harriet Burns  |  combined=0.023  wiki=0.059  llm=0.000
+188. MTV Movie Award for Best Performance  |  combined=0.023  wiki=0.058  llm=0.000
+189. Barbara Walters  |  combined=0.000  wiki=0.000  llm=0.000

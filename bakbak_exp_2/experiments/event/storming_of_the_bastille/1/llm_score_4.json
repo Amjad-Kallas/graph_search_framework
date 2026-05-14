@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 9,
+  "coverage_raw": 8,
+  "factual_consistency": 0.8888888888888888,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is largely consistent with the reference, with only a minor discrepancy in the governor's name. The generated text covers most key points but omits the F\u00eate de la F\u00e9d\u00e9ration and the Bastille's scheduled demolition."
+}

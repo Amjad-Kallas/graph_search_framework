@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.4,
+  "coverage_raw": 7.8,
+  "factual_consistency": 0.9333333333333332,
+  "coverage": 0.7555555555555555,
+  "reasoning": [
+    "The text has minor factual discrepancies. It covers most key points but omits some details.",
+    "The generated text is mostly consistent with the reference, with only minor discrepancies such as the cause of Hong Xiuquan's death. The generated text covers most key points from the reference but omits some specific details such as the massacres and certain internal conflicts.",
+    "The generated text has no contradictions with the reference text. The generated text covers most key points but omits some significant details such as the massacres and the Self-Strengthening Movement.",
+    "No contradictions found; some key details from the reference are missing.",
+    "All stated facts match the reference without contradiction. Most key points are covered, but some details like internal conflicts and specific massacres are missing."
+  ]
+}

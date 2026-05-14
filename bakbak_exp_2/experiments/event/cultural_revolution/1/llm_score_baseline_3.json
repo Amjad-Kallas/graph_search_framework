@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 7,
+  "factual_consistency": 1.0,
+  "coverage": 0.6666666666666666,
+  "reasoning": "All facts in the generated text are consistent with the reference, with no contradictions. The generated text covers the main narrative but omits several important details from the reference."
+}

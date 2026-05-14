@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.6,
+  "coverage_raw": 6.2,
+  "factual_consistency": 0.9555555555555555,
+  "coverage": 0.5777777777777777,
+  "reasoning": [
+    "All facts in the generated text that overlap with the reference are consistent, with no contradictions. The generated text covers some key aspects of the Renaissance but omits others, such as its broader European impact and effects on fields beyond art.",
+    "The generated text's facts align well with the reference, with no contradictions and matching key details like time period, rediscovery of classical texts, and key figures. The generated text covers major themes like humanism and art but omits some key points such as the spread to Europe and other fields like literature and science.",
+    "No contradictions with reference text. Covers main themes but omits several key details.",
+    "The generated text is factually consistent with the reference text. The generated text covers some key points but misses others.",
+    "The generated text is factually consistent with the reference and covers major themes but omits some secondary details."
+  ]
+}

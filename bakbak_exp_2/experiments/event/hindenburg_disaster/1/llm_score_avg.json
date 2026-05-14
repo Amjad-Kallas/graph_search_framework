@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 9.2,
+  "coverage_raw": 8.8,
+  "factual_consistency": 0.9111111111111111,
+  "coverage": 0.8666666666666666,
+  "reasoning": [
+    "The generated text is largely consistent with the reference, with only a minor discrepancy in the fatality count; The generated text covers most key points from the reference but omits some details such as the airship being the largest by volume.",
+    "The generated text is largely consistent with the reference but has an error in the breakdown of fatalities between passengers and crew. The generated text covers most key points from the reference, omitting only minor details about media coverage.",
+    "No contradictions found; most key points covered, minor details missing.",
+    "Factual consistency is perfect with no contradictions found. Coverage is high as all major points are addressed, with only minor details missing.",
+    "Minor inconsistency in the total number of fatalities stated; some minor details from the reference are not covered in the generated text."
+  ]
+}

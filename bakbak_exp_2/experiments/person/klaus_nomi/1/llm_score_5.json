@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 7,
+  "coverage_raw": 7,
+  "factual_consistency": 0.6666666666666666,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text contradicts the reference on the death date. While major points are covered, some specifics from the reference are missing."
+}

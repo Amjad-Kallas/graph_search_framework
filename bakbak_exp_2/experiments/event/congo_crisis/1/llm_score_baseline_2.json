@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 8,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.7777777777777778,
+  "reasoning": "The generated text is largely consistent with the reference but contains a significant contradiction regarding the duration of Katanga's secession. While most key points are covered, important details like the compromise constitution and Tshombe's recall are missing."
+}

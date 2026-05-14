@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 9,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.8888888888888888,
+  "reasoning": "The generated text has one factual contradiction but is otherwise consistent with the reference. It covers all key points from the reference with one minor omission."
+}

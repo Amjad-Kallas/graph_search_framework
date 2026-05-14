@@ -1,0 +1,642 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Afternoon_of_a_Faun a sem:Event ;
+    rdfs:comment "The Afternoon of a Faun (French: L'Après-midi d'un faune) is a ballet choreographed by Vaslav Nijinsky for the Ballets Russes, and was first performed in the Théâtre du Châtelet in Paris on 29 May 1912. Nijinsky danced the main part himself. The ballet is set to Claude Debussy's symphonic poem Prélude à l'après-midi d'un faune." .
+
+ng:Agrippina_Vaganova a sem:Event ;
+    sem:hasTimeStamp "1879-06-26"^^xsd:date ;
+    rdfs:comment "Agrippina Yakovlevna Vaganova (Russian: Агриппина Яковлевна Ваганова; 26 June 1879 – 5 November 1951) was a Russian and Soviet ballerina, teacher, and choreographer, widely regarded as one of the most influential ballet pedagogues of the twentieth century. She developed the Vaganova method, a system of classical ballet training that remains foundational worldwide." .
+
+ng:Alanis_Obomsawin a sem:Event ;
+    sem:hasTimeStamp "1932-08-31"^^xsd:date ;
+    rdfs:comment "Alanis Obomsawin, (born August 31, 1932) is an Abenaki American-Canadian filmmaker, singer, artist, and activist primarily known for her documentary films. Born in New Hampshire, United States, and raised primarily in Quebec, Canada, she has written and directed many National Film Board of Canada documentaries on First Nations issues. Obomsawin is a member of Film Fatales group of independent women filmmakers." .
+
+ng:Amparo_Ochoa a sem:Event ;
+    sem:hasTimeStamp "1946-09-29"^^xsd:date ;
+    rdfs:comment "María Amparo Ochoa Castaños, (29 September 1946 in Culiacán, Sinaloa – 8 February 1994) better known as Amparo Ochoa, was a Mexican singer-songwriter. She was one of several other Mexican artists who emerged in the 1960s belonging to the movement known as Nueva canción. Ochoa was born in 1946 in the Mexican state of Sinaloa." .
+
+ng:Andrei_Eshpai a sem:Event ;
+    sem:hasTimeStamp "1925-05-15"^^xsd:date ;
+    rdfs:comment "Andrei Yakovlevich Eshpai (15 May 1925&#160;– 8 November 2015) was a Soviet composer. He was awarded the title of People's Artist of the USSR in 1981." .
+
+ng:Anne_Sylvestre a sem:Event ;
+    sem:hasTimeStamp "1934-06-20"^^xsd:date ;
+    rdfs:comment "Anne Sylvestre (French: [an silvɛstʁ], born Anne-Marie Beugras; 20 June 1934 – 30 November 2020) was a French singer-songwriter." .
+
+ng:Anne_Vanderlove a sem:Event ;
+    sem:hasTimeStamp "1943-12-11"^^xsd:date ;
+    rdfs:comment "Anna van der Leeuw (Dutch pronunciation: [ˈɑnaː vɑn dər ˈleːu]; 11 December 1939 – 30 June 2019), better known by her stage name Anne Vanderlove, was a Dutch-born French singer and songwriter, known as the French Joan Baez." .
+
+ng:Annette_Humpe a sem:Event ;
+    sem:hasTimeStamp "1950-10-28"^^xsd:date ;
+    rdfs:comment "Annette Humpe (born 28 October 1950) is a German singer, songwriter, and record producer. Her band Ideal was one of the most important and seminal representatives of the Neue Deutsche Welle. In 2004, she returned as a singer with the project Ich + Ich after a longer break." .
+
+ng:Aram_Khachaturian a sem:Event ;
+    sem:hasTimeStamp "1903-06-06"^^xsd:date ;
+    rdfs:comment "Aram Ilyich Khachaturian (; 6 June&#160;[O.S. 24 May]&#160;1903&#160;– 1 May 1978) was a Soviet Armenian composer and conductor. He is considered one of the leading Soviet composers. Born and raised in Tbilisi (now the capital of Georgia), he moved to Moscow in 1921 following the Sovietization of the Caucasus." .
+
+ng:Aretha_Franklin a sem:Event ;
+    sem:hasTimeStamp "1942-03-25"^^xsd:date ;
+    rdfs:comment "Aretha Louise Franklin ( ə-REE-thə; March 25, 1942 – August 16, 2018) was an American singer, songwriter and pianist. Regarded as the \"Queen of Soul\", she was twice named by Rolling Stone magazine as the greatest singer of all time. As a child, Franklin was noticed for her gospel singing at New Bethel Baptist Church in Detroit, Michigan, where her father C. L. Franklin was a minister." .
+
+ng:Arthur_Sullivan a sem:Event ;
+    sem:hasTimeStamp "1842-05-13"^^xsd:date ;
+    rdfs:comment "Sir Arthur Seymour Sullivan (13 May 1842&#160;– 22 November 1900) was an English composer. He is best known for 14 comic opera collaborations with the dramatist W.&#160;S. Gilbert, including H.M.S. Pinafore, The Pirates of Penzance and The Mikado. His works include 24 operas, 11 major orchestral works, ten choral works and oratorios, two ballets, incidental music to several plays, and numerous church pieces, songs, and piano and chamber pieces." .
+
+ng:Barbara a sem:Event ;
+    sem:hasTimeStamp "1930-06-09"^^xsd:date ;
+    rdfs:comment "Monique Andrée Serf (9 June 1930 – 24 November 1997), known as Barbara, was a French singer. She took her stage name from her grandmother, Varvara Brodsky, a native of Odesa, Ukraine. Barbara became a famous cabaretière in the late 1950s in Paris, known as La Chanteuse de minuit ('the midnight singer'), before she started composing her own tracks, which brought her to fame." .
+
+ng:Barbara_Acklin a sem:Event ;
+    sem:hasTimeStamp "1943-02-28"^^xsd:date ;
+    rdfs:comment "Barbara Jean Acklin (February 28, 1943 – November 27, 1998) was an American soul singer and songwriter, who was most successful in the 1960s and 1970s. Her biggest hit as a singer was \"Love Makes a Woman\" (1968). As a songwriter, she is best known for co-writing the multi-million-selling \"Have You Seen Her\" (1971) with Eugene Record, lead singer of the Chi-Lites." .
+
+ng:Barbara_Dickson a sem:Event ;
+    sem:hasTimeStamp "1947-09-27"^^xsd:date ;
+    rdfs:comment "Barbara Ruth Dickson (born 27 September 1947) is a Scottish singer and actress whose hits include \"I Know Him So Well\" (a chart-topping duet with Elaine Paige), \"Answer Me\" and \"January February\". Dickson has placed fifteen albums on the UK Albums Chart from 1977 to date, and had a number of hit singles, including four which reached the top 20 on the UK Singles Chart. The Scotsman newspaper has described her as Scotland's best-selling female singer in terms of the numbers of hit chart singles and albums she has achieved in the UK since 1976." .
+
+ng:Barbara_Lewis a sem:Event ;
+    sem:hasTimeStamp "1943-02-09"^^xsd:date ;
+    rdfs:comment "Barbara Ann Lewis (born February 9, 1943) is an American singer and songwriter whose smooth style influenced rhythm and blues." .
+
+ng:Barbara_Lynn a sem:Event ;
+    sem:hasTimeStamp "1942-01-16"^^xsd:date ;
+    rdfs:comment "Barbara Lynn (born Barbara Lynn Ozen, later Barbara Lynn Cumby, January 16, 1942) is an American rhythm and blues and electric blues guitarist, singer and songwriter. She is best known for her R&amp;B chart-topping hit, \"You'll Lose a Good Thing\" (1962). In 2018, Lynn received a National Heritage Fellowship." .
+
+ng:Barbra_Streisand a sem:Event ;
+    sem:hasTimeStamp "1942-04-24"^^xsd:date ;
+    rdfs:comment "Barbara Joan \"Barbra\" Streisand ( STRY-sand; born April 24, 1942) is an American singer, actress, songwriter, and filmmaker. Over a career spanning more than six decades, Streisand's success in the entertainment industry has included Emmy, Grammy, Oscar, and Tony awards. Streisand began performing in the early 1960s in nightclubs and Broadway theaters, which led to guest appearances on various television shows." .
+
+ng:Betty_Carter a sem:Event ;
+    sem:hasTimeStamp "1929-05-16"^^xsd:date ;
+    rdfs:comment "Betty Carter (born Lillie Mae Jones; May 16, 1929 – September 26, 1998) was an American jazz singer known for her improvisational technique, scatting and other complex musical abilities that demonstrated her vocal talent and imaginative interpretation of lyrics and melodies." .
+
+ng:Betty_Davis a sem:Event ;
+    sem:hasTimeStamp "1945-07-26"^^xsd:date ;
+    rdfs:comment "Betty Davis (born Betty Gray Mabry; July 26, 1944 – February 9, 2022) was an American singer, songwriter, and model. She was known for her controversial sexually oriented lyrics and performance style, and was the second wife of trumpeter Miles Davis. Her AllMusic profile describes her as \"a wildly flamboyant funk diva with few equals ..." .
+
+ng:Bettye_LaVette a sem:Event ;
+    sem:hasTimeStamp "1946-01-29"^^xsd:date ;
+    rdfs:comment "Bettye LaVette (born Betty Jo Haskins, January 29, 1946) is an American soul singer who made her first record at sixteen, but achieved only intermittent fame until 2005, when her album I've Got My Own Hell to Raise was released to widespread critical acclaim, and was named on many critics' \"Best of 2005\" lists. Her next album, The Scene of the Crime, debuted at number one on Billboard's Top Blues Albums chart and was nominated for Best Contemporary Blues Album at the 2008 Grammy Awards. She received the Legacy of Americana Lifetime Achievement Award at the 2023 Americana Music Honors" .
+
+ng:Billie_Holiday a sem:Event ;
+    sem:hasTimeStamp "1915-04-07"^^xsd:date ;
+    rdfs:comment "Billie Holiday (born Eleanora Fagan; April 7, 1915 – July 17, 1959) was an American jazz and swing music singer. Nicknamed \"Lady Day\" by her friend and music partner, Lester Young, Holiday made significant contributions to jazz music and pop singing. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo." .
+
+ng:Bonnie_Raitt a sem:Event ;
+    sem:hasTimeStamp "1949-11-08"^^xsd:date ;
+    rdfs:comment "Bonnie Lynn Raitt (; born November 8, 1949) is an American singer-songwriter. In 1971, Raitt released her self-titled debut album. Following this, she released a series of critically acclaimed roots-influenced albums that incorporated elements of rock, blues, country, and folk." .
+
+ng:Brenda_Holloway a sem:Event ;
+    sem:hasTimeStamp "1946-06-21"^^xsd:date ;
+    rdfs:comment "Brenda Holloway (born June 26, 1946) is an American soul singer who was a recording artist for Motown Records during the 1960s. Her best-known recordings are the hits \"Every Little Bit Hurts\", \"When I'm Gone\", and \"You've Made Me So Very Happy\". The latter, which she co-wrote, was later widely popularized when it became a Top Ten hit for Blood, Sweat &amp; Tears." .
+
+ng:Brenda_Russell a sem:Event ;
+    sem:hasTimeStamp "1949-04-08"^^xsd:date ;
+    rdfs:comment "Brenda Russell (née Gordon; born April 8, 1949) is an American-Canadian singer-songwriter, producer, and keyboardist. Russell has a diverse musical range which encompasses R&amp;B, pop, soul, dance, and jazz. She has received five Grammy nominations, winning in 2017 for writing the music for The Color Purple." .
+
+ng:Bridget_St_John a sem:Event ;
+    sem:hasTimeStamp "1946-10-04"^^xsd:date ;
+    rdfs:comment "Bridget St John (born Bridget Anne Hobbs; 4 October 1946 in East Molesey, Surrey, England) is an English singer-songwriter and guitarist, best known for the three albums she recorded between 1969 and 1972 for John Peel's Dandelion record label. Peel produced her debut album, Ask Me No Questions. She also recorded a large number of BBC Radio and Peel sessions and toured regularly on the British college and festival circuit." .
+
+ng:Brigitte_Fontaine a sem:Event ;
+    sem:hasTimeStamp "1939-06-24"^^xsd:date ;
+    rdfs:comment "Brigitte Fontaine (born 24 June 1939) is a French singer of avant-garde music. She has employed numerous unusual musical styles, melding rock and roll, folk, jazz, electronica, spoken word poetry, and world. She has collaborated with Stereolab, Michel Colombier, Jean-Claude Vannier, Areski Belkacem, Gotan Project, Sonic Youth, Antoine Duhamel, Grace Jones, Noir Désir, Archie Shepp, Arno, and The Art Ensemble of Chicago." .
+
+ng:Bronislava_Nijinska a sem:Event ;
+    sem:hasTimeStamp "1972-02-21"^^xsd:date ;
+    rdfs:comment "Bronislava Nijinska (; Polish: Bronisława Niżyńska [brɔɲiˈswava ɲiˈʐɨj̃ska]; Russian: Бронисла́ва Фоми́нична Нижи́нская, romanized:&#160;Bronisláva Fomínična Nižínskaja; Belarusian: Браніслава Ніжынская, romanized:&#160;Branislava Nižynskaja; January 8, 1891 [O.S. December 27, 1890] – February 21, 1972) was a Russian ballet dancer of Polish origin, and an innovative choreographer. She came of age in a family of traveling, professional dancers. Her own career began in Saint Petersburg." .
+
+ng:Buffy_Sainte_Marie a sem:Event ;
+    sem:hasTimeStamp "1941-02-20"^^xsd:date ;
+    rdfs:comment "Buffy Sainte-Marie (born Beverley Jean Santamaria; February 20, 1941) is an American singer-songwriter, musician, and social activist. Sainte-Marie's singing and writing repertoire includes subjects of love, war, religion, and mysticism, and her work has often focused on issues facing Indigenous peoples of the United States and Canada. She won recognition, awards, and honors for her music as well as her work in education and social activism." .
+
+ng:Busi_Mhlongo a sem:Event ;
+    sem:hasTimeStamp "1947-10-28"^^xsd:date ;
+    rdfs:comment "Busi Mhlongo (28 October 1947 – 15 June 2010), born Victoria Busisiwe Mhlongo, was a singer, dancer and composer originally from Inanda in Natal, South Africa." .
+
+ng:Carly_Simon a sem:Event ;
+    sem:hasTimeStamp "1945-06-25"^^xsd:date ;
+    rdfs:comment "Carly Elisabeth Simon (born June 25, 1943) is an American musician, singer, songwriter, and author. She rose to fame in the 1970s with a string of hit records; her 13 top 40 U.S. hits include \"That's the Way I've Always Heard It Should Be\" (No.&#160;10), \"Anticipation\" (No.&#160;13), \"The Right Thing to Do\" (No.&#160;17), \"Haven't Got Time for the Pain\" (No.&#160;14), \"You Belong to Me\" (No.&#160;6), \"Coming Around Again\" (No.&#160;18), and her four Gold-certified singles \"You're So Vain\" (No.&#160;1), \"Mockingbird\" (No.&#160;5, a duet with James Taylor), \"Nobody Does It Better\" (No.&#160;2) from the 1977 James Bond film The Spy Who Loved" .
+
+ng:Carole_King a sem:Event ;
+    sem:hasTimeStamp "1942-02-09"^^xsd:date ;
+    rdfs:comment "Carole King Klein (born Carol Joan Klein; February 9, 1942) is an American singer-songwriter and musician renowned for her extensive contributions to popular music. She wrote or co-wrote 118 songs that charted on the Billboard Hot 100 during the latter half of the 20th century and 61 songs that reached the UK charts, establishing her as the most successful female songwriter on the UK singles charts from 1962 to 2005. In the 1960s, King and her first husband, Gerry Goffin, composed over two dozen hit songs for various artists, many of which remain standards." .
+
+ng:Cher a sem:Event ;
+    sem:hasTimeStamp "1946-05-20"^^xsd:date ;
+    rdfs:comment "Cher (legally mononymous; SHAIR; born Cheryl Sarkisian, May 20, 1946) is an American singer and actress. Dubbed the \"Goddess of Pop\", she is known for her androgynous contralto voice, bold fashion and visual presentation, and multifaceted career. Her screen roles often reflect her public image as a strong-willed, outspoken woman." .
+
+ng:Christine_McVie a sem:Event ;
+    sem:hasTimeStamp "1943-07-12"^^xsd:date ;
+    rdfs:comment "Christine Anne McVie (; née Perfect; 12 July 1943 – 30 November 2022) was an English musician. She was the keyboardist and one of the vocalists and songwriters of the rock band Fleetwood Mac. McVie was a member of several bands, notably Chicken Shack, in the mid-1960s British blues scene." .
+
+ng:Cindy_Walker a sem:Event ;
+    sem:hasTimeStamp "1918-07-20"^^xsd:date ;
+    rdfs:comment "Cindy Walker (July 20, 1917 – March 23, 2006) was an American songwriter, country music singer, and dancer. She wrote many popular and enduring songs recorded by many artists. She adopted a craftsman-like approach to her songwriting, often tailoring particular songs to specific artists." .
+
+ng:Claude_Debussy a sem:Event ;
+    sem:hasTimeStamp "1862-08-22"^^xsd:date ;
+    rdfs:comment "Achille Claude Debussy (French pronunciation: [aʃil klod dəbysi]; 22 August 1862&#160;– 25 March 1918) was a French composer. He is sometimes seen as the first Impressionist composer, although he vigorously rejected the term. He was among the most influential composers of the late 19th and early 20th centuries." .
+
+ng:Claudine_Clark a sem:Event ;
+    sem:hasTimeStamp "1941-04-26"^^xsd:date ;
+    rdfs:comment "Claudine Clark (born April 26, 1941) is an American R&amp;B musician, best known as the singer and composer of the 1962 hit \"Party Lights\", which reached No. 5 on the Billboard Hot 100." .
+
+ng:Colette_Magny a sem:Event ;
+    sem:hasTimeStamp "1926-10-31"^^xsd:date ;
+    rdfs:comment "Colette Magny (31 October 1926 – 12 June 1997) was a French singer and songwriter. A charismatic performer who did not record until her thirties, her work encompassed blues, jazz, protest songs, experimental music and spoken word recordings." .
+
+ng:Connie_Smith a sem:Event ;
+    sem:hasTimeStamp "1941-08-14"^^xsd:date ;
+    rdfs:comment "Constance June Stuart (née Meador; born August 14, 1941), known professionally as Connie Smith, is an American country music singer and songwriter. Her contralto vocals have been described by music writers as significant and influential to the women of country music. Discovered in 1963, Smith signed with RCA Victor Records the following year and remained with the label until 1973." .
+
+ng:Constance_Demby a sem:Event ;
+    sem:hasTimeStamp "1939-08-31"^^xsd:date ;
+    rdfs:comment "Constance Mary Demby (née Eggers; May 9, 1939 – March 20, 2021) was an American musician, composer, painter, sculptor, and multimedia producer. Her music included new age, ambient, and space music styles. She is best known for her 1986 album Novus Magnificat and her two experimental musical instruments, the sonic steel space bass and the whale sail." .
+
+ng:Dayna_Kurtz a sem:Event ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date ;
+    rdfs:comment "Dayna Kurtz is an American singer/songwriter. Her music is a blend of jazz, folk, pop and blues. She began her career in 1989, touring small stages up and down the East Coast, promoting her work with a sparse but haunting self-recorded demo tape." .
+
+ng:Debbie_Harry a sem:Event ;
+    sem:hasTimeStamp "1945-07-01"^^xsd:date ;
+    rdfs:comment "Deborah Ann Harry (born Angela Trimble; July 1, 1945) is an American singer, songwriter and actress, best known as the lead vocalist of the band Blondie. Four of her songs with the band reached No. 1 on the U.S. Billboard Hot 100 between 1979 and 1981. Born in Miami, Florida, Harry was adopted as an infant and raised in Hawthorne, New Jersey." .
+
+ng:Dee_Dee_Bridgewater a sem:Event ;
+    sem:hasTimeStamp "1950-05-27"^^xsd:date ;
+    rdfs:comment "Dee Dee Bridgewater (born Denise Eileen Garrett, May 27, 1950) is an American jazz singer and actress. She is a three-time Grammy Award-winning singer-songwriter, as well as a Tony Award-winning stage actress. For 23 years, she was the host of National Public Radio's syndicated radio show JazzSet with Dee Dee Bridgewater." .
+
+ng:Deniece_Williams a sem:Event ;
+    sem:hasTimeStamp "1950-06-03"^^xsd:date ;
+    rdfs:comment "June Deniece Williams (née Chandler; born June 3, 1950) is an American singer. She has been described as \"one of the great soul voices\" by the BBC. She is best known for the songs \"Free\", \"Silly\", \"It's Gonna Take a Miracle\" and two Billboard Hot 100 No.1 singles \"Let's Hear It for the Boy\" and \"Too Much, Too Little, Too Late\" (with Johnny Mathis). Williams has won four Grammys with twelve nominations altogether." .
+
+ng:Dolly_Parton a sem:Event ;
+    sem:hasTimeStamp "1946-01-19"^^xsd:date ;
+    rdfs:comment "Dolly Rebecca Parton (born January 19, 1946) is an American singer, songwriter, actress, philanthropist, and businesswoman. After achieving success as a songwriter for other artists, Parton's debut album, Hello, I'm Dolly, was released in 1967, commencing a career spanning 60 years and 50 studio albums. Referred to as the \"Queen of Country\", Parton is one of the most-honored female country performers in history and has received various accolades, including eleven Grammy Awards and three Emmy Awards, as well as nominations for two Academy Awards including a humanitarian honorary Oscar win in 2025, six Golden Globe Awards, and a Tony Award." .
+
+ng:Donna_Fargo a sem:Event ;
+    sem:hasTimeStamp "1945-11-10"^^xsd:date ;
+    rdfs:comment "Donna Fargo (born Yvonne Vaughn; November 10, 1945) is an American country singer-songwriter known for a series of Top 10 country hits in the 1970s. These include \"The Happiest Girl In The Whole U.S.A.\" and \"Funny Face\", both of which were released in 1972 and became crossover pop hits that year. Fargo has won major awards since her debut in the late 1960s, including one Grammy Award, five awards from the Academy of Country Music and one award from the Country Music Association." .
+
+ng:Donna_Hightower a sem:Event ;
+    sem:hasTimeStamp "1926-12-28"^^xsd:date ;
+    rdfs:comment "Donna Lubertha Hightower (December 28, 1926 – August 19, 2013) was an American R&amp;B, soul and jazz singer and songwriter, who recorded and released albums for the Decca and Capitol labels." .
+
+ng:Donna_Summer a sem:Event ;
+    sem:hasTimeStamp "1948-12-31"^^xsd:date ;
+    rdfs:comment "Donna Adrian Gaines (December 31, 1948&#160;– May 17, 2012), known professionally as Donna Summer, was an American singer and songwriter. She gained prominence during the disco era of the 1970s and became known as the \"Queen of Disco\", while her music gained a global following. Born and raised in Boston, Summer dropped out of high school before graduating and began her career as the lead singer of a blues rock band named Crow and moved to New York City." .
+
+ng:Dory_Previn a sem:Event ;
+    sem:hasTimeStamp "1925-10-22"^^xsd:date ;
+    rdfs:comment "Dorothy Veronica \"Dory\" Previn (née Langan; October 22, 1925 – February 14, 2012) was an American lyricist, singer-songwriter and poet. During the late 1950s and 1960s, Previn was a lyricist on songs intended for motion pictures and, with her then husband, André Previn, received several Academy Award nominations. In the 1970s, after their divorce, she released six albums of original songs and an acclaimed live album." .
+
+ng:Dottie_West a sem:Event ;
+    sem:hasTimeStamp "1932-10-11"^^xsd:date ;
+    rdfs:comment "Dottie West (born Dorothy Marie Marsh; October 11, 1932 – September 4, 1991) was an American country singer and songwriter. She also had several credits as an actress. A distinguished figure in the country genre, West was among several people who helped to elevate the platform of female country artists." .
+
+ng:Edward_Elgar a sem:Event ;
+    sem:hasTimeStamp "1857-06-02"^^xsd:date ;
+    rdfs:comment "Sir Edward William Elgar, 1st Baronet ( ; 2 June 1857 – 23 February 1934) was an English composer, many of whose works have entered the British and international classical concert repertoire. Among his best-known compositions are orchestral works including the Enigma Variations, the Pomp and Circumstance Marches, concertos for violin and cello, and two symphonies. He also composed choral works, including The Dream of Gerontius, chamber music and songs." .
+
+ng:Ella_Fitzgerald a sem:Event ;
+    sem:hasTimeStamp "1917-04-25"^^xsd:date ;
+    rdfs:comment "Ella Jane Fitzgerald (April&#160;25, 1917&#160;– June&#160;15, 1996) was an American singer, songwriter and composer, sometimes referred to as the \"First Lady of Song\", \"Queen of Jazz\", and \"Lady Ella\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, and a \"horn-like\" improvisational ability, particularly in her scat singing. After a tumultuous adolescence, Fitzgerald found stability in musical success with the Chick Webb Orchestra, performing across the country but most often associated with the Savoy Ballroom in Harlem." .
+
+ng:Ellie_Greenwich a sem:Event ;
+    sem:hasTimeStamp "1940-10-23"^^xsd:date ;
+    rdfs:comment "Eleanor Louise Greenwich (October 23, 1940 – August 26, 2009) was an American pop music singer, songwriter, and record producer. She wrote or co-wrote \"Da Doo Ron Ron\", \"Be My Baby\", \"Maybe I Know\", \"Then He Kissed Me\", \"Do Wah Diddy Diddy\", \"Christmas (Baby Please Come Home)\", \"Hanky Panky\", \"Chapel of Love\", \"Leader of the Pack\", and \"River Deep – Mountain High\", among others." .
+
+ng:Emiko_Shiratori a sem:Event ;
+    sem:hasTimeStamp "1950-03-16"^^xsd:date ;
+    rdfs:comment "Emiko Shiratori (白鳥 英美子 Shiratori Emiko; born March 16, 1950) is a Japanese singer and songwriter. In 1969, the record label Toshiba EMI (now EMI Music Japan) paired her with Sumio Akutagawa, and they formed the folk group Toi et Moi. They achieved great success in Japan, and from 1969 to 1973 released an average of two albums and four singles a year." .
+
+ng:Emmylou_Harris a sem:Event ;
+    sem:hasTimeStamp "1947-04-02"^^xsd:date ;
+    rdfs:comment "Emmylou Harris (born April 2, 1947) is an American singer, songwriter, musician, bandleader, and activist. She is considered one of the leading music artists behind the country rock genre in the 1970s and the Americana genre in the 1990s. Her music united both country and rock audiences in live performance settings." .
+
+ng:Ethel_Afamado a sem:Event ;
+    sem:hasTimeStamp "1940-04-25"^^xsd:date ;
+    rdfs:comment "Ethel Afamado (born 25 April 1940) is a Uruguayan composer, poet, guitarist, and singer-songwriter." .
+
+ng:Ethel_Smyth a sem:Event ;
+    sem:hasTimeStamp "1858-04-22"^^xsd:date ;
+    rdfs:comment "Dame Ethel Mary Smyth (; 22 April 1858&#160;– 8 May 1944) was an English composer and a member of the women's suffrage movement. Her compositions include songs, works for piano, chamber music, orchestral works, choral works and operas. Smyth tended to be marginalised as a \"woman composer\", as though her work could not be accepted as mainstream." .
+
+ng:Etta_James a sem:Event ;
+    sem:hasTimeStamp "1938-01-25"^^xsd:date ;
+    rdfs:comment "Jamesetta Hawkins (January 25, 1938 – January 20, 2012), known professionally as Etta James, was an American singer and songwriter. Starting her career in 1954, James frequently performed in Nashville's R&amp;B clubs, collectively known in the 1940s, 1950s and 1960s as the Chitlin' Circuit. She sang in various genres, including gospel, blues, jazz, R&amp;B, rock and roll and soul and gained fame with hits such as \"The Wallflower\" (1955), \"At Last\" (1960), \"Something's Got a Hold on Me\" (1962), \"Tell Mama\" and \"I'd Rather Go Blind\" (both 1967)." .
+
+ng:Fernand_Le_Borne a sem:Event ;
+    sem:hasTimeStamp "1862-03-10"^^xsd:date ;
+    rdfs:comment "Fernand Le Borne (10 March 1862-15 February 1929) was a Belgian-French composer, conductor and music critic." .
+
+ng:Frederick_Ashton a sem:Event ;
+    sem:hasTimeStamp "1904-09-17"^^xsd:date ;
+    rdfs:comment "Sir Frederick William Mallandaine Ashton (17 September 1904&#160;– 18 August 1988) was a British ballet dancer and choreographer. He also worked as a director and choreographer in opera, film and revue. Determined to be a dancer despite the opposition of his conventional middle-class family, Ashton was accepted as a pupil by Léonide Massine and then by Marie Rambert." .
+
+ng:Gail_Davies a sem:Event ;
+    sem:hasTimeStamp "1948-06-05"^^xsd:date ;
+    rdfs:comment "Gail Davies (born Patricia Gail Dickerson; June 5, 1948) is an American singer-songwriter and one of the first females in country music to produce her own albums. She is the daughter of country singer Tex Dickerson and the sister of songwriter Ron Davies. Gail Davies established herself as a successful singer and songwriter during the 1970s and 1980s, scoring numerous top-10 and -20 Billboard hits." .
+
+ng:Gennady_Gladkov a sem:Event ;
+    sem:hasTimeStamp "1935-02-18"^^xsd:date ;
+    rdfs:comment "Gennady Igorevich Gladkov (Russian: Геннадий Игоревич Гладков; 18 February 1935 – 16 October 2023) was a Soviet and Russian composer. He composed music for some of the most famous Soviet movies and cartoons, most notably The Bremen Town Musicians." .
+
+ng:Giovanna_Marini a sem:Event ;
+    sem:hasTimeStamp "1937-01-19"^^xsd:date ;
+    rdfs:comment "Giovanna Marini (born Giovanna Salviucci; 19 January 1937 – 8 May 2024) was an Italian singer, songwriter, researcher and ethnomusicologist. Marini founded the School of Popular Music of Testaccio, and has been called \"the voice of Italian folk song\"." .
+
+ng:Grace_Slick a sem:Event ;
+    sem:hasTimeStamp "1939-10-30"^^xsd:date ;
+    rdfs:comment "Grace Slick (born Grace Barnett Wing; October 30, 1939) is an American painter and musician whose musical career spanned four decades. She was a prominent figure in San Francisco's psychedelic music scene during the mid-1960s to the early 1970s. Initially performing with the Great Society, Slick achieved fame as the lead singer and frontwoman of Jefferson Airplane and its spinoff bands Jefferson Starship and Starship." .
+
+ng:Hattie_McDaniel a sem:Event ;
+    sem:hasTimeStamp "1895-06-10"^^xsd:date ;
+    rdfs:comment "Hattie McDaniel (June 10, 1893 – October 26, 1952) was an American actress, singer-songwriter, and comedian. For her role as Mammy in Gone with the Wind (1939), she won the Academy Award for Best Supporting Actress, becoming the first African American to win an Oscar. She has two stars on the Hollywood Walk of Fame, was inducted into the Black Filmmakers Hall of Fame in 1975, and in 2006, became the first black Oscar winner honored with a U.S. postage stamp." .
+
+ng:Holly_Near a sem:Event ;
+    sem:hasTimeStamp "1949-06-06"^^xsd:date ;
+    rdfs:comment "Holly Near (born June 6, 1949) is an American singer-songwriter, actress, teacher, and activist." .
+
+ng:Igor_Stravinsky a sem:Event ;
+    sem:hasTimeStamp "1882-06-17"^^xsd:date ;
+    rdfs:comment "Igor Fyodorovich Stravinsky (17 June&#160;[O.S. 5 June]&#160;1882 – 6 April 1971) was a Russian composer and conductor with French (from 1934) and American citizenship (from 1945). He is widely considered one of the most important and influential composers of the 20th century and a pivotal figure in modernist music. Born into a musical family in Saint Petersburg, Stravinsky grew up taking piano and music theory lessons." .
+
+ng:Ingrid_Croce a sem:Event ;
+    sem:hasTimeStamp "1947-04-27"^^xsd:date ;
+    rdfs:comment "Ingrid Croce (née Jacobson, born April 27, 1947) is an American author, singer-songwriter, and restaurateur. Between 1964 and 1971, Ingrid performed as a duo with her husband, Jim Croce, releasing the album Jim &amp; Ingrid Croce in 1969." .
+
+ng:Jackie_DeShannon a sem:Event ;
+    sem:hasTimeStamp "1941-08-21"^^xsd:date ;
+    rdfs:comment "Jackie DeShannon (born Sharon Lee Myers; August 21, 1941) is an American singer-songwriter, radio broadcaster and actress who has had many hit song credits beginning in the 1960s, as both a singer and composer. She was one of the first female singer-songwriters of the rock and roll period. She is best known as the singer of \"What the World Needs Now Is Love\" and \"Put a Little Love in Your Heart\"." .
+
+ng:Janis_Joplin a sem:Event ;
+    sem:hasTimeStamp "1970-10-04"^^xsd:date ;
+    rdfs:comment "Janis Lyn Joplin (January 19, 1943 – October 4, 1970) was an American singer and songwriter. One of the most iconic and successful rock performers of her era, she was noted for her powerful mezzo-soprano vocals and her electric stage presence. In 1967, she rose to prominence following an appearance at the Monterey International Pop Festival, where she was the lead singer of the then little-known San Francisco psychedelic rock band Big Brother and the Holding Company." .
+
+ng:Jean_Ritchie a sem:Event ;
+    sem:hasTimeStamp "1922-12-08"^^xsd:date ;
+    rdfs:comment "Jean Ruth Ritchie (December 8, 1922 – June 1, 2015) was an American folk singer, songwriter, and Appalachian dulcimer player, called by some the \"Mother of Folk\". In her youth she learned hundreds of folk songs in the traditional way (orally, from her family and community), many of which were Appalachian variants of centuries-old British, Scottish and Irish songs, including dozens of Child Ballads. In adulthood, she shared these songs with wide audiences, as well as writing some of her own songs using traditional foundations." .
+
+ng:Jean_Shepard a sem:Event ;
+    sem:hasTimeStamp "1933-11-21"^^xsd:date ;
+    rdfs:comment "Ollie Imogene \"Jean\" Shepard (November 21, 1933 – September 25, 2016), was an American country singer who was considered one of the genre's first significant female artists. Her commercial success ran from the 1950s to the 1970s while also being a member of the Grand Ole Opry for 60 years. Shepard was born in Oklahoma and raised in California with her nine siblings." .
+
+ng:Jessi_Colter a sem:Event ;
+    sem:hasTimeStamp "1943-05-25"^^xsd:date ;
+    rdfs:comment "Mirriam Johnson (born May 25, 1943), known professionally as Jessi Colter, is an American country singer who is best known for her collaborations with her second husband, country musician Waylon Jennings, and for her 1975 country hit \"I'm Not Lisa\". Colter was one of the few female artists to emerge from the mid-1970s \"outlaw country\" movement. After meeting Jennings, Colter pursued a career in country music, releasing her first studio LP in 1970, A Country Star Is Born. Five years later, Colter signed with Capitol Records and released \"I'm Not Lisa\", which topped the country charts and reached the top" .
+
+ng:Jeux a sem:Event ;
+    rdfs:comment "Jeux (Games) is a ballet written by Claude Debussy. Described as a \"poème dansé\" (literally a \"danced poem\"), it was written for Sergei Diaghilev's Ballets Russes with choreography by Vaslav Nijinsky. Debussy initially objected to the scenario but reconsidered the commission when Diaghilev doubled the fee." .
+
+ng:Joan_Armatrading a sem:Event ;
+    sem:hasTimeStamp "1950-12-09"^^xsd:date ;
+    rdfs:comment "Joan Anita Barbara Armatrading (, born 9 December 1950) is an English singer-songwriter and guitarist. Her first major commercial success came with her third and fourth albums, Joan Armatrading (1976) and Show Some Emotion (1977), and she continues to play live and record studio albums. A three-time Grammy Award nominee, Armatrading has also been nominated twice for BRIT Awards as Best Female Artist." .
+
+ng:Joan_Baez a sem:Event ;
+    sem:hasTimeStamp "1941-01-09"^^xsd:date ;
+    rdfs:comment "Joan Chandos Baez (, Spanish: [ˈbaes]; born January 9, 1941) is an American singer, songwriter, musician, and activist. Her contemporary folk music often includes songs of protest and social justice. Baez has performed publicly for over 60 years, releasing more than 30 albums." .
+
+ng:Joni_Mitchell a sem:Event ;
+    sem:hasTimeStamp "1943-11-07"^^xsd:date ;
+    rdfs:comment "Roberta Joan \"Joni\" Mitchell (née Anderson; born 7 November 1943) is a Canadian singer-songwriter, multi-instrumentalist, and painter. As one of the most influential singer-songwriters to emerge from the 1960s folk music circuit, Mitchell became known for her personal lyrics and unconventional compositions, which grew to incorporate elements of pop, jazz, rock, and other genres. Among her accolades are eleven Grammy Awards, and induction into the Rock and Roll Hall of Fame in 1997." .
+
+ng:Joyce_Cobb a sem:Event ;
+    sem:hasTimeStamp "1945-06-02"^^xsd:date ;
+    rdfs:comment "Joyce Renee Cobb (born June 2, 1945) is an American singer specializing in jazz and R&amp;B. She is closely associated with traditional blues and jazz in the style of Memphis Minnie, Bessie Smith, Billie Holiday, and Sarah Vaughan. She has had a wide-ranging career as a solo artist and vocalist, having charted several country, pop, and R&amp;B singles in the 1970s and early 1980s, later recording as a jazz vocalist." .
+
+ng:Judee_Sill a sem:Event ;
+    sem:hasTimeStamp "1944-10-07"^^xsd:date ;
+    rdfs:comment "Judith Lynne Sill (October 7, 1944 – November 23, 1979) was an American singer-songwriter and composer. She was influenced by Bach, and wrote lyrics drawing on Christian themes of rapture and redemption. While signed to David Geffen's label Asylum, Sill released two albums, Judee Sill (1971) and Heart Food (1973)." .
+
+ng:Judy_Collins a sem:Event ;
+    sem:hasTimeStamp "1939-05-01"^^xsd:date ;
+    rdfs:comment "Judith Marjorie Collins (born May 1, 1939) is an American singer-songwriter and musician with a career spanning nearly seven decades. An Academy Award-nominated documentary director and a Grammy Award-winning recording artist, she is known for her eclectic tastes in the material she records (which has included folk music, country, show tunes, pop music, rock and roll and standards), for her social activism, and for the clarity of her voice. Her discography consists of 36 studio albums, nine live albums, numerous compilation albums, four holiday albums, and 21 singles." .
+
+ng:Judy_Henske a sem:Event ;
+    sem:hasTimeStamp "1936-12-20"^^xsd:date ;
+    rdfs:comment "Judith Anne Henske (December 20, 1936 –&#160;April 27, 2022) was an American singer and songwriter, dubbed \"the Queen of the Beatniks\" by producer Jack Nitzsche. Initially performing in folk clubs in the early 1960s, her performances and recordings embraced blues, jazz, show tunes, and humorous material. Her 1963 recording of \"High Flying Bird\" was influential on folk-rock, and her 1969 album Farewell Aldebaran, with her then husband Jerry Yester, was an eclectic \"fusion of folk music, psychedelia, and arty pop\"." .
+
+ng:Julie_London a sem:Event ;
+    sem:hasTimeStamp "1926-09-26"^^xsd:date ;
+    rdfs:comment "Julie London (née Peck; September 26, 1926&#160;– October 18, 2000) was an American singer and actress whose career spanned more than 40 years. A torch singer noted for her contralto voice, London recorded over thirty albums of pop and jazz standards between 1955 and 1969. Her recording of \"Cry Me a River\", a song she introduced on her debut album Julie Is Her Name, was inducted into the Grammy Hall of Fame in 2001." .
+
+ng:June_Carter_Cash a sem:Event ;
+    sem:hasTimeStamp "1929-06-23"^^xsd:date ;
+    rdfs:comment "Valerie June Carter Cash (June 23, 1929&#160;– May 15, 2003) was an American country singer, songwriter, comedienne, actress, and author. A five-time Grammy Award winner, she was a member of the Carter Family and the second wife of singer Johnny Cash. Before her marriage, she performed as June Carter, a name she continued to use professionally, including on songwriting credits." .
+
+ng:Karen_Black a sem:Event ;
+    sem:hasTimeStamp "2013-08-08"^^xsd:date ;
+    rdfs:comment "Karen Blanche Black (née Ziegler; July 1, 1939&#160;– August 8, 2013) was an American actress, screenwriter, singer, and songwriter. She rose to prominence for her work in studio and independent films in the 1970s, frequently portraying eccentric and offbeat characters, and established herself as a figure of New Hollywood. Her career spanned 50 years and includes nearly 200 credits in both independent and mainstream films." .
+
+ng:Kim_Carnes a sem:Event ;
+    sem:hasTimeStamp "1945-07-20"^^xsd:date ;
+    rdfs:comment "Kim Carnes (; born July 20, 1945) is an American singer and songwriter best known for her smash 1981 hit single, \"Bette Davis Eyes\". She embarked on a solo career as a songwriter and performer in the early 1970s and also worked for several years as a session background singer with the Waters Sisters, Maxine Waters Willard and Julia Waters Tillman, who were later featured in the 2013 documentary 20 Feet from Stardom. In 1971, Carnes released her debut album, Rest on Me." .
+
+ng:Kitty_Wells a sem:Event ;
+    sem:hasTimeStamp "1919-08-30"^^xsd:date ;
+    rdfs:comment "Ellen Muriel Deason (August 30, 1919 – July 16, 2012), known professionally as Kitty Wells, was an American country music singer. Her 1952 hit recording \"It Wasn't God Who Made Honky Tonk Angels\" made her the first female country singer to top the U.S. country charts. “It Wasn’t God Who Made Honky Tonk Angels” also was her first of several pop crossover hits." .
+
+ng:La_Lupe a sem:Event ;
+    sem:hasTimeStamp "1939-12-23"^^xsd:date ;
+    rdfs:comment "Guadalupe Victoria Yolí Raymond (23 December 1936 – 29 February 1992), better known as La Lupe, was a Cuban singer of boleros, guarachas and Latin soul known for her energetic, sometimes controversial performances. Following the release of her first album in 1961, La Lupe moved from Havana to New York and signed with Tico Records, which marked the beginning of a prolific and successful career in the 1960s and 1970s. She retired in the 1980s due to religious reasons." .
+
+ng:Lale_Andersen a sem:Event ;
+    sem:hasTimeStamp "1905-03-23"^^xsd:date ;
+    rdfs:comment "Lale Andersen (23 March 1905 – 29 August 1972) was a German chanson singer-songwriter born in Lehe (now part of Bremerhaven). She is best known for her interpretation of the song \"Lili Marleen\" in 1939, which by 1942 transcended the conflict to become World War II's biggest international hit. Popular with both the Axis and the Allies, Andersen's original recording spawned versions, by the end of the War, in most of the major languages of Europe, and by some of the most popular artists in their respective countries." .
+
+ng:Laura_Nyro a sem:Event ;
+    sem:hasTimeStamp "1947-10-18"^^xsd:date ;
+    rdfs:comment "Laura Nyro ( NEER-oh; born Laura Nigro; October 18, 1947&#160;– April 8, 1997) was an American songwriter and singer. She achieved critical acclaim with her own recordings, particularly the albums Eli and the Thirteenth Confession (1968) and New York Tendaberry (1969), and had commercial success with artists such as Barbra Streisand and the 5th Dimension recording her songs. Wider recognition for her artistry was posthumous, while contemporaries such as Elton John idolized her." .
+
+ng:Lenny_Kuhr a sem:Event ;
+    sem:hasTimeStamp "1950-02-22"^^xsd:date ;
+    rdfs:comment "Helena Hubertina Johanna \"Lenny\" Kuhr (born 22 February 1950) is a Dutch singer-songwriter." .
+
+ng:Lesley_Duncan a sem:Event ;
+    sem:hasTimeStamp "1943-08-12"^^xsd:date ;
+    rdfs:comment "Lesley Anne Cox (née Duncan; 12 August 1943 – 12 March 2010) was an English singer-songwriter best known for her work during the 1970s. She received much airplay on British radio stations such as BBC Radio 1 and BBC Radio 2, but never achieved greater commercial success, in part because of her unwillingness to chase stardom as well as crippling stage fright." .
+
+ng:Lil_Green a sem:Event ;
+    sem:hasTimeStamp "1919-12-22"^^xsd:date ;
+    rdfs:comment "Lil Green (probably born Lillie May Johnson; December 22, 1901 (some sources give 1905, 1910 or 1919) – April 14, 1954) was an American classic female blues singer and songwriter. She was among the leading female rhythm and blues singers of the 1940s, with a sensual soprano voice. Gospel singer R.H. Harris lauded her voice, and her interpretation of religious songs." .
+
+ng:Lillian_Lux a sem:Event ;
+    sem:hasTimeStamp "1918-06-20"^^xsd:date ;
+    rdfs:comment "Lillian Lux (June 20, 1918 – June 11, 2005) was an American singer, author, songwriter and actress in Yiddish theater and Yiddish vaudeville in the United States, Israel, and other Yiddish speaking communities in the diaspora." .
+
+ng:Linda_Lewis a sem:Event ;
+    sem:hasTimeStamp "1950-09-27"^^xsd:date ;
+    rdfs:comment "Linda Ann Fredericks (27 September 1950 – 3 May 2023), better known as Linda Lewis. In 1973, Lewis became the first Black British female singer-songwriter to enter the UK Singles Chart when her self-written single “Rock-a-Doodle-Doo” reached number 15. Linda Lewis was an English singer, songwriter and musician." .
+
+ng:Linda_Ronstadt a sem:Event ;
+    sem:hasTimeStamp "1946-07-15"^^xsd:date ;
+    rdfs:comment "Linda Maria Ronstadt (born July 15, 1946) is an American former singer and musician who performed and recorded in diverse genres including rock, folk, pop, country, and soul. Ronstadt has earned 11 Grammy Awards, three American Music Awards, two Academy of Country Music awards, an Emmy Award, and an ALMA Award. Many of her albums have been certified gold, platinum or multiplatinum in the United States and internationally." .
+
+ng:Liz_Anderson a sem:Event ;
+    sem:hasTimeStamp "2011-10-31"^^xsd:date ;
+    rdfs:comment "Elizabeth Jane Anderson (née Haaby; January 13, 1927 – October 31, 2011) was an American country music singer-songwriter who was one in a wave of new-generation female vocalists in the genre during the 1960s to write and record her own songs on a regular basis. Writing in The New York Times, Bill Friskics-Warren noted, \"Like her contemporary Loretta Lynn, Ms. Anderson gave voice to female survivors; inhabiting their struggles in a soprano at times alluring, at times sassy.\" Anderson received two Grammy Award nominations in 1967, one for \"Best Female Country Vocal Performance\" for her self-penned, top-five hit \"Mama Spank\"," .
+
+ng:Loretta_Lynn a sem:Event ;
+    sem:hasTimeStamp "1932-04-14"^^xsd:date ;
+    rdfs:comment "Loretta Lynn (née Webb; April 14, 1932 – October 4, 2022) was an American country music singer and songwriter. In a career spanning six decades, Lynn released multiple gold albums. She had numerous hits such as \"Hey Loretta\", \"The Pill\", \"Blue Kentucky Girl\", \"Love Is the Foundation\", \"You're Lookin' at Country\", \"You Ain't Woman Enough\", \"I'm a Honky Tonk Girl\", \"Don't Come Home A-Drinkin' (With Lovin' on Your Mind)\", \"One's on the Way\", \"Fist City\", and \"Coal Miner's Daughter\"." .
+
+ng:Lorraine_Ellison a sem:Event ;
+    sem:hasTimeStamp "1931-03-17"^^xsd:date ;
+    rdfs:comment "Lorraine Ellison (March 17, 1931 – January 31, 1983) was an American soul singer and songwriter known for her recording of the song \"Stay with Me\" (sometimes known as \"Stay With Me Baby\") in 1966." .
+
+ng:Lorraine_Feather a sem:Event ;
+    sem:hasTimeStamp "1948-09-10"^^xsd:date ;
+    rdfs:comment "Lorraine Feather (born Billie Jane Lee Lorraine Feather; September 10, 1948) is an American singer, lyricist, and songwriter." .
+
+ng:Lucilla_Galeazzi a sem:Event ;
+    sem:hasTimeStamp "1950-12-24"^^xsd:date ;
+    rdfs:comment "Lucilla Galeazzi is an Italian folk singer. She performs modern versions of traditional Italian folk music and has also performed internationally in jazz, baroque music and operas. In the 1970s and 80s, she was one of the best-known voices of the Italian folk revival around Giovanna Marini." .
+
+ng:Lucille_Starr a sem:Event ;
+    sem:hasTimeStamp "1938-05-13"^^xsd:date ;
+    rdfs:comment "Lucille Marie Raymonde Savoie (May 13, 1938&#160;– September 4, 2020), known professionally as Lucille Starr, was a Canadian singer, songwriter, and yodeler originally from Saint Boniface, Manitoba. She was best known for her 1964 hit single, \"The French Song\" (\"Quand Le Soleil Dit Bonjour Aux Montagnes\", When the sun says hello to the mountains)." .
+
+ng:Lynn_Anderson a sem:Event ;
+    sem:hasTimeStamp "1947-09-26"^^xsd:date ;
+    rdfs:comment "Lynn René Anderson (September 26, 1947 – July 30, 2015) was an American country singer and television personality. Her crossover signature recording, \"Rose Garden\", was a number one hit internationally. She also charted five number one and 18 top-ten singles on the Billboard country songs chart." .
+
+ng:Lynsey_de_Paul a sem:Event ;
+    sem:hasActor ng:Eurovision_Song_Contest_1977 ;
+    sem:hasTimeStamp "1950-06-11"^^xsd:date ;
+    rdfs:comment "Lynsey de Paul (born Lyndsey Monckton Rubin; 11 June 1948 – 1 October 2014) was an English singer-songwriter and record producer. After initially writing hits for others, she had her own chart hits in the UK and Europe in the 1970s, starting with UK top 10 single \"Sugar Me\", and became the first British female artist to achieve a number one with a self-written song (in 1972 in Belgium, Spain and the Netherlands). She represented the UK in the Eurovision Song Contest 1977 alongside Mike Moran with the song \"Rock Bottom\", finishing in second place and scoring another chart-topping hit" .
+
+ng:Malvina_Reynolds a sem:Event ;
+    sem:hasTimeStamp "1900-08-23"^^xsd:date ;
+    rdfs:comment "Malvina Reynolds (née Milder; August 23, 1900 – March 17, 1978) was an American folk/blues singer-songwriter and political activist, best known for her songwriting, particularly the songs \"Little Boxes\", \"What Have They Done to the Rain\" and \"Morningtown Ride\"." .
+
+ng:Mark_Minkov a sem:Event ;
+    sem:hasTimeStamp "1944-11-25"^^xsd:date ;
+    rdfs:comment "Mark Anatolievich Minkov (Russian: Марк Анатольевич Минков; 25 November 1944&#160;– 29 May 2012) was a Soviet and Russian music composer. His music is featured in a number of operas, ballets, stage performances, and films. He composed the scores for more than a hundred cinema and television films, including Investigation Held by ZnaToKi (1985), We Are from Jazz (1983) and Neznayka with Our Court (1983)." .
+
+ng:Marla_Gibbs a sem:Event ;
+    sem:hasTimeStamp "1931-06-14"^^xsd:date ;
+    rdfs:comment "Marla Gibbs (born Margaret Theresa Bradley; June 14, 1931) is an American actress, singer, comedian, writer, and television producer whose career spans seven decades. She is known for her role as George Jefferson's maid, Florence Johnston, on the CBS sitcom The Jeffersons (1975–1985), for which she received five nominations for the Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series. Gibbs also starred on the show's spin-off Checking In (1981) and the NBC sitcom 227 (1985–1990); she co-produced the latter series, played the lead role of Mary Jenkins, and sang the theme song." .
+
+ng:Martha_Carson a sem:Event ;
+    sem:hasTimeStamp "1921-03-19"^^xsd:date ;
+    rdfs:comment "Martha Carson (March 19, 1921 – December 16, 2004), born Irene Amburgey, was an American gospel-country music singer most popular during the 1950s." .
+
+ng:Mary_Stuart a sem:Event ;
+    sem:hasTimeStamp "1926-07-04"^^xsd:date ;
+    rdfs:comment "Mary Stuart (born Mary Stuart Houchins; July 4, 1926 – February 28, 2002) was an American actress, guitarist, singer, and songwriter. A former silver screen starlet, she was best known for her starring role as Joanne on the CBS/NBC soap opera Search for Tomorrow, which she played for 35 years without interruption (1951–86). After her divorce from her first husband, with whom she raised two children, she began a side career as a guitarist and a singer-songwriter, first singing on Search for Tomorrow and then releasing her own album in 1973." .
+
+ng:Mary_Travers a sem:Event ;
+    sem:hasTimeStamp "1936-11-09"^^xsd:date ;
+    rdfs:comment "Mary Allin Travers (November 9, 1936 – September 16, 2009) was an American singer who found fame as a member of the 1960s folk trio Peter, Paul and Mary, along with Peter Yarrow and Paul Stookey. Travers grew up amid the burgeoning folk scene in New York City's Greenwich Village, and she released five solo albums. She was a contralto." .
+
+ng:Masako_Togawa a sem:Event ;
+    sem:hasTimeStamp "1933-03-23"^^xsd:date ;
+    rdfs:comment "Masako Togawa (戸川昌子, Togawa Masako) (23 March 1931 – 26 April 2016) was a Japanese Chanson singer/songwriter, actress, feminist, novelist, lesbian icon, former night club owner, metropolitan city planning panelist, and music educator." .
+
+ng:Maureen_Tucker a sem:Event ;
+    sem:hasTimeStamp "1944-08-26"^^xsd:date ;
+    rdfs:comment "Maureen Ann \"Moe\" Tucker (born August 26, 1944) is an American retired musician, singer, and songwriter who achieved international fame as the drummer of the rock band the Velvet Underground. Tucker occasionally sang lead vocals with the group, including the songs \"After Hours\" and \"I'm Sticking With You\". After the Velvet Underground disbanded in the early 1970s, she took a hiatus to focus on her marriage and family." .
+
+ng:Melanie_Safka a sem:Event ;
+    sem:hasTimeStamp "1947-02-03"^^xsd:date ;
+    rdfs:comment "Melanie Anne Safka-Schekeryk (February 3, 1947 – January 23, 2024), professionally known as Melanie or Melanie Safka, was an American singer-songwriter. Melanie is widely known for the 1971–72 global hit \"Brand New Key\", her 1970 version of the Rolling Stones' \"Ruby Tuesday\", her composition \"What Have They Done to My Song Ma\", and her 1970 international breakthrough hit, \"Lay Down (Candles in the Rain)\", which was inspired by her experience of performing at the 1969 Woodstock music festival." .
+
+ng:Melba_Montgomery a sem:Event ;
+    sem:hasTimeStamp "1938-10-14"^^xsd:date ;
+    rdfs:comment "Melba Joyce Montgomery (October 14, 1938 – January 15, 2025) was an American country music singer and songwriter. She was known for a series of duet recordings made with George Jones, Gene Pitney, and Charlie Louvin. She was also a solo artist, having reached the top of the country charts in 1974 with the song, \"No Charge\"." .
+
+ng:Melba_Moore a sem:Event ;
+    sem:hasTimeStamp "1945-10-29"^^xsd:date ;
+    rdfs:comment "Beatrice Melba Smith (born October 29, 1945), known by her stage name Melba Moore, is an American singer and actress." .
+
+ng:Memphis_Minnie a sem:Event ;
+    sem:hasTimeStamp "1896-06-03"^^xsd:date ;
+    rdfs:comment "Lizzie Douglas (June 3, 1897 – August 6, 1973), better known as Memphis Minnie, was a blues guitarist, vocalist, and songwriter whose recording career lasted for over three decades. She recorded around 200 songs, some of the best known being \"When the Levee Breaks\", \"Me and My Chauffeur Blues\", \"Bumble Bee\", and \"Nothing in Rambling\"." .
+
+ng:Michelle_Phillips a sem:Event ;
+    sem:hasTimeStamp "1944-06-04"^^xsd:date ;
+    rdfs:comment "Holly Michelle Phillips (née Gilliam; born June 4, 1944) is an American singer, songwriter and actress. Described by Time magazine as the \"purest soprano in pop music\", she rose to fame in the mid-1960s with the folk rock vocal group the Mamas &amp; the Papas. After their disbandment, she started a successful acting career in film and television in the 1970s." .
+
+ng:Mikhail_Chulaki a sem:Event ;
+    sem:hasTimeStamp "1908-11-19"^^xsd:date ;
+    rdfs:comment "Mikhail Ivanovich Chulaki (Russian: Михаи́л Ива́нович Чула́ки, also transliterated as Tchulaki and Tschulaki) (November 19&#160;[O.S. November 6]&#160;1908 in Simferopol – January 29, 1989 in Moscow) was a Soviet Russian composer and teacher. Three Stalin Prizes second degree (1947, 1948, 1950)." .
+
+ng:Millie_Jackson a sem:Event ;
+    sem:hasTimeStamp "1944-07-15"^^xsd:date ;
+    rdfs:comment "Mildred Virginia Jackson (born July 15, 1944) is an American R&amp;B and soul recording artist. Beginning her career in the early 1960s, three of Jackson's albums have been certified gold by the RIAA for over 500,000 copies sold. Jackson's songs often include long spoken sections, sometimes humorous, sometimes sexually explicit." .
+
+ng:Minnie_Riperton a sem:Event ;
+    sem:hasTimeStamp "1947-11-08"^^xsd:date ;
+    rdfs:comment "Minnie Julia Riperton (November 8, 1947 – July 12, 1979) was an American soul singer and songwriter best known for her 1974 single \"Lovin' You\", her five-octave vocal range, and her use of the whistle register. Born in 1947, Riperton grew up in Chicago's Bronzeville neighborhood on the South Side. As a child, she studied music, drama and dance at Chicago's Abraham Lincoln Center." .
+
+ng:Myra_Taylor a sem:Event ;
+    sem:hasTimeStamp "1917-02-24"^^xsd:date ;
+    rdfs:comment "Myra Taylor (February 24, 1917 – December 9, 2011) was an American jazz singer and songwriter. She began performing as a teenager and continued into her nineties." .
+
+ng:Naomi_Shemer a sem:Event ;
+    sem:hasTimeStamp "1930-07-13"^^xsd:date ;
+    rdfs:comment "Naomi Shemer (Hebrew: נׇעֳמִי שֶׁמֶר‎; 13 July 1930 – 26 June 2004) was an Israeli songwriter, composer, and performer, widely described as the \"first lady of Israeli song\". She became one of the most influential figures in modern Hebrew music, writing numerous songs that became cultural touchstones, most notably \"Yerushalayim Shel Zahav\" (\"Jerusalem of Gold\"), which gained prominence after the Six-Day War and is often regarded as a second national anthem. Over a career spanning several decades, Shemer created music for adults and children, contributed to major festivals and cultural events, and became widely recognized for shaping the Israeli songbook." .
+
+ng:Natalie_Cole a sem:Event ;
+    sem:hasTimeStamp "1950-02-06"^^xsd:date ;
+    rdfs:comment "Natalie Maria Cole (February 6, 1950 – December 31, 2015) was an American singer, songwriter, and actress. She was the daughter of singer and jazz pianist Nat King Cole. She rose to prominence in the mid-1970s, with the release of her debut album Inseparable (1975), along with the song \"This Will Be (An Everlasting Love)\", and the album's title track." .
+
+ng:Nicholas_Roerich a sem:Event ;
+    sem:hasTimeStamp "1874-10-09"^^xsd:date ;
+    rdfs:comment "Nikolai Konstantinovich Rerikh (Russian: Николай Константинович Рерих), better known as Nicholas Roerich (; October 9, 1874 – December 13, 1947), was a Russian polymath, painter, writer, archaeologist, theosophist, philosopher, and public figure. He is best known for his prolific body of artwork, which spans over 7,000 paintings, and his contributions to a wide array of cultural, political, intellectual, and artistic movements and causes. Born in Saint Petersburg to a Baltic German father and Russian mother, Roerich had a privileged upbringing that exposed him to many artists, intellectuals, and scientists." .
+
+ng:Nina_Simone a sem:Event ;
+    sem:hasTimeStamp "1933-02-21"^^xsd:date ;
+    rdfs:comment "Nina Simone ( NEE-nə sim-OHN; born Eunice Kathleen Waymon; February 21, 1933 – April 21, 2003) was an American pianist, singer, songwriter, and civil rights activist. Simone's bearing and stage presence earned her the title the High Priestess of Soul. Her music spanned styles including classical, folk, gospel, blues, jazz, R&amp;B, and pop." .
+
+ng:Olivia_Newton_John a sem:Event ;
+    sem:hasActor ng:Eurovision_Song_Contest_1974 ;
+    sem:hasTimeStamp "1948-09-26"^^xsd:date ;
+    rdfs:comment "Dame Olivia Newton-John (26 September 1948 – 8 August 2022) was an English and Australian singer, songwriter and actress. With over 100 million records sold, Newton-John is one of the best-selling music artists of all time, as well as the highest-selling female Australian recording artist of all time. In 1978, Newton-John starred in the musical film Grease, which was the highest-grossing musical film at the time and whose soundtrack remains one of the world's best-selling albums." .
+
+ng:Patti_LaBelle a sem:Event ;
+    sem:hasTimeStamp "1944-05-24"^^xsd:date ;
+    rdfs:comment "Patricia Louise Holte (born May 24, 1944), known professionally as Patti LaBelle, is an American R&amp;B singer and actress. She has been referred to as the \"Godmother of Soul\". LaBelle began her career in the early 1960s as lead singer and frontwoman of the vocal group Patti LaBelle and the Bluebelles." .
+
+ng:Patti_Page a sem:Event ;
+    sem:hasTimeStamp "1927-11-08"^^xsd:date ;
+    rdfs:comment "Clara Ann Fowler (November 8, 1927&#160;– January 1, 2013), better known by her stage name Patti Page, was an American singer. Primarily known for pop and country music, she was the top-charting female vocalist and best-selling female artist of the 1950s, selling over 100 million records during a six-decade-long career. She was often introduced as \"the Singin' Rage, Miss Patti Page\"." .
+
+ng:Patti_Smith a sem:Event ;
+    sem:hasTimeStamp "1946-12-30"^^xsd:date ;
+    rdfs:comment "Patricia Lee Smith (born December 30, 1946) is an American singer, songwriter, poet, painter, author, and photographer. Her 1975 debut album Horses made her an influential member of the New York City–based punk rock movement. Smith has fused rock and poetry in her work." .
+
+ng:Pyotr_Ilyich_Tchaikovsky a sem:Event ;
+    sem:hasTimeStamp "1840-05-07"^^xsd:date ;
+    rdfs:comment "Pyotr Ilyich Tchaikovsky ( chy-KOF-skee; 7 May 1840 – 6 November 1893) was a Russian composer of the Romantic period. He was the first Russian composer whose music made a lasting impression internationally. Tchaikovsky wrote some of the most popular concert and theatrical music in the classical repertoire, including the 1812 Overture, his First Piano Concerto, the Violin Concerto, the Romeo and Juliet Overture-Fantasy, several symphonies, the opera Eugene Onegin, and the ballets Swan Lake, The Sleeping Beauty and The Nutcracker." .
+
+ng:Roberta_Flack a sem:Event ;
+    sem:hasTimeStamp "1939-02-10"^^xsd:date ;
+    rdfs:comment "Roberta Cleopatra Flack (February 10, 1937 – February 24, 2025) was an American singer and pianist known for her emotive, genre-blending ballads that spanned R&amp;B, jazz, folk, and pop and contributed to the birth of the quiet storm radio format. Her commercial success included the Billboard Hot 100 chart-topping singles \"The First Time Ever I Saw Your Face\", \"Killing Me Softly with His Song\", and \"Feel Like Makin' Love\". She became the first artist to win the Grammy Award for Record of the Year in consecutive years." .
+
+ng:Rodion_Shchedrin a sem:Event ;
+    sem:hasTimeStamp "1932-12-16"^^xsd:date ;
+    rdfs:comment "Rodion Konstantinovich Shchedrin (Russian: Родион Константинович Щедрин, IPA: [rədʲɪˈon kənstɐnʲˈtʲinəvʲɪtɕ ɕːɪˈdrʲin]; 16 December 1932 – 29 August 2025) was a Soviet and Russian composer, pianist, and music teacher. He wrote in a wide range of genres, including operas such as Lolita and The Left-Hander, and ballets such as the Carmen Suite, created for his wife, the ballerina Maya Plisetskaya of the Bolshoi Theatre. His orchestral works includes five concertos for orchestra and six piano concertos, in which he often appeared as soloist." .
+
+ng:Romola_de_Pulszky a sem:Event ;
+    sem:hasTimeStamp "1978-06-08"^^xsd:date ;
+    rdfs:comment "Romola de Pulszky or Romola Pulszky (married name Nijinsky; 20 February 1891 – 8 June 1978) was a Hungarian aristocrat, the daughter of a politician and an actress. Her father had to go into exile when she was a child, and committed suicide in Australia. As a young woman she became interested in dance and specifically Vaslav Nijinsky, the noted premier danseur of the Ballets Russes." .
+
+ng:Rosalie_Sorrels a sem:Event ;
+    sem:hasTimeStamp "1933-06-24"^^xsd:date ;
+    rdfs:comment "Rosalie Sorrels (June 24, 1933 – June 11, 2017) was an American folk singer-songwriter. She began her public career as a singer and collector of traditional folksongs in the late 1950s. During the early 1960s she left her husband and began traveling and performing at music festivals and clubs throughout the United States." .
+
+ng:Sandy_Denny a sem:Event ;
+    sem:hasTimeStamp "1978-04-21"^^xsd:date ;
+    rdfs:comment "Alexandra Elene MacLean Denny (6 January 1947 – 21 April 1978) was an English musician who was lead vocalist of the British folk rock band Fairport Convention. She has been described as \"arguably the pre-eminent British folk-rock singer/songwriter of her time\". After briefly working with the Strawbs, Denny joined Fairport Convention in 1968, remaining with them until 1969." .
+
+ng:Sara_Carter a sem:Event ;
+    sem:hasTimeStamp "1898-07-21"^^xsd:date ;
+    rdfs:comment "Sara Elizabeth Carter (née Dougherty, later Bayes; July 21, 1898 – January 8, 1979) was an American country music musician, singer, and songwriter. Remembered mostly for her deep, distinctive, mature singing voice, she was the lead singer on most of the recordings of the historic Carter Family act in the 1920s and 1930s. In her earliest recordings her voice was pitched very high." .
+
+ng:Sarah_Kernochan a sem:Event ;
+    sem:hasTimeStamp "1947-12-30"^^xsd:date ;
+    rdfs:comment "Sarah Marshall Kernochan ( KUR-nə-ken; born December 30, 1947) is an American documentarian, film director, screenwriter, and novelist. She has received several prestigious awards, including two Academy Awards (Documentary Feature for Marjoe in 1973 and Documentary Short Subject for Thoth in 2002)." .
+
+ng:Sathima_Bea_Benjamin a sem:Event ;
+    sem:hasTimeStamp "1936-10-17"^^xsd:date ;
+    rdfs:comment "Beatrice \"Sathima Bea\" Benjamin (17 October 1936 – 20 August 2013) was a South African vocalist and composer based in New York City for nearly 45 years." .
+
+ng:Sergei_Diaghilev a sem:Event ;
+    sem:hasTimeStamp "1872-03-31"^^xsd:date ;
+    rdfs:comment "Sergei Pavlovich Diaghilev ( dee-AG-il-ef; Russian: Серге́й Па́влович Дя́гилев, IPA: [sʲɪrˈɡʲej ˈpavləvʲɪdʑ ˈdʲæɡʲɪlʲɪf]; 31&#160;March&#160;[O.S. 19 March]&#160;1872&#160;– 19 August 1929), also known as Serge Diaghilev, was a Russian art critic, patron, ballet impresario and founder of the Ballets Russes, from which many famous dancers and choreographers would arise. Diaghilev's career can be divided into two periods: in Saint&#160;Petersburg (1898–1906) and while as an emigrant (1906–1929)." .
+
+ng:Sergei_Prokofiev a sem:Event ;
+    sem:hasTimeStamp "1891-04-23"^^xsd:date ;
+    rdfs:comment "Sergei Sergeyevich Prokofiev (27 April&#160;[O.S. 15 April]&#160;1891&#160;– 5 March 1953) was a Russian composer, pianist, and conductor who later worked in the Soviet Union. As the creator of acknowledged masterpieces across numerous music genres, he is regarded as one of the major composers of the 20th century. His works include such widely heard pieces as the March from The Love for Three Oranges, the suite Lieutenant Kijé, the ballet Romeo and Juliet—from which \"Dance of the Knights\" is taken—and Peter and the Wolf. Of the established forms and genres in which he worked, he created—excluding juvenilia—seven completed operas, seven symphonies," .
+
+ng:Shirley_Collins a sem:Event ;
+    sem:hasTimeStamp "1935-07-05"^^xsd:date ;
+    rdfs:comment "Shirley Elizabeth Collins MBE (born 5 July 1935) is an English folk singer who was a significant contributor to the British Folk Revival of the 1960s and 1970s. She often performed and recorded with her sister Dolly, whose accompaniment on piano and portative organ created unique settings for Shirley's plain, austere singing style." .
+
+ng:Sippie_Wallace a sem:Event ;
+    sem:hasTimeStamp "1898-11-01"^^xsd:date ;
+    rdfs:comment "Sippie Wallace (born Beulah Belle Thomas; November 1, 1898 – November 1, 1986) was an American blues singer, pianist and songwriter. Her early career in tent shows gained her the billing \"The Texas Nightingale\". Between 1923 and 1927, she recorded over 40 songs for Okeh Records, many written by her or her brothers, George and Hersal Thomas." .
+
+ng:Skeeter_Davis a sem:Event ;
+    sem:hasTimeStamp "1931-12-30"^^xsd:date ;
+    rdfs:comment "Skeeter Davis (born Mary Frances Penick; December 30, 1931&#160;– September 19, 2004) was an American country music singer and songwriter who sang crossover pop music songs including 1962's \"The End of the World\". She started out as part of the Davis Sisters as a teenager in the late 1940s, eventually recording for RCA Victor. In the late 1950s, she became a solo star." .
+
+ng:Stevie_Nicks a sem:Event ;
+    sem:hasTimeStamp "1948-05-26"^^xsd:date ;
+    rdfs:comment "Stephanie Lynn Nicks (born May 26, 1948) is an American singer-songwriter, known for her work with the band Fleetwood Mac and as a solo artist. After starting her career as a duo with her then-boyfriend Lindsey Buckingham, releasing the album Buckingham Nicks to little success, the pair joined Fleetwood Mac in 1975, helping the band to become one of the best-selling music acts of all time with over 120 million records sold worldwide. Rumours, the band's second album with Nicks, became one of the best-selling albums worldwide, being certified 21× platinum in the US. In 1981, while remaining a member" .
+
+ng:Suleiman_Yudakov a sem:Event ;
+    sem:hasTimeStamp "1916-04-14"^^xsd:date ;
+    rdfs:comment "Suleiman (Solomon) Alexandrovich Yudakov (Russian: Сулейман Александрович Юдаков; 14 April 1916 – 5 November 1990) was a Soviet composer." .
+
+ng:Suzi_Quatro a sem:Event ;
+    sem:hasTimeStamp "1950-06-03"^^xsd:date ;
+    rdfs:comment "Susan Kay Quatro (born June 3, 1950) is an American-British singer (having lived in England since 1971, she took British citizenship in early 2026), bass guitarist, songwriter, and actress. In the 1970s, she scored a string of singles that found success in Europe and Australia, with both \"Can the Can\" (1973) and \"Devil Gate Drive\" (1974) reaching number one in several countries. Quatro released her self-titled debut album in 1973." .
+
+ng:Tammy_Faye_Messner a sem:Event ;
+    sem:hasTimeStamp "1942-03-07"^^xsd:date ;
+    rdfs:comment "Tamara Faye Messner (née LaValley; known 1961–1992 as Bakker ; March 7, 1942 – July 20, 2007) was an American evangelist. She co-founded the televangelist program The PTL Club with her then-husband Jim Bakker in 1974. They had hosted their own puppet-show series for local programming in the early 1960s; Messner also had a career as a recording artist." .
+
+ng:Tammy_Wynette a sem:Event ;
+    sem:hasTimeStamp "1942-05-05"^^xsd:date ;
+    rdfs:comment "Tammy Wynette (born Virginia Wynette Pugh; May 5, 1942 – April 6, 1998) was an American country music singer and songwriter, considered among the genre's most influential and successful artists. Along with Loretta Lynn, Wynette helped bring a woman's perspective to the male-dominated country music field that helped other women find representation in the genre. Her characteristic vocal delivery has been acclaimed by critics, journalists and writers for conveying unique emotion." .
+
+ng:The_Rite_of_Spring a sem:Event ;
+    rdfs:comment "The Rite of Spring (French: Le Sacre du printemps) is a ballet and orchestral concert work by the Russian composer Igor Stravinsky. It was written for the 1913 Paris season of Sergei Diaghilev's Ballets Russes company; the original choreography was by Vaslav Nijinsky with stage designs and costumes by Nicholas Roerich. When first performed at the Théâtre des Champs-Élysées on 29 May 1913, the avant-garde nature of the music and choreography caused a sensation." .
+
+ng:Thelma_Houston a sem:Event ;
+    sem:hasTimeStamp "1946-05-07"^^xsd:date ;
+    rdfs:comment "Thelma Houston (née Jackson; born May 7, 1946) is an American singer and actress. Beginning her recording career in the late 1960s, Houston scored a number-one hit in 1977 with her recording of \"Don't Leave Me This Way\", which won the Grammy for Best Female R&amp;B Vocal Performance." .
+
+ng:Tokiko_Kato a sem:Event ;
+    sem:hasTimeStamp "1943-12-27"^^xsd:date ;
+    rdfs:comment "Tokiko Kato (加藤 登紀子, Katō Tokiko; born December 27, 1943) is a Japanese singer, composer, lyricist, actress and activist. She was born in Harbin, Manchukuo, to Japanese parents and graduated from the University of Tokyo. She worked as a visiting professor at Josai International University." .
+
+ng:Toni_Basil a sem:Event ;
+    sem:hasTimeStamp "1943-09-22"^^xsd:date ;
+    rdfs:comment "Antonia Christina Basilotta (born September 22, 1943), better known by her stage name Toni Basil, is an American singer, choreographer, dancer, actress, and director. \"Mickey\", her cover of \"Kitty\", topped the charts in the US, Canada and Australia and hit the top ten in several other countries." .
+
+ng:Valery_Gavrilin a sem:Event ;
+    sem:hasTimeStamp "1939-08-17"^^xsd:date ;
+    rdfs:comment "Valery Aleksandrovich Gavrilin (Russian: Валерий Александрович Гаврилин, (17 August 1939 – 28 January 1999) was a Soviet and Russian composer. People's Artist of the RSFSR (1985)." .
+
+ng:Vano_Muradeli a sem:Event ;
+    sem:hasTimeStamp "1908-04-06"^^xsd:date ;
+    rdfs:comment "Vano Muradeli (Georgian: ვანო მურადელი; Russian: Вано Ильич Мурадели; 6 April&#160;[O.S. 24 March]&#160;1908 – 14 August 1970), was a Soviet Georgian composer." .
+
+ng:Vashti_Bunyan a sem:Event ;
+    sem:hasTimeStamp "1945-01-01"^^xsd:date ;
+    rdfs:comment "Jennifer Vashti Bunyan (born 2 March 1945) is an English singer-songwriter. She began her career in the mid-1960s and released a debut album, Just Another Diamond Day, in 1970. The album sold very few copies and Bunyan, discouraged, abandoned her musical career." .
+
+ng:Vera_Lynn a sem:Event ;
+    sem:hasTimeStamp "1917-03-20"^^xsd:date ;
+    rdfs:comment "Dame Vera Margaret Lewis (née&#160;Welch; 20 March 1917 – 18 June 2020), known professionally as Vera Lynn, was an English singer and entertainer whose musical recordings and performances were popular during World War II. She is honorifically known as the \"Forces' Sweetheart\", having given outdoor concerts for the troops in Egypt, India, and Burma during the war as part of the Entertainments National Service Association. The Oxford Dictionary of National Biography wrote of Lynn, \"Her reassuring voice and mastery of radio made her the forces' sweetheart in the Second World War—a connection she fostered with her ongoing commitment to veterans" .
+
+ng:Violeta_Parra a sem:Event ;
+    sem:hasTimeStamp "1917-10-04"^^xsd:date ;
+    rdfs:comment "Violeta del Carmen Parra Sandoval (Spanish pronunciation: [bjoˈleta ˈpara]; 4 October 1917 – 5 February 1967) was a Chilean composer, singer-songwriter, folklorist, ethnomusicologist and visual artist. She pioneered the Nueva Canción Chilena (The Chilean New Song), a renewal and a reinvention of Chilean folk music that would extend its sphere of influence outside Chile. Her birthdate (4 October) was chosen as \"Chilean Musicians' Day.\" In 2011, Andrés Wood directed a biopic about her, titled Violeta Went to Heaven (Spanish: Violeta se fue a los cielos)." .
+
+ng:Vyacheslav_Ovchinnikov a sem:Event ;
+    sem:hasTimeStamp "1936-05-29"^^xsd:date ;
+    rdfs:comment "Vyacheslav Aleksandrovich Ovchinnikov (Russian: Вячесла́в Алекса́ндрович Овчи́нников; 29 May 1936 in Voronezh, Soviet Union – 4 February 2019 in Moscow, Russia) was a Soviet and Russian composer." .
+
+ng:Witold_Maliszewski a sem:Event ;
+    sem:hasTimeStamp "1873-07-20"^^xsd:date ;
+    rdfs:comment "Witold Maliszewski (Russian: Витольд Осипович Малишевский, Ukrainian: Вітольд Йосифович Малішевський; 20 July 1873 – 18 July 1939) was a Polish composer, founder of Odessa Conservatory, and a professor of Warsaw Conservatory." .
+
+ng:Yuri_Simonov a sem:Event ;
+    sem:hasTimeStamp "1941-03-04"^^xsd:date ;
+    rdfs:comment "Yuri Ivanovich Simonov (Russian: Ю́рий Ива́нович Си́монов; born 4 March 1941) is a Russian conductor. He studied at the Leningrad Conservatory under Nikolai Rabinovich, and was later an assistant conductor to Yevgeny Mravinsky with the Leningrad Philharmonic Orchestra. Simonov first conducted at the Bolshoi Theatre in 1969, and was named chief conductor of the company in February 1970, the youngest chief conductor in the company's history at that time." .
+
+ng:ballet a sem:Event ;
+    rdfs:comment "Ballet (French: [balɛ]) is a type of performance dance that originated during the Italian Renaissance in the fifteenth century and later developed into a concert dance form in France and Russia. It has since become a widespread and highly technical form of dance with its own vocabulary. Ballet has been influential globally and has defined the foundational techniques which are used in many other dance genres and cultures." .
+
+ng:musical_composition a sem:Event ;
+    rdfs:comment "Musical composition can refer to an original piece or work of music, either vocal or instrumental, the structure of a musical piece or to the process of creating or writing a new piece of music. People who create new compositions are called composers. Composers of primarily songs are usually called songwriters; with songs, the person who writes lyrics for a song is the lyricist." .
+

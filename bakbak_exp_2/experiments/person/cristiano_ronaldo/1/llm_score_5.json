@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 6,
+  "coverage_raw": 8,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.7777777777777778,
+  "reasoning": "Factual consistency: The generated text has some factual inaccuracies regarding Ronaldo's Champions League wins. Coverage: The generated text covers most key aspects of Ronaldo's career but omits some details like his return to Manchester United and specific international tournament achievements."
+}

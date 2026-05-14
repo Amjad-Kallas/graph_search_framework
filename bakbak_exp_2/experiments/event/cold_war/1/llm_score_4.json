@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 10,
+  "coverage_raw": 6,
+  "factual_consistency": 1.0,
+  "coverage": 0.5555555555555556,
+  "reasoning": "The generated text is factually consistent with the reference text, with no contradictions. However, it misses some key events and aspects covered in the reference text, such as the Berlin Blockade, Korean War, and the end of the Cold War."
+}

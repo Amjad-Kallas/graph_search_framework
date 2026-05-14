@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 6.0,
+  "coverage_raw": 6.0,
+  "factual_consistency": 0.5555555555555556,
+  "coverage": 0.5555555555555556,
+  "reasoning": [
+    "The generated text contradicts the reference on birth year and death date. The generated text covers most key points from the reference but omits some significant details.",
+    "The generated text is mostly consistent with the reference except for the incorrect death date. The generated text covers many key points but misses some important details from the reference.",
+    "The generated text contradicts the reference on Nomi's date of death. The generated text covers most key points but omits Nomi's collaboration with David Bowie.",
+    "The generated text contradicts the reference on key facts such as the date of death and details of the association with David Bowie. The generated text covers some key points but omits others, such as the East Village art scene and specific song covers mentioned in the reference.",
+    "The generated text contradicts the reference on the death date. While major points are covered, some specifics from the reference are missing."
+  ]
+}

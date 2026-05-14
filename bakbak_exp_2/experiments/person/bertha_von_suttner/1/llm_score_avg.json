@@ -1,0 +1,13 @@
+{
+  "factual_consistency_raw": 10.0,
+  "coverage_raw": 7.6,
+  "factual_consistency": 1.0,
+  "coverage": 0.7333333333333332,
+  "reasoning": [
+    "The generated text does not contradict any facts in the reference. The generated text covers the main points but omits some details such as her full name, death date, and that she was the second female Nobel laureate and first Austrian laureate.",
+    "No contradictions with the reference text. Covers all major aspects from the reference, with minor omissions.",
+    "No contradictions with the reference text. Covers main points but omits some details such as the full name, death date, and that she was the first Austrian laureate.",
+    "No contradictions between generated text and reference. Generated text covers most key points from the reference but omits some details.",
+    "factual_consistency: No contradictions with the reference text. coverage: Major points covered but key details like first woman Nobel laureate are omitted."
+  ]
+}

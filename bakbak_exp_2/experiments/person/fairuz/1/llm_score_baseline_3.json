@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 4,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.3333333333333333,
+  "reasoning": "The generated text contradicts the reference on Fairuz's real name but is consistent on other facts. It omits major events and details from the reference text."
+}

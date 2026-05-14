@@ -1,0 +1,7 @@
+{
+  "factual_consistency_raw": 8,
+  "coverage_raw": 7,
+  "factual_consistency": 0.7777777777777778,
+  "coverage": 0.6666666666666666,
+  "reasoning": "The generated text is mostly consistent with the reference but misattributes Chaplin's independence to First National instead of United Artists. The generated text covers most key points about Chaplin's career and films but omits details about his early life, United Artists, and later controversies."
+}
