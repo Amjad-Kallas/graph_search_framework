@@ -109,10 +109,11 @@ def _run_partial_thread(config_path: str, out_q: queue.Queue, result: dict):
     writer = _QueueWriter(out_q)
     try:
         with contextlib.redirect_stdout(writer), contextlib.redirect_stderr(writer):
-            target_folder, output_ng, main_event = run_pipeline_until_graph(config_path)
+            target_folder, output_ng, main_event, default_selected = run_pipeline_until_graph(config_path)
         result["target_folder"] = target_folder
         result["output_ng"] = output_ng
         result["main_event"] = main_event
+        result["default_selected"] = default_selected
         result["success"] = True
     except Exception:
         import traceback
@@ -152,7 +153,7 @@ def _stream(out_q: queue.Queue, placeholder):
         if chunk is None:
             break
         text += chunk
-        placeholder.code(text[-8000:], language="bash")
+        placeholder.text(text[-8000:])
     return text
 
 
@@ -163,6 +164,7 @@ for k, v in [
     # manual mode
     ("m_running", False), ("m_output", ""),
     ("m_partial_done", False), ("m_output_ng", ""), ("m_main_event", ""), ("m_target_folder", ""),
+    ("m_default_selected", []),
     ("m_story_running", False), ("m_story", ""), ("m_story_done", False),
 ]:
     if k not in st.session_state:
@@ -278,7 +280,7 @@ if not manual_mode:
 
     if st.session_state.output:
         with st.expander("Pipeline log", expanded=not st.session_state.success):
-            st.code(st.session_state.output, language="bash")
+            st.text(st.session_state.output)
 
 # ══════════════════════════════════════════════════════════════════════════════
 # MANUAL MODE
@@ -300,6 +302,7 @@ else:
         for k, v in [
             ("m_running", False), ("m_output", ""),
             ("m_partial_done", False), ("m_output_ng", ""), ("m_main_event", ""), ("m_target_folder", ""),
+            ("m_default_selected", []),
             ("m_story_running", False), ("m_story", ""), ("m_story_done", False),
         ]:
             st.session_state[k] = v
@@ -327,11 +330,12 @@ else:
             st.session_state.m_output_ng = result["output_ng"]
             st.session_state.m_main_event = result["main_event"]
             st.session_state.m_target_folder = result["target_folder"]
+            st.session_state.m_default_selected = result.get("default_selected", [])
         st.rerun()
 
     if st.session_state.m_output:
         with st.expander("Pipeline log", expanded=not st.session_state.m_partial_done):
-            st.code(st.session_state.m_output, language="bash")
+            st.text(st.session_state.m_output)
 
     # ── Graph + event selection ──────────────────────────────────────────────
     if st.session_state.m_partial_done:
@@ -345,9 +349,11 @@ else:
 
         st.markdown("**Step 2 — Select events for your story**")
         all_event_names = get_events_from_ttl(output_ng)
+        valid_defaults = [n for n in st.session_state.m_default_selected if n in all_event_names]
         chosen = st.multiselect(
             "Events",
             options=all_event_names,
+            default=valid_defaults,
             placeholder="Choose events…",
             label_visibility="collapsed",
         )

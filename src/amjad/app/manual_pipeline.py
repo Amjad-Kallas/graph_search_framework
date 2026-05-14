@@ -56,8 +56,14 @@ def run_pipeline_until_graph(
     main_event = config_loaded.get("start_name") or get_single_label(config_loaded["start"])
     apply_post_filtering(output_ng, config_loaded, main_event)
 
+    print("\n3. Auto-selecting events (Wikipedia similarity)...")
+    from src.amjad.llm_pruning import rerank_events_combined
+    selected, _ = rerank_events_combined(output_ng, main_event, use_llm=False)
+    default_names = [e["name"] for e in selected]
+    print(f"   {len(default_names)} events pre-selected as defaults.")
+
     print("\nGraph ready — waiting for event selection.")
-    return target_folder, output_ng, main_event
+    return target_folder, output_ng, main_event, default_names
 
 
 # ── Step 1b: read event names from TTL ────────────────────────────────────────
