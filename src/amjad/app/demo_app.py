@@ -20,13 +20,14 @@ from manual_pipeline import get_events_from_ttl            # noqa: E402
 
 EXPERIMENT_DIR = ROOT / "experiments" / "world_war_1"
 TTL_PATH       = str(EXPERIMENT_DIR / "output_ng.ttl")
-SELECTED_FILE  = EXPERIMENT_DIR / "selected_events_combined.txt"
 SCORES_FILE    = EXPERIMENT_DIR / "scores_all.txt"
+
+MAX_EVENTS = 35
+DEFAULT_N  = 10
 
 
 @st.cache_data
 def load_scores() -> dict:
-    """Return {display_name: combined_score} from scores_all.txt."""
     scores: dict = {}
     if not SCORES_FILE.exists():
         return scores
@@ -41,10 +42,6 @@ def load_scores() -> dict:
     return scores
 
 
-MAX_EVENTS = 35
-DEFAULT_N  = 10
-
-
 @st.cache_data
 def load_all_events() -> list[str]:
     return get_events_from_ttl(TTL_PATH)
@@ -52,79 +49,85 @@ def load_all_events() -> list[str]:
 
 @st.cache_data
 def top_n_events(n: int) -> list[str]:
-    """Return the top-n events by combined score that are also present in the TTL."""
     scores = load_scores()
-    all_ev = set(get_events_from_ttl(TTL_PATH))
+    all_ev = set(load_all_events())
     ranked = sorted(scores, key=scores.__getitem__, reverse=True)
     return [name for name in ranked if name in all_ev][:n]
 
 
-# ── Page config ──────────────────────────────────────────────────────────────
+# ── Page config (runs once, never inside a fragment) ─────────────────────────
 st.set_page_config(page_title="WWI Narrative Graph Demo", layout="wide", page_icon="🌍")
 st.title("World War I — Narrative Graph Explorer")
 st.caption("Pre-built graph · no pipeline required")
 
-all_events = load_all_events()
-
-# ── Session state init ───────────────────────────────────────────────────────
 if "ms_events" not in st.session_state:
     st.session_state.ms_events = top_n_events(DEFAULT_N)
 
-# ── Narrative Graph ──────────────────────────────────────────────────────────
-st.subheader("Narrative Graph")
-st.caption("Gold = selected · Blue = unselected · Click a node to toggle its selection")
 
-selected_ids = {name.replace(" ", "_") for name in st.session_state.ms_events}
-clicked_id   = render_narrative_graph_interactive(TTL_PATH, selected_ids, scores=load_scores())
+# ── Interactive panel (graph + selection list) ────────────────────────────────
+# @st.fragment limits reruns to this block only — the rest of the page
+# (title, generate section) is untouched when a node is clicked.
+@st.fragment
+def _interactive_panel():
+    st.subheader("Narrative Graph")
+    st.caption("Gold = selected · Blue = unselected · Click a node to toggle")
 
-if clicked_id:
-    clicked_name = unquote(clicked_id).replace("_", " ")
-    current = list(st.session_state.ms_events)
-    if clicked_name in current:
-        current.remove(clicked_name)
-    elif len(current) < MAX_EVENTS:
-        current.append(clicked_name)
-    else:
-        st.toast(f"Maximum {MAX_EVENTS} events allowed — deselect one first.", icon="⚠️")
-    st.session_state.ms_events = current
-    st.rerun()
+    selected_ids = {name.replace(" ", "_") for name in st.session_state.ms_events}
+    clicked_id   = render_narrative_graph_interactive(
+        TTL_PATH, selected_ids, scores=load_scores()
+    )
+
+    if clicked_id:
+        clicked_name = unquote(clicked_id).replace("_", " ")
+        current = list(st.session_state.ms_events)
+        if clicked_name in current:
+            current.remove(clicked_name)
+        elif len(current) < MAX_EVENTS:
+            current.append(clicked_name)
+        else:
+            st.toast(f"Maximum {MAX_EVENTS} events — deselect one first.", icon="⚠️")
+        st.session_state.ms_events = current
+        st.rerun(scope="fragment")   # only this panel rerenders, not the full page
+
+    st.divider()
+
+    # ── Selection panel ───────────────────────────────────────────────────────
+    n_sel = len(st.session_state.ms_events)
+    col_title, col_btns = st.columns([5, 2])
+    col_title.subheader(f"Selected Events  ({n_sel} / {MAX_EVENTS} max)")
+
+    with col_btns:
+        c1, c2, c3 = st.columns(3)
+        if c1.button("Top 35", use_container_width=True):
+            st.session_state.ms_events = top_n_events(MAX_EVENTS)
+            st.rerun(scope="fragment")
+        if c2.button("None", use_container_width=True):
+            st.session_state.ms_events = []
+            st.rerun(scope="fragment")
+        if c3.button("Reset", use_container_width=True):
+            st.session_state.ms_events = top_n_events(DEFAULT_N)
+            st.rerun(scope="fragment")
+
+    st.multiselect(
+        "Events",
+        options=load_all_events(),
+        key="ms_events",
+        max_selections=MAX_EVENTS,
+        placeholder="Choose events… (max 35)",
+        label_visibility="collapsed",
+    )
+
+
+_interactive_panel()
 
 st.divider()
 
-# ── Event selection panel ────────────────────────────────────────────────────
-n_sel = len(st.session_state.ms_events)
-col_title, col_btns = st.columns([5, 2])
-col_title.subheader(f"Selected Events  ({n_sel} / {MAX_EVENTS} max)")
-
-with col_btns:
-    c1, c2, c3 = st.columns(3)
-    if c1.button("Top 35", use_container_width=True):
-        st.session_state.ms_events = top_n_events(MAX_EVENTS)
-        st.rerun()
-    if c2.button("None", use_container_width=True):
-        st.session_state.ms_events = []
-        st.rerun()
-    if c3.button("Reset", use_container_width=True):
-        st.session_state.ms_events = top_n_events(DEFAULT_N)
-        st.rerun()
-
-st.multiselect(
-    "Events",
-    options=all_events,
-    key="ms_events",
-    max_selections=MAX_EVENTS,
-    placeholder="Choose events… (max 35)",
-    label_visibility="collapsed",
-)
-
-st.divider()
-
-# ── Generate (demo stub) ─────────────────────────────────────────────────────
+# ── Generate (outside the fragment — only reruns on full page events) ─────────
 st.subheader("Generate Story")
 
 n = len(st.session_state.ms_events)
 if st.button(
-    f"▶ Generate story  ({n} event{'s' if n != 1 else ''} selected)",
+    f"▶ Generate story",
     type="primary",
     disabled=n == 0,
 ):

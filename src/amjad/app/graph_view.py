@@ -249,9 +249,9 @@ def render_narrative_graph_interactive(
     col_layout, col_dates, _ = st.columns([4, 1, 3])
 
     with col_layout:
-        layout_opts = ["Force-directed", "Timeline"]
+        layout_opts = ["Default"]
         if scores:
-            layout_opts += ["Relevance", "Timeline + Relevance"]
+            layout_opts += ["Relevance", "Timeline", "Timeline + Relevance"]
         layout_mode = st.radio(
             "Layout",
             layout_opts,
@@ -306,7 +306,7 @@ def render_narrative_graph_interactive(
         show_edges = False
         layout_hint = "X = time &nbsp;&nbsp; Y = relevance score"
 
-    else:  # Force-directed
+    else:  # Default
         pos = nx.spring_layout(G, seed=42, k=0.6, iterations=200)
         if hub_nid and hub_nid in pos:
             hx, hy = pos[hub_nid]
