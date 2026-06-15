@@ -139,15 +139,6 @@ def run_pipeline():
 
     #fetch_all_labels(subgraph_file , subgraph_file[:-4]+"_readable.csv")
 
-
-    '''# Pruning
-    seed_topic = config_loaded["start"]
-    pruner = StoryCentralityPruner()
-    pruned_subgraph_file = pruner.run_pruning(subgraph_file, seed_topic=seed_topic)
-
-    fetch_all_labels(pruned_subgraph_file , pruned_subgraph_file[:-4]+"_readable.csv")'''
-
-
     output_ng = target_folder + f"/output_ng.ttl"
     timeline_file = target_folder + f"/event_timeline.txt"
 
@@ -170,6 +161,7 @@ def run_pipeline():
 
     parse_rdf(output_ng, timeline_file)
 
+    exit("Comment me to run full pipeline.")
     
     print("\n4. Generating stories...")
     _, story_file    = generate_story(timeline_file, main_event)

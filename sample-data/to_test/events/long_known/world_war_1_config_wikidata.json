@@ -16,7 +16,7 @@
     "start": "http://www.wikidata.org/entity/Q361",
     "start_date": "1914-01-01",
     "end_date": "1918-12-31",
-    "iterations": 2,
+    "iterations": 5,
     "type_ranking": "pred_object_freq",
     "type_interface": "hdt",
     "ordering": {
