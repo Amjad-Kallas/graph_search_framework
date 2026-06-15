@@ -26,7 +26,7 @@ import argparse
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, ROOT)
 
-from src.amjad.generate_story import (
+from src.kg_to_story.generate_story import (
     generate_story_n_times,
     generate_story_baseline_n_times,
     score_stories_and_average,

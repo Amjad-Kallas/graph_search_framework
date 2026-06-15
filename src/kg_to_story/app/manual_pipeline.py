@@ -57,7 +57,7 @@ def run_pipeline_until_graph(
     apply_post_filtering(output_ng, config_loaded, main_event)
 
     print("\n3. Auto-selecting events (Wikipedia similarity)...")
-    from src.amjad.llm_pruning import rerank_events_combined
+    from src.kg_to_story.llm_pruning import rerank_events_combined
     selected, _ = rerank_events_combined(output_ng, main_event, use_llm=False)
     default_names = [e["name"] for e in selected]
     print(f"   {len(default_names)} events pre-selected as defaults.")
@@ -91,7 +91,7 @@ def build_timeline_from_selection(ttl_path, selected_names, output_txt):
     Write selected_names to selected_events_combined.txt (which parse_rdf already
     knows how to read), then call parse_rdf directly to build the timeline.
     """
-    from src.amjad.parse_rdf import parse_rdf
+    from src.kg_to_story.parse_rdf import parse_rdf
 
     # parse_rdf filters by this file when it exists
     selected_file = os.path.join(os.path.dirname(ttl_path), "selected_events_combined.txt")
@@ -111,7 +111,7 @@ def generate_story_manual(timeline_file, main_event, target_words=700):
     Returns (story_text, story_file_path).
     """
     from openai import OpenAI
-    from src.amjad.config import EURECOM_URL, MY_API
+    from src.kg_to_story.config import EURECOM_URL, MY_API
 
     with open(timeline_file, "r", encoding="utf-8") as f:
         context = f.read()

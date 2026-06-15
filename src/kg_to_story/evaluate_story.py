@@ -1,6 +1,6 @@
 import json
-from src.amjad.compute_story_score import compute_story_score
-from src.amjad.llm_score import compute_llm_score
+from src.kg_to_story.compute_story_score import compute_story_score
+from src.kg_to_story.llm_score import compute_llm_score
 
 
 def load_text(path):

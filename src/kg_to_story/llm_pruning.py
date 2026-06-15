@@ -2,7 +2,7 @@ import re
 import os
 from openai import OpenAI
 from tqdm import tqdm
-from src.amjad.config import EURECOM_URL, MY_API
+from src.kg_to_story.config import EURECOM_URL, MY_API
 
 
 # ---------------------------------------------------------------------------
@@ -213,7 +213,7 @@ def rerank_events_combined(
     selected : list[dict]   top-k event dicts (name, date, place, comment, combined_score)
     output_file : str       path to the written results file
     """
-    from src.amjad.wikipedia_similarity import (
+    from src.kg_to_story.wikipedia_similarity import (
         parse_ttl_events_with_comments,
         get_wikipedia_intro_full,
         compute_wiki_similarity_scores,

@@ -4,20 +4,16 @@ import json
 
 from src.framework import GraphSearchFramework
 
-from src.build_ng.custom_generic_kb_to_ng_hdt import build_ng as build_ng_hdt
-from src.build_ng.custom_generic_kb_to_ng import build_ng as build_ng_sparql
 from src.build_ng.custom_generic_kb_to_ng_wikidata import build_ng_wikidata_hdt
-from src.build_ng.custom_generic_kb_to_ng_wikidata_online import build_ng_wikidata_online
-from src.amjad.parse_rdf import parse_rdf
-from src.amjad.generate_story import generate_story, generate_story_baseline
-from src.amjad.evaluate_story import evaluate_story
-from src.amjad.pruning import StoryCentralityPruner
+from src.kg_to_story.parse_rdf import parse_rdf
+from src.kg_to_story.generate_story import generate_story, generate_story_baseline
+from src.kg_to_story.evaluate_story import evaluate_story
 from src.build_ng.post_filtering import apply_post_filtering
 from src.hdt_interface import HDTInterface
 
 from src.wikidata_subgraph_to_readable import fetch_all_labels, get_single_label
 
-from src.amjad.llm_pruning import rerank_events_combined
+from src.kg_to_story.llm_pruning import rerank_events_combined
 
 def run_framework(args_main, config_loaded):
 

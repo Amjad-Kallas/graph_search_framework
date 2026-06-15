@@ -15,8 +15,8 @@ Writes per experiment type:
   experiments/{type}/llm_summary.json                 (all levels combined)
 
 Usage:
-  python src/amjad/metrics/run_llm_benchmark.py --type event
-  python src/amjad/metrics/run_llm_benchmark.py --type person
+  python src/kg_to_story/metrics/run_llm_benchmark.py --type event
+  python src/kg_to_story/metrics/run_llm_benchmark.py --type person
 """
 
 import argparse
@@ -28,7 +28,7 @@ from collections import defaultdict
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 sys.path.insert(0, ROOT)
 
-from src.amjad.llm_score import compute_llm_score, load_text
+from src.kg_to_story.llm_score import compute_llm_score, load_text
 
 N_RUNS = 5
 

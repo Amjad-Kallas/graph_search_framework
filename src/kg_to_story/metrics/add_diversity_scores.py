@@ -15,7 +15,7 @@ import argparse
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 sys.path.insert(0, ROOT)
 
-from src.amjad.metrics.diversity_model import DiversityModel
+from src.kg_to_story.metrics.diversity_model import DiversityModel
 
 MODEL_NAME = "BAAI/bge-base-en-v1.5"
 DEVICE = "cpu"

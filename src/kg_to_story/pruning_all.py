@@ -7,11 +7,11 @@ import pandas as pd
 import networkx as nx
 from rdflib import Graph as RDFGraph
 
-from src.amjad.wikipedia_similarity import (
+from src.kg_to_story.wikipedia_similarity import (
     get_wikipedia_intro,
     compute_wiki_similarity_scores,
 )
-from src.amjad.llm_pruning import score_events_llm
+from src.kg_to_story.llm_pruning import score_events_llm
 
 
 def parse_events_from_ttl(ttl_file):

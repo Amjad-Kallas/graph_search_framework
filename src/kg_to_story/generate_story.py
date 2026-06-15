@@ -1,5 +1,5 @@
 from openai import OpenAI
-from src.amjad.config import VLLM_URL, MODEL_NAME, EURECOM_URL, MY_API
+from src.kg_to_story.config import VLLM_URL, MODEL_NAME, EURECOM_URL, MY_API
 import os
 import json
 
@@ -128,7 +128,7 @@ def score_stories_and_average(story_files, wiki_file, folder, prefix="score"):
 
     prefix controls the output filenames: <prefix>_1.json ... <prefix>_avg.json
     """
-    from src.amjad.evaluate_story import evaluate_story
+    from src.kg_to_story.evaluate_story import evaluate_story
 
     all_scores = []
 
@@ -177,7 +177,7 @@ Length: Write approximately {target_words} words. The account must be complete â
 
 
 if __name__ == "__main__":
-    from src.amjad.evaluate_story import evaluate_story
+    from src.kg_to_story.evaluate_story import evaluate_story
 
     BASE = "/home/kallas/project/graph_search_framework/experiments"
 

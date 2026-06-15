@@ -1,6 +1,6 @@
 import json
 from openai import OpenAI
-from src.amjad.config import EURECOM_URL, MY_API_2
+from src.kg_to_story.config import EURECOM_URL, MY_API_2
 
 
 def load_text(path):
