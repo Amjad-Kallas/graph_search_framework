@@ -55,7 +55,7 @@ class HDTInterface(Interface):
             raise FileNotFoundError(f"No .hdt file found in {folder_hdt}. Make sure your dataset is actually converted to HDT format.")
             
         hdt_file_path = os.path.join(folder_hdt, hdt_files[0])
-        print(f"Loading HDT Document: {hdt_file_path}")
+        #print(f"Loading HDT Document: {hdt_file_path}")
 
         # 2. Load the HDT file using the C++ wrapper
         self.document = HDTDocument(hdt_file_path)
