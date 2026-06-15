@@ -22,7 +22,7 @@ def run_pipeline_until_graph(
     Run the pipeline up to and including apply_post_filtering.
     Returns (target_folder, output_ng_path, main_event).
     """
-    from src.run_pipeline import run_framework
+    from src.kg_to_story.run_pipeline import run_framework
     from src.build_ng.custom_generic_kb_to_ng_wikidata import build_ng_wikidata_hdt
     from src.build_ng.post_filtering import apply_post_filtering
     from src.hdt_interface import HDTInterface

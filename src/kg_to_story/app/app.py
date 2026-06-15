@@ -12,7 +12,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.run_pipeline import run_pipeline_direct  # noqa: E402
+from src.kg_to_story.run_pipeline import run_pipeline_direct  # noqa: E402
 from graph_view import render_narrative_graph  # noqa: E402
 from manual_pipeline import (  # noqa: E402
     run_pipeline_until_graph,
