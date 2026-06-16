@@ -109,13 +109,14 @@ def get_events_info_hdt(hdt_docs, uris):
         for (_, _, o) in triples:
             places.add(o)
 
-        # dates (event predicates + person birth/death)
+        # dates (event predicates + person birth/death + artwork inception)
         for p in [
             "http://www.wikidata.org/prop/direct/P585",
             "http://www.wikidata.org/prop/direct/P580",
             "http://www.wikidata.org/prop/direct/P582",
             "http://www.wikidata.org/prop/direct/P569",  # date of birth
             "http://www.wikidata.org/prop/direct/P570",  # date of death
+            "http://www.wikidata.org/prop/direct/P571",  # inception (artworks, orgs)
         ]:
             triples = search_triples(hdt_docs, uri, p, "")
             for (_, _, o) in triples:
@@ -128,6 +129,30 @@ def get_events_info_hdt(hdt_docs, uris):
         }
 
     return result
+
+# --------------------------
+# Relationship date via Wikidata statement qualifiers
+# --------------------------
+def get_relationship_date_hdt(hdt_docs, s_uri, p_uri, o_uri):
+    """Return qualifier dates (P580/P582/P585) on the statement node for (s, p, o)."""
+    if "/prop/direct/" not in p_uri:
+        return []
+
+    stmt_pred = p_uri.replace("/prop/direct/", "/prop/")
+    val_pred  = p_uri.replace("/prop/direct/", "/prop/statement/")
+
+    dates = []
+    for (_, _, stmt) in search_triples(hdt_docs, s_uri, stmt_pred, ""):
+        if not search_triples(hdt_docs, stmt, val_pred, o_uri):
+            continue
+        for pq in [
+            "http://www.wikidata.org/prop/qualifier/P580",  # start time
+            "http://www.wikidata.org/prop/qualifier/P582",  # end time
+            "http://www.wikidata.org/prop/qualifier/P585",  # point in time
+        ]:
+            for (_, _, d) in search_triples(hdt_docs, stmt, pq, ""):
+                dates.append(d)
+    return dates
 
 # --------------------------
 # Labels from HDT
@@ -251,16 +276,31 @@ def fetch_wikipedia_summaries_batch(uri_to_title, max_words=100):
 
 
 # --------------------------
-# Predicate mapping
+# Predicate labels from HDT
 # --------------------------
-def map_predicate(pred):
-    if pred.endswith("P361"):
-        return SEM.subEventOf
-    if pred.endswith("P31"):
-        return RDF.type
-    if pred.endswith("P279"):
-        return RDFS.subClassOf
-    return None
+def fetch_predicate_labels_hdt(hdt_docs, pred_uris):
+    labels = {}
+    for uri in pred_uris:
+        en_label = None
+
+        # Try the property URI directly
+        triples = search_triples(hdt_docs, uri, "http://www.w3.org/2000/01/rdf-schema#label", "")
+        for (_, _, o) in triples:
+            if '"@en' in o:
+                en_label = o.split('"')[1]
+                break
+
+        # Wikidata stores property labels on the entity URI, not the direct property URI
+        if not en_label and "/prop/direct/" in uri:
+            entity_uri = uri.replace("/prop/direct/", "/entity/")
+            triples = search_triples(hdt_docs, entity_uri, "http://www.w3.org/2000/01/rdf-schema#label", "")
+            for (_, _, o) in triples:
+                if '"@en' in o:
+                    en_label = o.split('"')[1]
+                    break
+
+        labels[uri] = en_label or uri.split("/")[-1].split("#")[-1]
+    return labels
 
 # --------------------------
 # MAIN
@@ -278,12 +318,10 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
     g.bind("ng", NG)
 
     all_nodes = set(df["subject"]).union(set(df["object"]))
-
-    # events = keep same simple logic
-    event_uris = set(all_nodes)
+    pred_uris = set(df["predicate"])
 
     print("Fetching event info (HDT)...")
-    event_info = get_events_info_hdt(hdt_docs, event_uris)
+    event_info = get_events_info_hdt(hdt_docs, all_nodes)
 
     print("Collecting nodes for labels...")
     nodes_to_label = set(all_nodes)
@@ -294,48 +332,53 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
     print("Fetching labels (HDT)...")
     labels = fetch_labels_hdt(hdt_docs, nodes_to_label)
 
+    print("Fetching predicate labels (HDT)...")
+    pred_labels = fetch_predicate_labels_hdt(hdt_docs, pred_uris)
+
     print("Fetching Wikipedia descriptions (HDT sitelinks + Wikipedia API)...")
-    uri_to_title = fetch_wikipedia_titles_hdt(hdt_docs, event_uris, labels=labels)
+    uri_to_title = fetch_wikipedia_titles_hdt(hdt_docs, all_nodes, labels=labels)
     descriptions = fetch_wikipedia_summaries_batch(uri_to_title)
-    print(f"Got descriptions for {len(descriptions)} / {len(event_uris)} events.")
+    print(f"Got descriptions for {len(descriptions)} / {len(all_nodes)} nodes.")
 
     # --------------------------
-    # Structure
+    # Build one event per triple
     # --------------------------
-    print("Building structure...")
-    for _, row in df.iterrows():
-        mapped = map_predicate(row["predicate"])
-        if not mapped:
-            continue
+    print("Building events...")
+    for _, row in tqdm(df.iterrows(), total=len(df)):
+        s_uri = str(row["subject"])
+        p_uri = str(row["predicate"])
+        o_uri = str(row["object"])
 
-        s = make_readable_uri(row["subject"], labels)
-        o = make_readable_uri(row["object"], labels)
+        s_label = labels.get(s_uri) or s_uri.split("/")[-1].replace("_", " ")
+        p_label = pred_labels.get(p_uri, p_uri.split("/")[-1])
+        o_label = labels.get(o_uri) or o_uri.split("/")[-1].replace("_", " ")
 
-        g.add((s, mapped, o))
+        event_id = re.sub(r'[^a-zA-Z0-9]+', '_', f"{s_label}_{p_label}_{o_label}").strip('_')
+        event_node = NG[event_id]
 
-    # --------------------------
-    # Enrichment
-    # --------------------------
-    print("Enrichment...")
-    for uri in tqdm(event_uris):
-        node = make_readable_uri(uri, labels)
-        g.add((node, RDF.type, SEM.Event))
+        g.add((event_node, RDF.type, SEM.Event))
+        g.add((event_node, NG.subject, Literal(s_label)))
+        g.add((event_node, NG.property, Literal(p_label)))
+        g.add((event_node, NG.object, Literal(o_label)))
 
-        info = event_info.get(uri, {})
+        # Enrichment — actors from object node, date/desc from subject node
+        obj_info = event_info.get(o_uri, {})
+        sub_info = event_info.get(s_uri, {})
 
-        for a in info.get("actors", []):
-            g.add((node, SEM.hasActor, make_readable_uri(a, labels)))
+        for a in obj_info.get("actors", []):
+            g.add((event_node, SEM.hasActor, make_readable_uri(a, labels)))
 
-        for p in info.get("places", []):
-            g.add((node, SEM.hasPlace, make_readable_uri(p, labels)))
-
-        best_date = select_best_date(info.get("dates", []))
+        # Date: relationship qualifiers first, then subject node, then object node
+        rel_dates = get_relationship_date_hdt(hdt_docs, s_uri, p_uri, o_uri)
+        date_pool = rel_dates or sub_info.get("dates", []) or obj_info.get("dates", [])
+        best_date = select_best_date(date_pool)
         if best_date:
-            g.set((node, SEM.hasTimeStamp, Literal(best_date, datatype=XSD.date)))
+            g.set((event_node, SEM.hasTimeStamp, Literal(best_date, datatype=XSD.date)))
 
-        desc = descriptions.get(uri)
+        # Description: subject node only — no fallback to object to avoid pollution
+        desc = descriptions.get(s_uri)
         if desc:
-            g.add((node, RDFS.comment, Literal(desc)))
+            g.add((event_node, RDFS.comment, Literal(desc)))
 
     # --------------------------
     # Save
@@ -347,8 +390,8 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
 # ENTRY
 # --------------------------
 if __name__ == "__main__":
-    input_csv = "/home/kallas/project/graph_search_framework/experiments/person/charlie_chaplin/2/2-subgraph.csv"
-    output_ttl = "/home/kallas/project/graph_search_framework/experiments/person/charlie_chaplin/2/li_huwe.ttl"
+    input_csv = "/home/kallas/project/graph_search_framework/experiments/person/pablo_picasso/1/3-subgraph.csv"
+    output_ttl = "/home/kallas/project/graph_search_framework/experiments/person/pablo_picasso/1/hohoho1.ttl"
     
     hdt_folder = "/home/kallas/project/graph_search_framework/wikidata_dataset"   # <- folder, not file
 

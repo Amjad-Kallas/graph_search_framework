@@ -161,7 +161,7 @@ def run_pipeline():
 
     parse_rdf(output_ng, timeline_file)
 
-    exit("Comment me to run full pipeline.")
+    
     
     print("\n4. Generating stories...")
     _, story_file    = generate_story(timeline_file, main_event)

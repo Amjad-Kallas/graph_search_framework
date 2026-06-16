@@ -102,7 +102,8 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
     if not event_uris:
         event_uris = {s for s, _, _ in g}
 
-    events = {uri: {"date": None, "places": set(), "actors": set(), "desc": None}
+    events = {uri: {"date": None, "places": set(), "actors": set(), "desc": None,
+                    "subject": None, "property": None, "object": None}
               for uri in event_uris}
 
     for s, p, o in g:
@@ -124,6 +125,15 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
         elif "comment" in p:
             events[s]["desc"] = str(o)
 
+        elif "/entity/subject" in p:
+            events[s]["subject"] = str(o)
+
+        elif "/entity/property" in p:
+            events[s]["property"] = str(o)
+
+        elif "/entity/object" in p:
+            events[s]["object"] = str(o)
+
     # --------------------------
     # Filter to selected events
     # --------------------------
@@ -141,7 +151,14 @@ def parse_rdf(input_ttl, output_txt, max_events=30):
     timeline = []
 
     for event, info in events.items():
-        name = unquote(str(event).split("/")[-1]).replace("_", " ")
+        subj = info["subject"]
+        prop = info["property"]
+        obj  = info["object"]
+        if subj and prop and obj:
+            name = f"{subj} {prop} {obj}"
+        else:
+            name = unquote(str(event).split("/")[-1]).replace("_", " ")
+
         date = info["date"] if info["date"] else "Unknown"
 
         places = ", ".join(sorted(info["places"]))
