@@ -1,124 +1,2350 @@
 @prefix ng: <http://narrative.graph/entity/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+ng:Blanquita_Su_rez_painting_depicts_Blanquita_Su_rez a sem:Event ;
+    ng:object "Blanquita Suárez" ;
+    ng:property "depicts" ;
+    ng:subject "Blanquita Suárez (painting)" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
 
-ng:sdstdjdsh a sem:Event;
-    ng:subject Picasso;
-    ng:property "meets";
-    ng:object "Modigliani;
+ng:Pablo_Picasso_composer_Jonathan_Richman a sem:Event ;
+    ng:object "Jonathan Richman" ;
+    ng:property "composer" ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1951-05-16"^^xsd:date .
 
+ng:Pablo_Picasso_lyrics_by_Jonathan_Richman a sem:Event ;
+    ng:object "Jonathan Richman" ;
+    ng:property "lyrics by" ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1951-05-16"^^xsd:date .
 
-ng:Amedeo_Modigliani_meet_Picasso a sem:Event ;
+ng:Pablo_Picasso_patron_Olivier_Sains_re a sem:Event ;
+    ng:object "Olivier Sainsère" ;
+    ng:property "patron" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-
-ng:Amedeo_Modigliani a sem:Event ;
-    sem:hasTimeStamp "1884-07-12"^^xsd:date ;
-    rdfs:comment "Amedeo Clemente Modigliani (US: ; Italian: [ameˈdɛːo modiʎˈʎaːni]; 12 July 1884 – 24 January 1920) was an Italian painter and sculptor of the École de Paris who worked mainly in France. He is known for portraits and nudes in a modern style characterised by a surreal elongation of faces, necks, and figures — works that were not received well during his lifetime, but later became much sought after. Modigliani was born and spent his youth in Italy, where he studied the art of antiquity and the Renaissance." .
-
-ng:Arlecchino a sem:Event ;
-    sem:hasPlace ng:Museu_Picasso ;
-    rdfs:comment "Harlequin (, Italian: Arlecchino, Italian: [arlekˈkiːno]; Lombard: Arlechin, Lombard: [arleˈki]) is the best-known of the comic servant characters (Zanni) from the Italian commedia dell'arte, associated with the city of Bergamo. The role is traditionally believed to have been introduced by the Italian actor-manager Zan Ganassa in the late 16th century,. It was definitively popularized by the Italian actor Tristano Martinelli in Paris in 1584–1585, and became a stock character after Martinelli's death in 1630." .
-
-ng:Claude_Picasso a sem:Event ;
-    sem:hasTimeStamp "1947-05-15"^^xsd:date ;
-    rdfs:comment "Claude Ruiz Picasso (15 May 1947 – 24 August 2023) was a French photographer, cinematographer, film director, visual artist, graphic designer, businessman, and the third child of the artist Pablo Picasso." .
-
-ng:David_Hockney a sem:Event ;
-    sem:hasTimeStamp "1937-07-09"^^xsd:date ;
-    rdfs:comment "David Hockney (born 9 July 1937) is an English painter, draughtsman, printmaker, stage designer, and photographer. As an important contributor to the pop art movement of the 1960s, he is considered one of the most influential British artists of the 20th and 21st centuries. Hockney has owned residences and studios in Bridlington and London as well as two residences in California, where he has lived intermittently since 1964: one in the Hollywood Hills, one in Malibu." .
-
-ng:Dora_Maar a sem:Event ;
-    sem:hasTimeStamp "1907-11-22"^^xsd:date ;
-    rdfs:comment "Henriette Theodora Markovitch (22 November 1907 – 16 July 1997), known as Dora Maar, was a French photographer and painter. Maar was both a pioneering Surrealist artist and an antifascist activist. Maar was depicted in a number of Picasso's paintings, including his Portrait of Dora Maar and Dora Maar au Chat." .
-
-ng:El_abrazo a sem:Event ;
-    sem:hasPlace ng:Museu_Picasso ;
-    rdfs:comment "El abrazo (\"The Embrace\" in Spanish) may refer to:" .
-
-ng:Emmanuel_Guigon a sem:Event ;
-    sem:hasTimeStamp "1959-01-01"^^xsd:date ;
-    rdfs:comment "Emmanuel Guigon , born March 15, 1959, in Morteau, is a museologist, holds a doctorate in art history and is the current director of the Museu Picasso in Barcelona. He holds dual French-Swiss nationality. Guigon earned his doctorate in contemporary art at the Paris-Sorbonne University (France), and is a specialist in historical avant-gardes, surrealism, modern Spanish art and European post-war art." .
-
-ng:Eva_Gouel a sem:Event ;
-    sem:hasTimeStamp "1915-12-14"^^xsd:date ;
-    rdfs:comment "Eva Gouel (1885–December 14, 1915) was a French choreographer and the second girlfriend of the Spanish painter Pablo Picasso during the early 1910s. She was the inspiration for several of his paintings, including Ma Jolie (1912)." .
-
-ng:Fernande_Olivier a sem:Event ;
-    sem:hasTimeStamp "1881-06-06"^^xsd:date ;
-    rdfs:comment "Fernande Olivier (born Amélie Lang; 6 June 1881 – 29 January 1966) was a French artist and model known primarily for having been the model and first muse of painter Pablo Picasso, and for her written accounts of her relationship with him. Picasso painted over 60 portraits of Olivier." .
-
-ng:Ibrahim_Kodra a sem:Event ;
-    sem:hasTimeStamp "1918-04-22"^^xsd:date ;
-    rdfs:comment "Ibrahim Likmetaj Kodra (22 April 1918 – 7 February 2006) was an Albanian painter." .
-
-ng:Jacqueline_Roque a sem:Event ;
-    sem:hasTimeStamp "1926-02-24"^^xsd:date ;
-    rdfs:comment "Jacqueline Picasso or Jacqueline Roque (24 February 1926 – 15 October 1986) was the muse and second wife of Pablo Picasso. Their marriage lasted 12 years until his death, during which time he created over 400 portraits of her, more than any of Picasso's other lovers." .
-
-ng:John_Cale a sem:Event ;
+ng:Pablo_Picasso_producer_John_Cale a sem:Event ;
+    ng:object "John Cale" ;
+    ng:property "producer" ;
+    ng:subject "Pablo Picasso" ;
     sem:hasActor ng:Life_Along_the_Borderline ;
-    sem:hasTimeStamp "1942-03-09"^^xsd:date ;
-    rdfs:comment "John Davies Cale (born 9 March 1942) is a Welsh singer, musician, composer, record producer and arranger. He is a founding member of the influential American rock band the Velvet Underground, with whom he recorded two studio albums. Over his six-decade career, Cale has worked in various styles of rock and avant-garde music." .
+    sem:hasTimeStamp "1942-03-09"^^xsd:date .
 
-ng:Jonathan_Richman a sem:Event ;
-    sem:hasTimeStamp "1951-05-16"^^xsd:date ;
-    rdfs:comment "Jonathan Michael Richman (born May 16, 1951) is an American singer, songwriter and guitarist. In 1970, he founded the Modern Lovers, an influential proto-punk band. Since the mid-1970s, Richman has worked either solo or with low-key acoustic and electric backing." .
+ng:Pablo_Picasso_student_of_Isidoro_Brocos a sem:Event ;
+    ng:object "Isidoro Brocos" ;
+    ng:property "student of" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Josefa_Ruiz_Blasco a sem:Event ;
-    sem:hasTimeStamp "1825-01-01"^^xsd:date ;
-    rdfs:comment "Josefa Ruiz Blasco (Málaga 1825-1901) was the aunt of Pablo Picasso and the eldest of the eleven brothers and sisters of the Ruiz Blasco family. he lived with her sister and brother Matilde and José (Picasso’s father) in the Plaça de la Merced of Málaga until he got married and then she went to live with her youngest brother Salvador. Josefa Ruiz was a spinster, known for her strong character, her bad moods and extreme religiosity." .
+ng:Self_portrait_Picasso_1896_creator_Juan_Gris a sem:Event ;
+    ng:object "Juan Gris" ;
+    ng:property "creator" ;
+    ng:subject "Self portrait (Picasso, 1896)" ;
+    sem:hasTimeStamp "1890-01-01"^^xsd:date .
 
-ng:Juan_Gris a sem:Event ;
-    sem:hasTimeStamp "1887-03-23"^^xsd:date ;
-    rdfs:comment "José Victoriano González-Pérez (23 March 1887 – 11 May 1927), better known as Juan Gris (Spanish: [ˈxwaŋ ˈɡɾis]; French: [gʀi]), was a Spanish painter born in Madrid who lived and worked in France for most of his active period. Closely connected to the innovative artistic genre Cubism, his works are among the movement's most distinctive." .
+ng:Emmanuel_Guigon_employer_Museu_Picasso a sem:Event ;
+    ng:object "Museu Picasso" ;
+    ng:property "employer" ;
+    ng:subject "Emmanuel Guigon" ;
+    sem:hasTimeStamp "2016-06-23"^^xsd:date .
 
-ng:Las_Meninas a sem:Event ;
-    sem:hasPlace ng:Museu_Picasso ;
-    rdfs:comment "Las Meninas (Spanish for 'The Ladies-in-waiting' pronounced [las meˈninas]) is a 1656 painting in the Museo del Prado in Madrid, by Diego Velázquez, the leading artist in the court of King Philip&#160;IV of Spain and Portugal, and of the Spanish Golden Age. It has become one of the most widely analyzed works in Western painting for the way its complex and enigmatic composition raises questions about reality and illusion, and for the uncertain relationship it creates between the viewer and the figures depicted. The painting is believed by the art historian F. J. Sánchez Cantón to depict a room in",
-        "Las Meninas is a series of 58 paintings that Pablo Picasso painted in 1957 by performing a comprehensive analysis, reinterpreting and recreating several times Las Meninas by Diego Velazquez. The suite is fully preserved at the Museu Picasso in Barcelona and is the only complete series of the artist that remains together. This is a very extensive survey work, which consists of 45 performances of the original picture, 9 scenes of a dove, 3 landscapes, and a portrait of his second wife Jacqueline." .
+ng:Pablo_Picasso_child_Claude_Picasso a sem:Event ;
+    ng:object "Claude Picasso" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Margot a sem:Event ;
-    sem:hasPlace ng:Museu_Picasso ;
-    rdfs:comment "Margot ( MAR-goh, MAR-gət, French: [maʁɡo]) is a feminine given name, a French diminutive of Marguerite that has long been used as an independent name. Variant spellings in use include Margo and Margaux. It is also occasionally a surname." .
+ng:Pablo_Picasso_child_Maya_Widmaier_Picasso a sem:Event ;
+    ng:object "Maya Widmaier-Picasso" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Maya_Widmaier_Picasso a sem:Event ;
-    sem:hasTimeStamp "1935-09-05"^^xsd:date ;
-    rdfs:comment "María de la Concepción \"Maya\" Widmaier-Picasso (5 September 1935 – 20 December 2022), later known as Maya Ruiz-Picasso, was the eldest daughter of Spanish painter Pablo Picasso and Marie-Thérèse Walter. She devoted part of her life to the study and preservation of the legacy of her father." .
+ng:Pablo_Picasso_child_Paloma_Ruiz_Picasso a sem:Event ;
+    ng:object "Paloma  Ruiz Picasso" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Minotauromachy a sem:Event ;
-    rdfs:comment "Minotauromachy (La Minotauromachie) is a 19.5 by 27.4” etching and engraving created by Spanish artist Pablo Picasso in Paris in 1935. The etching and resulting prints, literally entitled Minotaur Battle, feature many compositional aspects and themes seen often in Picasso’s art throughout the 1930s. These include the Minotaur, an unconscious or dying female matador on an injured horse, a young girl holding a candle and flowers, a man scaling a ladder, and two women watching with doves from a window." .
+ng:Pablo_Picasso_child_Paulo_Ruiz_Picasso a sem:Event ;
+    ng:object "Paulo Ruiz Picasso" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Norman_Mailer a sem:Event ;
-    sem:hasTimeStamp "2007-11-10"^^xsd:date ;
-    rdfs:comment "Nachem Malech Mailer (January 31, 1923 – November 10, 2007), known by his pen name Norman Kingsley Mailer, was an American writer, journalist, and filmmaker. In a career spanning more than six decades, Mailer had 11 best-selling books, at least one in each of the seven decades after World War II. His novel The Naked and the Dead was published in 1948 and brought him early renown. His 1968 nonfiction novel The Armies of the Night won the Pulitzer Prize for nonfiction as well as the National Book Award." .
+ng:Pablo_Picasso_mother_Maria_Picasso_y_L_pez a sem:Event ;
+    ng:object "Maria Picasso y López" ;
+    ng:property "mother" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Olga_Khokhlova a sem:Event ;
-    sem:hasTimeStamp "1891-06-17"^^xsd:date ;
-    rdfs:comment "Olga Picasso (born Olga Stepanovna Khokhlova; Russian: Ольга Степановна Хохлова; 17 June 1891 – 11 February 1955) was a Russian ballet dancer in the Ballets Russes, directed by Sergei Diaghilev and based in Paris. There she met and married the artist Pablo Picasso, served as one of his early muses, and was the mother of their son, Paul (Paulo)." .
+ng:Pablo_Picasso_partner_Dora_Maar a sem:Event ;
+    ng:object "Dora Maar" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1936-01-01"^^xsd:date .
 
-ng:Paloma_Ruiz_Picasso a sem:Event ;
-    sem:hasTimeStamp "1949-04-01"^^xsd:date ;
-    rdfs:comment "Paloma Picasso (born Anne Paloma Ruiz-Picasso y Gilot on 19 April 1949) is a French jewelry designer and businesswoman. She is best known for her collaboration with Tiffany &amp; Co and her signature perfumes. The daughter of artists Pablo Picasso and Françoise Gilot, she is represented in many of her father's works, such as Paloma with an Orange and Paloma in Blue." .
+ng:Pablo_Picasso_partner_Eva_Gouel a sem:Event ;
+    ng:object "Eva Gouel" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1915-01-01"^^xsd:date .
 
-ng:Picasso a sem:Event ;
-    sem:hasPlace ng:Pieria_quadrangle ;
-    rdfs:comment "Picasso is a crater on Mercury. It has drawn scientific attention because of the large, arc-shaped pit crater located on the eastern side of its floor. Similar pits have been discovered on the floors of several other Mercury craters, such as Beckett, Glinka, and Gibran." .
+ng:Pablo_Picasso_partner_Fernande_Olivier a sem:Event ;
+    ng:object "Fernande Olivier" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1904-01-01"^^xsd:date .
 
-ng:Science_and_Charity a sem:Event ;
-    sem:hasPlace ng:Museu_Picasso ;
-    rdfs:comment "Science and Charity is an oil on canvas painting by Pablo Picasso, which he painted in Barcelona in 1897. It is an example of one of Picasso's earliest works, as he painted it when he was only 15 years old. The painting depicts a formal composition of a sick patient in bed, attended by a doctor and a nun holding a child." .
+ng:Pablo_Picasso_partner_Fran_oise_Gilot a sem:Event ;
+    ng:object "Françoise Gilot" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1948-01-01"^^xsd:date .
 
-ng:Tsuguharu_Foujita a sem:Event ;
-    sem:hasActor ng:1936_Summer_Olympics ;
-    sem:hasTimeStamp "1886-11-27"^^xsd:date ;
-    rdfs:comment "Léonard Tsuguharu Foujita (藤田 嗣治, Fujita Tsuguharu; 27 November 1886 – 29 January 1968) was a Japanese-French painter. After studying Western-style painting in Japan, Foujita travelled to Paris, where he encountered the international modern art scene of the Montparnasse neighbourhood and developed an eclectic style that borrowed from both Japanese and European artistic traditions. With his unusual fashion and distinctive figurative style, Foujita reached the height of his fame in 1920s Paris." .
+ng:Pablo_Picasso_partner_Marie_Th_r_se_Walter a sem:Event ;
+    ng:object "Marie-Thérèse Walter" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1927-01-01"^^xsd:date .
 
-ng:Wassily_Kandinski a sem:Event ;
-    sem:hasTimeStamp "1866-12-06"^^xsd:date ;
-    rdfs:comment "Wassily Wassilyevich Kandinsky (16 December&#160;[O.S. 4 December]&#160;1866&#160;– 13 December 1944) was a Russian painter and art theorist active in Germany during the late Belle Époque and Interwar eras. Kandinsky is generally credited as one of the pioneers of abstraction in Western art. Born in Moscow, he began painting studies (life-drawing, sketching and anatomy) at the age of&#160;30." .
+ng:Pablo_Picasso_partner_Nusch_luard a sem:Event ;
+    ng:object "Nusch Éluard" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 
-ng:Museu_Picasso a sem:Event ;
-    rdfs:comment "The Museu Picasso (Catalan pronunciation: [muˈzɛw piˈkasu], \"Picasso Museum\") is an art museum in Barcelona, in Catalonia, Spain. It houses an extensive collection of artworks by the twentieth-century Spanish artist Pablo Picasso, with a total of 4251 of his works. It is housed in five adjoining medieval palaces on Montcada Street in the La Ribera neighborhood in the Old City of Barcelona." .
+ng:Pablo_Picasso_spouse_Fran_oise_Gilot a sem:Event ;
+    ng:object "Françoise Gilot" ;
+    ng:property "spouse" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1944-01-01"^^xsd:date .
+
+ng:Pablo_Picasso_spouse_Jacqueline_Roque a sem:Event ;
+    ng:object "Jacqueline Roque" ;
+    ng:property "spouse" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1961-01-01"^^xsd:date .
+
+ng:Pablo_Picasso_spouse_Olga_Khokhlova a sem:Event ;
+    ng:object "Olga Khokhlova" ;
+    ng:property "spouse" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1918-01-01"^^xsd:date .
+
+ng:Picasso_s_Arenas_architect_Manuel_N_ez_Yanowsky a sem:Event ;
+    ng:object "Manuel Núñez Yanowsky" ;
+    ng:property "architect" ;
+    ng:relatesTo ng:Manuel_N_ez_Yanowsky_notable_work_Picasso_s_Arenas ;
+    ng:subject "Picasso's Arenas" ;
+    sem:hasTimeStamp "1985-01-01"^^xsd:date .
+
+ng:Portrait_de_la_m_re_de_l_artiste_depicts_Maria_Picasso_y_L_pez a sem:Event ;
+    ng:object "Maria Picasso y López" ;
+    ng:property "depicts" ;
+    ng:subject "Portrait de la mère de l'artiste" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Manuel_N_ez_Yanowsky_notable_work_Picasso_s_Arenas a sem:Event ;
+    ng:object "Picasso's Arenas" ;
+    ng:property "notable work" ;
+    ng:relatesTo ng:Picasso_s_Arenas_architect_Manuel_N_ez_Yanowsky ;
+    ng:subject "Manuel Núñez Yanowsky" ;
+    sem:hasTimeStamp "1942-07-22"^^xsd:date .
+
+ng:Pablo_Picasso_father_Jos_Ruiz_y_Blasco a sem:Event ;
+    ng:object "José Ruiz y Blasco" ;
+    ng:property "father" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Pablo_Picasso_student_of_Jos_Ruiz_y_Blasco a sem:Event ;
+    ng:object "José Ruiz y Blasco" ;
+    ng:property "student of" ;
+    ng:relatesTo ng:Al_camerino_author_Pablo_Picasso,
+        ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso,
+        ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso,
+        ng:Arlecchino_creator_Pablo_Picasso,
+        ng:Autoretrat_amb_perruca_creator_Pablo_Picasso,
+        ng:Azoteas_de_Barcelona_creator_Pablo_Picasso,
+        ng:Barraca_de_feria_creator_Pablo_Picasso,
+        ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso,
+        ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso,
+        ng:Caballo_corneado_creator_Pablo_Picasso,
+        ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso,
+        ng:Casa_Museo_Picasso_named_after_Pablo_Picasso,
+        ng:Claude_Picasso_father_Pablo_Picasso,
+        ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso,
+        ng:David_Hockney_influenced_by_Pablo_Picasso,
+        ng:De_eerste_communie_creator_Pablo_Picasso,
+        ng:Desamparados_Picasso_creator_Pablo_Picasso,
+        ng:Dona_amb_mantellina_creator_Pablo_Picasso,
+        ng:Dora_Maar_partner_Pablo_Picasso,
+        ng:El_Paseo_de_Col_n_creator_Pablo_Picasso,
+        ng:El_Piano_creator_Pablo_Picasso,
+        ng:El_abrazo_creator_Pablo_Picasso,
+        ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso,
+        ng:El_divan_creator_Pablo_Picasso,
+        ng:El_final_del_n_mero_creator_Pablo_Picasso,
+        ng:El_foll_creator_Pablo_Picasso,
+        ng:El_mas_del_Quiquet_creator_Pablo_Picasso,
+        ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso,
+        ng:Eva_Gouel_partner_Pablo_Picasso,
+        ng:Fernande_Olivier_partner_Pablo_Picasso,
+        ng:Fran_oise_Gilot_partner_Pablo_Picasso,
+        ng:Fruitera_creator_Pablo_Picasso,
+        ng:Hombre_con_boina_creator_Pablo_Picasso,
+        ng:Hombre_sentado_creator_Pablo_Picasso,
+        ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso,
+        ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso,
+        ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso,
+        ng:Jacqueline_Roque_spouse_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso,
+        ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso,
+        ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso,
+        ng:Kulo_Green_student_of_Pablo_Picasso,
+        ng:L_apat_frugal_creator_Pablo_Picasso,
+        ng:L_attesa_Margot_creator_Pablo_Picasso,
+        ng:L_ofrena_creator_Pablo_Picasso,
+        ng:La_Minotauromaquia_creator_Pablo_Picasso,
+        ng:La_copa_blava_creator_Pablo_Picasso,
+        ng:La_dona_de_la_c_fia_creator_Pablo_Picasso,
+        ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso,
+        ng:La_nana_creator_Pablo_Picasso,
+        ng:Las_Meninas_creator_Pablo_Picasso,
+        ng:Lola_the_artist_s_sister_creator_Pablo_Picasso,
+        ng:Madre_con_bambino_malato_creator_Pablo_Picasso,
+        ng:Margot_creator_Pablo_Picasso,
+        ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso,
+        ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso,
+        ng:Maya_Widmaier_Picasso_father_Pablo_Picasso,
+        ng:Minotauromachy_creator_Pablo_Picasso,
+        ng:Museu_Picasso_named_after_Pablo_Picasso,
+        ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso,
+        ng:Norman_Mailer_influenced_by_Pablo_Picasso,
+        ng:Nusch_luard_partner_Pablo_Picasso,
+        ng:Olga_Khokhlova_spouse_Pablo_Picasso,
+        ng:Pablo_Picasso_named_after_Pablo_Picasso,
+        ng:Paesaggio_con_montagne_creator_Pablo_Picasso,
+        ng:Painter_at_work_creator_Pablo_Picasso,
+        ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso,
+        ng:Personatge_amb_fruitera_creator_Pablo_Picasso,
+        ng:Picasso_named_after_Pablo_Picasso,
+        ng:Picasso_s_Arenas_named_after_Pablo_Picasso,
+        ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso,
+        ng:Poeta_decadente_creator_Pablo_Picasso,
+        ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso,
+        ng:Primera_Comuni_creator_Pablo_Picasso,
+        ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso,
+        ng:Retrat_de_Jacqueline_creator_Pablo_Picasso,
+        ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso,
+        ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso,
+        ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso,
+        ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso,
+        ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso,
+        ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso,
+        ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso,
+        ng:Salvador_Dali_influenced_by_Pablo_Picasso,
+        ng:Science_and_Charity_creator_Pablo_Picasso,
+        ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso,
+        ng:Wassily_Kandinski_influenced_by_Pablo_Picasso,
+        ng:place_Pablo_Picasso_named_after_Pablo_Picasso ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Al_camerino_author_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "author" ;
+    ng:subject "Al camerino" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Amedeo_Modigliani_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "Amedeo Modigliani" ;
+    sem:hasTimeStamp "1884-07-12"^^xsd:date .
+
+ng:Arlecchino_Pablo_Picasso_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Arlecchino (Pablo Picasso)" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Arlecchino_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Arlecchino" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Autoretrat_amb_perruca_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Autoretrat amb perruca" ;
+    sem:hasTimeStamp "1897-01-01"^^xsd:date .
+
+ng:Azoteas_de_Barcelona_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Azoteas de Barcelona" ;
+    sem:hasTimeStamp "1903-01-01"^^xsd:date .
+
+ng:Barraca_de_feria_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Barraca de feria" ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date .
+
+ng:Blanquita_Su_rez_painting_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Blanquita Suárez (painting)" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Bobigny_Pablo_Picasso_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:subject "Bobigny – Pablo Picasso" ;
+    sem:hasTimeStamp "1985-01-01"^^xsd:date .
+
+ng:Bodeg_n_Picasso_1901_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Bodegón (Picasso 1901)" ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date .
+
+ng:Caballo_corneado_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Caballo corneado" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Cabeza_de_mujer_Fernande_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Cabeza de mujer (Fernande)" ;
+    sem:hasTimeStamp "1906-01-01"^^xsd:date .
+
+ng:Casa_Museo_Picasso_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:subject "Casa Museo Picasso" ;
+    sem:hasTimeStamp "2002-12-18"^^xsd:date .
+
+ng:Claude_Picasso_father_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "father" ;
+    ng:relatesTo ng:Pablo_Picasso_child_Claude_Picasso ;
+    ng:subject "Claude Picasso" ;
+    sem:hasTimeStamp "1947-05-15"^^xsd:date .
+
+ng:Copa_i_paquet_de_tabac_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Copa i paquet de tabac" ;
+    sem:hasTimeStamp "1924-01-01"^^xsd:date .
+
+ng:David_Hockney_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "David Hockney" ;
+    sem:hasTimeStamp "1937-07-09"^^xsd:date .
+
+ng:De_eerste_communie_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "De eerste communie" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Desamparados_Picasso_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Desamparados (Picasso)" ;
+    sem:hasTimeStamp "1903-01-01"^^xsd:date .
+
+ng:Dona_amb_mantellina_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Dona amb mantellina" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Dora_Maar_partner_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Pablo_Picasso_partner_Dora_Maar ;
+    ng:subject "Dora Maar" ;
+    sem:hasTimeStamp "1907-11-22"^^xsd:date .
+
+ng:El_Paseo_de_Col_n_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El Paseo de Colón" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:El_Piano_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El Piano" ;
+    sem:hasTimeStamp "1957-01-01"^^xsd:date .
+
+ng:El_abrazo_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El abrazo" ;
+    sem:hasTimeStamp "1900-01-01"^^xsd:date .
+
+ng:El_carrer_de_la_Riera_de_Sant_Joan_des_de_la_finestra_de_l_estudi_de_l_artista_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El carrer de la Riera de Sant Joan, des de la finestra de l'estudi de l'artista" ;
+    sem:hasTimeStamp "1900-01-01"^^xsd:date .
+
+ng:El_divan_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El divan" ;
+    sem:hasTimeStamp "1899-01-01"^^xsd:date .
+
+ng:El_final_del_n_mero_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El final del número" ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date .
+
+ng:El_foll_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El foll" ;
+    sem:hasTimeStamp "1904-01-01"^^xsd:date .
+
+ng:El_mas_del_Quiquet_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "El mas del Quiquet" ;
+    sem:hasTimeStamp "1898-01-01"^^xsd:date .
+
+ng:Escena_de_corrida_con_pescado_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Escena de corrida con pescado" ;
+    sem:hasTimeStamp "1957-01-01"^^xsd:date .
+
+ng:Eva_Gouel_partner_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Pablo_Picasso_partner_Eva_Gouel ;
+    ng:subject "Eva Gouel" ;
+    sem:hasTimeStamp "1915-12-14"^^xsd:date .
+
+ng:Fernande_Olivier_partner_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Pablo_Picasso_partner_Fernande_Olivier ;
+    ng:subject "Fernande Olivier" ;
+    sem:hasTimeStamp "1881-06-06"^^xsd:date .
+
+ng:Fran_oise_Gilot_partner_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Pablo_Picasso_partner_Fran_oise_Gilot,
+        ng:Pablo_Picasso_spouse_Fran_oise_Gilot ;
+    ng:subject "Françoise Gilot" ;
+    sem:hasTimeStamp "1948-01-01"^^xsd:date .
+
+ng:Fruitera_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Fruitera" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Hombre_con_boina_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Hombre con boina" ;
+    sem:hasTimeStamp "1895-01-01"^^xsd:date .
+
+ng:Hombre_sentado_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Hombre sentado" ;
+    sem:hasTimeStamp "1969-01-01"^^xsd:date .
+
+ng:Home_recolzat_en_una_paret_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Home recolzat en una paret" ;
+    sem:hasTimeStamp "1899-01-01"^^xsd:date .
+
+ng:Ibrahim_Kodra_exhibition_history_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "exhibition history" ;
+    ng:subject "Ibrahim Kodra" ;
+    sem:hasTimeStamp "1918-04-22"^^xsd:date .
+
+ng:Ibrahim_Kodra_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "Ibrahim Kodra" ;
+    sem:hasTimeStamp "1918-04-22"^^xsd:date .
+
+ng:Jacqueline_Roque_spouse_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "spouse" ;
+    ng:relatesTo ng:Pablo_Picasso_spouse_Jacqueline_Roque ;
+    ng:subject "Jacqueline Roque" ;
+    sem:hasTimeStamp "1961-01-01"^^xsd:date .
+
+ng:Jos_Ruiz_y_Blasco_child_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Pablo_Picasso_father_Jos_Ruiz_y_Blasco,
+        ng:Pablo_Picasso_student_of_Jos_Ruiz_y_Blasco ;
+    ng:subject "José Ruiz y Blasco" ;
+    sem:hasTimeStamp "1838-01-01"^^xsd:date .
+
+ng:Jos_Ruiz_y_Blasco_student_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "student" ;
+    ng:relatesTo ng:Pablo_Picasso_father_Jos_Ruiz_y_Blasco,
+        ng:Pablo_Picasso_student_of_Jos_Ruiz_y_Blasco ;
+    ng:subject "José Ruiz y Blasco" ;
+    sem:hasTimeStamp "1838-01-01"^^xsd:date .
+
+ng:Josefa_Ruiz_Blasco_relative_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "relative" ;
+    ng:subject "Josefa Ruiz Blasco" ;
+    sem:hasTimeStamp "1825-01-01"^^xsd:date .
+
+ng:Kulo_Green_student_of_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "student of" ;
+    ng:subject "Kulo Green" ;
+    sem:hasTimeStamp "1913-12-04"^^xsd:date .
+
+ng:L_apat_frugal_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "L'apat frugal" ;
+    sem:hasTimeStamp "1904-01-01"^^xsd:date .
+
+ng:L_attesa_Margot_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "L'attesa (Margot)" ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date .
+
+ng:L_ofrena_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "L'ofrena" ;
+    sem:hasTimeStamp "1908-01-01"^^xsd:date .
+
+ng:La_Minotauromaquia_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "La Minotauromaquia" ;
+    sem:hasTimeStamp "1935-01-01"^^xsd:date .
+
+ng:La_copa_blava_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "La copa blava" ;
+    sem:hasTimeStamp "1903-01-01"^^xsd:date .
+
+ng:La_dona_de_la_c_fia_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "La dona de la còfia" ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date .
+
+ng:La_dona_del_floc_de_cabells_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "La dona del floc de cabells" ;
+    sem:hasTimeStamp "1903-01-01"^^xsd:date .
+
+ng:La_nana_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "La nana" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Las_Meninas_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Las Meninas" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Lola_the_artist_s_sister_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Lola, the artist's sister" ;
+    sem:hasTimeStamp "1899-01-01"^^xsd:date .
+
+ng:Madre_con_bambino_malato_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Madre con bambino malato" ;
+    sem:hasTimeStamp "1903-01-01"^^xsd:date .
+
+ng:Margot_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Margot" ;
+    sem:hasTimeStamp "1901-01-01"^^xsd:date .
+
+ng:Maria_Picasso_y_L_pez_child_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Pablo_Picasso_mother_Maria_Picasso_y_L_pez,
+        ng:Portrait_de_la_m_re_de_l_artiste_depicts_Maria_Picasso_y_L_pez ;
+    ng:subject "Maria Picasso y López" ;
+    sem:hasTimeStamp "1855-01-01"^^xsd:date .
+
+ng:Marie_Th_r_se_Walter_partner_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Pablo_Picasso_partner_Marie_Th_r_se_Walter ;
+    ng:subject "Marie-Thérèse Walter" ;
+    sem:hasTimeStamp "1909-07-13"^^xsd:date .
+
+ng:Maya_Widmaier_Picasso_father_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "father" ;
+    ng:relatesTo ng:Pablo_Picasso_child_Maya_Widmaier_Picasso ;
+    ng:subject "Maya Widmaier-Picasso" ;
+    sem:hasTimeStamp "1935-09-05"^^xsd:date .
+
+ng:Minotauromachy_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Minotauromachy" ;
+    sem:hasTimeStamp "1934-01-01"^^xsd:date .
+
+ng:Museu_Picasso_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:relatesTo ng:Emmanuel_Guigon_employer_Museu_Picasso ;
+    ng:subject "Museu Picasso" ;
+    sem:hasTimeStamp "1963-01-01"^^xsd:date .
+
+ng:Museum_Picasso_Eugenio_Arias_Collection_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:subject "Museum Picasso Eugenio Arias' Collection" ;
+    sem:hasTimeStamp "1985-01-01"^^xsd:date .
+
+ng:Norman_Mailer_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "Norman Mailer" ;
+    sem:hasTimeStamp "2007-11-10"^^xsd:date .
+
+ng:Nusch_luard_partner_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Pablo_Picasso_partner_Nusch_luard ;
+    ng:subject "Nusch Éluard" ;
+    sem:hasTimeStamp "1906-06-21"^^xsd:date .
+
+ng:Olga_Khokhlova_spouse_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "spouse" ;
+    ng:relatesTo ng:Pablo_Picasso_spouse_Olga_Khokhlova ;
+    ng:subject "Olga Khokhlova" ;
+    sem:hasTimeStamp "1918-01-01"^^xsd:date .
+
+ng:Pablo_Picasso_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:subject "Pablo Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Paesaggio_con_montagne_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Paesaggio con montagne" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Painter_at_work_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Painter at work" ;
+    sem:hasTimeStamp "1965-03-31"^^xsd:date .
+
+ng:Paloma_Ruiz_Picasso_father_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "father" ;
+    ng:relatesTo ng:Pablo_Picasso_child_Paloma_Ruiz_Picasso ;
+    ng:subject "Paloma  Ruiz Picasso" ;
+    sem:hasTimeStamp "1949-04-01"^^xsd:date .
+
+ng:Paulo_Ruiz_Picasso_father_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "father" ;
+    ng:relatesTo ng:Pablo_Picasso_child_Paulo_Ruiz_Picasso ;
+    ng:subject "Paulo Ruiz Picasso" ;
+    sem:hasTimeStamp "1921-08-29"^^xsd:date .
+
+ng:Personatge_amb_fruitera_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Personatge amb fruitera" ;
+    sem:hasTimeStamp "1917-01-01"^^xsd:date .
+
+ng:Picasso_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:subject "Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Picasso_s_Arenas_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:relatesTo ng:Manuel_N_ez_Yanowsky_notable_work_Picasso_s_Arenas ;
+    ng:subject "Picasso's Arenas" ;
+    sem:hasTimeStamp "1985-01-01"^^xsd:date .
+
+ng:Platja_de_la_Barceloneta_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Platja de la Barceloneta" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Poeta_decadente_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Poeta decadente" ;
+    sem:hasTimeStamp "1900-01-01"^^xsd:date .
+
+ng:Portrait_de_la_m_re_de_l_artiste_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Portrait de la mère de l'artiste" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Primera_Comuni_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Primera Comunió" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Retrat_de_Benedetta_Bianco_Senyora_Canals_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat de Benedetta Bianco (Senyora Canals)" ;
+    sem:hasTimeStamp "1905-01-01"^^xsd:date .
+
+ng:Retrat_de_Jacqueline_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat de Jacqueline" ;
+    sem:hasTimeStamp "1957-01-01"^^xsd:date .
+
+ng:Retrat_de_Jaume_Sabart_s_amb_gorgera_i_barret_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat de Jaume Sabartés amb gorgera i barret" ;
+    sem:hasTimeStamp "1939-01-01"^^xsd:date .
+
+ng:Retrat_de_Sebasti_Junyent_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat de Sebastià Junyent" ;
+    sem:hasTimeStamp "1903-01-01"^^xsd:date .
+
+ng:Retrat_de_l_escriptor_Ramon_Revent_s_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat de l'escriptor Ramon Reventós" ;
+    sem:hasTimeStamp "1900-01-01"^^xsd:date .
+
+ng:Retrat_de_la_tia_Pepa_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat de la tia Pepa" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Retrat_del_pare_de_l_artista_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrat del pare de l'artista" ;
+    sem:hasTimeStamp "1896-01-01"^^xsd:date .
+
+ng:Retrato_de_la_t_a_Pepa_sentada_en_una_butaca_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Retrato de la tía Pepa sentada en una butaca" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
+
+ng:Salt_amb_la_garrotxa_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Salt amb la garrotxa" ;
+    sem:hasTimeStamp "1957-01-01"^^xsd:date .
+
+ng:Salvador_Dali_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "Salvador Dali" ;
+    sem:hasTimeStamp "1904-05-11"^^xsd:date .
+
+ng:Science_and_Charity_creator_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "creator" ;
+    ng:subject "Science and Charity" ;
+    sem:hasTimeStamp "1897-01-01"^^xsd:date .
+
+ng:Tsuguharu_Foujita_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "Tsuguharu Foujita" ;
+    sem:hasTimeStamp "1886-11-27"^^xsd:date .
+
+ng:Wassily_Kandinski_influenced_by_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "influenced by" ;
+    ng:subject "Wassily Kandinski" ;
+    sem:hasTimeStamp "1866-12-06"^^xsd:date .
+
+ng:place_Pablo_Picasso_named_after_Pablo_Picasso a sem:Event ;
+    ng:object "Pablo Picasso" ;
+    ng:property "named after" ;
+    ng:subject "place Pablo-Picasso" ;
+    sem:hasTimeStamp "1881-10-25"^^xsd:date .
 

@@ -1,86 +1,1157 @@
 @prefix ng: <http://narrative.graph/entity/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ng:Agostina_Segatori a sem:Event ;
-    sem:hasTimeStamp "1841-01-01"^^xsd:date ;
-    rdfs:comment "Agostina Segatori (Ancona, 1841 - 1910, Paris) was the niece of Fortunata Segatori and a model who posed for painters in Paris, France, such as Édouard Joseph Dantan, Jean-Baptiste-Camille Corot, Jean-Léon Gérôme, Eugène Delacroix, Vincent van Gogh and Édouard Manet. She is also known for running the Café du Tambourin in Paris." .
-
-ng:Anton_Mauve a sem:Event ;
-    sem:hasTimeStamp "1838-09-18"^^xsd:date ;
-    rdfs:comment "Anthonij \"Anton\" Rudolf Mauve (Dutch pronunciation: [ˈɑntɔn ˈmʌuvə]; 18 September 1838&#160;– 5 February 1888) was a Dutch realist painter who was a leading member of the Hague School. He signed his paintings 'A. Mauve' or with a monogrammed 'A.M.'. A master colorist, he was a very significant early influence on his cousin-in-law Vincent van Gogh." .
-
-ng:Cor_van_Gogh a sem:Event ;
-    sem:hasTimeStamp "1867-05-17"^^xsd:date ;
-    rdfs:comment "Cornelis van Gogh (17 May 1867 – 14 April 1900) was a Dutch immigrant and draughtsman who fought and died in South Africa with the Boer foreign volunteers during the Anglo Boer War. He was the youngest brother of the artist Vincent van Gogh." .
-
-ng:Franz_Marc a sem:Event ;
-    sem:hasTimeStamp "1880-02-08"^^xsd:date ;
-    rdfs:comment "Franz Moritz Wilhelm Marc (8 February 1880 – 4 March 1916) was a German painter and printmaker, one of the key figures of German Expressionism. He was a founding member of Der Blaue Reiter (The Blue Rider), a journal whose name later became synonymous with the circle of artists collaborating in it. His mature works mostly are animals, and are known for bright colors." .
-
-ng:Langlois_Bridge a sem:Event ;
-    rdfs:comment "The Langlois Bridge (French: Pont de Langlois) was a double-beam drawbridge in Arles, France, which was the subject of several paintings by Vincent van Gogh in 1888. Being one of eleven drawbridges built by a Dutch engineer along the channel from Arles to Port-de-Bouc, this bridge might have reminded the artist of his homeland." .
-
-ng:Maurice_de_Vlaminck a sem:Event ;
-    sem:hasTimeStamp "1876-04-04"^^xsd:date ;
-    rdfs:comment "Maurice de Vlaminck (French: [vlamɛ̃k]; 4 April 1876 – 11 October 1958) was a French painter. Along with André Derain and Henri Matisse, he is considered one of the principal figures in the Fauve movement, a group of modern artists who from 1904 to 1908 were united in their use of intense colour. Vlaminck was one of the Fauves at the controversial Salon d'Automne exhibition of 1905." .
-
-ng:Paul_Gauguin a sem:Event ;
+ng:Self_Portrait_Dedicated_to_Paul_Gauguin_dedicated_to_Paul_Gauguin a sem:Event ;
+    ng:object "Paul Gauguin" ;
+    ng:property "dedicated to" ;
+    ng:subject "Self-Portrait Dedicated to Paul Gauguin" ;
     sem:hasActor ng:The_Volpini_Exhibition_1889 ;
-    sem:hasTimeStamp "1848-06-07"^^xsd:date ;
-    rdfs:comment "Eugène Henri Paul Gauguin (; French: [øʒɛn ɑ̃ʁi pɔl ɡoɡɛ̃]; 7 June 1848 – 8 May 1903) was a French painter, sculptor, printmaker, ceramist, and writer, whose work has been primarily associated with the Post-Impressionist and Symbolist movements. He was also an influential practitioner of wood engraving and woodcuts as art forms. While only moderately successful during his lifetime, Gauguin has since been recognized for his experimental use of color and Synthetist style that were distinct from Impressionism." .
+    sem:hasTimeStamp "1888-09-01"^^xsd:date .
 
-ng:Self_Portrait a sem:Event ;
-    sem:hasPlace ng:Art_Institute_of_Chicago,
-        ng:Metropolitan_Museum_of_Art,
-        ng:Van_Gogh_Museum ;
-    rdfs:comment "Self-portraits are portraits artists make of themselves. Although self-portraits have been made since the earliest times, it is not until the mid-15th century that artists can be frequently identified depicting themselves, as either the main subject or important characters in their work. With better and cheaper mirrors, and the advent of the panel portrait, many painters, sculptors and printmakers tried some form of self-portraiture." .
+ng:The_Painter_of_Sunflowers_creator_Paul_Gauguin a sem:Event ;
+    ng:object "Paul Gauguin" ;
+    ng:property "creator" ;
+    ng:subject "The Painter of Sunflowers" ;
+    sem:hasActor ng:The_Volpini_Exhibition_1889 ;
+    sem:hasTimeStamp "1888-12-01"^^xsd:date .
 
-ng:Self_Portrait_With_a_Bandaged_Ear a sem:Event ;
-    sem:hasPlace ng:Courtauld_Gallery ;
-    rdfs:comment "Self-Portrait with Bandaged Ear is an 1889 self-portrait by Dutch Post-Impressionist artist Vincent van Gogh. The painting is in the collection of the Courtauld Institute of Art and on display in the Gallery at Somerset House. The painting includes inspiration from Japanese woodblock printing." .
+ng:Vincent_van_Gogh_creator_John_Peter_Russell a sem:Event ;
+    ng:object "John Peter Russell" ;
+    ng:property "creator" ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1886-01-01"^^xsd:date .
 
-ng:Self_portrait_without_beard a sem:Event ;
-    rdfs:comment "Self-portrait without beard, also known as Peasant of Zundert, is an 1889 oil on canvas painting by the Post-Impressionist artist Vincent van Gogh. The picture, which may have been Van Gogh's last self-portrait, was painted in September that year. The self-portrait is one of the most expensive paintings of all time, selling for $71.5 million in 1998 in New York City." .
+ng:Vincent_van_Gogh_influenced_by_Jean_Fran_ois_Millet a sem:Event ;
+    ng:object "Jean-François Millet" ;
+    ng:property "influenced by" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Sien_Hoornik a sem:Event ;
-    sem:hasTimeStamp "1850-01-01"^^xsd:date ;
-    rdfs:comment "Vincent van Gogh drew and painted a series of works of his mistress Sien during their time together in the Netherlands. In particular, his drawing Sorrow is widely acknowledged as a masterwork of draftsmanship, the culmination of a long and sometimes uncertain apprenticeship in learning his craft. Commonly called Sien Hoornik, Clasina Maria Hoornik (1850–1904) lived with van Gogh during much of his time in The Hague from 1881 to 1883." .
+ng:Vincent_van_Gogh_influenced_by_Paul_C_zanne a sem:Event ;
+    ng:object "Paul Cézanne" ;
+    ng:property "influenced by" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:The_Painter_of_Sunflowers a sem:Event ;
-    sem:hasPlace ng:Van_Gogh_Museum ;
-    rdfs:comment "The Painter of Sunflowers (in French: Le Peintre de Tournesols) is a portrait of Vincent van Gogh by Paul Gauguin. Van Gogh is depicted sitting before an easel, presumably painting his \"Sunflower\" series. The work, which is a piece from Gauguin's \"Arles Period\", was created in Arles, France, in December, 1888." .
+ng:Vincent_van_Gogh_influenced_by_Paul_Gauguin a sem:Event ;
+    ng:object "Paul Gauguin" ;
+    ng:property "influenced by" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasActor ng:The_Volpini_Exhibition_1889 ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Theo_van_Doesburg a sem:Event ;
-    sem:hasTimeStamp "1883-08-30"^^xsd:date ;
-    rdfs:comment "Theo van Doesburg (Dutch: [ˈteːjoː vɑn ˈduzbʏr(ə)x]; born Christian Emil Marie Küpper; 30 August 1883 – 7 March 1931) was a Dutch painter, writer, poet, and architect. He is best known as the founder and leader of De Stijl." .
+ng:Vincent_van_Gogh_influenced_by_Willem_Roelofs a sem:Event ;
+    ng:object "Willem Roelofs" ;
+    ng:property "influenced by" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Theo_van_Gogh a sem:Event ;
-    sem:hasTimeStamp "1857-05-01"^^xsd:date ;
-    rdfs:comment "Theodorus van Gogh (Dutch: [teːjoːˈdoːrʏs ˈteːjoː vɑŋ ˈɣɔx]; 1 May 1857 – 25 January 1891) was a Dutch art dealer and a younger brother of Vincent van Gogh. His support of his older brother's artistic ambitions and well-being allowed Vincent to devote himself entirely to painting. As an art dealer, Van Gogh played a crucial role in introducing contemporary French art to the public." .
+ng:Vincent_van_Gogh_father_Theodorus_van_Gogh a sem:Event ;
+    ng:object "Theodorus van Gogh" ;
+    ng:property "father" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Van_Gogh a sem:Event ;
-    sem:hasPlace ng:Bach_quadrangle ;
-    rdfs:comment "Van Gogh is a 1991 French biographical drama film written, produced and directed by Maurice Pialat. It stars Jacques Dutronc in the role of Dutch painter Vincent van Gogh, for which he won the 1992 César Award for Best Actor. Set in 1890, the film follows the last 67 days of Van Gogh's life and explores his relationships with his brother Theo, his physician Paul Gachet (most famous as the subject of Van Gogh's painting Portrait of Dr." .
+ng:Vincent_van_Gogh_influenced_by_Anton_Mauve a sem:Event ;
+    ng:object "Anton Mauve" ;
+    ng:property "influenced by" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Vincent_Award a sem:Event ;
-    rdfs:comment "The Vincent Award was a Dutch prize awarded to a European artist whose works were deemed highly relevant in contemporary art. The award was awarded every two years in the Netherlands from the year 2000 to 2014. Five artists were nominated, and their work was exhibited at the Stedelijk Museum in Amsterdam." .
+ng:Vincent_van_Gogh_partner_Sien_Hoornik a sem:Event ;
+    ng:object "Sien Hoornik" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Wassily_Kandinski a sem:Event ;
-    sem:hasTimeStamp "1866-12-06"^^xsd:date ;
-    rdfs:comment "Wassily Wassilyevich Kandinsky (16 December&#160;[O.S. 4 December]&#160;1866&#160;– 13 December 1944) was a Russian painter and art theorist active in Germany during the late Belle Époque and Interwar eras. Kandinsky is generally credited as one of the pioneers of abstraction in Western art. Born in Moscow, he began painting studies (life-drawing, sketching and anatomy) at the age of&#160;30." .
+ng:Vincent_van_Gogh_patron_Theo_van_Gogh a sem:Event ;
+    ng:object "Theo van Gogh" ;
+    ng:property "patron" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Wil_van_Gogh a sem:Event ;
-    sem:hasTimeStamp "1862-03-16"^^xsd:date ;
-    rdfs:comment "Wilhelmina Jacoba van Gogh (Dutch pronunciation: [ʋɪl(ɦɛlˈminaː jaːˈkoːbaː) vɑŋ ˈɣɔx]; 16 March 1862 – 17 May 1941) was a nurse, teacher of scripture, and early Dutch feminist. She was the youngest and best-known sister of artist Vincent van Gogh, who she was close to, and the art dealer Theo van Gogh." .
+ng:Vincent_van_Gogh_sibling_Cor_van_Gogh a sem:Event ;
+    ng:object "Cor van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Willem_Roelofs a sem:Event ;
-    sem:hasTimeStamp "1822-03-10"^^xsd:date ;
-    rdfs:comment "Willem Roelofs (10 March 1822 – 12 May 1897) was a Dutch painter, water-colourist, etcher, lithographer and draughtsman. Roelofs was one of the forerunners of the Dutch Revival art, after the Romantic Classicism of the beginning of the 19th century, which led to the formation of The Hague school. His landscapes, especially the early ones with their dominating cloudy skies, demure bodies of water and populated with cattle, are typical for the School of Barbizon." .
+ng:Vincent_van_Gogh_sibling_Elisabeth_van_Gogh a sem:Event ;
+    ng:object "Elisabeth van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
-ng:Van_Gogh_Museum a sem:Event ;
-    sem:hasPlace ng:Kurokawavleugel,
-        ng:Rietveldgebouw ;
-    rdfs:comment "The Van Gogh Museum (Dutch pronunciation: [vɑŋˈɣɔx mʏˌzeːjʏm]) is a Dutch art museum dedicated to the works of Vincent van Gogh and his contemporaries in the Museum Square in Amsterdam South, close to the Stedelijk Museum, the Rijksmuseum, and the Concertgebouw. The museum opened on 2 June 1973, and its buildings were designed by Gerrit Rietveld and Kisho Kurokawa. The museum contains the largest collection of Van Gogh's paintings and drawings in the world." .
+ng:Vincent_van_Gogh_sibling_Theo_van_Gogh a sem:Event ;
+    ng:object "Theo van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Gogh_sibling_Wil_van_Gogh a sem:Event ;
+    ng:object "Wil van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Gogh_student_of_Anton_Mauve a sem:Event ;
+    ng:object "Anton Mauve" ;
+    ng:property "student of" ;
+    ng:relatesTo ng:Agostina_Segatori_partner_Vincent_van_Gogh,
+        ng:Anton_Mauve_student_Vincent_van_Gogh,
+        ng:Cor_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Franz_Marc_influenced_by_Vincent_van_Gogh,
+        ng:Langlois_Bridge_named_after_Vincent_van_Gogh,
+        ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh,
+        ng:Lust_for_Life_depicts_Vincent_van_Gogh,
+        ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh,
+        ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh,
+        ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_creator_Vincent_van_Gogh,
+        ng:Self_portrait_depicts_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_creator_Vincent_van_Gogh,
+        ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh,
+        ng:Sien_Hoornik_partner_Vincent_van_Gogh,
+        ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh,
+        ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh,
+        ng:Theo_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:Theodorus_van_Gogh_child_Vincent_van_Gogh,
+        ng:Trois_autoportraits_creator_Vincent_van_Gogh,
+        ng:Trois_autoportraits_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh,
+        ng:Van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:Van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_Award_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh,
+        ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh,
+        ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh,
+        ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh,
+        ng:Wil_van_Gogh_sibling_Vincent_van_Gogh,
+        ng:rue_Van_Gogh_named_after_Vincent_van_Gogh,
+        ng:van_Goghlaan_named_after_Vincent_van_Gogh,
+        ng:van_Goghstraat_named_after_Vincent_van_Gogh ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Agostina_Segatori_partner_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "partner" ;
+    ng:subject "Agostina Segatori" ;
+    sem:hasTimeStamp "1841-01-01"^^xsd:date .
+
+ng:Anton_Mauve_student_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "student" ;
+    ng:relatesTo ng:Vincent_van_Gogh_influenced_by_Anton_Mauve,
+        ng:Vincent_van_Gogh_student_of_Anton_Mauve ;
+    ng:subject "Anton Mauve" ;
+    sem:hasTimeStamp "1838-09-18"^^xsd:date .
+
+ng:Cor_van_Gogh_sibling_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Vincent_van_Gogh_sibling_Cor_van_Gogh ;
+    ng:subject "Cor van Gogh" ;
+    sem:hasTimeStamp "1867-05-17"^^xsd:date .
+
+ng:Elisabeth_van_Gogh_sibling_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Vincent_van_Gogh_sibling_Elisabeth_van_Gogh ;
+    ng:subject "Elisabeth van Gogh" ;
+    sem:hasTimeStamp "1859-05-16"^^xsd:date .
+
+ng:Franz_Marc_influenced_by_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "influenced by" ;
+    ng:subject "Franz Marc" ;
+    sem:hasTimeStamp "1880-02-08"^^xsd:date .
+
+ng:Langlois_Bridge_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Langlois Bridge" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Lucie_Kl_mov_influenced_by_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "influenced by" ;
+    ng:subject "Lucie Klímová" ;
+    sem:hasTimeStamp "1961-10-06"^^xsd:date .
+
+ng:Lust_for_Life_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Lust for Life" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Maurice_de_Vlaminck_influenced_by_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "influenced by" ;
+    ng:subject "Maurice de Vlaminck" ;
+    sem:hasTimeStamp "1876-04-04"^^xsd:date .
+
+ng:Self_Portrait_Dedicated_to_Paul_Gauguin_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait Dedicated to Paul Gauguin" ;
+    sem:hasTimeStamp "1888-09-01"^^xsd:date .
+
+ng:Self_Portrait_Dedicated_to_Paul_Gauguin_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait Dedicated to Paul Gauguin" ;
+    sem:hasTimeStamp "1888-09-01"^^xsd:date .
+
+ng:Self_Portrait_With_a_Bandaged_Ear_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait With a Bandaged Ear" ;
+    sem:hasTimeStamp "1889-01-07"^^xsd:date .
+
+ng:Self_Portrait_With_a_Bandaged_Ear_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait With a Bandaged Ear" ;
+    sem:hasTimeStamp "1889-01-07"^^xsd:date .
+
+ng:Self_Portrait_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait" ;
+    sem:hasTimeStamp "1887-01-01"^^xsd:date .
+
+ng:Self_Portrait_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait" ;
+    sem:hasTimeStamp "1887-01-01"^^xsd:date .
+
+ng:Self_Portrait_of_Vincent_van_Gogh_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self Portrait of Vincent van Gogh" ;
+    sem:hasTimeStamp "1889-01-01"^^xsd:date .
+
+ng:Self_Portrait_of_Vincent_van_Gogh_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self Portrait of Vincent van Gogh" ;
+    sem:hasTimeStamp "1889-01-01"^^xsd:date .
+
+ng:Self_Portrait_with_Felt_Hat_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait with Felt Hat" ;
+    sem:hasTimeStamp "1886-12-01"^^xsd:date .
+
+ng:Self_Portrait_with_Felt_Hat_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait with Felt Hat" ;
+    sem:hasTimeStamp "1886-12-01"^^xsd:date .
+
+ng:Self_Portrait_with_Pipe_and_Straw_Hat_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait with Pipe and Straw Hat" ;
+    sem:hasTimeStamp "1887-01-01"^^xsd:date .
+
+ng:Self_Portrait_with_Pipe_and_Straw_Hat_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait with Pipe and Straw Hat" ;
+    sem:hasTimeStamp "1887-01-01"^^xsd:date .
+
+ng:Self_Portrait_with_Pipe_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait with Pipe" ;
+    sem:hasTimeStamp "1886-01-01"^^xsd:date .
+
+ng:Self_Portrait_with_Pipe_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait with Pipe" ;
+    sem:hasTimeStamp "1886-01-01"^^xsd:date .
+
+ng:Self_Portrait_with_Straw_Hat_and_Pipe_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-Portrait with Straw Hat and Pipe" ;
+    sem:hasTimeStamp "1887-01-01"^^xsd:date .
+
+ng:Self_Portrait_with_Straw_Hat_and_Pipe_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-Portrait with Straw Hat and Pipe" ;
+    sem:hasTimeStamp "1887-01-01"^^xsd:date .
+
+ng:Self_portrait_by_Vincent_van_Gogh_F528_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self portrait by Vincent van Gogh (F528)" ;
+    sem:hasTimeStamp "1889-09-01"^^xsd:date .
+
+ng:Self_portrait_by_Vincent_van_Gogh_F528_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self portrait by Vincent van Gogh (F528)" ;
+    sem:hasTimeStamp "1889-09-01"^^xsd:date .
+
+ng:Self_portrait_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-portrait" ;
+    sem:hasTimeStamp "1888-01-01"^^xsd:date .
+
+ng:Self_portrait_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-portrait" ;
+    sem:hasTimeStamp "1888-01-01"^^xsd:date .
+
+ng:Self_portrait_without_beard_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Self-portrait without beard" ;
+    sem:hasTimeStamp "1889-09-01"^^xsd:date .
+
+ng:Self_portrait_without_beard_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Self-portrait without beard" ;
+    sem:hasTimeStamp "1889-09-01"^^xsd:date .
+
+ng:Sien_Hoornik_partner_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "partner" ;
+    ng:relatesTo ng:Vincent_van_Gogh_partner_Sien_Hoornik ;
+    ng:subject "Sien Hoornik" ;
+    sem:hasTimeStamp "1850-01-01"^^xsd:date .
+
+ng:The_Painter_of_Sunflowers_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "The Painter of Sunflowers" ;
+    sem:hasTimeStamp "1888-12-01"^^xsd:date .
+
+ng:Theo_van_Doesburg_influenced_by_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "influenced by" ;
+    ng:subject "Theo van Doesburg" ;
+    sem:hasTimeStamp "1883-08-30"^^xsd:date .
+
+ng:Theo_van_Gogh_sibling_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Vincent_van_Gogh_patron_Theo_van_Gogh,
+        ng:Vincent_van_Gogh_sibling_Theo_van_Gogh ;
+    ng:subject "Theo van Gogh" ;
+    sem:hasTimeStamp "1857-05-01"^^xsd:date .
+
+ng:Theodorus_van_Gogh_child_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "child" ;
+    ng:relatesTo ng:Vincent_van_Gogh_father_Theodorus_van_Gogh ;
+    ng:subject "Theodorus van Gogh" ;
+    sem:hasTimeStamp "1822-01-01"^^xsd:date .
+
+ng:Trois_autoportraits_creator_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "creator" ;
+    ng:subject "Trois autoportraits" ;
+    sem:hasTimeStamp "1886-01-01"^^xsd:date .
+
+ng:Trois_autoportraits_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Trois autoportraits" ;
+    sem:hasTimeStamp "1886-01-01"^^xsd:date .
+
+ng:Van_Gogh_Museum_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Van Gogh Museum" ;
+    sem:hasTimeStamp "1973-01-01"^^xsd:date .
+
+ng:Van_Gogh_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Van_Gogh_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Van Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Van_Goghstraat_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Van Goghstraat" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_Award_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent Award" ;
+    sem:hasTimeStamp "2000-01-01"^^xsd:date .
+
+ng:Vincent_van_Gogh_depicts_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "depicts" ;
+    ng:subject "Vincent van Gogh" ;
+    sem:hasTimeStamp "1886-01-01"^^xsd:date .
+
+ng:Vincent_van_Goghlaan_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent van Goghlaan" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Goghpad_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent van Goghpad" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Goghplein_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent van Goghplein" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Goghsingel_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent van Goghsingel" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Goghstraat_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent van Goghstraat" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Vincent_van_Goghweg_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "Vincent van Goghweg" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:Wassily_Kandinski_influenced_by_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "influenced by" ;
+    ng:subject "Wassily Kandinski" ;
+    sem:hasTimeStamp "1866-12-06"^^xsd:date .
+
+ng:Wil_van_Gogh_sibling_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "sibling" ;
+    ng:relatesTo ng:Vincent_van_Gogh_sibling_Wil_van_Gogh ;
+    ng:subject "Wil van Gogh" ;
+    sem:hasTimeStamp "1862-03-16"^^xsd:date .
+
+ng:rue_Van_Gogh_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "rue Van-Gogh" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:van_Goghlaan_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "van Goghlaan" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
+
+ng:van_Goghstraat_named_after_Vincent_van_Gogh a sem:Event ;
+    ng:object "Vincent van Gogh" ;
+    ng:property "named after" ;
+    ng:subject "van Goghstraat" ;
+    sem:hasTimeStamp "1853-03-30"^^xsd:date .
 
