@@ -1,0 +1,52 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:1998_FIFA_World_Cup a sem:Event ;
+    sem:hasPlace ng:Parc_des_Princes,
+        ng:Stade_Chaban_Delmas,
+        ng:Stade_F_lix_Bollaert,
+        ng:Stade_Geoffroy_Guichard,
+        ng:Stade_V_lodrome,
+        ng:Stade_de_France,
+        ng:Stade_de_Gerland,
+        ng:Stade_de_la_Beaujoire,
+        ng:Stade_de_la_Mosson,
+        ng:Stadium_Municipal ;
+    sem:hasTimeStamp "1998-06-10"^^xsd:date ;
+    rdfs:comment "The 1998 FIFA World Cup was the 16th FIFA World Cup, the football world championship for men's national teams. The finals tournament was held in France from 10 June to 12 July 1998. The country was chosen as the host nation by FIFA for the second time in the history of the tournament (the first was in 1938), defeating Morocco in the bidding process." .
+
+ng:1998_Masters a sem:Event ;
+    sem:hasTimeStamp "1998-02-08"^^xsd:date ;
+    rdfs:comment "The 1998 Masters (officially the 1998 Benson &amp; Hedges Masters) was a professional non-ranking snooker tournament that took place between 1 and 8 February 1998 at the Wembley Conference Centre in London, England. The final frame of final between Mark Williams and Stephen Hendry turned into a re-spotted black for the first time since John Spencer beat Ray Reardon in the first final in 1975. Hendry had led 9–6, before Williams tied it to 9–9." .
+
+ng:1998_Winter_Olympics a sem:Event ;
+    sem:hasPlace ng:Nagano_Olympic_Stadium ;
+    sem:hasTimeStamp "1998-02-07"^^xsd:date ;
+    rdfs:comment "The 1998 Winter Olympics, officially known as the XVIII Olympic Winter Games (Japanese: 第18回オリンピック冬季競技大会, Hepburn: Dai Jūhachi-kai Orinpikku Tōkikyōgi Taikai) and commonly known as Nagano 1998 (Japanese: 長野1998), were a winter multi-sport event held from 7&#160;to 22&#160;February 1998, mainly in Nagano Prefecture, Japan, with some events taking place in the nearby mountain communities of Hakuba, Karuizawa, Nozawa Onsen, and Yamanouchi. The city of Nagano had previously been a candidate to host the 1940 Winter Olympics (which were later cancelled), as well as the 1972 Winter Olympics, but had been eliminated at the national level by Sapporo on both occasions. The" .
+
+ng:Kosovo_War a sem:Event ;
+    sem:hasActor ng:Belgium,
+        ng:Canada,
+        ng:Czech_Republic,
+        ng:Denmark,
+        ng:Federal_Republic_of_Yugoslavia,
+        ng:France,
+        ng:Germany,
+        ng:Hungary,
+        ng:Iceland,
+        ng:Italy,
+        ng:Kosovo_Liberation_Army,
+        ng:Luxembourg,
+        ng:Netherlands,
+        ng:Norway,
+        ng:Poland,
+        ng:Portugal,
+        ng:Spain,
+        ng:Turkey,
+        ng:United_States_of_America ;
+    sem:hasPlace ng:Kosovo ;
+    sem:hasTimeStamp "1998-02-28"^^xsd:date ;
+    rdfs:comment "The Kosovo War (Albanian: Lufta e Kosovës; Serbian: Косовски рат, Kosovski rat) was an armed conflict in Kosovo that lasted from 28 February 1998 until 11 June 1999. It was fought between the forces of the Federal Republic of Yugoslavia (FRY), which controlled Kosovo before the war, and the Kosovo Albanian separatist militia known as the Kosovo Liberation Army (KLA). The conflict ended when the North Atlantic Treaty Organization (NATO) intervened by beginning air strikes in March 1999 which resulted in Yugoslav forces withdrawing from Kosovo." .
+

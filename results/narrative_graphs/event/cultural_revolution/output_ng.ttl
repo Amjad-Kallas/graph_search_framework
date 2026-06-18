@@ -1,0 +1,49 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:1968_German_Open_Championships a sem:Event ;
+    sem:hasTimeStamp "1968-01-01"^^xsd:date ;
+    rdfs:comment "The 1968 German Open Championships was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 60th edition of the tournament, the first one in the Open Era, and took place at the Am Rothenbaum in Hamburg, West Germany, from 5 August through 13 August 1968. John Newcombe and Annette Du Plooy won the singles titles." .
+
+ng:1969_German_Open_Championships a sem:Event ;
+    sem:hasTimeStamp "1969-01-01"^^xsd:date ;
+    rdfs:comment "The 1969 German Open Championships was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 61st edition of the tournament, the second one in the Open Era, and the first edition to offer official prize money. The event took place at the Am Rothenbaum in Hamburg, West Germany, from 5 August through 11 August 1969." .
+
+ng:1970_German_Open_Championships a sem:Event ;
+    sem:hasTimeStamp "1970-01-01"^^xsd:date ;
+    rdfs:comment "The 1970 German Open Championships was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 62nd edition of the tournament, the first one in the Open Era, and took place at the Am Rothenbaum in Hamburg, West Germany, from 10 August through 17 August 1970. First-seeded Tom Okker and Helga Schultze-Hösl won the singles titles." .
+
+ng:1971_Grand_Prix_German_Open a sem:Event ;
+    sem:hasTimeStamp "1971-01-01"^^xsd:date ;
+    rdfs:comment "The 1971 Grand Prix German Open was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 63rd edition of the tournament. The event was part of the 1971 Pepsi-Cola Grand Prix circuit and categorized as a B Class tournament." .
+
+ng:1972_Grand_Prix_German_Open a sem:Event ;
+    sem:hasTimeStamp "1972-01-01"^^xsd:date ;
+    rdfs:comment "The 1972 Grand Prix German Open was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 64th edition of the event and was part of the 1972 Commercial Union Assurance Grand Prix circuit. It took place at the Am Rothenbaum in Hamburg, West Germany, from 5 June through 11 June 1972." .
+
+ng:1974_German_Open a sem:Event ;
+    sem:hasTimeStamp "1974-01-01"^^xsd:date ;
+    rdfs:comment "The 1974 Grand Prix German Open was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 66th edition of the event and was part of the 1974 Commercial Union Assurance Grand Prix circuit. It took place at the Am Rothenbaum in Hamburg, West Germany, from 20 May through 26 May 1974." .
+
+ng:1975_Grand_Prix_German_Open a sem:Event ;
+    sem:hasTimeStamp "1975-01-01"^^xsd:date ;
+    rdfs:comment "The 1975 Grand Prix German Open was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 67th edition of the event and was part of the 1975 Commercial Union Assurance Grand Prix circuit. It took place at the Am Rothenbaum in Hamburg, West Germany, from 19 May through 25 May 1975." .
+
+ng:1976_German_Open a sem:Event ;
+    sem:hasTimeStamp "1976-01-01"^^xsd:date ;
+    rdfs:comment "The 1976 Grand Prix German Open, also known by its sponsored name Holsten-Bier German Open. was a combined men's and women's tennis tournament played on outdoor red clay courts. It was the 68th edition of the event and was part of the 1976 Commercial Union Assurance Grand Prix circuit." .
+
+ng:Eider_Barrage a sem:Event ;
+    sem:hasTimeStamp "1967-01-01"^^xsd:date ;
+    rdfs:comment "The Eider Barrage (German: Eidersperrwerk) is located at the mouth of the river Eider near Tönning on Germany's North Sea coast. Its main purpose is to protect against storm surges from the North Sea. It is Germany's largest coastal protection structure." .
+
+ng:Internationale_Gartenbauausstellung_73 a sem:Event ;
+    sem:hasTimeStamp "1973-01-01"^^xsd:date ;
+    rdfs:comment "The International Gartenbauausstellung 73 (IGA '73) was a garden festival held in Hamburg, Germany, which was recognized by the Bureau International des Expositions. The exposition was the 6th edition of the international horticultural exposition organised under the auspices of the Association of International Horticultural Producers (AIPH) and the second held at Planten un Blomen park in Hamburg. The exhibition took place on the same site where IGA 63 was held a decade earlier." .
+
+ng:Kiel_mutiny a sem:Event ;
+    sem:hasTimeStamp "1918-10-01"^^xsd:date ;
+    rdfs:comment "The Kiel mutiny (German: Kieler Matrosenaufstand) was a revolt by sailors of the German High Seas Fleet against the maritime military command in Kiel. The mutiny broke out on 3 November 1918 after sailors at Wilhelmshaven refused orders on 30 October to sail out for what was to be the final battle against the British Grand Fleet. The mutineers saw the planned battle, which had been ordered by the Admiralty without the knowledge or approval of the German government, as a futile \"death voyage\"." .
+

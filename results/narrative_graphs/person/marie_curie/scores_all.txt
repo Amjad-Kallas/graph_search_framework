@@ -1,0 +1,30 @@
+All 27 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Pierre Curie  |  combined=1.000  wiki=1.000  llm=1.000 ***
+  2. Marguerite Perey  |  combined=0.854  wiki=0.785  llm=0.900 ***
+  3. Catherine Chami  |  combined=0.262  wiki=0.654  llm=0.000 ***
+  4. curium  |  combined=0.259  wiki=0.647  llm=0.000 ***
+  5. W adys aw Sk odowski  |  combined=0.257  wiki=0.642  llm=0.000 ***
+  6. Branca Edm e Marques  |  combined=0.247  wiki=0.617  llm=0.000 ***
+  7. University of Paris VI Pierre and Marie Curie University  |  combined=0.245  wiki=0.613  llm=0.000 ***
+  8. Gabriel Lippmann  |  combined=0.241  wiki=0.603  llm=0.000 ***
+  9. Christiane Bonnelle  |  combined=0.238  wiki=0.594  llm=0.000 ***
+ 10. curie  |  combined=0.233  wiki=0.583  llm=0.000 ***
+ 11. sklodowskite  |  combined=0.230  wiki=0.575  llm=0.000 ***
+ 12. Glenn Seaborg  |  combined=0.223  wiki=0.556  llm=0.000 ***
+ 13. Jacques Blamont  |  combined=0.214  wiki=0.534  llm=0.000 ***
+ 14. Sklodowska  |  combined=0.168  wiki=0.419  llm=0.000 ***
+ 15. Gioacchino Failla  |  combined=0.164  wiki=0.410  llm=0.000 ***
+ 16. Yvonne Choquet Bruhat  |  combined=0.153  wiki=0.382  llm=0.000 ***
+ 17. Joseph Valentin Boussinesq  |  combined=0.136  wiki=0.339  llm=0.000 ***
+ 18. Fernand Rigaux  |  combined=0.128  wiki=0.320  llm=0.000 ***
+ 19. Pierre Lelong  |  combined=0.121  wiki=0.302  llm=0.000 ***
+ 20. Marguerite Lehr  |  combined=0.117  wiki=0.293  llm=0.000 ***
+ 21. Jacqueline Ferrand  |  combined=0.098  wiki=0.245  llm=0.000 ***
+ 22. Gustave Choquet  |  combined=0.067  wiki=0.167  llm=0.000 ***
+ 23. Pierre Dolbeault  |  combined=0.065  wiki=0.162  llm=0.000 ***
+ 24. Georges Petit  |  combined=0.056  wiki=0.139  llm=0.000 ***
+ 25. Paul Gilbert Langevin  |  combined=0.046  wiki=0.115  llm=0.000 ***
+ 26. Alain Carpentier  |  combined=0.042  wiki=0.104  llm=0.000 ***
+ 27. Robert Hoffstetter  |  combined=0.000  wiki=0.000  llm=0.000 ***

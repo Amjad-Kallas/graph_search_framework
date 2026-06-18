@@ -1,0 +1,85 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Anna a sem:Event ;
+    rdfs:comment "Anna may refer to:" .
+
+ng:Bonnie_and_Clyde a sem:Event ;
+    rdfs:comment "\"Bonnie and Clyde\" is a 1968 French-language song written by Serge Gainsbourg, and performed by Gainsbourg and Brigitte Bardot. The song tells the story of the outlaw couple Bonnie and Clyde. It is based on an English language poem written by Bonnie Parker herself a few weeks before she and Clyde Barrow were shot, titled \"The Trail's End\".",
+        "Bonnie and Clyde is a compilation album by Serge Gainsbourg and Brigitte Bardot. It was originally released by Fontana Records in 1968." .
+
+ng:Brigitte_Bardot a sem:Event ;
+    sem:hasTimeStamp "1934-09-28"^^xsd:date ;
+    rdfs:comment "Brigitte Anne-Marie Bardot (French: [bʁiʒit anmaʁi baʁdo]; 28&#160;September 1934&#160;– 28&#160;December 2025), often referred to by her initials B.B., was a French actress, singer, model, and animal rights activist. She became one of the best-known symbols of the sexual revolution and gained international fame for portraying characters associated with hedonistic lifestyles. Although she withdrew from the entertainment industry in 1973, she remained a major pop culture icon." .
+
+ng:Caroline_von_Paulus a sem:Event ;
+    sem:hasTimeStamp "1959-03-01"^^xsd:date ;
+    rdfs:comment "Caroline von Paulus (born 1 March 1959) is a French actress, fashion model and singer, better known by her stage name Bambou. She was the partner of the French singer Serge Gainsbourg from 1981 until his death in 1991. Their son Lucien 'Lulu' Gainsbourg was born in 1986." .
+
+ng:Catherine_Deneuve a sem:Event ;
+    sem:hasTimeStamp "1943-10-22"^^xsd:date ;
+    rdfs:comment "Catherine Fabienne Dorléac (born 22 October 1943), known professionally as Catherine Deneuve (UK: , US: , French: [katʁin dənœv] ), is a French actress. She is considered one of the greatest European actresses on film. In 2020, The New York Times ranked her as one of the greatest actors of the 21st century." .
+
+ng:Charlie_Brown a sem:Event ;
+    rdfs:comment "Charles \"Charlie\" Brown is the principal character of the American comic strip Peanuts, created by Charles M. Schulz and syndicated in daily and Sunday newspapers in numerous countries worldwide. Depicted as a \"lovable loser\", Charlie Brown is a popular and widely recognized cartoon character. Charlie Brown is characterized as a person who frequently suffers, and as a result, is usually nervous and lacks self-confidence." .
+
+ng:Charlotte_Gainsbourg a sem:Event ;
+    sem:hasTimeStamp "1971-07-21"^^xsd:date ;
+    rdfs:comment "Charlotte Lucy Gainsbourg (French: [ʃaʁlɔt ɡɛ̃zbuʁ] ; born 21 July 1971) is a French and British actress and singer. She is the daughter of English actress and singer Jane Birkin and French singer Serge Gainsbourg. After making her musical debut with her father on the song \"Lemon Incest\" at the age of 12, she released an album with her father at the age of 15." .
+
+ng:Couleur_Caf a sem:Event ;
+    rdfs:comment "Couleur Café Festival is an annual world and urban contemporary music festival taking place around the end of June or early July in Brussels, Belgium." .
+
+ng:France_Gall a sem:Event ;
+    sem:hasTimeStamp "1947-10-09"^^xsd:date ;
+    rdfs:comment "Isabelle Geneviève Marie Anne Gall (9 October 1947&#160;– 7 January 2018), known professionally as France Gall (French: [fʁãs gal] ), was a French yé-yé and pop singer. In 1965, at the age of 17, she won the tenth edition of the Eurovision Song Contest with the song \"Poupée de cire, poupée de son\", representing Luxembourg. Later in her career, she worked with singer-songwriter Michel Berger, whom she married in 1976." .
+
+ng:Gainsbourg_Confidentiel a sem:Event ;
+    rdfs:comment "Gainsbourg Confidentiel is the fifth studio album by French musician Serge Gainsbourg, released in 1964. It features a minimalistic approach to jazz, with only a double bass and an electric guitar." .
+
+ng:Gainsbourg_Live a sem:Event ;
+    rdfs:comment "Gainsbourg Live is the second live album by Serge Gainsbourg, released in 1986, featuring an autumn 1985 concert at the Casino de Paris." .
+
+ng:Gainsbourg_Percussions a sem:Event ;
+    rdfs:comment "Gainsbourg Percussions is the sixth studio album by French musician Serge Gainsbourg, released in 1964. Gainsbourg reinvents his style with Latin, African, and Cuban influences. It would be his last album before 1968." .
+
+ng:Goodbye_Emmanuelle a sem:Event ;
+    rdfs:comment "Goodbye Emmanuelle is a 1977 French softcore erotica movie directed by François Leterrier, and starring Sylvia Kristel. It is a sequel to 1975's Emmanuelle 2, and the third installment in the film series of the same name. The music score is by Serge Gainsbourg." .
+
+ng:Histoire_de_Melody_Nelson a sem:Event ;
+    rdfs:comment "Histoire de Melody Nelson (French: [istwaʁ də melɔdi nɛlsɔn]; \"Story of Melody Nelson\") is a 1971 concept album by French singer and songwriter Serge Gainsbourg, arranged and co-written by Jean-Claude Vannier. Produced by Jean-Claude Desmarty, the album was released on March 24, 1971 through Philips Records. Its narrative follows an illicit romance which develops between the middle-aged narrator and fourteen-year-old girl Melody Nelson, portrayed on the album and its cover art by Gainsbourg's then-partner Jane Birkin." .
+
+ng:Initials_B_B a sem:Event ;
+    rdfs:comment "Initials B.B. is a 1968 studio album by Serge Gainsbourg. It was originally released by Philips Records." .
+
+ng:Jane_Birkin a sem:Event ;
+    sem:hasTimeStamp "1946-12-14"^^xsd:date ;
+    rdfs:comment "Jane Mallory Birkin ( BUR-kin; 14 December 1946&#160;– 16 July 2023) was an English-French actress, singer, and designer. She had a prolific career as an actress, mostly in French cinema. A native of London, Birkin began her career as an actress, appearing in minor roles in Michelangelo Antonioni's Blowup (1966) and Kaleidoscope (1966)." .
+
+ng:Jane_Birkin_Serge_Gainsbourg a sem:Event ;
+    rdfs:comment "Jane Birkin/Serge Gainsbourg (also known as Je t'aime... moi non plus) is a 1969 collaborative studio album by Serge Gainsbourg and Jane Birkin. It was originally released by Fontana Records." .
+
+ng:La_Javanaise a sem:Event ;
+    rdfs:comment "\"La Javanaise\" is a song written and composed by Serge Gainsbourg originally for Juliette Gréco, and interpreted by both her and Gainsbourg in 1963. The first recordings of both artists constituted the B-sides of each of the two 45s. The title is a pun playing on the Parisian java dance and the javanais argot." .
+
+ng:Lemon_Incest a sem:Event ;
+    rdfs:comment "\"Lemon Incest\" is a song recorded by French father and daughter Serge and Charlotte Gainsbourg. It was recorded in 1984 and released as a single from Serge's 1985 album Love on the Beat and on Charlotte's 1986 debut album Charlotte for Ever, marking her musical debut. It is a pop song about a relationship between Serge and Charlotte, the latter of whom was 12 or 13 years old at the time, set to the melody of Frédéric Chopin's Étude Op." .
+
+ng:Love_on_the_Beat a sem:Event ;
+    rdfs:comment "Love on the Beat is the fifteenth studio album by French singer and songwriter Serge Gainsbourg. On this album, Gainsbourg used American musicians to achieve a funk-heavy rock sound. The album was controversial due to its very sexual lyrical content, with homosexuality and prostitution as the subject matters on many of the tracks." .
+
+ng:Madame_Claude a sem:Event ;
+    rdfs:comment "Fernande Grudet (6 July 1923 – 15 December 2015), also known as Madame Claude, was a French brothel keeper. In the 1960s, she was the head of a French network of call girls who worked especially for dignitaries and civil servants." .
+
+ng:Michel_Simon a sem:Event ;
+    sem:hasTimeStamp "1895-04-09"^^xsd:date ;
+    rdfs:comment "Michel Simon (French: [miʃɛl simɔ̃]; 9 April 1895 – 30 May 1975) was a Swiss actor of German origin active primarily in France. He appeared in many notable French films, including La Chienne (1931), Boudu Saved from Drowning (1932), L'Atalante (1934), Port of Shadows (1938), The Head (1959), and The Train (1964). Charlie Chaplin said he was ‘the greatest actor in the world’." .
+
+ng:Rock_Around_the_Bunker a sem:Event ;
+    rdfs:comment "Rock Around the Bunker is a 1975 studio album by French singer and songwriter Serge Gainsbourg, containing songs which combined pseudo-1950s musical arrangements with lyrics relating to Nazi Germany and World War II and drawing from Gainsbourg's experiences as a Jewish child in occupied France." .
+
+ng:lisa a sem:Event ;
+    rdfs:comment "Elisa may refer to:" .
+

@@ -1,0 +1,32 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Alexandre_Dumas a sem:Event ;
+    sem:hasTimeStamp "1802-07-24"^^xsd:date ;
+    rdfs:comment "Alexandre Dumas (born Alexandre Dumas Davy de la Pailleterie; 24 July 1802 – 5 December 1870), also known as Alexandre Dumas père, was a French novelist and playwright. His works have been translated into many languages and he is one of the most widely read French authors. Many of his historical novels of adventure were originally published as serials, including The Count of Monte Cristo, The Three Musketeers, Twenty Years After and The Vicomte of Bragelonne: Ten Years Later." .
+
+ng:Andrzej_Niemojewski a sem:Event ;
+    sem:hasTimeStamp "1921-11-03"^^xsd:date ;
+    rdfs:comment "Andrzej Niemojewski (24 January 1864 – 3 November 1921) was a Polish social and political activist, poet, rationalist and writer of the Young Poland period." .
+
+ng:Anton_Chekhov a sem:Event ;
+    sem:hasTimeStamp "1904-07-15"^^xsd:date ;
+    rdfs:comment "Anton Pavlovich Chekhov (; Russian: Антон Павлович Чехов; 29 January&#160;[O.S. 17 January]&#160;1860 – 15 July&#160;[O.S. 2 July]&#160;1904) was a Russian playwright and short story writer. Widely considered one of the greatest writers of all time, his career as a playwright produced four classics, and his best short stories are held in high esteem by writers and critics. Along with Henrik Ibsen and August Strindberg, Chekhov is often referred to as one of the three seminal figures in the birth of early modernism in the theatre." .
+
+ng:Die_Waffen_nieder a sem:Event ;
+    rdfs:comment "The book Die Waffen nieder! (Down with Weapons!) or Lay Down Your Arms! is the best-known novel by the author and peace activist Bertha von Suttner, who received the Nobel Peace Prize in 1905 for the book. The book was published in 1889 in German by the publisher Edgar Pierson in Dresden and became very quickly successful, both because of its look at war and peace and because it addressed the issue of women in society. Three years later, it was published in English as Lay Down Your Arms!, then in Italian in 1897 as Abbasso le Armi!, and in" .
+
+ng:Kazimierz_Bein a sem:Event ;
+    sem:hasTimeStamp "1959-06-15"^^xsd:date ;
+    rdfs:comment "Kazimierz Bein (1872 – 15 June 1959), often referred to by his pseudonym Kabe, was a Polish ophthalmologist, the founder and sometime director of the Warsaw Ophthalmic Institute (Warszawski Instytut Oftalmiczny). He was also, for a time, a prominent Esperanto author, translator and activist, until in 1911 he suddenly, without explanation, abandoned the Esperanto movement. Bein became at least as well known for his involvement with Esperanto as for his medical accomplishments, and as much for the manner in which he left the Esperanto movement as for what he had accomplished within it." .
+
+ng:Matilde_Serao a sem:Event ;
+    sem:hasTimeStamp "1856-03-07"^^xsd:date ;
+    rdfs:comment "Matilde Serao (Italian pronunciation: [maˈtilde seˈraːo]; Greek: Ματθίλδη Σεράο; 14 March 1856 – 25 July 1927) was an Italian journalist and novelist. She was the first woman called to edit an Italian newspaper, Il Corriere di Roma and later Il Giorno. Serao was also the co-founder and editor of the newspaper Il Mattino, and the author of several novels." .
+
+ng:Maxim_Gorky a sem:Event ;
+    sem:hasTimeStamp "1868-03-28"^^xsd:date ;
+    rdfs:comment "Alexei Maximovich Peshkov (Russian: Алексей Максимович Пешков; 28 March&#160;[O.S. 16 March]&#160;1868&#160;– 18 June 1936), popularly known as Maxim Gorky (; Максим Горький), was a Russian and Soviet writer, journalist, and proponent of socialism. He was nominated five times for the Nobel Prize in Literature. Before his success as an author, he travelled widely across the Russian Empire, changing jobs frequently; these experiences would later influence his writing." .
+

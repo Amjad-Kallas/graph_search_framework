@@ -1,0 +1,27 @@
+All 24 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Rock Around the Bunker  |  combined=0.974  wiki=0.935  llm=1.000 ***
+  2. Histoire de Melody Nelson  |  combined=0.960  wiki=0.899  llm=1.000 ***
+  3. Charlotte Gainsbourg  |  combined=0.934  wiki=0.985  llm=0.900 ***
+  4. Bonnie and Clyde  |  combined=0.931  wiki=0.827  llm=1.000 ***
+  5. Jane Birkin Serge Gainsbourg  |  combined=0.886  wiki=0.865  llm=0.900 ***
+  6. Lemon Incest  |  combined=0.867  wiki=0.669  llm=1.000 ***
+  7. Caroline von Paulus  |  combined=0.829  wiki=0.872  llm=0.800 ***
+  8. Love on the Beat  |  combined=0.820  wiki=1.000  llm=0.700 ***
+  9. La Javanaise  |  combined=0.809  wiki=0.823  llm=0.800 ***
+ 10. Gainsbourg Confidentiel  |  combined=0.798  wiki=0.944  llm=0.700 ***
+ 11. Madame Claude  |  combined=0.769  wiki=0.422  llm=1.000 ***
+ 12. Gainsbourg Percussions  |  combined=0.760  wiki=0.851  llm=0.700 ***
+ 13. Gainsbourg Live  |  combined=0.701  wiki=0.852  llm=0.600 ***
+ 14. Goodbye Emmanuelle  |  combined=0.692  wiki=0.679  llm=0.700 ***
+ 15. France Gall  |  combined=0.321  wiki=0.802  llm=0.000 ***
+ 16. Initials B B  |  combined=0.293  wiki=0.732  llm=0.000 ***
+ 17. Brigitte Bardot  |  combined=0.274  wiki=0.684  llm=0.000 ***
+ 18. Catherine Deneuve  |  combined=0.258  wiki=0.645  llm=0.000 ***
+ 19. Jane Birkin  |  combined=0.239  wiki=0.598  llm=0.000 ***
+ 20. Michel Simon  |  combined=0.213  wiki=0.532  llm=0.000 ***
+ 21. Couleur Caf  |  combined=0.169  wiki=0.422  llm=0.000 ***
+ 22. Charlie Brown  |  combined=0.102  wiki=0.254  llm=0.000 ***
+ 23. Anna  |  combined=0.011  wiki=0.028  llm=0.000 ***
+ 24. lisa  |  combined=0.000  wiki=0.000  llm=0.000 ***

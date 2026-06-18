@@ -1,0 +1,39 @@
+All 36 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Bijoya Ray  |  combined=0.888  wiki=0.870  llm=0.900 ***
+  2. Dulal Dutta  |  combined=0.839  wiki=0.748  llm=0.900 ***
+  3. Jakhan Choto Chilam  |  combined=0.827  wiki=0.719  llm=0.900 ***
+  4. Byomjatrir Diary  |  combined=0.824  wiki=0.711  llm=0.900 ***
+  5. Hatyapuri  |  combined=0.799  wiki=0.798  llm=0.800 ***
+  6. Feludar Goendagiri  |  combined=0.776  wiki=0.439  llm=1.000 ***
+  7. Bhuswargo Bhayankar  |  combined=0.735  wiki=0.637  llm=0.800 ***
+  8. Sonar Kella  |  combined=0.723  wiki=0.608  llm=0.800 ***
+  9. Soumendu Roy  |  combined=0.716  wiki=0.889  llm=0.600 ***
+ 10. Kailashey Kelenkari  |  combined=0.706  wiki=0.565  llm=0.800 ***
+ 11. Joi Baba Felunath  |  combined=0.697  wiki=0.393  llm=0.900 ***
+ 12. Badshahi Angti  |  combined=0.695  wiki=0.537  llm=0.800 ***
+ 13. Mahasankatey Shonku  |  combined=0.692  wiki=0.530  llm=0.800 ***
+ 14. Our Films Their Films  |  combined=0.685  wiki=0.663  llm=0.700 ***
+ 15. Bombaiyer Bombete  |  combined=0.663  wiki=0.457  llm=0.800 ***
+ 16. Baksho Rahashya  |  combined=0.654  wiki=0.435  llm=0.800 ***
+ 17. Ghurghutiya r Ghatona  |  combined=0.646  wiki=0.566  llm=0.700 ***
+ 18. Chhinnamastar Abhishap  |  combined=0.644  wiki=0.411  llm=0.800 ***
+ 19. Gangtokey Gondogol  |  combined=0.643  wiki=0.407  llm=0.800 ***
+ 20. Sukumar Ray  |  combined=0.640  wiki=1.000  llm=0.400 ***
+ 21. Royal Bengal Rahashya  |  combined=0.634  wiki=0.536  llm=0.700 ***
+ 22. Tintorettor Jishu  |  combined=0.570  wiki=0.376  llm=0.700 ***
+ 23. Sandip Ray  |  combined=0.570  wiki=0.826  llm=0.400 ***
+ 24. Professor Shonku  |  combined=0.529  wiki=0.572  llm=0.500 ***
+ 25. Punashcha Professor Shonku  |  combined=0.505  wiki=0.512  llm=0.500 ***
+ 26. Shonku Ekai Aksho  |  combined=0.487  wiki=0.468  llm=0.500 ***
+ 27. Swayang Professor Shonku  |  combined=0.486  wiki=0.464  llm=0.500 ***
+ 28. Shabash Professor Shonku  |  combined=0.470  wiki=0.425  llm=0.500 ***
+ 29. Professor Shonkur Kandokarkhana  |  combined=0.452  wiki=0.380  llm=0.500 ***
+ 30. Selam Professor Shonku  |  combined=0.442  wiki=0.356  llm=0.500 ***
+ 31. Rabindranath Tagore  |  combined=0.269  wiki=0.673  llm=0.000 ***
+ 32. Vittorio De Sica  |  combined=0.194  wiki=0.486  llm=0.000 ***
+ 33. John Ford  |  combined=0.142  wiki=0.356  llm=0.000 ***
+ 34. Jean Renoir  |  combined=0.106  wiki=0.265  llm=0.000 ***
+ 35. D Ramanaidu  |  combined=0.065  wiki=0.164  llm=0.000 ***
+ 36. Bertrand Tavernier  |  combined=0.000  wiki=0.000  llm=0.000

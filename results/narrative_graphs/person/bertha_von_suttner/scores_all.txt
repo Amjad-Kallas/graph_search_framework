@@ -1,0 +1,10 @@
+All 7 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Die Waffen nieder  |  combined=1.000  wiki=1.000  llm=1.000 ***
+  2. Maxim Gorky  |  combined=0.240  wiki=0.601  llm=0.000 ***
+  3. Matilde Serao  |  combined=0.108  wiki=0.269  llm=0.000 ***
+  4. Anton Chekhov  |  combined=0.083  wiki=0.207  llm=0.000 ***
+  5. Alexandre Dumas  |  combined=0.073  wiki=0.183  llm=0.000 ***
+  6. Kazimierz Bein  |  combined=0.058  wiki=0.145  llm=0.000 ***
+  7. Andrzej Niemojewski  |  combined=0.000  wiki=0.000  llm=0.000 ***

@@ -1,0 +1,14 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Battle_of_Abu_Ageila a sem:Event ;
+    sem:hasTimeStamp "1967-06-06"^^xsd:date ;
+    rdfs:comment "The Battle of Abu-Ageila (also known as the Battle of Umm-Qatef; Hebrew: קְרַב אוֹם־כָּתֵף) was a military confrontation between the Israel Defense Forces and the Egyptian Army in the Six-Day War of June 1967. The decisive defeat of the Egyptians was critical to the eventual loss of the entire Sinai Peninsula to Israel. Leading Israeli forces was Major General Ariel Sharon, later a prominent politician and prime minister of Israel." .
+
+ng:Battle_of_Ammunition_Hill a sem:Event ;
+    sem:hasPlace ng:Ammunition_Hill ;
+    sem:hasTimeStamp "1967-06-06"^^xsd:date ;
+    rdfs:comment "Ammunition Hill (Hebrew: גִּבְעַת הַתַּחְמֹשֶׁת, Giv'at HaTahmoshet) was a fortified Jordanian military post in the northern part of Jordanian-ruled East Jerusalem and the western slope of Mount Scopus. It was the site of one of the fiercest battles of the Six-Day War. Ammunition Hill is now a national memorial site." .
+

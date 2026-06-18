@@ -1,0 +1,15 @@
+All 12 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. American Airlines Flight 11  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. collapse of the World Trade Center  |  combined=0.379  wiki=0.948  llm=0.000 ***
+  3. 2001 Immanuel bus attack  |  combined=0.207  wiki=0.517  llm=0.000 ***
+  4. Palace of the Republic  |  combined=0.108  wiki=0.270  llm=0.000 ***
+  5. 27th G8 summit  |  combined=0.103  wiki=0.258  llm=0.000 ***
+  6. Direct Line with Vladimir Putin  |  combined=0.085  wiki=0.212  llm=0.000 ***
+  7. Peace Bridge  |  combined=0.066  wiki=0.164  llm=0.000 ***
+  8. Tuileries Palace  |  combined=0.053  wiki=0.132  llm=0.000 ***
+  9. Swedish ESO Submillimetre Telescope  |  combined=0.033  wiki=0.082  llm=0.000 ***
+ 10. Hauptwache  |  combined=0.029  wiki=0.072  llm=0.000 ***
+ 11. Bridgnorth Cliff Railway  |  combined=0.020  wiki=0.051  llm=0.000 ***
+ 12. Lysekil Line  |  combined=0.000  wiki=0.000  llm=0.000 ***

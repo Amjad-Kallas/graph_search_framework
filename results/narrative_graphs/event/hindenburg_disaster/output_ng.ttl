@@ -1,0 +1,13 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:1937_Australian_National_Airways_Stinson_crash a sem:Event ;
+    sem:hasTimeStamp "1937-02-19"^^xsd:date ;
+    rdfs:comment "The 1937 Airlines of Australia Stinson crash was an accident which occurred on 19 February 1937. The Airlines of Australia Stinson Model A airliner disappeared during a flight from Brisbane to Sydney, carrying five passengers and two pilots. Both pilots and two passengers were killed in the crash." .
+
+ng:Western_Air_Express_Flight_7 a sem:Event ;
+    sem:hasTimeStamp "1937-01-12"^^xsd:date ;
+    rdfs:comment "Western Air Express Flight 7, a domestic scheduled passenger flight from Salt Lake City to Burbank, California, crashed on January 12, 1937, near Newhall, California. The twin engine Boeing 247D, registration NC13315, crashed shortly after 11:00&#160;a.m. in adverse weather conditions." .
+

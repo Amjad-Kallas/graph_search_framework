@@ -1,0 +1,9 @@
+All 6 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Simple Man  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  2. Encore  |  combined=0.861  wiki=0.951  llm=0.800 ***
+  3. Za Bakdaz  |  combined=0.857  wiki=0.943  llm=0.800 ***
+  4. In Concert  |  combined=0.125  wiki=0.313  llm=0.000 ***
+  5. The Collection  |  combined=0.064  wiki=0.159  llm=0.000 ***
+  6. The Essential  |  combined=0.000  wiki=0.000  llm=0.000 ***

@@ -1,0 +1,57 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:2001_Immanuel_bus_attack a sem:Event ;
+    sem:hasPlace ng:Immanuel ;
+    sem:hasTimeStamp "2001-12-12"^^xsd:date ;
+    rdfs:comment "The 2001 Immanuel bus attack was an ambush attack by Palestinian militants targeting Israeli civilians in the West Bank on 12 December 2001; eleven passengers were killed in the attack and thirty were injured. Both the al-Qassam Brigades (the military wing of Hamas) and the Fatah-aligned al-Aqsa Martyrs' Brigades claimed responsibility for the attack." .
+
+ng:27th_G8_summit a sem:Event ;
+    sem:hasTimeStamp "2001-07-21"^^xsd:date ;
+    rdfs:comment "The 27th G8 summit was held in Genoa, Italy, on 19–22 July 2001 and is remembered as a highpoint of the worldwide anti-globalization movement as well as for human rights violations against demonstrators." .
+
+ng:American_Airlines_Flight_11 a sem:Event ;
+    sem:hasPlace ng:New_York_City ;
+    sem:hasTimeStamp "2001-09-11"^^xsd:date ;
+    rdfs:comment "American Airlines Flight 11 was a domestic passenger flight that was hijacked by five al-Qaeda terrorists on the morning of September 11, 2001, as part of the September 11 attacks. The hijacked airliner was deliberately crashed into the North Tower of the World Trade Center complex in New York City, killing everyone aboard the flight and resulting in the deaths of more than one thousand people in the top 18 stories of the skyscraper in addition to causing the demise of numerous others below the trapped floors. The crash of Flight 11 stands as the deadliest of the four suicide" .
+
+ng:Bridgnorth_Cliff_Railway a sem:Event ;
+    sem:hasPlace ng:Bridgnorth ;
+    sem:hasTimeStamp "1892-07-07"^^xsd:date ;
+    rdfs:comment "The Bridgnorth Cliff Railway, also known as the Bridgnorth Funicular Railway or Castle Hill Railway, is a funicular railway in the town of Bridgnorth in the English county of Shropshire. The line links the Low Town of Bridgnorth, adjacent to the River Severn, with the High Town, adjacent to the ruins of Bridgnorth Castle. The line is one of four funicular railways in the UK built to the same basic design (the others were the Clifton Rocks Railway in Bristol; the Lynton and Lynmouth Cliff Railway in Devon; and the Constitution Hill Railway in Aberystwyth, Wales)." .
+
+ng:Direct_Line_with_Vladimir_Putin a sem:Event ;
+    sem:hasTimeStamp "2001-01-01"^^xsd:date ;
+    rdfs:comment "Direct Line with Vladimir Putin (Russian: Прямая линия с Владимиром Путиным, romanized:&#160;Pryamaya liniya s Vladimirom Putinym) is an annual televised political event in Russia. As its name implies, it is a question and answer event with Russian President Vladimir Putin. The event is broadcast on television by Russia-1, Russia 24, RT and Channel One, and on radio by Mayak, Vesti FM and Radio of Russia." .
+
+ng:Hauptwache a sem:Event ;
+    sem:hasTimeStamp "1730-01-01"^^xsd:date ;
+    rdfs:comment "The Hauptwache (German pronunciation: [ˈhaʊptˌvaxə] , lit. 'Main Guardroom') is a central point of Frankfurt am Main and is one of the most famous plazas (German: An der Hauptwache) in the city. The original name Schillerplatz was superseded in the early 1900s. It lies to the west of Konstablerwache with both squares linked by the Zeil, the central shopping area of the city." .
+
+ng:Lysekil_Line a sem:Event ;
+    sem:hasTimeStamp "1913-01-01"^^xsd:date ;
+    rdfs:comment "The Lysekil Line (Swedish: Lysekilsbanan) is a branch railway of the Bohus Line, connecting Smedberg and Lysekil in the Swedish province of Bohuslän. Opened in 1913, it is today a single-track, electrified standard gauge line 35 kilometres (22&#160;mi) long. Most of it is located within the Stångenäset Hundred, closely paralleling county road 162." .
+
+ng:Palace_of_the_Republic a sem:Event ;
+    sem:hasPlace ng:Berlin_Mitte ;
+    sem:hasTimeStamp "2008-12-01"^^xsd:date ;
+    rdfs:comment "The Palace of the Republic (German: Palast der Republik, pronounced [paˈlast deːɐ ʁepuˈbliːk]) was a building in Berlin that hosted the Volkskammer, the parliament of East Germany, from 1976 to 1990. Also known as the \"People's Palace\", it was located across the Unter den Linden from Museum Island in the Mitte area of East Berlin, on the site of the former Berlin Palace, which had been heavily damaged by Allied air raids and demolished in the 1950s. It was located between the Lustgarten and Schlossplatz, near the West Berlin border." .
+
+ng:Peace_Bridge a sem:Event ;
+    sem:hasTimeStamp "1927-06-01"^^xsd:date ;
+    rdfs:comment "The Peace Bridge is an international bridge over the Niagara River between Canada and the United States, located just north of the river's source at the east end of Lake Erie about 20 kilometres (12.4&#160;mi) upriver of Niagara Falls. It connects Buffalo, New York, in the United States to Fort Erie, Ontario, in Canada. It is operated and maintained by the bi-national Buffalo and Fort Erie Public Bridge Authority." .
+
+ng:Swedish_ESO_Submillimetre_Telescope a sem:Event ;
+    sem:hasTimeStamp "1987-01-01"^^xsd:date ;
+    rdfs:comment "The Swedish-ESO Submillimetre Telescope (SEST) is a 15-metre diameter radio telescope. It is located at the La Silla Observatory in Chile." .
+
+ng:Tuileries_Palace a sem:Event ;
+    sem:hasTimeStamp "1564-01-01"^^xsd:date ;
+    rdfs:comment "The Tuileries Palace (French: palais des Tuileries, [palɛ de tɥilʁi]) was a palace in Paris which stood on the right bank of the Seine, directly in the west-front of the Louvre Palace. It was the Parisian residence of most French monarchs, from Henri IV to Napoleon III, until it was burned by the Paris Commune in 1871 and demolished in 1883. Construction began in 1564, originally to serve as a home for Queen Catherine de' Medici, and was gradually extended until it closed off the western end of the courtyard and displayed an immense façade of 266 metres." .
+
+ng:collapse_of_the_World_Trade_Center a sem:Event ;
+    sem:hasTimeStamp "2001-09-11"^^xsd:date ;
+    rdfs:comment "The World Trade Center, in Lower Manhattan, New York City, was destroyed after a series of terrorist attacks on September 11, 2001, killing almost 3,000 people at the site. Two commercial airliners hijacked by al-Qaeda members were deliberately flown into the complex's Twin Towers, at the time among the five tallest buildings in the world. The plane impacts dealt significant structural damage to the skyscrapers and started large fires in the towers, eventually resulting in both undergoing a total progressive collapse." .
+

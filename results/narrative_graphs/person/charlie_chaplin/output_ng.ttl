@@ -1,0 +1,352 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:A_Busy_Day a sem:Event ;
+    rdfs:comment "A Busy Day is a 1914 silent comedy short film starring Charlie Chaplin and Mack Swain." .
+
+ng:A_Countess_from_Hong_Kong a sem:Event ;
+    rdfs:comment "A Countess from Hong Kong is a 1967 British romantic comedy film scored, written, and directed by Charlie Chaplin, and the final film directed, written, produced and scored by him. The film starred Marlon Brando and Sophia Loren, and revolved around an American diplomat who falls in love with a stowaway on a cruise. Sydney Chaplin (Chaplin's son), Tippi Hedren, Patrick Cargill and Margaret Rutherford co-star in major supporting roles; Chaplin also made a cameo, marking his final screen appearance." .
+
+ng:A_Edward_Sutherland a sem:Event ;
+    sem:hasTimeStamp "1973-12-31"^^xsd:date ;
+    rdfs:comment "Albert Edward Sutherland (January 5, 1895 – December 31, 1973) was a British-born American film director and actor. Born in London, he was from a theatrical family. His father, Al Sutherland, was a theatre manager and producer and his mother, Julie Ring, was a vaudeville performer." .
+
+ng:A_Jitney_Elopement a sem:Event ;
+    rdfs:comment "A Jitney Elopement is a 1915 film and Charlie Chaplin's fifth film for Essanay Films. It starred Chaplin and Edna Purviance as lovers, with Purviance wanting Chaplin to take her away from an arranged marriage her father (played by Fred Goodwins) had planned for her. Chaplin does take her away, and they are pursued by a jitney, a type of share taxi popular in the US between 1914 and 1916." .
+
+ng:A_King_in_New_York a sem:Event ;
+    rdfs:comment "A King in New York is a 1957 British comedy film directed by and starring Charlie Chaplin in his last leading role. The film presents a satirical view of certain aspects of American politics and society. It was produced in Europe after Chaplin's exile from the U.S. in 1952 and did not open in the United States until 1972." .
+
+ng:A_Night_Out a sem:Event ;
+    rdfs:comment "A Night Out is a 1915 Charlie Chaplin comedy short. It was Chaplin's first film with Edna Purviance, who would continue as his leading lady for the following eight years. It was also Chaplin's first film with Essanay Film Company in Niles, California." .
+
+ng:A_Night_in_the_Show a sem:Event ;
+    rdfs:comment "A Night in the Show is a 1915 film and Charlie Chaplin's 12th for Essanay. It was made at Majestic Studio in Los Angeles. Chaplin played two roles: one as Mr." .
+
+ng:A_Woman_of_Paris a sem:Event ;
+    rdfs:comment "A Woman of Paris (also known as A Woman of Paris: A Drama of Fate) is a 1923 silent drama film written, produced, and directed by Charlie Chaplin. It stars Edna Purviance as the title character, along with Clarence Geldart, Carl Miller, Lydia Knott, Charles K. French and Adolphe Menjou. A United Artists production, the film was an atypical dramatic work for Chaplin." .
+
+ng:Arthur_Ibbetson a sem:Event ;
+    sem:hasTimeStamp "1922-09-08"^^xsd:date ;
+    rdfs:comment "Arthur Ibbetson BSC (8 September 1922 in Bishop Auckland, England – 19 October 1997 in Hillingdon, Middlesex, England) was a British cinematographer." .
+
+ng:Behind_the_Screen a sem:Event ;
+    rdfs:comment "Behind the Screen is a 1916 American silent short comedy film written by, directed by, and starring Charlie Chaplin, and also starring Eric Campbell and Edna Purviance. Much of the film is slapstick comedy involving Chaplin manhandling large props, mishandling the control to a trap door, and engaging in a raucous pie-throwing fight which spills over into another studio where a period drama is being shot. In one scene Chaplin deftly carries 11 chairs over his back in his left hand and lifts a piano in his right hand." .
+
+ng:Benny_Hill a sem:Event ;
+    sem:hasTimeStamp "1992-04-20"^^xsd:date ;
+    rdfs:comment "Alfred Hawthorne \"Benny\" Hill (21 January 1924 – 18 April 1992) was an English comedian, actor, writer and musician. He is best remembered for his television programme, The Benny Hill Show, a comedy-variety show that merged slapstick, burlesque, double entendre and innuendo in live and filmed segments with Hill in almost every one. The BFI called Hill \"the first British comedian to attain fame through television\" and \"a major star for over forty years\"." .
+
+ng:Burlesque_on_Carmen a sem:Event ;
+    rdfs:comment "A Burlesque on Carmen is a 1915 film and Charlie Chaplin's thirteenth for Essanay Studios, originally released as Carmen on December 18, 1915. Chaplin played the leading man and Edna Purviance played Carmen. The film is a parody of Cecil B. DeMille's Carmen 1915, which was itself an interpretation of the popular novella Carmen by Prosper Mérimée." .
+
+ng:By_the_Sea a sem:Event ;
+    rdfs:comment "By the Sea is a 1915 American silent comedy short film Charlie Chaplin made while waiting for a studio to work in Los Angeles. He had just left Niles Essanay Studio after doing five films at that location. By the Sea was filmed all on location in Santa Monica on the beach near Ocean Park Pier and on Crystal Pier in April 1915." .
+
+ng:Caught_in_the_Rain a sem:Event ;
+    rdfs:comment "Caught in the Rain may refer to:" .
+
+ng:Charles_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1863-03-18"^^xsd:date ;
+    rdfs:comment "Charles Spencer Chaplin III (May 5, 1925 – March 20, 1968), known professionally as Charles Chaplin Jr., was an American actor. He was the elder son of Charlie Chaplin and Lita Grey, and is known for appearing in 1950s films such as The Beat Generation and Fangs of the Wild.",
+        "Charles Spencer Chaplin Sr. (18 March 1863 – 9 May 1901) was an English music hall entertainer. He achieved considerable success in the 1890s, and was the father of the actor and filmmaker Sir Charlie Chaplin." .
+
+ng:Charles_D_Hall a sem:Event ;
+    sem:hasTimeStamp "1888-04-20"^^xsd:date ;
+    rdfs:comment "Charles D. Hall (April 20, 1888 – April 8, 1970) was a British–American art director and production designer. He is perhaps best remembered for his tenure at Universal Pictures, where he began his career during the silent era. He was art director for many of Universal's most famous productions of the 1920s and 1930s: The Phantom of the Opera (1925), All Quiet on the Western Front (1930), the original Bela Lugosi Dracula (1931), the original Magnificent Obsession (1935), and the 1936 My Man Godfrey among them, as well as eleven films directed by James Whale, including the original Boris Karloff" .
+
+ng:Charles_Reisner a sem:Event ;
+    sem:hasTimeStamp "1887-03-14"^^xsd:date ;
+    rdfs:comment "Charles Francis Reisner (March 14, 1887 – September 24, 1962) was an American film director and actor of the 1920s and 1930s. The German-American directed over 60 films between 1920 and 1950 and acted in over 20 films between 1916 and 1929. He starred with Charlie Chaplin in A Dog's Life in 1918 and The Kid in 1921." .
+
+ng:Christopher_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1962-07-06"^^xsd:date ;
+    rdfs:comment "Christopher James Chaplin (born 8 July 1962) is a Swiss and English composer and actor. He is the youngest son of film comedian Charlie Chaplin and his fourth wife Oona O'Neill. He is the grandson of Eugene O'Neill." .
+
+ng:City_Lights a sem:Event ;
+    rdfs:comment "City Lights is a 1931 American synchronized sound romantic comedy-drama film written, produced, directed by, and starring Charlie Chaplin. While the film has no audible dialog, it was released with a synchronized musical score with sound effects. The story follows the misadventures of Chaplin's Tramp as he falls in love with a blind woman (Virginia Cherrill) and develops a turbulent friendship with an alcoholic millionaire (Harry Myers)." .
+
+ng:Curt_Courant a sem:Event ;
+    sem:hasTimeStamp "1899-05-11"^^xsd:date ;
+    rdfs:comment "Curt Courant (11 May 1899 – 20 April 1968) was a German-American cinematographer whose work includes more than 100 German and international films from the silent and early sound eras. Courant worked in several European countries, collaborating with figures such as Fritz Lang, Alfred Hitchcock and Charlie Chaplin. As he was of Jewish ancestry, Courant was forced to leave Germany in 1933 and go into exile following the Nazi takeover of power." .
+
+ng:Dough_and_Dynamite a sem:Event ;
+    rdfs:comment "Dough and Dynamite is a 1914 American comedy silent short film made by Keystone Studios starring Charlie Chaplin. Historian Blair Miller considered it a predecessor of Oliver Hardy's Dough Nuts." .
+
+ng:Eugene_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1953-08-23"^^xsd:date ;
+    rdfs:comment "Eugene Anthony Chaplin (born 23 August 1953) is a Swiss recording engineer and documentary filmmaker. He is the fifth child of Oona O'Neill and Charlie Chaplin, the grandson of playwright Eugene O'Neill, and the father of film actress Kiera Chaplin. He was part of the cast in Benny Hill's The World's Funniest Clown (1991)." .
+
+ng:Federico_Fellini a sem:Event ;
+    sem:hasTimeStamp "1993-10-31"^^xsd:date ;
+    rdfs:comment "Federico Fellini (Italian: [fedeˈriːko felˈliːni]; 20 January 1920 – 31 October 1993) was an Italian film director and screenwriter. He is known for his distinctive style, which blends fantasy and baroque images with earthiness. He is recognized as one of the greatest and most influential filmmakers of all time." .
+
+ng:Frank_D_Williams a sem:Event ;
+    sem:hasTimeStamp "1893-03-21"^^xsd:date ;
+    rdfs:comment "Frank D. Williams (March 21, 1893 – October 15, 1961) was a pioneering cinematographer who was active in the early days of the motion picture industry. He developed and patented the traveling matte shot." .
+
+ng:Frank_Williams a sem:Event ;
+    sem:hasTimeStamp "1942-04-16"^^xsd:date ;
+    rdfs:comment "Sir Francis Owen Garbett Williams (16 April 1942 – 28 November 2021) was a British businessman, motorsport executive and racing driver. From 1977 to 2020, Williams served as co-founder, team principal and co-owner of Williams in Formula One, winning nine World Constructors' Championship titles between 1980 and 1997." .
+
+ng:Franklin_Delano_Williams a sem:Event ;
+    sem:hasTimeStamp "1947-06-27"^^xsd:date ;
+    rdfs:comment "Franklin Delano Williams ((1947-06-25)June 25, 1947 – (1993-03-22)March 22, 1993) was an American gospel music singer." .
+
+ng:Gentlemen_of_Nerve a sem:Event ;
+    rdfs:comment "Gentlemen of Nerve is a 1914 American comedy silent short film directed by Charlie Chaplin, starring Chaplin and Mabel Normand, and produced by Mack Sennett for Keystone Studios." .
+
+ng:George_D_Baker a sem:Event ;
+    sem:hasTimeStamp "1868-04-22"^^xsd:date ;
+    rdfs:comment "George Duane Baker (April 22, 1868 – June 2, 1933) was an American motion picture director whose career began near the dawn of the silent film era." .
+
+ng:Geraldine_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1944-07-31"^^xsd:date ;
+    rdfs:comment "Geraldine Leigh Chaplin (born July 31, 1944) is an American-born English actress whose long career has included multilingual roles in English, Spanish, French, Italian, and German films. Geraldine is a daughter of Charlie Chaplin, the first of his eight children with his fourth wife, Oona O'Neill, and thus a granddaughter of playwright Eugene O'Neill. After beginnings in dance and modeling, she turned her attention to acting, and made her English-language acting debut (and came to prominence in what would be a Golden Globe–nominated role) as Tonya in David Lean's Doctor Zhivago (1965)." .
+
+ng:Getting_Acquainted a sem:Event ;
+    rdfs:comment "Getting Acquainted, subsequently retitled A Fair Exchange, is a 1914 American comedy short silent film written and directed by Charlie Chaplin, starring Chaplin and Mabel Normand, and produced by Mack Sennett for Keystone Studios. Released on December 5, 1914, Getting Acquainted was the next-to-last movie that Chaplin made for Keystone Studios. It marked the final time he appeared in the same film as Mabel Normand." .
+
+ng:Hannah_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1865-08-11"^^xsd:date ;
+    rdfs:comment "Hannah Harriet Pedlingham Chaplin (née Hill; 6 August 1865 – 28 August 1928), also known by the stage name Lily Harley, was an English actress, singer and dancer who performed in British music halls from the age of 16. Chaplin was the mother of actor and filmmaker Charlie Chaplin and his two half-brothers, the actor Sydney Chaplin and the film director Wheeler Dryden, and grandmother of Jefferson Airplane drummer and songwriter Spencer Dryden. As a result of mental illness, now thought to have been caused by syphilis, she was unable to continue performing from the mid-1890s." .
+
+ng:Harold_Lloyd a sem:Event ;
+    sem:hasTimeStamp "1893-04-20"^^xsd:date ;
+    rdfs:comment "Harold Clayton Lloyd Sr. (April 20, 1893&#160;– March 8, 1971) was an American actor, comedian, and stunt performer who appeared in many silent comedy films. One of the most influential film comedians of the silent era, Lloyd made nearly 200 comedy films, both silent and talkies, from 1914 to 1947. His bespectacled \"glasses character\" was a resourceful, ambitious go-getter who reflected the zeitgeist of the 1920s-era United States." .
+
+ng:Harry_Ensign a sem:Event ;
+    sem:hasTimeStamp "1883-01-01"^^xsd:date ;
+    rdfs:comment "Harry Ensign (1883 in Waterbury, Connecticut – 1943 in Hollywood) was an early American cinematographer of the silent period. He became head of the film laboratory at Paramount Pictures. He worked with Charlie Chaplin on films such as A Night in the Show (1915), A Woman (1915), By the Sea (1915), The Champion (1915), A Jitney Elopement (1915), The Bank (1915), Work (1915), A Night Out (1915), Shanghaied (1915)." .
+
+ng:Her_Friend_the_Bandit a sem:Event ;
+    rdfs:comment "Her Friend the Bandit is a 1914 American short silent comedy film made by Keystone Studios starring Charlie Chaplin and Mabel Normand, both of whom co-directed the movie. It is considered lost." .
+
+ng:His_Musical_Career a sem:Event ;
+    rdfs:comment "His Musical Career (also known as Musical Tramp) is a 1914 American comedy silent short film made by Keystone Studios starring Charlie Chaplin." .
+
+ng:His_New_Job a sem:Event ;
+    rdfs:comment "His New Job is a 1915 American short silent comedy film written by, directed by, and starring Charlie Chaplin. Gloria Swanson appears as an uncredited extra. The title is an inside reference to this being Chaplin's first film after leaving Keystone Studios for Essanay Studios." .
+
+ng:His_New_Profession a sem:Event ;
+    rdfs:comment "His New Profession is a 1914 American silent comedy short film made at the Keystone Studios and starring Charlie Chaplin. The film involves Chaplin taking care of a man in a wheelchair. It is also known as \"The Good for Nothing\"." .
+
+ng:His_Prehistoric_Past a sem:Event ;
+    rdfs:comment "His Prehistoric Past is a 1914 American short silent comedy film, written and directed by Charlie Chaplin, featuring Chaplin in a stone-age kingdom trying to usurp the crown of King Low-Brow to win the affections of the king's favorite wife. While this film was the final short that was released while Chaplin was at Keystone Studios, the film Getting Acquainted was the last film he made there, and stopped working with almost all of Keystone's regular roster of comedians subsequently. Co-star Mack Swain would not appear in another Chaplin film until 1923 when he had a prominent role in the" .
+
+ng:His_Trysting_Place a sem:Event ;
+    rdfs:comment "His Trysting Place is a 1914 American short silent comedy film written and directed by Charlie Chaplin and starring Chaplin and Mabel Normand." .
+
+ng:Hugo_Riesenfeld a sem:Event ;
+    sem:hasTimeStamp "1939-09-10"^^xsd:date ;
+    rdfs:comment "Hugo Riesenfeld (January 26, 1879 – September 10, 1939) was an Austrian-American composer. As a film director, he began to write his own orchestral compositions for silent films in 1917, and co-created modern production techniques where film scoring serves an integral part of the action. Riesenfeld composed about 100 film scores in his career." .
+
+ng:In_the_Park a sem:Event ;
+    rdfs:comment "In the Park is Charlie Chaplin's fourth film released in 1915 by Essanay Films. It was his third film while at the Niles Essanay Studio. It was one of several films Charlie Chaplin created in a park setting at the Golden Gate Park in San Francisco." .
+
+ng:Ira_H_Morgan a sem:Event ;
+    sem:hasTimeStamp "1889-04-02"^^xsd:date ;
+    rdfs:comment "Ira Harry Morgan (2 April 1889 – 10 April 1959) was an American cinematographer. He successfully transitioned from silent movies to sound films." .
+
+ng:Irwin_Corey a sem:Event ;
+    sem:hasTimeStamp "1914-07-29"^^xsd:date ;
+    rdfs:comment "Irwin Corey (July 29, 1914 – February 6, 2017) was an American stand-up comic, film actor and activist, often billed as \"The World's Foremost Authority\". He introduced his unscripted, improvisational style of stand-up comedy at the San Francisco club the hungry i." .
+
+ng:Jess_Robbins a sem:Event ;
+    sem:hasTimeStamp "1886-04-30"^^xsd:date ;
+    rdfs:comment "Jess Robbins (April 30, 1886 – March 11, 1973) was an American film director, writer and producer. He directed more than 70 films between 1913 and 1927. He was the first director to direct Laurel and Hardy in the same motion picture, namely The Lucky Dog." .
+
+ng:Joan_Barry a sem:Event ;
+    sem:hasTimeStamp "1920-05-24"^^xsd:date ;
+    rdfs:comment "Mary Louise Baker (née Gribble; May 24, 1920 – October 1, 2007), known professionally as Joan Barry, was an American woman who won a paternity suit in California in 1943 against Charlie Chaplin." .
+
+ng:John_Beckman a sem:Event ;
+    sem:hasTimeStamp "1895-10-22"^^xsd:date ;
+    rdfs:comment "John Albert Beckman (October 22, 1895, in New York, NY – June 22, 1968, in Miami, Florida) was a professional basketball player. During his 27 years lasting pro career (1914–41) he was known as the \"Babe Ruth of basketball\". He is mostly known for his time with the Original Celtics (1918–19, 1921–27, 1929)." .
+
+ng:John_Jasper a sem:Event ;
+    sem:hasTimeStamp "1812-07-04"^^xsd:date ;
+    rdfs:comment "John Jasper (July 4, 1812 – March 30, 1901) was an ex-slave who became a Baptist minister and noted public speaker for Christianity after the American Civil War." .
+
+ng:Josephine_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1949-03-28"^^xsd:date ;
+    rdfs:comment "Josephine Hannah Chaplin (March 28, 1949 – July 13, 2023) was an American actress and the daughter of filmmaker Charlie Chaplin and his fourth wife, Oona O'Neill. She had a featured role in Pier Paolo Pasolini's The Canterbury Tales (1972) as May, the adulterous wife of the elderly Sir January." .
+
+ng:Karl_Struss a sem:Event ;
+    sem:hasTimeStamp "1886-11-30"^^xsd:date ;
+    rdfs:comment "Karl Struss, A.S.C. (November 30, 1886 – December 15, 1981) was an American photographer and a cinematographer of the 1900s through the 1950s. He was also one of the earliest pioneers of 3-D films. While he mostly worked on films, such as F. W. Murnau's Sunrise: A Song of Two Humans and Charlie Chaplin's The Great Dictator and Limelight, he was also one of the cinematographers for the television series Broken Arrow and photographed 19 episodes of My Friend Flicka." .
+
+ng:Laughing_Gas a sem:Event ;
+    rdfs:comment "Laughing Gas is a 1914 film starring Charlie Chaplin. The film is also known as Busy Little Dentist, Down and Out, Laffing Gas, The Dentist, and Tuning His Ivories. It is inspired by the 1907 film with the same name." .
+
+ng:Leo_White a sem:Event ;
+    sem:hasTimeStamp "1882-11-10"^^xsd:date ;
+    rdfs:comment "Leo White (November 10, 1873 – September 20, 1948) was a German-born British-American film and stage actor who appeared as a character actor in many Charlie Chaplin films." .
+
+ng:Limelight a sem:Event ;
+    rdfs:comment "Limelight is a 1952 American comedy-drama film written, produced, directed by, and starring Charlie Chaplin, based on a novella by Chaplin titled Footlights. The score was composed by Chaplin and arranged by Ray Rasch. The film stars Chaplin as a washed-up comedian who saves a suicidal dancer, played by Claire Bloom, from killing herself, and both try to get through life." .
+
+ng:Lita_Grey a sem:Event ;
+    sem:hasTimeStamp "1908-04-15"^^xsd:date ;
+    rdfs:comment "Lita Grey (born Lillita Louise MacMurray, April 15, 1908 – December 29, 1995), who was known for most of her life as Lita Grey Chaplin, was an American actress. She was the second wife of Charlie Chaplin, and appeared in his films The Kid, The Idle Class, and The Gold Rush." .
+
+ng:Mabel_Normand a sem:Event ;
+    sem:hasTimeStamp "1892-11-10"^^xsd:date ;
+    rdfs:comment "Amabel Ethelreid Normand (November 9, 1893 — February 23, 1930), better known as Mabel Normand, was an American silent film actress, comedienne, director and screenwriter. She was a popular star and collaborator of Mack Sennett in their Keystone Studios films, and at the height of her career in the late 1910s and early 1920s had her own film studio and production company, the Mabel Normand Feature Film Company. On screen, she appeared in twelve successful films with Charlie Chaplin and seventeen with Roscoe \"Fatty\" Arbuckle, sometimes writing and directing (or co-writing and directing) films featuring Chaplin as her leading man." .
+
+ng:Mack_Sennett a sem:Event ;
+    sem:hasTimeStamp "1960-11-05"^^xsd:date ;
+    rdfs:comment "Mack Sennett (born Michael Sinnott; January 17, 1880 – November 5, 1960) was a Canadian-American producer, director, actor, and studio head who was known as the \"King of Comedy\" during his career. Born in Danville, Quebec, he started acting in films in the Biograph Company of New York City in 1908, and later opened Keystone Studios in Edendale, California in 1912. Keystone possessed the first fully enclosed film stage, and Sennett became famous as the originator of slapstick routines such as pie-throwing and car-chases, as seen in the Keystone Cops films." .
+
+ng:Marcel_Marceau a sem:Event ;
+    sem:hasTimeStamp "1923-03-22"^^xsd:date ;
+    rdfs:comment "Marcel Marceau (French: [maʁsɛl maʁso]; born Marcel Mangel; 22 March 1923 – 22 September 2007) was a French mime artist and actor most famous for his stage persona, \"Bip the Clown\". He referred to mime as the \"art of silence\", performing professionally worldwide for more than 60 years." .
+
+ng:Meredith_Willson a sem:Event ;
+    sem:hasTimeStamp "1902-05-18"^^xsd:date ;
+    rdfs:comment "Robert Reiniger Meredith Willson (May 18, 1902 – June 15, 1984) was an American flautist, composer, conductor, musical arranger, bandleader, playwright, and writer. He is perhaps best known for writing the book, music, and lyrics for the 1957 hit Broadway musical The Music Man and \"It's Beginning to Look a Lot Like Christmas\" (1951). Willson wrote three other musicals, two of which appeared on Broadway, and composed symphonies and popular songs." .
+
+ng:Michael_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1946-03-07"^^xsd:date ;
+    rdfs:comment "Michael John Chaplin (born March 7, 1946) is an American actor and author born in Santa Monica, California." .
+
+ng:Mildred_Harris a sem:Event ;
+    sem:hasTimeStamp "1901-11-29"^^xsd:date ;
+    rdfs:comment "Mildred Harris (November 29, 1901 – July 20, 1944) was an American stage, film, and vaudeville actress during the early part of the 20th century. She began her career in the film industry as a child actress at age 10. She was also the first wife of Charlie Chaplin." .
+
+ng:Mixed_Up a sem:Event ;
+    rdfs:comment "Mixed Up may refer to:" .
+
+ng:Modern_Times a sem:Event ;
+    rdfs:comment "Modern Times is a 1936 American part-talkie satirical slapstick comedy film produced, written and directed by Charlie Chaplin. In Chaplin's last performance as the iconic Little Tramp, his character struggles to survive in the modern, industrialized world. The film also stars Paulette Goddard, Henry Bergman, Tiny Sandford and Chester Conklin." .
+
+ng:Monsieur_Verdoux a sem:Event ;
+    rdfs:comment "Monsieur Verdoux is a 1947 American black comedy film directed by and starring Charlie Chaplin, who plays a bigamist wife killer inspired by serial killer Henri Désiré Landru. The supporting cast includes Martha Raye, William Frawley, and Marilyn Nash. The film concerns a former bank teller who marries and murders wealthy women in order to support his wife and child." .
+
+ng:Monta_Bell a sem:Event ;
+    sem:hasTimeStamp "1891-02-05"^^xsd:date ;
+    rdfs:comment "Louis Monta Bell (February 5, 1891 – February 4, 1958) was an American film director, producer, and screenwriter." .
+
+ng:One_A_M a sem:Event ;
+    rdfs:comment "One A.M. is a unique Charlie Chaplin silent film created for Mutual Film in 1916. It was the first film he starred in alone, and also one of the very few films in which he did not play the Tramp character." .
+
+ng:Paulette_Goddard a sem:Event ;
+    sem:hasTimeStamp "1910-06-03"^^xsd:date ;
+    rdfs:comment "Paulette Goddard (born Marion Levy; June 3, 1910 – April 23, 1990) was an American actress and socialite. She was a prominent leading actress during the Golden Age of Hollywood. Born in New York City and raised in Kansas City, Missouri, Goddard initially began her career as a child fashion model and performer in several Broadway productions as a Ziegfeld Girl." .
+
+ng:Pay_Day a sem:Event ;
+    rdfs:comment "Pay Day (1922) is an American short film made by First National Pictures. Charlie Chaplin wrote, directed, and starred in the film. It is Chaplin's final two-reel short film." .
+
+ng:Police a sem:Event ;
+    rdfs:comment "Police is a 1916 film and Charlie Chaplin's 14th with Essanay Studios. It was made at the Majestic Studio in Los Angeles. Charlie plays an ex-convict who finds life on the outside not to his liking and leads him to breaking into a home with another thief (Wesley Ruggles)." .
+
+ng:Recreation a sem:Event ;
+    rdfs:comment "Recreation is an American short short comedy film written, directed by, and starring Charlie Chaplin. It was released on 13 August 1914. Chaplin was the only actor in Recreation to receive a screen credit." .
+
+ng:Roland_Totheroh a sem:Event ;
+    sem:hasTimeStamp "1890-11-29"^^xsd:date ;
+    rdfs:comment "Roland Herbert Totheroh (November 29, 1890 – June 18, 1967) was an American cinematographer most notable for being the regular cameraman on the films of Charlie Chaplin. He worked with Chaplin from 1915 until the 1940s in over 30 films. He was often billed as Rollie Totheroh." .
+
+ng:Shanghaied a sem:Event ;
+    rdfs:comment "Shanghaied is a 1915 American comedy silent short film made by Essanay Studios starring Charlie Chaplin." .
+
+ng:Shoulder_Arms a sem:Event ;
+    rdfs:comment "Shoulder Arms is Charlie Chaplin's second film for First National Pictures. Released in 1918, it is a silent comedy film set in France during World War I, the first of three films he made on the subject of war. It co-starred Edna Purviance and Sydney Chaplin, Chaplin's elder brother." .
+
+ng:Sydney_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1885-03-16"^^xsd:date ;
+    rdfs:comment "Sydney Earl Chaplin (March 30, 1926 – March 3, 2009) was an American actor. He was the second son of Charlie Chaplin and Lita Grey. One of his major roles was in his father's film Limelight (1952).",
+        "Sydney John Chaplin (né&#160;Hill; 16 March 1885 – 16 April 1965) was an English actor. Chaplin was the elder half-brother of actor and filmmaker Charlie Chaplin and in later life, served as his business manager. Through their mother Hannah, they were older half-brothers to the younger Wheeler Dryden, who grew up separately with his father in England and was not told about his half-brothers until 1915." .
+
+ng:The_Adventurer a sem:Event ;
+    rdfs:comment "The Adventurer is an American silent short comedy film made in 1917 written and directed by Charlie Chaplin, and is the last of the twelve films made under contract for the Mutual Film Corporation." .
+
+ng:The_Bank a sem:Event ;
+    rdfs:comment "The Bank is a 1915 silent slapstick comedy film. It was Charlie Chaplin's tenth film for Essanay Films. It is a departure from the Tramp character, as Charlie Chaplin in this instance, plays a janitor in a bank." .
+
+ng:The_Champion a sem:Event ;
+    rdfs:comment "The Champion is a 1915 American silent comedy short film released by Essanay Studios, starring Charlie Chaplin alongside Edna Purviance and Leo White. Essanay co-owner and star, Broncho Billy Anderson can be seen as an enthusiastic audience member in the boxing match scene." .
+
+ng:The_Chaplin_Revue a sem:Event ;
+    rdfs:comment "The Chaplin Revue is a 1959 film comprising three silent films made by Charlie Chaplin. The three shorts included are A Dog's Life, Shoulder Arms, and The Pilgrim. All three star Chaplin's trademark character, The Tramp." .
+
+ng:The_Count a sem:Event ;
+    rdfs:comment "The Count is Charlie Chaplin's fifth film for Mutual Film Corporation in 1916. Released on September 4, it co-starred Eric Campbell and Edna Purviance." .
+
+ng:The_Cure a sem:Event ;
+    rdfs:comment "The Cure is a 1917 American silent short comedy film written and directed by Charlie Chaplin. The plot revolves around alcohol, being made just prior to prohibition but during a period when politicians were debating the evils of alcohol." .
+
+ng:The_Face_on_the_Bar_Room_Floor a sem:Event ;
+    rdfs:comment "The Face on the Bar Room Floor is a 1914 short film written and directed by Charlie Chaplin. Chaplin stars in this film, loosely based on the poem of the same name by Hugh Antoine d'Arcy." .
+
+ng:The_Fireman a sem:Event ;
+    rdfs:comment "The Fireman is a 1916 film and the second one Charlie Chaplin distributed by the Mutual Film Corporation. Released on June 12, it starred Chaplin as the fireman and Edna Purviance as the daughter to Lloyd Bacon." .
+
+ng:The_Floorwalker a sem:Event ;
+    rdfs:comment "The Floorwalker is a 1916 American silent comedy film, Charlie Chaplin's first Mutual Film Corporation film. The film stars Chaplin, in his traditional Tramp persona, as a customer who creates chaos in a department store and becomes inadvertently entangled in the nefarious scheme of the store manager, played by Eric Campbell, and the store's floorwalker, played by Lloyd Bacon, to embezzle money from the establishment. The film is noted for the first \"running staircase\" used in films which is used for a series of slapstick that climaxes with a frantic chase down an upward escalator and finding they are remaining" .
+
+ng:The_Gold_Rush a sem:Event ;
+    rdfs:comment "The Gold Rush is a 1925 American silent comedy film written, produced, and directed by Charlie Chaplin. The film also stars Chaplin in his Little Tramp persona, Georgia Hale, Mack Swain, Tom Murray, Henry Bergman and Malcolm Waite. Chaplin drew inspiration from photographs of the Klondike Gold Rush as well as from the story of the Donner Party who, when snowbound in the Sierra Nevada, were driven to cannibalism or eating leather from their shoes." .
+
+ng:The_Great_Dictator a sem:Event ;
+    rdfs:comment "The Great Dictator is a 1940 American political satire black comedy film written, directed, produced by, and starring Charlie Chaplin. Having been the only major Hollywood filmmaker to continue to make silent films well into the period of sound films, Chaplin made this his first true sound film. Chaplin's film advanced a stirring condemnation of the German and Italian dictators Adolf Hitler and Benito Mussolini, as well as fascism, antisemitism, and Nazism." .
+
+ng:The_Idle_Class a sem:Event ;
+    rdfs:comment "The Idle Class is a 1921 American silent comedy short film written and directed by Charlie Chaplin for First National Pictures." .
+
+ng:The_Immigrant a sem:Event ;
+    rdfs:comment "The Immigrant is a 1917 American silent romantic comedy short written and directed by Charlie Chaplin. The film stars Chaplin's Tramp character as an immigrant coming to the United States who is accused of theft on the voyage across the Atlantic Ocean and falls in love with a beautiful young woman along the way. It also stars Edna Purviance and Eric Campbell." .
+
+ng:The_Kid a sem:Event ;
+    rdfs:comment "The Kid is a 1921 American silent comedy-drama film written, produced, directed by and starring Charlie Chaplin, and features Jackie Coogan as his foundling baby, adopted son and sidekick. This was Chaplin's first full-length film as a director. It was a huge success and was the second-highest-grossing film in 1921." .
+
+ng:The_Masquerader a sem:Event ;
+    rdfs:comment "The Masquerader is a 1914 film written and directed by Charlie Chaplin during his time at Keystone Studios. This film stars Chaplin and Roscoe Arbuckle and has a running time of 13 minutes. It is the tenth film directed by Chaplin." .
+
+ng:The_New_Janitor a sem:Event ;
+    rdfs:comment "The New Janitor is a 1914 film from Keystone Studios, and is the 27th comedy to feature Charlie Chaplin. The film is arguably one of his best for the studio, and a precursor to a key Essanay Studios short, The Bank. The film also demonstrates the differences that Chaplin had with Keystone comedy in that it is a coherent whole in which the stock characters actually fill some emotional center." .
+
+ng:The_Pawnshop a sem:Event ;
+    rdfs:comment "The Pawnshop is Charlie Chaplin's sixth film for Mutual Film Corporation. Released on October 2, 1916, it stars Chaplin in the role of assistant to the pawnshop owner, played by Henry Bergman. Edna Purviance plays the owner's daughter, while Albert Austin appears as an alarm clock owner who watches Chaplin in dismay as he dismantles the clock; the massive Eric Campbell's character attempts to rob the shop." .
+
+ng:The_Pilgrim a sem:Event ;
+    rdfs:comment "The Pilgrim is a 1923 American silent film made by Charlie Chaplin for the First National Film Company, starring Chaplin and Edna Purviance. The film marks the last time Edna Purviance co-starred with Chaplin and the last film he made for First National. Purviance also starred in Chaplin's A Woman of Paris (1923), in which Chaplin had a brief cameo." .
+
+ng:The_Property_Man a sem:Event ;
+    rdfs:comment "The Property Man is a short 1914 American comedy silent film made by Keystone Studios starring Charlie Chaplin." .
+
+ng:The_Rink a sem:Event ;
+    rdfs:comment "The Rink, a silent film from 1916, is Charlie Chaplin's eighth film for Mutual Films. The film co-starred Edna Purviance, Eric Campbell, Henry Bergman, and Albert Austin, and is best known for showcasing Chaplin's roller skating skills. Chaplin's obvious skill on roller skates surprised many of his fans, but Charlie was an experienced performer." .
+
+ng:The_Rounders a sem:Event ;
+    rdfs:comment "The Rounders is a 1914 comedy short starring Charlie Chaplin and Roscoe Arbuckle. The film involves two drunks who get into trouble with their wives, and was written and directed by Chaplin." .
+
+ng:The_Tramp a sem:Event ;
+    rdfs:comment "The Tramp is a 1915 film directed and written by Charlie Chaplin, who plays the titular character. It was Chaplin's sixth film, produced by Essanay Studios and his fifth shot in and around their studio in Niles, California. The character of The Tramp had appeared in Chaplin's previous films, but with this film he is given more emotional depth." .
+
+ng:Those_Love_Pangs a sem:Event ;
+    rdfs:comment "Those Love Pangs, also known as The Rival Mashers, is a 1914 American silent comedy film. It was produced by Keystone Studios and starred Charlie Chaplin and Chester Conklin." .
+
+ng:Triple_Trouble a sem:Event ;
+    rdfs:comment "Triple Trouble is a 1918 two-reel American silent comedy film. It stars Charlie Chaplin, Edna Purviance, and Leo White. This film was not an official Chaplin film, even though it has many Chaplin-directed scenes; after he left the studio, Essanay edited it together using outtakes and newly shot footage directed by White." .
+
+ng:Twenty_Minutes_of_Love a sem:Event ;
+    rdfs:comment "Twenty Minutes of Love is a 1914 American silent short comedy film made by Keystone Studios. The film is widely reported as Charlie Chaplin's directorial debut; some sources name Joseph Maddern as the director, but generally credit Chaplin as the creative force." .
+
+ng:Victoria_Chaplin a sem:Event ;
+    sem:hasTimeStamp "1951-05-19"^^xsd:date ;
+    rdfs:comment "Victoria Agnes Chaplin-Thierrée (born May 19, 1951) is a British-American circus performer. She is a daughter of film actor and comedian Charlie Chaplin from his fourth wife, Oona O'Neill, and a granddaughter of playwright Eugene O'Neill. Chaplin was born at Saint John's Health Center in Santa Monica, but grew up in Switzerland." .
+
+ng:Wheeler_Dryden a sem:Event ;
+    sem:hasTimeStamp "1892-09-11"^^xsd:date ;
+    rdfs:comment "George Dryden Wheeler Jr. (31 August 1892 – 30 September 1957), also known as Leo George Wheeler but known professionally as Wheeler Dryden, was an English-born American actor and film director. He was the son of Hannah Chaplin and music hall entertainer Leo Dryden, and younger half-brother of actors Sir Charlie and Sydney Chaplin. He moved to the United States in 1918, joining his mother and two half-brothers." .
+
+ng:William_C_Foster a sem:Event ;
+    sem:hasTimeStamp "1880-12-28"^^xsd:date ;
+    rdfs:comment "William C. Foster (December 28, 1880 – January 18, 1923) was a pioneer of cinematography." .
+
+ng:Work a sem:Event ;
+    rdfs:comment "Work is a 1915 American silent film starring Charlie Chaplin (his eighth film for Essanay Films), and co-starring Edna Purviance, Marta Golden and Charles Inslee. It was filmed at the Majestic Studio in Los Angeles. It is one of the first movies to appreciate the slapstick potential of a painting and decorating scenario." .
+

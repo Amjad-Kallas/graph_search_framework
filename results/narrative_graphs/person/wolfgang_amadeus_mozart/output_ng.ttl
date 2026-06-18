@@ -1,0 +1,88 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:1034_Mozartia a sem:Event ;
+    rdfs:comment "1034 Mozartia, provisional designation 1924 SS, is a stony asteroid from the inner regions of the asteroid belt, approximately 8 kilometers in diameter. It was discovered on 7 September 1924, by Soviet Vladimir Albitsky at Simeiz Observatory on the Crimean peninsula, and named after Wolfgang Amadeus Mozart." .
+
+ng:Amadeus_Quartet a sem:Event ;
+    rdfs:comment "The Amadeus Quartet was a string quartet founded in 1947 and disbanded in 1987, having retained its founding members throughout its history. Noted for its smooth, sophisticated style, its seamless ensemble playing, and its sensitive interpretation, the quartet has often been seen as working within an Austrian tradition. However, it was formed and based in the United Kingdom." .
+
+ng:Anna_Maria_Mozart a sem:Event ;
+    sem:hasTimeStamp "1720-12-25"^^xsd:date ;
+    rdfs:comment "Anna Maria Walburga Mozart (née Pertl; 25 December 1720 – 3 July 1778) was the mother of Wolfgang Amadeus Mozart and Maria Anna Mozart." .
+
+ng:Barbara_Ployer a sem:Event ;
+    sem:hasTimeStamp "1765-01-01"^^xsd:date ;
+    rdfs:comment "Maria Anna Barbara or Babette Ployer (2 September 1765 – before April 1811) was an Austrian piano and composition pupil of Wolfgang Amadeus Mozart, for whom he wrote two piano concertos in 1784, No. 14 KV. 449 and No. 17, KV. 453, which were both premiered at her residence by her in 1784." .
+
+ng:Beethoven_and_Motsart a sem:Event ;
+    rdfs:comment "Wolfgang Amadeus Mozart (1756–1791) had a powerful influence on the works of Ludwig van Beethoven (1770–1827). Beethoven held Mozart in high regard. Some of his music recalls Mozart's; he composed several variations on Mozart's themes and he modeled a number of his compositions on those of the older composer." .
+
+ng:Carl_Thomas_Mozart a sem:Event ;
+    sem:hasTimeStamp "1784-09-21"^^xsd:date ;
+    rdfs:comment "Karl Thomas Mozart (21 September 1784&#160;– 31 October 1858) was an Austrian musician. He was the second son and, along with his brother, one of the two surviving children of Wolfgang and Constanze Mozart. The other was Franz Xaver Wolfgang Mozart." .
+
+ng:Constanze_Mozart a sem:Event ;
+    sem:hasTimeStamp "1842-03-06"^^xsd:date ;
+    rdfs:comment "Maria Constanze Cäcilia Josepha Johanna Aloysia Mozart (née&#160;Weber, Austrian German: [kɔnˈstantsə ˈmoːtsart ˈveːbɐ]; 5 January 1762 – 6 March 1842) was an Austrian soprano, later a businesswoman. She is best remembered as the wife of the composer Wolfgang Amadeus Mozart, who from the evidence of his letters was deeply in love with her throughout their nine-year marriage. Following her husband's sudden death in 1791, Constanze Mozart escaped poverty and supported her family through concertizing and promotion of her husband's memory; she was responsible in part for the extensive posthumous publication of her husband's works." .
+
+ng:Franz_Xaver_Wolfgang_Mozart a sem:Event ;
+    sem:hasTimeStamp "1791-07-26"^^xsd:date ;
+    rdfs:comment "Franz Xaver Wolfgang Mozart (26 July 1791 – 29 July 1844), also known as Wolfgang Amadeus Mozart Jr., was the youngest child of six born to composer Wolfgang Amadeus Mozart and his wife Constanze and the younger of his parents' two surviving children. He was a composer, pianist, conductor, and teacher of the late classical period whose musical style was of an early Romanticism, heavily influenced by his father's mature style. He knew Franz Schubert and Robert Schumann, both of whom held him in high esteem." .
+
+ng:Ignaz_von_Seyfried a sem:Event ;
+    sem:hasTimeStamp "1776-08-15"^^xsd:date ;
+    rdfs:comment "Ignaz Xaver Ritter von Seyfried (15 August 1776 – 27 August 1841) was an Austrian musician, conductor and composer. He was born and died in Vienna. According to a statement in his handwritten memoirs he was a pupil of both Wolfgang Amadeus Mozart and Johann Georg Albrechtsberger." .
+
+ng:Johann_Christian_Bach a sem:Event ;
+    sem:hasTimeStamp "1735-09-05"^^xsd:date ;
+    rdfs:comment "Johann Christian Bach (5 September 1735 – 1 January 1782) was a German composer of the Classical era and the youngest son of Johann Sebastian Bach. Bach received his early musical training from his father, and later from his half-brother, Carl Philipp Emanuel Bach in Berlin. After his time in Berlin he made his way to Italy to study with the famous Padre Martini in Bologna." .
+
+ng:Johann_Nepomuk_Hummel a sem:Event ;
+    sem:hasTimeStamp "1778-09-14"^^xsd:date ;
+    rdfs:comment "Johann Nepomuk Hummel (14 November 1778&#160;– 17 October 1837) was an Austrian composer and pianist. His music reflects the transition from the Classical to the Romantic musical era. He was a pupil of Wolfgang Amadeus Mozart, Antonio Salieri, and Joseph Haydn." .
+
+ng:Johann_Schobert a sem:Event ;
+    sem:hasTimeStamp "1767-08-28"^^xsd:date ;
+    rdfs:comment "Johann Schobert (c. 1720, 1735 or 1740 – 28 August 1767) was a composer and harpsichordist. His date of birth is given variously as about 1720, about 1735, or about 1740, his place of birth as Silesia, Alsace, or Nuremberg." .
+
+ng:Leopold_Mozart a sem:Event ;
+    sem:hasTimeStamp "1719-11-14"^^xsd:date ;
+    rdfs:comment "Johann Georg Leopold Mozart (14 November 1719 – 28 May 1787) was a German composer, violinist, and music theorist. He is best known today as the father and teacher of Wolfgang Amadeus Mozart, and for his violin textbook Versuch einer gründlichen Violinschule (1756)." .
+
+ng:Ludwig_van_Beethoven a sem:Event ;
+    sem:hasTimeStamp "1770-12-17"^^xsd:date ;
+    rdfs:comment "Ludwig van Beethoven (baptised 17 December 1770&#160;– 26 March 1827) was a German composer and pianist. Mentored during the Classical period, Beethoven's musical style was a key driver of the transition to Romantic music, and the expansion of popular forms such as the symphony and string quartet. His compositions have attracted casual and scholarly interest, and remain among the most performed in the world." .
+
+ng:Maria_Anna_Mozart a sem:Event ;
+    sem:hasTimeStamp "1751-07-30"^^xsd:date ;
+    rdfs:comment "Maria Anna Walburga Ignatia \"Marianne\" Mozart (30 July 1751 – 29 October 1829), nicknamed Nannerl, was a distinguished musician from Salzburg. In her childhood, she developed into an outstanding keyboard player under the tutelage of her father Leopold. She became a celebrated child prodigy and went on concert tours through much of Europe with her parents and her younger brother Wolfgang Amadeus Mozart." .
+
+ng:Mozart a sem:Event ;
+    sem:hasPlace ng:Monster,
+        ng:Tolstoj_quadrangle ;
+    rdfs:comment "Mozart is a crater on Mercury, named by the IAU in 1976 after Austrian composer Wolfgang Amadeus Mozart. The arc of dark hills visible on the crater's floor represents remnants of a central peak ring. Mozart is one of 110 peak ring basins on Mercury.",
+        "Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791) was a Classical composer and musician. He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera, and choral music. Born in Salzburg, Mozart quickly emerged as a child prodigy under the training of his father Leopold, a skilled pedagogue." .
+
+ng:Mozart_effect a sem:Event ;
+    rdfs:comment "The Mozart effect is the hypothesis that listening to the music of Wolfgang Amadeus Mozart may temporarily boost scores on one portion of an IQ test. Popular science versions of the hypothesis make the claim that \"listening to Mozart makes you smarter\" or that early childhood exposure to classical music has a beneficial effect on mental development. The original study from 1993 reported a short-term (lasting about 15 minutes) improvement on the performance of certain kinds of mental tasks known as spatial reasoning, such as folding paper and solving mazes." .
+
+ng:Mozartkugel a sem:Event ;
+    rdfs:comment "A Mozartkugel (German: [ˈmoːtsaʁtˌkuːɡl̩] ; English: \"Mozart ball\"; pl. Mozartkugeln) is a small, round sugar confection made of pistachio, marzipan, and nougat that is covered with dark chocolate. It was originally known as Salzburg specialty Mozartkugel, created in 1880 by Salzburg confectioner Rudolf Baumann (1839–1905) and named after local composer Wolfgang Amadeus Mozart. Today, Baumann's successor company, Confectionery Josef Holzermayr, still produces the genuine Salzburg Mozartkugel at Alter Markt 7 in Salzburg - according to the layering principle developed in 1880: A delicate nougat core is encased in pistachio-almond marzipan and coated with dark chocolate." .
+
+ng:Nicolas_Chamfort a sem:Event ;
+    sem:hasTimeStamp "1741-04-06"^^xsd:date ;
+    rdfs:comment "Sébastien-Roch Nicolas, known in his adult life as Nicolas Chamfort and as Sébastien Nicolas de Chamfort (French: [ʃɑ̃fɔʁ]; 6 April 1741 – 13 April 1794), was a French writer, best known for his epigrams and aphorisms. He was secretary to Louis XVI's sister Madame Élisabeth, and of the Jacobin club." .
+
+ng:Salzburg_Airport a sem:Event ;
+    rdfs:comment "Salzburg Airport (IATA: SZG, ICAO: LOWS), branded as Salzburg&#160;Airport&#160;W.&#160;A.&#160;Mozart, is Austria's second-largest airport. It serves Salzburg, the fourth-largest Austrian city, and is a gateway to Austria's numerous ski areas. The airport is located 1.7&#160;NM (3.1&#160;km; 2.0&#160;mi) west-south-west of the Salzburg City centre and 2&#160;km (1.2&#160;mi) from the Austrian-German border." .
+
+ng:Thomas_Attwood a sem:Event ;
+    sem:hasTimeStamp "1765-11-23"^^xsd:date ;
+    rdfs:comment "Thomas Attwood (23 November 1765&#160;– 24 March 1838) was an English composer and organist. Attwood studied under Mozart and he was friendly with Felix Mendelssohn." .
+
+ng:Verge_t_Mozart a sem:Event ;
+    rdfs:comment "Forget Mozart (German: Vergeßt Mozart) is a 1985 West German-Czechoslovak mystery film directed by Miloslav Luther and starring Armin Mueller-Stahl, Max Tidof, and Wolfgang Preiss. Following the death of Wolfgang Amadeus Mozart, a number of those who knew him are assembled to establish the cause of his death." .
+

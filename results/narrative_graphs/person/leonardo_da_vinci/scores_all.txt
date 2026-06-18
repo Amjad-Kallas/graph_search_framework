@@ -1,0 +1,64 @@
+All 61 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Mona Lisa  |  combined=0.869  wiki=0.822  llm=0.900 ***
+  2. Vitruvian Man  |  combined=0.844  wiki=0.760  llm=0.900 ***
+  3. Adoration of the Magi  |  combined=0.842  wiki=0.756  llm=0.900 ***
+  4. Science and inventions of Leonardo da Vinci  |  combined=0.820  wiki=1.000  llm=0.700 ***
+  5. Virgin of the Rocks  |  combined=0.815  wiki=0.687  llm=0.900 ***
+  6. Andrea del Verrocchio  |  combined=0.811  wiki=0.677  llm=0.900 ***
+  7. Francesco Melzi  |  combined=0.783  wiki=0.607  llm=0.900 ***
+  8. Portrait of a Musician  |  combined=0.774  wiki=0.735  llm=0.800 ***
+  9. Benois Madonna  |  combined=0.764  wiki=0.711  llm=0.800 ***
+ 10. Studies of the Fetus in the Womb  |  combined=0.751  wiki=0.528  llm=0.900 ***
+ 11. Sala delle Asse  |  combined=0.746  wiki=0.664  llm=0.800 ***
+ 12. Self portrait  |  combined=0.743  wiki=0.658  llm=0.800 ***
+ 13. Cecilia Gallerani  |  combined=0.723  wiki=0.607  llm=0.800 ***
+ 14. Bacchus  |  combined=0.692  wiki=0.681  llm=0.700 ***
+ 15. The Holy Infants Embracing  |  combined=0.661  wiki=0.602  llm=0.700 ***
+ 16. The Head of the Virgin in Three Quarter View Facing Right  |  combined=0.656  wiki=0.589  llm=0.700 ***
+ 17. Francis I of France  |  combined=0.569  wiki=0.372  llm=0.700 ***
+ 18. Paolo dal Pozzo Toscanelli  |  combined=0.433  wiki=0.632  llm=0.300 ***
+ 19. Budapest horse  |  combined=0.355  wiki=0.588  llm=0.200 ***
+ 20. List of works by Leonardo da Vinci  |  combined=0.355  wiki=0.888  llm=0.000 ***
+ 21. Piero Soderini  |  combined=0.333  wiki=0.531  llm=0.200 ***
+ 22. Madonna of the Yarnwinder  |  combined=0.320  wiki=0.801  llm=0.000 ***
+ 23. Michelangelo  |  combined=0.298  wiki=0.744  llm=0.000 ***
+ 24. Lorenzo di Credi  |  combined=0.295  wiki=0.737  llm=0.000 ***
+ 25. Leonardo da Vinci Art School  |  combined=0.294  wiki=0.734  llm=0.000 ***
+ 26. Istituto Statale Italiano Leonardo Da Vinci  |  combined=0.292  wiki=0.729  llm=0.000 ***
+ 27. Leonardo da Vinci Medal  |  combined=0.288  wiki=0.719  llm=0.000 ***
+ 28. Madonna of the Carnation  |  combined=0.282  wiki=0.706  llm=0.000 ***
+ 29. Madonna Litta  |  combined=0.282  wiki=0.704  llm=0.000 ***
+ 30. Leonardo da Vinci programme  |  combined=0.281  wiki=0.703  llm=0.000 ***
+ 31. Lady with an Ermine  |  combined=0.279  wiki=0.698  llm=0.000 ***
+ 32. La Belle Ferronni re  |  combined=0.268  wiki=0.670  llm=0.000 ***
+ 33. Pontormo  |  combined=0.262  wiki=0.654  llm=0.000 ***
+ 34. Tavola Doria  |  combined=0.259  wiki=0.649  llm=0.000 ***
+ 35. Leda and the Swan  |  combined=0.254  wiki=0.635  llm=0.000 ***
+ 36. Portrait of a Young Fianc e  |  combined=0.252  wiki=0.629  llm=0.000
+ 37. Luca Pacioli  |  combined=0.250  wiki=0.626  llm=0.000
+ 38. Davincia  |  combined=0.242  wiki=0.605  llm=0.000
+ 39. Leonardo da Vinci Gymnasium  |  combined=0.227  wiki=0.568  llm=0.000
+ 40. Girolamo Savonarola  |  combined=0.226  wiki=0.415  llm=0.100
+ 41. Leonardo Da Vinci University  |  combined=0.226  wiki=0.564  llm=0.000
+ 42. De ludo scachorum  |  combined=0.224  wiki=0.559  llm=0.000
+ 43. Leonardo Permanent Multipurpose Module  |  combined=0.215  wiki=0.536  llm=0.000
+ 44. 3000 Leonardo  |  combined=0.214  wiki=0.535  llm=0.000
+ 45. Cesare da Sesto  |  combined=0.210  wiki=0.524  llm=0.000
+ 46. Leonardo  |  combined=0.209  wiki=0.523  llm=0.000
+ 47. Andrea Solari  |  combined=0.206  wiki=0.516  llm=0.000
+ 48. Ludovico Sforza  |  combined=0.202  wiki=0.504  llm=0.000
+ 49. Cesare Borgia  |  combined=0.200  wiki=0.351  llm=0.100
+ 50. davinciite  |  combined=0.200  wiki=0.501  llm=0.000
+ 51. Da Vinci  |  combined=0.194  wiki=0.485  llm=0.000
+ 52. Simone del Pollaiolo  |  combined=0.170  wiki=0.425  llm=0.000
+ 53. Portrait of Isabella d Este  |  combined=0.168  wiki=0.419  llm=0.000
+ 54. Annunciation  |  combined=0.166  wiki=0.415  llm=0.000
+ 55. Head of Christ  |  combined=0.165  wiki=0.412  llm=0.000
+ 56. Leonardo da Vinci Engineering School  |  combined=0.160  wiki=0.401  llm=0.000
+ 57. Da Vinci Surgical System  |  combined=0.158  wiki=0.394  llm=0.000
+ 58. Bianca Maria Sforza  |  combined=0.142  wiki=0.356  llm=0.000
+ 59. Medusa  |  combined=0.089  wiki=0.223  llm=0.000
+ 60. Maria Magdalena  |  combined=0.002  wiki=0.005  llm=0.000
+ 61. Head of a Woman  |  combined=0.000  wiki=0.000  llm=0.000

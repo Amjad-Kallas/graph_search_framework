@@ -1,0 +1,80 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:A_Conger_Goodyear a sem:Event ;
+    sem:hasTimeStamp "1877-06-20"^^xsd:date ;
+    rdfs:comment "Anson Conger Goodyear (June 20, 1877 – April 24, 1964) was an American manufacturer, businessman, author, and philanthropist and member of the Goodyear family. He is best known as one of the founding members and first president of the Museum of Modern Art in New York." .
+
+ng:Cristina_Kahlo a sem:Event ;
+    sem:hasTimeStamp "1908-06-07"^^xsd:date ;
+    rdfs:comment "Cristina Kahlo y Calderón (7 June 1908 – 8 February 1964) was the sister of artist Frida Kahlo. Frida painted a portrait of Cristina, titled Portrait of Cristina, My Sister, and Diego Rivera, Frida's husband, also portrayed Cristina Kahlo in his work. Cristina, with whom Rivera had an affair, was painted by Rivera in the nude." .
+
+ng:Daniel_Filipacchi a sem:Event ;
+    sem:hasTimeStamp "1928-01-12"^^xsd:date ;
+    rdfs:comment "Daniel Filipacchi (born 12 January 1928) is the Chairman Emeritus of Hachette Filipacchi Médias and a French collector of surrealist art." .
+
+ng:Diego_Rivera a sem:Event ;
+    sem:hasTimeStamp "1886-12-08"^^xsd:date ;
+    rdfs:comment "Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez (Spanish pronunciation: [ˈdjeɣo riˈβeɾa]; December 8, 1886 – November 24, 1957) was a Mexican painter. His large frescoes helped establish the mural movement in Mexican and international art. Between 1922 and 1953, Rivera painted murals in, among other places, Mexico City, Chapingo, and Cuernavaca in Mexico, and San Francisco, Detroit, and New York City in the United States." .
+
+ng:Diego_and_I a sem:Event ;
+    rdfs:comment "Diego and I (Spanish: Diego y yo) is an oil on canvas painting by the Mexican artist Frida Kahlo, from 1949. In November 2021, it sold at auction in Sotheby's New York for US$34.9 million, a record at the time for a Kahlo work, and for a work by a Latin American artist. It shattered the record previously held by the painting The Rivals (1931) by her husband Diego Rivera (1886-1957) who appears on her forehead in this work." .
+
+ng:Dolores_Olmedo a sem:Event ;
+    sem:hasTimeStamp "1908-12-14"^^xsd:date ;
+    rdfs:comment "María de los Dolores Olmedo y Patiño Suárez (December 14, 1908 – July 26, 2002; Mexico City) was a Mexican businesswoman, philanthropist and musician, better known for her friendship with the Mexican painters Frida Kahlo and her husband Diego Rivera; she appeared in some of his paintings. Following Rivera's death in 1957, she and Rivera's daughter Guadalupe asked then president Adolfo López Mateos to consider Rivera and José Clemente Orozco's paintings historical monuments." .
+
+ng:Frida_and_Diego_Rivera a sem:Event ;
+    sem:hasPlace ng:San_Francisco_Museum_of_Modern_Art ;
+    rdfs:comment "Frieda and Diego Rivera (Frieda y Diego Rivera in Spanish) is a 1931 oil painting by Mexican artist Frida Kahlo. This portrait was created two years after Frida Kahlo and Diego Rivera married, and is widely considered a wedding portrait. The painting shows Kahlo standing next to her husband and fellow artist, Rivera." .
+
+ng:Guillermo_Kalho a sem:Event ;
+    sem:hasTimeStamp "1871-10-26"^^xsd:date ;
+    rdfs:comment "Guillermo Kahlo (born Carl Wilhelm Kahlo; 26 October 1871 – 14 April 1941) was a German-born Mexican-naturalized photographer. He photographically documented important architectural works, churches, streets, landmarks, as well as industries and companies in Mexico at the beginning of the 20th century; because of this, his work has not only artistic value but also historical and documental importance. He was the father of painter Frida Kahlo." .
+
+ng:Laura_Mulvey a sem:Event ;
+    sem:hasTimeStamp "1941-08-15"^^xsd:date ;
+    rdfs:comment "Laura Mulvey (born 15 August 1941) is a British feminist film theorist and filmmaker. She was educated at St Hilda's College, Oxford. She is currently Honorary Professor of Film at the University of St." .
+
+ng:My_Dress_Hangs_There a sem:Event ;
+    rdfs:comment "My Dress Hangs There (1933) is an oil painting and collage by Mexican artist Frida Kahlo. Kahlo began this painting while staying in New York City with her husband, Diego Rivera, and completed it after the couple returned to their home in Mexico City. The painting was shown to the public for the first time at the Levy Gallery in New York in 1938 with the title My Dress Was There Hanging, and was shown again in Paris in 1939 with the title Ma robe était pendue là." .
+
+ng:Rudolf_Ernest_Langer a sem:Event ;
+    sem:hasTimeStamp "1894-03-08"^^xsd:date ;
+    rdfs:comment "Rudolf Ernest Langer or Rudolph Ernest Langer (8 March 1894 – 11 March 1968) was an American mathematician and president of the Mathematical Association of America. He is known for the Langer correction in semiclassical physics." .
+
+ng:Self_Portrait_with_Monkey a sem:Event ;
+    sem:hasPlace ng:Albright_Knox_Art_Gallery ;
+    rdfs:comment "Self-Portrait with Monkey (Autorretrato con mono in Spanish) is an oil on masonite painting by Mexican artist Frida Kahlo, commissioned in 1938 by A. Conger Goodyear, then president of the Museum of Modern Art in New York City. It is one of the many self-portraits painted by Kahlo for friends and patrons during her career. The commission came after Goodyear attended Kahlo's first solo exhibition in November 1938 at the Julien Levy Gallery in New York." .
+
+ng:Self_Portrait_with_Thorn_Necklace_and_Hummingbird a sem:Event ;
+    sem:hasPlace ng:Harry_Ransom_Center ;
+    rdfs:comment "Self-Portrait with Thorn Necklace and Hummingbird (Spanish: Autorretrato con Collar de Espinas y Colibrí) is a 1940 self-portrait by Mexican painter Frida Kahlo which also includes a black cat, a monkey, and two dragonflies. It was painted after Kahlo's divorce from Diego Rivera and the end of her affair with photographer Nickolas Muray. Muray bought the portrait shortly after it was painted, and it is currently part of the Nickolas Muray collection at the Harry Ransom Center at the University of Texas at Austin." .
+
+ng:The_Broken_Column a sem:Event ;
+    sem:hasPlace ng:Museo_Dolores_Olmedo ;
+    rdfs:comment "The Broken Column (La Columna Rota in Spanish) is an oil on masonite painting by Mexican artist Frida Kahlo, painted in 1944 shortly after she had spinal surgery to correct on-going problems which had resulted from a serious traffic accident when she was 18 years old. The original is housed at the Museo Dolores Olmedo in Xochimilco, Mexico City, Mexico. As with many of her self-portraits, pain and suffering is the focus of the work, though unlike many of her other works, which include parrots, dogs, monkeys and other people, in this painting, Kahlo is alone." .
+
+ng:The_Frame a sem:Event ;
+    sem:hasPlace ng:Centre_Georges_Pompidou ;
+    rdfs:comment "The Frame (El marco in Spanish) is a 1938 self-portrait by Frida Kahlo. The painting features Kahlo's self-portrait in oil on a sheet of aluminum framed in glass which she purchased from a market in Oaxaca, Mexico. Although the glass frame is included as part of the painting, the flowers, birds, and other details on the frame were painted prior to being purchased by Kahlo." .
+
+ng:The_Two_Fridas a sem:Event ;
+    sem:hasPlace ng:Museo_de_Arte_Moderno_Mexico ;
+    rdfs:comment "The Two Fridas (Las dos Fridas in Spanish) is an oil painting by Mexican artist Frida Kahlo. The painting was the first large-scale work done by Kahlo and is considered one of her most notable paintings. It is a double self-portrait, depicting two versions of Kahlo seated together." .
+
+ng:The_Wounded_Deer a sem:Event ;
+    rdfs:comment "The Wounded Deer (El venado herido in Spanish) is an oil painting by Mexican artist Frida Kahlo created in 1946. It is also known as The Little Deer. Through The Wounded Deer, Kahlo shares her enduring physical and emotional suffering with her audience, as she did throughout her creative oeuvre." .
+
+ng:The_Wounded_Table a sem:Event ;
+    rdfs:comment "The Wounded Table (La mesa herida in Spanish) is an oil painting by Mexican artist Frida Kahlo. Although lost in 1955, three photos of this painting were taken between 1940 and 1944. The painting was first displayed in January 1940 at the International Surrealism Exhibit at Inés Amor's Gallery of Mexican Art in Mexico City, and a replica is currently displayed in the Kunstmuseum Gehrke-Remund, Baden-Baden, Germany." .
+
+ng:Tina_Modotti a sem:Event ;
+    sem:hasTimeStamp "1896-08-17"^^xsd:date ;
+    rdfs:comment "Tina Modotti (born Assunta Adelaide Luigia Modotti Mondini, August 16/17, 1896 – January 5, 1942) was an Italian and American photographer, model, actor, and revolutionary political activist for the Comintern. She left her native Italy in 1913 and emigrated to the United States, where she settled in San Francisco with her father and sister. In San Francisco, Modotti worked as a seamstress, model, and theater performer and, later, moved to Los Angeles where she worked in film." .
+
+ng:What_the_Water_Gave_Me a sem:Event ;
+    rdfs:comment "What the Water Gave Me (Lo que el agua me dio in Spanish) is an oil painting by Frida Kahlo that was completed in 1938. It is sometimes referred to as What I Saw in the Water. Frida Kahlo’s What the Water Gave Me has been called her biography." .
+

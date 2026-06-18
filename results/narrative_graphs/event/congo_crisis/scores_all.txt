@@ -1,0 +1,17 @@
+All 14 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Lobster War  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  2. 1961 in the Vietnam War  |  combined=0.393  wiki=0.984  llm=0.000 ***
+  3. 1960 in the Vietnam War  |  combined=0.374  wiki=0.935  llm=0.000 ***
+  4. 1963 in the Vietnam War  |  combined=0.359  wiki=0.898  llm=0.000 ***
+  5. 1964 in the Vietnam War  |  combined=0.334  wiki=0.835  llm=0.000 ***
+  6. Brunei Revolt  |  combined=0.301  wiki=0.753  llm=0.000 ***
+  7. 1962 in the Vietnam War  |  combined=0.288  wiki=0.720  llm=0.000 ***
+  8. Assassination of Harry Barrie  |  combined=0.255  wiki=0.636  llm=0.000 ***
+  9. Assassination of Sir Arthur Charles  |  combined=0.249  wiki=0.622  llm=0.000 ***
+ 10. 1964 Winter Olympics  |  combined=0.226  wiki=0.564  llm=0.000 ***
+ 11. Operation Blowdown  |  combined=0.212  wiki=0.529  llm=0.000 ***
+ 12. Operation Snowball  |  combined=0.145  wiki=0.362  llm=0.000 ***
+ 13. Operation Sailor Hat  |  combined=0.080  wiki=0.201  llm=0.000 ***
+ 14. Abington School District v Schempp  |  combined=0.000  wiki=0.000  llm=0.000 ***

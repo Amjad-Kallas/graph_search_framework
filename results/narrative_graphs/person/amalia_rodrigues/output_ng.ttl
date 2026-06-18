@@ -1,0 +1,187 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:A_Question_of_Honour a sem:Event ;
+    rdfs:comment "\"A Question of Honour\" is a 1995 single by soprano Sarah Brightman, from her album Fly. It peaked at No. 15 on the German Singles Chart in the last week of 1995, even though it was released over five months earlier." .
+
+ng:A_Winter_Symphony a sem:Event ;
+    rdfs:comment "A Winter Symphony is a Christmas album and the tenth studio album by the English soprano singer Sarah Brightman, released in November 2008." .
+
+ng:All_I_Ask_of_You a sem:Event ;
+    rdfs:comment "\"All I Ask of You\" is a song from the 1986 English musical The Phantom of the Opera, between characters Christine Daaé and Raoul, originally played on stage by Sarah Brightman and Steve Barton, respectively. It was written by Andrew Lloyd Webber, Charles Hart and Richard Stilgoe, and solely produced by Lloyd Webber. An operatic pop piece, its lyrics serve as dialogue between the two characters and discuss themes such as commitment and romance." .
+
+ng:Amigos_Para_Siempre a sem:Event ;
+    rdfs:comment "\"Amigos Para Siempre (Friends for Life)\", also called \"Amics per sempre\" in Catalan, is a song recorded by British soprano Sarah Brightman and Spanish tenor José Carreras, with music composed by Andrew Lloyd Webber and lyrics written by Don Black. Released in June 1992, by Polydor and Really Useful, it was one of the two official theme songs of the 1992 Summer Olympics held in Barcelona, Spain. \"Amigos Para Siempre\" peaked at number one in Australia and was a top-10 hit also in the Netherlands, Norway and Portugal." .
+
+ng:Andrew_Lloyd_Webber a sem:Event ;
+    sem:hasTimeStamp "1948-03-22"^^xsd:date ;
+    rdfs:comment "Andrew Lloyd Webber, Baron Lloyd-Webber (born 22 March 1948) is an English composer and impresario of musical theatre. Several of his musicals have run for more than a decade both in the West End and on Broadway. He has composed 21 musicals, a song cycle, a set of variations, two film scores, and a Latin Requiem Mass." .
+
+ng:Angel a sem:Event ;
+    rdfs:comment "Angel is a song written by Jerry Burns and Sally Herbert sung by English singer-songwriter Sarah Brightman from her eleventh studio album, Dreamchaser. It was first released as the album's lead single in Europe and Mexico as a digital download on October 15, 2012. The song was originally sung by Sally Herbert in 2001 and was included in the soundtrack to the film Crush, starring Andie MacDowell." .
+
+ng:Anything_But_Lonely a sem:Event ;
+    rdfs:comment "\"Anything But Lonely\" is a 1989 single by Sarah Brightman. The song is from the musical Aspects of Love. The music was written by Andrew Lloyd Webber and the lyrics by Don Black and Charles Hart." .
+
+ng:As_I_Came_of_Age a sem:Event ;
+    rdfs:comment "As I Came of Age is the second studio album by English soprano Sarah Brightman. The album features a diverse collection of songs including \"Good Morning Starshine\" from the musical Hair, \"Yesterday\" by Aimee Mann, \"Love Changes Everything\" from Andrew Lloyd Webber's Aspects of Love, and \"Some Girls\" by Lisa Burns and Sal Maida. Cover art showcases a Robert Blakeman photograph of Brightman imposed onto the Arthur Hughes painting \"The Kings' Orchard\" (c." .
+
+ng:Bruce_Gowers a sem:Event ;
+    sem:hasTimeStamp "1945-01-01"^^xsd:date ;
+    rdfs:comment "Bruce Gowers (21 December 1940 – 15 January 2023) was a British television director and producer, best known for his work on large-scale live music and event productions." .
+
+ng:Captain_Nemo a sem:Event ;
+    rdfs:comment "\"Captain Nemo\" is the debut single by Swedish band Dive (Chris Lancelot and Erik Holmberg), released in 1990. The song is named after the legendary character Captain Nemo from the 1870 Jules Verne novel Twenty Thousand Leagues Under the Seas." .
+
+ng:Charles_Hart a sem:Event ;
+    sem:hasTimeStamp "1961-06-03"^^xsd:date ;
+    rdfs:comment "Charles Hart is an English lyricist, librettist and songwriter. He is perhaps best known for his work on The Phantom of the Opera as well as a number of other musicals and operas for both stage and television." .
+
+ng:Classics a sem:Event ;
+    rdfs:comment "Classics is a compilation album by classical crossover soprano Sarah Brightman. It collects previously released material, such as \"Pie Jesu\", from Andrew Lloyd Webber's Requiem; \"Figlio Perduto\", \"Lascia ch'io pianga\" and \"La Luna\" from Brightman's previous studio albums, and new recordings of some her classical vocal performances, including \"Ave Maria\", \"Dans La Nuit\", \"Alhambra\" and a solo version of the 1997' hit \"Time to Say Goodbye\". Entertainment Weekly, although calling Brightman a \"stronger song stylist than a singer\", gave the album a grade of B−." .
+
+ng:Classics_The_Best_of_Sarah_Brightman a sem:Event ;
+    rdfs:comment "Classics: The Best of Sarah Brightman is a European-only compilation album by classical crossover soprano Sarah Brightman. An earlier version of Classics was released worldwide, except for Europe, in 2001. The cover art for both albums are the same (with the exception of the full title), but the track listings are different." .
+
+ng:Cliff_Richard a sem:Event ;
+    sem:hasActor ng:Eurovision_Song_Contest_1973 ;
+    sem:hasTimeStamp "1940-10-14"^^xsd:date ;
+    rdfs:comment "Sir Harry Rodger Webb (born 14 October 1940), known professionally as Cliff Richard, is a British singer and actor. He has total sales of over 21.5&#160;million singles in the United Kingdom and as of 2026, is the third-top-selling artist in UK singles chart history, behind the Beatles and Elvis Presley. Richard was originally marketed as a rebellious rock and roll singer in the style of Presley and Little Richard." .
+
+ng:David_Mallet a sem:Event ;
+    sem:hasTimeStamp "1950-01-01"^^xsd:date ;
+    rdfs:comment "David Victor Mark Mallet (born 17 December 1945) is a British director of music videos and concert films. He was one of the most prolific directors of music videos in the 1980s." .
+
+ng:Deliver_Me a sem:Event ;
+    rdfs:comment "\"Deliver Me\" is a song originally released by The Beloved in 1996. In 1998, Sarah Brightman covered the song for her album Eden. It was a European only single." .
+
+ng:Diva_The_Singles_Collection a sem:Event ;
+    rdfs:comment "Diva: The Singles Collection is a 2006 compilation album by Sarah Brightman. Alongside this album, Brightman released a DVD collection of her music videos on 3 October 2006 under the title of Diva: The Video Collection. The album marked the first time Brightman released a greatest hits album in the United States." .
+
+ng:Diva_The_Video_Collection a sem:Event ;
+    rdfs:comment "Diva: The Video Collection is a video longform. When Sarah Brightman introduces each song, she talks about where, when and how the music video was made. Several music videos are not featured, most notable songs are Rhythm of the Rain, Deliver Me and All I Ask of You." .
+
+ng:Dive a sem:Event ;
+    rdfs:comment "Dive is the third studio album by English soprano Sarah Brightman. It is her first album with producer Frank Peterson, and a marked departure from her previous operatic works. Its unifying theme is water and the ocean." .
+
+ng:Dreamchaser a sem:Event ;
+    rdfs:comment "Dreamchaser is the eleventh studio album by English singer Sarah Brightman. This album is Brightman's first collaboration with producer Mike Hedges and centres on the concept of space. The offering was inspired by Brightman's decision to become the first singer in outer space, as she intended to launch on an orbital spaceflight mission to the International Space Station (ISS) in partnership with Space Adventures, Ltd., a private space experiences company." .
+
+ng:Dulce_Pontes a sem:Event ;
+    sem:hasActor ng:Eurovision_Song_Contest_1991 ;
+    sem:hasTimeStamp "1969-03-08"^^xsd:date ;
+    rdfs:comment "Dulce José Silva Pontes (Portuguese: [ˈdulsɨ ʒuˈzɛ ˈsilvɐ ˈpõtɨʃ]; born 8 April 1969) is a Portuguese songwriter and singer who performs in many musical styles, including pop, folk, and classical music. She is usually defined as a world music artist. Her songs contributed to the 1990s revival of Portuguese urban folk music called fado." .
+
+ng:Eden a sem:Event ;
+    rdfs:comment "Eden is the sixth album by English soprano Sarah Brightman, released in 1998 under license by Nemo Studios to Angel Records. Similar to Brightman's later album La Luna, Eden juxtaposed English popular songs with Italian opera arias. This was a departure from her previous albums, such as Fly, which were almost entirely sung in English." .
+
+ng:Encore a sem:Event ;
+    rdfs:comment "Encore is an album by English soprano Sarah Brightman, released in 2002. It includes tracks from two previous Brigtman and Andrew Lloyd Webber albums (The Songs That Got Away and Surrender), and four previously unreleased tracks. This is similar to Classics which only featured four new songs." .
+
+ng:Fly a sem:Event ;
+    rdfs:comment "Fly is the fourth album by English soprano Sarah Brightman. It is her second album with producer Frank Peterson and features collaborations with Tom Jones, Chris Thompson and Andrew Eldritch. Fly boasts a stronger pop and rock influence than Brightman's previous Broadway and operatic albums, and produced several hits in Europe including \"A Question of Honour\" and \"Time to Say Goodbye\"." .
+
+ng:Frank_Peterson a sem:Event ;
+    sem:hasTimeStamp "1963-12-20"^^xsd:date ;
+    rdfs:comment "Frank Peterson (born 20 December 1963) is a German music producer known for his work with Enigma and Gregorian as well as artists such as Sarah Brightman, Ofra Haza, and Andrea Bocelli." .
+
+ng:Free a sem:Event ;
+    rdfs:comment "\"Free\" is a song performed by English classical crossover soprano Sarah Brightman from her ninth studio album, Harem (2003). It was originally written in German by Matthias Meissner and Thomas Schwarz. The song was then re-written in English by Brightman in collaboration with Sophie B. Hawkins." .
+
+ng:Hannes_Rossacher a sem:Event ;
+    sem:hasTimeStamp "1952-10-16"^^xsd:date ;
+    rdfs:comment "Hannes Rossacher (born 16 October 1952, Steyr) is an Austrian film director and film producer. Rossacher has worked with Rudi Dolezal since 1976 in their production company DoRo Productions. His contributions to the ORF youth program \"Ohne Maulkorb\" were among his first major assignments." .
+
+ng:Harem a sem:Event ;
+    rdfs:comment "Harem is the eighth studio album by English singer Sarah Brightman, released in the United States on 10 June 2003 through Angel Records. The album continued the collaboration between Brightman and her longtime producer Frank Peterson. Although it has an inclination towards her signature operatic performance, the album encompasses dance-oriented and uptempo styles in keeping with a celebratory motif." .
+
+ng:Him a sem:Event ;
+    rdfs:comment "\"Him\" is a 1983 single by Sarah Brightman. It is a setting of lyrics by Richard Stilgoe to the tune \"Repton\" by Hubert Parry, itself best known from the hymn, Dear Lord and Father of Mankind. It peaked at #55 in the UK charts." .
+
+ng:How_Can_Heaven_Love_Me a sem:Event ;
+    rdfs:comment "\"How Can Heaven Love Me\" is a 1995 single by soprano Sarah Brightman and Chris Thompson, from her album Fly. Andrew Eldritch from Sisters of Mercy provided the vocals for the German interlude in the song. This is the first of two collaborations with Chris Thompson; the second being the single version of \"Where the Lost Ones Go\" in 2007." .
+
+ng:I_Lost_My_Heart_to_a_Starship_Trooper a sem:Event ;
+    rdfs:comment "\"I Lost My Heart to a Starship Trooper\", sometimes cited as \"(I Lost My Heart to A) Starship Trooper\", is a 1978 single written by Jeff Calvert and Max West of Typically Tropical and performed by Sarah Brightman and the dance troupe Hot Gossip. It was the debut of the 18-year-old Brightman and reached number six on the UK singles chart." .
+
+ng:Just_Show_Me_How_to_Love_You a sem:Event ;
+    rdfs:comment "\"Tu Cosa Fai Stasera\" is a song by Dario Baldan Bembo, Amerigo Cassella which came third in the 1981 the competition at the Sanremo Music Festival and later made famous by Sarah Brightman, under the title Just Show Me How to Love You, when translated into English." .
+
+ng:La_Luna a sem:Event ;
+    rdfs:comment "La Luna (Italian and Spanish for \"the Moon\") is the seventh album recorded by English soprano Sarah Brightman in 2000. It was released under license by Nemo Studios to Angel Records. The album combines pieces written by classical and modern composers." .
+
+ng:Linda_de_Suza a sem:Event ;
+    sem:hasTimeStamp "1948-02-22"^^xsd:date ;
+    rdfs:comment "Teolinda Joaquina de Sousa Lança (European Portuguese pronunciation: [tjuˈlĩdɐ ʒwɐˈkinɐ ðɨ ˈsozɐ ˈlɐ̃sɐ]; 22 February 1948 – 28 December 2022), better known as Linda de Suza, was a Portuguese Lusophone and Francophone singer and best-selling author. She was described by Portuguese President Marcelo Rebelo de Sousa as \"a French icon of Portuguese migration\"." .
+
+ng:Love_Changes_Everything a sem:Event ;
+    rdfs:comment "Love Changes Everything – The Andrew Lloyd Webber Collection, Volume 2 is an album by English soprano Sarah Brightman, released in 2005. It contains songs from various shows for which Andrew Lloyd Webber wrote the music. The album contains eight previously released songs along with six new recordings." .
+
+ng:Mike_Batt a sem:Event ;
+    sem:hasTimeStamp "1949-02-06"^^xsd:date ;
+    rdfs:comment "Michael Philip Batt (born 6 February 1949) is an English singer-songwriter, musician, arranger, record producer, director, and conductor. He served as the Deputy Chairman of the British Phonographic Industry. Batt created the novelty pop band The Wombles, after recording the theme song for the animated BBC series of the same name." .
+
+ng:Pie_Jesu a sem:Event ;
+    rdfs:comment "\"Pie Jesu\" ( PEE-ay-YAY-zu; original Latin: \"Pie Iesu\" /ˈpi.e ˈje.su/) is a text from the Lacrimosa, a hymn in the sequence \"Dies irae,\" where it is the final (nineteenth) couplet. The couplet is often included in musical settings of the Requiem Mass as a motet. The phrase means \"pious Jesus\" in the vocative." .
+
+ng:Piet_Veerman a sem:Event ;
+    sem:hasTimeStamp "1943-03-01"^^xsd:date ;
+    rdfs:comment "Piet Veerman (born 1 March 1943) is a Dutch pop musician. From 1964 to 1985 he was a guitarist and singer for The Cats, and since 1968 the lead singer for all the singles of this band. He released a first solo album in 1975 but started his solo career definitely in 1987 after The Cats broke up for the last time." .
+
+ng:Richard_Stilgoe a sem:Event ;
+    sem:hasTimeStamp "1943-03-28"^^xsd:date ;
+    rdfs:comment "Sir Richard Henry Simpson Stilgoe (born 28 March 1943) is a British songwriter, lyricist and musician, and broadcaster who is best known for his humorous songs and frequent television appearances. His output includes collaborations with Andrew Lloyd Webber and Peter Skellern. He is also a keen puzzler who has hosted several quiz shows and written several books on the subject." .
+
+ng:Sarah_Brightman a sem:Event ;
+    sem:hasTimeStamp "1960-08-14"^^xsd:date ;
+    rdfs:comment "Sarah Brightman (born 14 August 1960) is an English classical crossover soprano singer and actress. Brightman began her career as a member of the dance troupe Hot Gossip and released several disco singles as a solo performer. In 1981, she made her West End musical theatre debut in Cats and met composer Andrew Lloyd Webber, whom she later married." .
+
+ng:Sarah_Brightman_Sings_the_Music_of_Andrew_Lloyd_Webber a sem:Event ;
+    rdfs:comment "Sarah Brightman Sings the Music of Andrew Lloyd Webber is a 1992 full-length album released in conjunction with Sarah Brightman's world tour The Music of Andrew Lloyd Webber. The album contains most of the songs performed regularly on that tour and features all-new recordings, with the exception of \"Pie Jesu\", \"All I Ask of You\", \"The Phantom of the Opera\", \"Anything but Lonely\", and \"Amigos Para Siempre (Friends for Life)\". The album was re-released in Japan with a different cover and peaked #242 in the Oricon charts." .
+
+ng:Sarah_Brightman_discography a sem:Event ;
+    rdfs:comment "This page includes the full discography of British singer Sarah Brightman, including albums, singles, and theatre cast recordings." .
+
+ng:Surrender a sem:Event ;
+    rdfs:comment "Surrender is an album by English soprano Sarah Brightman featuring songs composed by Andrew Lloyd Webber. The album’s booklet also includes Lloyd Webber's commentary for each song." .
+
+ng:Symphony a sem:Event ;
+    rdfs:comment "Symphony is the ninth studio album from English soprano singer Sarah Brightman. This classical crossover album is a contrast to her previous collaboration with producer Frank Peterson, 2003's Harem; using a gothic influence instead of a Middle Eastern feel. The single \"Running\" was the IAAF's Green Project Charity song, which Brightman performed at their 2007 Championships opening ceremonies in Ōsaka, Japan." .
+
+ng:Symphony_Live_in_Vienna a sem:Event ;
+    rdfs:comment "Symphony: Live in Vienna is a live concert by Sarah Brightman, inspired by her Symphony album. It was originally only available as a premium for a donation to the Public Broadcasting Service (PBS) in the United States. A lower-level donation would yield a free copy of the DVD, and a higher-level donation would yield a set containing both the DVD and a companion CD. The 75-minute concert was recorded on 16 January 2008 at Stephansdom (St." .
+
+ng:The_Adventures_of_the_Love_Crusader a sem:Event ;
+    rdfs:comment "\"The Adventures of the Love Crusader\" is a 1979 single by Sarah Brightman and the Starship Troopers. The single peaked at No. 53 in the UK charts." .
+
+ng:The_Andrew_Lloyd_Webber_Collection a sem:Event ;
+    rdfs:comment "The Andrew Lloyd Webber Collection is a 1997 compilation album by British classical crossover soprano Sarah Brightman. All of the tracks on this album are previously available on other albums. It is Brightman's third best-selling release in the United States." .
+
+ng:The_Harem_Tour_CD a sem:Event ;
+    rdfs:comment "The Harem Tour is a limited edition album consisting of b-sides, demos, and other rarities by classical crossover soprano Sarah Brightman. It was released in CD format only and sold at Brightman's \"The Harem World Tour\" events and, after the tour concluded, from her web site. No label company, catalog number or copyright warning is mentioned on the CD packaging." .
+
+ng:The_Harem_World_Tour_Live_from_Las_Vegas a sem:Event ;
+    rdfs:comment "The Harem World Tour: Live From Las Vegas (2004) is a live album and video recording of Sarah Brightman's concert held in Las Vegas, part of her global Harem World Tour." .
+
+ng:The_Songs_That_Got_Away a sem:Event ;
+    rdfs:comment "The Songs That Got Away is an album by English soprano Sarah Brightman. The songs selected for this album were allegedly based on an idea by Brightman's then husband Andrew Lloyd Webber. His idea was to incorporate songs which were mostly from West End theatre or Broadway theatre productions that were either unsuccessful, never made it across to the other side of the Atlantic Ocean, were cut from its respective show, or forgotten by time." .
+
+ng:The_Symphony_World_Tour a sem:Event ;
+    rdfs:comment "The Symphony World Tour was the fourth worldwide concert tour by English soprano singer Sarah Brightman. The tour started on 4 November 2008 in the city of Monterrey and concluded on 5 April 2009 in Taipei. There were special guests that joined Brightman during select tour dates: Argentinean's Fernando Lima, Italy's Alessandro Safina, and Greece's Mario Frangoulis." .
+
+ng:There_for_Me a sem:Event ;
+    rdfs:comment "\"There for Me\" is a song composed by Angelo La Bionda, Carmelo La Bionda and Charly Ricanek. It originally appeared on the eponymous album of Italian disco duo La Bionda, which was released in 1978. It was notably covered several times by artist Sarah Brightman.",
+        "There for Me may refer to:" .
+
+ng:Tim_Rice a sem:Event ;
+    sem:hasTimeStamp "1944-11-10"^^xsd:date ;
+    rdfs:comment "Sir Timothy Miles Bindon Rice (born 10 November 1944) is an English songwriter. He is best known for his collaborations with Andrew Lloyd Webber, with whom he wrote, among other shows, Joseph and the Amazing Technicolor Dreamcoat, Jesus Christ Superstar, and Evita; Chess (with Björn Ulvaeus and Benny Andersson of ABBA); Aida (with Elton John); and, for Disney, Aladdin (with Alan Menken), The Lion King (with Elton John), and the stage adaptation of Beauty and the Beast (with Menken). He also wrote lyrics for the Alan Menken musical King David, and for DreamWorks Animation's The Road to El Dorado (with" .
+
+ng:Time_to_Say_Goodbye a sem:Event ;
+    rdfs:comment "Timeless, known as Time to Say Goodbye in the United States and Canada and on Super Audio CD, is the fifth studio album by English classical crossover soprano Sarah Brightman, together with the London Symphony Orchestra. It sold over 1.4 million copies in the United States and topped its Billboard Classical Albums chart for 35 weeks. It went gold or platinum in 21 countries." .
+
+ng:Unexpected_Song a sem:Event ;
+    rdfs:comment "\"Unexpected Song\" is a 1984 song from the musical Song and Dance originally sung (on Broadway) by Bernadette Peters. The music was written by Andrew Lloyd Webber, with lyrics by Don Black. It is one of Lloyd Webber's most frequently performed compositions." .
+

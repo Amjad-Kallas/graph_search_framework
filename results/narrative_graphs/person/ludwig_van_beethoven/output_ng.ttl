@@ -1,0 +1,508 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:32_Variations_in_C_minor a sem:Event ;
+    rdfs:comment "32 Variations on an Original Theme in C minor, WoO 80 (German: 32 Variationen über ein eigenes Thema), is a composition for solo piano by Ludwig van Beethoven, written in 1806." .
+
+ng:A_Married_Woman a sem:Event ;
+    rdfs:comment "A Married Woman (French: Une femme mariée) is a 1964 French drama film directed by Jean-Luc Godard, his eighth feature film." .
+
+ng:A_Tale_of_Springtime a sem:Event ;
+    rdfs:comment "A Tale of Springtime (French: Conte de printemps) is a 1990 French comedy-drama film written and directed by Éric Rohmer, starring Anne Teyssèdre, Hugues Quester and Florence Darel. It is the first instalment in Rohmer's \"Contes des quatre saisons\" (\"Tales of the Four Seasons\") series, which also includes A Tale of Winter (1992), A Summer's Tale (1996) and Autumn Tale (1998)." .
+
+ng:Adelaide a sem:Event ;
+    rdfs:comment "Adelaide, Op. 46, (German pronunciation: [aːdəlaːˈiːdə]) is a song for solo voice and piano composed in about 1795 by Ludwig van Beethoven. The text is a poem in German by Friedrich von Matthisson (1761–1831)." .
+
+ng:All_the_Boys_Are_Called_Patrick a sem:Event ;
+    rdfs:comment "All the Boys Are Called Patrick (French: Charlotte et Véronique ou Tous les garçons s'appellent Patrick) is a 1957 French short film written by Éric Rohmer and directed by Jean-Luc Godard. It was made before both filmmakers achieved fame as French New Wave filmmakers." .
+
+ng:Andante_favori a sem:Event ;
+    rdfs:comment "The Andante favori is a work for piano solo by Ludwig van Beethoven. In catalogues of Beethoven's works, it is designated as WoO 57." .
+
+ng:Andrey_Razumovsky a sem:Event ;
+    sem:hasTimeStamp "1752-11-02"^^xsd:date ;
+    rdfs:comment "Count (later Prince) Andrey Kirillovich Razumovsky (2 November 1752&#160;– 23 September 1836) was a Russian diplomat who spent many years of his life in Vienna. His name is transliterated differently in different English sources, including spellings Razumovsky, Rasumofsky, and Rasoumoffsky." .
+
+ng:Anthem_of_Europe a sem:Event ;
+    rdfs:comment "The European Anthem or Anthem of Europe, also known as Ode to Joy, is a piece of instrumental music adapted from the prelude of the final movement of Beethoven's 9th Symphony composed in 1823, originally set to words adapted from Friedrich Schiller's 1785 poem \"Ode to Joy\". In 1972, the Council of Europe adopted it as an anthem to represent Europe, and later in 1985 it was also adopted by the European Union. Its purpose is to honour shared European values." .
+
+ng:Anton_Diabelli a sem:Event ;
+    sem:hasTimeStamp "1781-09-06"^^xsd:date ;
+    rdfs:comment "Anton (or Antonio) Diabelli (5 September 1781&#160;– 8 April 1858) was an Austrian music publisher, editor and composer. Best known in his time as a publisher, he is most familiar today as the composer of the waltz on which Ludwig van Beethoven wrote his set of thirty-three Diabelli Variations." .
+
+ng:Antonio_Salieri a sem:Event ;
+    sem:hasTimeStamp "1750-08-18"^^xsd:date ;
+    rdfs:comment "Antonio Salieri (18 August 1750&#160;– 7 May 1825) was an Italian composer and teacher of the classical period. He was born in Legnago, south of Verona, in the Republic of Venice, and spent his adult life and career as a subject of the Habsburg monarchy. Salieri was a pivotal figure in the development of late 18th-century opera." .
+
+ng:Archduke_Maximilian_Francis_of_Austria a sem:Event ;
+    sem:hasTimeStamp "1756-12-08"^^xsd:date ;
+    rdfs:comment "Archduke Maximilian Francis of Austria (Maximilian Franz Xaver Joseph Johann Anton de Paula Wenzel; 8 December 1756 – 27 July 1801) was Elector of Cologne and Grand Master of the Teutonic Knights from 1780 until his death. Influenced by Enlightenment ideals, he sought to implement reforms in various political fields. During the First Coalition War, his territories on the left bank of the Rhine were occupied and later annexed by France." .
+
+ng:Bagatelles_Op_119 a sem:Event ;
+    rdfs:comment "The Eleven New Bagatelles, Op. 119 were written by Ludwig van Beethoven between the 1790s and the early 1820s. A typical performance of the complete set lasts around 14 minutes." .
+
+ng:Bagatelles_Op_126 a sem:Event ;
+    rdfs:comment "The Six Bagatelles, Op. 126 are six pieces for solo piano composed by Ludwig van Beethoven. They were composed in 1824 and published the next year." .
+
+ng:Bagatelles_Op_33 a sem:Event ;
+    rdfs:comment "The Seven Bagatelles, Op. 33, for solo piano were composed by Ludwig van Beethoven (1770–1827) in 1801–02 and published in 1803 through the Viennese publisher Bureau des arts et d'industrie. The seven bagatelles are quite typical of Beethoven's early style, retaining many compositional features of the early Classical period." .
+
+ng:Beethoven_Lives_Upstairs a sem:Event ;
+    rdfs:comment "Beethoven Lives Upstairs is a 1992 HBO Original Film produced and directed by David Devine. Based on a very popular children's audio recording written and directed by Barbara Nichol, the film stars Illya Woloshyn as Christoph, a young boy who develops a friendship with composer Ludwig van Beethoven (Neil Munro), a boarder in the boy's parents' house. The film was shot in Prague in the Czech Republic and has been broadcast in over 110 countries in numerous languages and has sold over one million DVDs." .
+
+ng:Beethoven_s_piano_sonatas a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven wrote 32 mature piano sonatas between 1795 and 1822. (He also wrote 3 juvenile sonatas at the age of 13 and one unfinished sonata, WoO. 51.) Although originally not intended to be a meaningful whole, as a set they comprise one of the most important collections of works in the history of music. Hans von Bülow called them \"The New Testament\" of piano literature (Johann Sebastian Bach's The Well-Tempered Clavier being \"The Old Testament\")." .
+
+ng:Black_Sin a sem:Event ;
+    rdfs:comment "Black Sin (German: Schwarze Sünde, French: Noir péché) is a 1989 German-French short drama film directed by Danièle Huillet and Jean-Marie Straub. It was screened in the Un Certain Regard section at the 1989 Cannes Film Festival. The text presented in the film is the third Empedocles fragment by Friedrich Hölderlin." .
+
+ng:Carl_Czerny a sem:Event ;
+    sem:hasTimeStamp "1791-02-20"^^xsd:date ;
+    rdfs:comment "Carl Czerny (; German: [ˈtʃɛʁniː]; 21 February 1791 – 15 July 1857) was an Austrian composer, teacher, and pianist of Czech origin whose music spanned the late Classical and early Romantic eras. His vast musical production amounted to over a thousand works and his books of studies for the piano are still widely used in piano teaching. He was one of Ludwig van Beethoven's best-known pupils and would later on be one of the main teachers of Franz Liszt." .
+
+ng:Cello_Sonata_No_3 a sem:Event ;
+    rdfs:comment "The Cello Sonata No. 3 in A major, Op. 69, is the third of five cello sonatas by Ludwig van Beethoven." .
+
+ng:Choral_Fantasy a sem:Event ;
+    rdfs:comment "The Fantasy for piano, vocal soloists, mixed chorus, and orchestra, Op.&#160;80, usually called the Choral Fantasy, was composed in 1808 by then 38-year-old Ludwig van Beethoven. Beethoven intended the Fantasy to serve as the concluding work for the benefit concert he put on for himself on 22 December 1808; the performers consisted of vocal soloists, mixed chorus, an orchestra, and Beethoven himself as piano soloist. The Fantasy was designed to include all the participants in the program and thus unites all of these musical forces." .
+
+ng:Christ_on_the_Mount_of_Olives a sem:Event ;
+    rdfs:comment "Christus am Ölberge (in English, Christ on the Mount of Olives), Op. 85, is an oratorio by Ludwig van Beethoven portraying the emotional turmoil of Jesus in the garden of Gethsemane prior to his crucifixion. It was begun in the fall of 1802, soon after his completion of the Heiligenstadt Testament, as indicated by evidence in the Wielhorsky sketchbook." .
+
+ng:Christian_Gottlob_Neefe a sem:Event ;
+    sem:hasTimeStamp "1748-02-05"^^xsd:date ;
+    rdfs:comment "Christian Gottlob Neefe (German: [ˈneːfə]; 5 February 1748 – 28 January 1798) was a German opera composer and conductor. He was known as one of the first teachers of Ludwig van Beethoven." .
+
+ng:Copying_Beethoven a sem:Event ;
+    rdfs:comment "Copying Beethoven is a 2006 American dramatic film released by Metro-Goldwyn-Mayer Pictures and directed by Agnieszka Holland which gives a fictionalized take on the triumphs and heartaches of Ludwig van Beethoven's last years." .
+
+ng:Coriolan_Overture a sem:Event ;
+    rdfs:comment "The Coriolan Overture (German: Coriolan-Ouvertüre or Ouvertüre zu Coriolan), Op. 62, is a composition written by Ludwig van Beethoven in 1807 for Heinrich Joseph von Collin's 1804 tragedy Coriolan. The overture was premiered in March 1807 at a private concert in the home of Joseph Franz von Lobkowitz." .
+
+ng:Count_Ferdinand_Ernst_Gabriel_von_Waldstein a sem:Event ;
+    sem:hasTimeStamp "1762-03-24"^^xsd:date ;
+    rdfs:comment "Count Ferdinand Ernst Joseph Gabriel von Waldstein und Wartenberg (24 March 1762 – 26 May 1823) was a Czech and German nobleman and patron of the arts. A member of the Bohemian House of Waldstein (Valdštejn) and an early patron of Ludwig van Beethoven, his political and military roles included the office of a Geheimrat in Bonn, commander (Komtur) of the Teutonic Order, and (briefly) colonel of a light infantry regiment that he had raised. One of Beethoven's piano sonatas is named after him." .
+
+ng:Daniel_Read a sem:Event ;
+    sem:hasTimeStamp "2010-05-25"^^xsd:date ;
+    rdfs:comment "Daniel Read (November 16, 1757 – December 4, 1836) was an American composer of the First New England School, and one of the primary figures in early American classical music." .
+
+ng:Diabelli_Variations a sem:Event ;
+    rdfs:comment "The 33 Variations on a waltz by Anton Diabelli, Op. 120, commonly known as the Diabelli Variations, is a set of variations for the piano written between 1819 and 1823 by Ludwig van Beethoven on a waltz composed by Anton Diabelli. It forms the first part of Diabelli's publication Vaterländischer Künstlerverein, the second part consisting of 50 variations by 50 other composers." .
+
+ng:Dorothea_von_Ertmann a sem:Event ;
+    sem:hasTimeStamp "1781-05-03"^^xsd:date ;
+    rdfs:comment "Dorothea von Ertmann (born Dorothea Graumann; 3 May 1781 – 16 March 1849) was a German pianist." .
+
+ng:Dreaming_Lips a sem:Event ;
+    rdfs:comment "Dreaming Lips (German: Der träumende Mund) is a 1932 French-German drama film directed by Paul Czinner and starring Elisabeth Bergner, Rudolf Forster and Anton Edthofer. The film is based on the play Mélo by Henri Bernstein. As was common at the time, the film was a co-production with a separate French-language version Mélo made." .
+
+ng:Drumroll a sem:Event ;
+    rdfs:comment "Drumroll (Russian: Барабаниада) is a 1993 Russian comedy film directed by Sergei Ovcharov. It was entered into the 18th Moscow International Film Festival where it won the Special Silver St. George and the Prix of Ecumenical Jury." .
+
+ng:Egmont a sem:Event ;
+    sem:hasPlace ng:Main_Stage_Schauspielhaus_Zurich ;
+    rdfs:comment "Egmont may refer to:",
+        "Egmont, Op. 84 by Ludwig van Beethoven, is a set of incidental music pieces for the 1787 play of the same name by Johann Wolfgang von Goethe. It consists of an overture followed by a sequence of nine pieces for soprano, male narrator, and full symphony orchestra." .
+
+ng:Elephant a sem:Event ;
+    rdfs:comment "Elephant is a 2003 American psychological drama film written, directed and edited by Gus Van Sant. Inspired by the 1999 Columbine High School massacre, the film chronicles the events surrounding a school shooting in Portland, Oregon. The narrative begins a short time before the shooting occurs, following the lives of several characters both in and out of school, who are unaware of what is about to unfold." .
+
+ng:Eroica_Variations a sem:Event ;
+    rdfs:comment "The Variations and Fugue for Piano in E♭ major, Op. 35 are a set of fifteen variations (plus three \"bonus\" variations) for solo piano composed by Ludwig van Beethoven in 1802. They are commonly referred to as the Eroica Variations because a different set of variations on the opening bass line section were used as the finale of his Symphony No." .
+
+ng:Fantasia a sem:Event ;
+    rdfs:comment "Fantasia is a 1940 American animated musical anthology film produced by Walt Disney Productions, with story direction by Joe Grant and Dick Huemer and production supervision by Walt Disney and Ben Sharpsteen. It consists of eight animated segments set to pieces of classical music conducted by Leopold Stokowski, seven of which are performed by the Philadelphia Orchestra. Music critic and composer Deems Taylor acts as the film's Master of Ceremonies who introduces each segment in live-action." .
+
+ng:Fantasia_2000 a sem:Event ;
+    rdfs:comment "Fantasia 2000 (also known as Fantasia Continued) is a 1999 American animated musical anthology film produced by Walt Disney Feature Animation and the sequel to Fantasia (1940). Like its predecessor, the film consists of animated segments set to pieces of classical music. Segments are introduced by Steve Martin, Itzhak Perlman, Quincy Jones, Bette Midler, James Earl Jones, Penn &amp; Teller, James Levine, and Angela Lansbury in live action scenes directed by Don Hahn, while the animated sequences are directed by Pixote Hunt, Hendel Butoy, Eric Goldberg, James Algar, Francis Glebas and Paul and Gaëtan Brizzi." .
+
+ng:Ferdinand_Ries a sem:Event ;
+    sem:hasTimeStamp "1784-11-28"^^xsd:date ;
+    rdfs:comment "Ferdinand Ries (baptised 28 November 1784&#160;– 13 January 1838) was a German composer. Ries was a friend, pupil and secretary of Ludwig van Beethoven. He composed eight symphonies, a violin concerto, nine piano concertos (the first concerto is not published), three operas, and numerous other works, including 26 string quartets." .
+
+ng:Fidelio a sem:Event ;
+    rdfs:comment "Fidelio (; German: [fiˈdeːlio]), originally titled Leonore, oder Der Triumph der ehelichen Liebe (Leonore, or The Triumph of Marital Love), Op. 72, is the sole opera by German composer Ludwig van Beethoven. The libretto was originally prepared by Joseph Sonnleithner from the French of Jean-Nicolas Bouilly." .
+
+ng:First_Name_Carmen a sem:Event ;
+    rdfs:comment "First Name: Carmen (French: Prénom Carmen) is a 1983 French film directed by Jean-Luc Godard. Loosely based on Bizet's opera Carmen, the film was written by Anne-Marie Miéville and produced by Alain Sarde, and stars Maruschka Detmers and Jacques Bonnaffé. The film won the Golden Lion at the 40th Venice International Film Festival and had 395,462 admissions in France." .
+
+ng:Franz_Schubert a sem:Event ;
+    sem:hasTimeStamp "1828-11-19"^^xsd:date ;
+    rdfs:comment "Franz Peter Schubert (; German: [fʁants ˈpeːtɐ ˈʃuːbɐt]; 31 January 1797&#160;– 19 November 1828) was an Austrian composer of the late Classical and early Romantic eras. Despite his short life, Schubert left behind a vast oeuvre of more than 1,000 compositions, including over 600 Lieder (art songs in German) and other vocal works, seven complete symphonies, sacred music, operas, incidental music, and a large body of piano and chamber music. Among these are the songs \"Gretchen am Spinnrade\", \"Erlkönig\" and \"Ave Maria\"; the Trout Quintet; the Symphony No." .
+
+ng:Friedrich_Schiller a sem:Event ;
+    sem:hasTimeStamp "1759-11-10"^^xsd:date ;
+    rdfs:comment "Johann Christoph Friedrich von Schiller (German: [ˈjoːhan ˈkʁɪstɔf ˈfʁiːdʁɪç fɔn ˈʃɪlɐ], short: [ˈfʁiːdʁɪç ˈʃɪlɐ] ; 10 November 1759&#160;– 9 May 1805) was a German playwright, poet, philosopher and historian. Schiller is considered to be one of Germany's most important classical playwrights. He was born in Marbach to a devoutly Protestant family." .
+
+ng:Friedrich_von_Matthisson a sem:Event ;
+    sem:hasTimeStamp "1831-03-12"^^xsd:date ;
+    rdfs:comment "Friedrich von Matthisson (23 January 1761 – 12 March 1831) was a German poet, an early member of the German Romantic movement. His best known poem is probably Adelaide, which was set to music by Beethoven." .
+
+ng:Horn_Sonata a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven composed his Sonata for Pianoforte with Horn, Op. 17 in 1800 for the virtuoso horn player Giovanni Punto. It was premiered by Punto and Beethoven himself in Vienna on April 18, 1800." .
+
+ng:Johann_Baptist_Schenk a sem:Event ;
+    sem:hasTimeStamp "1753-11-30"^^xsd:date ;
+    rdfs:comment "Johann Baptist Schenk (30 November 1753&#160;– 29 December 1836) was an Austrian composer and teacher. Schenk was born in Wiener Neustadt. While still a boy, he composed songs, dances and symphonies, and became a proficient violinist and keyboard and wind instrument player." .
+
+ng:Johann_Georg_Albrechtsberger a sem:Event ;
+    sem:hasTimeStamp "1736-02-03"^^xsd:date ;
+    rdfs:comment "Johann Georg Albrechtsberger (3 February 1736 – 7 March 1809) was an Austrian composer, organist, and music theorist, widely regarded as one of the leading figures in counterpoint and composition theory during the Classical period. He was a prolific composer of church music, orchestral works, and keyboard pieces, though he is best remembered for his influence as a teacher. Albrechtsberger was a mentor to several important composers, most notably Ludwig van Beethoven, whom he instructed in counterpoint and fugue." .
+
+ng:Johann_Georg_von_Browne_Camus a sem:Event ;
+    sem:hasTimeStamp "1767-09-20"^^xsd:date ;
+    rdfs:comment "Count Johann Georg von Browne (or Johann Georg von Browne-Camus) (Riga, 20 September 1767 – Vienna, January 1827) was an officer in the Russian army, and settled in Vienna where he was a patron of Ludwig van Beethoven during the composer's early career." .
+
+ng:Johann_van_Beethoven a sem:Event ;
+    sem:hasTimeStamp "1740-11-14"^^xsd:date ;
+    rdfs:comment "Johann van Beethoven (c. 1739 or 1740 – 18 December 1792) was a German musician, teacher, and singer who sang in the chapel of the Archbishop of Cologne, whose court was at Bonn. He is best known as the father of the celebrated composer Ludwig van Beethoven (1770–1827). Johann became an alcoholic later in his life and was at times an abusive father to Ludwig." .
+
+ng:Joseph_Franz_von_Lobkowitz a sem:Event ;
+    sem:hasTimeStamp "1772-12-07"^^xsd:date ;
+    rdfs:comment "Joseph Franz Maximilian, 7th Prince of Lobkowitz (also spelled Lobkowicz) (8 December 1772 – 16 December 1816) was an aristocrat of Bohemia, from the House of Lobkowicz. He is known particularly for his interest in music and as a patron of Ludwig van Beethoven." .
+
+ng:Joseph_Haydn a sem:Event ;
+    sem:hasTimeStamp "1732-03-31"^^xsd:date ;
+    rdfs:comment "Franz Joseph Haydn ( HY-dən; German: [ˈfʁants ˈjoːzɛf ˈhaɪdn̩] ; 31 March 1732&#160;– 31 May 1809) was an Austrian composer of the Classical period. He was pivotal in the evolution of chamber music forms like the string quartet and piano trio. His contributions to musical form have led him to be called \"Father of the Symphony\", \"Father of the String quartet\" and \"Father of Sonata form\"." .
+
+ng:Joseph_Sonnleithner a sem:Event ;
+    sem:hasTimeStamp "1766-03-03"^^xsd:date ;
+    rdfs:comment "Joseph Ferdinand Sonnleithner (3 March 1766 – 26 December 1835) was an Austrian court agent, councillor, librettist, theater director, and archivist. He was the son of Christoph Sonnleithner, brother of Ignaz von Sonnleithner and uncle of Franz Grillparzer and Leopold von Sonnleithner. He was a personal friend of Ludwig van Beethoven, and he wrote numerous librettos, among them, Beethoven's stage opera Fidelio, Faniska by Luigi Cherubini and Agnes Sorel by Adalbert Gyrowetz." .
+
+ng:Kakadu_Variations a sem:Event ;
+    rdfs:comment "\"Kakadu Variations\" is the nickname given to Ludwig van Beethoven's set of variations for piano trio on the theme \"Ich bin der Schneider Kakadu\" by Wenzel Müller. The Variations was published in 1824 as Opus 121a, the last of Beethoven's piano trios to be published. The work is notable for the contrast between its solemn introduction and the lightweight variations that follow." .
+
+ng:Karl_Alois_Prince_Lichnowsky a sem:Event ;
+    sem:hasTimeStamp "1761-06-21"^^xsd:date ;
+    rdfs:comment "Karl Alois, Prince Lichnowsky of Woschütz (German: Karl Alois Johann-Nepomuk Vinzenz Leonhard, Fürst Lichnowsky von Woschütz, also known as Carl Alois, Fürst von Lichnowsky-Woschütz; 21 June 1761 – 15 April 1814) was the second Prince Lichnowsky and a chamberlain at the Imperial Austrian court. He is remembered for his patronage of music and his relationships with Wolfgang Amadeus Mozart and Ludwig van Beethoven." .
+
+ng:Karl_van_Beethoven a sem:Event ;
+    sem:hasTimeStamp "1806-09-04"^^xsd:date ;
+    rdfs:comment "Karl van Beethoven (4 September 1806 – 13 April 1858) was the only son born to Kaspar Anton Karl van Beethoven and Johanna van Beethoven (née Reiß: Reiss) and the sole nephew of composer Ludwig van Beethoven. He is mainly remembered for being the center of a bitter custody battle between his mother and famous uncle after his father's death." .
+
+ng:Kaspar_Anton_Karl_van_Beethoven a sem:Event ;
+    sem:hasTimeStamp "1774-04-08"^^xsd:date ;
+    rdfs:comment "Kaspar Anton Karl van Beethoven (baptized 8 April 1774 – 15 November 1815) was a German clerk and a brother of the composer Ludwig van Beethoven." .
+
+ng:Leonore a sem:Event ;
+    rdfs:comment "Leonore may refer to:" .
+
+ng:Ludwig_van a sem:Event ;
+    rdfs:comment "Ludwig van (full title: Ludwig van: A report; German: Ludwig van: ein Bericht) is a black-and-white German film by Mauricio Kagel. Filmed in 1969, it was first screened the following year. The work was commissioned by Westdeutscher Rundfunk for the bicentennial celebrations of the birth of Ludwig van Beethoven in 1970." .
+
+ng:Maximiliane_Brentano a sem:Event ;
+    sem:hasTimeStamp "1756-05-03"^^xsd:date ;
+    rdfs:comment "Maximiliane Brentano (4 May 1756 – 19 November 1793) was a German woman who is known for her friendship to the young Johann Wolfgang von Goethe and as the mother of the Romantic writers Clemens Brentano and Bettina von Arnim. Born in Mainz, she was the daughter of the Protestant author Sophie von La Roche and the Catholic civil servant and court official Georg Michael Frank von La Roche. From 1771, they lived in Ehrenbreitstein near Koblenz, where her father served at the court of the Electorate of Trier." .
+
+ng:Missa_Solemnis a sem:Event ;
+    rdfs:comment "The Missa solemnis in D major, Op. 123, is a Solemn Mass composed by Ludwig van Beethoven from 1819 to 1823. It was first performed on 7&#160;April 1824 in Saint Petersburg, Russia, under the auspices of Beethoven's patron Prince Nikolai Golitsyn; an incomplete performance was given in Vienna on 7 May 1824, when the Kyrie, Credo, and Agnus Dei were conducted by the composer." .
+
+ng:Moritz_Reichsgraf_von_Fries a sem:Event ;
+    sem:hasTimeStamp "1777-05-06"^^xsd:date ;
+    rdfs:comment "Moritz Christian Johann Reichsgraf von Fries (6 May 1777 – 26 December 1826) was an Austrian nobleman, banker and patron of the arts." .
+
+ng:Muzio_Clementi a sem:Event ;
+    sem:hasTimeStamp "1832-03-10"^^xsd:date ;
+    rdfs:comment "Muzio Filippo Vincenzo Francesco Saverio Clementi (23 January 1752 – 10 March 1832) was an Italian composer, virtuoso pianist, pedagogue, conductor, music publisher, editor, and piano manufacturer who was mostly active in England. Encouraged to study music by his father, he was sponsored as a young composer by Sir Peter Beckford, who took him to England to advance his studies. Later, he toured Europe numerous times from his long-standing base in London." .
+
+ng:Octet a sem:Event ;
+    rdfs:comment "The Octet in E♭ major by Ludwig van Beethoven, Op. 103, is a work for two oboes, two clarinets, two bassoons, and two horns. Beethoven wrote the work in 1792 in Bonn before he established himself in Vienna." .
+
+ng:Passion a sem:Event ;
+    rdfs:comment "Passion (French: Passion) is a 1982 film by Jean-Luc Godard, the second full-length film made during his return to relatively mainstream filmmaking in the 1980s. Set in winter in Switzerland, it is about the making of an ambitious art film that uses re-creations of classical European paintings as tableaux vivants, set to classical European music. Only incomplete scenes of the film within the film are shown, because it has no settled plot and never gets finished." .
+
+ng:Piano_Concerto_No_0 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Concerto in E flat major, WoO. 4, is one of his earlier works, written in 1784 when he was only 14. Only the solo piano part survives today, although there are some indications in the manuscript for orchestral cues. On the occasions when the work has been performed, the orchestral part has had to be arranged beforehand." .
+
+ng:Piano_Concerto_No_1_Beethoven a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Concerto No. 1 in C major, Op.&#160;15, was written in 1795, then revised in 1800. It was possibly first performed by Beethoven at his first public concert in Vienna on 29 March 1795." .
+
+ng:Piano_Concerto_No_2 a sem:Event ;
+    rdfs:comment "The Piano Concerto No. 2 in B♭ major, Op. 19, by Ludwig van Beethoven was composed primarily between 1787 and 1789, although it did not attain the form in which it was published until 1795." .
+
+ng:Piano_Concerto_No_3 a sem:Event ;
+    rdfs:comment "Beethoven's Piano Concerto No. 3 in C minor, Op. 37 is thought to have been composed in 1800, although the year of its composition has been questioned by some contemporary musicologists." .
+
+ng:Piano_Concerto_No_4 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Concerto No. 4 in G major, Op. 58, was composed in 1805–1806." .
+
+ng:Piano_Concerto_No_5 a sem:Event ;
+    rdfs:comment "The Piano Concerto No. 5 in E♭ major, Op. 73, known as the Emperor Concerto in English-speaking countries, is a piano concerto composed by Ludwig van Beethoven." .
+
+ng:Piano_Concerto_No_6 a sem:Event ;
+    rdfs:comment "Piano Concerto No. 6 in D major, Hess 15, is an unfinished piano concerto by German composer Ludwig van Beethoven. It is not to be confused with the transcription by the composer for piano and orchestra of the Violin Concerto in D major, Op." .
+
+ng:Piano_Sonata_No_1 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 1 in F minor, Op. 2 No." .
+
+ng:Piano_Sonata_No_10 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 10 in G major, Op. 14, No." .
+
+ng:Piano_Sonata_No_11 a sem:Event ;
+    rdfs:comment "Beethoven's Piano Sonata No. 11 in B♭ major, Op. 22, was composed in 1800, and published two years later." .
+
+ng:Piano_Sonata_No_12 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven composed his Piano Sonata No. 12 in A♭ major, Op. 26, in 1800–01, around the same time as he completed his First Symphony." .
+
+ng:Piano_Sonata_No_13 a sem:Event ;
+    rdfs:comment "Piano Sonata No. 13 in E♭ major, Op. 27 No." .
+
+ng:Piano_Sonata_No_14 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 14 in C♯ minor, marked Quasi una fantasia, Op. 27, No." .
+
+ng:Piano_Sonata_No_15 a sem:Event ;
+    rdfs:comment "Piano Sonata No. 15 in D major, Op. 28, is a piano sonata by Ludwig van Beethoven." .
+
+ng:Piano_Sonata_No_16 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 16 in G major, Op. 31, No." .
+
+ng:Piano_Sonata_No_17 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 17 in D minor, Op. 31, No." .
+
+ng:Piano_Sonata_No_18 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 18 in E♭ major, Op. 31, No." .
+
+ng:Piano_Sonata_No_2 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 2 in A major, Op. 2, No." .
+
+ng:Piano_Sonata_No_21 a sem:Event ;
+    rdfs:comment "Beethoven's Piano Sonata No. 21 in C major, Op. 53, known as the Waldstein, is one of the three most notable sonatas of his middle period (the other two being the Appassionata, Op." .
+
+ng:Piano_Sonata_No_22 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 22 in F major, Op. 54, was written in 1804." .
+
+ng:Piano_Sonata_No_23 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 23 in F minor, Op. 57 (colloquially known as the Appassionata, meaning \"passionate\" in Italian) is among the three famous piano sonatas of his middle period (the others being the Waldstein, Op." .
+
+ng:Piano_Sonata_No_24 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 24 in F♯ major, Op. 78, nicknamed \"à Thérèse\" (because it was written for Countess Thérèse von Brunswick) was written by Ludwig van Beethoven in 1809." .
+
+ng:Piano_Sonata_No_25 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 25 in G major, Op. 79, was composed by Ludwig van Beethoven in 1809." .
+
+ng:Piano_Sonata_No_26 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 26 in E♭ major, Op. 81a, known as Les Adieux (\"The Farewell\"), was written during the years 1809 and 1810." .
+
+ng:Piano_Sonata_No_27 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 27 in E minor, Op. 90 was written in the summer of 1814—Beethoven's late Middle period—and dedicated to Prince Moritz von Lichnowsky, a friend and benefactor who was also the dedicatee of the Eroica Variations." .
+
+ng:Piano_Sonata_No_28 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 28 in A major, Op. 101, by Ludwig van Beethoven was composed in 1816 and published in 1817." .
+
+ng:Piano_Sonata_No_29 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 29 in B♭ major, Op. 106 (known as the Große Sonate für das Hammerklavier, or more simply as the Hammerklavier) by Ludwig van Beethoven was composed in 1817 and published in 1818." .
+
+ng:Piano_Sonata_No_3 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 3 in C major, Op. 2, No." .
+
+ng:Piano_Sonata_No_30 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 30 in E major, Op. 109, composed in 1820, is the third-to-last of his piano sonatas." .
+
+ng:Piano_Sonata_No_31 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 31 in A♭ major, Op. 110, by Ludwig van Beethoven was composed in 1821 and published in 1822." .
+
+ng:Piano_Sonata_No_32 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 32 in C minor, Op. 111, is the last of Ludwig van Beethoven's piano sonatas." .
+
+ng:Piano_Sonata_No_4 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 4, in E♭ major, Op. 7, sometimes nicknamed the Grand Sonata, was written in November 1796 and dedicated to his student Babette, the Countess Keglević." .
+
+ng:Piano_Sonata_No_5 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 5 in C minor, Op. 10, No." .
+
+ng:Piano_Sonata_No_6 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 6 in F major, Op. 10, No." .
+
+ng:Piano_Sonata_No_7 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 7 in D major, Op. 10, No." .
+
+ng:Piano_Sonata_No_8 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Piano Sonata No. 8 in C minor, Op. 13, commonly known as Sonata Pathétique, was written in 1798 when the composer was 27 years old and was published in 1799." .
+
+ng:Piano_Sonata_No_9 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 9 in E major, Op. 14, No." .
+
+ng:Piano_Sonatas_Nos_19_and_20 a sem:Event ;
+    rdfs:comment "The Piano Sonata No. 19 in G minor, Op. 49, No." .
+
+ng:Piano_Trio_Op_11 a sem:Event ;
+    rdfs:comment "The Piano Trio in B♭ major, Op. 11, was composed by Ludwig van Beethoven in 1797 and published in Vienna the next year. It is one of a series of early chamber works, many involving woodwind instruments because of their popularity and novelty at the time." .
+
+ng:Piano_Trio_Op_97 a sem:Event ;
+    rdfs:comment "The Piano Trio in B♭ major, Op. 97, by Ludwig van Beethoven is a piano trio completed in 1811. It is commonly referred to as the Archduke Trio, because it was dedicated to Archduke Rudolph of Austria, the youngest of twelve children of Leopold II, Holy Roman Emperor." .
+
+ng:Piano_Trios_Op_1 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Opus 1 is a set of three piano trios (written for piano, violin, and cello), first performed in 1795 in the house of Prince Lichnowsky, to whom they are dedicated. The trios were published in 1795. Despite the Op." .
+
+ng:Piano_Trios_Op_70 a sem:Event ;
+    rdfs:comment "Op. 70 is a set of two Piano Trios by Ludwig van Beethoven, written for piano, violin, and cello. Both trios were composed during Beethoven's stay at Countess Marie von Erdődy's estate, and both are dedicated to her for her hospitality." .
+
+ng:Quintet_for_Piano_and_Winds a sem:Event ;
+    rdfs:comment "Quintet in E-flat for Piano and Winds, Op. 16, was written by Ludwig van Beethoven in 1796. The quintet is scored for piano, oboe, clarinet, horn, and bassoon." .
+
+ng:Rage_Over_a_Lost_Penny a sem:Event ;
+    rdfs:comment "The \"Rondo alla ingharese quasi un capriccio\" in G major, Op. 129 (Italian for \"Rondo in the Hungarian [i.e. gypsy] style, almost a caprice\"), is a rondo for piano written by Ludwig van Beethoven." .
+
+ng:Rejected a sem:Event ;
+    rdfs:comment "Rejected is an animated surrealist short comedy film directed by Don Hertzfeldt that was released in 2000. It was nominated for an Academy Award for Best Animated Short Film the following year at the 73rd Academy Awards, and received 27 awards from film festivals around the world." .
+
+ng:Rise_O_Voices_of_Rhodesia a sem:Event ;
+    rdfs:comment "\"Rise, O Voices of Rhodesia\" (or \"Voices of Rhodesia\") was the national anthem of Rhodesia and Zimbabwe Rhodesia (renamed Zimbabwe in April 1980) between 1974 and 1979. The tune was that of \"Ode to Joy\", the Fourth Movement from Ludwig van Beethoven's Ninth Symphony, which had been adopted as the official European continental anthem by the Council of Europe in 1972, which remains the anthem of the European Union. The music used in Rhodesia was an original sixteen-bar arrangement by Captain Ken MacDonald, the bandmaster of the Rhodesian African Rifles." .
+
+ng:Rodolphe_Kreutzer a sem:Event ;
+    sem:hasTimeStamp "1766-11-16"^^xsd:date ;
+    rdfs:comment "Rodolphe Kreutzer (15 November 1766 – 6 January 1831) was a French violinist, teacher, conductor, and composer of forty French operas, including La mort d'Abel (1810). He is probably best known as the dedicatee of Beethoven's Violin Sonata No.&#160;9, Op.&#160;47 (1803), known as the Kreutzer Sonata, though he never played the work. Kreutzer made the acquaintance of Beethoven in 1798, when at Vienna in the service of the French ambassador, Jean-Baptiste Bernadotte (later King of Sweden and Norway)." .
+
+ng:Septet a sem:Event ;
+    rdfs:comment "The Septet in E♭ major for clarinet, horn, bassoon, violin, viola, cello, and double bass, Op. 20, by Ludwig van Beethoven, was sketched out in 1799, completed, and first performed in Vienna in 1800 and published in 1802. The score contains the notation: \"Der Kaiserin Maria Theresia gewidmet\" (Dedicated to the Empress Maria Theresa)." .
+
+ng:Stephan_von_Breuning a sem:Event ;
+    sem:hasTimeStamp "1774-08-17"^^xsd:date ;
+    rdfs:comment "Stephan von Breuning may refer to:" .
+
+ng:String_Quartet_No_10_Beethoven a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's String Quartet No. 10 in E♭ major, Op. 74, was written in 1809 and is nicknamed the \"Harp\" quartet." .
+
+ng:String_Quartet_No_11_Beethoven a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's String Quartet No. 11 in F minor, Op. 95, from 1810, was his last before his late string quartets." .
+
+ng:String_Quartet_No_12_Beethoven a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven completed his String Quartet No. 12 in E♭ major, Op. 127, in 1825." .
+
+ng:String_Quartet_No_13_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 13 in B♭ major, Op. 130, by Ludwig van Beethoven was completed (in its final form) in November 1826." .
+
+ng:String_Quartet_No_14_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 14 in C♯ minor, Op. 131, was completed by Ludwig van Beethoven in 1826." .
+
+ng:String_Quartet_No_15_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 15 in A minor, Op. 132, by Ludwig van Beethoven, was written in 1825, given its public premiere on November 6 of that year by the Schuppanzigh Quartet and was dedicated to Count Nikolai Galitzin, as were Opp." .
+
+ng:String_Quartet_No_16_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 16 in F major, Op. 135, by Ludwig van Beethoven was written in October 1826 and was the last major work he completed." .
+
+ng:String_Quartet_No_1_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 1 in F major, Op. 18, No." .
+
+ng:String_Quartet_No_2 a sem:Event ;
+    rdfs:comment "The String Quartet No. 2 in G major, Op. 18, No." .
+
+ng:String_Quartet_No_3 a sem:Event ;
+    rdfs:comment "The String Quartet No. 3 in D major, Op. 18, No." .
+
+ng:String_Quartet_No_4_Beethoven a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven composed his String Quartet No. 4 in C minor, Op. 18, No." .
+
+ng:String_Quartet_No_5_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 5 in A major, Op. 18, No." .
+
+ng:String_Quartet_No_6_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 6 in B♭ major, Op. 18, No." .
+
+ng:String_Quartet_No_7_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 7 in F major, Op. 59, No." .
+
+ng:String_Quartet_No_8_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 8 in E minor, Op. 59, No." .
+
+ng:String_Quartet_No_9_Beethoven a sem:Event ;
+    rdfs:comment "The String Quartet No. 9 in C major, Op. 59, No." .
+
+ng:String_Trios_Op_9 a sem:Event ;
+    rdfs:comment "The three String Trios, Op. 9 were composed by Ludwig van Beethoven in 1797–98. He published them in Vienna in 1799, with a dedication to his patron Count Johann Georg von Browne (1767–1827)." .
+
+ng:Symphony_No_1 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Symphony No. 1 in C major, Op. 21, was dedicated to Baron Gottfried van Swieten, an early patron of the composer." .
+
+ng:Symphony_No_10 a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Symphony No. 10 in E♭ major is a hypothetical work, assembled in 1988 by Barry Cooper from Beethoven's fragmentary sketches for the first movement. All the sketches assembled were clearly intended for the same symphony, which would have followed the Ninth, since they appear together in several small groups, and there is consensus that Beethoven did intend to compose another symphony." .
+
+ng:Symphony_No_2 a sem:Event ;
+    rdfs:comment "The Symphony No. 2 in D major, Op. 36, is a symphony in four movements written by Ludwig van Beethoven between 1801 and 1802." .
+
+ng:Symphony_No_3 a sem:Event ;
+    rdfs:comment "The Symphony No. 3 in E♭ major, Op. 55, titled as the Eroica Symphony, is a symphony in four movements by Ludwig van Beethoven." .
+
+ng:Symphony_No_4 a sem:Event ;
+    rdfs:comment "The Symphony No. 4 in B♭ major, Op. 60, is the fourth-published symphony by Ludwig van Beethoven." .
+
+ng:Symphony_No_5 a sem:Event ;
+    rdfs:comment "Symphony No. 5 may refer to: Symphony No. 5 (Alwyn) (Hydriotaphia) by William Alwyn, 1972–73 Symphony No.",
+        "The Symphony No. 5 in C minor, Op. 67 (occasionally known as the Fate Symphony, German: Schicksalssinfonie), is a symphony composed by Ludwig van Beethoven between 1804 and 1808." .
+
+ng:Symphony_No_6 a sem:Event ;
+    rdfs:comment "The Symphony No. 6 in F major, Op. 68, also known as the Pastoral Symphony (German: Pastorale), is a symphony composed by Ludwig van Beethoven and completed in 1808." .
+
+ng:Symphony_No_7 a sem:Event ;
+    rdfs:comment "The Symphony No. 7 in A major, Op. 92, is a symphony in four movements composed by Ludwig van Beethoven between 1811 and 1812, while improving his health in the Bohemian spa town of Teplice." .
+
+ng:Symphony_No_8 a sem:Event ;
+    rdfs:comment "The Symphony No. 8 in F major, Op. 93 is a symphony in four movements composed by Ludwig van Beethoven in 1812 and his penultimate and shortest symphony." .
+
+ng:Symphony_No_9 a sem:Event ;
+    rdfs:comment "The Symphony No. 9 in D minor, Op. 125, is a choral symphony, the final complete symphony by Ludwig van Beethoven, composed between 1822 and 1824." .
+
+ng:Taking_Sides a sem:Event ;
+    rdfs:comment "Taking Sides (German title Taking Sides – Der Fall Furtwängler, i. e. The Furtwängler case) is a 2001 German-French-Austrian-British biographical drama film directed by István Szabó and starring Harvey Keitel and Stellan Skarsgård." .
+
+ng:Ten_National_Airs_with_Variations_for_Flute_and_Piano a sem:Event ;
+    rdfs:comment "The Ten National Airs with Variations for Flute and Piano, Op. 107, were composed by Ludwig van Beethoven in 1818 and 1819. Beethoven wrote this piece based on folk-derived melodies." .
+
+ng:The_Consecration_of_the_House a sem:Event ;
+    rdfs:comment "The Consecration of the House (German: Die Weihe des Hauses), Op. 124, is a work by Ludwig van Beethoven composed in September 1822. It was commissioned by Carl Friedrich Hensler, the Director of Vienna's new Theater in der Josefstadt, and was first performed at the theatre's opening on October 3, 1822." .
+
+ng:The_Creatures_of_Prometheus a sem:Event ;
+    rdfs:comment "The Creatures of Prometheus (German: Die Geschöpfe des Prometheus), Op.&#160;43, is a ballet composed in 1801 by Ludwig van Beethoven following the libretto of Salvatore Viganò. The ballet premiered on 28 March 1801 at the Burgtheater in Vienna and was given 28 performances. It was premiered in New York at the Park Theatre on 14 June 1808 being one of the first full-length works by Beethoven to be performed in the United States." .
+
+ng:The_Magnificent_Rebel a sem:Event ;
+    rdfs:comment "The Magnificent Rebel is a 1962 American television film that aired as a two part episode of The Wide World of Disney. It told the story of Ludwig Van Beethoven." .
+
+ng:The_Orchestra_Conductor a sem:Event ;
+    rdfs:comment "The Orchestra Conductor (Polish: Dyrygent, and also known as The Conductor) is a 1980 Polish drama film directed by Andrzej Wajda. It was entered into the 30th Berlin International Film Festival, where Andrzej Seweryn won the Silver Bear for Best Actor. It was also shown at the 1980 New York Film Festival." .
+
+ng:The_Reader a sem:Event ;
+    rdfs:comment "The Reader (French: La Lectrice) is a 1988 French film directed by Michel Deville. The film won that year's Louis Delluc Prize, and was nominated for nine César Awards including Best Supporting Actor, won by Patrick Chesnais." .
+
+ng:The_Ruins_of_Athens a sem:Event ;
+    rdfs:comment "The Ruins of Athens (Die Ruinen von Athen), Op. 113, is a set of incidental music pieces written in 1811 by Ludwig van Beethoven. The music was written to accompany the play of the same name by August von Kotzebue, for the dedication of the new Deutsches Theater Pest in Pest, Hungary." .
+
+ng:Three_Piano_Sonatas_WoO_47 a sem:Event ;
+    rdfs:comment "The Three Piano Sonatas, WoO 47, were composed by Ludwig van Beethoven probably between 1782 and 1783, when he was between eleven and twelve years old. The sonatas show a certain level of precocity and serve as a precursor to the masterworks he later produced. They are dedicated to the Prince-elector (German: Kurfürst) Maximilian Friedrich and therefore also known as the Kurfürstensonaten." .
+
+ng:Triple_Concerto a sem:Event ;
+    rdfs:comment "Ludwig van Beethoven's Concerto for Violin, Cello, and Piano in C major, Op. 56, commonly known as the Triple Concerto, was composed from 1803 to 1804, or beyond, and published in 1807 by Breitkopf &amp; Härtel. The choice of the three solo instruments effectively makes this a concerto for piano trio, and it is the only concerto Beethoven ever completed for more than one solo instrument, also being the only concerto he wrote for cello." .
+
+ng:Two_or_Three_Things_I_Know_About_Her a sem:Event ;
+    rdfs:comment "Two or Three Things I Know About Her (French: Deux ou trois choses que je sais d'elle) is a 1967 French New Wave film written and directed by Jean-Luc Godard, one of three features he completed that year. As with the other two (La Chinoise and Weekend), it is considered both socially and stylistically radical. Village Voice critic Amy Taubin considers the film to be among the greatest achievements in filmmaking." .
+
+ng:Violin_Concerto a sem:Event ;
+    rdfs:comment "The Violin Concerto in D major, Op. 61, was written by Ludwig van Beethoven in 1806. Its first performance by Franz Clement was unsuccessful and for some decades the work languished in obscurity, until revived in 1844 by the then 12-year-old violinist Joseph Joachim with the orchestra of the London Philharmonic Society conducted by Felix Mendelssohn." .
+
+ng:Violin_Sonata_No_10 a sem:Event ;
+    rdfs:comment "The Violin Sonata No. 10 in G major, Op. 96, by Ludwig van Beethoven was written in 1812, published in 1816, and dedicated to Beethoven's pupil Archduke Rudolph Johannes Joseph Rainier of Austria, who gave its first performance, together with the violinist Pierre Rode." .
+
+ng:Violin_Sonata_No_5 a sem:Event ;
+    rdfs:comment "The Violin Sonata No. 5 in F major, Op. 24, is a four movement work for violin and piano by Ludwig van Beethoven." .
+
+ng:Violin_Sonata_No_8 a sem:Event ;
+    rdfs:comment "The Violin Sonata No. 8 in G major, Op. 30, No." .
+
+ng:Violin_Sonata_No_9 a sem:Event ;
+    rdfs:comment "The Violin Sonata No. 9 in A major, Op. 47, by Ludwig van Beethoven, is an 1803 sonata for piano and violin notable for its technical difficulty, unusual length (around 40 minutes), and emotional scope." .
+
+ng:Viridiana a sem:Event ;
+    rdfs:comment "Viridiana (pronounced [biɾiˈðjana]) is a 1961 Spanish-Mexican surrealist comedy-drama film directed by Luis Buñuel and produced by Gustavo Alatriste. It is loosely based on the 1895 novel Halma by Benito Pérez Galdós. The film was the co-winner of the Palme d'Or at the 1961 Cannes Film Festival, but was banned in Spain and denounced by the Holy See for its criticism of the Catholic Church." .
+
+ng:Visit_or_Memories_and_Confessions a sem:Event ;
+    rdfs:comment "Visit or Memories and Confessions (Portuguese: Visita ou Memórias e Confissões) is a Portuguese documentary film directed by Manoel de Oliveira. It was released in Portugal on 4 May 2015." .
+
+ng:Wolfgang_Amadeus_Mozart a sem:Event ;
+    sem:hasTimeStamp "1791-12-05"^^xsd:date ;
+    rdfs:comment "Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791) was a Classical composer and musician. He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera, and choral music. Born in Salzburg, Mozart quickly emerged as a child prodigy under the training of his father Leopold, a skilled pedagogue." .
+
+ng:Yorckscher_Marsch a sem:Event ;
+    rdfs:comment "\"Yorckscher Marsch\" was written by Ludwig van Beethoven in 1808 or 1809 as a march for the Bohemian militia. It was the first of four military marches written by Beethoven." .
+

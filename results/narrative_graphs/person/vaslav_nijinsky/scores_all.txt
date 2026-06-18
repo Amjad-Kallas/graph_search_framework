@@ -1,0 +1,162 @@
+All 159 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Romola de Pulszky  |  combined=0.937  wiki=0.993  llm=0.900 ***
+  2. The Rite of Spring  |  combined=0.922  wiki=0.805  llm=1.000 ***
+  3. Afternoon of a Faun  |  combined=0.904  wiki=0.910  llm=0.900 ***
+  4. Igor Stravinsky  |  combined=0.869  wiki=0.822  llm=0.900 ***
+  5. Jeux  |  combined=0.867  wiki=0.817  llm=0.900 ***
+  6. Sergei Diaghilev  |  combined=0.845  wiki=0.762  llm=0.900 ***
+  7. Agrippina Vaganova  |  combined=0.400  wiki=1.000  llm=0.000 ***
+  8. Bronislava Nijinska  |  combined=0.397  wiki=0.993  llm=0.000 ***
+  9. Sergei Prokofiev  |  combined=0.328  wiki=0.819  llm=0.000 ***
+ 10. ballet  |  combined=0.324  wiki=0.809  llm=0.000 ***
+ 11. Frederick Ashton  |  combined=0.302  wiki=0.756  llm=0.000 ***
+ 12. Pyotr Ilyich Tchaikovsky  |  combined=0.300  wiki=0.750  llm=0.000 ***
+ 13. Nicholas Roerich  |  combined=0.246  wiki=0.614  llm=0.000 ***
+ 14. Claude Debussy  |  combined=0.245  wiki=0.613  llm=0.000 ***
+ 15. Edward Elgar  |  combined=0.243  wiki=0.608  llm=0.000 ***
+ 16. Aram Khachaturian  |  combined=0.239  wiki=0.598  llm=0.000 ***
+ 17. Nina Simone  |  combined=0.239  wiki=0.598  llm=0.000 ***
+ 18. Rodion Shchedrin  |  combined=0.223  wiki=0.557  llm=0.000 ***
+ 19. Andrei Eshpai  |  combined=0.210  wiki=0.524  llm=0.000 ***
+ 20. Mark Minkov  |  combined=0.207  wiki=0.519  llm=0.000 ***
+ 21. Vyacheslav Ovchinnikov  |  combined=0.202  wiki=0.504  llm=0.000 ***
+ 22. Vera Lynn  |  combined=0.201  wiki=0.501  llm=0.000 ***
+ 23. Ethel Smyth  |  combined=0.199  wiki=0.498  llm=0.000 ***
+ 24. Witold Maliszewski  |  combined=0.194  wiki=0.485  llm=0.000 ***
+ 25. Busi Mhlongo  |  combined=0.188  wiki=0.471  llm=0.000 ***
+ 26. Naomi Shemer  |  combined=0.188  wiki=0.470  llm=0.000 ***
+ 27. Violeta Parra  |  combined=0.184  wiki=0.459  llm=0.000 ***
+ 28. Mikhail Chulaki  |  combined=0.184  wiki=0.459  llm=0.000 ***
+ 29. Gennady Gladkov  |  combined=0.178  wiki=0.445  llm=0.000 ***
+ 30. Arthur Sullivan  |  combined=0.178  wiki=0.444  llm=0.000 ***
+ 31. Yuri Simonov  |  combined=0.174  wiki=0.436  llm=0.000 ***
+ 32. Cher  |  combined=0.172  wiki=0.429  llm=0.000 ***
+ 33. Buffy Sainte Marie  |  combined=0.169  wiki=0.423  llm=0.000 ***
+ 34. Toni Basil  |  combined=0.168  wiki=0.419  llm=0.000 ***
+ 35. Billie Holiday  |  combined=0.167  wiki=0.416  llm=0.000 ***
+ 36. Barbara  |  combined=0.166  wiki=0.414  llm=0.000
+ 37. Ella Fitzgerald  |  combined=0.157  wiki=0.393  llm=0.000
+ 38. Roberta Flack  |  combined=0.153  wiki=0.383  llm=0.000
+ 39. Constance Demby  |  combined=0.151  wiki=0.378  llm=0.000
+ 40. Valery Gavrilin  |  combined=0.148  wiki=0.370  llm=0.000
+ 41. Grace Slick  |  combined=0.146  wiki=0.364  llm=0.000
+ 42. Dory Previn  |  combined=0.144  wiki=0.359  llm=0.000
+ 43. Vano Muradeli  |  combined=0.143  wiki=0.358  llm=0.000
+ 44. Aretha Franklin  |  combined=0.142  wiki=0.354  llm=0.000
+ 45. Suleiman Yudakov  |  combined=0.139  wiki=0.348  llm=0.000
+ 46. Masako Togawa  |  combined=0.139  wiki=0.348  llm=0.000
+ 47. Laura Nyro  |  combined=0.138  wiki=0.346  llm=0.000
+ 48. Jean Ritchie  |  combined=0.138  wiki=0.346  llm=0.000
+ 49. Emmylou Harris  |  combined=0.138  wiki=0.344  llm=0.000
+ 50. Judy Henske  |  combined=0.135  wiki=0.338  llm=0.000
+ 51. Fernand Le Borne  |  combined=0.134  wiki=0.335  llm=0.000
+ 52. Anne Sylvestre  |  combined=0.133  wiki=0.334  llm=0.000
+ 53. Lillian Lux  |  combined=0.132  wiki=0.329  llm=0.000
+ 54. Patti Page  |  combined=0.132  wiki=0.329  llm=0.000
+ 55. Vashti Bunyan  |  combined=0.131  wiki=0.328  llm=0.000
+ 56. Natalie Cole  |  combined=0.130  wiki=0.326  llm=0.000
+ 57. Janis Joplin  |  combined=0.123  wiki=0.308  llm=0.000
+ 58. Lale Andersen  |  combined=0.122  wiki=0.306  llm=0.000
+ 59. Barbra Streisand  |  combined=0.122  wiki=0.306  llm=0.000
+ 60. Sarah Kernochan  |  combined=0.120  wiki=0.301  llm=0.000
+ 61. La Lupe  |  combined=0.119  wiki=0.298  llm=0.000
+ 62. Mary Travers  |  combined=0.117  wiki=0.293  llm=0.000
+ 63. Giovanna Marini  |  combined=0.115  wiki=0.287  llm=0.000
+ 64. Dolly Parton  |  combined=0.113  wiki=0.283  llm=0.000
+ 65. Lucille Starr  |  combined=0.113  wiki=0.282  llm=0.000
+ 66. Anne Vanderlove  |  combined=0.113  wiki=0.282  llm=0.000
+ 67. Olivia Newton John  |  combined=0.112  wiki=0.280  llm=0.000
+ 68. Melanie Safka  |  combined=0.112  wiki=0.279  llm=0.000
+ 69. Tokiko Kato  |  combined=0.112  wiki=0.279  llm=0.000
+ 70. Cindy Walker  |  combined=0.109  wiki=0.273  llm=0.000
+ 71. Colette Magny  |  combined=0.108  wiki=0.271  llm=0.000
+ 72. Rosalie Sorrels  |  combined=0.107  wiki=0.268  llm=0.000
+ 73. Brigitte Fontaine  |  combined=0.105  wiki=0.263  llm=0.000
+ 74. Michelle Phillips  |  combined=0.104  wiki=0.261  llm=0.000
+ 75. Linda Ronstadt  |  combined=0.104  wiki=0.261  llm=0.000
+ 76. Joan Baez  |  combined=0.103  wiki=0.259  llm=0.000
+ 77. Sathima Bea Benjamin  |  combined=0.103  wiki=0.258  llm=0.000
+ 78. Carole King  |  combined=0.101  wiki=0.253  llm=0.000
+ 79. Karen Black  |  combined=0.098  wiki=0.244  llm=0.000
+ 80. Ethel Afamado  |  combined=0.097  wiki=0.243  llm=0.000
+ 81. Joni Mitchell  |  combined=0.097  wiki=0.242  llm=0.000
+ 82. Lynsey de Paul  |  combined=0.096  wiki=0.240  llm=0.000
+ 83. Carly Simon  |  combined=0.095  wiki=0.238  llm=0.000
+ 84. Melba Moore  |  combined=0.092  wiki=0.230  llm=0.000
+ 85. Minnie Riperton  |  combined=0.091  wiki=0.228  llm=0.000
+ 86. musical composition  |  combined=0.090  wiki=0.225  llm=0.000
+ 87. Deniece Williams  |  combined=0.089  wiki=0.222  llm=0.000
+ 88. Donna Summer  |  combined=0.088  wiki=0.220  llm=0.000
+ 89. Thelma Houston  |  combined=0.087  wiki=0.218  llm=0.000
+ 90. Betty Carter  |  combined=0.087  wiki=0.218  llm=0.000
+ 91. Brenda Russell  |  combined=0.087  wiki=0.217  llm=0.000
+ 92. Bonnie Raitt  |  combined=0.086  wiki=0.215  llm=0.000
+ 93. Jean Shepard  |  combined=0.084  wiki=0.209  llm=0.000
+ 94. Martha Carson  |  combined=0.084  wiki=0.209  llm=0.000
+ 95. Joan Armatrading  |  combined=0.082  wiki=0.206  llm=0.000
+ 96. Stevie Nicks  |  combined=0.081  wiki=0.204  llm=0.000
+ 97. Patti Smith  |  combined=0.081  wiki=0.202  llm=0.000
+ 98. Myra Taylor  |  combined=0.081  wiki=0.202  llm=0.000
+ 99. Julie London  |  combined=0.081  wiki=0.202  llm=0.000
+100. Tammy Wynette  |  combined=0.080  wiki=0.201  llm=0.000
+101. Alanis Obomsawin  |  combined=0.080  wiki=0.199  llm=0.000
+102. Malvina Reynolds  |  combined=0.079  wiki=0.199  llm=0.000
+103. Mary Stuart  |  combined=0.079  wiki=0.197  llm=0.000
+104. Barbara Lewis  |  combined=0.079  wiki=0.197  llm=0.000
+105. Christine McVie  |  combined=0.079  wiki=0.196  llm=0.000
+106. Etta James  |  combined=0.078  wiki=0.194  llm=0.000
+107. Barbara Dickson  |  combined=0.077  wiki=0.191  llm=0.000
+108. Suzi Quatro  |  combined=0.076  wiki=0.191  llm=0.000
+109. Skeeter Davis  |  combined=0.076  wiki=0.189  llm=0.000
+110. Barbara Lynn  |  combined=0.075  wiki=0.188  llm=0.000
+111. Memphis Minnie  |  combined=0.074  wiki=0.185  llm=0.000
+112. Amparo Ochoa  |  combined=0.073  wiki=0.183  llm=0.000
+113. Sandy Denny  |  combined=0.073  wiki=0.183  llm=0.000
+114. Sara Carter  |  combined=0.073  wiki=0.183  llm=0.000
+115. Melba Montgomery  |  combined=0.073  wiki=0.182  llm=0.000
+116. Hattie McDaniel  |  combined=0.072  wiki=0.179  llm=0.000
+117. Lil Green  |  combined=0.070  wiki=0.175  llm=0.000
+118. Patti LaBelle  |  combined=0.069  wiki=0.172  llm=0.000
+119. Maureen Tucker  |  combined=0.069  wiki=0.171  llm=0.000
+120. Loretta Lynn  |  combined=0.067  wiki=0.167  llm=0.000
+121. June Carter Cash  |  combined=0.065  wiki=0.163  llm=0.000
+122. Jackie DeShannon  |  combined=0.063  wiki=0.157  llm=0.000
+123. Kitty Wells  |  combined=0.063  wiki=0.157  llm=0.000
+124. Judee Sill  |  combined=0.061  wiki=0.152  llm=0.000
+125. Liz Anderson  |  combined=0.060  wiki=0.151  llm=0.000
+126. Millie Jackson  |  combined=0.059  wiki=0.148  llm=0.000
+127. Donna Hightower  |  combined=0.058  wiki=0.146  llm=0.000
+128. Annette Humpe  |  combined=0.058  wiki=0.145  llm=0.000
+129. Kim Carnes  |  combined=0.058  wiki=0.144  llm=0.000
+130. Emiko Shiratori  |  combined=0.058  wiki=0.144  llm=0.000
+131. Bridget St John  |  combined=0.057  wiki=0.143  llm=0.000
+132. Lucilla Galeazzi  |  combined=0.056  wiki=0.141  llm=0.000
+133. Jessi Colter  |  combined=0.055  wiki=0.138  llm=0.000
+134. Ellie Greenwich  |  combined=0.054  wiki=0.135  llm=0.000
+135. Lorraine Feather  |  combined=0.053  wiki=0.133  llm=0.000
+136. Joyce Cobb  |  combined=0.052  wiki=0.130  llm=0.000
+137. Sippie Wallace  |  combined=0.052  wiki=0.130  llm=0.000
+138. Lesley Duncan  |  combined=0.051  wiki=0.128  llm=0.000
+139. Dee Dee Bridgewater  |  combined=0.048  wiki=0.119  llm=0.000
+140. Barbara Acklin  |  combined=0.047  wiki=0.118  llm=0.000
+141. Lenny Kuhr  |  combined=0.045  wiki=0.112  llm=0.000
+142. Tammy Faye Messner  |  combined=0.044  wiki=0.110  llm=0.000
+143. Lynn Anderson  |  combined=0.042  wiki=0.105  llm=0.000
+144. Bettye LaVette  |  combined=0.042  wiki=0.105  llm=0.000
+145. Lorraine Ellison  |  combined=0.040  wiki=0.099  llm=0.000
+146. Linda Lewis  |  combined=0.039  wiki=0.098  llm=0.000
+147. Shirley Collins  |  combined=0.039  wiki=0.096  llm=0.000
+148. Dottie West  |  combined=0.037  wiki=0.092  llm=0.000
+149. Connie Smith  |  combined=0.033  wiki=0.084  llm=0.000
+150. Debbie Harry  |  combined=0.031  wiki=0.078  llm=0.000
+151. Judy Collins  |  combined=0.030  wiki=0.076  llm=0.000
+152. Holly Near  |  combined=0.021  wiki=0.052  llm=0.000
+153. Gail Davies  |  combined=0.020  wiki=0.050  llm=0.000
+154. Brenda Holloway  |  combined=0.020  wiki=0.049  llm=0.000
+155. Donna Fargo  |  combined=0.018  wiki=0.044  llm=0.000
+156. Claudine Clark  |  combined=0.014  wiki=0.035  llm=0.000
+157. Marla Gibbs  |  combined=0.008  wiki=0.020  llm=0.000
+158. Dayna Kurtz  |  combined=0.000  wiki=0.001  llm=0.000
+159. Ingrid Croce  |  combined=0.000  wiki=0.000  llm=0.000

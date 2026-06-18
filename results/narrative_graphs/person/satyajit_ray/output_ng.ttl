@@ -1,0 +1,125 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:Badshahi_Angti a sem:Event ;
+    rdfs:comment "Badshahi Angti (English title: The Emperor's Ring) is a novel by Satyajit Ray featuring the private detective Feluda. It was first serialized in Sandesh magazine in the year 1966–67. It was then released in book form in 1969 by Ananda Publishers." .
+
+ng:Baksho_Rahashya a sem:Event ;
+    rdfs:comment "Bakso Rahashya (English title&#160;: Incident on the Kalka Mail) is a Bengali novel by Satyajit Ray featuring the private detective Feluda. This novel was first serialized in Desh magazine in 1972 and then released in book form in 1973, by Ananda publishers." .
+
+ng:Bertrand_Tavernier a sem:Event ;
+    sem:hasTimeStamp "1941-04-25"^^xsd:date ;
+    rdfs:comment "Bertrand Tavernier (French pronunciation: [bɛʁtʁɑ̃ tavɛʁnje]; 25 April 1941 – 25 March 2021) was a French film director, screenwriter, and producer." .
+
+ng:Bhuswargo_Bhayankar a sem:Event ;
+    rdfs:comment "Bhuswargo Bhayankar is a short novel by Satyajit Ray featuring the private detective Feluda, published in 1987." .
+
+ng:Bijoya_Ray a sem:Event ;
+    sem:hasTimeStamp "2015-06-02"^^xsd:date ;
+    rdfs:comment "Bijoya Ray (née Das; 27 October 1917 – 2 June 2015) was the wife of the Indian filmmaker Satyajit Ray. Their son Sandip Ray is also a film director. Bijoya and Satyajit were first cousins." .
+
+ng:Bombaiyer_Bombete a sem:Event ;
+    rdfs:comment "Bombaiyer Bombete (Bengali: বোম্বাইয়ের বোম্বেটে, lit. The Bandits of Bombay) is a 2003 Indian Bengali thriller film directed by Sandip Ray and based on the story of the same name by his father Satyajit Ray. It was the third big screen adaptation of the fictional detective character Feluda after 25 years of the second Feluda film Joi Baba Felunath (1979), which was directed by Satyajit Ray." .
+
+ng:Byomjatrir_Diary a sem:Event ;
+    rdfs:comment "\"Byomjatrir Diary\" (Bengali: ব্যোমযাত্রীর ডায়রি, An Astronauts Diary) is the first story of the Professor Shonku series created by Indian writer and filmmaker Satyajit Ray. It was first published in Sandesh, edited by Ray himself, in 1961. Ray included this story in his first collection of Shonku stories, Professor Shonku, in 1965." .
+
+ng:Chhinnamastar_Abhishap a sem:Event ;
+    rdfs:comment "Chhinnamastar Abhishap (English title&#160;: The Curse of the Goddess) is a Bengali novel by Satyajit Ray featuring private detective Feluda. It was first serialized in Desh magazine in 1978, and then released in book form in 1981 by Ananda Publishers." .
+
+ng:D_Ramanaidu a sem:Event ;
+    sem:hasTimeStamp "1936-06-06"^^xsd:date ;
+    rdfs:comment "Daggubati Ramanaidu (6 June 1936 – 18 February 2015) was an Indian film producer known for his work in Telugu cinema. He founded Suresh Productions in 1964 which became of one of the largest film production companies in India. He was one of the most influential movie moguls in Indian cinema." .
+
+ng:Dulal_Dutta a sem:Event ;
+    sem:hasTimeStamp "2010-08-17"^^xsd:date ;
+    rdfs:comment "Dulal Dutta (c. 1925 – 17 August 2010; Kolkata) was a film editor in the Bengali film industry located in Kolkata (previously Calcutta), West Bengal, India. He is especially remembered for his association with the acclaimed film director Satyajit Ray, whose films were all edited by Dutta." .
+
+ng:Feludar_Goendagiri a sem:Event ;
+    rdfs:comment "Feludar Goendagiri (English title: Danger in Darjeeling) is a short story written by Satyajit Ray featuring private detective Feluda. It was the very first among the total 35 complete stories/novels of Feluda series. The story first appeared in 1965 in the children's magazine Sandesh." .
+
+ng:Gangtokey_Gondogol a sem:Event ;
+    rdfs:comment "Gangtokey Gondogol (Trouble in Gangtok) is a short novel by Satyajit Ray featuring the private detective Feluda. This story was first published in the Desh magazine in 1970 and then published in book form in 1971 by Ananda Publishers." .
+
+ng:Ghurghutiya_r_Ghatona a sem:Event ;
+    rdfs:comment "Ghurghutiyar Ghatona is one of the crime thriller short stories written by the Academy Award-winning filmmaker and author Satyajit Ray, featuring the popular Bengali sleuth Feluda. This is the twelfth Feluda story overall and is a part of the second 12-story collections of Ray \"Aro Ek Dojon\". It is one of the few Feluda stories which does not feature Lalmohan Ganguly (Jatayu)." .
+
+ng:Hatyapuri a sem:Event ;
+    rdfs:comment "Hatyapuri (English title&#160;: The House Of Death) is a crime novel by Satyajit Ray. It gets its title from Puri, a city located on the shores of the Bay of Bengal which is a popular tourist attraction in East India. It was first serialized in the Sandesh magazine in 1979 and released in book form in the same year by Ananda Publishers." .
+
+ng:Jakhan_Choto_Chilam a sem:Event ;
+    rdfs:comment "Jakhan Choto Chilam (English meaning-When I was a kid) is a 1982 autobiographical book by the famed film director Satyajit Ray. In this book, Ray discusses his childhood days in the city of Kolkata (then Calcutta), India from eyes of an everyday boy." .
+
+ng:Jean_Renoir a sem:Event ;
+    sem:hasTimeStamp "1894-09-15"^^xsd:date ;
+    rdfs:comment "Jean Renoir (French: [ʁənwaʁ]; 15 September 1894 – 12 February 1979) was a French filmmaker, actor, producer and author. His La Grande Illusion (1937) and The Rules of the Game (1939) are often cited by critics as among the greatest films ever made. In 2002, he was ranked fourth on the BFI's Sight &amp; Sound poll of the greatest directors." .
+
+ng:John_Ford a sem:Event ;
+    sem:hasTimeStamp "1973-08-31"^^xsd:date ;
+    rdfs:comment "John Martin Feeney (February 1, 1894 – August 31, 1973), better known as John Ford, was an American film director and producer. He is regarded as one of the most important and influential filmmakers during the Golden Age of Hollywood, and was one of the first American directors to be recognized as an auteur. In a career of more than 50 years, he directed over 130 films between 1917 and 1970 (although most of his silent films are now lost), and received a record four Academy Awards for Best Director for The Informer (1935), The Grapes of Wrath (1940), How" .
+
+ng:Joi_Baba_Felunath a sem:Event ;
+    rdfs:comment "Joi Baba Felunath (English title The Elephant God) is a 1979 Indian Bengali-language mystery film directed and written by Satyajit Ray. Featuring an ensemble cast of Soumitra Chatterjee, Santosh Dutta, Siddartha Chatterjee, Utpal Dutt amongst others, it is an adaption of the eponymous Feluda novel and serves as the sequel of Sonar Kella. Shortly after the demise of actor Santosh Dutta who portrayed Jatayu's role, Ray remarked that it was impossible to ever make a Feluda film again without Dutta." .
+
+ng:Kailashey_Kelenkari a sem:Event ;
+    rdfs:comment "Kailashey Kelengkari (transl. A Killer in Kailash) is a 1974 mystery novel by Indian writer Satyajit Ray featuring the private detective Feluda. It is the 9th Feluda story, preceded by Samaddarer Chabi and followed by Royal Bengal Rahashya." .
+
+ng:Mahasankatey_Shonku a sem:Event ;
+    rdfs:comment "Mahasonkote Shonku (Shonku in Deep Peril) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1977. Ray wrote the stories about Professor Shanku for Bengali magazines Sandesh and Anandamela. This book is a collection of three Shonku stories." .
+
+ng:Our_Films_Their_Films a sem:Event ;
+    rdfs:comment "Our Films, Their Films is an anthology of film criticism by noted Bengali filmmaker, composer and writer Satyajit Ray. Collecting articles and personal journal excerpts, it was first published in India in 1976; an English translation was published in The United States and United Kingdom in 1992. Some of articles were previously published in the bulletin of the Calcutta Film Society which Ray co-founded in 1947." .
+
+ng:Professor_Shonku a sem:Event ;
+    rdfs:comment "Professor Shonku is a collection of nine science fiction short stories by Satyajit Ray featuring the fictional scientist-inventor Professor Shonku. The collection was first published in 1965 by Calcutta publisher NewScript Publications. The original collection contained seven stories, while the eight and ninth stories were added in later editions.",
+        "Professor Trilokeshwar Shonku (Bengali: প্রফেসর শঙ্কু) is a fictional scientist and inventor created by Satyajit Ray in a series of Bengali science fiction books of the same name published from 1965 on. He is the central protagonist of the series. Professor Shonku resides in Giridih." .
+
+ng:Professor_Shonkur_Kandokarkhana a sem:Event ;
+    rdfs:comment "Professor Shonkur Kandokarkhana (Bengali: প্রফেসার শঙ্কুর কাণ্ডকারখানা; Professor Shonku's Deeds) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1970. Ray wrote the stories about Professor Shanku for the Bengali magazines Sandesh and Anandamela. This book is a collection of five Shonku stories." .
+
+ng:Punashcha_Professor_Shonku a sem:Event ;
+    rdfs:comment "Punashcha Professor Shonku (Shonku Once Again) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1993. Ray wrote these stories about Professor Shanku for Bengali magazines Sandesh and Anandamela. This book is a collection of five Shanku stories." .
+
+ng:Rabindranath_Tagore a sem:Event ;
+    sem:hasTimeStamp "1861-05-07"^^xsd:date ;
+    rdfs:comment "Rabindranath Thakur (Bengali: [roˈbindɾonatʰ ˈʈʰakuɾ]; anglicised as Rabindranath Tagore ; 7 May 1861&#160;– 7 August 1941), also known by his pseudonym Bhanusimha (Sun Lion) was a Bengali polymath (poet, writer, playwright, composer, philosopher, social reformer, and painter) of the Bengal Renaissance period. In 1913, Tagore became the first Asian to win a Nobel Prize in any category, and also the first lyricist and non-European to win the Nobel Prize in Literature. A significant moulder of culture within the Indian subcontinent, he wrote and composed the national anthems of India and Bangladesh." .
+
+ng:Royal_Bengal_Rahashya a sem:Event ;
+    rdfs:comment "Royal Bengal Rahashya is a novel in Feluda Series created by the eminent author and director Satyajit Ray. It is of 88 pages and is published by Ananda Publishers Pvt. Ltd." .
+
+ng:Sandip_Ray a sem:Event ;
+    sem:hasTimeStamp "1953-09-08"^^xsd:date ;
+    rdfs:comment "Sandip Ray (born 8 September 1953) is an Indian film director and music director who mainly works in Bengali cinema. He is the only child of the famous Indian director Satyajit Ray and Bijoya Ray." .
+
+ng:Selam_Professor_Shonku a sem:Event ;
+    rdfs:comment "Selam Professor Shonku (Hats off, Professor Shonku) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1995. Ray wrote these stories about Professor Shanku for Bengali magazines Sandesh and Anandamela. This book is a collection of seven Shonku stories." .
+
+ng:Shabash_Professor_Shonku a sem:Event ;
+    rdfs:comment "Shabash Professor Shonku (Bravo Professor Shonku) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1974. Ray wrote the stories about Professor Shanku in Bengali magazines Sandesh and Anandamela. This book is a collection of seven Shonku stories." .
+
+ng:Shonku_Ekai_Aksho a sem:Event ;
+    rdfs:comment "Shonku Ekai Aksho (Shonku, All in All) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1983. Ray wrote the stories about Professor Shanku for Bengali magazines Sandesh and Anandamela. This book is a collection of four Shonku stories." .
+
+ng:Sonar_Kella a sem:Event ;
+    rdfs:comment "Sonar Kella, also Shonar Kella, is a 1971 mystery novel written by Bengali writer and filmmaker Satyajit Ray. In 1974, Ray directed a film adaption of the book, also named Sonar Kella, starring Soumitra Chatterjee, Santosh Dutta, Siddartha Chatterjee and Kushal Chakraborty. The movie was released in the United States as The Golden Fortress." .
+
+ng:Soumendu_Roy a sem:Event ;
+    sem:hasTimeStamp "1933-01-01"^^xsd:date ;
+    rdfs:comment "Soumendu Roy (7 February 1932 – 27 September 2023) was an Indian cinematographer most known for his work with noted director Satyajit Ray's films, starting with Teen Kanya (1961), when Subrata Mitra developed an eye-problem, though he has earlier shot Ray's documentary Rabindranath Tagore (1961) and has been an assistant to Subrata in post Pather Panchali films." .
+
+ng:Sukumar_Ray a sem:Event ;
+    sem:hasTimeStamp "1887-10-30"^^xsd:date ;
+    rdfs:comment "Sukumar Ray (; 30 October 1887 – 10 September 1923) was a Bengali writer and poet from British India. He is remembered mainly for his writings for children. He was the son of children's story writer Upendrakishore Ray Chowdhury and the father of Indian filmmaker Satyajit Ray." .
+
+ng:Swayang_Professor_Shonku a sem:Event ;
+    rdfs:comment "Swayang Professor Shonku (None other than Professor Shonku) is a Professor Shonku series book written by Satyajit Ray and published by Ananda Publishers in 1980. Ray wrote the stories about Professor Shanku in Bengali magazines Sandesh and Anandamela. This book is a collection of three Shonku stories." .
+
+ng:Tintorettor_Jishu a sem:Event ;
+    rdfs:comment "Tintorettor Jishu (Tintoretto's Jesus) is a mystery novel by Satyajit Ray about an adventure of Feluda. A movie directed by Sandip Ray has been made based on the story (released in December 2008). An extensive shoot schedule at Hong Kong during May 2008 takes Feluda movies to a new height." .
+
+ng:Vittorio_De_Sica a sem:Event ;
+    sem:hasTimeStamp "1901-07-07"^^xsd:date ;
+    rdfs:comment "Vittorio De Sica ( də SEE-kə, Italian: [vitˈtɔːrjo de ˈsiːka]; 7 July 1901 – 13 November 1974) was an Italian film director and actor, a leading figure in the neorealist movement. Widely considered one of the most influential filmmakers in the history of cinema, four of the films he directed won Academy Awards: Sciuscià and Bicycle Thieves (honorary), while Yesterday, Today and Tomorrow, and Il giardino dei Finzi Contini won the Academy Award for Best Foreign Language Film. Indeed, the great critical success of Sciuscià (the first foreign film to be so recognized by the Academy of Motion Picture Arts" .
+

@@ -1,0 +1,14 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:French_Revolution a sem:Event ;
+    sem:hasPlace ng:France ;
+    sem:hasTimeStamp "1789-07-14"^^xsd:date ;
+    rdfs:comment "The French Revolution was a period of political and societal change in France that began with the Estates General of 1789 and ended with the Coup of 18 Brumaire on 9 November 1799. Many of the revolution's ideas are considered fundamental principles of liberal democracy, and its values remain central to modern French political discourse. It was caused by a combination of social, political, and economic factors which the existing regime proved unable to manage." .
+
+ng:Tennis_Court_Oathe_Peter_de_frances_III_regulation_of_the_conquest_in_times_of_need_and_history_of_the_tennis_court_Spanish_version_as_well_as_English a sem:Event ;
+    sem:hasTimeStamp "1789-06-20"^^xsd:date ;
+    rdfs:comment "The Tennis Court Oath (French: Serment du Jeu de Paume, pronounced [sɛʁmɑ̃ dy ʒø də pom]) was taken on 20 June 1789 by the members of the French Third Estate in the hall of an indoor tennis court in the grounds of Versailles. Their vow \"not to separate and to reassemble wherever necessary until the constitution of the kingdom is established\" became a pivotal event in the French Revolution. The Estates-General had been called to address the country's fiscal and agricultural crisis, but they had become bogged down in issues of representation immediately after convening in May 1789, particularly whether" .
+

@@ -1,0 +1,232 @@
+@prefix ng: <http://narrative.graph/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ng:3000_Leonardo a sem:Event ;
+    rdfs:comment "3000 Leonardo, provisional designation 1981 EG19, is a carbonaceous background asteroid from the inner regions of the asteroid belt, approximately 9.5 kilometers (5.9 miles) in diameter. It was discovered on 2 March 1981, by American astronomer Schelte Bus at the Siding Spring Observatory in Australia. The B-type asteroid has a rotation period of 7.5 hours." .
+
+ng:Adoration_of_the_Magi a sem:Event ;
+    sem:hasPlace ng:Leonardo_room_15,
+        ng:Uffizi ;
+    rdfs:comment "The Adoration of the Magi is an unfinished early painting by the Italian Renaissance artist Leonardo da Vinci. Leonardo was given the commission by the Augustinian monks of San Donato in Scopeto in Florence in 1481, but he departed for Milan the following year, leaving merely more than the preparatory underdrawing in charcoal, ink and watercolor. It has been in the Uffizi Gallery in Florence since 1670." .
+
+ng:Andrea_Solari a sem:Event ;
+    sem:hasTimeStamp "1460-01-01"^^xsd:date ;
+    rdfs:comment "Andrea Solari (also Solario) (1460–1524) was an Italian Renaissance painter of the Milanese school. He was initially named Andre del Gobbo, but more confusingly as Andrea del Bartolo a name shared with two other Italian painters, the 14th-century Siennese Andrea di Bartolo, and the 15th-century Florentine Andrea di Bartolo. His paintings can be seen in Venice, Milan, The Louvre and the Château de Gaillon (Normandy, France)." .
+
+ng:Andrea_del_Verrocchio a sem:Event ;
+    sem:hasTimeStamp "1488-10-16"^^xsd:date ;
+    rdfs:comment "Andrea del Verrocchio ( və-ROH-kee-oh, US also -⁠RAW-, Italian: [anˈdrɛːa del verˈrɔkkjo]; born Andrea di Michele di Francesco de' Cioni; c. 1435 – 1488) was an Italian sculptor, painter and goldsmith who was a master of a workshop in Florence. He was the teacher of Leonardo da Vinci, who assisted in painting The Baptism of Christ. He became known as Verrocchio after the surname of his master, a goldsmith." .
+
+ng:Annunciation a sem:Event ;
+    sem:hasPlace ng:Italian_paintings_room_4,
+        ng:Uffizi ;
+    rdfs:comment "The Annunciation (; from Latin annuntiatio; also referred to as the Annunciation to the Blessed Virgin Mary, the Annunciation of Our Lady, or the Annunciation of the Lord; Ancient Greek: Ο Ευαγγελισμός της Θεοτόκου) is, according to the Gospel of Luke, the announcement made by the archangel Gabriel to Mary that she would conceive and bear a son through a virgin birth and become the mother of Jesus Christ, the Messiah and Son of God, marking the Incarnation. According to Luke 1:26 the Annunciation occurred in the sixth month of Elizabeth's pregnancy with John the Baptist. Many Christians observe this",
+        "The Annunciation is a painting by the Italian Renaissance artist Leonardo da Vinci, dated to c. 1472–1476. Leonardo's earliest extant major work, it was completed in Florence while he was an apprentice in the studio of Andrea del Verrocchio. The painting was made using oil and tempera on a large poplar panel and depicts the Annunciation, a popular biblical subject in 15th-century Florence." .
+
+ng:Bacchus a sem:Event ;
+    sem:hasPlace ng:Italian_paintings_room_5 ;
+    rdfs:comment "Bacchus, originally Saint John the Baptist, is a painting in the Musée du Louvre, Paris, France, by the Italian Renaissance artist Leonardo da Vinci and Francesco Melzi, while in Leonardo's workshop. Sydney J. Freedberg assigns the drawing to Leonardo's second Milan period. Among the Lombard painters who have been suggested as possible authors are Cesare da Sesto, Marco d'Oggiono, Francesco Melzi, and Cesare Bernazzano." .
+
+ng:Benois_Madonna a sem:Event ;
+    sem:hasPlace ng:Hermitage_Museum ;
+    rdfs:comment "The Benois Madonna, otherwise known as the Madonna and Child with Flowers, is a painting by the Italian Renaissance master Leonardo da Vinci in the Hermitage Museum, Saint Petersburg. One of two Madonnas begun by Leonardo in October 1478, it was completed c. 1478–1480; the other was the Madonna of the Carnation, now in the Alte Pinakothek, Munich." .
+
+ng:Bianca_Maria_Sforza a sem:Event ;
+    sem:hasTimeStamp "1472-04-14"^^xsd:date ;
+    rdfs:comment "Bianca Maria Sforza (5 April 1472 – 31 December 1510) was Queen of Germany and Empress of the Holy Roman Empire as the third spouse of Maximilian I. She was the eldest legitimate daughter of Duke Galeazzo Maria Sforza of Milan by his second wife, Bona of Savoy." .
+
+ng:Budapest_horse a sem:Event ;
+    rdfs:comment "The Rearing Horse and Mounted Warrior or Budapest horse is a bronze sculpture attributed to Leonardo da Vinci. Depicting Francis I of France on a destrier horse, it is estimated to have been cast from a clay or wax model in the first half of the 16th century. The sculpture is in the permanent exhibit of the Budapest Museum of Fine Arts." .
+
+ng:Cecilia_Gallerani a sem:Event ;
+    sem:hasTimeStamp "1473-01-01"^^xsd:date ;
+    rdfs:comment "Cecilia Gallerani (Italian pronunciation: [tʃeˈtʃiːlja ɡalleˈraːni]; early 1473 – 1536) was the favourite and most celebrated of the many mistresses of Ludovico Sforza, known as Lodovico Il Moro, Duke of Milan. She is best known as the subject of Leonardo da Vinci's painting Lady with an Ermine (c. 1489). While posing for the painting, she invited Leonardo, who at the time was working as court artist for Sforza, to meetings at which Milanese intellectuals discussed philosophy and other subjects." .
+
+ng:Cesare_Borgia a sem:Event ;
+    sem:hasTimeStamp "1507-03-12"^^xsd:date ;
+    rdfs:comment "Cesare Borgia (13 September 1475 – 13 March 1507) was an Italian cardinal deacon and later a condottiero, as well as a member of the Spanish House of Borgia. He was the illegitimate son of Pope Alexander VI and sibling to Lucrezia Borgia. After initially entering the Church and becoming a cardinal on his father's election to the papacy, he resigned his diaconal profession after the death of his brother in 1498." .
+
+ng:Cesare_da_Sesto a sem:Event ;
+    sem:hasTimeStamp "1523-08-06"^^xsd:date ;
+    rdfs:comment "Cesare da Sesto (1477–1523) was an Italian painter of the Renaissance active in Milan and elsewhere in Italy." .
+
+ng:Da_Vinci a sem:Event ;
+    rdfs:comment "da Vinci is a lunar impact crater that is located in the eastern part of the Moon, to the northwest of Mare Fecunditatis. It lies along the eastern shore of the Sinus Concordiae, a bay along the eastern edge of Mare Tranquillitatis. Nearby craters include Watts to the southeast and Lawrence to the southwest, both smaller in dimension than da Vinci." .
+
+ng:Da_Vinci_Surgical_System a sem:Event ;
+    rdfs:comment "The da Vinci Surgical System is a robotic surgical platform that uses a minimally invasive surgical approach and is manufactured by Intuitive Surgical. The system is used for surgical procedures including prostatectomies, cardiac valve repair and renal and gynecologic interventions. In 2012, it was used in an estimated 200,000 surgeries, most commonly for hysterectomies and prostate removals." .
+
+ng:Davincia a sem:Event ;
+    rdfs:comment "Davincia is a genus of hymenopteran insects of the family Eulophidae. It is named after the Italian painter Leonardo da Vinci." .
+
+ng:De_ludo_scachorum a sem:Event ;
+    rdfs:comment "De ludo scachorum ('On the Game of Chess'), also known as Schifanoia ('the \"Boredom Dodger\"'), is a Latin-language manuscript on the game of chess written around 1500 by Luca Pacioli, a leading mathematician of the Renaissance. Created in the times when rules of the game (especially the way queen and bishop move) were evolving to the ones known today, the manuscript contains over a hundred chess problems, to be solved – depending on the problem – using either the old or the modern rules. The long-lost manuscript was rediscovered in 2006 and gathered public attention in 2008, following the plausible" .
+
+ng:Francesco_Melzi a sem:Event ;
+    sem:hasTimeStamp "1491-01-01"^^xsd:date ;
+    rdfs:comment "Francesco Melzi, or Francesco de Melzi (1491 – 1570) was an Italian painter born into a family of the Milanese nobility in Lombardy. He became a pupil of Leonardo da Vinci and remained as his closest friend and professional assistant throughout his career. After Leonardo’s death, Melzi became the literary executor of all Leonardo's papers and compiled them into a manuscript known as the Codex Urbinas." .
+
+ng:Francis_I_of_France a sem:Event ;
+    sem:hasTimeStamp "1494-09-21"^^xsd:date ;
+    rdfs:comment "Francis I (French: François Ier; Middle French: Françoys; 12 September 1494 – 31 March 1547) was King of France from 1515 until his death in 1547. He was the son of Charles, Count of Angoulême, and Louise of Savoy. He succeeded his first cousin once removed and father-in-law Louis XII, who died without a legitimate son." .
+
+ng:Girolamo_Savonarola a sem:Event ;
+    sem:hasTimeStamp "1452-09-30"^^xsd:date ;
+    rdfs:comment "Girolamo Savonarola, OP (UK: , US: ; Italian: [dʒiˈrɔːlamo savonaˈrɔːla]; 21 September 1452 – 23 May 1498), also referred to as Jerome Savonarola, was an ascetic Dominican friar from Ferrara and a preacher active in Renaissance Florence. He became known for his prophecies of civic glory, his advocacy of the destruction of secular art and culture, and his calls for Christian renewal. He denounced clerical corruption, despotic rule, and the exploitation of the poor." .
+
+ng:Head_of_Christ a sem:Event ;
+    sem:hasPlace ng:Pinacoteca_di_Brera ;
+    rdfs:comment "The Head of Christ, also called the Sallman Head, is a 1940 portrait painting of Jesus by Warner Sallman (1892–1968). As an extraordinarily successful work of Christian popular devotional art, it had been reproduced over half a billion times worldwide by the end of the 20th century. Enlarged copies of the work have been made for churches, and small pocket or wallet-sized prayer cards bearing the image have been mass-produced for private devotional use." .
+
+ng:Head_of_a_Woman a sem:Event ;
+    sem:hasPlace ng:Galleria_nazionale_di_Parma,
+        ng:Philadelphia_Museum_of_Art ;
+    rdfs:comment "Head of a Woman may refer to:" .
+
+ng:Istituto_Statale_Italiano_Leonardo_Da_Vinci a sem:Event ;
+    rdfs:comment "The Istituto Statale Italiano Leonardo Da Vinci (French: Lycée italien Leonardo da Vinci) is an Italian government-owned Italian international school in Paris, France. Its scuola media and liceo scientifico (junior and senior high school, or high school and sixth-form college), along with the school administration, occupies one campus in the 7th arrondissement. The elementary school is housed in a different campus in the same arrondissement." .
+
+ng:La_Belle_Ferronni_re a sem:Event ;
+    sem:hasPlace ng:Italian_paintings_room_5 ;
+    rdfs:comment "La Belle Ferronnière (French pronunciation: [la bɛl fɛʁɔnjɛʁ]) is a portrait painting of a lady, by Leonardo da Vinci, in the Louvre. It is also known as Portrait of an Unknown Woman. The painting's title, applied as early as the seventeenth century, identifying the sitter as the wife or daughter of an ironmonger (a ferronnier), was said to be discreetly alluding to a reputed mistress of Francis I of France, married to a certain Le Ferron. Later she was tentatively identified as Lucretia Crivelli, a married lady-in-waiting to Duchess Beatrice of Milan, who became another of the Duke's mistresses." .
+
+ng:Lady_with_an_Ermine a sem:Event ;
+    sem:hasPlace ng:National_Museum_Krak_w ;
+    rdfs:comment "The Lady with an Ermine is a portrait painting by the Italian Renaissance artist Leonardo da Vinci. Dated to c. 1489–1491, the work is painted in oils on a panel of walnut wood. Its subject is Cecilia Gallerani, a mistress of Ludovico Sforza (\"Il Moro\"), Duke of Milan; Leonardo was painter to the Sforza court in Milan at the time of its execution." .
+
+ng:Leda_and_the_Swan a sem:Event ;
+    sem:hasPlace ng:Museum_Boijmans_Van_Beuningen ;
+    rdfs:comment "The story of Leda and the Swan was the subject of two compositions by Leonardo da Vinci from perhaps 1503–1510. Neither survive as paintings by Leonardo, but there are a number of drawings for both by him, and copies in oils, especially of the second composition, where Leda stands." .
+
+ng:Leonardo a sem:Event ;
+    rdfs:comment "Leonardo, commonly nicknamed Leo, is a superhero appearing in Teenage Mutant Ninja Turtles comics and related media, and created by American comic book artists Kevin Eastman and Peter Laird. He is one of the main characters of the franchise, along with his brothers, Donatello, Raphael and Michelangelo. Leonardo is traditionally depicted as the leader and strategist of the turtles." .
+
+ng:Leonardo_Da_Vinci_University a sem:Event ;
+    rdfs:comment "The Leonardo Da Vinci University is a Peruvian private university founded on April 1, 2010, in the city of Trujillo, La Libertad Region. This institution of higher learning has its headquarters in the city of Trujillo." .
+
+ng:Leonardo_Permanent_Multipurpose_Module a sem:Event ;
+    rdfs:comment "Leonardo, also known as the Permanent Multipurpose Module (PMM) is a module of the International Space Station. It was flown into space aboard the Space Shuttle Discovery on STS-133 on February 24, 2011, and installed on March 1. Leonardo is primarily used for storage of spares, supplies and waste on the ISS, which was until then stored in many different places within the space station." .
+
+ng:Leonardo_da_Vinci_Art_School a sem:Event ;
+    rdfs:comment "The Leonardo da Vinci Art School (the \"Leonardo\") was an art school founded in New York City (1923–1942), whose most famous students were Isamu Noguchi and Elaine de Kooning, the school's director was sculptor and poet Onorio Ruotolo." .
+
+ng:Leonardo_da_Vinci_Engineering_School a sem:Event ;
+    rdfs:comment "The Leonard de Vinci Engineering School (ESILV) is an engineering school located in Paris, France. It is fully accredited to award the title of ingénieur by the French Commission of Engineering Titles. ESILV is part of the \"Pôle universitaire Léonard-de-Vinci\"." .
+
+ng:Leonardo_da_Vinci_Gymnasium a sem:Event ;
+    rdfs:comment "The Leonardo da Vinci Gymnasium was a state recognized private, coeducational, full-time day and boarding school for highly gifted students located in Neckargemünd (Baden-Württemberg) run by the SRH Group, a Non-Profit organisation in Healthcare and Education. The school was one of Germany’s first private schools for intellectually gifted children from 5th grade onward and it was the first and sole private school of this kind in the state of Baden-Württemberg. The school consisted of a secondary school and a high school, which correspond to the state equivalents." .
+
+ng:Leonardo_da_Vinci_Medal a sem:Event ;
+    rdfs:comment "The Leonardo da Vinci Medal is the highest award of the Society for the History of Technology (SHOT), and was first given in 1962. In general this award is granted annually to scholars who have contributed outstandingly to the history of technology through research, teaching, publication or other activities. The prize consists of a certificate and a medal." .
+
+ng:Leonardo_da_Vinci_programme a sem:Event ;
+    rdfs:comment "The Leonardo da Vinci programme is a European Commission funding programme focused on the teaching and training needs of those involved in professional education. The programme is part of the European Commission's Lifelong Learning Programme 2007–2013 and aims to help the European labour market by helping European citizens acquire qualifications and have them recognised across borders." .
+
+ng:List_of_works_by_Leonardo_da_Vinci a sem:Event ;
+    rdfs:comment "The Italian polymath Leonardo da Vinci (1452–1519) was one of the founding figures of the High Renaissance, and exhibited enormous influence on subsequent artists. Only around eight major works—The Adoration of the Magi, Saint Jerome in the Wilderness, the Louvre Virgin of the Rocks, The Last Supper, the ceiling of the Sala delle Asse, The Virgin and Child with Saint Anne and Saint John the Baptist, The Virgin and Child with Saint Anne, and the Mona Lisa—are universally attributed to him, and have aroused little or no controversy in the past. Ten additional works are now widely attributed to his" .
+
+ng:Lorenzo_di_Credi a sem:Event ;
+    sem:hasTimeStamp "1537-01-22"^^xsd:date ;
+    rdfs:comment "Lorenzo di Credi (1456/59 – January 12, 1537) was an Italian Renaissance painter and sculptor best known for his paintings of religious subjects, and portraits. With some excursions to nearby cities, his whole life was spent in Florence. He is most famous for having worked in the studio of Andrea del Verrocchio at the same time as the young Leonardo da Vinci, who seems to have influenced his style considerably." .
+
+ng:Luca_Pacioli a sem:Event ;
+    sem:hasTimeStamp "1517-06-29"^^xsd:date ;
+    rdfs:comment "Luca Bartolomeo de Pacioli, O.F.M. (sometimes Paccioli or Paciolo; c. 1447 – 19 June 1517) was an Italian mathematician, Franciscan friar, collaborator with Leonardo da Vinci, and an early contributor to the field now known as accounting. He is referred to as the father of accounting and bookkeeping and he was the first person to publish a work on the double-entry system of book-keeping on the continent. He was also called Luca di Borgo after his birthplace, Borgo Sansepolcro, Tuscany." .
+
+ng:Ludovico_Sforza a sem:Event ;
+    sem:hasTimeStamp "1452-08-05"^^xsd:date ;
+    rdfs:comment "Ludovico Maria Sforza (Italian: [ludoˈviːko maˈriːa ˈsfɔrtsa]; 3 August 1452 – 27 May 1508), also known as Ludovico il Moro (Italian: [il ˈmɔːro]; 'the Moor'), and called the \"arbiter of Italy\" by historian Francesco Guicciardini, was an Italian nobleman who ruled as the Duke of Milan from 1494 to 1499. Although he was the fourth son and excluded from his family's succession, Ludovico was ambitious and managed to obtain dominion over Milan. He first assumed the regency from his sister-in-law Bona, then took over from his deceased nephew Gian Galeazzo, whom some say he poisoned." .
+
+ng:Madonna_Litta a sem:Event ;
+    sem:hasPlace ng:Hermitage_Museum ;
+    rdfs:comment "The Madonna Litta is a late 15th-century painting, by Leonardo da Vinci, in the Hermitage Museum, Saint Petersburg. It depicts the Virgin Mary breastfeeding the Christ child, a devotional subject known as the Madonna lactans. The figures are set in a dark interior with two arched openings, as in Leonardo's earlier Madonna of the Carnation, and a mountainous landscape in aerial perspective can be seen beyond." .
+
+ng:Madonna_of_the_Carnation a sem:Event ;
+    sem:hasPlace ng:Alte_Pinakothek ;
+    rdfs:comment "The Madonna of the Carnation, also known as the Madonna with Vase, Madonna with Child or Virgin with Flower, is a Renaissance oil painting by Leonardo da Vinci created around 1478–1480. It is permanently displayed at the Alte Pinakothek gallery in Munich, Germany. The central and centered motif is the young Virgin Mary seated with Baby Jesus on her lap." .
+
+ng:Madonna_of_the_Yarnwinder a sem:Event ;
+    sem:hasPlace ng:Scottish_National_Gallery ;
+    rdfs:comment "The Madonna of the Yarnwinder (Italian: Madonna dei Fusi, \"Madonna of the Spindles\") is a subject depicted by Leonardo da Vinci in at least one, and perhaps two paintings begun in 1499 or later. Leonardo was recorded as being at work on one such painting in Florence in 1501 for Florimond Robertet, a secretary to King Louis XII of France. This may have been delivered to the French court in 1507, although scholars are divided on this point." .
+
+ng:Maria_Magdalena a sem:Event ;
+    rdfs:comment "Maria Magdalena or Maria-Magdalena may refer to:" .
+
+ng:Medusa a sem:Event ;
+    rdfs:comment "In Greek mythology, Medusa (; Ancient Greek: Μέδουσα, romanized:&#160;Médousa, lit. 'guardian, protectress'), also called Gorgo (Ancient Greek: Γοργώ) or the Gorgon, was one of the three Gorgons. Medusa is generally described as a woman with living snakes in place of hair; her appearance was so hideous that anyone who looked upon her was turned to stone. Medusa and her Gorgon sisters Euryale and Stheno were usually described as daughters of Phorcys and Ceto; of the three, only Medusa was mortal." .
+
+ng:Michelangelo a sem:Event ;
+    sem:hasTimeStamp "1475-03-15"^^xsd:date ;
+    rdfs:comment "Michelangelo di Lodovico Buonarroti Simoni (6&#160;March 1475&#160;– 18&#160;February 1564), known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He was born in the Republic of Florence but was mostly active in Rome from his 30s onwards. His work was inspired by models from classical antiquity and had a lasting influence on Western art." .
+
+ng:Mona_Lisa a sem:Event ;
+    sem:hasPlace ng:Italian_paintings_room_6,
+        ng:Louvre_Museum ;
+    rdfs:comment "The Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as \"the best known, the most visited, the most written about, the most sung about, [and] the most parodied work of art in the world.\" The painting's novel qualities include the subject's enigmatic expression, monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism. The painting has been traditionally considered to depict the Italian noblewoman Lisa del Giocondo." .
+
+ng:Paolo_dal_Pozzo_Toscanelli a sem:Event ;
+    sem:hasTimeStamp "1397-04-29"^^xsd:date ;
+    rdfs:comment "Paolo dal Pozzo Toscanelli (1397 – 10 May 1482) was an Italian mathematician, astronomer, and cosmographer. Born in Florence, he was a notable local Renaissance figure. Christopher Columbus carried his map (depicting Asia to the west of Europe) on his first voyage to the New World." .
+
+ng:Piero_Soderini a sem:Event ;
+    sem:hasTimeStamp "1450-05-27"^^xsd:date ;
+    rdfs:comment "Piero di Tommaso Soderini (March 17, 1451 – June 13, 1522), also known as Pier Soderini, was an Italian statesman of the Republic of Florence." .
+
+ng:Pontormo a sem:Event ;
+    sem:hasTimeStamp "1494-06-02"^^xsd:date ;
+    rdfs:comment "Jacopo Carucci or Carrucci (IPA: [ˈjaːkopo ka(r)ˈruttʃi]; May 24, 1494 – January 2, 1557), usually known as Jacopo (da) Pontormo or simply Pontormo (IPA: [ponˈtormo]), was an Italian Mannerist painter and portraitist from the Florentine School. His work represents a profound stylistic shift from the calm perspectival regularity that characterized the art of the Florentine Renaissance. He is famous for his use of twining poses, coupled with ambiguous perspective; his figures often seem to float in an uncertain environment, unhampered by the forces of gravity." .
+
+ng:Portrait_of_Isabella_d_Este a sem:Event ;
+    rdfs:comment "Portrait of Isabella d'Este may refer to:" .
+
+ng:Portrait_of_a_Musician a sem:Event ;
+    sem:hasPlace ng:Pinacoteca_Ambrosiana ;
+    rdfs:comment "The Portrait of a Musician is an unfinished painting by the Italian Renaissance artist Leonardo da Vinci, dated to c. 1483–1487. Produced while Leonardo was in Milan, the work is painted in oils, and perhaps tempera, on a small panel of walnut wood. It is his only known male portrait painting, and the identity of its sitter has been closely debated among scholars." .
+
+ng:Portrait_of_a_Young_Fianc_e a sem:Event ;
+    rdfs:comment "La Bella Principessa (English: \"The Beautiful Princess\"), also known as Portrait of Bianca Sforza, Young Girl in Profile in Renaissance Dress and Portrait of a Young Fiancée, is a portrait in coloured chalks and ink, on vellum, of a young lady in fashionable costume and hairstyle of a Milanese of the 1490s. Some scholars have attributed it to Leonardo da Vinci but the attribution and the work's authenticity have been disputed. Supporters of the theory that it was by Leonardo have proposed that Bianca Giovanna Sforza, illegitimate daughter of Ludovico Sforza is the woman depicted in the drawing." .
+
+ng:Sala_delle_Asse a sem:Event ;
+    sem:hasPlace ng:Sforza_Castle ;
+    rdfs:comment "The Sala delle Asse (In English: 'room of the wooden planks'), is a large room in the Castello Sforzesco in Milan, the location of a painting in tempera on plaster by Leonardo da Vinci, dating from about 1498. Its walls and vaulted ceiling are decorated with \"intertwining plants with fruits and monochromes of roots and rocks\" and a canopy created by sixteen trees. The walls and ceiling are painted with a trompe-l'œil scheme depicting trunks, leaves, fruits, and knots, as if it was in the open air and not within a castle." .
+
+ng:Science_and_inventions_of_Leonardo_da_Vinci a sem:Event ;
+    rdfs:comment "Leonardo da Vinci (1452–1519) was an Italian polymath, regarded as the epitome of the \"Renaissance Man\", displaying skills in numerous diverse areas of study. While most famous for his paintings such as the Mona Lisa and the Last Supper, Leonardo is also renowned in the fields of civil engineering, chemistry, geology, geometry, hydrodynamics, mathematics, mechanical engineering, optics, physics, pyrotechnics, and zoology. While the entire extent of his scientific studies has only become recognized in the last 150 years, during his lifetime he was employed for his engineering and skill of invention." .
+
+ng:Self_portrait a sem:Event ;
+    sem:hasPlace ng:Royal_Library_of_Turin ;
+    rdfs:comment "Portrait of a Man in Red Chalk (c. 1510) is a drawing currently in the collection of the Royal Library of Turin. It is widely, though not universally, accepted as a self-portrait of the Renaissance artist Leonardo da Vinci. It is thought that Leonardo drew this self-portrait at about the age of 60." .
+
+ng:Simone_del_Pollaiolo a sem:Event ;
+    sem:hasTimeStamp "1457-11-08"^^xsd:date ;
+    rdfs:comment "Simone del Pollaiolo (1457–1508) was a Florentine architect who was commonly known as Il Cronaca (\"The Chronicle One\"). Pollaiolo was born in Florence, the nephew of the better-known brothers Antonio and Piero Benci who had the nickname Pollaiuolo or Pollaiolo (\"Hen-House Keeper\" in Italian, from pollaio). Simone was later given his nickname Il Cronaca." .
+
+ng:Studies_of_the_Fetus_in_the_Womb a sem:Event ;
+    rdfs:comment "Studies of the Fetus in the Womb are two coloured annotated sketches by Leonardo da Vinci made in around 1511. The studies correctly depict the human fetus in its proper position inside a dissected uterus. Leonardo depicted the uterus with one chamber, in contrast to theories that the uterus had multiple chambers which many believed divided fetuses into separate compartments in the case of twins." .
+
+ng:Tavola_Doria a sem:Event ;
+    sem:hasPlace ng:Naples,
+        ng:Uffizi ;
+    rdfs:comment "La Tavola Doria is a painting depicting the central part of the famous mural painting of the Battle of Anghiari by Leonardo Da Vinci, created between 1503 and 1505. The artist is unknown and is widely believed to be a copy of a 16th-century Tuscan artist, perhaps Poppi. A 2013 article suggests the name Giovanni Francesco Rustici." .
+
+ng:The_Head_of_the_Virgin_in_Three_Quarter_View_Facing_Right a sem:Event ;
+    sem:hasPlace ng:Metropolitan_Museum_of_Art ;
+    rdfs:comment "The Head of the Virgin in Three-Quarter View Facing Right is a drawing on paper in Pierre noir pencil and red chalk, attributed to the Florentine painter Leonardo da Vinci and kept at the Metropolitan Museum of Art in New York. This drawing, whose dimensions have been reduced by the removal of certain existing parts at the time of its creation, is a portrait of a woman's head. It is a preparatory study for the head of the Virgin Mary in the painting The Virgin and Child with Saint Anne in the Musée du Louvre." .
+
+ng:The_Holy_Infants_Embracing a sem:Event ;
+    rdfs:comment "The Holy Infants Embracing is a painting by Leonardo da Vinci. It represents the infant Christ embracing his cousin John the Baptist. The subject matter relates to the two paintings of the Virgin of the Rocks by Leonardo and numerous other Renaissance works by Raphael and others of the meeting of the two children on the road to Egypt while escaping the Massacre of the Innocents." .
+
+ng:Virgin_of_the_Rocks a sem:Event ;
+    sem:hasPlace ng:Italian_paintings_room_5,
+        ng:National_Gallery ;
+    rdfs:comment "The Virgin of the Rocks (Italian: Vergine delle rocce), sometimes the Madonna of the Rocks, is the name of two paintings by the Italian Renaissance artist Leonardo da Vinci, of the same subject, with a composition which is identical except for several significant details. The version generally considered the prime version, the earlier of the two, is unrestored and hangs in the Louvre in Paris. The other, which was restored between 2008 and 2010, hangs in the National Gallery, London." .
+
+ng:Vitruvian_Man a sem:Event ;
+    sem:hasPlace ng:Accademia ;
+    rdfs:comment "Vitruvian Man (Italian: L'uomo vitruviano) is a drawing by the Italian Renaissance artist and scientist Leonardo da Vinci, dated to c. 1490. Inspired by the Roman architect Vitruvius, it depicts a nude man in two overlapping standing positions, inscribed within a circle and a square. Art historian Carmen C. Bambach described it as \"justly ranked among the all-time iconic images of Western civilization\"." .
+
+ng:davinciite a sem:Event ;
+    rdfs:comment "Davinciite is a very rare mineral of the eudialyte group, with the simplified formula Na12K3Ca6Fe32+Zr3(Si26O73OH)Cl2. The formula given does not show the presence of cyclic silicate groups. The mineral was named after Leonardo da Vinci to refer to the atypical geometrical forms he tended to use, compared by the authors of the mineral description to the atypical (not ideally centrosymmetrical) geometry of the Davinciite structure." .
+

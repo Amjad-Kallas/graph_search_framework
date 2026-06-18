@@ -1,0 +1,181 @@
+All 178 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Invasion of Poland  |  combined=0.945  wiki=0.863  llm=1.000 ***
+  2. Eastern Front  |  combined=0.922  wiki=0.806  llm=1.000 ***
+  3. Battle of Stalingrad  |  combined=0.900  wiki=0.750  llm=1.000 ***
+  4. Battle of Leyte Gulf  |  combined=0.839  wiki=0.597  llm=1.000 ***
+  5. Battle of Dunkirk  |  combined=0.837  wiki=0.593  llm=1.000 ***
+  6. Battle of Britain  |  combined=0.833  wiki=0.582  llm=1.000 ***
+  7. Battle of Midway  |  combined=0.827  wiki=0.568  llm=1.000 ***
+  8. Siege of Leningrad  |  combined=0.802  wiki=0.654  llm=0.900 ***
+  9. Battle of the Atlantic  |  combined=0.785  wiki=0.613  llm=0.900 ***
+ 10. Operation Torch  |  combined=0.783  wiki=0.608  llm=0.900 ***
+ 11. Allied invasion of Sicily  |  combined=0.765  wiki=0.563  llm=0.900 ***
+ 12. Battle of the Bulge  |  combined=0.758  wiki=0.546  llm=0.900 ***
+ 13. The Blitz  |  combined=0.752  wiki=0.680  llm=0.800 ***
+ 14. Battle of the Philippine Sea  |  combined=0.745  wiki=0.513  llm=0.900 ***
+ 15. Soviet invasion of Manchuria  |  combined=0.738  wiki=0.496  llm=0.900 ***
+ 16. Allied invasion of Italy  |  combined=0.730  wiki=0.476  llm=0.900 ***
+ 17. Battle of Bukit Timah  |  combined=0.730  wiki=0.476  llm=0.900 ***
+ 18. Battle of Crete  |  combined=0.713  wiki=0.582  llm=0.800 ***
+ 19. Soviet invasion of Poland  |  combined=0.712  wiki=0.579  llm=0.800 ***
+ 20. Battle of Imphal  |  combined=0.711  wiki=0.428  llm=0.900 ***
+ 21. Battle of Luzon  |  combined=0.710  wiki=0.575  llm=0.800 ***
+ 22. Battle of Carentan  |  combined=0.709  wiki=0.422  llm=0.900 ***
+ 23. Operation Cobra  |  combined=0.708  wiki=0.421  llm=0.900 ***
+ 24. Sinking of Prince of Wales and Repulse  |  combined=0.704  wiki=0.561  llm=0.800 ***
+ 25. Battle of Romania  |  combined=0.699  wiki=0.396  llm=0.900 ***
+ 26. Battle of Prokhorovka  |  combined=0.677  wiki=0.344  llm=0.900 ***
+ 27. Battle of Manila  |  combined=0.675  wiki=0.639  llm=0.700 ***
+ 28. Battle of Kohima  |  combined=0.665  wiki=0.312  llm=0.900 ***
+ 29. Battle of Guam  |  combined=0.665  wiki=0.462  llm=0.800 ***
+ 30. Siege of Budapest  |  combined=0.664  wiki=0.610  llm=0.700 ***
+ 31. Continuation War  |  combined=0.660  wiki=0.750  llm=0.600 ***
+ 32. Convoys HX 229 SC 122  |  combined=0.653  wiki=0.282  llm=0.900 ***
+ 33. Battle of the Scheldt  |  combined=0.646  wiki=0.416  llm=0.800 ***
+ 34. Battle of Chambois  |  combined=0.641  wiki=0.252  llm=0.900 ***
+ 35. Case Black  |  combined=0.639  wiki=0.546  llm=0.700 ***
+ 36. Operation Diadem  |  combined=0.633  wiki=0.532  llm=0.700
+ 37. Battle of Gembloux  |  combined=0.631  wiki=0.529  llm=0.700
+ 38. Battle of Cape Esperance  |  combined=0.623  wiki=0.358  llm=0.800
+ 39. Operation Spring Awakening  |  combined=0.617  wiki=0.491  llm=0.700
+ 40. Battle of Taranto  |  combined=0.615  wiki=0.337  llm=0.800
+ 41. Battle of the Caucasus  |  combined=0.612  wiki=0.480  llm=0.700
+ 42. Battle of the Barents Sea  |  combined=0.602  wiki=0.455  llm=0.700
+ 43. Operation Chastise  |  combined=0.601  wiki=0.302  llm=0.800
+ 44. Bombing of Hamburg in World War II  |  combined=0.598  wiki=0.446  llm=0.700
+ 45. Battle of Cape St George  |  combined=0.592  wiki=0.430  llm=0.700
+ 46. Battle of the Seelow Heights  |  combined=0.588  wiki=0.271  llm=0.800
+ 47. Battle of Savo Island  |  combined=0.582  wiki=0.405  llm=0.700
+ 48. Invasion of Yugoslavia  |  combined=0.577  wiki=0.691  llm=0.500
+ 49. Operation Veritable  |  combined=0.570  wiki=0.376  llm=0.700
+ 50. Arctic convoys of World War II  |  combined=0.569  wiki=0.372  llm=0.700
+ 51. Lapland War  |  combined=0.568  wiki=0.670  llm=0.500
+ 52. Battle of Madagascar  |  combined=0.565  wiki=0.513  llm=0.600
+ 53. Battle of Biak  |  combined=0.565  wiki=0.513  llm=0.600
+ 54. Battle of Hannut  |  combined=0.564  wiki=0.361  llm=0.700
+ 55. Operation Biting  |  combined=0.562  wiki=0.354  llm=0.700
+ 56. Battle of Bataan  |  combined=0.557  wiki=0.193  llm=0.800
+ 57. Battle of Empress Augusta Bay  |  combined=0.552  wiki=0.329  llm=0.700
+ 58. Operation Tungsten  |  combined=0.546  wiki=0.466  llm=0.600
+ 59. Battle of Cape Gloucester  |  combined=0.542  wiki=0.456  llm=0.600
+ 60. Battle of Hel  |  combined=0.542  wiki=0.604  llm=0.500
+ 61. Battle of the Eastern Solomons  |  combined=0.540  wiki=0.299  llm=0.700
+ 62. Operation Donnerkeil  |  combined=0.531  wiki=0.428  llm=0.600
+ 63. Battle of Aachen  |  combined=0.531  wiki=0.577  llm=0.500
+ 64. Battle of Nancy  |  combined=0.526  wiki=0.414  llm=0.600
+ 65. Slovak National Uprising  |  combined=0.525  wiki=0.411  llm=0.600
+ 66. Battle of Crucifix Hill  |  combined=0.522  wiki=0.405  llm=0.600
+ 67. Battle of Sunda Strait  |  combined=0.519  wiki=0.399  llm=0.600
+ 68. Battle of Villers Bocage  |  combined=0.519  wiki=0.398  llm=0.600
+ 69. Battle of Marseille  |  combined=0.516  wiki=0.540  llm=0.500
+ 70. Battle of Sio  |  combined=0.512  wiki=0.530  llm=0.500
+ 71. Operation I Go  |  combined=0.511  wiki=0.528  llm=0.500
+ 72. Battle of the North Cape  |  combined=0.511  wiki=0.377  llm=0.600
+ 73. Battle of Groningen  |  combined=0.507  wiki=0.517  llm=0.500
+ 74. Battle of Java  |  combined=0.505  wiki=0.512  llm=0.500
+ 75. Battle of Finschhafen  |  combined=0.504  wiki=0.359  llm=0.600
+ 76. Battle of Muar  |  combined=0.499  wiki=0.347  llm=0.600
+ 77. Battle of Mindoro  |  combined=0.496  wiki=0.491  llm=0.500
+ 78. Battle of Sidi Bou Zid  |  combined=0.496  wiki=0.341  llm=0.600
+ 79. Battle of Toulon  |  combined=0.496  wiki=0.491  llm=0.500
+ 80. Operation Clipper  |  combined=0.495  wiki=0.338  llm=0.600
+ 81. Operation Mascot  |  combined=0.488  wiki=0.320  llm=0.600
+ 82. Battle of Vevi  |  combined=0.487  wiki=0.468  llm=0.500
+ 83. Battle of El Guettar  |  combined=0.484  wiki=0.310  llm=0.600
+ 84. Colmar Pocket  |  combined=0.476  wiki=0.291  llm=0.600
+ 85. Battle of Noemfoor  |  combined=0.471  wiki=0.429  llm=0.500
+ 86. Battle of Halbe  |  combined=0.464  wiki=0.409  llm=0.500
+ 87. Battle of Bardia  |  combined=0.463  wiki=0.257  llm=0.600
+ 88. Land Battle of Vella Lavella  |  combined=0.462  wiki=0.405  llm=0.500
+ 89. Battle of Sedjenane  |  combined=0.455  wiki=0.239  llm=0.600
+ 90. Battle of Yenangyaung  |  combined=0.452  wiki=0.379  llm=0.500
+ 91. Battle of Vella Gulf  |  combined=0.443  wiki=0.357  llm=0.500
+ 92. German invasion of Denmark  |  combined=0.441  wiki=0.502  llm=0.400
+ 93. Battle of Krasny Bor  |  combined=0.439  wiki=0.349  llm=0.500
+ 94. Western New Guinea campaign  |  combined=0.437  wiki=0.343  llm=0.500
+ 95. Battle of Wake Island  |  combined=0.436  wiki=0.489  llm=0.400
+ 96. Siege of Calais  |  combined=0.427  wiki=0.317  llm=0.500
+ 97. Battle of Bacsil Ridge  |  combined=0.424  wiki=0.309  llm=0.500
+ 98. Battle of Overloon  |  combined=0.423  wiki=0.459  llm=0.400
+ 99. Battle of Brody  |  combined=0.421  wiki=0.302  llm=0.500
+100. Landing at Nadzab  |  combined=0.417  wiki=0.291  llm=0.500
+101. Battle of Centuripe  |  combined=0.415  wiki=0.288  llm=0.500
+102. Axis occupation of Greece  |  combined=0.414  wiki=0.435  llm=0.400
+103. Battle of Montese  |  combined=0.406  wiki=0.416  llm=0.400
+104. Liberation of Belgium  |  combined=0.405  wiki=0.263  llm=0.500
+105. Maquis du Mont Mouchet  |  combined=0.403  wiki=0.259  llm=0.500
+106. Second World War  |  combined=0.400  wiki=1.000  llm=0.000
+107. Battle of the Afsluitdijk  |  combined=0.393  wiki=0.384  llm=0.400
+108. Battle of Livno  |  combined=0.393  wiki=0.383  llm=0.400
+109. Operation Jericho  |  combined=0.390  wiki=0.375  llm=0.400
+110. Operation Carthage  |  combined=0.389  wiki=0.373  llm=0.400
+111. Battle of the Denmark Strait  |  combined=0.389  wiki=0.373  llm=0.400
+112. Battle of Timor  |  combined=0.389  wiki=0.523  llm=0.300
+113. Battle of Heraklion  |  combined=0.388  wiki=0.219  llm=0.500
+114. Battle of Bautzen  |  combined=0.383  wiki=0.358  llm=0.400
+115. Battle of Goodenough Island  |  combined=0.383  wiki=0.357  llm=0.400
+116. Operation Gauntlet  |  combined=0.366  wiki=0.466  llm=0.300
+117. Battle of Tarakan  |  combined=0.365  wiki=0.463  llm=0.300
+118. Battle of Arracourt  |  combined=0.362  wiki=0.305  llm=0.400
+119. Battle of Arras  |  combined=0.357  wiki=0.443  llm=0.300
+120. Battle of Dakar  |  combined=0.357  wiki=0.442  llm=0.300
+121. Pacific War  |  combined=0.347  wiki=0.869  llm=0.000
+122. Operation Pomegranate  |  combined=0.342  wiki=0.405  llm=0.300
+123. Second Battle of Amba Alagi  |  combined=0.335  wiki=0.237  llm=0.400
+124. Battle of Slivice  |  combined=0.334  wiki=0.535  llm=0.200
+125. German occupation of the Channel Islands  |  combined=0.334  wiki=0.385  llm=0.300
+126. Ohi Day  |  combined=0.323  wiki=0.209  llm=0.400
+127. Battle of Ambon  |  combined=0.318  wiki=0.495  llm=0.200
+128. Battle of Tehumardi  |  combined=0.316  wiki=0.340  llm=0.300
+129. Palawan massacre  |  combined=0.315  wiki=0.339  llm=0.300
+130. Albanian resistance during World War II  |  combined=0.315  wiki=0.488  llm=0.200
+131. Battle of Authion  |  combined=0.310  wiki=0.476  llm=0.200
+132. Battle of Le Mesnil Patry  |  combined=0.306  wiki=0.165  llm=0.400
+133. World War II in Yugoslavia  |  combined=0.305  wiki=0.762  llm=0.000
+134. Battle of Prachuab Khirikhan  |  combined=0.304  wiki=0.309  llm=0.300
+135. Action off Lofoten  |  combined=0.304  wiki=0.309  llm=0.300
+136. Battle of Cape Spartivento  |  combined=0.303  wiki=0.308  llm=0.300
+137. Bombing of Nijmegen  |  combined=0.303  wiki=0.456  llm=0.200
+138. Battle of Nikolayevka  |  combined=0.301  wiki=0.303  llm=0.300
+139. Battle of Graveney Marsh  |  combined=0.298  wiki=0.444  llm=0.200
+140. Battle of Christmas Island  |  combined=0.297  wiki=0.443  llm=0.200
+141. Black Friday  |  combined=0.297  wiki=0.443  llm=0.200
+142. Battle of Medenine  |  combined=0.295  wiki=0.287  llm=0.300
+143. Battle of Abbeville  |  combined=0.293  wiki=0.281  llm=0.300
+144. European Theatre of World War II  |  combined=0.291  wiki=0.726  llm=0.000
+145. Battle of Calabria  |  combined=0.290  wiki=0.274  llm=0.300
+146. Operation Zitronella  |  combined=0.288  wiki=0.419  llm=0.200
+147. Clydebank Blitz  |  combined=0.280  wiki=0.250  llm=0.300
+148. Battle of Kesternich  |  combined=0.271  wiki=0.377  llm=0.200
+149. Battle of Attu  |  combined=0.269  wiki=0.523  llm=0.100
+150. Italian bombing of Mandatory Palestine in World War II  |  combined=0.268  wiki=0.371  llm=0.200
+151. Battle of Carei  |  combined=0.268  wiki=0.370  llm=0.200
+152. Battle of Midtskogen  |  combined=0.268  wiki=0.369  llm=0.200
+153. Battle of Montcornet  |  combined=0.261  wiki=0.201  llm=0.300
+154. Operation Cartoon  |  combined=0.260  wiki=0.200  llm=0.300
+155. Battle of Dutch Harbor  |  combined=0.260  wiki=0.349  llm=0.200
+156. Soviet occupation of Bessarabia and Northern Bukovina  |  combined=0.257  wiki=0.343  llm=0.200
+157. Battle of Keren  |  combined=0.255  wiki=0.188  llm=0.300
+158. Winter War  |  combined=0.253  wiki=0.634  llm=0.000
+159. Battle of Gurun  |  combined=0.249  wiki=0.323  llm=0.200
+160. Operation Archery  |  combined=0.248  wiki=0.320  llm=0.200
+161. Operation Doomsday  |  combined=0.246  wiki=0.314  llm=0.200
+162. Battle of Poljana  |  combined=0.245  wiki=0.312  llm=0.200
+163. Operation Ambassador  |  combined=0.233  wiki=0.281  llm=0.200
+164. Bombing of the Bezuidenhout  |  combined=0.224  wiki=0.411  llm=0.100
+165. Operation Jurist  |  combined=0.222  wiki=0.254  llm=0.200
+166. Mediterranean and Middle East theatre of World War II  |  combined=0.213  wiki=0.533  llm=0.000
+167. Battle of Vinjesvingen  |  combined=0.208  wiki=0.219  llm=0.200
+168. Operation Tiderace  |  combined=0.202  wiki=0.205  llm=0.200
+169. Operation Basalt  |  combined=0.200  wiki=0.200  llm=0.200
+170. Battle of Ceber  |  combined=0.200  wiki=0.349  llm=0.100
+171. Operation Herring  |  combined=0.190  wiki=0.325  llm=0.100
+172. Battle of Wilno  |  combined=0.176  wiki=0.439  llm=0.000
+173. Operation Bernhard  |  combined=0.169  wiki=0.274  llm=0.100
+174. Battle of Porkuni  |  combined=0.155  wiki=0.239  llm=0.100
+175. Cocos Islands Mutiny  |  combined=0.112  wiki=0.281  llm=0.000
+176. Georgian uprising on Texel  |  combined=0.091  wiki=0.228  llm=0.000
+177. Battle of Ko Chang  |  combined=0.087  wiki=0.217  llm=0.000
+178. Battle of Leuven  |  combined=0.000  wiki=0.000  llm=0.000

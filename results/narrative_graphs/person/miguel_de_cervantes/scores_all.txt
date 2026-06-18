@@ -1,0 +1,20 @@
+All 17 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Los Trabajos de Persiles y Sigismunda  |  combined=0.940  wiki=1.000  llm=0.900 ***
+  2. Novelas ejemplares  |  combined=0.696  wiki=0.540  llm=0.800 ***
+  3. Viaje al Parnaso  |  combined=0.639  wiki=0.548  llm=0.700 ***
+  4. La Galatea  |  combined=0.614  wiki=0.486  llm=0.700 ***
+  5. The Siege of Numantia  |  combined=0.611  wiki=0.477  llm=0.700 ***
+  6. Rinconete y Cortadillo  |  combined=0.439  wiki=0.347  llm=0.500 ***
+  7. El licenciado Vidriera  |  combined=0.379  wiki=0.197  llm=0.500 ***
+  8. La ilustre fregona  |  combined=0.378  wiki=0.195  llm=0.500 ***
+  9. Juan de la Cuesta  |  combined=0.277  wiki=0.693  llm=0.000 ***
+ 10. Instituto Cervantes  |  combined=0.269  wiki=0.672  llm=0.000 ***
+ 11. Miguel de Cervantes Prize  |  combined=0.206  wiki=0.515  llm=0.000 ***
+ 12. Museo Casa de Cervantes  |  combined=0.191  wiki=0.477  llm=0.000 ***
+ 13. Gran Teatro Cervantes  |  combined=0.087  wiki=0.217  llm=0.000 ***
+ 14. Cervantine Library  |  combined=0.069  wiki=0.173  llm=0.000 ***
+ 15. Miguel de Cervantes University  |  combined=0.052  wiki=0.130  llm=0.000 ***
+ 16. Cervantes  |  combined=0.035  wiki=0.088  llm=0.000 ***
+ 17. Teatro Cervantes  |  combined=0.000  wiki=0.000  llm=0.000 ***
