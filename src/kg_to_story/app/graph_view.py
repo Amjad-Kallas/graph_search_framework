@@ -13,6 +13,7 @@ from pyvis.network import Network
 import streamlit as st
 
 SEM = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
+NG  = Namespace("http://narrative.graph/entity/")
 
 
 def _label(uri: str) -> str:
@@ -93,13 +94,14 @@ def render_narrative_graph(ttl_path: str, height: int = 700):
                      size=22, shape="dot", font={"size": 13})
         added_nodes.add(ev_id)
 
-    # ── subEventOf edges (always shown — primary event structure) ──────────────
+    # ── edges (subEventOf for events, relatesTo for persons) ──────────────────
     for ev in events:
         ev_id = str(ev)
-        for parent in g.objects(ev, SEM.subEventOf):
-            p_id = str(parent)
-            if p_id in added_nodes:  # only draw if parent is itself an event node
-                net.add_edge(ev_id, p_id, color="#aaaaaa", width=2, title="subEventOf")
+        for pred in (SEM.subEventOf, NG.relatesTo):
+            for parent in g.objects(ev, pred):
+                p_id = str(parent)
+                if p_id in added_nodes:
+                    net.add_edge(ev_id, p_id, color="#aaaaaa", width=2, title=pred.split("/")[-1])
 
     for ev in events:
         ev_id = str(ev)
@@ -283,9 +285,13 @@ def render_narrative_graph_interactive(
 
     for ev in events:
         nid = _node_id(str(ev))
-        for parent in g.objects(ev, SEM.subEventOf):
-            pid = _node_id(str(parent))
-            if pid in event_nids:
+        for pred in (SEM.subEventOf, NG.relatesTo):
+            for parent in g.objects(ev, pred):
+                pid = _node_id(str(parent))
+                if pid not in G.nodes():
+                    # Add parent as a hub node even if not typed sem:Event
+                    parent_label = unquote(pid).replace("_", " ")
+                    G.add_node(pid, label=parent_label, tooltip=parent_label, is_hub=True)
                 G.add_edge(nid, pid)
 
     hub_nid = max(G.nodes(), key=lambda n: G.degree(n)) if G.nodes() else None
@@ -327,9 +333,12 @@ def render_narrative_graph_interactive(
     node_rows = []
     for nid in G.nodes():
         x, y = pos[nid]
+        is_parent   = G.nodes[nid].get("is_hub", False)
         is_hub      = nid == hub_nid
         is_selected = nid in selected_ids
-        if is_hub:
+        if is_parent:
+            color, size = "#A259FF", 900   # purple = umbrella/parent entity
+        elif is_hub:
             color, size = "#FF6B35", 1200
         elif is_selected:
             color, size = "#FFD700", 700

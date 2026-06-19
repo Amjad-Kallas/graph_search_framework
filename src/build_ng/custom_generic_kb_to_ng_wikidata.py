@@ -344,6 +344,9 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
     # Build one event per triple
     # --------------------------
     print("Building events...")
+    subj_to_events: dict = {}  # s_uri -> [event_node, ...]
+    event_to_obj:   dict = {}  # event_node -> o_uri
+
     for _, row in tqdm(df.iterrows(), total=len(df)):
         s_uri = str(row["subject"])
         p_uri = str(row["predicate"])
@@ -360,6 +363,9 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
         g.add((event_node, NG.subject, Literal(s_label)))
         g.add((event_node, NG.property, Literal(p_label)))
         g.add((event_node, NG.object, Literal(o_label)))
+
+        subj_to_events.setdefault(s_uri, []).append(event_node)
+        event_to_obj[event_node] = o_uri
 
         # Enrichment — actors from object node, date/desc from subject node
         obj_info = event_info.get(o_uri, {})
@@ -380,6 +386,14 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
         if desc:
             g.add((event_node, RDFS.comment, Literal(desc)))
 
+    # Link related events: when the object entity of one event is the
+    # subject entity of others, connect them with ng:relatesTo.
+    print("Adding ng:relatesTo relationships...")
+    for parent_event, o_uri in event_to_obj.items():
+        for child_event in subj_to_events.get(o_uri, []):
+            if child_event != parent_event:
+                g.add((child_event, NG.relatesTo, parent_event))
+
     # --------------------------
     # Save
     # --------------------------
@@ -390,8 +404,8 @@ def build_ng_wikidata_hdt(input_file, hdt_folder, output_file):
 # ENTRY
 # --------------------------
 if __name__ == "__main__":
-    input_csv = "/home/kallas/project/graph_search_framework/experiments/person/pablo_picasso/1/3-subgraph.csv"
-    output_ttl = "/home/kallas/project/graph_search_framework/experiments/person/pablo_picasso/1/hohoho1.ttl"
+    input_csv = "/home/kallas/project/graph_search_framework/experiments/person/maria_callas/1/3-subgraph.csv"
+    output_ttl = "/home/kallas/project/graph_search_framework/experiments/person/maria_callas/1/outpssut_ng.ttl"
     
     hdt_folder = "/home/kallas/project/graph_search_framework/wikidata_dataset"   # <- folder, not file
 
