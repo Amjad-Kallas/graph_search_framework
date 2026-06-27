@@ -1,0 +1,9 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "streamlit run src/kg_to_story/app/demo_app.py --server.address=0.0.0.0 --server.port=$PORT"
+  }
+}
