@@ -554,11 +554,6 @@ ng:Battle_of_Timor a sem:Event ;
     sem:subEventOf ng:Second_World_War ;
     rdfs:comment "The Battle of Timor occurred in Portuguese Timor and Dutch Timor during the Second World War. Japanese forces invaded the island on 19 February 1942 and were resisted by a small, under-equipped force of Allied military personnel—known as Sparrow Force—predominantly from Australia, the United Kingdom, and the Dutch East Indies. Following a brief but stout resistance, the Japanese succeeded in forcing the surrender of the bulk of the Allied force after three days of fighting, although several hundred Australian commandos continued to wage an unconventional raiding campaign." .
 
-ng:Battle_of_Toulon a sem:Event ;
-    sem:hasPlace ng:Second_World_War,
-        ng:Toulon ;
-    sem:hasTimeStamp "1944-08-20"^^xsd:date ;
-    rdfs:comment "The Battle of Toulon was an urban battle of World War II in southern France that took place 20–26 August 1944 and led to the liberation of Toulon by Free French forces under the command of General Edgard de Larminat." .
 
 ng:Battle_of_Vella_Gulf a sem:Event ;
     sem:hasTimeStamp "1943-08-06"^^xsd:date ;
@@ -842,10 +837,6 @@ ng:Mediterranean_and_Middle_East_theatre_of_World_War_II a sem:Event ;
     sem:hasTimeStamp "1940-06-10"^^xsd:date ;
     sem:subEventOf ng:Second_World_War ;
     rdfs:comment "The Mediterranean and Middle East theatre, also known as the Mediterranean Theater of War, was a major theatre of operations during the Second World War. The vast size of the theatre saw interconnected land, naval, and air campaigns fought for control of the Mediterranean Sea, North Africa, the Horn of Africa, the Middle East and Southern Europe. Despite their disparate geographic locations and objectives, these operations were not seen as neatly separated from each other, but part of an extensive, contiguous theatre of war." .
-
-ng:Ohi_Day a sem:Event ;
-    sem:hasTimeStamp "1940-10-28"^^xsd:date ;
-    rdfs:comment "Ohi Day (; Greek: Επέτειος του Όχι, romanized:&#160;Epéteios tou Óchi, lit. 'Anniversary of the No'; Greek pronunciation: [eˈpetios tu ˈoçi]) is celebrated throughout Greece, Cyprus and the Greek communities around the world on 28 October each year. Ohi Day commemorates the rejection by the Greek Ioannis Metaxas of the ultimatum made by Italian dictator Benito Mussolini on 28 October 1940 and the subsequent Hellenic counterattack against the invading Italian forces at the mountains of Pindus during the Greco-Italian War and Greek resistance during the Axis occupation." .
 
 ng:Operation_Ambassador a sem:Event ;
     sem:hasActor ng:John_Durnford_Slater,

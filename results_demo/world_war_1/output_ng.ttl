@@ -572,9 +572,6 @@ ng:Operation_Faustschlag a sem:Event ;
     sem:subEventOf ng:First_World_War ;
     rdfs:comment "The Operation Faustschlag or Unternehmen Faustschlag (lit. 'Operation Fist Punch'), also known as the Eleven Days' War, was a Central Powers offensive in World War I. It was the last major offensive on the Eastern Front. Russian forces were unable to put up any serious resistance due to the turmoil of the Russian Revolution and subsequent Russian Civil War. The armies of the Central Powers therefore captured huge territories in Estonia, Latvia, Belarus, and Ukraine, forcing the Bolshevik government of Russia to sign the Treaty of Brest-Litovsk." .
 
-ng:Partitioning_of_the_Ottoman_Empire a sem:Event ;
-    sem:hasTimeStamp "1918-10-30"^^xsd:date ;
-    rdfs:comment "The partition of the Ottoman Empire (30 October 1918&#160;– 1 November 1922) was a geopolitical event that occurred after World War I and the occupation of Constantinople by British, French, and Italian troops in November 1918. The partitioning was planned in several agreements made by the Allied Powers early in the course of World War I, notably the Sykes–Picot Agreement, after the Ottoman Empire had joined Germany to form the Ottoman–German alliance. The huge conglomeration of territories and peoples that formerly comprised the Ottoman Empire was divided into several new states." .
 
 ng:Raid_on_Suez_Canal a sem:Event ;
     sem:hasPlace ng:Suez_Canal ;
