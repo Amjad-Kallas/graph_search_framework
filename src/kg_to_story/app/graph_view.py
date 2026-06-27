@@ -24,7 +24,7 @@ def _node_id(uri: str) -> str:
     return str(uri).split("/")[-1]
 
 
-def render_narrative_graph(ttl_path: str, height: int = 700):
+def render_narrative_graph(ttl_path: str, height: int = 700, show_people: bool = False):
     """Parse output_ng.ttl and embed an interactive PyVis graph in the Streamlit page."""
 
     if not os.path.exists(ttl_path):
@@ -65,10 +65,8 @@ def render_narrative_graph(ttl_path: str, height: int = 700):
       "edges": { "smooth": { "type": "continuous" } }
     }""")
 
-    # ── Controls ───────────────────────────────────────────────────────────────
-    col1, col2, _ = st.columns([1, 1, 6])
-    show_actors = col1.checkbox("Show actors", value=False, key=f"show_actors_{ttl_path}")
-    show_places = col2.checkbox("Show places", value=False, key=f"show_places_{ttl_path}")
+    # The demo view is intentionally limited to event nodes only.
+    # Person/actor and place nodes are omitted regardless of the input flag.
 
     # ── Build nodes ────────────────────────────────────────────────────────────
     added_nodes: set = set()
@@ -101,30 +99,7 @@ def render_narrative_graph(ttl_path: str, height: int = 700):
             if p_id in added_nodes:  # only draw if parent is itself an event node
                 net.add_edge(ev_id, p_id, color="#aaaaaa", width=2, title="subEventOf")
 
-    for ev in events:
-        ev_id = str(ev)
-
-        if show_actors:
-            for actor in g.objects(ev, SEM.hasActor):
-                a_id = str(actor)
-                a_label = _label(a_id)
-                if a_id not in added_nodes:
-                    net.add_node(a_id, label=a_label, title=f"<b>{a_label}</b>",
-                                 color={"background": "#50C878", "border": "#1a7a40"},
-                                 size=14, shape="triangle", font={"size": 11})
-                    added_nodes.add(a_id)
-                net.add_edge(ev_id, a_id, color="#50C878", width=1.5, title="hasActor")
-
-        if show_places:
-            for place in g.objects(ev, SEM.hasPlace):
-                p_id = str(place)
-                p_label = _label(p_id)
-                if p_id not in added_nodes:
-                    net.add_node(p_id, label=p_label, title=f"<b>{p_label}</b>",
-                                 color={"background": "#FF8C42", "border": "#b85a10"},
-                                 size=14, shape="square", font={"size": 11})
-                    added_nodes.add(p_id)
-                net.add_edge(ev_id, p_id, color="#FF8C42", width=1.5, title="hasPlace")
+    # No person or place nodes are added in the event-only view.
 
     # ── Render ─────────────────────────────────────────────────────────────────
     with tempfile.NamedTemporaryFile(suffix=".html", delete=False, mode="w", encoding="utf-8") as tmp:
@@ -135,10 +110,6 @@ def render_narrative_graph(ttl_path: str, height: int = 700):
     b64 = base64.b64encode(html.encode("utf-8")).decode("utf-8")
 
     legend = "🔵 **Event**"
-    if show_actors:
-        legend += " &nbsp;&nbsp; 🟢 **Actor**"
-    if show_places:
-        legend += " &nbsp;&nbsp; 🟠 **Place**"
     st.markdown(legend)
     st.iframe(src=f"data:text/html;base64,{b64}", height=height + 10)
 
@@ -226,6 +197,7 @@ def render_narrative_graph_interactive(
     selected_ids: set,
     height: int = 700,
     scores: dict | None = None,
+    show_people: bool = False,
 ) -> str | None:
     """
     Interactive graph using Altair + networkx layout.
@@ -251,7 +223,7 @@ def render_narrative_graph_interactive(
     with col_layout:
         layout_opts = ["Default"]
         if scores:
-            layout_opts += ["Relevance", "Timeline", "Timeline + Relevance"]
+            layout_opts += ["Relevance", "Timeline + Relevance"]
         layout_mode = st.radio(
             "Layout",
             layout_opts,

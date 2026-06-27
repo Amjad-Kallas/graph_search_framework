@@ -18,34 +18,30 @@ sys.path.insert(0, str(APP_DIR))
 from graph_view import render_narrative_graph_interactive  # noqa: E402
 from manual_pipeline import get_events_from_ttl            # noqa: E402
 
-RESULTS_DIR = ROOT / "results" / "narrative_graphs"
+RESULTS_DIR = ROOT / "results_demo"
 
 MAX_EVENTS = 35
 DEFAULT_N  = 10
 
 
-def _discover() -> dict[str, list[dict]]:
-    """Return {category_label: [{name, ttl, scores}, ...]} sorted alphabetically."""
-    categories: dict[str, list[dict]] = {}
-    for cat_dir in sorted(RESULTS_DIR.iterdir()):
-        if not cat_dir.is_dir():
+def _discover() -> list[dict]:
+    """Return [{name, ttl, scores}, ...] sorted alphabetically."""
+    if not RESULTS_DIR.exists():
+        return []
+    
+    entries: list[dict] = []
+    for event_dir in sorted(RESULTS_DIR.iterdir()):
+        if not event_dir.is_dir():
             continue
-        label = cat_dir.name.replace("_", " ").title()   # "event" -> "Event"
-        entries = []
-        for subject_dir in sorted(cat_dir.iterdir()):
-            if not subject_dir.is_dir():
-                continue
-            ttl = subject_dir / "output_ng.ttl"
-            if not ttl.exists():
-                continue
-            entries.append({
-                "name":   subject_dir.name.replace("_", " ").title(),
-                "ttl":    ttl,
-                "scores": subject_dir / "scores_all.txt",
-            })
-        if entries:
-            categories[label] = entries
-    return categories
+        ttl = event_dir / "output_ng.ttl"
+        if not ttl.exists():
+            continue
+        entries.append({
+            "name":   event_dir.name.replace("_", " ").title(),
+            "ttl":    ttl,
+            "scores": event_dir / "scores_all.txt",
+        })
+    return entries
 
 
 @st.cache_data
@@ -85,30 +81,27 @@ st.caption("Pre-built graphs · no pipeline required")
 
 all_data = _discover()
 
-# ── Sidebar: category + subject selection ─────────────────────────────────────
+if not all_data:
+    st.error(f"❌ No narrative graphs found in {RESULTS_DIR}")
+    st.info(f"Looking in: `{RESULTS_DIR.resolve()}`")
+    st.stop()
+
+# ── Sidebar: event selection ─────────────────────────────────────────────────
 with st.sidebar:
-    st.header("Select subject")
+    st.header("Select event")
 
-    category = st.radio(
-        "Category",
-        list(all_data.keys()),
-        label_visibility="collapsed",
-    )
-
-    entries     = all_data[category]
-    entry_names = [e["name"] for e in entries]
-
+    event_names = [e["name"] for e in all_data]
     selected_name = st.selectbox(
-        "Subject",
-        entry_names,
+        "Event",
+        event_names,
         label_visibility="collapsed",
     )
 
-selected = next(e for e in entries if e["name"] == selected_name)
+selected = next(e for e in all_data if e["name"] == selected_name)
 ttl_path    = str(selected["ttl"])
 scores_path = str(selected["scores"])
 
-st.subheader(f"{category}: {selected_name}")
+st.subheader(selected_name)
 
 # Reset selected events when the subject changes
 subject_key = ttl_path
@@ -125,7 +118,10 @@ def _interactive_panel():
 
     selected_ids = {name.replace(" ", "_") for name in st.session_state.ms_events}
     clicked_id   = render_narrative_graph_interactive(
-        ttl_path, selected_ids, scores=load_scores(scores_path)
+        ttl_path,
+        selected_ids,
+        scores=load_scores(scores_path),
+        show_people=False,
     )
 
     if clicked_id:
