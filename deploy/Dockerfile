@@ -14,8 +14,8 @@ COPY requirements.txt .
 RUN pip install --upgrade pip \
     && pip install -r requirements.txt
 
-COPY . .g
+COPY . .
 
 EXPOSE 8501
-cam 
-CMD ["streamlit", "run", "src/kg_to_story/app/demo_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+ 
+CMD ["sh", "-c", "streamlit run src/kg_to_story/app/demo_app.py --server.address=0.0.0.0 --server.port=${PORT:-8501}"]
