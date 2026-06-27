@@ -1,0 +1,50 @@
+All 47 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. Vietnam War  |  combined=1.000  wiki=1.000  llm=1.000 ***
+  2. Cuban Missile Crisis  |  combined=0.976  wiki=0.939  llm=1.000 ***
+  3. Congo Crisis  |  combined=0.824  wiki=0.709  llm=0.900 ***
+  4. Sino Soviet border conflict  |  combined=0.819  wiki=0.698  llm=0.900 ***
+  5. Laotian Civil War  |  combined=0.778  wiki=0.596  llm=0.900 ***
+  6. Yom Kippur War  |  combined=0.738  wiki=0.495  llm=0.900 ***
+  7. Greek Civil War  |  combined=0.733  wiki=0.332  llm=1.000 ***
+  8. Ethio Somali War  |  combined=0.715  wiki=0.437  llm=0.900 ***
+  9. Fall of Saigon  |  combined=0.714  wiki=0.435  llm=0.900 ***
+ 10. Operation Menu  |  combined=0.660  wiki=0.450  llm=0.800 ***
+ 11. Operation Strikeback  |  combined=0.653  wiki=0.433  llm=0.800 ***
+ 12. Battle of Saigon  |  combined=0.650  wiki=0.425  llm=0.800 ***
+ 13. Battle of Ia Drang  |  combined=0.642  wiki=0.556  llm=0.700 ***
+ 14. Operation Linebacker  |  combined=0.613  wiki=0.483  llm=0.700 ***
+ 15. Battle of Dien Bien Phu  |  combined=0.569  wiki=0.074  llm=0.900 ***
+ 16. Operation Cedar Falls  |  combined=0.546  wiki=0.464  llm=0.600 ***
+ 17. Operation Prairie  |  combined=0.497  wiki=0.492  llm=0.500 ***
+ 18. Battle of Ban Me Thuot  |  combined=0.469  wiki=0.272  llm=0.600 ***
+ 19. War of Attrition  |  combined=0.462  wiki=0.406  llm=0.500 ***
+ 20. Operation Hastings  |  combined=0.452  wiki=0.380  llm=0.500 ***
+ 21. Battle of Suez  |  combined=0.425  wiki=0.313  llm=0.500 ***
+ 22. Indonesian invasion of East Timor  |  combined=0.413  wiki=0.432  llm=0.400 ***
+ 23. Battle of Khe Sanh  |  combined=0.383  wiki=0.209  llm=0.500 ***
+ 24. Battle of Dak To  |  combined=0.371  wiki=0.177  llm=0.500 ***
+ 25. First Indochina War  |  combined=0.370  wiki=0.476  llm=0.300 ***
+ 26. Malayan Emergency  |  combined=0.359  wiki=0.448  llm=0.300 ***
+ 27. Battle of Latakia  |  combined=0.351  wiki=0.277  llm=0.400 ***
+ 28. Indonesian occupation of East Timor  |  combined=0.333  wiki=0.234  llm=0.400 ***
+ 29. Battle of Baltim  |  combined=0.326  wiki=0.216  llm=0.400 ***
+ 30. Battle of Hamburger Hill  |  combined=0.326  wiki=0.365  llm=0.300 ***
+ 31. Battle of Karameh  |  combined=0.291  wiki=0.278  llm=0.300 ***
+ 32. Air Battle of El Mansoura  |  combined=0.283  wiki=0.106  llm=0.400 ***
+ 33. Battle of Hanoi  |  combined=0.279  wiki=0.398  llm=0.200 ***
+ 34. Third Battle of Mount Hermon  |  combined=0.273  wiki=0.083  llm=0.400 ***
+ 35. Battle of the Paracel Islands  |  combined=0.273  wiki=0.233  llm=0.300 ***
+ 36. Battle of Lang Vei  |  combined=0.260  wiki=0.200  llm=0.300
+ 37. Operation Peristera  |  combined=0.253  wiki=0.183  llm=0.300
+ 38. Battle of Gang Toi  |  combined=0.233  wiki=0.132  llm=0.300
+ 39. Battle of Mang Yang Pass  |  combined=0.201  wiki=0.202  llm=0.200
+ 40. Cambodian Civil War  |  combined=0.194  wiki=0.485  llm=0.000
+ 41. Battle of Route Coloniale 4  |  combined=0.193  wiki=0.183  llm=0.200
+ 42. Ofira Air Battle  |  combined=0.187  wiki=0.166  llm=0.200
+ 43. Aden Emergency  |  combined=0.178  wiki=0.145  llm=0.200
+ 44. Battle of Muong Khoua  |  combined=0.120  wiki=0.000  llm=0.200
+ 45. Operation Camargue  |  combined=0.115  wiki=0.287  llm=0.000
+ 46. Operation Castor  |  combined=0.097  wiki=0.242  llm=0.000
+ 47. Operation Lorraine  |  combined=0.061  wiki=0.154  llm=0.000

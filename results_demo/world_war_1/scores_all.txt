@@ -1,0 +1,108 @@
+All 105 events ranked by combined score (wiki_weight=0.4, llm_weight=0.6)
+Top 35 marked with ***
+
+  1. July Crisis  |  combined=0.875  wiki=0.687  llm=1.000 ***
+  2. Treaty of Brest Litovsk  |  combined=0.794  wiki=0.485  llm=1.000 ***
+  3. Operation Faustschlag  |  combined=0.756  wiki=0.540  llm=0.900 ***
+  4. Battle of Tannenberg  |  combined=0.756  wiki=0.539  llm=0.900 ***
+  5. Battle of St Quentin Canal  |  combined=0.732  wiki=0.481  llm=0.900 ***
+  6. Battle of Jutland  |  combined=0.723  wiki=0.457  llm=0.900 ***
+  7. Sinking of the RMS Lusitania  |  combined=0.721  wiki=0.452  llm=0.900 ***
+  8. Battle of Belleau Wood  |  combined=0.720  wiki=0.450  llm=0.900 ***
+  9. Battle of Vittorio Veneto  |  combined=0.715  wiki=0.437  llm=0.900 ***
+ 10. Battle of Galicia  |  combined=0.708  wiki=0.569  llm=0.800 ***
+ 11. Hindenburg Line  |  combined=0.701  wiki=0.402  llm=0.900 ***
+ 12. pursuit of Goeben and Breslau  |  combined=0.683  wiki=0.358  llm=0.900 ***
+ 13. Skirmish at Joncherey  |  combined=0.655  wiki=0.439  llm=0.800 ***
+ 14. Battle of the Piave River  |  combined=0.652  wiki=0.430  llm=0.800 ***
+ 15. Battle of Caporetto  |  combined=0.636  wiki=0.391  llm=0.800 ***
+ 16. Action of 22 September 1914  |  combined=0.634  wiki=0.385  llm=0.800 ***
+ 17. Battle of Dobro Pole  |  combined=0.623  wiki=0.357  llm=0.800 ***
+ 18. Battle of Delville Wood  |  combined=0.620  wiki=0.351  llm=0.800 ***
+ 19. Battle of Megiddo  |  combined=0.603  wiki=0.307  llm=0.800 ***
+ 20. Battle of Sardarabad  |  combined=0.598  wiki=0.295  llm=0.800 ***
+ 21. Mesopotamian campaign  |  combined=0.589  wiki=0.423  llm=0.700 ***
+ 22. Battle of Coronel  |  combined=0.587  wiki=0.418  llm=0.700 ***
+ 23. Battle of Heligoland Bight 1914  |  combined=0.584  wiki=0.409  llm=0.700 ***
+ 24. Battle of Antivari  |  combined=0.579  wiki=0.396  llm=0.700 ***
+ 25. Battle of Cantigny  |  combined=0.577  wiki=0.394  llm=0.700 ***
+ 26. Battle of Kolubara  |  combined=0.563  wiki=0.508  llm=0.600 ***
+ 27. landing at Anzac Cove  |  combined=0.561  wiki=0.202  llm=0.800 ***
+ 28. Second Battle of the Masurian Lakes  |  combined=0.561  wiki=0.351  llm=0.700 ***
+ 29. First Battle of the Masurian Lakes  |  combined=0.557  wiki=0.342  llm=0.700 ***
+ 30. Battle of Cocos  |  combined=0.547  wiki=0.318  llm=0.700 ***
+ 31. Battle of Hill 70  |  combined=0.545  wiki=0.312  llm=0.700 ***
+ 32. Battle of Vimy Ridge  |  combined=0.533  wiki=0.283  llm=0.700 ***
+ 33. Battle of Sarikamish  |  combined=0.529  wiki=0.421  llm=0.600 ***
+ 34. Operation Albion  |  combined=0.521  wiki=0.403  llm=0.600 ***
+ 35. Raid on Suez Canal  |  combined=0.508  wiki=0.370  llm=0.600 ***
+ 36. First Battle of Krithia  |  combined=0.504  wiki=0.360  llm=0.600
+ 37. Battle of the Falkland Islands  |  combined=0.502  wiki=0.356  llm=0.600
+ 38. Battle of Thiepval Ridge  |  combined=0.469  wiki=0.271  llm=0.600
+ 39. Zeebrugge Raid  |  combined=0.466  wiki=0.266  llm=0.600
+ 40. Battle of Transylvania  |  combined=0.454  wiki=0.535  llm=0.400
+ 41. Battle of Baku  |  combined=0.445  wiki=0.363  llm=0.500
+ 42. Battle of Moreuil Wood  |  combined=0.445  wiki=0.362  llm=0.500
+ 43. Battle of the Vistula River  |  combined=0.431  wiki=0.478  llm=0.400
+ 44. Battle of Moon Sound  |  combined=0.428  wiki=0.471  llm=0.400
+ 45. Battle of Jerusalem  |  combined=0.427  wiki=0.319  llm=0.500
+ 46. Battle of Skra di Legen  |  combined=0.423  wiki=0.308  llm=0.500
+ 47. First Battle of the Isonzo  |  combined=0.417  wiki=0.292  llm=0.500
+ 48. Battle of Morval  |  combined=0.412  wiki=0.280  llm=0.500
+ 49. Siege of Tsingtao  |  combined=0.407  wiki=0.268  llm=0.500
+ 50. Action off Lerwick  |  combined=0.407  wiki=0.267  llm=0.500
+ 51. First World War  |  combined=0.400  wiki=1.000  llm=0.000
+ 52. Third Battle of Krithia  |  combined=0.395  wiki=0.237  llm=0.500
+ 53. Capture of Jericho  |  combined=0.389  wiki=0.222  llm=0.500
+ 54. Battle of Dinant  |  combined=0.387  wiki=0.368  llm=0.400
+ 55. Action of Elouges  |  combined=0.384  wiki=0.360  llm=0.400
+ 56. Battle of Ginchy  |  combined=0.382  wiki=0.205  llm=0.500
+ 57. Battle of Festubert  |  combined=0.380  wiki=0.350  llm=0.400
+ 58. Battle of Penang  |  combined=0.379  wiki=0.498  llm=0.300
+ 59. Second Battle of Krithia  |  combined=0.378  wiki=0.196  llm=0.500
+ 60. Battle of Limanowa  |  combined=0.375  wiki=0.337  llm=0.400
+ 61. Battle of Mulhouse  |  combined=0.369  wiki=0.474  llm=0.300
+ 62. raid on Scarborough Hartlepool and Whitby  |  combined=0.367  wiki=0.317  llm=0.400
+ 63. Battle of Rafa  |  combined=0.364  wiki=0.310  llm=0.400
+ 64. Second Battle of Heligoland Bight  |  combined=0.364  wiki=0.309  llm=0.400
+ 65. Battle of Mount Ortigara  |  combined=0.358  wiki=0.295  llm=0.400
+ 66. Action of 4 May 1917  |  combined=0.354  wiki=0.435  llm=0.300
+ 67. Siege of Medina  |  combined=0.349  wiki=0.124  llm=0.500
+ 68. Battle of Bitlis  |  combined=0.348  wiki=0.270  llm=0.400
+ 69. Battle of Salaita Hill  |  combined=0.347  wiki=0.267  llm=0.400
+ 70. Battle of Dogger Bank  |  combined=0.334  wiki=0.236  llm=0.400
+ 71. Battle of Dover Strait  |  combined=0.325  wiki=0.362  llm=0.300
+ 72. Battle of the Gulf of Riga  |  combined=0.316  wiki=0.339  llm=0.300
+ 73. Christmas truce  |  combined=0.313  wiki=0.483  llm=0.200
+ 74. Battle of Tanga  |  combined=0.306  wiki=0.315  llm=0.300
+ 75. Battle of Magdhaba  |  combined=0.305  wiki=0.163  llm=0.400
+ 76. Battle of Jisr Benat Yakub  |  combined=0.305  wiki=0.162  llm=0.400
+ 77. Action of 17 November 1917  |  combined=0.297  wiki=0.441  llm=0.200
+ 78. Battle of San Matteo  |  combined=0.285  wiki=0.263  llm=0.300
+ 79. Bombardment of Yarmouth and Lowestoft  |  combined=0.276  wiki=0.239  llm=0.300
+ 80. Battle of Doiran  |  combined=0.267  wiki=0.369  llm=0.200
+ 81. Battle of the Strait of Otranto  |  combined=0.260  wiki=0.351  llm=0.200
+ 82. Battle of Karakilisa  |  combined=0.257  wiki=0.193  llm=0.300
+ 83. Battle of Bukoba  |  combined=0.256  wiki=0.189  llm=0.300
+ 84. Battle of Ngomano  |  combined=0.250  wiki=0.326  llm=0.200
+ 85. Western Front  |  combined=0.250  wiki=0.625  llm=0.000
+ 86. Bombardment of Ancona  |  combined=0.250  wiki=0.325  llm=0.200
+ 87. Finnish Civil War  |  combined=0.247  wiki=0.468  llm=0.100
+ 88. Battle of Sandfontein  |  combined=0.242  wiki=0.306  llm=0.200
+ 89. Eastern Front  |  combined=0.236  wiki=0.589  llm=0.000
+ 90. Battle of R o de Oro  |  combined=0.235  wiki=0.438  llm=0.100
+ 91. Bakar mockery  |  combined=0.226  wiki=0.116  llm=0.300
+ 92. Battle of Mojkovac  |  combined=0.221  wiki=0.403  llm=0.100
+ 93. Gas attack at Hulluch  |  combined=0.221  wiki=0.103  llm=0.300
+ 94. Battle of Jassin  |  combined=0.221  wiki=0.402  llm=0.100
+ 95. Middle Eastern theatre of World War I  |  combined=0.220  wiki=0.551  llm=0.000
+ 96. Battle of Mlali  |  combined=0.220  wiki=0.250  llm=0.200
+ 97. Battle of Rafajlowa  |  combined=0.218  wiki=0.245  llm=0.200
+ 98. German occupation of Luxembourg in World War I  |  combined=0.207  wiki=0.369  llm=0.100
+ 99. Partitioning of the Ottoman Empire  |  combined=0.206  wiki=0.514  llm=0.000
+100. Surdulica massacre  |  combined=0.205  wiki=0.212  llm=0.200
+101. Battle of Hamel  |  combined=0.195  wiki=0.488  llm=0.000
+102. Battle of Arras  |  combined=0.167  wiki=0.416  llm=0.000
+103. Battle of Cambrai  |  combined=0.160  wiki=0.399  llm=0.000
+104. Bombardment of Pape ete  |  combined=0.064  wiki=0.160  llm=0.000
+105. Ice Cruise of the Baltic Fleet  |  combined=0.000  wiki=0.000  llm=0.000
