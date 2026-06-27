@@ -21,4 +21,4 @@ EXPOSE 8501
 RUN mkdir -p /root/.streamlit && \
     cp deploy/.streamlit/config.toml /root/.streamlit/config.toml
 
-CMD ["sh", "-c", "streamlit run src/kg_to_story/app/demo_app.py --server.address=0.0.0.0 --server.port=8501"]
+CMD ["sh", "-c", "STREAMLIT_SERVER_PORT=8501 streamlit run src/kg_to_story/app/demo_app.py --server.address=0.0.0.0 --server.port=8501"]
